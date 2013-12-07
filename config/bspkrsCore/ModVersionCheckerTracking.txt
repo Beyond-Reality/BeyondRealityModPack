@@ -1,0 +1,9 @@
+# Configuration file
+
+version_check_tracker {
+    S:CrystalWing=ML 1.6.4.r01
+    S:FloatingRuins=Forge 1.6.4.r01
+    S:bspkrsCore=v5.0(1.6.4)
+}
+
+

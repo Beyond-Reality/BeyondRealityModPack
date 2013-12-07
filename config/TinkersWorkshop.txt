@@ -1,0 +1,427 @@
+# Configuration file
+
+####################
+# achievement properties
+####################
+
+"achievement properties" {
+    B:AchievementsEnabled=true
+}
+
+
+####################
+# alpha behavior
+####################
+
+"alpha behavior" {
+    B:"Regenerate HP from food"=false
+    B:"Remove hunger"=false
+}
+
+
+####################
+# battlegear
+####################
+
+battlegear {
+    B:"Are Hatches also weapons"=true
+    B:"Can Cleavers have shields"=true
+}
+
+
+####################
+# block
+####################
+
+block {
+    I:"Air Tank"=3100
+    I:"Birch Barricade"=3101
+    I:"Casting Channel"=3102
+    I:"Clear Glass"=3103
+    I:"Clear Stained Glass"=3104
+    I:"Clear Stained Glass Pane"=3105
+    I:"Congealed Slime"=3106
+    I:"Crafting Slab"=3107
+    I:"Crafting Station"=3108
+    I:"Drying Rack"=3109
+    I:"Essence Extractor"=3110
+    I:"Furnace Slab"=3111
+    I:"Glass Pane"=3112
+    I:"Glue Block"=3113
+    I:"Glue Fluid Block"=3114
+    I:"Held Item Block"=3115
+    I:"Jungle Barricade"=3116
+    I:Landmine=3117
+    I:"Lava Tank"=3118
+    I:"Liquid Blue Slime"=3119
+    I:"Liquid Cow"=3120
+    I:"Meat Block"=3121
+    I:"Metal Storage"=3122
+    I:"Molten Aluminum"=3123
+    I:"Molten Aluminum Brass"=3124
+    I:"Molten Alumite"=3125
+    I:"Molten Ardite"=3126
+    I:"Molten Bronze"=3127
+    I:"Molten Cobalt"=3128
+    I:"Molten Copper"=3129
+    I:"Molten Electrum"=3130
+    I:"Molten Emerald"=3131
+    I:"Molten Ender"=3132
+    I:"Molten Glass"=3133
+    I:"Molten Gold"=3134
+    I:"Molten Invar"=3135
+    I:"Molten Iron"=3136
+    I:"Molten Lead"=3137
+    I:"Molten Manyullyn"=3138
+    I:"Molten Nickel"=3139
+    I:"Molten Obsidian"=3140
+    I:"Molten Platinum"=3141
+    I:"Molten Silver"=3142
+    I:"Molten Steel"=3143
+    I:"Molten Stone"=3144
+    I:"Molten Tin"=3145
+    I:"Multi Brick"=3146
+    I:"Multi Brick Fancy"=3147
+    I:"Oak Barricade"=3148
+    I:"Ore Berry One"=3149
+    I:"Ore Berry Two"=3150
+    I:"Ores Gravel"=3151
+    I:"Ores Slag"=3152
+    I:Punji=3153
+    I:"Redstone Machines"=3154
+    I:SDX=3155
+    I:"Seared Slab"=3156
+    I:"Seared Table"=3157
+    I:"Slime Channel"=3158
+    I:"Slime Grass"=3159
+    I:"Slime Grass Leaves"=3160
+    I:"Slime Pad"=3161
+    I:"Slime Tall Grass"=3162
+    I:"Slime Tree Sapling"=3163
+    I:Smeltery=3164
+    I:"Special Soil"=3165
+    I:"Speed Block"=3166
+    I:"Speed Slab"=3167
+    I:"Spruce Barricade"=3168
+    I:"Stained Glass"=3169
+    I:"Stone Ladder"=3170
+    I:"Stone Torch"=3171
+    I:"Tool Forge"=3172
+    I:"Wood Tool Station"=3173
+    I:"Wooden Rail"=3174
+    I:"Wool Slab 1"=3175
+    I:"Wool Slab 2"=3176
+}
+
+
+####################
+# difficulty changes
+####################
+
+"difficulty changes" {
+    B:"Craft Stencil Tables"=true
+    B:"Craft metals with Wood Patterns"=false
+    B:"Craft vanilla metal blocks"=true
+    B:"Deny creation of non-metal mattocks"=false
+    B:"Enable Auto-Smelt and Fortune interaction"=false
+    B:"Enable mod blue slime tools"=true
+    B:"Enable mod bone tools"=true
+    B:"Enable mod cactus tools"=true
+    B:"Enable mod flint tools"=true
+    B:"Enable mod netherrack tools"=true
+    B:"Enable mod paper tools"=true
+    B:"Enable mod slime tools"=true
+    B:"Enable mod stone tools"=true
+    B:"Enable mod wooden tools"=true
+    B:"Keep hunger on death"=true
+    B:"Keep levels on death"=false
+    B:"Lower bronze output to 2 ingots"=false
+    B:"Modifiers increase Mining Level"=true
+    B:"Remove Vanilla Tool Recipes"=false
+    B:"Spawn beginner book"=true
+}
+
+
+####################
+# dimblacklist
+####################
+
+dimblacklist {
+    # True: slime islands wont generate in any ages other than overworld(if enabled); False: will generate in all non-blackisted ages
+    B:GenerateSlimeIslandInDim0Only=true
+
+    # Add dimension ID's to prevent slime islands from generating in them
+    I:SlimeIslandDimBlacklist <
+     >
+
+    # Generate slime islands in flat worlds
+    B:genIslandsFlat=false
+
+    # True: slime islands generate in overworld; False they do not generate
+    B:slimeIslGenDim0=true
+}
+
+
+####################
+# equipables
+####################
+
+equipables {
+    I:Gloves=25300
+    I:"Heart Canister"=25301
+    I:"Heavy Boots"=25302
+    I:"Heavy Chestplate"=25303
+    I:"Heavy Helmet"=25304
+    I:"Heavy Pants"=25305
+    I:Knapsack=25306
+    I:"Wooden Boots"=25307
+    I:"Wooden Chestplate"=25308
+    I:"Wooden Helmet"=25309
+    I:"Wooden Pants"=25310
+}
+
+
+####################
+# experimental
+####################
+
+experimental {
+    B:"Allow horses to be melted down for glue"=true
+    B:"Items can be thrown into smelteries"=true
+
+    # Warning: Very buggy
+    B:"Use new adaptive Smeltery code"=false
+}
+
+
+####################
+# general
+####################
+
+general {
+    I:"Sea level"=64
+}
+
+
+####################
+# looks
+####################
+
+looks {
+    # 0 = disabled, 1 = enabled, 2 = enabled + ignore stained glass meta
+    B:"Connected Textures Enabled"=true
+}
+
+
+####################
+# patterns and misc
+####################
+
+"patterns and misc" {
+    I:"Armor Pattern"=25311
+    I:"Blank Patterns"=25312
+    I:Buckets=25313
+    I:"Essence Crystal"=25314
+    I:"Golden Head"=25315
+    I:Jerky=25316
+    I:"Jeweled Apple"=25317
+    I:Materials=25318
+    I:"Metal Pattern"=25319
+    I:"Ore Chunks"=25320
+    I:"Strange Food"=25321
+    I:"Tinker's Manual"=25322
+    I:"Title Icon"=25323
+    I:"Tool Rod"=25324
+    I:"Tool Shard"=25325
+    I:"Wood Pattern"=25326
+}
+
+
+####################
+# smeltery output modification
+####################
+
+"smeltery output modification" {
+    # Number of ingots returned from smelting Aluminum Brass in the smeltery
+    I:"Aluminum Brass ingot return"=4
+
+    # Number of ingots returned from smelting Alumite in the smeltery
+    I:"Alumite ingot return"=3
+
+    # Number of ingots returned from smelting Bronze in the smeltery
+    I:"Bronze ingot return"=3
+
+    # Number of ingots returned from smelting ores in the smeltery
+    I:"Ingots per ore"=2
+
+    # Number of ingots returned from smelting Manyullyn in the smeltery
+    I:"Manyullyn ingot return"=1
+
+    # Number of ingots returned from smelting Pig Iron in the smeltery
+    I:"Pig Iron ingot return"=1
+}
+
+
+####################
+# superfun
+####################
+
+superfun {
+    B:"All the world is Superfun"=false
+}
+
+
+####################
+# tool parts
+####################
+
+"tool parts" {
+    I:Arrowhead=25330
+    I:"Axe Head"=25331
+    I:Bowstring=25332
+    I:"Chisel Head"=25333
+    I:Crossbar=25334
+    I:"Excavator Head"=25335
+    I:Fletching=25336
+    I:"Frypan Head"=25337
+    I:"Full Guard"=25338
+    I:"Hammer Head"=25339
+    I:"Hoe Head"=25340
+    I:"Knife Blade"=25341
+    I:"Large Guard"=25342
+    I:"Large Plate"=25343
+    I:"Large Sword Blade"=25344
+    I:"Lumber Axe Head"=25345
+    I:"Medium Guard"=25346
+    I:"Pickaxe Head"=25347
+    I:"Scythe Head"=25348
+    I:"Shovel Head"=25349
+    I:"Sign Head"=25350
+    I:"Sword Blade"=25351
+    I:"Tool Binding"=25352
+    I:"Tough Binding"=25353
+    I:"Tough Rod"=25354
+}
+
+
+####################
+# tools
+####################
+
+tools {
+    I:Arrow=25355
+    I:Axe=25356
+    I:Battleaxe=25357
+    I:Battlesign=25358
+    I:Broadsword=25359
+    I:Chisel=25360
+    I:Cleaver=25361
+    I:Cutlass=25362
+    I:Dagger=25363
+    I:Excavator=25364
+    I:"Frying Pan"=25365
+    I:Hammer=25366
+    I:Hoe=25367
+    I:Longbow=25368
+    I:Longsword=25369
+    I:"Lumber Axe"=25370
+    I:Mattock=25371
+    I:Pickaxe=25372
+    I:"Potion Launcher"=25373
+    I:Rapier=25374
+    I:Scythe=25375
+    I:Shortbow=25376
+    I:Shovel=25377
+}
+
+
+####################
+# ultra hardcore changes
+####################
+
+"ultra hardcore changes" {
+    # Gives all tier 1 patterns when pattern chest is placed
+    B:"Add Patterns to Pattern Chests"=false
+    B:"Add World Border"=false
+
+    # Makes recipes for gold apples, carrots, and melon potions more expensive
+    B:"Change Crafting Recipes"=false
+    B:"Change Ghast drops to Gold Ingots"=false
+    B:"Necrotic modifier only heals on hostile mob kills"=false
+    B:"Passive Health Regen"=true
+    B:"Players drop heads on death"=false
+    I:"World Border Radius"=1000
+}
+
+
+####################
+# worldgen
+####################
+
+worldgen {
+    I:"Aluminum Bush Density"=2
+    I:"Aluminum Bush Max Y"=60
+    I:"Aluminum Bush Min Y"=0
+    I:"Aluminum Bush Rarity"=2
+    I:"Aluminum Surface Rarity"=50
+    I:"Aluminum Underground Density"=4
+    I:"Aluminum Underground Max Y"=64
+    I:"Aluminum Underground Min Y"=0
+    I:"Cobalt Surface Rarity"=2000
+    I:"Copper Bush Density"=2
+    I:"Copper Bush Max Y"=60
+    I:"Copper Bush Min Y"=20
+    I:"Copper Bush Rarity"=3
+
+    # Rarity: 1/num to generate in chunk
+    I:"Copper Surface Rarity"=100
+
+    # Density: Chances per chunk
+    I:"Copper Underground Density"=2
+    I:"Copper Underground Max Y"=60
+    I:"Copper Underground Min Y"=20
+    I:"Essence Bush Rarity"=6
+    I:"Gold Bush Density"=1
+    I:"Gold Bush Rarity"=8
+    I:"Gold Surface Rarity"=900
+    I:"Iron Bush Density"=1
+    I:"Iron Bush Rarity"=5
+    I:"Iron Surface Rarity"=400
+    I:"Nether Ores Density"=8
+    I:"Silver Bush Density"=1
+    I:"Slime Island Rarity"=1450
+    I:"Tin Bush Density"=2
+    I:"Tin Bush Max Y"=40
+    I:"Tin Bush Min Y"=0
+    I:"Tin Bush Rarity"=3
+    I:"Tin Surface Rarity"=100
+    I:"Tin Underground Density"=2
+    I:"Tin Underground Max Y"=40
+    I:"Tin Underground Min Y"=0
+}
+
+
+####################
+# worldgen disabler
+####################
+
+"worldgen disabler" {
+    B:"Add Village Generation"=true
+    B:"Generate Aluminum"=true
+    B:"Generate Aluminum Bushes"=true
+    B:"Generate Cobalt and Ardite"=true
+    B:"Generate Copper"=false
+    B:"Generate Copper Bushes"=true
+    B:"Generate Essence Bushes"=true
+    B:"Generate Gold Bushes"=true
+    B:"Generate Iron Bushes"=true
+    B:"Generate Surface Aluminum"=true
+    B:"Generate Surface Copper"=true
+    B:"Generate Surface Gold"=true
+    B:"Generate Surface Iron"=true
+    B:"Generate Surface Tin"=true
+    B:"Generate Tin"=false
+    B:"Generate Tin Bushes"=true
+}
+
+

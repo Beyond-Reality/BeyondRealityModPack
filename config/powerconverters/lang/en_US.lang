@@ -1,0 +1,40 @@
+powerconverters.inputlimited = INPUT LIMITED
+powerconverters.outputlimited = OUTPUT LIMITED
+
+powerconverters.in = IN
+powerconverters.out = OUT
+powerconverters.none = <NONE>
+powerconverters.nolink = NO LINK
+powerconverters.percentfull = full
+
+powerconverters.up = UP
+powerconverters.down = DOWN
+powerconverters.south = SOUTH
+powerconverters.north = NORTH
+powerconverters.west = WEST
+powerconverters.east = EAST
+
+powerconverters.common.bridge.name = Energy Bridge
+powerconverters.common.charger.name = Universal Charger
+
+powerconverters.bc.consumer.name = BC Consumer
+powerconverters.bc.producer.name = BC Producer
+
+powerconverters.steam.consumer.name = Steam Consumer
+powerconverters.steam.producer.name = Steam Producer
+
+powerconverters.fz.consumer.name = Factorization Consumer
+powerconverters.fz.producer.name = Factorization Producer
+
+powerconverters.te.consumer.name = TE Consumer
+powerconverters.te.producer.name = TE Producer
+
+powerconverters.ic2.lv.consumer.name = IC2 LV Consumer
+powerconverters.ic2.mv.consumer.name = IC2 MV Consumer
+powerconverters.ic2.hv.consumer.name = IC2 HV Consumer
+powerconverters.ic2.ev.consumer.name = IC2 EV Consumer
+
+powerconverters.ic2.lv.producer.name = IC2 LV Producer
+powerconverters.ic2.mv.producer.name = IC2 MV Producer
+powerconverters.ic2.hv.producer.name = IC2 HV Producer
+powerconverters.ic2.ev.producer.name = IC2 EV Producer

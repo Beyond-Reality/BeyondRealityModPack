@@ -1,0 +1,386 @@
+1-256 World gen only
+1000-4080 Blocks only
+5000-32000 Item Ids
+
+
+Buildcraft 
+	Block Ids 1500-1523
+		Item Ids 5000-5049 (5256-5305)
+		
+Addition Builcraft objects
+	Block Ids
+		Item Ids 5550-5565 (5806-5851)
+		
+Forestry
+	Block Ids 1600-1634
+		Item Ids 5320-5510 (5576-5766)
+		
+BinnieCore extrabees and trees
+	Block Ids  1640-1660
+		Item Ids 5860-5891 (6116-6147)
+		
+RailCraft
+	Block Ids 1540-1570
+		Item Ids 6200-6271 (6456-6527)
+		
+RailCraft Dust
+	Block Ids
+		Item Ids 6300 (6556)
+		
+BuildCraft Tools
+	Block Ids 1590-1592
+		Item Ids 6600-6619 (6856-6875)
+		
+TrainCraft
+	Block Ids 1670-1686
+		Item Ids 6900-7040 (7156-7269)
+
+Forestry Extras
+	Block Ids
+		Item Ids 7300-7351 (7556-7607)
+		
+Magic Bees
+	Block Ids 1700-1704
+		Item Ids 7650-7673 (7906-7929)
+		
+IndustrialCraft2
+	Block Ids 1720-1758
+		Item Ids 8000-8209(8256-8465)
+		
+GregTech
+	Block Ids 1780-1785
+		Item Ids 8500-8619 (8756-8875)
+		
+IndustrialCraft2 NuclearControl
+	Block Ids 1800
+		Item Ids 9000-9011 (9256-9267)
+		
+ArsMagica2
+	Block Ids 1810-1855
+		Item Ids 9300-9359 (9556-9615)
+			Biomes 253
+			
+Biomes O'Plenty
+	Block Ids 1870-1942
+		Item Ids 9700-9741 (9956-9997)
+			Biomes 90-207
+				Terrain Block Ids 200-214
+				
+DenPipes
+	Block Ids
+		Item Ids 11000-11002 (11256-11258)
+		
+INpure Tools
+	Blocks Ids 2000-2001
+		Item Ids 11270-11285 (11526-11541)
+		
+Plugins for Forestry
+	Block Ids
+		Item Ids 11550-11554 (11806-11810)
+		
+EnderIO
+	Block Ids 2005-2025
+		Item Ids 11820-11833 (12076-12089)
+		
+Galacticraft
+	Block Ids 2035-2067
+		Item Ids 12100-12143 (12356-12399)
+		
+Galacticraft Moon
+	Block Ids 2080-2081
+		Item Ids 12420-12423 (12676-12679)
+		
+Galacticraft Mars
+	Block Ids 2085-2092
+		Item Ids 12690-12702 (12946-12958)
+		
+DemonMobs
+	Block Ids 2100
+		Item Ids 12970-12980 (13226-13236)
+		
+DesertMobs
+	Block Ids 
+		Item Ids 13245-13251 (13501-13507)
+		
+SwampMobs
+	Block Ids 2103
+		Item Ids 13510 (13766)
+
+Powersuits
+	Block Ids 2105-2106
+		Item Ids 13775-13780 (14031-14036)
+		
+ModularFurnace
+	Block Ids 2115-2136
+		Item Ids 14050-14053 (14306-14309)
+		
+Mystcraft
+	Block Ids 2145-2156
+		Item Ids 14315-14321 (14571-14577)
+		
+PowerConverters
+	Block Ids 2160-2165
+		Item Ids
+
+PowerCrystals MFR
+	Block Ids 2170-2199
+		Item Ids 14585-14644 (14841-14900)
+		
+PowerCrystals Netherores
+	Block Ids 2210-2212
+		Item Ids
+
+EnderForest
+	Block Ids 3600
+		Item Ids 14910 (15166)
+		
+ExpandedRedstone
+	Block Ids 3625-3626
+		Item Ids 15170 (15426)
+		
+ReactorCraft
+	Block Ids 3630-3640
+		Item Ids 15430-15441 (15686-15697)
+		
+RotaryCraft
+	Block Ids 3650-3678
+		Item Ids 15710-15776 (15966-16032)
+		
+SpiderPet
+	Block Ids
+		Item Ids 16050-16051 (16306-16307)
+		
+SoulShards2
+	Block Ids 2285
+		Item Ids 16310-16312 (16566-16568)
+		
+AdvancedReactors
+	Block Ids 2295-2297
+		Item Ids 16740-16750 (16996-17006)
+		
+AdvancedSolarPanel
+	Block Ids 2300
+		Item Ids 17020-17023 (17276-17279)
+		
+AppliedEngergistics
+	Block 2305-2309
+		Item Ids 17290-17302 (17546-17558)
+		
+SmallBoats
+	Block Ids
+		Item Ids 17565-17568 (17821-17824)
+		
+BetterStorage
+	Block Ids 2315-2324
+		Item Ids 17830-17844 (18086-18100)
+		
+BiblioCraft
+	Block Ids 2330-2395
+		Item Ids 18115-18148 (18371-18404)
+		
+CarpentersBlocks
+	Block Ids 2420-2434
+		Item Ids 18420-18423 (18676-18679)
+		
+CCTurtles
+	Block Ids 2440-2442
+		Item Ids
+		
+ChargePads
+	Block Ids 2445
+		Item Ids 18685-18687 (18941-18943)
+		
+Chisel
+	Block Ids 2450-2524
+		Item Ids 18950-18953 (19206-19209)
+		
+Chococraft
+	Block Ids 2530-2532
+		Item Ids 19220-19240 (19476-19496)
+		
+CompactSolars
+	Block Ids 2540
+		Item Ids 19260-19262 (19516-19518)
+		
+CompactWindmills
+	Block Ids 2545
+		Item Ids 19530-19534 (19786-19790)
+		
+ComputerCraft
+	Block Ids 2550-2552
+		Item Ids 19800-19803 (20056-20059)
+		
+DartCraft
+	Block Ids 2560-2572
+		Item Ids 20080-20131 (20336-20387)
+		
+EnderStorage
+	Block Ids 2585 2585
+		Item Ids 20400 (20656)
+		
+EnderTanks 
+	Block Ids 2595-2595
+		Item Ids 20670 (20926)
+		
+ExtraCells
+	block Ids 2600 2613
+		Item Ids 20930-20938 (21186-21994)
+
+Extra Utilities
+	Block Ids 2620-2648 
+		Item Ids 20950 20965 (21206-21221)
+
+Factorization
+	Block Ids 2660-2665
+		Item Ids 21230-21273 (21486-21529)
+
+FlatSigns
+	Block Ids 2670 -2670
+		Item Ids 21290 (21546-21546)
+
+Floating Ruines
+	 00000
+
+Forestry Extras 
+	Block Ids 2672-2674
+		Items Ids 21300-21351 (21556-21607)
+
+GraviSuit
+	Block Ids 000
+		Item Ids 21360-21370 (21616-21626)
+
+Gregs Lighting
+	Block Ids 2680-2684
+		Item Ids 21630-21636 (21886-21892)
+
+Iron Chest
+	Block Ids 2685-2685
+		Item Ids 21640-21648 (21896-21904)
+
+Redstone in motion
+	Block Ids 2690 2692
+		Item Ids 21650-21651 (21906-21908)
+
+Logistic Pipes
+	Block Ids 2694
+		Item Ids 21910-21953 (22166-22209)
+
+MineChem
+	Block Ids 2700-2708
+		Item Ids 21960-21974 (22216-22230)
+
+MFFS
+	Block Ids 2720-2726
+		Item Ids 22240-22278 (22496-22534)
+
+MtMechs
+	Block Ids 2730
+		Item Ids 22290-22297 (22546-22553)
+
+
+Natura
+	Block Ids 2740-2843
+		Item Ids 22600-22654 (22856-22910)
+			Terrian Gen 252-253
+
+NetherStuff
+	Block Ids 2850-2873
+		Item Ids 22950-22952 (23206-23208
+
+ObsidiPlates
+	Block Ids 2875
+
+Open Blocks
+	Block Ids 2880-2915
+		Item Ids 23220-23238 (23476-23494)
+
+Open Peripheral
+	Block Ids 2920-2925
+		Item Ids 23250-23253 (23506-23509)
+
+Power Box
+	Block Ids 2930
+		Item Ids 23260-23261 (23516-23517)
+
+Project Red
+	Blocks Ids 2940-2948
+		Item Ids 23520-23582 (23776-23838)
+
+QCraft
+	Block Ids 2960-2963
+		Item Ids 23850-23852 (24106-24108)
+
+RemoteIO
+	Block Ids 2970
+		Item Ids 23860-23863 (24116-24119)
+
+SGCraft
+	Block Ids 2980 
+		Item Ids 23870-23873 (24126-24129)
+
+
+Steves Carts
+	Block Ids 2990-2999
+		Item Ids 24150-24152 (24406-24408)
+
+SuperCrafting Frame 
+	Block Ids 3010-3011
+
+Switches
+	Block Ids 3020-3023
+
+ThaumCraft4
+	Block Ids 3030-3055
+		Item Ids 24500-24558 (24756-24814)
+			Entities 200-227
+				Biomes 245-247		
+
+ThaumicTinker
+	Block Ids 3070-3081
+		Item Ids 24900-24914 (25156-25170)
+			Enchantments 220-225
+
+Tinkers Construct
+	Block Ids 3100-3176
+		Item Ids 25300-25377 (25556-25633)
+
+TMechworks	
+	Block Ids 3190-3201
+		Item Ids 25400-25401 (25656-25657) 
+
+Transducers
+	Block Ids 3300-3301 
+		Item Ids 25700-25700 (25956)
+
+Translocators
+	Block Ids 3310-3311
+		Item Ids 25710 (25966)
+
+Twilight Forest
+	Block Ids 3400-3426
+		Item Ids 26000-26084 (26256-26340)
+
+Wireless Redstone
+	Block Ids 00000
+		Item Ids 26400-26414 (26656-26670)
+
+Thermal Expansion
+	Block Ids 3500-3521
+		Item Ids 26800-26820 (27056-27076)
+
+Big Reactors
+	Block Ids 3700-3708
+		Item Ids 27100-27102 (27356-27358)
+
+Mariculter
+	Block Ids 3720-3758
+		Item Ids 27400-27456 (27656-) 
+			Enchantment ids 60-75
+
+	
+
+
+
+
+		
+

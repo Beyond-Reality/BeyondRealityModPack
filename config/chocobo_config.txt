@@ -1,0 +1,77 @@
+
+showChocoboNames = true
+chocoboWingFlutter = false
+// hunger not yet active
+hungerEnabled = false
+riderBuffsEnabled = true
+saddledCanWander = false
+
+// The default name height is 2.3 blocks from the ground. You can add height
+// up to 10 blocks by the number given as renderNameHeight.
+renderNameHeight = 0.0
+
+// The value given as livingSoundProbabilitywill determine the Chocobo 'Kweh' frequency.
+// The system will call a method to trigger the living sound and the Chocobo will do a
+// 'Kweh'. The number set with this key will reduce the frequency to this number in 100.
+// Thus if it is set to 50 only every second 'Kweh' will be heared. If set to 1 only 
+// every 100th etc...
+livingSoundProbability = 100
+
+// Mutation rates of planted and grown gysahl greens. There is a gysahlGreenMutationRate permille chance
+// the gysahl plant will mutate into a breeding gysahl. If the plant has mutated into
+// a breeding gysahl, there is a gysahlLoverlyMutationRate permille change of it being a golden Gysahl.
+gysahlGreenMutationRate = 100
+gysahlLoverlyMutationRate = 100
+
+// value between 1 and 999, with 1 for very few wild gysahl and 999 very many.
+gysahlGreenWorldGenerationRate = 200
+
+// Cool down phase between breeding
+breedingDelayFemale = 9000
+breedingDelayMale = 3000
+
+// Chicobos will grow up into Chocobos after growUpDelayStatic plus
+// 0 - growUpDelayRandom ticks.
+growUpDelayStatic = 27000
+growUpDelayRandom = 2000
+
+// Time after which Chicobos and Chocobos will get hungry again (disabled)
+hungerDelayChicobo = 1000
+hungerDelayChocobo = 3000
+
+// Whenever a hurt Chocobo is standing on straw less than penHealCauldronRange blocks away from
+// a filled cauldron, it has apenHealProbability chance every 2 seconds to heal one health point.
+penHealProbability = 20
+penHealCauldronRange = 6
+
+// Whenever or not wild Chocobos will be able to despawn if no player is around
+wildCanDespawn = false
+
+// Whenever or not the Chocopedia can be found in dungeon, jungle and desert pyramid, stronghold and mine chests
+chocopediaInDungeons = false
+
+// add any name of the following list as comma separated values to
+// the spawnBiomeskey, to have Chocobos spawn in the
+// designated biomes. Add the token 'all' to have Chocobos spawn in 
+// all biomes.
+// Possible biome names:
+// Ocean, Plains, Desert, Extreme Hills, Forest, Taiga, Swampland, River, Hell, Sky, FrozenOcean, FrozenRiver, Ice Plains, Ice Mountains, MushroomIsland, MushroomIslandShore, Beach, DesertHills, ForestHills, TaigaHills, Extreme Hills Edge, Jungle, JungleHills, Bloody Heap, Blessed Bog, Bog, Boneyard, Boreal Forest, Brushland, Canyon, Canyon Ravine, Chaparral, Cherry Blossom Grove, Snowy Coniferous Forest, Coniferous Forest, Coral Reef, Corrupted Sands, Crag, Snowy Dead Forest, Dead Forest, Dead Swamp, Deadlands, Deciduous Forest, Desert, Dunes, Extreme Hills, Fen, Field, Forest, ForestHills, Forested Field, Frost Forest, Fungi Forest, Garden, Glacier, Grassland, Gravel Beach, Grove, Heathland, Highland, Hot Springs, Icy Hills, Jade Cliffs, Jungle, JungleHills, Kelp Forest, Lavender Fields, Lush Desert, Lush Swamp, Majestic Meadow, Mangrove, Maple Woods, Marsh, Meadow Forest, Meadow, Mesa, Moor, Mountain, Mystic Grove, Nether, Oasis, Oceanic Abyss, Ominous Woods, Orchard, Origin Valley, Outback, Overgrown Beach, Overgrown Greens, Pasture, Pasture Meadow, Phantasmagoric Inferno, Plains, Polar, Prairie, Quagmire, Rainforest, Redwood Forest, Sacred Springs, Savanna, Savanna Plateau, Scrubland, Seasonal Forest, Seasonal Spruce Forest, Shield, Shore, Shrubland, Silkglades, Sludgepit, Spruce Woods, Steppe, Swampland, Taiga, TaigaHills, Temperate Rainforest, Thick Ominous Woods, Thick Shrubland, Thicket, Thinned Pasture, Thinned Timber, Timber, Tropical Rainforest, Tropics, Tropics Mountain, Tundra, Undergarden, Volcano, Wasteland, Wetland, Wonderous Woods, Woodland, Alps Forest, Alps, Alps Mountainside, Arctic, Autumn Hills, Badlands, Bamboo Forest, Bayou, Birch Forest, Eerie, Magical Forest, Tainted Land, Desert Oil Field, Ocean Oil Field
+spawnBiomes = Extreme Hills,Extreme Hills Edge,Forest,ForestHills,Jungle,JungleHills,Plains,Swampland,Taiga,TaigaHills,Ice Mountains,Ice Plains,Beach,DesertHils,ForestHills,Boreal Forest,Brushland,Canyon,Canyon Ravine,Chaparral,Cherry Blossom Grove,Snowy Coniferous Forest,Coniferous Forest,Desert,DunesFen,Field,Forested Field,Frost Forest,Fungi Forest,Garden,Grassland,Grove,Heathland,Highland,Hot Springs,Jade CliffsKelp Forest,Lavender Fields,Lush Desert,Lush Swamp,Majestic Meadow,Mangrove,Maple Woods,Marsh,Meadow Forest,Meadow,Mesa,Moor,Mountain,Mystic Grove,OasisOminous Woods,Orchard,Origin Valley,Outback,Overgrown Beach,Overgrown Greens,Pasture,Pasture Meadow,Prairie,Rainforest,Redwood Forest,Sacred Springs,Savanna,Savanna Plateau,Scrubland,Seasonal Forest,Seasonal Spruce Forest,Shield,Shore,Shrubland,Silkglades,Spruce Woods,Steppe,Swampland,Temperate Rainforest,Thick Ominous Woods,Thick Shrubland,Thicket,Thinned Pasture,Thinned Timber,Timber,Tropical Rainforest,Tropics,Tropics Mountain,Tundra,Undergarden,Wetland,Wonderous Woods,Woodland,Alps Forest,Alps,Alps Mountainside,Arctic,Autumn Hills,Badlands,Bamboo Forest,Bayou,Birch Forest,Magical Forest
+
+// A group of spawnGroupMin to spawnGroupMax Yellow Chocobos will spawn with the
+// probability of spawnProbability around every player. There will be no additional
+// spawning if spawnTotalMax wild Chocobos are active in an area with the radius of spawnLimitChunkRadius chunks.
+spawnTimeDelay = 200
+spawnProbability = 2
+spawnGroupMin = 2
+spawnGroupMax = 4
+spawnTotalMax = 3
+spawnLimitChunkRadius = 100
+distanceNextWild = 300
+
+// tamed chocobos have a chance of featherDropChance in 100 to drop a feather every
+// featherDelayRandom/20 to featherDelayRandom/20 plus featherDelayStatic/20 seconds
+// 
+featherDelayRandom = 600
+featherDelayStatic = 600
+featherDropChance = 15
