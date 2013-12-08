@@ -1,3 +1,4 @@
 developer=https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 developer=pauljoda
 developer=Dominance28
+developer=Player687
