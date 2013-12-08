@@ -1,2 +1,2 @@
-pauljoda://https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
+pauljoda:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 
