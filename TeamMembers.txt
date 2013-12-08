@@ -1,0 +1,3 @@
+developer=http://www.myurl.com/DEV_CAPE.png
+developer=pauljoda
+developer=Dominance28
