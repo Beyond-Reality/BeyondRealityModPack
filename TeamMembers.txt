@@ -7,4 +7,4 @@ beef682:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcap
 LizardLover27:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 Kaintgitrite:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 iamzoidberg:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
-Cesarmalari:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
+cesarmalari:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
