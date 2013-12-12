@@ -1,4 +1,4 @@
-pauljoda:https://github.com/beyondreality/BeyondRealityModPack/blob/master/capes/pauljoda.png
+pauljoda:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/pauljoda.png
 Dominance28:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 Jensi26:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 wabbitsand:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
