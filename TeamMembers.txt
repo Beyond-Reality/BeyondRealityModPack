@@ -2,7 +2,7 @@ pauljoda:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/
 Dominance28:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 Jensi26:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 wabbitsand:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
-supnicko:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
+supnicko:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/supnicko.png
 beef682:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 LizardLover27:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 Kaintgitrite:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
