@@ -9,3 +9,4 @@ Kaintgitrite:https://raw.github.com/beyondreality/BeyondRealityModPack/master/te
 iamzoidberg:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 cesarmalari:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
 Ventenah:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
+wha_ha_ha:https://raw.github.com/beyondreality/BeyondRealityModPack/master/testcape.png
