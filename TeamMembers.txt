@@ -11,3 +11,4 @@ cesarmalari:https://raw.github.com/beyondreality/BeyondRealityModPack/master/cap
 Ventenah:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
 wha_ha_ha:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/wha_ha_ha.png
 Griptzion:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
+Dyonovan:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
