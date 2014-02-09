@@ -1,5 +1,5 @@
 pauljoda:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/pauljoda.png
-Dominance28:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Dominance28.png
+Dominance28:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Jensi26:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Jensi26.png
 wabbitsand:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/wabbitsand.png
 supnicko:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/supnicko.png
