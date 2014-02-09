@@ -15,4 +15,4 @@ Dyonovan:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/
 RyanTheAllmighty:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 CobraCadabra:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Haggle1996:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
-friendlyfoe21:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+Menegroth:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
