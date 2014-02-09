@@ -1,6 +1,6 @@
 
 showChocoboNames = true
-chocoboWingFlutter = false
+chocoboWingFlutter = true
 // hunger not yet active
 hungerEnabled = false
 riderBuffsEnabled = true
@@ -24,7 +24,7 @@ gysahlGreenMutationRate = 100
 gysahlLoverlyMutationRate = 100
 
 // value between 1 and 999, with 1 for very few wild gysahl and 999 very many.
-gysahlGreenWorldGenerationRate = 200
+gysahlGreenWorldGenerationRate = 100
 
 // Cool down phase between breeding
 breedingDelayFemale = 9000
@@ -45,7 +45,7 @@ penHealProbability = 20
 penHealCauldronRange = 6
 
 // Whenever or not wild Chocobos will be able to despawn if no player is around
-wildCanDespawn = false
+wildCanDespawn = true
 
 // Whenever or not the Chocopedia can be found in dungeon, jungle and desert pyramid, stronghold and mine chests
 chocopediaInDungeons = false
@@ -61,11 +61,11 @@ spawnBiomes = Extreme Hills,Extreme Hills Edge,Forest,ForestHills,Jungle,JungleH
 // A group of spawnGroupMin to spawnGroupMax Yellow Chocobos will spawn with the
 // probability of spawnProbability around every player. There will be no additional
 // spawning if spawnTotalMax wild Chocobos are active in an area with the radius of spawnLimitChunkRadius chunks.
-spawnTimeDelay = 200
+spawnTimeDelay = 180
 spawnProbability = 2
 spawnGroupMin = 2
 spawnGroupMax = 4
-spawnTotalMax = 3
+spawnTotalMax = 5
 spawnLimitChunkRadius = 100
 distanceNextWild = 300
 

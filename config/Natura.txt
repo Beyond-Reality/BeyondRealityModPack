@@ -5,12 +5,15 @@
 ####################
 
 block {
+    I:"Activator Blaze Rail"=3359
     I:"Amaranth Button"=2740
     I:"Amaranth Fence Gate"=2741
     I:"Amaranth Pressure Plate"=2742
     I:"Amaranth Stairs"=2743
     I:"Amaranth Trapdoor"=2744
     I:Berry_Bush=2745
+    I:"Blaze Hopper"=3363
+    I:"Blaze Rail"=3356
     I:"Bloodwood Block"=2746
     I:"Bloodwood Button"=2747
     I:"Bloodwood Door"=2748
@@ -30,6 +33,7 @@ block {
     I:"Darkwood Pressure Plate"=2762
     I:"Darkwood Stairs"=2763
     I:"Darkwood Trapdoor"=2764
+    I:"Detector Blaze Rail"=3358
     I:"Eucalyptus Door"=2765
     I:"Eucalyputus Button"=2766
     I:"Eucalyputus Fence Gate"=2767
@@ -65,9 +69,17 @@ block {
     I:"Maple Stairs"=2797
     I:"Maple Trapdoor"=2798
     I:"Nether Berry Bush"=2799
+    I:"Nether Dispenser"=3365
+    I:"Nether Dropper"=3364
+    I:"Nether Glass"=3362
+    I:"Nether Lever"=3368
+    I:"Netherrack Button"=3367
+    I:"Netherrack Furnace"=3360
+    I:"Netherrack Pressure Plate"=3366
     I:"Plank Slab One"=2800
     I:"Plank Slab Two"=2801
     I:"Planks Block"=2802
+    I:"Powered Blaze Rail"=3357
     I:"Purple Glowshroom"=2803
     I:"Rare Leaves"=2804
     I:"Rare Log"=2805
@@ -80,6 +92,7 @@ block {
     I:"Redwood Pressure Plate"=2812
     I:"Redwood Stairs"=2813
     I:"Redwood Trapdoor"=2814
+    I:"Respawn Obelisk"=3361
     I:"Saguaro Cactus"=2815
     I:"Sakura Button"=2816
     I:"Sakura Door"=2817
@@ -136,7 +149,7 @@ disabler {
     B:"Generate Bluebell Flowers"=true
     B:"Generate Blueberry Bushes"=true
     B:"Generate Cotton Crops"=true
-    B:"Generate Dark Clouds"=true
+    B:"Generate Dark Clouds"=false
     B:"Generate Darkwood Trees"=true
     B:"Generate Duskberry Bushes"=true
     B:"Generate Fusewood Trees"=true
@@ -157,6 +170,7 @@ disabler {
     B:"Generate Thornvines"=true
     B:"Generate Tigerwood Trees"=true
     B:"Generate Willow Trees"=true
+    B:"Obelisks let players respawn in the Nether"=true
     B:"Override Nether"=true
 }
 
@@ -197,6 +211,7 @@ item {
     I:"Darkwood Sword"=22620
     I:"Door Item"=22621
     I:"Empty Bowl"=22622
+    I:"Flint and Blaze"=12459
     I:"Food Items"=22623
     I:"Fusewood Bow"=22624
     I:"Fusewood Hatchet"=22625
@@ -298,7 +313,7 @@ worldgen {
     I:"Maple Tree Spawn Rarity"=34
     I:"Raspberry Spawn Range"=64
     I:"Raspberry Spawn Rarity"=30
-    I:"Redwood Tree Spawn Rarity"=150
+    I:"Redwood Tree Spawn Rarity"=130
     I:"Saguaro Cactus Spawn Rarity"=5
     I:"Sakura Tree Spawn Range"=32
     I:"Sakura Tree Spawn Rarity"=10

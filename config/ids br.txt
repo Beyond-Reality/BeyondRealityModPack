@@ -111,7 +111,7 @@ Powersuits
 		Item Ids 13775-13780 (14031-14036)
 		
 ModularFurnace
-	Block Ids 2115-2136
+	Block Ids 2115-2142
 		Item Ids 14050-14053 (14306-14309)
 		
 Mystcraft
@@ -123,7 +123,7 @@ PowerConverters
 		Item Ids
 
 PowerCrystals MFR
-	Block Ids 2170-2199
+	Block Ids 2170-2200
 		Item Ids 14585-14644 (14841-14900)
 		
 PowerCrystals Netherores
@@ -179,7 +179,7 @@ BiblioCraft
 		Item Ids 18115-18148 (18371-18404)
 		
 CarpentersBlocks
-	Block Ids 2420-2434
+	Block Ids 2420-2435
 		Item Ids 18420-18423 (18676-18679)
 		
 CCTurtles
@@ -223,7 +223,7 @@ EnderTanks
 		Item Ids 20670 (20926)
 		
 ExtraCells
-	block Ids 2600 2613
+	block Ids 2600 2615
 		Item Ids 20930-20938 (21186-21994)
 
 Extra Utilities
@@ -304,14 +304,14 @@ Power Box
 
 Project Red
 	Blocks Ids 2940-2948
-		Item Ids 23520-23582 (23776-23838)
+		Item Ids 23520-23583 (23776-23839)
 
 QCraft
 	Block Ids 2960-2963
 		Item Ids 23850-23852 (24106-24108)
 
 RemoteIO
-	Block Ids 2970
+	Block Ids 2970-2977
 		Item Ids 23860-23863 (24116-24119)
 
 SGCraft
@@ -341,7 +341,7 @@ ThaumicTinker
 			Enchantments 220-225
 
 Tinkers Construct
-	Block Ids 3100-3176
+	Block Ids 3100-3180
 		Item Ids 25300-25377 (25556-25633)
 
 TMechworks	
@@ -368,8 +368,12 @@ Thermal Expansion
 	Block Ids 3500-3521
 		Item Ids 26800-26820 (27056-27076)
 
+Redsonte Aresenal
+	Block Ids 3550
+		Item Ids 26830- 26837 (27086-27094)
+
 Big Reactors
-	Block Ids 3700-3708
+	Block Ids 3700-3709
 		Item Ids 27100-27102 (27356-27358)
 
 Mariculter
@@ -377,7 +381,52 @@ Mariculter
 		Item Ids 27400-27456 (27656-) 
 			Enchantment ids 60-75
 
+Glens Gases
+	Block Ids 3800-3831
+		Item Ids 27700-27703 (29056-29059)
+
+Mob Tools
+	Block Ids 3840-3844
+		Item Ids 29100-29133 (29356-29389)
+
+Jabba
+	Block Ids 3855-3857
+		Item Ids 29410-29415 (29666-29671)
 	
+GrimoireGaia2
+	Block Ids 3860-3861
+		Item Ids 29700-29754 (29956-30010)
+
+Hardcore Ender Expansion
+	Block Ids 3870-3893
+		Item Ids 30100-30123 (30356- 30379)
+
+Griptzion Add
+	Block Ids 3900-3901	
+		Item Ids 30400-30401(30656-30657)
+
+Project Applied Thermodynamics
+	Block Ids 3915-3933
+		Items Ids 30450-30451 (30706-30707)
+
+Statues
+	Block Ids 3950
+		Items Ids 30490-30492 (30800-30802)
+
+Open Computers
+	Block Ids 3953-3956
+		Item Ids 30495()
+
+Iguana Tweaks
+	Block Ids 
+		Item Ids 30500-30505 (30756-30761)
+
+Modular Storage
+	Block Ids 3970-3971
+		Item Ids 30770()
+
+
+
 
 
 

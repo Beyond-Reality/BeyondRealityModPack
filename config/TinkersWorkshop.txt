@@ -36,6 +36,7 @@ battlegear {
 block {
     I:"Air Tank"=3100
     I:"Birch Barricade"=3101
+    I:"Blood Channel"=3177
     I:"Casting Channel"=3102
     I:"Clear Glass"=3103
     I:"Clear Stained Glass"=3104
@@ -82,6 +83,9 @@ block {
     I:"Molten Tin"=3145
     I:"Multi Brick"=3146
     I:"Multi Brick Fancy"=3147
+    I:"Nether Lava Tank"=3178
+    I:"Nether Seared Block"=3179
+    I:"Nether Smeltery"=3180
     I:"Oak Barricade"=3148
     I:"Ore Berry One"=3149
     I:"Ore Berry Two"=3150
@@ -119,9 +123,10 @@ block {
 ####################
 
 "difficulty changes" {
+    B:"Allow creation of endstone"=true
     B:"Craft Stencil Tables"=true
     B:"Craft metals with Wood Patterns"=false
-    B:"Craft vanilla metal blocks"=true
+    B:"Craft vanilla metal blocks"=false
     B:"Deny creation of non-metal mattocks"=false
     B:"Enable Auto-Smelt and Fortune interaction"=false
     B:"Enable mod blue slime tools"=true
@@ -132,8 +137,8 @@ block {
     B:"Enable mod paper tools"=true
     B:"Enable mod slime tools"=true
     B:"Enable mod stone tools"=true
-    B:"Enable mod wooden tools"=true
-    B:"Keep hunger on death"=true
+    B:"Enable mod wooden tools"=false
+    B:"Keep hunger on death"=false
     B:"Keep levels on death"=false
     B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
@@ -167,6 +172,10 @@ dimblacklist {
 ####################
 
 equipables {
+    I:Exo-Boots=14119
+    I:Exo-Chestpiece=14117
+    I:Exo-Goggles=14116
+    I:Exo-Legs=14118
     I:Gloves=25300
     I:"Heart Canister"=25301
     I:"Heavy Boots"=25302
@@ -186,7 +195,7 @@ equipables {
 ####################
 
 experimental {
-    B:"Allow horses to be melted down for glue"=true
+    B:"Allow horses to be melted down for glue"=false
     B:"Items can be thrown into smelteries"=true
 
     # Warning: Very buggy
@@ -200,6 +209,15 @@ experimental {
 
 general {
     I:"Sea level"=64
+}
+
+
+####################
+# logging
+####################
+
+logging {
+    B:"Disable tool build messages"=false
 }
 
 
@@ -249,7 +267,7 @@ looks {
     I:"Alumite ingot return"=3
 
     # Number of ingots returned from smelting Bronze in the smeltery
-    I:"Bronze ingot return"=3
+    I:"Bronze ingot return"=4
 
     # Number of ingots returned from smelting ores in the smeltery
     I:"Ingots per ore"=2
@@ -345,7 +363,7 @@ tools {
     B:"Add World Border"=false
 
     # Makes recipes for gold apples, carrots, and melon potions more expensive
-    B:"Change Crafting Recipes"=false
+    B:"Change Crafting Recipes"=true
     B:"Change Ghast drops to Gold Ingots"=false
     B:"Necrotic modifier only heals on hostile mob kills"=false
     B:"Passive Health Regen"=true
@@ -362,7 +380,7 @@ worldgen {
     I:"Aluminum Bush Density"=2
     I:"Aluminum Bush Max Y"=60
     I:"Aluminum Bush Min Y"=0
-    I:"Aluminum Bush Rarity"=2
+    I:"Aluminum Bush Rarity"=4
     I:"Aluminum Surface Rarity"=50
     I:"Aluminum Underground Density"=4
     I:"Aluminum Underground Max Y"=64
@@ -371,7 +389,7 @@ worldgen {
     I:"Copper Bush Density"=2
     I:"Copper Bush Max Y"=60
     I:"Copper Bush Min Y"=20
-    I:"Copper Bush Rarity"=3
+    I:"Copper Bush Rarity"=4
 
     # Rarity: 1/num to generate in chunk
     I:"Copper Surface Rarity"=100
@@ -380,7 +398,7 @@ worldgen {
     I:"Copper Underground Density"=2
     I:"Copper Underground Max Y"=60
     I:"Copper Underground Min Y"=20
-    I:"Essence Bush Rarity"=6
+    I:"Essence Bush Rarity"=8
     I:"Gold Bush Density"=1
     I:"Gold Bush Rarity"=8
     I:"Gold Surface Rarity"=900
@@ -406,7 +424,7 @@ worldgen {
 ####################
 
 "worldgen disabler" {
-    B:"Add Village Generation"=true
+    B:"Add Village Generation"=false
     B:"Generate Aluminum"=true
     B:"Generate Aluminum Bushes"=true
     B:"Generate Cobalt and Ardite"=true
