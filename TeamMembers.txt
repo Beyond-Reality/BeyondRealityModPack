@@ -10,5 +10,9 @@ iamzoidberg:https://raw.github.com/beyondreality/BeyondRealityModPack/master/cap
 cesarmalari:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/cesarmalari.png
 Ventenah:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
 wha_ha_ha:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/wha_ha_ha.png
-Griptzion:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
-Dyonovan:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Ventenah.png
+Griptzion:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Griptzion.png
+Dyonovan:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Dyonovan.png
+RyanTheAllmighty:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+CobraCadabra:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+Haggle1996:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+friendlyfoe21:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
