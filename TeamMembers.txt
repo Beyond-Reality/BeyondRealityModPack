@@ -16,3 +16,4 @@ RyanTheAllmighty:https://raw.github.com/beyondreality/BeyondRealityModPack/maste
 CobraCadabra:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Haggle1996:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Menegroth:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+TheBoboNL:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
