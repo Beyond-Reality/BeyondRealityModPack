@@ -93,18 +93,36 @@ Galacticraft Moon
 Galacticraft Mars
 	Block Ids 2085-2092
 		Item Ids 12690-12702 (12946-12958)
+
+ArticMobs
+	BlockIds ()
+		ItemIds 12984-12986 (13240-13242)
+ForestMobs
+	BlockIds ()
+		ItemIds 12987 (13243)
+
+InfernoMobs
+	BlockIds ()
+		ItemIds 12988-12990 (13244-13246)
+
+JungleMobs
+	BlockIds ()
+		ItemIds 12991 (13247)
+PlainsMobs
+	BlockIds ()
+		ItemIds 12992 (13248)
 		
 DemonMobs
 	Block Ids 2100
-		Item Ids 12970-12980 (13226-13236)
+		Item Ids 12970-12983 (13226-13239)
 		
 DesertMobs
-	Block Ids 
-		Item Ids 13245-13251 (13501-13507)
+	Block Ids ()
+		Item Ids 13245-13252 (13501-13508)
 		
 SwampMobs
-	Block Ids 2103
-		Item Ids 13510 (13766)
+	Block Ids 2103-2104
+		Item Ids 13510-13517 (13766-13773)
 
 Powersuits
 	Block Ids 2105-2106
@@ -311,7 +329,7 @@ QCraft
 		Item Ids 23850-23852 (24106-24108)
 
 RemoteIO
-	Block Ids 2970-2977
+	Block Ids 2969-2977
 		Item Ids 23860-23863 (24116-24119)
 
 SGCraft
@@ -330,14 +348,14 @@ Switches
 	Block Ids 3020-3023
 
 ThaumCraft4
-	Block Ids 3030-3055
-		Item Ids 24500-24558 (24756-24814)
+	Block Ids 3030-3056
+		Item Ids 24500-24569 (24756-24825)
 			Entities 200-227
 				Biomes 245-247		
 
 ThaumicTinker
-	Block Ids 3070-3081
-		Item Ids 24900-24914 (25156-25170)
+	Block Ids 3070-3090
+		Item Ids 24900-24923 (25156-25179)
 			Enchantments 220-225
 
 Tinkers Construct
@@ -377,13 +395,9 @@ Big Reactors
 		Item Ids 27100-27102 (27356-27358)
 
 Mariculter
-	Block Ids 3720-3758
-		Item Ids 27400-27456 (27656-) 
+	Block Ids 3720-3762
+		Item Ids 27400-27469 (27656-27725) 
 			Enchantment ids 60-75
-
-Glens Gases
-	Block Ids 3800-3831
-		Item Ids 27700-27703 (29056-29059)
 
 Mob Tools
 	Block Ids 3840-3844
@@ -424,6 +438,9 @@ Iguana Tweaks
 Modular Storage
 	Block Ids 3970-3971
 		Item Ids 30770()
+
+Immibis Diminsonal Anchors 
+	BlockIds 3980
 
 
 
