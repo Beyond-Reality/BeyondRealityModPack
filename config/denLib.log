@@ -4440,6 +4440,7 @@ Ore: gearPlastic
 Ore: gearGtPlastic
 Ore: gearRubber
 Ore: gearGtRubber
+Ore: craftingToolScoop
 Ore: craftingToolCrowbar
 Ore: craftingToolScrewdriver
 Ore: craftingToolWrench
@@ -4588,11 +4589,14 @@ Ore: dustEnderPearl
 Ore: itemSilicon
 Ore: gearStone
 Ore: oreCopper
+Ore: oreCopper
+Ore: oreTin
 Ore: oreTin
 Ore: oreAluminum
 Ore: oreAluminium
 Ore: oreNaturalAluminum
 Ore: oreSilicon
+Ore: oreCheese
 Ore: ingotCopper
 Ore: ingotTin
 Ore: ingotAluminium
@@ -4609,6 +4613,7 @@ Ore: waferAdvanced
 Ore: plateMeteoricIron
 Ore: ingotMeteoricIron
 Fluid: bacterialsludge
+Fluid: endergoo
 Ore: ingotIron
 Ore: ingotGold
 Ore: slimeball
@@ -4945,6 +4950,7 @@ Ore: logRubber
 Ore: woodRubber
 Ore: treeLeavesRubber
 Ore: leavesRubber
+Ore: platePlastic
 Ore: sheetPlastic
 Ore: dustPlastic
 Ore: ingotMeat
@@ -5017,11 +5023,6 @@ Ore: glass
 Ore: glass
 Ore: glass
 Ore: glass
-Ore: glass
-Ore: glass
-Ore: glass
-Ore: glass
-Ore: glass
 Ore: bricksStone
 Ore: bricksStone
 Ore: bricksStone
@@ -5072,7 +5073,6 @@ Ore: compressedSand1x
 Ore: compressedSand2x
 Ore: ingotUnstable
 Ore: nuggetUnstable
-Fluid: oxygen
 Ore: plantKelp
 Ore: coralPink
 Ore: coralOrange

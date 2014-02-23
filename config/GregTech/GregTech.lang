@@ -310,6 +310,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_101=Interdimensional Storage Unit
     S:TileEntity_DESCRIPTION_102=Generates Power during Thunderstorms
     S:TileEntity_DESCRIPTION_103=To output massive amounts of Energy in a short period of time.
+    S:TileEntity_DESCRIPTION_104=(De-)Charges at Tier 7 (Output at the Back)
     S:TileEntity_DESCRIPTION_108=About 42 small Gas Turbines worth
     S:TileEntity_DESCRIPTION_109=Consumes 1600 Liters of Steam per Tick
     S:TileEntity_DESCRIPTION_110=Converts Heat into Steam
@@ -1167,6 +1168,8 @@ languagefile {
     S:item.GT_Saw_Tungstensteel.tooltip_main=For sawing Logs into Planks
     S:item.GT_Scanner.name=Portable Scanner
     S:item.GT_Scanner.tooltip_main=Tricorder
+    S:item.GT_Scoop_Aluminium.name=Aluminium Scoop
+    S:item.GT_Scoop_Aluminium.tooltip_main=A Scoop which DOES work in Adventure Mode
     S:item.GT_Screwdriver.name=Screwdriver
     S:item.GT_Screwdriver.tooltip_1=Can switch the Design of certain Blocks
     S:item.GT_Screwdriver.tooltip_2=Can rotate Repeaters and Comparators
@@ -4672,6 +4675,10 @@ languagefile {
     S:item.GregTech_MetaGenerated_Item_01.32303.tooltip=Mold for making Gears
     S:item.GregTech_MetaGenerated_Item_01.324.name=Tiny Pile of Naquadah Dust
     S:item.GregTech_MetaGenerated_Item_01.324.tooltip=
+    S:item.GregTech_MetaGenerated_Item_01.32400.name=Empty Plastic Fuel Can
+    S:item.GregTech_MetaGenerated_Item_01.32400.tooltip=Used to store Fuels
+    S:item.GregTech_MetaGenerated_Item_01.32401.name=Plastic Fuel Can
+    S:item.GregTech_MetaGenerated_Item_01.32401.tooltip=Burns well in Diesel Generators
     S:item.GregTech_MetaGenerated_Item_01.325.name=Tiny Pile of Naquadah Alloy Dust
     S:item.GregTech_MetaGenerated_Item_01.325.tooltip=
     S:item.GregTech_MetaGenerated_Item_01.32500.name=Plumbilia Leaf
