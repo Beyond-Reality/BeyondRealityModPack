@@ -79,8 +79,8 @@ Plugins for Forestry
 		Item Ids 11550-11554 (11806-11810)
 		
 EnderIO
-	Block Ids 2005-2025
-		Item Ids 11820-11833 (12076-12089)
+	Block Ids 2005-2026
+		Item Ids 11820-11835 (12076-12091)
 		
 Galacticraft
 	Block Ids 2035-2067
@@ -108,9 +108,13 @@ InfernoMobs
 JungleMobs
 	BlockIds ()
 		ItemIds 12991 (13247)
+        ItemIds 13255-13257 (13511-13513)
+MountainMobs
+    BlockIds()
+        ItemIds 13300-13303 (13556-13359)
 PlainsMobs
 	BlockIds ()
-		ItemIds 12992 (13248)
+		ItemIds 12992-12295 (13248-12251)
 		
 DemonMobs
 	Block Ids 2100
@@ -310,7 +314,7 @@ ObsidiPlates
 
 Open Blocks
 	Block Ids 2880-2915
-		Item Ids 23220-23238 (23476-23494)
+		Item Ids 23220-23244 (23476-23500)
 
 Open Peripheral
 	Block Ids 2920-2925
