@@ -146,7 +146,7 @@ PowerConverters
 
 PowerCrystals MFR
 	Block Ids 2170-2200
-		Item Ids 14585-14644 (14841-14900)
+		Item Ids 14585-14646 (14841-14902)
 		
 PowerCrystals Netherores
 	Block Ids 2210-2212
@@ -395,7 +395,7 @@ Redsonte Aresenal
 		Item Ids 26830- 26837 (27086-27094)
 
 Big Reactors
-	Block Ids 3700-3709
+	Block Ids 3700-3713
 		Item Ids 27100-27102 (27356-27358)
 
 Mariculter
