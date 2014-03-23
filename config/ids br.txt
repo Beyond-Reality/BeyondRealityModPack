@@ -146,7 +146,7 @@ PowerConverters
 
 PowerCrystals MFR
 	Block Ids 2170-2200
-		Item Ids 14585-14646 (14841-14902)
+		Item Ids 14585-14648 (14841-14904)
 		
 PowerCrystals Netherores
 	Block Ids 2210-2212
