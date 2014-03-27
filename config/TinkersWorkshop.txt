@@ -142,6 +142,7 @@ block {
     B:"Keep levels on death"=false
     B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
+    B:"Remove Vanilla Tool Effectiveness"=false
     B:"Remove Vanilla Tool Recipes"=false
     B:"Spawn beginner book"=true
 }
@@ -168,10 +169,21 @@ dimblacklist {
 
 
 ####################
+# environment checks
+####################
+
+"environment checks" {
+    # Change env check warnings to reflect that this is a modpack.
+    B:IsModpack=false
+}
+
+
+####################
 # equipables
 ####################
 
 equipables {
+    B:Exo-Armor-Craftable=false
     I:Exo-Boots=14119
     I:Exo-Chestpiece=14117
     I:Exo-Goggles=14116
@@ -239,6 +251,7 @@ looks {
     I:"Armor Pattern"=25311
     I:"Blank Patterns"=25312
     I:Buckets=25313
+    I:"Creative Modifier Item"=14120
     I:"Essence Crystal"=25314
     I:"Golden Head"=25315
     I:Jerky=25316
@@ -286,6 +299,7 @@ looks {
 
 superfun {
     B:"All the world is Superfun"=false
+    B:Enable-TCon-Capes=true
 }
 
 
