@@ -13,7 +13,7 @@ wha_ha_ha:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes
 Griptzion:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Griptzion.png
 Dyonovan:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Dyonovan.png
 RyanTheAllmighty:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
-CobraCadabra:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+CobraCadabra:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/Dyonovan.png
 Haggle1996:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Menegroth:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 TheBoboNL:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
