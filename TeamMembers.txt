@@ -18,3 +18,4 @@ Haggle1996:https://raw.github.com/beyondreality/BeyondRealityModPack/master/cape
 Menegroth:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 TheBoboNL:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
 Takonic:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/donor.png
+NolifeXjoe:https://raw.github.com/beyondreality/BeyondRealityModPack/master/capes/beef682.png
