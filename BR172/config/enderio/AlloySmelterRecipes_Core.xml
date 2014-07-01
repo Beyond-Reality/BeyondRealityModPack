@@ -96,7 +96,7 @@ sand/cobble/wood=0.1
     <recipe name="Dark Steel" energyCost="2000">
       <input>
         <itemStack modID="minecraft" itemName="iron_ingot"/>         
-        <itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="0" /> <!--  coal dust -->
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2535" /> <!--  coal dust -->
         <itemStack modID="minecraft" itemName="obsidian"/>
       </input>
       <output>
