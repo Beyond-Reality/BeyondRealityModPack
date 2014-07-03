@@ -10,4 +10,6 @@ recipes.addShapeless(<factorization:diamond_shard> * 18, [<minecraft:diamond_blo
 
 # Phneumaticraft
 # Recipe for Compressed Iron
-recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 2, [<minecraft:iron_ingot>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]);
+recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 6, [<minecraft:iron_ingot>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
+                                                            <minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
+                                                            <minecraft:iron_ingot>]);
