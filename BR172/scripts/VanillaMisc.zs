@@ -10,6 +10,5 @@ furnace.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>, <appliedenergi
 furnace.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>, <appliedenergistics2:item.ItemMultiMaterial:2>);
 
 # ForgeMicroblocks stone saw fix
-recipes.remove(<ForgeMicroblock:sawStone>);
-recipes.addShaped(<ForgeMicroblock:sawStone>,[[<minecraft:stick>,<TConstruct:toolRod:1>,<TConstruct:toolRod:1>],
-                                                [<minecraft:stick>, <minecraft:flint>,<TConstruct:toolRod:1>]]);
+recipes.remove(<ForgeMicroblock:stoneRod>);
+recipes.addShaped(<ForgeMicroblock:stoneRod> * 4, [[<minecraft:stone>],[null,<minecraft:stone>]]);

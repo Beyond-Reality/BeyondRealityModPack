@@ -23,7 +23,7 @@
             "value": false
         },
         "tags": {
-            "value": ["Beyond Reality 2.0.3"]
+            "value": ["Beyond Reality 2.0.3a"]
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",
