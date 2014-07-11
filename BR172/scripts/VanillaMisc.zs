@@ -12,3 +12,9 @@ furnace.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:5>, <appliedenergi
 # ForgeMicroblocks stone saw fix
 recipes.remove(<ForgeMicroblock:stoneRod>);
 recipes.addShaped(<ForgeMicroblock:stoneRod> * 4, [[<minecraft:stone>],[null,<minecraft:stone>]]);
+
+# Warp Book Recipe
+recipes.remove(<warpbook:warpbook>);
+recipes.addShaped(<warpbook:warpbook>, [[<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>],
+                                        [<minecraft:ender_eye>,<minecraft:book>,<minecraft:ender_eye>],
+                                        [<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>]]);

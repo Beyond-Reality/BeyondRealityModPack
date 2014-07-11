@@ -13,3 +13,6 @@ recipes.addShapeless(<factorization:diamond_shard> * 18, [<minecraft:diamond_blo
 recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 6, [<minecraft:iron_ingot>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
                                                             <minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
                                                             <minecraft:iron_ingot>]);
+
+# Factorization Barrels
+recipes.remove(<factorization:daybarrel>);
