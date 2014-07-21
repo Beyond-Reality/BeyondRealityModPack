@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ModConfig>
+    <Module enabled="true" name="CORE">
+        <!--Allow crafting of certain hard-to-obtain items. This de-balances the mod.-->
+        <Crafting name="allowCrafting" naquadah="false"/>
+    </Module>
+    <Module enabled="true" name="STARGATE">
+        <!--Maximum range of DHD to Stargate link-->
+        <Option name="dhdLinkRange" x="10" y="10" z="10"/>
+        <!--Seconds to keep connections open for-->
+        <Option name="secondsToStayOpen" time="300"/>
+        <!--Can players travel only one way?-->
+        <Option enabled="true" name="oneWayTravel"/>
+        <!--Can players close the gate from either end?-->
+        <Option enabled="true" name="closeFromEitherEnd"/>
+        <!--Allow crafting of certain hard-to-obtain items. This de-balances the mod.-->
+        <Crafting controllerCrystal="true" coreCrystal="true" name="allowCrafting"/>
+    </Module>
+    <Module enabled="true" name="POWER"/>
+    <Module enabled="true" name="MACHINE"/>
+    <Module enabled="true" name="WORLDGEN">
+        <!--Enabled ore-generation list-->
+        <EnabledOres>
+            <Ore name="NAQUADAH"/>
+            <Ore name="TRINIUM"/>
+        </EnabledOres>
+        <!--Odds and density of generation under lava-->
+        <OreGenerator name="genUnderLava" odds="4" size="8"/>
+        <!--Odds and density of generation of above lava nodes-->
+        <OreGenerator name="genIsolated" odds="4" size="4"/>
+    </Module>
+    <Module enabled="true" name="CRITTERS">
+        <!--Tok'ra villager ID-->
+        <ID id="100" name="tokra"/>
+    </Module>
+    <Module enabled="true" name="DECOR"/>
+    <Module enabled="true" name="INTEGRATION"/>
+</ModConfig>
