@@ -18,3 +18,12 @@ recipes.remove(<warpbook:warpbook>);
 recipes.addShaped(<warpbook:warpbook>, [[<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>],
                                         [<minecraft:ender_eye>,<minecraft:book>,<minecraft:ender_eye>],
                                         [<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>]]);
+                                        
+# Lapis Lamp
+recipes.remove(<RandomThings:lapisLamp>);
+recipes.addShaped(<RandomThings:lapisLamp> * 4, [[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
+                                                [<ore:blockGlass>,<ore:dustLapis>,<ore:blockGlass>],
+                                                [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]]);
+                                                
+# Caliometric Burner
+recipes.remove(<factorization:FzBlock:31>);

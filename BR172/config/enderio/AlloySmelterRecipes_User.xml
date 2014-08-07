@@ -40,5 +40,10 @@ ore dictionary.
       </output>
     </recipe>
   </recipeGroup>
+  <vanillaFurnaceRecipes>    
+    <exclude>
+        <itemStack modID="IC2" itemName="itemHarz" />  
+    </exclude>
+  </vanillaFurnaceRecipes>
 </AlloySmelterRecipes>  
 
