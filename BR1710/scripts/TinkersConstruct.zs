@@ -13,11 +13,13 @@ recipes.addShaped(<TConstruct:CraftingSlab:5>, [[<TConstruct:Smeltery:2>,<TConst
 val alu = <ore:nuggetAluminium>;
 alu.remove(<TConstruct:materials:22>);
 alu.remove(<TConstruct:oreBerries:4>);
-alu.remove(<Mariculture:materials:34>);
                                                 
 # Ore Berries and Nuggets
 recipes.remove(<gregtech:gt.metaitem.01:11019>);
-recipes.remove(<Mariculture:materials:0>);
 recipes.addShaped(<TConstruct:materials:11>, [[<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>],
                                                         [<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>],
                                                         [<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>,<TConstruct:oreBerries:4>]]);
+
+# Remove Using TiCo Aluminum for Gregtech
+recipes.removeShaped(<gregtech:gt.metaitem.01:17019>);
+recipes.removeShaped(<gregtech:gt.metaitem.01:23019>);
