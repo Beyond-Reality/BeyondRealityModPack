@@ -1,9 +1,5 @@
 # Local Server Changes
 
-# Tinkers Construct
-# Remove SDX
-recipes.remove(<TConstruct:explosive.slime:*>);
-
 # Factorization
 # Recipe for Diamond Shards
 recipes.addShapeless(<factorization:diamond_shard> * 18, [<minecraft:diamond_block>,<minecraft:tnt>]);

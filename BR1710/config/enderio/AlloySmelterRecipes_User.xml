@@ -14,9 +14,7 @@ ore dictionary.
 
   <vanillaFurnaceRecipes>    
     <exclude>
-      <itemStack itemID="265" /> 
-      <itemStack itemID="368" /> 
-      <itemStack oreDictionary="oreIron" />  
+      <itemStack modID /> 
     </exclude>
 
   </vanillaFurnaceRecipes>
@@ -26,6 +24,14 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
+
+	<vanillaFurnaceRecipes>    
+    <exclude>
+      <itemStack modID="MineFactoryReloaded" itemName="item.mfr.rubber.raw" /> 
+	  <itemStack modID="MineFactoryReloaded" itemName="item.mfr.rubber.bar" /> 
+    </exclude>
+
+  </vanillaFurnaceRecipes>
   
 </AlloySmelterRecipes>  
 
