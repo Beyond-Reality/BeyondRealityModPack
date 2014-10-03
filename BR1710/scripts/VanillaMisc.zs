@@ -21,8 +21,4 @@ recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[nu
 																		[null,<ore:ingotRedAlloy>,null],
 																		[null,<ore:ingotRedAlloy>,null]]);
 																		
-#Adv Solars
-recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel>);
-recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel>, [[<AdvancedSolarPanel:asp_crafting_items:5>,<AdvancedSolarPanel:asp_crafting_items:5>,<AdvancedSolarPanel:asp_crafting_items:5>],
-                                                            [<IC2:itemPartAlloy>,<gregtech:gt.metaitem.01:32750>,<IC2:itemPartAlloy>],
-                                                            [<ore:circuitAdvanced>,<AdvancedSolarPanel:asp_crafting_items:8>,<ore:circuitAdvanced>]]);
+															
