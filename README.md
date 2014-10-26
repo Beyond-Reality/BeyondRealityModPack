@@ -13,4 +13,4 @@ Configs
 ==================
 The config options are available here should you ever need them or just want to see what is going on
 
-http://www.mcbeyondreality.com/
+http://www.beyondrealitypack.com
