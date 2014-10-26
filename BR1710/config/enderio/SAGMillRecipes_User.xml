@@ -22,6 +22,54 @@ found in the core file.
 
 <SAGMillRecipes>
 
+
+<recipeGroup name="BigReactors">
+    <!-- Metals -->
+    <recipe name="YelloriteOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreYellorite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustYellorium" number="2" />
+        <itemStack oreDictionary="dustCyanite" number="1" chance="0.05" />
+      </output>
+    </recipe>
+
+    <!-- Alloys and Ingots -->
+    <recipe name="YelloriteIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotYellorium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustYellorium" number="1" />
+
+      </output>
+    </recipe>
+    <recipe name="CyaniteIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotCyanite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCyanite" number="1" />
+      </output>
+    </recipe>
+    <recipe name="BlutoniumIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotBlutonium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustBlutonium" number="1" />
+      </output>
+    </recipe>
+    <recipe name="GraphiteIngot" energyCost="2400">
+      <input>
+        <itemStack oreDictionary="ingotGraphite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustGraphite" number="1" />
+      </output>
+    </recipe>
+  </recipeGroup>
 <!-- Disables all recipes in the group 'Vanilla'
 <recipeGroup name="Vanilla" enabled="false"/> 
 -->

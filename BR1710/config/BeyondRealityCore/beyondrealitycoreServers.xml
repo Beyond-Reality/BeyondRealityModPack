@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<server>
+	<name>Beyond Reality</name>
+	<ip>beyondrealitypack.com</ip>
+	</server>
+
+	<server>
+	<name>www.DigToBuild.com</name>
+	<ip>br.digtobuild.com</ip>
+	</server>
+	
+	<server>
+	<name>Suterusu.com</name>
+	<ip>minecraft.suterusu.com</ip>
+	</server>
+	
+	<server>
+	<name>www.Ggateway.net</name>
+	<ip>beyondreality.ggateway.net:25597</ip>
+	</server>
+	
+	<server>
+	<name>Whitelist-app www.otegamers.com</name>
+	<ip>BR.OTEGamers.com</ip>
+	</server>
+</root>

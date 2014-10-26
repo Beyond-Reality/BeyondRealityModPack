@@ -1,0 +1,2 @@
+count=2-2
+contents=minecraft:arrow;0;2-7;30,MineFactoryReloaded:item.mfr.safarinet.singleuse;0;1-1;25

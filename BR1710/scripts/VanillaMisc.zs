@@ -2,13 +2,7 @@
 
 # Remove ability to smelt iron nuggets into steel
 furnace.remove(<*>, <ore:nuggetIron>);
-
-# Warp Book Recipe
-recipes.remove(<warpbook:warpbook>);
-recipes.addShaped(<warpbook:warpbook>, [[<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>],
-                                        [<minecraft:ender_eye>,<minecraft:book>,<minecraft:ender_eye>],
-                                        [<minecraft:leather>,<minecraft:ender_eye>,<minecraft:leather>]]);
-                                                
+           
 # Caliometric Burner
 recipes.remove(<factorization:FzBlock:31>);
 
@@ -21,4 +15,13 @@ recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[nu
 																		[null,<ore:ingotRedAlloy>,null],
 																		[null,<ore:ingotRedAlloy>,null]]);
 																		
-															
+recipes.addShaped(<gregtech:gt.metaitem.01:32764>, [[<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>],
+																		[<IC2:itemHarz>,<gregtech:gt.metaitem.03:880>,<IC2:itemHarz>],
+				[<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>]]);		
+				
+				
+#HEE
+recipes.remove(<HardcoreEnderExpansion:decomposition_table>);		
+
+#Open Computers
+recipes.remove(<OpenComputers:simple:11>);	

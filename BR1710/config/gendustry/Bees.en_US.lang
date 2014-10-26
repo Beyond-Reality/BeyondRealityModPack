@@ -1,4 +1,5 @@
 gendustry.bees.species.Clay=Clay
+gendustry.bees.species.Clay.description=Under close examination this species is unlike anything we have seen before. It could lead to some interesting new breeds of bees. They construct there combs in the shape of a "B" or a "R" how strange.
 gendustry.bees.species.SlimeBall=Slime Ball
 gendustry.bees.species.Peat=Peat
 gendustry.bees.species.StickyResin=StickyResin
@@ -89,3 +90,7 @@ gendustry.honeycomb.iridium.name=Iridium Comb
 gendustry.honeycomb.uranium.name=Uranium Comb
 gendustry.honeycomb.plutonium.name=Plutonium Comb
 gendustry.honeycomb.naquada.name=Naquada Comb
+gendustry.honeycomb.mutagencatalyst.name=Muta Gem
+gendustry.honeydrop.oildrop.name=Oil Drop
+gendustry.honeydrop.smallmutagencatalyst.name=Muta Gem Catalyst
+
