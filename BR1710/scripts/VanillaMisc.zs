@@ -18,10 +18,7 @@ recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[nu
 recipes.addShaped(<gregtech:gt.metaitem.01:32764>, [[<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>],
 																		[<IC2:itemHarz>,<gregtech:gt.metaitem.03:880>,<IC2:itemHarz>],
 				[<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>]]);		
-				
-				
-#HEE
-recipes.remove(<HardcoreEnderExpansion:decomposition_table>);		
+					
 
 #Open Computers
 recipes.remove(<OpenComputers:simple:11>);	

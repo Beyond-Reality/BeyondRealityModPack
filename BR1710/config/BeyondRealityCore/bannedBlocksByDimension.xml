@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<root>
+
+<dimension-id DimensionId="-28">
+	<name>EnderIO:blockTransceiver</name>
+    <name>RandomThings:spectreKey</name>
+    <name>ihl:tditBlock</name>
+    <name>enhancedportals:frame</name>
+    <name>enhancedportals:frame:1</name>
+    <name>ThaumicTinkerer:interface</name>
+    <name>ExtraUtilities:nodeUpgrade:6</name>
+    <name>ExtraUtilities:nodeUpgrade:5</name>
+    <name>minecraft:obsidian</name>
+    <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
+    <name>appliedenergistics2:tile.BlockQuantumRing</name>
+    <name>Sync:Sync_BlockPlacer:1</name>
+    <name>JABBA:mover</name>
+    <name>RandomThings:playerinterface</name>
+    <name>ExtraUtilities:dark_portal</name>
+</dimension-id>
+
+<dimension-id DimensionId="-29">
+	<name>EnderIO:blockTransceiver</name>
+    <name>RandomThings:spectreKey</name>
+    <name>ihl:tditBlock</name>
+    <name>enhancedportals:frame</name>
+    <name>enhancedportals:frame:1</name>
+    <name>ThaumicTinkerer:interface</name>
+    <name>ExtraUtilities:nodeUpgrade:6</name>
+    <name>ExtraUtilities:nodeUpgrade:5</name>
+    <name>minecraft:obsidian</name>
+    <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
+    <name>appliedenergistics2:tile.BlockQuantumRing</name>
+    <name>Sync:Sync_BlockPlacer:1</name>
+    <name>JABBA:mover</name>
+    <name>RandomThings:playerinterface</name>
+    <name>ExtraUtilities:dark_portal</name>
+</dimension-id>
+
+<dimension-id DimensionId="-30">
+	<name>EnderIO:blockTransceiver</name>
+    <name>RandomThings:spectreKey</name>
+    <name>ihl:tditBlock</name>
+    <name>enhancedportals:frame</name>
+    <name>enhancedportals:frame:1</name>
+    <name>ThaumicTinkerer:interface</name>
+    <name>ExtraUtilities:nodeUpgrade:6</name>
+    <name>ExtraUtilities:nodeUpgrade:5</name>
+    <name>minecraft:obsidian</name>
+    <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
+    <name>appliedenergistics2:tile.BlockQuantumRing</name>
+    <name>Sync:Sync_BlockPlacer:1</name>
+    <name>JABBA:mover</name>
+    <name>RandomThings:playerinterface</name>
+    <name>ExtraUtilities:dark_portal</name>
+</dimension-id>
+
+</root>

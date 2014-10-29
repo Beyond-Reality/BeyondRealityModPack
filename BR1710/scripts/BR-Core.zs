@@ -64,14 +64,7 @@ NEI.addEntry(enderingot.withTag({display: {Lore: ["Beyond Reality,", "Additional
 recipes.addShaped(enderingot, [
 	[endernugget, endernugget, endernugget],
 	[endernugget, endernugget, endernugget],
-	[endernugget, endernugget, endernugget]]);
-	
-// Item Fixer
-NEI.addEntry(itemfix.withTag({display: {Lore: ["Beyond Reality,", "Additional Recipe"]}}));	
-recipes.addShaped(itemfix, [
-	[null, dirt, null],
-	[dirt, stick, dirt],
-	[null, dirt, null]]);	
+	[endernugget, endernugget, endernugget]]);		
 
 // furnace do stuff
 furnace.addRecipe(<gendustry:HoneyDrop:11>, marsmutagen, 2.0);

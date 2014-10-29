@@ -41,6 +41,10 @@ var gold = <ore:ingotGold>;
 var redstoneblock = <ore:blockRedstone>;
 var end1 = <ExtraUtilities:decorativeBlock1:1>;
 var flawless = <gregtech:gt.metaitem.02:29500>;
+var rockdrum = <ExtraUtilities:drum:1>;
+var ring = <gregtech:gt.metaitem.01:28305>;
+var meteorsteelring = <gregtech:gt.metaitem.01:28341>;
+var bedrockIngot = <ExtraUtilities:bedrockiumIngot>;
 
 recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
 NEI.addEntry(<ExtraUtilities:nodeUpgrade:5>.withTag({display: {Name: "Deemed OP", Lore: ["Beyond Reality,", "This is disabled!"]}}));
@@ -124,7 +128,25 @@ recipes.addShaped(hightempgen, [
 	[steel, steel, steel],
 	[steel, furnacegen, steel],
 	[redstone, furnace, redstone]]);	
-NEI.addEntry(hightempgen.withTag({display: {Name: "High-temperature Furnace Generator", Lore: ["Beyond Reality,", "Balanced"]}}));	
+NEI.addEntry(hightempgen.withTag({display: {Name: "High-temperature Furnace Generator", Lore: ["Beyond Reality,", "Balanced"]}}));
+
+recipes.remove(drum);
+recipes.addShaped(drum, [
+[steelplate, <gregtech:gt.metaitem.01:28032>, steelplate],
+[steelplate, <minecraft:cauldron>, steelplate],
+[steelplate, <minecraft:heavy_weighted_pressure_plate>, steelplate]]);	
+
+recipes.remove(drum);
+recipes.addShaped(drum, [
+[steelplate, ring, steelplate],
+[steelplate, <minecraft:cauldron>, steelplate],
+[steelplate, <minecraft:heavy_weighted_pressure_plate>, steelplate]]);	
+
+recipes.remove(rockdrum);
+recipes.addShaped(rockdrum, [
+[bedrockIngot, meteorsteelring, bedrockIngot],
+[bedrockIngot, <minecraft:cauldron>, bedrockIngot],
+[bedrockIngot, <minecraft:heavy_weighted_pressure_plate>, bedrockIngot]]);
 	
 // Ender Quarry nerfs
 // recipes.remove(upgrade);
