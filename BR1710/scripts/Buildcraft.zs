@@ -6,14 +6,13 @@ var arm = <gregtech:gt.metaitem.01:32650>;
 
 
 
-# Remove BC Quarry
+#BC Quarry
 recipes.remove(<BuildCraft|Factory:machineBlock>);
 
-// "Remove // and this text to enabled" import mods.gregtech.Assembler;
-// "Remove // and this text to enabled" Assembler.addRecipe(<BuildCraft|Factory:machineBlock>, gear *4, <gregtech:gt.metaitem.01:32650>, 1600, 2);
+import mods.gregtech.Assembler;
+Assembler.addRecipe(<BuildCraft|Factory:machineBlock>, gear *4, <gregtech:gt.metaitem.01:32650>, 1600, 2);
 
 
-// Assembler.addRecipe(<BuildCraft|Factory:machineBlock>, gear *4, <gregtech:gt.metaitem.01:32650>, 1600, 2);
 
 # BC Pump
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);
