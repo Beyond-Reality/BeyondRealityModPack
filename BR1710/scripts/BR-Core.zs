@@ -53,7 +53,6 @@ val marsplatinum = <beyondrealitycore:customBlock_21>;
 val platinum = <ore:orePlatinum>;
 val endernugget = <EnderIO:itemMaterial:4>;
 val enderingot = <EnderIO:itemAlloy:2>;
-val itemfix = <beyondrealitycore:BRC:dimGuardKiller>;
 val stick = <minecraft:stick>;
 val dirt = <minecraft:dirt>;
 val dust = <gregtech:gt.metaitem.01:2500>;
