@@ -35,3 +35,8 @@ recipes.remove(<PowerConverters:converter.rf:1>);
 	[denselead, <IC2:blockChargepad:2>, denselead],
 	[tinWire, <gregtech:gt.metaitem.01:32702>, tinWire]]);		
     
+recipes.addShaped(<PowerConverters:converter.common>, [
+	[glassfiber, <gregtech:gt.metaitem.01:17033>, glassfiber],
+	[denselead, <gregtecg:gt.blockmachines:22>, denselead],
+	[<gregtecg:gt.blockmachines:22>, <gregtech:gt.metaitem.01:17033>, <gregtecg:gt.blockmachines:22>]]);		
+    	
