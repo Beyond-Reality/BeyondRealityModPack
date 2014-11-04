@@ -11,22 +11,19 @@ val cyanite = <ore:ingotCyanite>;
 val glass = <BigReactors:BRMultiblockGlass>;
 val port = <BigReactors:BRReactorPart:5>;
 
-print("Turbine Housing");
-NEI.addEntry(<BigReactors:BRTurbinePart>.withTag({display: {Lore: ["Beyond Reality,", "Balanced"]}}));		
+print("Turbine Housing");	
 recipes.remove(<BigReactors:BRTurbinePart>);
 recipes.addShaped(<BigReactors:BRTurbinePart> * 4, [[steelplate, graphite, steelplate],
                                                     [steelplate, cyanite, steelplate],
                                                     [steelplate, graphite, steelplate]]);
 	
-print("Reactor Housing") ;	
-NEI.addEntry(<BigReactors:BRReactorPart>.withTag({display: {Lore: ["Beyond Reality,", "Balanced"]}}));		
+print("Reactor Housing") ;		
 recipes.remove(<BigReactors:BRReactorPart>);
 recipes.addShaped(<BigReactors:BRReactorPart>* 4, [[steelplate, graphite, steelplate],
                                                     [steelplate, yellorium, steelplate],
                                                     [steelplate, graphite, steelplate]]);
 													
 print("Fuel Rod") ;	
-NEI.addEntry(<BigReactors:YelloriumFuelRod>.withTag({display: {Lore: ["Beyond Reality,", "Balanced"]}}));	
 recipes.remove(<BigReactors:YelloriumFuelRod>);
 recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[steelplate, yellorium, steelplate],
                                                     [glass, yblock, glass],

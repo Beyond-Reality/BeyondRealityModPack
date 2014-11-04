@@ -1,7 +1,7 @@
-import mods.nei.NEI;
+
 
 //treadmill
-NEI.addEntry(<Sync:Sync_BlockPlacer:2>.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
+
 recipes.remove(<Sync:Sync_BlockPlacer:2>);
 recipes.addShaped(<Sync:Sync_BlockPlacer:2>, [[null,null,<StevesCarts:ModuleComponents:13>],
                                                     [<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>,<minecraft:iron_bars>],
@@ -14,14 +14,14 @@ recipes.addShaped(<Sync:Sync_ItemPlaceholder>, [[<appliedenergistics2:item.ItemM
               [<appliedenergistics2:item.ItemMultiMaterial:9>,<gregtech:gt.metaitem.01:2526>,<appliedenergistics2:item.ItemMultiMaterial:9>]]);		
 											
 // Shell Storage
-NEI.addEntry(<Sync:Sync_BlockPlacer:1>.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
+
 recipes.remove(<Sync:Sync_BlockPlacer:1>);
 recipes.addShaped(<Sync:Sync_BlockPlacer:1>, [[<IC2:blockAlloyGlass>,<gregtech:gt.metaitem.01:17804>,<IC2:blockAlloyGlass>],
                                                     [<IC2:blockAlloyGlass>,<Sync:Sync_ItemPlaceholder>,<IC2:blockAlloyGlass>],
               [<IC2:blockAlloyGlass>,<minecraft:heavy_weighted_pressure_plate>,<IC2:blockAlloyGlass>]]);		
 			  
 // Shell Constructor
-NEI.addEntry(<Sync:Sync_BlockPlacer>.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
+
 recipes.remove(<Sync:Sync_BlockPlacer>);
 recipes.addShaped(<Sync:Sync_BlockPlacer>, [[<IC2:blockAlloyGlass>,<gregtech:gt.metaitem.01:17804>,<IC2:blockAlloyGlass>],
                                                     [<IC2:blockAlloyGlass>,<Sync:Sync_ItemPlaceholder>,<IC2:blockAlloyGlass>],

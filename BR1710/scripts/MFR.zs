@@ -13,7 +13,6 @@ NEI.addEntry(<MineFactoryReloaded:tile.mfr.cable.redstone:3>.withTag({display: {
 
 # MFR Casing
 recipes.remove(<MineFactoryReloaded:tile.mfr.machineblock>);
-NEI.addEntry(<MineFactoryReloaded:tile.mfr.machineblock>.withTag({display: {Lore: ["Beyond Reality,", "Balanced"]}}));
 recipes.addShaped(<MineFactoryReloaded:tile.mfr.machineblock>, [[<gregtech:gt.metaitem.01:17019>,<gregtech:gt.metaitem.01:23305>,<gregtech:gt.metaitem.01:17019>],
                                                                 [<gregtech:gt.metaitem.01:23305>,<gregtech:gt.blockmachines:11>,<gregtech:gt.metaitem.01:23305>],
                                                                 [<gregtech:gt.metaitem.01:17019>,<gregtech:gt.metaitem.01:23305>,<gregtech:gt.metaitem.01:17019>]]);

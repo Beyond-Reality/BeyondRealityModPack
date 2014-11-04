@@ -1,4 +1,4 @@
-import mods.nei.NEI;
+
 
 // Ore Dictonary Addition
 
@@ -58,8 +58,7 @@ val dirt = <minecraft:dirt>;
 val dust = <gregtech:gt.metaitem.01:2500>;
 val tinyPileDarkAshes = <gregtech:gt.metaitem.01:816>;
 
-// Nugget to ingot
-NEI.addEntry(enderingot.withTag({display: {Lore: ["Beyond Reality,", "Additional Recipe"]}}));		
+// Nugget to ingot	
 recipes.addShaped(enderingot, [
 	[endernugget, endernugget, endernugget],
 	[endernugget, endernugget, endernugget],

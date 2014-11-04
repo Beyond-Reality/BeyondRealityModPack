@@ -1,4 +1,3 @@
-import mods.nei.NEI;
 import mods.gregtech.Assembler;
 # Buildcraft Minetweaker Changes
 
@@ -13,7 +12,6 @@ Assembler.addRecipe(<BuildCraft|Factory:machineBlock>, gear *4, <gregtech:gt.met
 
 # BC Pump
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);
-NEI.addEntry(<BuildCraft|Factory:miningWellBlock>.withTag({display: {Lore: ["Beyond Reality,", "Balanced"]}}));	
 recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:plateSteel>,<ore:blockGlass>,<ore:plateSteel>],
                                                         [<BuildCraft|Silicon:redstoneChipset>,<minecraft:iron_pickaxe>,<BuildCraft|Silicon:redstoneChipset>],
                                                         [<ore:plateSteel>,<gregtech:gt.metaitem.02:31057>,<ore:plateSteel>]]);
