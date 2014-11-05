@@ -1,4 +1,4 @@
-import mods.nei.NEI;
+
 
 # Railcraft Recipe Changes
 
@@ -15,6 +15,3 @@ recipes.addShaped(<Railcraft:tile.railcraft.detector:10>, [[<ore:plateTin>,<ore:
                                                             [<ore:plateTin>,<minecraft:stone_pressure_plate>,<ore:plateTin>],
                                                             [<ore:plateTin>,<ore:plateTin>,<ore:plateTin>]]);
 
-recipes.remove(<Railcraft:tool.crowbar>);
-recipes.remove(<Railcraft:tool.crowbar.reinforced>);
-recipes.remove(<Railcraft:tool.crowbar.magic>);
