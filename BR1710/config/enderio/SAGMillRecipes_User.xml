@@ -70,63 +70,31 @@ found in the core file.
       </output>
     </recipe>
   </recipeGroup>
-<!-- Disables all recipes in the group 'Vanilla'
-<recipeGroup name="Vanilla" enabled="false"/> 
--->
 
-<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
-  <recipeGroup name="Thermal Expansion">
-  
-    <recipe name="Obsidian" energyCost="400">
-      <input>
-        <itemStack itemID="49" />
-      </input>      
-      <output>
-        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
-      </output>
-      <output>
-        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
-      </output>
-      <output>
-        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
-      </output>
-    </recipe>
+<grindingBalls>     
+    <grindingBall grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.7" durationRF="100000">
+      <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="7" />
+    </grindingBall>
     
-</recipeGroup> 
--->
-
-<!-- Disables the glass recipes in the group 'Vanilla' 
-<recipeGroup name="Vanilla"> 
-  <recipe name="Glass"/> 
-</recipeGroup>
--->
-
-
-<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
-<recipeGroup name="Vanilla">
-  <recipe name="Glass" energyCost="120"> 
-      <input>
-        <itemStack itemID="20" />
-      </input>
-      <output>
-        <itemStack itemID="264" />
-      </output>
-    </recipe>
-</recipeGroup>
--->
-
-<!-- Adding a new recipe to a new group 
-<recipeGroup name="CrazyPantsGroup">
-  <recipe name="SolarToGlass" energyCost="120"> 
-      <input>
-        <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel"/>
-      </input>
-      <output>
-        <itemStack itemID="20" />
-      </output>
-    </recipe>
-</recipeGroup>
--->
-  
+    <excludes>
+      <itemStack modID="minecraft" itemName="glowstone" />
+      <itemStack modID="minecraft" itemName="wool" itemMeta="*"/>   
+      <itemStack modID="minecraft" itemName="quartz_block" itemMeta="*"/>
+      <itemStack modID="minecraft" itemName="quartz_stairs"/>
+      <itemStack modID="minecraft" itemName="stone_slab" itemMeta="7" /> 
+      
+      <itemStack modID="minecraft" itemName="quartz" />         
+      <itemStack oreDictionary="crystalCertusQuartz" />
+      <itemStack oreDictionary="crystalFluix" />   
+	  <itemStack oreDictionary="blockSteel" />
+	  <itemStack oreDictionary="blockBronze" />
+	  <itemStack oreDictionary="blockSilver" />
+	  <itemStack oreDictionary="blockIron" />
+	  <itemStack oreDictionary="blockLead" />
+	  <itemStack oreDictionary="blockTin" />
+	  <itemStack oreDictionary="blockCopper" />
+    </excludes>
+    
+  </grindingBalls>  
 
 </SAGMillRecipes>

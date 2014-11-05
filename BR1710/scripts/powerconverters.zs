@@ -38,5 +38,5 @@ recipes.remove(<PowerConverters:converter.rf:1>);
 recipes.addShaped(<PowerConverters:converter.common>, [
 	[glassfiber, <gregtech:gt.metaitem.01:17033>, glassfiber],
 	[denselead, <gregtech:gt.blockmachines:22>, denselead],
-	[<gregtech:gt.blockmachines:22>, <gregtech:gt.metaitem.01:17033>, <gregtech:gt.blockmachines:22>]]);		
+	[<gregtech:gt.blockmachines:1207>, <gregtech:gt.metaitem.01:17033>, <gregtech:gt.blockmachines:1207>]]);		
     	
