@@ -1,3 +1,7 @@
+import mods.mfr.AutoSpawner;
+
+AutoSpawner.addBlacklist("mods.natura.entity.NitroCreeper");
+
 recipes.removeShaped(<Natura:planks>);
 recipes.removeShaped(<Natura:planks:1>);
 recipes.removeShaped(<Natura:planks:2>);

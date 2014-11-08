@@ -1,6 +1,6 @@
 import mods.mfr.AutoSpawner;
 
-AutoSpawner.addBlacklist("mods.natura.entity.NitroCreeper");
+
 AutoSpawner.addBlacklist("net.daveyx0.primitivemobs.entity.monster.EntityBabySpider");
 AutoSpawner.addBlacklist("net.daveyx0.primitivemobs.entity.monster.EntityBlazingJuggernaut");
 AutoSpawner.addBlacklist("net.daveyx0.primitivemobs.entity.monster.EntityBrainSlime");
