@@ -68,6 +68,9 @@ recipes.addShaped(enderingot, [
 furnace.addRecipe(<gendustry:HoneyDrop:11>, marsmutagen, 2.0);
 furnace.addRecipe(<minecraft:glowstone_dust>, moonglowstone, 2.0);
 
+furnace.addRecipe(<minecraft:diamond>, moondiamond, 2.0);
+furnace.addRecipe(<minecraft:diamond>, marsdiamond, 2.0);
+
 // Dust to diamond
 recipes.addShapeless(<minecraft:diamond>, [dust, dust, dust]);
 
