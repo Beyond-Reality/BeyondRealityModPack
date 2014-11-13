@@ -49,7 +49,7 @@ recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
 
 recipes.remove(<ExtraUtilities:nodeUpgrade:6>);
 
-
+recipes.remove(<ExtraUtilities:enderQuarryUpgrade>);
 
 recipes.remove(survivalgen);
 recipes.addShaped(survivalgen, [
