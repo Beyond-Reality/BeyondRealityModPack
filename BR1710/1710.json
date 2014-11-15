@@ -1,5 +1,5 @@
 {
-    "version": "2.1.9",
+    "version": "2.1.9A",
     "minecraft": "1.7.10",
     "mainClass": {
         "mainClass": "net.minecraft.launchwrapper.Launch"
@@ -623,10 +623,10 @@
         },
         {
             "name": "Forestry",
-            "version": "3.1.1.272",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/forestry_1.7.10-3.1.1.272-unstable.jar",
-            "file": "forestry_1.7.10-3.1.1.272-unstable.jar",
-            "md5": "a5e9e37fbdfb0c49015c9269b3168bb8",
+            "version": "3.2.0.5",
+            "url": "packs/BeyondReality/files/1710mods/2.1.9/forestry_1.7.10-3.2.0.5.jar",
+            "file": "forestry_1.7.10-3.2.0.5.jar",
+            "md5": "9093aa385217a8cafaca60864c77dc6b",
             "download": "server",
             "website": "http://forestry.sengir.net/wiki.new/doku.php",
             "authors": [
@@ -669,10 +669,10 @@
         },
         {
             "name": "GalacticraftCore",
-            "version": "3.0.6.232",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/GalacticraftCore-1.7-3.0.6.232.jar",
-            "file": "GalacticraftCore-1.7-3.0.6.232.jar",
-            "md5": "b944d7fb08cdfb5d89611af8d5cba312",
+            "version": "3.0.5.229",
+            "url": "packs/BeyondReality/files/1710mods/2.1.8/GalacticraftCore-BETA-1.7-3.0.5.229.jar",
+            "file": "GalacticraftCore-BETA-1.7-3.0.5.229.jar",
+            "md5": "a236e027048744c0a58e101ddd1a9a52",
             "download": "server",
             "website": "http://www.micdoodle8.com/mods/galacticraft",
             "donation": "http://www.micdoodle8.com/",
@@ -685,10 +685,10 @@
         },
         {
             "name": "Galacticraft Planets",
-            "version": "3.0.6.232",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/Galacticraft-Planets-1.7-3.0.6.232.jar",
-            "file": "Galacticraft-Planets-1.7-3.0.6.232.jar",
-            "md5": "517079fd50f39d8ee7c6ff6bc29fa27e",
+            "version": "3.0.5.229",
+            "url": "packs/BeyondReality/files/1710mods/2.1.8/Galacticraft-Planets-BETA-1.7-3.0.5.229.jar",
+            "file": "Galacticraft-Planets-BETA-1.7-3.0.5.229.jar",
+            "md5": "a500602bab3e0d27a74b99c6f6906042",
             "download": "server",
             "website": "http://www.micdoodle8.com/mods/galacticraft",
             "donation": "http://www.micdoodle8.com/",
@@ -1245,10 +1245,10 @@
         },
         {
             "name": "Thaumic Tinkerer",
-            "version": "2.5-1.7.10-409",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/ThaumicTinkerer-2.5-1.7.10-409.jar",
-            "file": "ThaumicTinkerer-2.5-1.7.10-409.jar",
-            "md5": "9fada078dd8e6acf707405fa0b0acf6b",
+            "version": "2.5-1.7.10-421",
+            "url": "packs/BeyondReality/files/1710mods/2.1.9/ThaumicTinkerer-2.5-1.7.10-421.jar",
+            "file": "ThaumicTinkerer-2.5-1.7.10-421.jar",
+            "md5": "49f61d77c32309f23f0e552207ffab6d",
             "download": "server",
             "website": "http://www.minecraftforum.net/topic/1813058-",
             "authors": [
@@ -2032,10 +2032,10 @@
         },
         {
             "name": "Micdoodle8 Core",
-            "version": "3.0.6.232",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/MicdoodleCore-1.7-3.0.6.232.jar",
-            "file": "MicdoodleCore-1.7-3.0.6.232.jar",
-            "md5": "b52139286c2a81f59184393a74a24cf1",
+            "version": "3.0.5.229",
+            "url": "packs/BeyondReality/files/1710mods/2.1.8/MicdoodleCore-BETA-1.7-3.0.5.229.jar",
+            "file": "MicdoodleCore-BETA-1.7-3.0.5.229.jar",
+            "md5": "a4ef502bb72c2ef55704eddc3908ebf6",
             "download": "server",
             "website": "http://www.micdoodle8.com/",
             "donation": "http://www.micdoodle8.com/",
@@ -2132,7 +2132,7 @@
             "version": "2.1.9",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/scripts-2.1.9.zip",
             "file": "scripts-2.1.9.zip",
-            "md5": "1cb9dc83cde45d9cc2265d747db27ca2",
+            "md5": "539fd71e2f8792522a63c557251fe461",
             "download": "server",
             "website": "http://www.mcbeyondreality.com",
             "authors": [
