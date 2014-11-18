@@ -79,7 +79,7 @@ recipes.addShaped(<Railcraft:tile.railcraft.detector:10>, [[<ore:plateTin>,<ore:
 RockCrusher.addRecipe(mooniron, false, false, [crushedGTIron * 2], [1.0]);
 RockCrusher.addRecipe(moondiamond, false, false, [crushedGTDiamond * 2], [1.0]);
 RockCrusher.addRecipe(moonredstone, false, false, [crushedGTRedstone * 10], [1.0]);
-RockCrusher.addRecipe(moonlapis, false, false, [crushedGTLapis * 2], [1.0]);
+RockCrusher.addRecipe(moonlapis, false, false, [crushedGTLapis * 12], [1.0]);
 RockCrusher.addRecipe(moontetrahedrite, false, false, [crushedGTTetrahedrite * 2], [1.0]);
 RockCrusher.addRecipe(moonbauxite, false, false, [crushedGTBauxite * 2], [1.0]);
 RockCrusher.addRecipe(mooncassiterite, false, false, [crushedGTCassiterite * 4], [1.0]);
@@ -92,7 +92,7 @@ RockCrusher.addRecipe(marsiron, false, false, [crushedGTIron * 2], [1.0]);
 RockCrusher.addRecipe(marsgold, false, false, [crushedGTGold * 2], [1.0]);
 RockCrusher.addRecipe(marsdiamond, false, false, [crushedGTDiamond * 2], [1.0]);
 RockCrusher.addRecipe(marsredstone, false, false, [crushedGTRedstone * 10], [1.0]);
-RockCrusher.addRecipe(marslapis, false, false, [crushedGTLapis * 2], [1.0]);
+RockCrusher.addRecipe(marslapis, false, false, [crushedGTLapis * 12], [1.0]);
 RockCrusher.addRecipe(marstetrahedrite, false, false, [crushedGTTetrahedrite * 2], [1.0]);
 RockCrusher.addRecipe(marsbauxite, false, false, [crushedGTBauxite * 2], [1.0]);
 RockCrusher.addRecipe(marsuranium, false, false, [crushedGTUranium * 2], [1.0]);
