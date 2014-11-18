@@ -1,6 +1,6 @@
 <version>
         <pack>
-            <version>2.1.9A</version>
+            <version>2.2.0</version>
             <minecraft>1.7.10</minecraft>
             <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
             <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker</extraarguments>
@@ -20,7 +20,7 @@
     
     <warnings>
     	
-	    <warning name="spice"><![CDATA[When Selecting Cauldron all extra Libraries will be injected into your server folder. There might be most issues while running a cauldron based server.]]></warning>
+	    <warning name="spice"><![CDATA[When Selecting Cauldron all extra Libraries will be injected into your server folder. There might be more issues while running a cauldron based server. Including but not limited too. Mods not supporting cauldron and Crashes that dont effect a normal forge server. Please direct all support towards BeyondReality]]></warning>
 		
 	
     </warnings>
@@ -29,7 +29,7 @@
 <libraries>
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/launchwrapper-1.11.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/launchwrapper-1.11.jar" 
         file="launchwrapper-1.11.jar" 
         md5="189acaecbe31eeb4366bca7ba17d7496" 
         download="server"
@@ -37,7 +37,7 @@
         />
         
         <library 
-       url="packs/BeyondReality/files/1710Libraries/asm-all-5.0.3.jar" 
+       url="packs/BeyondReality/files/1710Libraries/1236/asm-all-5.0.3.jar" 
        file="asm-all-5.0.3.jar" 
        md5="c5cc4613bbdfba3ccf5f0ab85390d0b8" 
        download="server" 
@@ -45,110 +45,110 @@
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/akka-actor_2.11-2.3.3.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/akka-actor_2.11-2.3.3.jar" 
         file="akka-actor_2.11-2.3.3.jar" 
-        md5="2a3d8946f684f928c48a2dd298c5cd29" 
+        md5="2e1821ae7a3c7e34f6465b6ffc2d4fb8" 
         download="server"
         server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/config-1.2.1.jar" 
-        file="config-1.2.1.jar"
-        md5="a88c2f8be90a5c41b87155cdff21e0db" 
+        url="packs/BeyondReality/files/1710Libraries/1236/config-1.2.1.jar" 
+        file="config-1.2.1.jar" 
+        md5="1974c260752c597b9a2bae0adb98b639" 
         download="server" 
         server="com/typesafe/config/1.2.1/config-1.2.1.jar"
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-actors-migration_2.11-1.1.0.jar"
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-actors-migration_2.11-1.1.0.jar" 
         file="scala-actors-migration_2.11-1.1.0.jar" 
-        md5="f5e79398daa1806f8b17311a3c782723" 
+        md5="87330cc0f34c17c384f510b051a7fcaa" 
         download="server"  
         server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
         />
 
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-compiler-2.11.1.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-compiler-2.11.1.jar" 
         file="scala-compiler-2.11.1.jar" 
-        md5="06030143bf86ca896fb6ccfd679b5760" 
+        md5="8b562ab484150ab93698c35cbf0dea14" 
         download="server" 
         server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-continuations-library_2.11-1.0.2.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-continuations-library_2.11-1.0.2.jar" 
         file="scala-continuations-library_2.11-1.0.2.jar" 
-        md5="c7d01e5a88182df7f22b7418abb51085" 
+        md5="4cd6cc0c87757f186a9a209e7802a934" 
         download="server" 
         server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-continuations-plugin_2.11.1-1.0.2.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-continuations-plugin_2.11.1-1.0.2.jar" 
         file="scala-continuations-plugin_2.11.1-1.0.2.jar" 
-        md5="daecef8fab296b764a8fb41fc07f2428" 
+        md5="fe8ab3292781e335e88ca9ccbe8d59fc" 
         download="server"
         server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-library-2.11.1.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-library-2.11.1.jar" 
         file="scala-library-2.11.1.jar" 
-        md5="1d88f665219e6006c5dd82d71c525c0f" 
+        md5="c809472823b67ec9d7242ea60cee394e"  
         download="server" 
         server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
         />
 
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-parser-combinators_2.11-1.0.1.jar" 
-        file="scala-parser-combinators_2.11-1.0.1.jar" 
-        md5="4e694499c965af4a02599c99d4f0b196" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-parser-combinators_2.11-1.0.1.jar" 
+        file="scala-parser-combinators_2.11-1.0.1.jar"
+        md5="3fe19270b98890c474d77233bf63ef0e" 
         download="server" 
         server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
         />
 
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-reflect-2.11.1.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-reflect-2.11.1.jar" 
         file="scala-reflect-2.11.1.jar" 
-        md5="7878fac044e4e4b576bb35a77ccc34fc" 
+        md5="cc9b1c3996c7559aba9e3f4af664169f" 
         download="server"
         server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
         />
 
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-swing_2.11-1.0.1.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-swing_2.11-1.0.1.jar" 
         file="scala-swing_2.11-1.0.1.jar" 
-        md5="1009d69e4948045383f2a7a334348af5" 
+        md5="8604c7897347299489132eb391456c52"  
         download="server"  
         server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
         />
 
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/scala-xml_2.11-1.0.2.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/scala-xml_2.11-1.0.2.jar" 
         file="scala-xml_2.11-1.0.2.jar" 
-        md5="c2d7e66495afe14545c31b21e99879ef" 
+        md5="b134b70630cbc6ac05a283a4542784b5" 
         download="server"  
         server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar" 
         />
 
        
         <library 
-        url="packs/BeyondReality/files/1710Libraries/jopt-simple-4.5.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/jopt-simple-4.5.jar" 
         file="jopt-simple-4.5.jar" 
-        md5="1372bd4823bb1ef61e7db6724f601150" 
+        md5="1372bd4823bb1ef61e7db6724f601150"
         download="server"   
         server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar" 
         />
 
        
         <library
-        url="packs/BeyondReality/files/1710Libraries/lzma-0.0.1.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/lzma-0.0.1.jar" 
         file="lzma-0.0.1.jar" 
         md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" 
         download="server"   
@@ -164,25 +164,25 @@
         />
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/commons-lang3-3.2.1.jar" 
-        file="commons-lang3-3.2.1.jar" 
-        md5="7fc4221e7e3a05d8052d3fbb34fb0a5a" 
+        url="packs/BeyondReality/files/1710Libraries/1236/commons-lang-2.6.jar" 
+        file="commons-lang-2.6.jar" 
+        md5="4d5c1693079575b362edf41500630bbd" 
         download="server"
         />
         
         <!-- Cauldron Only -->
         
         <library 
-        url="packs/BeyondReality/files/1710Libraries/json-simple-1.1.jar" 
-        file="json-simple-1.1.jar" 
-        md5="eb342044fc56be9ba49fbfc9789f1bb5" 
+        url="packs/BeyondReality/files/1710Libraries/1236/jopt-simple-4.5.jar" 
+        file="jopt-simple-4.5.jar" 
+        md5="1372bd4823bb1ef61e7db6724f601150" 
         download="server"
         server="com/googlecode/json-simple/json-simple/json-simple-1.1.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/commons-lang-2.6.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/commons-lang-2.6.jar" 
         file="commons-lang-2.6.jar" 
         md5="4d5c1693079575b362edf41500630bbd" 
         download="server"
@@ -191,7 +191,7 @@
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/persistence-api-1.0.2.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/persistence-api-1.0.2.jar" 
         file="persistence-api-1.0.2.jar" 
         md5="28207037c346f11bc2cb40085488477c" 
         download="server"
@@ -200,61 +200,61 @@
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/jline-2.6.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/jline-2.6.jar" 
         file="jline-2.6.jar" 
-        md5="b06b0692a0184e0761c20682181a08ab" 
+        md5="b06b0692a0184e0761c20682181a08ab"
         download="server"
         server="jline/jline/2.6/jline-2.6.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/mysql-connector-java-5.1.14.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/mysql-connector-java-5.1.14.jar" 
         file="mysql-connector-java-5.1.14.jar" 
-        md5="7c763eb532f0c5bf3972dad4cfd59e75" 
+        md5="7c763eb532f0c5bf3972dad4cfd59e75"
         download="server"
         server="mysql/mysql-connector-java/5.1.14/mysql-connector-java-5.1.14.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/SpecialSource-1.7-SNAPSHOT.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/SpecialSource-1.7-SNAPSHOT.jar" 
         file="SpecialSource-1.7-SNAPSHOT.jar" 
-        md5="096777a1b6098130d6c925f1c04050a3" 
+        md5="096777a1b6098130d6c925f1c04050a3"
         download="server"
         server="net/md-5/SpecialSource/1.7-SNAPSHOT/SpecialSource-1.7-SNAPSHOT.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/cauldron-api-1.7.10-SNAPSHOT.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/cauldron-api-1.7.10-SNAPSHOT.jar" 
         file="cauldron-api-1.7.10-SNAPSHOT.jar" 
-        md5="c24661f451ca4becd370db0e810ed4fd" 
+        md5="ea78deb044164a323132423bbe99f23d"
         download="server"
         server="net/minecraftforge/cauldron/cauldron-api/1.7.10-SNAPSHOT/cauldron-api-1.7.10-SNAPSHOT.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/argo-2.25.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/argo-2.25.jar" 
         file="argo-2.25.jar" 
-        md5="5ff00179da80a95958e75ff4570491e4" 
+        md5="5ff00179da80a95958e75ff4570491e4"
         download="server"
         server="net/sourceforge/argo/argo/2.25/argo-2.25.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/ebean-2.7.3.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/ebean-2.7.3.jar" 
         file="ebean-2.7.3.jar" 
-        md5="6e8f97be9e31695c6d14785474434d88" 
+        md5="6e8f97be9e31695c6d14785474434d88"
         download="server"
         server="org/avaje/ebean/2.7.3/ebean-2.7.3.jar"
         depends="Cauldron"
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/jansi-1.8.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/jansi-1.8.jar" 
         file="jansi-1.8.jar" 
         md5="e9bc198b506b9a7dc2592306de31cfea" 
         download="server"
@@ -263,7 +263,7 @@
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/sqlite-jdbc-3.7.2.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/sqlite-jdbc-3.7.2.jar"
         file="sqlite-jdbc-3.7.2.jar" 
         md5="1a6796add6898d6a17923d35fc539fd6" 
         download="server"
@@ -272,7 +272,7 @@
         />
         
         <library
-        url="packs/BeyondReality/files/1710Libraries/snakeyaml-1.9.jar" 
+        url="packs/BeyondReality/files/1710Libraries/1236/snakeyaml-1.9.jar" 
         file="snakeyaml-1.9.jar" 
         md5="aee7d6eb28be4b13a207cb6dc565a7db" 
         download="server"
@@ -363,10 +363,10 @@
                
     	<mod 
              name="Minecraft Forge" 
-             version="10.13.2.1231" 
-             url="packs/BeyondReality/files/1710mods/2.1.7/forge-1.7.10-10.13.2.1231-universal.jar" 
-             file="forge-1.7.10-10.13.2.1231-universal.jar" 
-             md5="aac17b71e3bbe3c08783a52b22e7ba19" 
+             version="10.13.2.1236" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/forge-1.7.10-10.13.2.1236-universal.jar" 
+             file="forge-1.7.10-10.13.2.1236-universal.jar" 
+             md5="a08260aa81dd9f6e8f3c38b4d745ddca" 
              download="server" 
              type="forge" 
              colour="yellow"
@@ -381,10 +381,10 @@
         
         <mod 
             name="Cauldron" 
-            version="1.1231.04.209"
-            url="packs/BeyondReality/files/1710mods/cauldron-1.7.10-1.1231.04.209-server.jar"
-            file="cauldron-1.7.10-1.1231.04.209-server.jar" 
-            md5="7402b4f4b2b7658564ec90eea1d1a0c5" 
+            version="1.1236.05.210" 
+            url="packs/BeyondReality/files/1710mods/2.2.0/cauldron-1.7.10-1.1236.05.210-server.jar" 
+            file="cauldron-1.7.10-1.1236.05.210-server.jar" 
+            md5="e88d897ae5bb3afd0f86e04edbde5af1" 
             download="server"
             client="no"
             server="yes"
@@ -404,10 +404,10 @@
        
         <mod 
              name="Applied Energistics 2" 
-             version="rv1-stable-1" 
-             url="packs/BeyondReality/files/1710mods/appliedenergistics2-rv1-stable-1.jar" 
-             file="appliedenergistics2-rv1-stable-1.jar" 
-             md5="53efce7859a96e5f6d3e452ca6d8b5ae" 
+             version="rc2-alpha-22" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/appliedenergistics2-rv2-alpha-22.jar" 
+             file="appliedenergistics2-rv2-alpha-22.jar" 
+             md5="1c35fb2c4dd70563621b61544f8351fb" 
              download="server" 
              type="mods" 
              colour="babyblue"
@@ -500,11 +500,11 @@
 
         <mod 
              name="Botania" 
-             version="r1.3-135" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/Botania r1.3-135.jar" 
-             file="Botania r1.3-135.jar" 
-             md5="743d58f2e488cf0a30584abd467e922f" 
-             download="server"    
+             version="r1.3-137" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/Botania r1.3-137.jar" 
+             file="Botania r1.3-137.jar" 
+             md5="8aed128a73b2fdf3c12e77e53fb3caf0" 
+             download="server"   
              type="mods"
              colour="babyblue"
              authors="vazkii"
@@ -553,11 +553,11 @@
 
         <mod 
             name="Computronics" 
-            version="1.2.0" 
-            url="packs/BeyondReality/files/1710mods/2.1.8/Computronics-1.7.10-1.2.0.jar" 
-            file="Computronics-1.7.10-1.2.0.jar" 
-            md5="2393ad293da03a114948fe1e68c38153" 
-            download="server" 
+            version="1.3.0" 
+            url="packs/BeyondReality/files/1710mods/2.2.0/Computronics-1.7.10-1.3.0.jar" 
+            file="Computronics-1.7.10-1.3.0.jar" 
+            md5="e24dd93783fd0c35b67b434758c479d6"
+            download="server"
             type="mods" 
             colour="babyblue"
             authors="Asie"
@@ -596,10 +596,10 @@
         
         <mod 
              name="Ender IO" 
-             version="2.2.0.272" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/EnderIO-1.7.10-2.2.0.272.jar" 
-             file="EnderIO-1.7.10-2.2.0.272.jar" 
-             md5="947c4db8da9a67b2fc3b1806cb98bb81" 
+             version="2.2.1.276" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/EnderIO-1.7.10-2.2.1.276.jar" 
+             file="EnderIO-1.7.10-2.2.1.276.jar" 
+             md5="5c0a7afd7dec9a5a0794e9c35f97d1fc" 
              download="server"
              type="mods" 
              colour="babyblue"
@@ -609,11 +609,11 @@
              
         <mod 
             name="Ender Zoo" 
-            version="1.0.3.9-Beta" 
-            url="packs/BeyondReality/files/1710mods/2.1.9/EnderZoo-1.7.10-1.0.3.9_beta.jar" 
-            file="EnderZoo-1.7.10-1.0.3.9_beta.jar" 
-            md5="9a121edac45db350f68b693fd9953ac3" 
-            download="server" 
+            version="1.0.4.12_beta" 
+            url="packs/BeyondReality/files/1710mods/2.2.0/EnderZoo-1.7.10-1.0.4.12_beta.jar" 
+            file="EnderZoo-1.7.10-1.0.4.12_beta.jar" 
+            md5="2299a8fdae51cc4552948ab6622ce516" 
+            download="server"
             type="mods" 
             colour="babyblue"
             website="http://www.minecraftforum.net/topic/1937619-" 
@@ -635,6 +635,20 @@
              authors="Alz454" 
              description="EnhancedPortals started out as a mod designed to give you a bit more customization for your Nether portals. You could increase the size, shape, or change it&apos;s colour. EnhancedPortals 3 takes this even further by leaving behind the focus of being a fully functional, boring, Nether portal." 
              />
+             
+        <mod 
+             name="ExtraCells" 
+             version="1.7.10" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/ExtraCells-1.7.10-2.2.4b12.jar" 
+             file="ExtraCells-1.7.10-2.2.4b12.jar" 
+             md5="aaf1d2d57ddb0f29e31a00f149bc3fd3" 
+             download="server"   
+             type="mods" 
+             colour="babyblue"
+             website="http://www.minecraftforum.net/topic/1801643-" 
+             authors="M3gaFr3ak" 
+             description="A Mod that adds 4 new ME Storage Cells and some other cool stuff to AE." 
+             />     
         
 		<mod 
              name="Extra Utilities" 
@@ -647,20 +661,7 @@
              colour="babyblue"
              authors="RWtema"
              website="http://www.minecraftforum.net/topic/1776056-" 
-             description="A collection of useful blocks and items" />
-        
-        <mod 
-             name="ExtraCells" 
-             version="1.7.10-2.1.12b9" 
-             url="packs/BeyondReality/files/1710mods/ExtraCells-1.7.10-2.1.12b9.jar" 
-             file="ExtraCells-1.7.10-2.1.12b9.jar" 
-             md5="8aa9b6e09a46f1811bbbc3e51771419d" 
-             download="server"   
-             type="mods" 
-             colour="babyblue"
-             website="http://www.minecraftforum.net/topic/1801643-" 
-             authors="M3gaFr3ak" 
-             description="A Mod that adds 4 new ME Storage Cells and some other cool stuff to AE." 
+             description="A collection of useful blocks and items" 
              />
         
         <mod 
@@ -1068,10 +1069,10 @@
         
         <mod 
              name="PneumaticCraft" 
-             version="1.3.2-32" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/PneumaticCraft-1.7.10-1.3.2-32-universal.jar" 
-             file="PneumaticCraft-1.7.10-1.3.2-32-universal.jar" 
-             md5="4e636f41d612108c79047f74a711cbf0" 
+             version="1.4.0-36" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/PneumaticCraft-1.7.10-1.4.0-36-universal.jar" 
+             file="PneumaticCraft-1.7.10-1.4.0-36-universal.jar" 
+             md5="e279462dc845b4ed4162e9c31f8e5934" 
              download="server" 
              type="mods"
              colour="babyblue"
@@ -1110,10 +1111,10 @@
         
         <mod 
              name="Railcraft"  
-             version="9.3.3.0" 
-             url="packs/BeyondReality/files/1710mods/Railcraft_1.7.10-9.3.3.0.jar" 
-             file="Railcraft_1.7.10-9.3.3.0.jar" 
-             md5="b4a16e502f0e8146f8b1f286611a45b6" 
+             version="9.4.0.0" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/Railcraft_1.7.10-9.4.0.0.jar" 
+             file="Railcraft_1.7.10-9.4.0.0.jar" 
+             md5="2c8e169c4adf9975696a65fdc6e5ea1e" 
              download="server"  
              type="mods" 
              colour="babyblue"
@@ -1478,10 +1479,10 @@
         
         <mod 
              name="Gregtech" 
-             version="5.06.02" 
-             url="packs/BeyondReality/files/1710mods/2.1.8/gregtech_1.7.10-5.06.02.jar" 
-             file="gregtech_1.7.10-5.06.02.jar" 
-             md5="a537199b8c4b901044bebc8bed194fcb" 
+             version="5.06.04" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/gregtech_1.7.10-5.06.04.jar" 
+             file="gregtech_1.7.10-5.06.04.jar" 
+             md5="2f2517d872a7ec32b030eff24c42cf4e" 
              download="server"   
              type="mods"
              colour="gold"
@@ -1748,11 +1749,11 @@
         
         <mod 
              name="AsieLib" 
-             version="0.3.2" 
-             url="packs/BeyondReality/files/1710mods/2.1.8/AsieLib-1.7.10-0.3.2.jar" 
-             file="AsieLib-1.7.10-0.3.2.jar" 
-             md5="0da18aa991af1d5b48308276fb5d4d35" 
-             download="server" 
+             version="3.3"
+             url="packs/BeyondReality/files/1710mods/2.2.0/AsieLib-1.7.10-0.3.3.jar" 
+             file="AsieLib-1.7.10-0.3.3.jar" 
+             md5="c44793fbecb28a7c102cdd8380b419e4" 
+             download="server"
              type="mods"
              authors="Asie"
              hidden="yes"
@@ -2028,10 +2029,10 @@
         
         <mod 
             name="MineTweaker Scripts" 
-            version="2.1.9" 
-            url="packs/BeyondReality/files/1710mods/2.1.9/scripts-2.1.9.zip" 
-            file="scripts-2.1.9.zip" 
-            md5="539fd71e2f8792522a63c557251fe461" 
+            version="2.2.0" 
+            url="packs/BeyondReality/files/1710mods/2.2.0/scripts-2.2.0.zip" 
+            file="scripts-2.2.0.zip" 
+            md5="fc9c3fbd244c4797da286c9f180e8c42" 
             download="server"
             type="extract"
             extractto="root"
