@@ -52,10 +52,10 @@ recipes.addShaped(motorCore, [[comparator, redstoneChip, repeater],
                                       [<minecraft:redstone>, machineCasing ,<minecraft:redstone>],
                                       [<minecraft:redstone>, lvMotor, <minecraft:redstone>]]);	
 									  
-recipes.remove(<framez:motor.appliedenergistics2> );
-recipes.addShaped(<framez:motor.appliedenergistics2> , [[<minecraft:redstone_block>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:redstone_block>],
-                                      [<appliedenergistics2:item.ItemMultiMaterial:22>, motorCore, <appliedenergistics2:item.ItemMultiMaterial:22>],
-                                      [<minecraft:redstone_block>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:redstone_block>]]);
+// recipes.remove(<framez:motor.appliedenergistics2> );
+//recipes.addShaped(<framez:motor.appliedenergistics2> , [[<minecraft:redstone_block>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:redstone_block>],
+ //                                     [<appliedenergistics2:item.ItemMultiMaterial:22>, motorCore, <appliedenergistics2:item.ItemMultiMaterial:22>],
+   //                                   [<minecraft:redstone_block>, <appliedenergistics2:item.ItemMultiMaterial:24>, <minecraft:redstone_block>]]);
 
 recipes.remove(<framez:motor.rf> );
 recipes.addShaped(<framez:motor.rf> , [[<minecraft:redstone_block>, <EnderIO:itemBasicCapacitor>, <minecraft:redstone_block>],
