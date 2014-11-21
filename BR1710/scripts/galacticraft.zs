@@ -107,8 +107,8 @@ var silicon = <GalacticraftCore:item.basicItem:2>;
 var oresilicon = <ore:itemSilicon>; 
 var airlockcontroller = <GalacticraftCore:tile.airLockFrame:1>;
 var GTmeteoricIron = <ore:plateMeteoricIron>;
-
-
+var GTplateDesh = <ore:plateDesh>;
+var GTplateSteel = <ore:plateSteel>;
 
 oresilicon.add(silicon);
 
@@ -158,7 +158,7 @@ NEI.hide(titaniumSword);
 # Recipe Adding
 recipes.addShaped(plateNailed, [
 	[boltStainlessSteel, hammer, boltStainlessSteel],
-	[compressedBronze, compressedAluminium, compressedSteel],
+	[compressedBronze, compressedAluminium, GTplateSteel],
 	[boltStainlessSteel, null, boltStainlessSteel]]);
 recipes.addShaped(plateNailedT2, [
 	[null, boltTungsten, boltTungsten],
@@ -166,7 +166,7 @@ recipes.addShaped(plateNailedT2, [
 	[null, boltTungsten, boltTungsten]]);
 recipes.addShaped(plateNailedT3, [
 	[null, boltTungstenSteel, boltTungstenSteel],
-	[hammer, plateHeavyDutyT2, compressedDesh],
+	[hammer, plateHeavyDutyT2, GTplateDesh],
 	[null, boltTungstenSteel, boltTungstenSteel]]);
     
 # Recipe Changes
