@@ -73,7 +73,7 @@ val dustGTNaquadria											  = <gregtech:gt.metaitem.01:2327>;
 val gemGTLazurite											  = <gregtech:gt.metaitem.01:8524>;
 
 // IC2 Ores as a byproduct
-val oreICIridium											  = <IC2:itemOreIridium>
+val oreICIridium											  = <IC2:itemOreIridium>;
 
 
 // Railcraft Recipe Changes
