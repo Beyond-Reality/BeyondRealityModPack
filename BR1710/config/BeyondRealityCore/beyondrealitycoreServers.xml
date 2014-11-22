@@ -29,4 +29,9 @@
 	<name>Whitelist-app http://www.herdofsquirrels.com/</name>
 	<ip>bopple.herdofsquirrels.com</ip>
 	</server>
+	
+	<server>
+	<name>Donuts BR Whitelist-app http://goo.gl/Ih3wvQ</name>
+	<ip>lu-gaming.eu:25571</ip>
+	</server>
 </root>
