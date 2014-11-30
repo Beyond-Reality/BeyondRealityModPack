@@ -78,6 +78,10 @@ val oreICIridium											  = <IC2:itemOreIridium>;
 
 // Railcraft Recipe Changes
 
+// World Anchor fix
+
+recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
+
 // Rolling Machine
 recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
 recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:8>, [[<ore:plateSteel>, <Railcraft:tile.railcraft.machine.beta:9>, <ore:plateSteel>],

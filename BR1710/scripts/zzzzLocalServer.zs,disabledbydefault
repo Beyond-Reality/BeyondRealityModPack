@@ -1,5 +1,7 @@
 # Local Server Changes
 
+// Use this script if your server has TNT Placement off.
+
 # Phneumaticraft
 # Recipe for Compressed Iron
 recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 6, [<minecraft:iron_ingot>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
@@ -7,5 +9,3 @@ recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 6, [<minecraft:iron_
                                                             <minecraft:iron_ingot>]);
 															
 recipes.remove(<BuildCraft|Factory:machineBlock>);
-
-
