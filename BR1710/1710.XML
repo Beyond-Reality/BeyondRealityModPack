@@ -1,6 +1,6 @@
 <version>
         <pack>
-            <version>2.2.0</version>
+            <version>2.2.1</version>
             <minecraft>1.7.10</minecraft>
             <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
             <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker</extraarguments>
@@ -393,9 +393,10 @@
             type="forge" 
             warning="spice"
             colour="yellow"
-            website="http://minecraft.maeyanie.com/cauldron/" 
-            description="Minecraft Cauldron" 
-        />
+            website="http://cauldron.minecraftforge.net/"
+ 	        donation="http://www.patreon.com/bloodmc"
+            description="Cauldron is a combination of Minecraft Forge and the Spigot project to allow you to run a Forge server with Bukkit plugins installed."
+            />
         
         
         
@@ -431,10 +432,10 @@
         
         <mod 
              name="BiblioCraft" 
-             version="1.9.0" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/BiblioCraft[v1.9.0][MC1.7.10].jar" 
-             file="BiblioCraft[v1.9.0][MC1.7.10].jar" 
-             md5="b163065459605b4b706bedeb7694af2a" 
+             version="1.9.1"
+             url="packs/BeyondReality/files/1710mods/2.2.0/BiblioCraft[v1.9.1][MC1.7.10].jar" 
+             file="BiblioCraft[v1.9.1][MC1.7.10].jar" 
+             md5="0ec4965595db760d3efb9b89dfa650ec" 
              download="server"  
              type="mods" 
              colour="babyblue"
@@ -500,11 +501,11 @@
 
         <mod 
              name="Botania" 
-             version="r1.3-137" 
-             url="packs/BeyondReality/files/1710mods/2.2.0/Botania r1.3-137.jar" 
-             file="Botania r1.3-137.jar" 
-             md5="8aed128a73b2fdf3c12e77e53fb3caf0" 
-             download="server"   
+             version="1.3-138" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/Botania r1.3-138.jar" 
+             file="Botania r1.3-138.jar" 
+             md5="322f279f78ec7a10e5fed89c5e9741b2" 
+             download="server"  
              type="mods"
              colour="babyblue"
              authors="vazkii"
@@ -513,10 +514,10 @@
         
         <mod 
              name="Buildcraft"
-             version="6.1.8" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/buildcraft-6.1.8.jar" 
-             file="buildcraft-6.1.8.jar" 
-             md5="c0379391380c583147f4d29d8ce64360" 
+             version="6.2.0" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/buildcraft-6.2.0.jar" 
+             file="buildcraft-6.2.0.jar" 
+             md5="b8a1344666f1cbb37f3ea54915fe2de3" 
              download="server"
              type="mods" 
              colour="babyblue"
@@ -526,10 +527,10 @@
         
         <mod 
              name="Carpenter&apos;s Blocks" 
-             version="3.3.1" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/Carpenters Blocks v3.3.1 - MC 1.7.10.jar" 
-             file="Carpenters Blocks v3.3.1 - MC 1.7.10.jar" 
-             md5="c7e40bd90da6248e18cb96d8771274a9" 
+             version="3.3.3"
+             url="packs/BeyondReality/files/1710mods/2.2.1/Carpenters Blocks v3.3.3 - MC 1.7.10.jar" 
+             file="Carpenters Blocks v3.3.3 - MC 1.7.10.jar" 
+             md5="e6c5bb4e11e2815288fcef1508c7a3dc" 
              download="server" 
              type="mods"
              colour="babyblue"
@@ -539,11 +540,11 @@
              description="Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns." />
         
         <mod 
-             name="Chisel" 
-             version="1.5.7" 
-             url="packs/BeyondReality/files/1710mods/Chisel-1.7.10-1.5.7.jar" 
-             file="Chisel-1.7.10-1.5.7.jar" 
-             md5="8fd9c91d68256d1575d05fa31736e340" 
+             name="Chisel 2" 
+             version="2.1.2" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/Chisel 2-2.1.2.jar" 
+             file="Chisel 2-2.1.2.jar" 
+             md5="a50b05f881837ce2c8964549865562a6" 
              download="server" 
              type="mods" 
              colour="babyblue"
@@ -553,10 +554,10 @@
 
         <mod 
             name="Computronics" 
-            version="1.3.0" 
-            url="packs/BeyondReality/files/1710mods/2.2.0/Computronics-1.7.10-1.3.0.jar" 
-            file="Computronics-1.7.10-1.3.0.jar" 
-            md5="e24dd93783fd0c35b67b434758c479d6"
+            version="1.3.2" 
+            url="packs/BeyondReality/files/1710mods/2.2.1/Computronics-1.7.10-1.3.2.jar" 
+            file="Computronics-1.7.10-1.3.2.jar" 
+            md5="05723bd090f8e8887c9fd2312658c2e2" 
             download="server"
             type="mods" 
             colour="babyblue"
@@ -609,10 +610,10 @@
              
         <mod 
             name="Ender Zoo" 
-            version="1.0.4.12_beta" 
-            url="packs/BeyondReality/files/1710mods/2.2.0/EnderZoo-1.7.10-1.0.4.12_beta.jar" 
-            file="EnderZoo-1.7.10-1.0.4.12_beta.jar" 
-            md5="2299a8fdae51cc4552948ab6622ce516" 
+            version="2.2.1" 
+            url="packs/BeyondReality/files/1710mods/2.2.1/EnderZoo-1.7.10-1.0.5.14.jar" 
+            file="EnderZoo-1.7.10-1.0.5.14.jar" 
+            md5="97b4aa1b9a08daceef6c4dfce25e7b66" 
             download="server"
             type="mods" 
             colour="babyblue"
@@ -623,11 +624,11 @@
         
         <mod 
              name="EnhancedPortals 3" 
-             version="3.0.7" 
-             url="packs/BeyondReality/files/1710mods/EnhancedPortals_1.7.10-universal-3.0.7.jar" 
-             file="EnhancedPortals_1.7.10-universal-3.0.7.jar"
-             md5="04951361df8f2a8dd30503debb87e18e" 
-             download="server" 
+             version="3.0.9" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/EnhancedPortals_1.7.10-universal-3.0.9.jar" 
+             file="EnhancedPortals_1.7.10-universal-3.0.9.jar" 
+             md5="dcf2b98ad0c1b12957cd11290f477552" 
+             download="server"
              type="mods" 
              colour="babyblue"
              website="http://www.minecraftforum.net/topic/2143651-" 
@@ -638,11 +639,11 @@
              
         <mod 
              name="ExtraCells" 
-             version="1.7.10" 
-             url="packs/BeyondReality/files/1710mods/2.2.0/ExtraCells-1.7.10-2.2.4b12.jar" 
-             file="ExtraCells-1.7.10-2.2.4b12.jar" 
-             md5="aaf1d2d57ddb0f29e31a00f149bc3fd3" 
-             download="server"   
+             version="2.2.4b13" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/ExtraCells-1.7.10-2.2.4b13.jar" 
+             file="ExtraCells-1.7.10-2.2.4b13.jar" 
+             md5="02fc9ec2dc60da237e12e23bbc9427d2" 
+             download="server"
              type="mods" 
              colour="babyblue"
              website="http://www.minecraftforum.net/topic/1801643-" 
@@ -652,11 +653,11 @@
         
 		<mod 
              name="Extra Utilities" 
-             version="1.1.0k" 
-             url="packs/BeyondReality/files/1710mods/extrautilities-1.1.0k.jar" 
-             file="extrautilities-1.1.0k.jar"
-             md5="84dd5b3f13d3e6ca344624ea5abd773c" 
-             download="server" 
+             version="2.2.1" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/extrautilities-1.2.0(1).jar" 
+             file="extrautilities-1.2.0(1).jar" 
+             md5="c980f95a60c5c98aabe3882ef12beda6" 
+             download="server"
              type="mods" 
              colour="babyblue"
              authors="RWtema"
@@ -666,10 +667,10 @@
         
         <mod 
              name="Factorization" 
-             version="1.7.10-0.8.88.6" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/Factorization-1.7.10-0.8.88.6.jar" 
-             file="Factorization-1.7.10-0.8.88.6.jar" 
-             md5="7f283ab33b6b1888f9febd08cf2da2e6" 
+             version="1.7.10-0.8.88.7" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/Factorization-1.7.10-0.8.88.7.jar" 
+             file="Factorization-1.7.10-0.8.88.7.jar" 
+             md5="1fac400f6e062124955c7bf613133fc8" 
              download="server"  
              type="mods" 
              colour="babyblue"
@@ -781,9 +782,9 @@
         <mod 
              name="Hardcore Ender Expansion" 
              version="1.6.5" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/HardcoreEnderExpansion  MC-1.7.10  v1.6.5.jar" 
-             file="HardcoreEnderExpansion  MC-1.7.10  v1.6.5.jar" 
-             md5="4870a7497826d3e41521902ab775bc49" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/HardcoreEnderExpansion  MC-.jar" 
+             file="HardcoreEnderExpansion  MC-.jar" 
+             md5="0931bcf2faf11659e1f7ed95ee756b26" 
              download="server"   
              type="mods" 
              colour="babyblue"
@@ -874,10 +875,10 @@
         
         <mod 
              name="Logistics Pipes" 
-             version="0.8.2.80" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/logisticspipes-0.8.2.80.jar" 
-             file="logisticspipes-0.8.2.80.jar" 
-             md5="b4381e4f00c742a483bb5aebf81de327" 
+             version="0.8.2.83" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/logisticspipes-0.8.2.83.jar" 
+             file="logisticspipes-0.8.2.83.jar" 
+             md5="91cf67e5fdba5bf911010ad863b35db3" 
              download="server"     
              type="mods" 
              colour="babyblue"
@@ -887,10 +888,10 @@
         
         <mod 
              name="malisisdoors" 
-             version="1.2.1" 
-             url="packs/BeyondReality/files/1710mods/2.1.8/malisisdoors-1.7.10-1.2.1.jar" 
-             file="malisisdoors-1.7.10-1.2.1.jar"
-             md5="14ca6695c755a5d9eb1e6823ac16ac6e" 
+             version="1.3.1" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/malisisdoors-1.7.10-1.3.1.jar" 
+             file="malisisdoors-1.7.10-1.3.1.jar" 
+             md5="bbfe3ccd9ade89d31cd84ef93b43dbf7" 
              download="server"
              type="mods" 
              colour="babyblue"
@@ -901,11 +902,11 @@
         
         <mod 
              name="MineFactory Reloaded" 
-             version="2.8.0RC3-591" 
-             url="packs/BeyondReality/files/1710mods/MineFactoryReloaded-[1.7.10]2.8.0RC3-591.jar" 
-             file="MineFactoryReloaded-[1.7.10]2.8.0RC3-591.jar" 
-             md5="4595dc11752aabce0da9667d7552da61" 
-             download="server" 
+             version="[1.7.10]2.8.0RC5-694"
+             url="packs/BeyondReality/files/1710mods/2.2.1/MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar" 
+             file="MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar" 
+             md5="f9bb8f22f8b0ffe2697618e35b6fbe07" 
+             download="server"
              type="mods" 
              colour="babyblue"
              website="http://www.minecraftforum.net/topic/2016680-" 
@@ -1011,11 +1012,11 @@
         
         <mod 
             name="NEIIntegration" 
-            version="1..0.0" 
-            url="packs/BeyondReality/files/1710mods/2.1.9/NEIIntegration-MC1.7.10-1.0.0(1).jar" 
-            file="NEIIntegration-MC1.7.10-1.0.0(1).jar" 
-            md5="7677fe8f66d8da80f2735c55a4857183" 
-            download="server" 
+            version="1.0.1" 
+            url="packs/BeyondReality/files/1710mods/2.2.0/NEIIntegration-MC1.7.10-1.0.1.jar" 
+            file="NEIIntegration-MC1.7.10-1.0.1.jar" 
+            md5="2d90c4eae3aae00bfde6c6974e2f01fa" 
+            download="server"
             type="mods" 
             authors="Tonius"
             colour="babyblue"
@@ -1040,10 +1041,10 @@
         
         <mod 
              name="Open Computers" 
-             version="1.4.0.8-rc.2" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/OpenComputers-MC1.7.10-1.4.0.8-rc.2-universal.jar" 
-             file="OpenComputers-MC1.7.10-1.4.0.8-rc.2-universal.jar" 
-             md5="60b061f5703a31a51c67389a4368df07" 
+             version="1.4.1.14"
+             url="packs/BeyondReality/files/1710mods/2.2.1/OpenComputers-MC1.7.10-1.4.1.14-universal.jar" 
+             file="OpenComputers-MC1.7.10-1.4.1.14-universal.jar" 
+             md5="010b3d6137ea705d9d98783e1be1a68f" 
              download="server" 
              type="mods"
              colour="babyblue"
@@ -1069,11 +1070,11 @@
         
         <mod 
              name="PneumaticCraft" 
-             version="1.4.0-36" 
-             url="packs/BeyondReality/files/1710mods/2.2.0/PneumaticCraft-1.7.10-1.4.0-36-universal.jar" 
-             file="PneumaticCraft-1.7.10-1.4.0-36-universal.jar" 
-             md5="e279462dc845b4ed4162e9c31f8e5934" 
-             download="server" 
+             version="1.4.2-39"
+             url="packs/BeyondReality/files/1710mods/2.2.1/PneumaticCraft-1.7.10-1.4.2-39-universal.jar" 
+             file="PneumaticCraft-1.7.10-1.4.2-39-universal.jar" 
+             md5="3a5fc7fdeedf5c5aa91032b71dad7698" 
+             download="server"
              type="mods"
              colour="babyblue"
              website="http://www.minecraftforum.net/topic/1841226-" 
@@ -1093,7 +1094,22 @@
             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293983-" 
             authors="portablejim" 
             description="Take control of your power" 
-            />     
+            />  
+            
+        <mod 
+            name="Pressure Pipes" 
+            version="1.0.1.48" 
+            url="packs/BeyondReality/files/1710mods/2.2.1/pressure-mc1710-1.0.1.48.jar" 
+            file="pressure-mc1710-1.0.1.48.jar"
+            md5="5705075b5b75316b262b1387cfc4bc93" 
+            download="server" 
+            type="mods" 
+            colour="babyblue"
+            website="http://www.minecraftforum.net/topic/2160265-" 
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" 
+            authors="bdew" 
+            description="Pressurized Pipes and tanks" 
+            />    
         
         <mod 
              name="Primitive Mobs"
@@ -1254,6 +1270,20 @@
              website="http://www.minecraftforum.net/topic/2011841-" 
              description="This is what this mod is all about - drawing magic from physical objects in the form of Essentia and reshaping it to perform miracles." 
              />
+             
+        <mod 
+             name="ThaumCraft Gates" 
+             version="1.4.0"
+             url="packs/BeyondReality/files/1710mods/2.2.1/ThaumcraftGates-1.4.0.jar" 
+             file="ThaumcraftGates-1.4.0.jar" 
+             md5="8e14672543671734e9d9354ec2212901" 
+             download="server" 
+             type="mods" 
+             colour="purple"
+             website="http://minecraft.curseforge.com/mc-mods/221897-thaumcraftgates"
+             authors="gannymedes"
+             description="Adds thaumcraft gates to buildcraft" 
+             />     
         
         <mod 
              name="Thaumic Tinkerer" 
@@ -1317,11 +1347,11 @@
         
         <mod 
              name="ProjectRed-Base" 
-             version="4.5.3.54" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/ProjectRed-1.7.10-4.5.3.54-Base.jar" 
-             file="ProjectRed-1.7.10-4.5.3.54-Base.jar" 
-             md5="9e5a1e3504382507259298da5c7bfd39" 
-             download="server"  
+             version="4.5.7.58" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/ProjectRed-1.7.10-4.5.7.58-Base.jar"
+             file="ProjectRed-1.7.10-4.5.7.58-Base.jar"
+             md5="a4a67ccfb6c5eb452abf75535eb797a5" 
+             download="server"   
              type="mods" 
              colour="red"
              authors="Mr_TJP,ChickenBones"
@@ -1330,11 +1360,11 @@
         
         <mod 
              name="ProjectRed-Compat" 
-             version="4.5.3.54" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/ProjectRed-1.7.10-4.5.3.54-Base.jar" 
-             file="ProjectRed-1.7.10-4.5.3.54-Base.jar" 
-             md5="9e5a1e3504382507259298da5c7bfd39" 
-             download="server" 
+             version="4.5.7.58" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/ProjectRed-1.7.10-4.5.7.58-Compat.jar" 
+             file="ProjectRed-1.7.10-4.5.7.58-Compat.jar"
+             md5="d49091c5571a5199d2cb79315abe69f9" 
+             download="server"   
              type="mods" 
              colour="red"
              authors="Mr_TJP,ChickenBones"
@@ -1343,11 +1373,11 @@
         
         <mod 
              name="ProjectRed-Integration" 
-             version="4.5.3.54" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/ProjectRed-1.7.10-4.5.3.54-Integration.jar" 
-             file="ProjectRed-1.7.10-4.5.3.54-Integration.jar" 
-             md5="7a6a89713ec4b93bd42a69b94642b2f0" 
-             download="server" 
+             version="4.5.7.58" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/ProjectRed-1.7.10-4.5.7.58-Integration.jar" 
+             file="ProjectRed-1.7.10-4.5.7.58-Integration.jar" 
+             md5="4d65e92888b77acda08cf5684b2bfff4" 
+             download="server"
              type="mods" 
              colour="red"
              authors="Mr_TJP,ChickenBones"
@@ -1356,11 +1386,11 @@
         
         <mod 
              name="ProjectRed-Lighting" 
-             version="4.5.3.54" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/ProjectRed-1.7.10-4.5.3.54-Lighting.jar" 
-             file="ProjectRed-1.7.10-4.5.3.54-Lighting.jar" 
-             md5="ba7f031bc2c864ba899f94d6bd4e12e1" 
-             download="server"  
+             version="4.5.7.58"
+             url="packs/BeyondReality/files/1710mods/2.2.1/ProjectRed-1.7.10-4.5.7.58-Lighting.jar"
+             file="ProjectRed-1.7.10-4.5.7.58-Lighting.jar" 
+             md5="e6ed50faa474fd544eac66c4ce16fd6c" 
+             download="server" 
              type="mods" 
              colour="red"
              authors="Mr_TJP,ChickenBones"
@@ -1370,10 +1400,10 @@
         
         <mod 
              name="ProjectRed-World" 
-             version="4.5.3.54" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/ProjectRed-1.7.10-4.5.3.54-World.jar" 
-             file="ProjectRed-1.7.10-4.5.3.54-World.jar" 
-             md5="d4cc36783ab0c2f3f51fcef9f89a88ed" 
+             version="4.5.7.58" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/ProjectRed-1.7.10-4.5.7.58-World.jar" 
+             file="ProjectRed-1.7.10-4.5.7.58-World.jar" 
+             md5="011f20c78a2bf1c3c4ec0f2ebf22d185" 
              download="server"
              type="mods" 
              colour="red"
@@ -1424,10 +1454,10 @@
         
         <mod 
             name="IHL Tools &amp; Machines"
-            version="0.517" 
-            url="packs/BeyondReality/files/1710mods/2.1.9/ihl-tools_n_machines-0.517-1.7.10.jar" 
-            file="ihl-tools_n_machines-0.517-1.7.10.jar" 
-            md5="d6005985eb09559452046223b7d182fe" 
+            version="0.521" 
+            url="packs/BeyondReality/files/1710mods/2.2.1/ihl-tools_n_machines-0.521-1.7.10.jar" 
+            file="ihl-tools_n_machines-0.521-1.7.10.jar" 
+            md5="bb096408d934e3b3762f24ec7078252b"
             download="server" 
             type="mods" 
             colour="gold"
@@ -1438,10 +1468,10 @@
         
         <mod 
              name="IndustrialCraft 2" 
-             version="2.2.653" 
-             url="packs/BeyondReality/files/1710mods/2.1.9/industrialcraft-2-2.2.653-experimental.jar" 
-             file="industrialcraft-2-2.2.653-experimental.jar" 
-             md5="ba704520328fc07d02c219028260a7f7" 
+             version="2.2.654" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/industrialcraft-2-2.2.654-experimental.jar" 
+             file="industrialcraft-2-2.2.654-experimental.jar" 
+             md5="9ac915fb1d2a1bc97de3c3bfbf787149" 
              download="server"       
              type="mods" 
              colour="gold"
@@ -1479,10 +1509,10 @@
         
         <mod 
              name="Gregtech" 
-             version="5.06.04" 
-             url="packs/BeyondReality/files/1710mods/2.2.0/gregtech_1.7.10-5.06.04.jar" 
-             file="gregtech_1.7.10-5.06.04.jar" 
-             md5="2f2517d872a7ec32b030eff24c42cf4e" 
+             version="5.06.06" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/gregtech_1.7.10-5.06.06.jar" 
+             file="gregtech_1.7.10-5.06.06.jar" 
+             md5="b997726e8cb063836d8f5b32e3cccbf8"
              download="server"   
              type="mods"
              colour="gold"
@@ -1637,10 +1667,10 @@
         
         <mod 
              name="JourneyMap" 
-             version="5.0.0RC4" 
-             url="http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/2218285/download" 
-             file="JourneyMap5.0.0RC4_Unlimited_MC1.7.10.jar" 
-             md5="afe648d6977a8f61f4e58eb55f36aeb2" 
+             version="5.0.0RC6" 
+             url="http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/latest"
+             file="JourneyMap5.0.0RC6_Unlimited_MC1.7.10.jar" 
+             
              download="direct" 
              type="mods"
              group="a"
@@ -1749,10 +1779,10 @@
         
         <mod 
              name="AsieLib" 
-             version="3.3"
-             url="packs/BeyondReality/files/1710mods/2.2.0/AsieLib-1.7.10-0.3.3.jar" 
-             file="AsieLib-1.7.10-0.3.3.jar" 
-             md5="c44793fbecb28a7c102cdd8380b419e4" 
+             version="0.3.4"
+             url="packs/BeyondReality/files/1710mods/2.2.1/AsieLib-1.7.10-0.3.4.jar" 
+             file="AsieLib-1.7.10-0.3.4.jar" 
+             md5="8d16f5cc8cf42c2d22ea9f156eb0418f"
              download="server"
              type="mods"
              authors="Asie"
@@ -1821,10 +1851,10 @@
         <mod 
              name="CodeChickenCore" 
              version="1.0.4.29" 
-             url="packs/BeyondReality/files/1710mods/2.1.7/CodeChickenCore-1.7.10-1.0.4.29-universal.jar" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/CodeChickenCore-1.7.10-1.0.4.29-universal.jar" 
              file="CodeChickenCore-1.7.10-1.0.4.29-universal.jar" 
              md5="23978d3c16f19d0d2808c4b451d78f87" 
-             download="server" 
+             download="server"
              type="mods" 
              hidden="yes"
              website="http://www.minecraftforum.net/topic/909223-" 
@@ -1834,10 +1864,10 @@
         
         <mod 
              name="CodeChickenLib" 
-             version="1.1.1.105" 
-             url="packs/BeyondReality/files/1710mods/2.1.7/CodeChickenLib-1.7.10-1.1.1.105-universal.jar" 
-             file="CodeChickenLib-1.7.10-1.1.1.105-universal.jar" 
-             md5="f75a945dc5b54efd8449afe3d0c7d8d0" 
+             version="1.1.1.106" 
+             url="packs/BeyondReality/files/1710mods/2.2.1/CodeChickenLib-1.7.10-1.1.1.106-universal.jar" 
+             file="CodeChickenLib-1.7.10-1.1.1.106-universal.jar" 
+             md5="1c166b1a3078ed59593baa282a12939e" 
              download="server" 
              type="dependency" 
              hidden="yes"
@@ -1847,12 +1877,12 @@
              description="Needed for ChickenBones mods" />
         
         <mod 
-             name="CoFH Framework" 
-             version="[1.7.10]3.0.0B6-32" 
-             url="packs/BeyondReality/files/1710mods/CoFHCore-[1.7.10]3.0.0B6-32.jar" 
-             file="CoFHCore-[1.7.10]3.0.0B6-32.jar" 
-             md5="b1ee8684fc90acef9e81f63f6a9db189" 
-             download="server" 
+             name="CoFH Core" 
+             version="[1.7.10]3.0.0B8-36"
+             url="packs/BeyondReality/files/1710mods/2.2.1/CoFHCore-[1.7.10]3.0.0B8-36.jar"
+             file="CoFHCore-[1.7.10]3.0.0B8-36.jar" 
+             md5="849e346a0888b8aee453e5b6e6ce12b7" 
+             download="server"
              type="mods" 
              hidden="yes"
              website="http://teamcofh.com/" 
@@ -1914,10 +1944,10 @@
         
         <mod 
              name="malisiscore" 
-             version="10.0.9.9" 
-             url="packs/BeyondReality/files/1710mods/2.1.8/malisiscore-1.7.10-0.9.9.jar" 
-             file="malisiscore-1.7.10-0.9.9.jar" 
-             md5="d786f37772a412b4588404b451ed1cdd" 
+             version="0.10.2" 
+             url="packs/BeyondReality/files/1710mods/2.2.0/malisiscore-1.7.10-0.10.2.jar" 
+             file="malisiscore-1.7.10-0.10.2.jar" 
+             md5="809ac3eff8370bc0968ce3bebc56c158" 
              download="server"
              type="mods" 
              hidden="yes"
@@ -1971,10 +2001,10 @@
              
         <mod 
             name="MrTJPCore" 
-            version="1.0.2.4" 
-            url="packs/BeyondReality/files/1710mods/2.1.9/MrTJPCore-1.7.10-1.0.2.4-universal.jar" 
-            file="MrTJPCore-1.7.10-1.0.2.4-universal.jar" 
-            md5="8404b5162d955a25f80640b4abbcfbb5" 
+            version="1.0.3.5" 
+            url="packs/BeyondReality/files/1710mods/2.2.1/MrTJPCore-1.7.10-1.0.3.5-universal.jar" 
+            file="MrTJPCore-1.7.10-1.0.3.5-universal.jar"
+            md5="d83750ddc39b9a744a9bcbadfcb79d14" 
             download="server" 
             type="dependency" 
             colour="red"
@@ -2029,10 +2059,10 @@
         
         <mod 
             name="MineTweaker Scripts" 
-            version="2.2.0" 
-            url="packs/BeyondReality/files/1710mods/2.2.0/scripts-2.2.0.zip" 
-            file="scripts-2.2.0.zip" 
-            md5="fc9c3fbd244c4797da286c9f180e8c42" 
+            version="2.2.1"
+            url="packs/BeyondReality/files/1710mods/2.2.1/scripts-2.2.1.zip" 
+            file="scripts-2.2.1.zip" 
+            md5="5868bc7a455352a9bfc56ae0ee70d097"
             download="server"
             type="extract"
             extractto="root"
