@@ -408,7 +408,7 @@
         },
         {
             "name": "Botania",
-            "version": "1.3-138",
+            "version": "r1.3-138",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/Botania r1.3-138.jar",
             "file": "Botania r1.3-138.jar",
             "md5": "322f279f78ec7a10e5fed89c5e9741b2",
@@ -501,7 +501,7 @@
             "description": "Have you ever wanted to customize your bonus starter chest, see mod items in dungeons, or simply wanted to make your Minecraft's trunks full of junk? If so, we have the solution for you: Custom Chest Loot!"
         },
         {
-            "name": "Doom like Dungeon's",
+            "name": "Doom like Dungeons",
             "version": "1.4.0",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/DoomlikeDungeons-1.4.0-MC1.7.2.jar",
             "file": "DoomlikeDungeons-1.4.0-MC1.7.2.jar",
@@ -532,7 +532,7 @@
         },
         {
             "name": "Ender Zoo",
-            "version": "2.2.1",
+            "version": "1.0.5.14",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/EnderZoo-1.7.10-1.0.5.14.jar",
             "file": "EnderZoo-1.7.10-1.0.5.14.jar",
             "md5": "97b4aa1b9a08daceef6c4dfce25e7b66",
@@ -578,7 +578,7 @@
         },
         {
             "name": "Extra Utilities",
-            "version": "2.2.1",
+            "version": "1.2.0",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/extrautilities-1.2.0(1).jar",
             "file": "extrautilities-1.2.0(1).jar",
             "md5": "c980f95a60c5c98aabe3882ef12beda6",
@@ -654,7 +654,7 @@
         },
         {
             "name": "Framez",
-            "version": "0.2-12",
+            "version": "0.2-12-Beta",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/Framez-1.7.10-0.2-12-universal.jar",
             "file": "Framez-1.7.10-0.2-12-universal.jar",
             "md5": "4ae6a2dc39995d706c7a2c883946f2b0",
@@ -854,7 +854,7 @@
         },
         {
             "name": "MineFactory Reloaded",
-            "version": "[1.7.10]2.8.0RC5-694",
+            "version": "2.8.0RC5-694",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar",
             "file": "MineFactoryReloaded-[1.7.10]2.8.0RC5-694.jar",
             "md5": "f9bb8f22f8b0ffe2697618e35b6fbe07",
@@ -902,7 +902,7 @@
             "description": "ModTweaker is an addon for MineTweaker 3."
         },
         {
-            "name": "MachineMuse's Modular Powersuits",
+            "name": "Modular Powersuits",
             "version": "0.11.0.175",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/ModularPowersuits-0.11.0.175.jar",
             "file": "ModularPowersuits-0.11.0.175.jar",
@@ -917,7 +917,7 @@
             "description": "A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy."
         },
         {
-            "name": "MrCrayfish Furniture Mod",
+            "name": "Furniture Mod",
             "version": "3.3.5",
             "url": "packs/BeyondReality/files/1710mods/MrCrayfishFurnitureModv3.3.5(1.7.10).jar",
             "file": "MrCrayfishFurnitureModv3.3.5(1.7.10).jar",
@@ -995,7 +995,7 @@
         },
         {
             "name": "OpenBlocks",
-            "version": "1.7.10-1.3-snapshot-481",
+            "version": "1.3-snapshot-481",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/OpenBlocks-1.7.10-1.3-snapshot-481.jar",
             "file": "OpenBlocks-1.7.10-1.3-snapshot-481.jar",
             "md5": "35aa064e2d175ef4c7b7f24eaec64ec4",
@@ -1291,7 +1291,7 @@
             "description": "An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]. Build 24."
         },
         {
-            "name": "The Twilight Forest",
+            "name": "Twilight Forest",
             "version": "2.3.2",
             "url": "packs/BeyondReality/files/1710mods/twilightforest-1.7.10-2.3.2.jar",
             "file": "twilightforest-1.7.10-2.3.2.jar",
@@ -1416,7 +1416,7 @@
             "description": "This mod gives you the tools you need to push redstone to its true potential."
         },
         {
-            "name": "Advanced Solar Panel",
+            "name": "Advanced Solar Panels",
             "version": "3.5.1",
             "url": "packs/BeyondReality/files/1710mods/AdvancedSolarPanel-1.7.10-3.5.1.jar",
             "file": "AdvancedSolarPanel-1.7.10-3.5.1.jar",
@@ -1446,7 +1446,7 @@
             "description": "Compact your solars into a single block with just as much uhmp"
         },
         {
-            "name": "IC2Nuclear Control2",
+            "name": "Nuclear Control2",
             "version": "2.0.6a",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/IC2NuclearControl-2.0.6a.jar",
             "file": "IC2NuclearControl-2.0.6a.jar",
@@ -1462,7 +1462,7 @@
             "description": "It gives players the ability to build efficient monitoring and control systems for IndustrialCraft 2 Nuclear Reactors. Items in IC2 Nuclear Control can monitor temperature and conditions of the reactor (as well as other IC2 objects) and respond accordingly, whether by turning off the reactor, or by setting off a Howler Alarm to warn nearby players of their impending doom."
         },
         {
-            "name": "IHL Tools & Machines",
+            "name": "IHL Tools and Machines",
             "version": "0.521",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/ihl-tools_n_machines-0.521-1.7.10.jar",
             "file": "ihl-tools_n_machines-0.521-1.7.10.jar",
@@ -1477,7 +1477,7 @@
             "description": "Extended water physics, Sticky resin production branch, Industrial fan and much more"
         },
         {
-            "name": "IndustrialCraft 2",
+            "name": "IndustrialCraft 2-EXP",
             "version": "2.2.654",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/industrialcraft-2-2.2.654-experimental.jar",
             "file": "industrialcraft-2-2.2.654-experimental.jar",
@@ -1504,7 +1504,7 @@
             "description": "Industrial age themed expansion for Minecraft."
         },
         {
-            "name": "GalactiGreg",
+            "name": "GalacticGreg",
             "version": "0.3",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/GalacticGreg-0.3.jar",
             "file": "GalacticGreg-0.3.jar",
@@ -1519,7 +1519,7 @@
             "description": "Adds gregs ores to GalactiCraft's Dimensions"
         },
         {
-            "name": "GraviSuite",
+            "name": "GravitationSuite",
             "version": "2.0.3",
             "url": "packs/BeyondReality/files/1710mods/GraviSuite-1.7.10-2.0.3.jar",
             "file": "GraviSuite-1.7.10-2.0.3.jar",
@@ -1950,7 +1950,7 @@
         },
         {
             "name": "CoFH Core",
-            "version": "[1.7.10]3.0.0B8-36",
+            "version": "3.0.0B8-36",
             "url": "packs/BeyondReality/files/1710mods/2.2.1/CoFHCore-[1.7.10]3.0.0B8-36.jar",
             "file": "CoFHCore-[1.7.10]3.0.0B8-36.jar",
             "md5": "849e346a0888b8aee453e5b6e6ce12b7",
@@ -2128,7 +2128,7 @@
         },
         {
             "name": "OpenMods Lib",
-            "version": "1.7.10-0.6-snapshot-249",
+            "version": "0.6-snapshot-249",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/OpenModsLib-1.7.10-0.6-snapshot-249.jar",
             "file": "OpenModsLib-1.7.10-0.6-snapshot-249.jar",
             "md5": "d113eb9cfa77dff568abb51ab1a56a16",
@@ -2175,7 +2175,7 @@
             "description": "Scripts for MineTweaker"
         },
         {
-            "name": "Slick-Util",
+            "name": "SlickUtil",
             "version": "1.0",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/slick-util.jar",
             "file": "slick-util.jar",
