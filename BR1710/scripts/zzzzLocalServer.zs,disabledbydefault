@@ -8,4 +8,3 @@ recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> * 6, [<minecraft:iron_
                                                             <minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>,
                                                             <minecraft:iron_ingot>]);
 															
-recipes.remove(<BuildCraft|Factory:machineBlock>);
