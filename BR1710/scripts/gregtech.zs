@@ -99,9 +99,9 @@ Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 2, <gregtech:gt.blockores:3
 Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 2, <gregtech:gt.blockores:4324>);
 
 //Redstone
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 10, <gregtech:gt.blockores:810>);
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 10, <gregtech:gt.blockores:1810>);
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 10, <gregtech:gt.blockores:2810>);
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 10, <gregtech:gt.blockores:3810>);
-Macerator.addRecipe(<gregtech:gt.metaitem.01:5324> * 10, <gregtech:gt.blockores:4810>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5810> * 10, <gregtech:gt.blockores:810>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5810> * 10, <gregtech:gt.blockores:1810>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5810> * 10, <gregtech:gt.blockores:2810>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5810> * 10, <gregtech:gt.blockores:3810>);
+Macerator.addRecipe(<gregtech:gt.metaitem.01:5810> * 10, <gregtech:gt.blockores:4810>);
 
