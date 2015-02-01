@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<recipes>
+<recipe>
+<input>minecraft:apple</input>
+<output>minecraft:stick</output>
+<rf>10000</rf>
+</recipe>
+</recipes>

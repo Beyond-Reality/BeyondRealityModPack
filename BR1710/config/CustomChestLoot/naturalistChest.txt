@@ -1,2 +1,0 @@
-count=0-0
-contents=Forestry:candle;0;7-12;12,Forestry:scoop;0;1-1;8,Forestry:propolis;0;2-4;6,Forestry:beeCombs;0;4-12;7,Forestry:beeCombs;4;2-10;7,Forestry:beeCombs;6;1-6;7,Forestry:beePrincessGE;0;1-1;5,Forestry:beeDroneGE;0;1-2;8,Forestry:beePrincessGE;0;1-1;5,Forestry:grafter;0;1-1;8,Forestry:sapling;0;2-3;6,Forestry:sapling;0;2-3;6,Forestry:sapling;0;2-3;6,Forestry:sapling;0;1-2;4,Forestry:sapling;0;1-2;4,Forestry:pollenFertile;0;2-3;4,Forestry:pollenFertile;0;2-3;4,Forestry:pollenFertile;0;2-3;4,Forestry:pollenFertile;0;1-2;3,Forestry:pollenFertile;0;1-2;3

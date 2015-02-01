@@ -6,10 +6,25 @@ analyzer {
           ["oc:materialTransistor", nuggetGold, ""]
           ["oc:materialCircuitBoardPrinted", nuggetGold, ""]]
 }
-microcontrollerCase {
+droneCase1 {
+  input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
+          ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
+          [{block="minecraft:end_stone"}, "oc:componentBus2", {block="minecraft:end_stone"}]]
+}
+droneCase2 {
+  input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
+          ["oc:circuitChip2", "oc:microcontrollerCase2", "oc:circuitChip2"]
+          [{block="minecraft:end_stone"}, "oc:componentBus3", {block="minecraft:end_stone"}]]
+}
+microcontrollerCase1 {
   input: [[nuggetIron, "oc:circuitChip1", nuggetIron]
           [redstone, chest, redstone]
           [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+microcontrollerCase2 {
+  input: [[nuggetGold, "oc:circuitChip3", nuggetGold]
+          [blockRedstone, chest, blockRedstone]
+          [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
 }
 terminal {
   input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
@@ -96,11 +111,6 @@ luaBios {
   type: shapeless
   input: ["oc:eeprom", book]
 }
-
-abstractBusCard {
-  input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
-          ["", "oc:materialCard", ""]]
-}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
@@ -138,6 +148,15 @@ linkedCard {
           ["oc:lanCard", "oc:materialInterweb", "oc:lanCard"]
           ["oc:circuitChip3", "", "oc:circuitChip3"]]
   output: 2 # Note: all resulting cards are linked to each other.
+}
+
+abstractBusCard {
+  input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
+          ["", "oc:materialCard", ""]]
+}
+worldSensorCard {
+  input: [[{item="GalacticraftCore:item.sensorLens"}, "oc:circuitChip2", ""]
+          ["", "oc:materialCard", ""]]
 }
 
 angelUpgrade {
@@ -204,6 +223,11 @@ inventoryControllerUpgrade {
   input: [[ingotGold, "oc:analyzer", ingotGold]
           [dispenser, "oc:circuitChip2", craftingPiston]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+leashUpgrade {
+  input: [[ingotIron, lead, ingotIron]
+          [lead, "oc:materialCU", lead]
+          [ingotIron, lead, ingotIron]]
 }
 navigationUpgrade {
   input: [[ingotGold, compass, ingotGold]

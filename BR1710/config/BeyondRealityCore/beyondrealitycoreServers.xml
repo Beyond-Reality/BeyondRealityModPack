@@ -31,11 +31,6 @@
 	</server>
 	
 	<server>
-	<name>Donuts BR Whitelist-app http://goo.gl/Ih3wvQ</name>
-	<ip>192.99.36.126:25571</ip>
-	</server>
-	
-	<server>
 	<name>www.devcoftb.com</name>
 	<ip>br.devcoftb.net</ip>
 	</server>
