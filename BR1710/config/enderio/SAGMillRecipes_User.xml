@@ -20,6 +20,33 @@ found in the core file.
  
 -->
 
+<!--
+
+Version: 0.1-Test
+With this config there will be no Overpowered SAGMill recipes (1 Copper => 4 Copper Dust & 2 Gold) anymore,
+just regular Ore > Crushed > Impure chain of processing. However, I love EnderIO, and I love Gregtech, 
+so why not combine both?
+
+So far:
+- 2 new GrindingBalls: Diamond Head (Steel + Diamond) and Tungsten Head (Tungsten + Diamond)
+- Flint only saves power
+- DarkSteel Balls give the same base ouput, but a higher chance of bonus, which results in a machine that works fast,
+and produces the same output as any macerator (Needs to be verified!)
+- Starting with Diamond and Tungsten Grinding heads (They last for a while... values have to be changed maybe)
+you will get a chance of getting even more output from your ore.
+
+So basicly, if you have access to one or both grinding heads, you can choose to:
+- Throw your ores in you pulverizer and get 2x the base ore + 10% chance for side-products
+or
+- Throw your ores in the SAGMill with Tungsten/Diamond head and get 2,5 to 3 times the base ores, but without side-products.
+
+IMHO, this system should pay off for both sides (EnderIO and Gregtech people), as both ways are somewhat usefull, but they do not bypass each other
+
+Again, this is a first draft, and the numbers and chances are most probably way too high/too low.
+Also, just a few ores are available, maybe I'll add the rest later
+-->
+
+
 <SAGMillRecipes>
 
 
@@ -71,11 +98,479 @@ found in the core file.
     </recipe>
   </recipeGroup>
 
+  <!-- Recipe group for Ores > CrushedOres -->
+  <!-- Worse than macerator and any other machine -->
+  <!-- So you *need* to add grinding balls/heads to the machine to make it compareable -->
+  <recipeGroup name="GregTech_anti_OP_CrushedOres">
+    <recipe name="Crushed_Nickel" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreNickel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedNickel"/>
+		<itemStack oreDictionary="crushedNickel" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Lead" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreLead" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedLead" number="1" />
+		<itemStack oreDictionary="crushedLead" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Tin" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreTin" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedTin" number="1" />
+		<itemStack oreDictionary="crushedTin" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Silver" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedSilver" number="1" />
+		<itemStack oreDictionary="crushedSilver" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Copper" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreCopper" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedCopper" number="1" />
+		<itemStack oreDictionary="crushedCopper" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Redstone" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreRedstone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedRedstone" number="5" />
+		<itemStack oreDictionary="crushedRedstone" number="3" chance="0.5" />
+		<itemStack oreDictionary="crushedRedstone" number="2" chance="0.3" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Osmium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreOsmium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedOsmium" number="1" />
+		<itemStack oreDictionary="crushedOsmium" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Osmium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreOsmium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedOsmium" number="1" />
+		<itemStack oreDictionary="crushedOsmium" number="1" chance="0.5" />
+      </output>
+    </recipe>
+    <recipe name="Crushed_Gold" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedGold" number="1" />
+		<itemStack oreDictionary="crushedGold" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Iron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedIron" number="1" />
+		<itemStack oreDictionary="crushedIron" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Zinc" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedZinc" number="1" />
+		<itemStack oreDictionary="crushedZinc" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_AstralSilver" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreAstralSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedAstralSilver" number="1" />
+		<itemStack oreDictionary="crushedAstralSilver" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Platinum" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="orePlatinum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedPlatinum" number="1" />
+		<itemStack oreDictionary="crushedPlatinum" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_ShadowIron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreShadowIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedShadowIron" number="1" />
+		<itemStack oreDictionary="crushedShadowIron" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Adamantium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreAdamantium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedAdamantium" number="1" />
+		<itemStack oreDictionary="crushedAdamantium" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Midasium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreMidasium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedMidasium" number="1" />
+		<itemStack oreDictionary="crushedMidasium" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Mithril" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreMithril" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedMithril" number="1" />
+		<itemStack oreDictionary="crushedMithril" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Manganese" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreManganese" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedManganese" number="1" />
+		<itemStack oreDictionary="crushedManganese" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_DeepIron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreDeepIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedDeepIron" number="1" />
+		<itemStack oreDictionary="crushedDeepIron" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	
+	<recipe name="Crushed_Sulfur" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreSulfur" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedSulfur" number="1" />
+		<itemStack oreDictionary="crushedSulfur" number="1"  chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_BlazeRod" energyCost="3600"> 
+      <input>
+        <itemStack oreDictionary="itemBlazeRod" />
+      </input>
+      <output>
+        <itemStack oreDictionary="itemBlazePowder" number="3" />
+		<itemStack oreDictionary="itemBlazePowder" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Diamond" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreDiamond" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedDiamond" number="1" />
+		<itemStack oreDictionary="crushedDiamond" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Lapis" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreLapis" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedLapis" number="8" />
+		<itemStack oreDictionary="crushedLapis" number="4" chance="0.5" />
+		<itemStack oreDictionary="gemLazurite" number="1" chance="0.4" />
+		<itemStack oreDictionary="dustStone" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Quartz" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreQuartz" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedNetherQuartz" number="3" />
+		<itemStack oreDictionary="crushedNetherQuartz" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	
+	<recipe name="Crushed_CoalOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="oreCoal" />
+      </input>
+      <output>
+        <itemStack oreDictionary="crushedCoal" number="1" />
+		<itemStack oreDictionary="crushedCoal" number="1" chance="0.5" />
+      </output>
+    </recipe>
+	<recipe name="Crushed_Coal" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="coal" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustCoal" number="1" />
+		<itemStack oreDictionary="dustCoal" number="1" chance="0.5" />
+      </output>
+    </recipe>
+
+</recipeGroup>
+
+
+
+<!-- Recipe group for Crushed-Ores > ImpureDust -->
+<!-- Exactly the same as using a macerator -->
+  <recipeGroup name="GregTech_anti_OP_ImpureDusts">
+    <recipe name="Impure_Nickel" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedNickel" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureNickel" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Lead" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedLead" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureLead" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Tin" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedTin" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureTin" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Silver" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureSilver" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Copper" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedCopper" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureCopper" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Redstone" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedRedstone" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureRedstone" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Osmium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedOsmium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureOsmium" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Osmium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedOsmium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureOsmium" number="1" />
+      </output>
+    </recipe>
+    <recipe name="Impure_Gold" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedGold" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureGold" number="1" />
+      </output>
+    </recipe>
+	    <recipe name="Impure_Iron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureIron" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Zinc" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedZinc" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureZinc" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_AstralSilver" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedAstralSilver" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureAstralSilver" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Platinum" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedPlatinum" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpurePlatinum" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_ShadowIron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedShadowIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureShadowIron" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Adamantium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedAdamantium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureAdamantium" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Midasium" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedMidasium" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureMidasium" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Mithril" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedMithril" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureMithril" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Manganese" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedManganese" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureManganese" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_DeepIron" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedDeepIron" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureDeepIron" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Sulfur" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedSulfur" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureSulfur" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Diamond" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedDiamond" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureDiamond" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Lapis" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedLapis" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureLapis" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_Quartz" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedNetherQuartz" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureNetherQuartzLapis" number="1" />
+      </output>
+    </recipe>
+	<recipe name="Impure_CoalOre" energyCost="3600">
+      <input>
+        <itemStack oreDictionary="crushedCoal" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustImpureCoal" number="1" />
+      </output>
+    </recipe>
+</recipeGroup>
+  
 <grindingBalls>     
-    <grindingBall grindingMultiplier="1.5" chanceMultiplier="2" powerMultiplier="0.7" durationRF="100000">
+    <!-- Flint lasts longer, but does only power saving -->
+    <grindingBall id="Flint" grindingMultiplier="1" chanceMultiplier="1" powerMultiplier="0.85"
+      durationRF="600000">
+      <itemStack modID="minecraft" itemName="flint" />
+    </grindingBall>
+	
+	<!-- DarkSteelBalls are rather expensive for new players, so i'd like to keep them. 15% change increase for bonus output, and they last longer  -->
+    <grindingBall id="DarkSteelBall" grindingMultiplier="1" chanceMultiplier="1.15" powerMultiplier="0.7" durationRF="200000">
       <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="7" />
     </grindingBall>
-    
+
+	<!-- Diamond grinding head. Not early game, about the time when you reach dark steel balls. But more expensive due diamonds -->
+	<!-- 1.000.000 RF is about 5 Stacks worth of ore -->
+	<!-- 20% chance on getting more main output, 40% chance on getting more bonus. Should be equal/slightly better than macerator, but still not as good as -->
+	<!-- pulverizer -->
+    <grindingBall id="DiamondHead" grindingMultiplier="1.2" chanceMultiplier="1.4" powerMultiplier="0.6" durationRF="1000000">
+      <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="32722" />
+    </grindingBall>
+
+	<!-- Tungsten/Diamond grinding head. Mid/Lategame. -->
+	<!-- 3.000.000 RF is about 15 Stacks worth of ore -->
+	<!-- 40% chance on getting more main output, 50% chance on getting more bonus. -->
+	<!-- Should be compareable to pulverizer (still no side-ore output!) but as possible alternative for those who don't want to build a HV setup just for -->
+	<!-- one machine -->
+    <grindingBall id="TungstenHead" grindingMultiplier="1.4" chanceMultiplier="1.5" powerMultiplier="0.5" durationRF="3000000">
+      <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="32723" />
+    </grindingBall>
     <excludes>
       <itemStack modID="minecraft" itemName="glowstone" />
       <itemStack modID="minecraft" itemName="wool" itemMeta="*"/>   
@@ -93,8 +588,8 @@ found in the core file.
 	  <itemStack oreDictionary="blockLead" />
 	  <itemStack oreDictionary="blockTin" />
 	  <itemStack oreDictionary="blockCopper" />
+
     </excludes>
-    
   </grindingBalls>  
 
 </SAGMillRecipes>
