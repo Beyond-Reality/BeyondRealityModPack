@@ -14,7 +14,7 @@
 	<name>Suterusu.com</name>
 	<ip>beyondreality.suterusu.com</ip>
 	</server>
-
+	
 	<server>
 	<name>Whitelist-app www.otegamers.com</name>
 	<ip>BR.OTEGamers.com</ip>
@@ -23,7 +23,6 @@
 	<server>
 	<name>Whitelist-app http://www.herdofsquirrels.com/</name>
 	<ip>bopple.herdofsquirrels.com</ip>
-	</server>
-
+	</server>	
 	
 </root>

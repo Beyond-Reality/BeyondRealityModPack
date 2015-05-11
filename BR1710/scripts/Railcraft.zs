@@ -80,17 +80,17 @@ val oreICIridium											  = <IC2:itemOreIridium>;
 
 // World Anchor fix
 
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
+//recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
 
 // Rolling Machine
-recipes.remove(<Railcraft:tile.railcraft.machine.alpha:8>);
-recipes.addShaped(<Railcraft:tile.railcraft.machine.alpha:8>, [[<ore:plateSteel>, <Railcraft:tile.railcraft.machine.beta:9>, <ore:plateSteel>],
+recipes.remove(<Railcraft:machine.alpha:8>);
+recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:plateSteel>, <Railcraft:machine.beta:9>, <ore:plateSteel>],
                                                               [<ore:circuitBasic>, <ore:craftingPiston> ,<ore:circuitBasic>],
                                                               [<ore:plateSteel>, <minecraft:anvil>, <ore:plateSteel>]]);
 
-// Detector - Energy
-recipes.remove(<Railcraft:tile.railcraft.detector:10>);
-recipes.addShaped(<Railcraft:tile.railcraft.detector:10>, [[<ore:plateTin>,<ore:plateTin>,<ore:plateTin>],
+// Detector - Energy 	
+recipes.remove(<Railcraft:detector:10>);
+recipes.addShaped(<Railcraft:detector:10>, [[<ore:plateTin>,<ore:plateTin>,<ore:plateTin>],
                                                             [<ore:plateTin>,<minecraft:stone_pressure_plate>,<ore:plateTin>],
                                                             [<ore:plateTin>,<ore:plateTin>,<ore:plateTin>]]);
 
@@ -130,3 +130,8 @@ RockCrusher.addRecipe(marsosmium, 		false, false, [crushedGTOsmium * 2,			oreICI
 RockCrusher.addRecipe(marsnaquadah, 	false, false, [crushedGTNaquadah * 2,		dustGTEnrichedNaquadah],	[1.0, 0.1]);
 RockCrusher.addRecipe(marsruby, 		false, false, [crushedGTRuby * 2,			dustGTChrome], 				[1.0, 0.1]);
 RockCrusher.addRecipe(marsnaquadria, 	false, false, [crushedGTNaquadria * 2,		dustGTNaquadria], 			[1.0, 0.1]);
+
+recipes.remove(<Railcraft:cart.loco.steam.solid>);
+recipes.addShaped(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}) * 1,[[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ]
+,[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ],
+[<minecraft:iron_bars>,<minecraft:minecart> ,<minecraft:minecart> * 1]]);

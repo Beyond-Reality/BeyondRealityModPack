@@ -6,6 +6,37 @@ analyzer {
           ["oc:materialTransistor", nuggetGold, ""]
           ["oc:materialCircuitBoardPrinted", nuggetGold, ""]]
 }
+texturePicker {
+  input: [[dyeBlack, dyeRed, dyeGreen]
+          [dyeBlue, "oc:analyzer", dyePurple]
+          [dyeYellow, dyeMagenta, dyeWhite]]
+}
+manual {
+  type: shapeless
+  input: [book, "oc:circuitChip1"]
+}
+wrench {
+  input: [[ingotIron, "", ingotIron]
+          ["", "oc:circuitChip2", ""],
+          ["", ingotIron, ""]]
+}
+lootDisks: [
+  {
+    name: OpenOS
+    type: shapeless
+    input: ["oc:floppy", "oc:manual"]
+  },
+  {
+    name: OPPM
+    type: shapeless
+    input: ["oc:floppy", "oc:materialInterweb"]
+  }
+]
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", "oc:manual"]
+}
+
 droneCase1 {
   input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
           ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
@@ -31,10 +62,15 @@ terminal {
           ["oc:circuitChip3", "oc:screen2", "oc:wlanCard"]
           [nuggetIron, "oc:keyboard", nuggetIron]]
 }
-tabletCase {
+tabletCase1 {
   input: [[ingotGold, button, ingotGold]
           ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+tabletCase2 {
+  input: [["oc:circuitChip2", button, ingotGold]
+          ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 
 server1 {
@@ -102,14 +138,6 @@ hdd3 {
   input: [["oc:circuitChip3", "oc:materialDisk", diamond]
           ["oc:materialCircuitBoardPrinted", "oc:materialDisk", craftingPiston]
           ["oc:circuitChip3", "oc:materialDisk", diamond]]
-}
-openOS {
-  type: shapeless
-  input: ["oc:floppy", book]
-}
-luaBios {
-  type: shapeless
-  input: ["oc:eeprom", book]
 }
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
@@ -216,12 +244,12 @@ generatorUpgrade {
 }
 inventoryUpgrade {
   input: [[plankWood, hopper, plankWood]
-          [dispenser, chest, craftingPiston]
+          [dropper, chest, craftingPiston]
           [plankWood, "oc:circuitChip1", plankWood]]
 }
 inventoryControllerUpgrade {
   input: [[ingotGold, "oc:analyzer", ingotGold]
-          [dispenser, "oc:circuitChip2", craftingPiston]
+          [dropper, "oc:circuitChip2", craftingPiston]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
 }
 leashUpgrade {
@@ -303,6 +331,8 @@ nuggetIron {
   input: ingotIron
   output: 9
 }
+cuttingWire = false
+acid = false
 ingotIron {
   input: [[nuggetIron, nuggetIron, nuggetIron],
           [nuggetIron, nuggetIron, nuggetIron],
@@ -312,6 +342,26 @@ disk {
   input: [["", nuggetIron, ""]
           [nuggetIron, "", nuggetIron]
           ["", nuggetIron, ""]]
+}
+chamelium {
+  input: [[gravel, redstone, gravel],
+          [redstone, {item=coal, subID=1}, redstone],
+          [gravel, water_bucket, gravel]]
+  output: 16
+}
+chameliumBlock {
+  input: [["oc:chamelium", "oc:chamelium", "oc:chamelium"],
+          ["oc:chamelium", "oc:chamelium", "oc:chamelium"],
+          ["oc:chamelium", "oc:chamelium", "oc:chamelium"]]
+}
+inkCartridgeEmpty {
+  input: [[nuggetIron, dispenser, nuggetIron],
+          ["oc:materialTransistor", bucket, "oc:materialTransistor"],
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+inkCartridge {
+  type: shapeless
+  input: [dyeCyan, dyeMagenta, dyeYellow, dyeBlack, "oc:inkCartridgeEmpty"]
 }
 
 buttonGroup {
@@ -393,6 +443,7 @@ rawCircuitBoard {
   type: shapeless
   input: [nuggetGold, clay, dyeGreen]
 }
+circuitBoard = false
 printedCircuitBoard {
   type: furnace
   input: "oc:materialCircuitBoardRaw"
@@ -488,6 +539,11 @@ motionSensor {
   input: [[ingotGold, daylightDetector, ingotGold]
           [daylightDetector, "oc:cpu2", daylightDetector]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+printer {
+  input: [[ingotIron, hopper, ingotIron]
+          [craftingPiston, "oc:circuitChip3", craftingPiston]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 powerConverter {
   input: [[ingotIron, "oc:cable", ingotIron]
