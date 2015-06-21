@@ -231,7 +231,7 @@ recipes.addShaped(titaniumLeggings, [
 recipes.remove(compressedMeteoricIron);
     
 # GT/IC2 Integration    
-Macerator.addRecipe(rawMeteoricIron * 2, meteorFallen);
+//Macerator.addRecipe(rawMeteoricIron * 2, meteorFallen);
 ImplosionCompressor.addRecipe([compressedCopper, tinyPileDarkAshes], GTplateCopper * 2, 2);
 ImplosionCompressor.addRecipe([compressedTin, tinyPileDarkAshes], GTplateTin * 2, 2);
 ImplosionCompressor.addRecipe([compressedAluminium, tinyPileDarkAshes], GTplateAluminium * 2, 2);

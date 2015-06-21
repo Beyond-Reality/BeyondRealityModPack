@@ -7,8 +7,8 @@ var arm = <gregtech:gt.metaitem.01:32650>;
 
 
 #BC Quarry
-recipes.remove(<BuildCraft|Factory:machineBlock>);
-Assembler.addRecipe(<BuildCraft|Factory:machineBlock>, gear *4, <gregtech:gt.metaitem.01:32650>, 1600, 2);
+recipes.remove(<BuildCraft|Builders:machineBlock>);
+Assembler.addRecipe(<BuildCraft|Builders:machineBlock>, gear *4, <gregtech:gt.metaitem.01:32650>, 1600, 2);
 
 # BC Pump
 recipes.remove(<BuildCraft|Factory:miningWellBlock>);
