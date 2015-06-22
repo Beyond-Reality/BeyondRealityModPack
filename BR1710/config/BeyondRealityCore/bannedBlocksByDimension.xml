@@ -23,6 +23,7 @@
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
 	<name>EnderIO:blockTelePad</name>
+	<name>ihl:tditBlock</name>
 </dimension-id>
 
 <dimension-id DimensionId="-29">
@@ -46,6 +47,7 @@
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
 	<name>EnderIO:blockTelePad</name>
+	<name>ihl:tditBlock</name>
 </dimension-id>
 
 <dimension-id DimensionId="-30">
@@ -69,6 +71,7 @@
 	<name>MineFactoryReloaded:machine.2:7</name>
 	<name>ExtraUtilities:dark_portal:2</name>
 	<name>EnderIO:blockTelePad</name>
+	<name>ihl:tditBlock</name>
 </dimension-id>
 
 </root>
