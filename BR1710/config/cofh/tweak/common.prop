@@ -1,0 +1,23 @@
+# If true, EntityItems will attempt to stack in-world. This overrides the setting in CoFHCore.
+StackItems=true
+
+# If true, Entities will attempt to collide/push with each other.
+EntityCollisions=true
+
+# If true, textures will animate. The setting in CoFHCore overrides this.
+AnimatedTextures=true
+
+# If true, the client will perform in-depth lighting on chunks and the server will redundantly update lighting near players.
+ChunkLighting=false
+
+# If true, entities will be aggressively culled from rendering when tightly packed
+AgressiveCulling=true
+
+# If true, entities will be aggressively culled from rendering when far away
+DistantCulling=false
+
+# If true, the client will not process lighting updates when blocks are changed via packets
+FastClientSetBlock=false
+
+# If true, the server-side AI will not process as frequently. On heavily burdened servers this will manifest as mobs not doing anything every few ticks
+AgressiveAIReduction=false
