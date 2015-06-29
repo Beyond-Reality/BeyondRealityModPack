@@ -130,5 +130,5 @@ Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_doo
 val tungstate = <ore:oreTungstate>;
 tungstate.add(<beyondrealitycore:customBlock_23>);
 
-
+Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
 
