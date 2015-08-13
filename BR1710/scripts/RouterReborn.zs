@@ -11,6 +11,7 @@ recipes.remove(<RouterReborn:routerbarrel>);
 recipes.remove(<RouterReborn:routerbarrel:1>);
 recipes.remove(<RouterReborn:routerbarrel:2>);
 recipes.remove(<RouterReborn:pickaxe>);
+recipes.remove(<RouterReborn:powerConverter>);
 
 recipes.remove(<RouterReborn:routercable>);
 recipes.addShaped(<RouterReborn:routercable> *8, [[<gregtech:gt.blockmachines:5602>,<minecraft:chest>,<gregtech:gt.blockmachines:5602>],[],[]]);
