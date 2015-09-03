@@ -10,8 +10,9 @@
         <itemStack modID="minecraft" itemName="chicken" slot="0" multiplier="0.75"/>
         <itemStack modID="minecraft" itemName="beef" slot="0" multiplier="0.75"/>
         <itemStack modID="minecraft" itemName="porkchop" slot="0" multiplier="0.75"/>
-		<itemStack modID="MineFactoryReloaded" itemName="item.mfr.meat.ingot.raw" slot="0" multiplier="1.75"/>
-                
+		<itemStack modID="MineFactoryReloaded" itemName="meat.ingot.cooked" slot="0" multiplier="1.75"/>
+		<itemStack modID="MineFactoryReloaded" itemName="meat.ingot.raw" slot="0" multiplier="1.75"/>
+
         <itemStack modID="minecraft" itemName="sugar" slot="1" multiplier="1"/>        
         <itemStack modID="minecraft" itemName="brown_mushroom" slot="1" multiplier="1.5"/>     
         <itemStack modID="minecraft" itemName="red_mushroom" slot="1" multiplier="1.5"/>
@@ -23,8 +24,8 @@
 		<itemStack modID="Forestry" itemName="propolis" slot="1" multiplier="1.5"/>
 		
         
-        <fluidStack name="fluid.honey" multiplier="0.75"/>
-		<fluidStack name="fluid.juice" multiplier="0.50"/>
+        <fluidStack name="honey" multiplier="0.75"/>
+		<fluidStack name="juice" multiplier="0.50"/>
         <fluidStack name="water" multiplier="0.25"/>
       </input>      
       <output>
@@ -79,6 +80,5 @@
     </recipe>
    
   </recipeGroup>
-  
-  
+   
 </VatRecipes>   
