@@ -80,6 +80,14 @@ abstractBusCard {
   input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
           ["", "oc:materialCard", ""]]
 }
+dataCard2 {
+  input: [[nuggetGold, "oc:cpu1", "oc:circuitChip3"]
+          ["", "oc:dataCard1", ""]]
+}
+dataCard3 {
+  input: [[diamond, "oc:cpu2", "oc:ram5"]
+          ["", "oc:dataCard2", ""]]
+}
 graphicsCard1 {
   input: [["oc:circuitChip1", "oc:materialALU", "oc:ram1"]
           ["", "oc:materialCard", ""]]
@@ -355,14 +363,14 @@ powerDistributor {
 serverRack {
   input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
           [fenceIron, chest, fenceIron]
-          ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
+          ["oc:relay", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
   input: [[ingotIron, "oc:circuitChip3", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-switch {
+relay {
   input: [[ingotIron, "oc:cable", ingotIron]
           ["oc:cable", "oc:lanCard", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]

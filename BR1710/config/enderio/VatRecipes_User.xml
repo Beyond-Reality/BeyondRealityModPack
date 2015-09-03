@@ -20,11 +20,11 @@
 		<itemStack modID="minecraft" itemName="fermented_spider_eye" slot="1" multiplier="2"/>
 		<itemStack modID="Forestry" itemName="fertilizerCompound" slot="1" multiplier="1"/>
 		<itemStack modID="IC2" itemName="itemFertilizer" slot="1" multiplier="1"/>
-		<itemStack modID="Forestry" itemName="propolis:1" slot="2" multiplier="1.5"/>
+		<itemStack modID="Forestry" itemName="propolis" slot="1" multiplier="1.5"/>
 		
         
-        <fluidStack name="honey" multiplier="0.75"/>
-		<fluidStack name="Fruit Juice" multiplier="0.50"/>
+        <fluidStack name="fluid.honey" multiplier="0.75"/>
+		<fluidStack name="fluid.juice" multiplier="0.50"/>
         <fluidStack name="water" multiplier="0.25"/>
       </input>      
       <output>

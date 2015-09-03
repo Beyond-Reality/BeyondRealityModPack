@@ -79,14 +79,18 @@ val oreICIridium											  = <IC2:itemOreIridium>;
 // Railcraft Recipe Changes
 
 // World Anchor fix
-
-//recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
-
-// Rolling Machine
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:plateSteel>, <Railcraft:machine.beta:9>, <ore:plateSteel>],
                                                               [<ore:circuitBasic>, <ore:craftingPiston> ,<ore:circuitBasic>],
                                                               [<ore:plateSteel>, <minecraft:anvil>, <ore:plateSteel>]]);
+
+//recipes.remove(<Railcraft:tile.railcraft.machine.alpha>);
+
+
+recipes.remove(<Railcraft:machine.alpha:13>);
+recipes.addShaped(<Railcraft:machine.alpha:13>, [[<ore:plateIron>, <minecraft:obsidian>, <ore:plateIron>],
+                                                              [<ore:gemDiamond>, <minecraft:ender_pearl> ,<ore:gemDiamond>],
+                                                              [<ore:plateIron>,  <minecraft:obsidian>, <ore:plateIron>]]);
 
 // Detector - Energy 	
 recipes.remove(<Railcraft:detector:10>);
