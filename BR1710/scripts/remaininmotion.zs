@@ -10,21 +10,25 @@ var redstone = <minecraft:redstone_block>;
 var steel = <ore:blockIron>;
 var plate = <ore:plateIron>;
 
-recipes.remove(cross);
+//Must remove recipes before adding them back... Recipe.remove appears to remove all instances of the recipe.
+recipes.remove(cross);	
+
+//Not nessisary, cause the above line removes all recipes for this block.
+//recipes.remove(panel);
+//recipes.remove(framework);
+
 NEI.addEntry(cross.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
 recipes.addShaped(cross, [
 	[rod, null, rod],
 	[null, rod, null],
-	[rod, null, rod]]);	
-	
-recipes.remove(panel);
+	[rod, null, rod]]);
+
 NEI.addEntry(panel.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
 recipes.addShaped(panel, [
 	[rod, rod, rod],
 	[rod, cross, rod],
 	[rod, rod, rod]]);	
 
-recipes.remove(framework);
 NEI.addEntry(framework.withTag({display: {Name: "Survivalist Gen", Lore: ["Beyond Reality,", "Balanced"]}}));	
 recipes.addShaped(framework, [
 	[panel, null, panel],
