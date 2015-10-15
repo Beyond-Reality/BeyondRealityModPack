@@ -62,27 +62,27 @@ recipes.addShaped(basicPlate, [
 	[plateMagnalium, plateMagnalium, plateMagnalium],
 	[<gregtech:gt.metatool.01:16>.transformDamage(), circuitBasic, <gregtech:gt.metatool.01:22>.transformDamage()],
 	[plateMagnalium, plateMagnalium, plateMagnalium]]);
-	
+
 recipes.addShaped(advancePlate, [
 	[plateAlloyIridium, plateAlloyIridium, plateAlloyIridium],
 	[<gregtech:gt.metatool.01:16>.transformDamage(), circuitAdvanced, <gregtech:gt.metatool.01:22>.transformDamage()],
-	[plateAlloyIridium, plateAlloyIridium, plateAlloyIridium]]);	
+	[plateAlloyIridium, plateAlloyIridium, plateAlloyIridium]]);
 
 recipes.addShaped(controlCircuit, [
 	[wiring, circuitAdvanced, plateElectrum],
 	[circuitData, circuitMaster, circuitAdvanced],
-	[plateElectrum, <gregtech:gt.metatool.01:22>.transformDamage(), wiring]]);	
+	[plateElectrum, <gregtech:gt.metatool.01:22>.transformDamage(), wiring]]);
 
 recipes.addShaped(laserEmitter, [
 	[crystalQuartzite, circuitGood, crystalQuartzite],
 	[craftingLensRed, craftingLensBlue, craftingLensGreen],
-	[crystalQuartzite, <gregtech:gt.metatool.01:22>.transformDamage(), crystalQuartzite]]);	
-	
+	[crystalQuartzite, <gregtech:gt.metatool.01:22>.transformDamage(), crystalQuartzite]]);
+
 recipes.addShaped(table, [
 	[circuitAdvanced, plateGlass, circuitAdvanced],
 	[plateSteel, plateEmerald, plateSteel],
-	[plateSteel, blockSteel, plateSteel]]);		
-	
+	[plateSteel, blockSteel, plateSteel]]);
+
 recipes.addShaped(helm, [
 	[plateAluminium, plateGlass, plateAluminium],
 	[wiring, circuitData, wiring],
@@ -91,69 +91,69 @@ recipes.addShaped(helm, [
 recipes.addShaped(chest, [
 	[plateAluminium, wiring, plateAluminium],
 	[plateAluminium, circuitData, plateAluminium],
-	[plateAluminium, <gregtech:gt.metatool.01:16>.transformDamage(), plateAluminium]]);		
-	
+	[plateAluminium, <gregtech:gt.metatool.01:16>.transformDamage(), plateAluminium]]);
+
 recipes.addShaped(boots, [
 	[wiring, null, wiring],
 	[plateAluminium, circuitData, plateAluminium],
-	[null, <gregtech:gt.metatool.01:16>.transformDamage(), null]]);	
+	[null, <gregtech:gt.metatool.01:16>.transformDamage(), null]]);
 
 recipes.addShaped(legs, [
 	[wiring, null, wiring],
 	[plateAluminium, circuitData, plateAluminium],
-	[plateAluminium, <gregtech:gt.metatool.01:16>.transformDamage(), plateAluminium]]);	
-	
+	[plateAluminium, <gregtech:gt.metatool.01:16>.transformDamage(), plateAluminium]]);
+
 recipes.addShaped(fist, [
 	[plateAluminium, <gregtech:gt.metatool.01:16>.transformDamage(), plateAluminium],
 	[plateAluminium, wiring, plateAluminium],
-	[null, circuitData, null]]);	
-	
+	[null, circuitData, null]]);
+
 recipes.addShaped(wiring * 4, [
 	[wireAnnealedCopper, wireAnnealedCopper, wireAnnealedCopper],
 	[wireSilver, wireSilver, wireSilver],
-	[wireAnnealedCopper, <gregtech:gt.metatool.01:16>.transformDamage(), wireAnnealedCopper]]);	
+	[wireAnnealedCopper, <gregtech:gt.metatool.01:16>.transformDamage(), wireAnnealedCopper]]);
 
 recipes.addShaped(Parachute, [
 	[blockWool, blockWool, blockWool],
 	[minecraftstring, null, minecraftstring],
-	[plateAlloyCarbon, cellNitrogen, plateAlloyCarbon]]);	
+	[plateAlloyCarbon, cellNitrogen, plateAlloyCarbon]]);
 
 recipes.addShaped(componentLVCapacitor, [
 	[plateSteel, <gregtech:gt.metatool.01:16>.transformDamage(3), plateSteel],
 	[batteryElite, circuitData, batteryElite],
-	[plateSteel, plateSteel, plateSteel]]);	
-	
+	[plateSteel, plateSteel, plateSteel]]);
+
 recipes.addShaped(componentMVCapacitor, [
 	[plateMagnalium, <gregtech:gt.metatool.01:16>.transformDamage(3), plateMagnalium],
 	[batteryMaster, circuitData, batteryMaster],
-	[plateMagnalium, plateMagnalium, plateMagnalium]]);	
+	[plateMagnalium, plateMagnalium, plateMagnalium]]);
 
 recipes.addShaped(componentHVCapacitor, [
 	[plateChrome, <gregtech:gt.metatool.01:16>.transformDamage(3), plateChrome],
-	[batteryUltimate, circuitData, batteryUltimate],
+	[<gregtech:gt.metaitem.01:32597>, circuitData, <gregtech:gt.metaitem.01:32597>],
 	[plateChrome, plateChrome, plateChrome]]);
 
 recipes.addShaped(componentSolenoid, [
 	[wiring, <gregtech:gt.metatool.01:22>.transformDamage(), wiring],
 	[wiring, plateSteel, wiring],
-	[wiring, plateSteel, wiring]]);	
-		
+	[wiring, plateSteel, wiring]]);
+
 recipes.addShaped(componentGliderWing, [
 	[<gregtech:gt.metatool.01:22>.transformDamage(), plateMagnalium, circuitAdvanced],
 	[plateMagnalium, plateAlloyCarbon, componentSolenoid],
-	[plateMagnalium, null, <gregtech:gt.metatool.01:16>.transformDamage()]]);		
-	
+	[plateMagnalium, null, <gregtech:gt.metatool.01:16>.transformDamage()]]);
+
 recipes.addShaped(componentServo, [
 	[plateSteel, <gregtech:gt.metatool.01:22>.transformDamage(), plateSteel],
 	[circuitAdvanced, componentSolenoid, circuitAdvanced],
-	[plateSteel, plateBrass, plateSteel]]);	
-	
+	[plateSteel, plateBrass, plateSteel]]);
+
 recipes.addShaped(componentFieldEmitter, [
 	[plateAlloyIridium, componentSolenoid, plateAlloyIridium],
 	[wireSuperconductor, circuitMaster, wireSuperconductor],
-	[plateAlloyIridium, componentSolenoid, plateAlloyIridium]]);	
+	[plateAlloyIridium, componentSolenoid, plateAlloyIridium]]);
 
 recipes.addShaped(componentIonThruster, [
 	[plateAlloyIridium, wireSuperconductor, plateAlloyIridium],
 	[componentFieldEmitter, componentHVCapacitor, componentFieldEmitter],
-	[pipeRestrictiveMediumOsmium, <gregtech:gt.metatool.01:16>.transformDamage(), pipeRestrictiveMediumOsmium]]);		
+	[pipeRestrictiveMediumOsmium, <gregtech:gt.metatool.01:16>.transformDamage(), pipeRestrictiveMediumOsmium]]);
