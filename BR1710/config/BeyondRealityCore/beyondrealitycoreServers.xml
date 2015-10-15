@@ -10,4 +10,9 @@
 	<ip>br.digtobuild.com</ip>
 	</server>
 	
+	<server>
+	<name>Craftaga's Beyond Reality</name>
+	<ip>play.minecraftbeyondreality.com</ip>
+	</server>
+	
 </root>
