@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <root>
 	<server>
-	<name>Beyond Reality</name>
-	<ip>beyondrealitypack.com</ip>
+	<name>Beyond Reality Whitelist</name>
+	<ip>br.beyondrealitypack.com</ip>
 	</server>
 
 	<server>
 	<name>www.DigToBuild.com</name>
 	<ip>br.digtobuild.com</ip>
 	</server>
-	
-	<server>
-	<name>Suterusu.com</name>
-	<ip>beyondreality.suterusu.com</ip>
-	</server>
-	
-	<server>
-	<name>Whitelist-app www.otegamers.com</name>
-	<ip>BR.OTEGamers.com</ip>
-	</server>
-	
-	<server>
-	<name>Whitelist-app http://www.herdofsquirrels.com/</name>
-	<ip>bopple.herdofsquirrels.com</ip>
-	</server>	
 	
 </root>
