@@ -96,5 +96,17 @@ found in the core file.
     </excludes>
     
   </grindingBalls>  
+  
+  <recipeGroup name="Vanilla" >
+	<recipe name="Cobblestone" energyCost="2400" >
+      <input>
+        <itemStack modID="minecraft" itemName="cobblestone" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="sand" />
+        <itemStack modID="minecraft" itemName="gravel" chance="0.1" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
 </SAGMillRecipes>
