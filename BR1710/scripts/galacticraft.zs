@@ -104,7 +104,7 @@ var RCplateSteel = <Railcraft:part.plate:1>;
 var GTplateTitanium = <gregtech:gt.metaitem.01:17028>;
 var GTingotTitanium = <gregtech:gt.metaitem.01:11028>;
 var silicon = <GalacticraftCore:item.basicItem:2>;
-var oresilicon = <ore:itemSilicon>; 
+var oresilicon = <ore:itemSilicon>;
 var airlockcontroller = <GalacticraftCore:tile.airLockFrame:1>;
 var GTmeteoricIron = <ore:plateMeteoricIron>;
 var GTplateDesh = <ore:plateDesh>;
@@ -154,6 +154,9 @@ recipes.remove(titaniumPickaxe);
 NEI.hide(titaniumPickaxe);
 recipes.remove(titaniumSword);
 NEI.hide(titaniumSword);
+recipes.remove(beamReceiver); # See Issue #290
+NEI.hide(beamReceiver);
+
 
 # Recipe Adding
 recipes.addShaped(plateNailed, [
@@ -168,7 +171,7 @@ recipes.addShaped(plateNailedT3, [
 	[null, boltTungstenSteel, boltTungstenSteel],
 	[hammer, plateHeavyDutyT2, GTplateDesh],
 	[null, boltTungstenSteel, boltTungstenSteel]]);
-    
+
 # Recipe Changes
 recipes.remove(airlockcontroller);
 recipes.addShaped(airlockcontroller, [
@@ -229,8 +232,8 @@ recipes.addShaped(titaniumLeggings, [
 	[compressedTitanium, hammer, compressedTitanium],
 	[compressedTitanium, null, compressedTitanium]]);
 recipes.remove(compressedMeteoricIron);
-    
-# GT/IC2 Integration    
+
+# GT/IC2 Integration
 //Macerator.addRecipe(rawMeteoricIron * 2, meteorFallen);
 ImplosionCompressor.addRecipe([compressedCopper, tinyPileDarkAshes], GTplateCopper * 2, 2);
 ImplosionCompressor.addRecipe([compressedTin, tinyPileDarkAshes], GTplateTin * 2, 2);
@@ -241,7 +244,7 @@ ImplosionCompressor.addRecipe([compressedIron, tinyPileDarkAshes], RCplateIron *
 ImplosionCompressor.addRecipe([compressedMeteoricIron, tinyPileDarkAshes], GCingotMeteoricIron * 2, 2);
 ImplosionCompressor.addRecipe([compressedDesh, tinyPileDarkAshes], GCingotDesh * 2, 2);
 ImplosionCompressor.addRecipe([compressedTitanium, tinyPileDarkAshes], GTplateTitanium * 2, 2);
-ImplosionCompressor.addRecipe([plateHeavyDuty, tinyPileStainlessSteel * 2], plateNailed, 2); 
+ImplosionCompressor.addRecipe([plateHeavyDuty, tinyPileStainlessSteel * 2], plateNailed, 2);
 ImplosionCompressor.addRecipe([plateHeavyDutyT2, tinyPileTungsten * 2], plateNailedT2, 2);
 ImplosionCompressor.addRecipe([plateHeavyDutyT3, tinyPileTungstenSteel * 2], plateNailedT3, 2);
 Assembler.addRecipe(waferBasic, diamond, boardBasic, 1600, 2);
