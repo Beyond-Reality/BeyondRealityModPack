@@ -6,6 +6,7 @@ We bring in Forestry 4 with some in-world changes, players shall prepare before 
 See details here: [_Preparing for Forestry4_](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/323)
 
 #### Updated:
+* `BiblioCraft[v1.11.3][MC1.7.10].jar`(Forestry4 compat)
 * `forestry_1.7.10-4.1.0.769-unstable.jar` (Forestry 4 branch, see [_IMPORTANT UPGRADE NOTES_](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/323))
 * `GalacticraftCore-1.7-3.0.12.393.jar` ([Fix Issue #290](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/290))
 * `Galacticraft-Planets-1.7-3.0.12.393.jar` ([Fix Issue #290](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/290))
