@@ -7,6 +7,8 @@ See details here: [_Preparing for Forestry4_](https://github.com/Beyond-Reality/
 
 #### Updated:
 * `BiblioCraft[v1.11.3][MC1.7.10].jar`(Forestry4 compat)
+* `buildcraft-7.1.12.jar` ([Fix #3089 Integration Table Dupe](https://github.com/BuildCraft/BuildCraft/issues/3089))
+* `buildcraft-compat-7.1.2.jar` ([Fix #3089 Integration Table Dupe](https://github.com/BuildCraft/BuildCraft/issues/3089))
 * `forestry_1.7.10-4.1.0.775-unstable.jar` (Forestry 4 branch, see [_IMPORTANT UPGRADE NOTES_](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/323))
 * `GalacticraftCore-1.7-3.0.12.393.jar` ([Fix Issue #290](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/290))
 * `Galacticraft-Planets-1.7-3.0.12.393.jar` ([Fix Issue #290](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/290))
