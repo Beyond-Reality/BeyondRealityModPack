@@ -15,6 +15,7 @@ See details here: [_Preparing for Forestry4_](https://github.com/Beyond-Reality/
 * `IC2NuclearControl-2.3.1a-Butt.jar`
 * `MicdoodleCore-1.7-3.0.12.393.jar` ([Fix Issue #290](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/290))
 * `ModTweaker2-0.9.4.jar` (Forestry4 compat)
+* `OpenComputers-MC1.7.10-1.5.19.37-universal.jar` ([Changelog v1.5.19](http://oc.cil.li/index.php?/page/index.html/_/releases/opencomputers-v1519-r60))
 
 #### Downgraded:
 
