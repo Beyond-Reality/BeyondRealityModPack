@@ -2,105 +2,55 @@ import mods.gregtech.Assembler;
 import mods.ic2.Macerator;
 import mods.gregtech.Centrifuge;
 import mods.gregtech.CentrifugeLiq; // yeah, requires GTTweaker
- 
-var andesDust = <gregtech:gt.metaitem.01:2868>; 
+
+var andesDust = <gregtech:gt.metaitem.01:2868>;
 andesDust.displayName = "Andesite Dust";
-	
+
 var dioriteDust = <gregtech:gt.metaitem.01:2861>;
 dioriteDust.displayName = "Diorite Dust";
- 
- 
-//DIORITE
-Macerator.addRecipe(dioriteDust, <chisel:diorite>);
-CentrifugeLiq.addRecipe(
-	//output
-	<gregtech:gt.metaitem.01:2848>,
-	<gregtech:gt.metaitem.01:2837>,
-	<gregtech:gt.metaitem.02:27505>, 
-	<gregtech:gt.metaitem.01:3918>, 
-	null, 
-	null,
-	// inputs (liquid, item)
-	null, 
-	dioriteDust * 3,
-	
-	// cells, liquidout 
-	null, null,
-	
-	// chances
-	10000, 10000, 500, 300, 0, 0, 
-	// duration ticks, eu/t
-	700, 16
-);
-//GRANITE
-Macerator.addRecipe(<gregtech:gt.metaitem.01:3850>, <chisel:granite>);
-//ANDESITE
-Macerator.addRecipe(andesDust, <chisel:andesite>);
-//Macerator.addRecipe(andesDust, <botania:andesite>);
-CentrifugeLiq.addRecipe(
-	//output
-	<gregtech:gt.metaitem.01:2837>,
-	<gregtech:gt.metaitem.01:2859>,
-	<gregtech:gt.metaitem.02:27528>, 
-	<gregtech:gt.metaitem.01:3933>, 
-	null, 
-        null,
-	// inputs (liquid, item)
-	null, 
-	andesDust * 3,
-	
-	// cells, liquidout 
-	null, null,
-	
-	// chances
-	10000, 10000, 500, 600, 0, 0, 
-	// duration ticks, eu/t
-	200, 16
-);
-	
- 
- 
+
+
 // DACITE
 CentrifugeLiq.addRecipe(
 	//output
 	<gregtech:gt.metaitem.01:2848>,
 	<gregtech:gt.metaitem.01:2875>,
-	null, 
-	null, 
-	null, 
+	null,
+	null,
+	null,
 	null,
 	// inputs (liquid, item)
-	null, 
+	null,
 	<gregtech:gt.metaitem.01:2859> * 2,
-	
-	// cells, liquidout 
+
+	// cells, liquidout
 	null, null,
-	
+
 	// chances
-	10000, 10000, 0, 0, 0, 0, 
+	10000, 10000, 0, 0, 0, 0,
 	// duration ticks, eu/t
 	400, 16
 );
- 
- 
+
+
 // RHYOLITE
 CentrifugeLiq.addRecipe(
 	//output
 	<gregtech:gt.metaitem.01:2848>,
 	<gregtech:gt.metaitem.01:2837> * 3,
-	null, 
-	null, 
-	null, 
+	null,
+	null,
+	null,
 	null,
 	// inputs (liquid, item)
-	null, 
+	null,
 	<gregtech:gt.metaitem.01:2875> * 4,
-	
-	// cells, liquidout 
+
+	// cells, liquidout
 	null, null,
-	
+
 	// chances
-	10000, 10000, 0, 0, 0, 0, 
+	10000, 10000, 0, 0, 0, 0,
 	// duration ticks, eu/t
 	256, 16
 );
@@ -112,11 +62,11 @@ var  boltIron = <ore:boltIron>;
 
 recipes.addShaped(machineCasing * 4, [[boltIron, plateSteel, boltIron],
                                       [plateSteel, <gregtech:gt.metatool.01:16>.transformDamage() ,plateSteel],
-                                      [boltIron, plateSteel, boltIron]]);	
+                                      [boltIron, plateSteel, boltIron]]);
 
 recipes.addShaped(<gregtech:gt.metaitem.01:32764>, [[<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>],
 																		[<IC2:itemHarz>,<gregtech:gt.metaitem.03:880>,<IC2:itemHarz>],
-				[<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>]]);										  
+				[<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>,<IC2:itemPartCarbonMesh>]]);
 
 //Shutter Recipe Fix
 var plateIron = <Railcraft:part.plate>;
@@ -129,6 +79,4 @@ Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_doo
 
 val tungstate = <ore:oreTungstate>;
 tungstate.add(<beyondrealitycore:customBlock_23>);
-
-Macerator.addRecipe(<GalacticraftCore:item.meteoricIronRaw> * 2, <GalacticraftCore:tile.fallenMeteor>);
 
