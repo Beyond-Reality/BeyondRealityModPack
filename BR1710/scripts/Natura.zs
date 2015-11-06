@@ -22,24 +22,26 @@ for i,v in naturaPlanks
 	recipes.remove(naturaSlabs[i]);
 }
 
+var toolSaw = <ore:craftingToolSaw>;
+
 for i,v in naturaPlanks
 {
 	//Sawless Recipe for planks
 	recipes.addShapeless(v * 2,[naturaLogs[i]]);
 	//Saw Recipe for planks
-	recipes.addShapeless(v * 4,[<gregtech:gt.metatool.01:10>, naturaLogs[i]]);
+	recipes.addShaped(v * 4,[[toolSaw],[naturaLogs[i]]]);
 
 	var stick = naturaSticks[i];
 	//Begin Block -- This block could be removed if you don't want natura sticks to be craftable, or the recipes could be made shapeless
 	//Sawless Recipe for natura sticks
 	recipes.addShaped(stick * 2,[[v], [null], [v]]);  //Needs a gap or it will produce vanila sticks
 	//Saw Recipe for natura sticks
-	recipes.addShaped(stick * 4,[[<gregtech:gt.metatool.01:10>, v, v]]); //Horizontal or it will produce vanila sticks
+	recipes.addShaped(stick * 4,[[toolSaw, v, v]]); //Horizontal or it will produce vanila sticks
 	//End Block
 
 	var slab = naturaSlabs[i];
 	//Slab Recipe -- Requires saw
-	recipes.addShapeless(slab * 2,[<gregtech:gt.metatool.01:10>, v]);
-	
-	recipes.addShapeless(v,[slab,slab]);
+	recipes.addShaped(slab * 2,[[toolSaw, v]]);
+
+	recipes.addShaped(v,[[slab],[slab]]);
 }

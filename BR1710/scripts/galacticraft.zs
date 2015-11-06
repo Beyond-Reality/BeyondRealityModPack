@@ -6,7 +6,7 @@ import mods.gregtech.ImplosionCompressor;
 import mods.gregtech.BlastFurnace;
 import mods.ic2.Macerator;
 import mods.ic2.Compressor;
-import mods.gregtech.Boxing;
+//import mods.gregtech.Boxing;
 
 # Aliases
 var GCRefinery = <GalacticraftCore:tile.refinery>;
@@ -154,9 +154,6 @@ recipes.remove(titaniumPickaxe);
 NEI.hide(titaniumPickaxe);
 recipes.remove(titaniumSword);
 NEI.hide(titaniumSword);
-recipes.remove(beamReceiver); # See Issue #290
-NEI.hide(beamReceiver);
-
 
 # Recipe Adding
 recipes.addShaped(plateNailed, [
@@ -250,7 +247,8 @@ ImplosionCompressor.addRecipe([plateHeavyDutyT3, tinyPileTungstenSteel * 2], pla
 Assembler.addRecipe(waferBasic, diamond, boardBasic, 1600, 2);
 Assembler.addRecipe(waferAdvanced, diamond, boardAdvanced, 3200, 4);
 Assembler.addRecipe(waferSolar * 9, diamond, GTdustLapis * 9, 1600, 2);
-BlastFurnace.addRecipe(GTingotTitanium, shardTitanium, null, 1500, 120, 1500);
+//IItemStack[] output, IItemStack[] input, int durationTicks, int euPerTick, int heat
+BlastFurnace.addRecipe([GTingotTitanium], [shardTitanium], 1500, 120, 1500);
 
 # Specialities
 furnace.remove(<*>, GCoreIlmenite);

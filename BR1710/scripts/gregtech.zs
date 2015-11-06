@@ -1,67 +1,69 @@
 import mods.gregtech.Assembler;
-import mods.ic2.Macerator;
 import mods.gregtech.Centrifuge;
-import mods.gregtech.CentrifugeLiq; // yeah, requires GTTweaker
+import mods.ic2.Macerator;
 
-var andesDust = <gregtech:gt.metaitem.01:2868>;
-andesDust.displayName = "Andesite Dust";
+import minetweaker.data.IData;
+import minetweaker.item.IItemStack;
 
-var dioriteDust = <gregtech:gt.metaitem.01:2861>;
-dioriteDust.displayName = "Diorite Dust";
+var dustDacite = <gregtech:gt.metaitem.01:2859>;
+var dustBiotite = <gregtech:gt.metaitem.01:2848>;
+var dustRhyolite = <gregtech:gt.metaitem.01:2875>;
+var dustSiliconDioxide = <gregtech:gt.metaitem.01:2837>;
 
 
 // DACITE
-CentrifugeLiq.addRecipe(
-	//output
-	<gregtech:gt.metaitem.01:2848>,
-	<gregtech:gt.metaitem.01:2875>,
-	null,
-	null,
-	null,
-	null,
-	// inputs (liquid, item)
-	null,
-	<gregtech:gt.metaitem.01:2859> * 2,
 
-	// cells, liquidout
-	null, null,
+//  public static void addRecipe(IItemStack[] outputs, ILiquidStack fluidOutput, IItemStack input, IItemStack cells, ILiquidStack fluidInput, int[] chances, int durationTicks, int euPerTick) {
+Centrifuge.addRecipe(
+  // IItemStack[] outputs,
+  [
+    dustBiotite,
+    dustRhyolite
+  ],
 
-	// chances
-	10000, 10000, 0, 0, 0, 0,
-	// duration ticks, eu/t
-	400, 16
+  // ILiquidStack fluidOutput, IItemStack input,
+  null,
+  dustDacite * 2,
+
+  // IItemStack cells, ILiquidStack fluidInput,
+  null, null,
+
+  // int[] chances,
+  [10000, 10000],
+
+  // int durationTicks, int euPerTick
+  400, 16
 );
 
 
 // RHYOLITE
-CentrifugeLiq.addRecipe(
-	//output
-	<gregtech:gt.metaitem.01:2848>,
-	<gregtech:gt.metaitem.01:2837> * 3,
-	null,
-	null,
-	null,
-	null,
-	// inputs (liquid, item)
-	null,
-	<gregtech:gt.metaitem.01:2875> * 4,
 
-	// cells, liquidout
-	null, null,
+Centrifuge.addRecipe(
+  // IItemStack[] outputs,
+  [
+    dustBiotite,
+    dustSiliconDioxide * 3,
+  ],
+  // ILiquidStack fluidOutput, IItemStack input,
+  null,
+  dustRhyolite * 4,
 
-	// chances
-	10000, 10000, 0, 0, 0, 0,
-	// duration ticks, eu/t
-	256, 16
+  // IItemStack cells, ILiquidStack fluidInput,
+  null, null,
+
+  // int[] chances,
+  [10000, 10000],
+
+  // int durationTicks, int euPerTick
+  256, 16
 );
-
 
 var machineCasing = <gregtech:gt.blockcasings2:11>;
 var plateSteel = <ore:plateSteel>;
-var  boltIron = <ore:boltIron>;
+var boltIron = <ore:boltIron>;
 
 recipes.addShaped(machineCasing * 4, [[boltIron, plateSteel, boltIron],
-                                      [plateSteel, <gregtech:gt.metatool.01:16>.transformDamage() ,plateSteel],
+                                      [plateSteel, <ore:craftingToolWrench>.transformDamage() ,plateSteel],
                                       [boltIron, plateSteel, boltIron]]);
 
 recipes.addShaped(<gregtech:gt.metaitem.01:32764>, [[<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>,<gregtech:gt.metaitem.01:17880>],
@@ -77,6 +79,6 @@ Assembler.addRecipe(shutterModule * 2, plateIron * 2, <minecraft:iron_door> * 1,
 Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, <minecraft:iron_door> * 1, 800, 16);
 Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_door> * 1, 800, 16);
 
+// Add Mars Tungstate Ore to Oredict
 val tungstate = <ore:oreTungstate>;
 tungstate.add(<beyondrealitycore:customBlock_23>);
-
