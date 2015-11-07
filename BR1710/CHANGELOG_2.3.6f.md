@@ -2,8 +2,8 @@
 
 #### Updated:
 * `forestry_1.7.10-4.1.1.46.jar`(Forestry4 stable)
-* `GTTweaker-1.7.10-1.0.9.jar` (See 40522bdb4e4f3d79f59b84577cecd939fea0dbac)
-* `MineTweaker3-1.7.10-3.0.10.jar` (See 40522bdb4e4f3d79f59b84577cecd939fea0dbac)
+* `GTTweaker-1.7.10-1.0.9.jar` [Fix #341]( https://github.com/Beyond-Reality/BeyondRealityModPack/commit/40522bdb4e4f3d79f59b84577cecd939fea0dbac)
+* `MineTweaker3-1.7.10-3.0.10.jar` [Fix #341]( https://github.com/Beyond-Reality/BeyondRealityModPack/commit/40522bdb4e4f3d79f59b84577cecd939fea0dbac)
 
 #### Fixes:
 
