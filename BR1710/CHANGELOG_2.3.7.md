@@ -16,7 +16,6 @@
 * `malisiscore-1.7.10-0.12.10.jar` (Malisidoors dependency)
 * `malisisdoors-1.7.10-1.10.1.jar` (Bugfixes crash with cauldron)
 * `Mantle-1.7.10-0.3.2b.jar` (Fix a possible crash with item metadatas)
-* `MineFactoryReloaded-[1.7.10]2.8.1B1-155.jar` (bugfixes?)
 * `MineTweaker3-1.7.10-3.0.10B.jar` (bugs in 3.0.10 preventing recipe reloading and possibly giving problems with recipes not working)
 * `ModularPowersuits-0.11.0.265.jar` (added sidedness & sound setting checking anywhere sounds are played)
 * `natura-1.7.10-2.2.1a2.jar` (fixes ghostwood issues)
@@ -25,7 +24,6 @@
 * `PlanetguyLib-1.9.1.jar` (multiples dependancies)
 * `PneumaticCraft-1.7.10-1.11.19-141-universal.jar` (Bugfixes/Crashfixes spawn item on hotbar full)
 * `pressure-1.2.4.124-mc1.7.10.jar` (detailed tooltips to multiblock, Added [Sluice](https://bdew.net/sluice/))
-* `Railcraft_1.7.10-9.8.0.0.jar` (Major update See: [Cargo Carts](http://www.railcraft.info/railcraft-9-8-0-0-cargo-carts/)
 * `RemainInMotion-2.8.8.jar` (Fix for crashes with MPS, Implemented rotating Project: Red lanterns)
 * `RouterReborn-1.7.10-1.2.0.35-universal.jar` (Fix: method to store player data, Hiding Light beam from NEI)
 * `ThaumcraftGates-1.4.2.jar` (Update to latest BuildCraft (7.1.9), Thaumium pipe recipe now uses the ore dictionary for glass)
@@ -43,3 +41,12 @@
 #### Config:
 
 * [ProjectRed: Disable Electrotine from worldgen](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/07b77a9ddeafc7d9b101b6ffbd5bfd735b9a2e6f)
+
+#### FML Confirms
+```
+Missing Blocks/Items:
+RouterReborn:routerbarrelupgrader
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+```
