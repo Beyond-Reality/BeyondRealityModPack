@@ -1,8 +1,8 @@
 ### VERSION 2.3.7
 
 #### Updated:
-* `bdlib-1.9.3.107-mc1.7.10.jar` (drop in replacement for version 1.9.2)
-* `Botania r1.7-230.jar` (Lots of updates See [Changelog](http://botaniamod.net/changelog.php#r1.7-230))
+* `bdlib-1.9.3.107-mc1.7.10.jar` (Drop-in replacement for version 1.9.2)
+* :star: `Botania r1.7-230.jar` (:exclamation: __Lots of updates__ :exclamation: See [Changelog](http://botaniamod.net/changelog.php#r1.7-230))
 * `buildcraft-7.1.13.jar` (Various robot fixes)
 * `Chisel2-2.5.1.44.jar` (Fixed the console spam)
 * `CMIP-1.7.10-1.0Beta.23.jar` (+IC2 UU-Matter (Replicator) recipes, +IC2 Solid/Fluid canning machine handler)
@@ -10,7 +10,10 @@
 * `ElecCore-1.7.10-1.4.175.jar` (CMIP dependency)
 * `EnderIO-1.7.10-2.3.0.418_beta.jar-` (Render-pass and other fixes)
 * `EnderCore-1.7.10-0.2.0.30_beta.jar` (Bugfixes)
-* `forestry_1.7.10-4.1.1.46.jar`(Forestry4 stable)
+* :star: `forestry_1.7.10-4.2.0.812-unstable.jar` (Forestry 4.2 :new: **bee cart**)
+* :star: `gregtech-5.09.11.jar` (:exclamation: **GregTech 5 Unofficial/Experimental** :exclamation: [**NEW FEATURES**]())
+* `GalacticraftCore-1.7-3.0.12.403.jar` (Fix [Issue #343](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/343))
+* `Galacticraft-Planets-1.7-3.0.12.403.jar` (Fix [Issue #343](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/343))
 * `GalacticGreg-0.7.jar` (Fix oregen weight)
 * `GTTweaker-1.7.10-1.0.9.jar` [Fix #341]( https://github.com/Beyond-Reality/BeyondRealityModPack/commit/40522bdb4e4f3d79f59b84577cecd939fea0dbac)
 * `IC2NuclearControl-2.3.2a-Butt.jar` (Bugfixes)
@@ -20,6 +23,7 @@
 * `malisiscore-1.7.10-0.12.10.jar` (Malisidoors dependency)
 * `malisisdoors-1.7.10-1.10.1.jar` (Bugfixes crash with cauldron)
 * `Mantle-1.7.10-0.3.2b.jar` (Fix a possible crash with item metadatas)
+* `MicdoodleCore-1.7-3.0.12.403.jar` (Fix [Issue #343](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/343))
 * `MineTweaker3-1.7.10-3.0.10B.jar` (bugs in 3.0.10 preventing recipe reloading and possibly giving problems with recipes not working)
 * `ModularPowersuits-0.11.0.265.jar` (added sidedness & sound setting checking anywhere sounds are played)
 * `natura-1.7.10-2.2.1a2.jar` (fixes ghostwood issues)
@@ -37,16 +41,17 @@
 
 #### Fixes:
 
-* #340 [Gravitation Suit EngineBoost component not craftable](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/340)
-* #341 [Forestry woods give 4 planks instead of the default 2](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/341)
+* [#340 Gravitation Suit EngineBoost component not craftable](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/340)
+* [#341 Forestry woods give 4 planks instead of the default 2](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/341)
 * [Minetweaker scripts: Removed duplicate ambiguous recipes](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/17937057c6f578ddc48366f57ca1efb9dc0139dd)
 * [Re-add Gregtech centrifuge recipes for Forestry4 items](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/40f0bc613b0c054bcbdfe78ae9149a8c46aae253)
+* [#343 galacticraft fuel loaders won't load fuel.](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/343)
 
 #### Config:
 
 * [ProjectRed: Disable Electrotine from worldgen](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/07b77a9ddeafc7d9b101b6ffbd5bfd735b9a2e6f)
 
-#### FML Confirms
+#### FML Confirms:
 ```
 Missing Blocks/Items:
 RouterReborn:routerbarrelupgrader
