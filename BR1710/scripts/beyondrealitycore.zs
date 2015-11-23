@@ -48,59 +48,59 @@ furnace.remove(<minecraft:glowstone_dust>);
 
 // Mars
 val marsiron = <beyondrealitycore:customBlock_1>;
-<ore:oreRedgraniteIron>.add(marsiron);
-<ore:oreRedgraniteAnyIron>.add(marsiron);
+<ore:oreIron>.add(marsiron);
+<ore:oreAnyIron>.add(marsiron);
 
 val marsgold = <beyondrealitycore:customBlock_2>;
-<ore:oreRedgraniteGold>.add(marsgold);
+<ore:oreGold>.add(marsgold);
 
 val marsdiamond = <beyondrealitycore:customBlock_4>;
 <ore:oreDiamond>.add(marsdiamond);
-<ore:oreRedgraniteDiamond>.add(marsdiamond);
+<ore:oreDiamond>.add(marsdiamond);
 
 val marsredstone = <beyondrealitycore:customBlock_6>;
-<ore:oreRedgraniteRedstone>.add(marsredstone);
+<ore:oreRedstone>.add(marsredstone);
 
 val marslapis = <beyondrealitycore:customBlock_8>;
-<ore:oreRedgraniteLapis>.add(marslapis);
+<ore:oreLapis>.add(marslapis);
 
 val marstetrahedrite = <beyondrealitycore:customBlock_10>;
-<ore:oreRedgraniteTetrahedrite>.add(marstetrahedrite);
+<ore:oreTetrahedrite>.add(marstetrahedrite);
 
 val marsbauxite = <beyondrealitycore:customBlock_12>;
-<ore:oreRedgraniteBauxite>.add(marsbauxite);
+<ore:oreBauxite>.add(marsbauxite);
 
 val marsuranium = <beyondrealitycore:customBlock_13>;
-<ore:oreRedgraniteUranium>.add(marsuranium);
+<ore:oreUranium>.add(marsuranium);
 
 val marscassiterite = <beyondrealitycore:customBlock_15>;
-<ore:oreRedgraniteCassiterite>.add(marscassiterite);
+<ore:oreCassiterite>.add(marscassiterite);
 
 val marssilver = <beyondrealitycore:customBlock_17>;
-<ore:oreRedgraniteSilver>.add(marssilver);
+<ore:oreSilver>.add(marssilver);
 
 val marslead = <beyondrealitycore:customBlock_19>;
-<ore:oreRedgraniteLead>.add(marslead);
+<ore:oreLead>.add(marslead);
 
 val marsiridium = <beyondrealitycore:customBlock_20>;
-<ore:oreRedgraniteIridium>.add(marsiridium);
+<ore:oreIridium>.add(marsiridium);
 
 val marsplatinum = <beyondrealitycore:customBlock_21>;
-<ore:oreRedgranitePlatinum>.add(marsplatinum);
+<ore:orePlatinum>.add(marsplatinum);
 
 val marsosmium = <beyondrealitycore:customBlock_22>;
-<ore:oreRedgraniteOsmium>.add(marsosmium);
+<ore:oreOsmium>.add(marsosmium);
 
 val marstungstate = <beyondrealitycore:customBlock_23>;
-<ore:oreRedgraniteTungstate>.add(marstungstate);
+<ore:oreTungstate>.add(marstungstate);
 
 val marsnaquadah = <beyondrealitycore:customBlock_24>;
-<ore:oreRedgraniteNaquadah>.add(marsnaquadah);
+<ore:oreNaquadah>.add(marsnaquadah);
 
 val marsruby = <beyondrealitycore:customBlock_26>;
-<ore:oreRedgraniteRuby>.add(marsruby);
+<ore:oreRuby>.add(marsruby);
 
 val marsnaquadria = <beyondrealitycore:customBlock_29>;
-<ore:oreRedgraniteNaquadria>.add(marsnaquadria);
+<ore:oreNaquadria>.add(marsnaquadria);
 
 
