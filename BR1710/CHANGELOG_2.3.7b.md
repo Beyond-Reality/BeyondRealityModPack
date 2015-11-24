@@ -43,9 +43,8 @@ Configurations | Changes
  `scripts/Botania.zs` | [Botania woods a la Gregtech sauce.](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/8d91313f46bc935437840437c03123e29dde2f79)
  `scripts/Railcraft.zs` | [Register BeyondRealityCore customblock ores to Oredictionary instead of handling recipes for each mod.](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/dfe1e5d82b1235d6953b2c8b717812890488b73c)
 
-### Block changes:
+#### Missing Blocks/Items:
 
-Missing Blocks/Items:
 ```YAML
 malisisdoors:curtain
 malisisdoors:item.curtain
