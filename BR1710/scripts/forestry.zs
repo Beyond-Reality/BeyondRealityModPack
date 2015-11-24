@@ -20,20 +20,20 @@ recipes.addShaped(<Forestry:stamps>, [
     LARCH, TEAK, ACACIA, LIME, CHESTNUT, WENGE, BAOBAB, SEQUOIA, KAPOK, EBONY, MAHOGANY, BALSA, WILLOW, WALNUT, GREENHEART, CHERRY, MAHOE, POPLAR, PALM, PAPAYA, PINE, PLUM, MAPLE, CITRUS, GIGANTEUM, IPE, PADAUK, COCOBOLO, ZEBRAWOOD
 */
 
+var woodTypes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28] as int[];
 val dustWood = <gregtech:gt.metaitem.01:2809>;
 val toolSaw = <ore:craftingToolSaw>;
 val water = <liquid:water>;
 val distilledWater = <liquid:ic2distilledwater>;
 val lubricant = <liquid:lubricant>;
 
-//for i,v in forestryPlanks
-for woodType = 0, woodType < 29, woodType += 1
+for woodType in woodTypes
 {
   var plankWood = <Forestry:planks>.definition.makeStack(woodType);
   var plankWoodFireproof = <Forestry:planksFireproof>.definition.makeStack(woodType);
-  var logkWood = <Forestry:logs>.definition.makeStack(woodType);
+  var logWood = <Forestry:logs>.definition.makeStack(woodType);
   var logWoodFireproof = <Forestry:logsFireproof>.definition.makeStack(woodType);
-  var slabkWood = <Forestry:slabs>.definition.makeStack(woodType);
+  var slabWood = <Forestry:slabs>.definition.makeStack(woodType);
   var slabWoodFireproof = <Forestry:slabsFireproof>.definition.makeStack(woodType);
 
 // Planks from Slabs
@@ -46,9 +46,9 @@ for woodType = 0, woodType < 29, woodType += 1
 
 // Hand slash a Log into 2 Planks (Steve's super power nerfed)
   recipes.remove(plankWood * 2);
-  recipes.addShapeless(plankWood * 2, logWood);
+  recipes.addShapeless(plankWood * 2, [logWood]);
   recipes.remove(plankWoodFireproof * 2);
-  recipes.addShapeless(plankWoodFireproof * 2, logWoodFireproof);
+  recipes.addShapeless(plankWoodFireproof * 2, [logWoodFireproof]);
 
 // Saw a Log into 4 Planks
   recipes.remove(plankWood * 4);
@@ -60,9 +60,9 @@ for woodType = 0, woodType < 29, woodType += 1
   CuttingSaw.addRecipe([plankWood * 4, dustWood * 2], logWood, water, 400, 8);
   CuttingSaw.addRecipe([plankWood * 4, dustWood * 2], logWood, distilledWater, 400, 8);
   CuttingSaw.addRecipe([plankWood * 6, dustWood * 1], logWood, lubricant, 200, 8);
-  CuttingSaw.addRecipe([plankWoodFireproof * 4, dustWoodFireproof * 2], logWoodFireproof, water, 400, 8);
-  CuttingSaw.addRecipe([plankWoodFireproof * 4, dustWoodFireproof * 2], logWoodFireproof, distilledWater, 400, 8);
-  CuttingSaw.addRecipe([plankWoodFireproof * 6, dustWoodFireproof * 1], logWoodFireproof, lubricant, 200, 8);
+  CuttingSaw.addRecipe([plankWoodFireproof * 4, dustWood * 2], logWoodFireproof, water, 400, 8);
+  CuttingSaw.addRecipe([plankWoodFireproof * 4, dustWood * 2], logWoodFireproof, distilledWater, 400, 8);
+  CuttingSaw.addRecipe([plankWoodFireproof * 6, dustWood * 1], logWoodFireproof, lubricant, 200, 8);
 
 // Slabs from Planks
 
@@ -89,11 +89,14 @@ for woodType = 0, woodType < 29, woodType += 1
   GT covers only use first 24 Forestry wood types.
 */
 
-val coverGTForestryWoods = 32476;
+var coverGTForestryWoods = [
+  32476, 32477, 32478, 32479, 32480, 32481, 32482, 32483, 32484, 32485,
+  32486, 32487, 32488, 32489, 32490, 32491, 32492, 32493, 32494, 32495,
+  32496, 32497, 32498, 32499
+  ] as int[];
 
-for woodType = 0, woodType < 24, woodType += 1
+for woodType, coverID in coverGTForestryWoods
 {
-  var coverID = coverGTForestryWoods + woodType;
   var cover = <gregtech:gt.metaitem.02>.definition.makeStack(coverID);
   var slabWood = <Forestry:slabs>.definition.makeStack(woodType);
   var slabWoodFireproof = <Forestry:slabsFireproof>.definition.makeStack(woodType);
