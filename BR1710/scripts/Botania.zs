@@ -21,7 +21,6 @@ val livingwoodSlab = <Botania:livingwood0Slab:0>;
 val livingwoodPlank = <Botania:livingwood:1>;
 val livingwoodPlankSlab = <Botania:livingwood1Slab:0>;
 <ore:logWood>.add(livingwood);
-<ore:plankWood>.add(livingwood);
 <ore:plankWood>.add(livingwoodPlank);
 <ore:slabWood>.add(livingwoodSlab);
 <ore:slabWood>.add(livingwoodPlankSlab);
@@ -42,3 +41,7 @@ val shimmerWoodPlanks = <Botania:shimmerwoodPlanks>;
 val shimmerWoodPlanksSlab = <Botania:shimmerwoodPlanks0Slab>;
 <ore:plankWood>.add(shimmerWoodPlanks);
 <ore:slabWood>.add(shimmerWoodPlanksSlab);
+
+// livingwood slabs need a dedicated recipe tweak
+var toolSaw = <ore:craftingToolSaw>;
+recipes.addShaped(livingwoodSlab * 2,[[toolSaw,livingwood]]);

@@ -42,7 +42,6 @@ val moonruby = <beyondrealitycore:customBlock_25>;
 <ore:oreRuby>.add(moonruby);
 
 val moonglowstone = <beyondrealitycore:customBlock_27>;
-furnace.remove(<minecraft:glowstone_dust>);
 <ore:oreGlowstone>.add(moonglowstone);
 <ore:oreGlowstone>.add(<minecraft:glowstone:0>);
 
