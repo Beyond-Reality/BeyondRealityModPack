@@ -1,8 +1,15 @@
 ### VERSION 2.3.7b Hotfix
 
+#### Added:
+
+Mods | Description
+-----|-------------
+ `HelpFixer-1.0.7.jar` | [Fixes the help command from mod derpyness](http://minecraft.curseforge.com/projects/helpfixer#About)
+
 #### Updated:
+
 Mods | Changes / Notes
------| ---------------
+-----|----------------
  `appliedenergistics2-rv3-alpha-10.jar` | [Changelogs](http://ae-mod.info/#rv3_alpha)
  `Botania r1.7-234.jar` | [Changelogs](http://botaniamod.net/changelog.php#r1.7-234)
  `EnderIO-1.7.10-2.3.0.420_beta.jar` | [:new: OpenComputers Conduits](http://minecraft.curseforge.com/projects/ender-io/files/2266976#Changelog)
