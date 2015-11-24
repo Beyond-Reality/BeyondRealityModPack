@@ -13,7 +13,6 @@ Mods | Changes / Notes
  `journeymap-1.7.10-5.1.1-unlimited.jar` | [Changelogs](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1278348-journeymap-5-1-1-realtime-mapping-in-game-or-in-a)
  `logisticspipes-0.9.3.69.jar` | [Improve Storage Drawers](http://minecraft.curseforge.com/projects/logistics-pipes/files/2266340#Changelog)
  `malisisdoors-1.7.10-1.12.2.jar` | [Fixed crash with fence gates on dedicated server](minecraft.curseforge.com/projects/malisisdoors/files/2267187#Changelog)
- `ModularPowersuits-0.11.0.284.jar` | [Minor fixes to pt_BR lang files](http://minecraft.curseforge.com/projects/modular-powersuits/files/2267096#Changelog)
  `Morpheus-1.7.10-1.6.13.jar` | [Minor adjustments](http://minecraft.curseforge.com/projects/morpheus/files/2267326#Changelog)
  `SkinPort-1.7.10-v5a.jar` | [fixed: crash on player join](http://minecraft.curseforge.com/projects/skinport/files/2267410#Changelog)
  `StorageDrawers-1.7.10-1.6.3.jar` | [Improved compatibility with logistics pipes. Fixed rendering of Gregtech items.](http://minecraft.curseforge.com/projects/storage-drawers/files/2267534#Changelog)
@@ -36,3 +35,12 @@ Configurations | Changes
  :new: `scripts/beyondrealitycore.zs`| [Register BeyondRealityCore customblock ores to Oredictionary instead of handling recipes for each mod.](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/dfe1e5d82b1235d6953b2c8b717812890488b73c)
  `scripts/Botania.zs` | [Botania woods a la Gregtech sauce.](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/8d91313f46bc935437840437c03123e29dde2f79)
  `scripts/Railcraft.zs` | [Register BeyondRealityCore customblock ores to Oredictionary instead of handling recipes for each mod.](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/dfe1e5d82b1235d6953b2c8b717812890488b73c)
+
+### Block changes:
+
+Missing Blocks/Items:
+```YAML
+malisisdoors:curtain
+malisisdoors:item.curtain
+malisisdoors:curtain
+```
