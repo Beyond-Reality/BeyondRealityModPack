@@ -64,7 +64,7 @@ var boltIron = <ore:boltIron>;
 var toolWrench = <ore:craftingToolWrench>;
 
 recipes.addShaped(machineCasing * 4, [[boltIron, plateSteel, boltIron],
-                                      [plateSteel,toolWrench.transformDamage() ,plateSteel],
+                                      [plateSteel, toolWrench ,plateSteel],
                                       [boltIron, plateSteel, boltIron]]);
 
 var craftingDuctTape = <gregtech:gt.metaitem.01:32764>;

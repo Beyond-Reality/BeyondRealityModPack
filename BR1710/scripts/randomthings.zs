@@ -14,6 +14,8 @@ var red = <gregtech:gt.metaitem.02:29502>;
 var core = <RandomThings:ingredient>;
 var trans = <RandomThings:ingredient:5>;
 var star = <minecraft:nether_star>;
+var craftingToolHardHammer = <ore:craftingToolHardHammer>;
+var craftingToolFile = <ore:craftingToolFile>;
 
 recipes.remove(specingot);
 recipes.remove(sword);
@@ -26,35 +28,35 @@ recipes.remove(core);
 
 recipes.addShaped(specingot, [
 	[ecto, ecto, ecto],
-	[plate, <gregtech:gt.metatool.01:12>.transformDamage(), plate],
+	[plate, craftingToolHardHammer, plate],
 	[null, null, null]]);
-	
+
 recipes.addShaped(sword, [
-	[<gregtech:gt.metatool.01:12>.transformDamage(), specingot, <gregtech:gt.metatool.01:18>.transformDamage()],
+	[craftingToolHardHammer, specingot, craftingToolFile],
 	[ecto, <gregtech:gt.metaitem.02:305>, ecto],
-	[null, rod, null]]);	
-	
+	[null, rod, null]]);
+
 recipes.addShaped(helm, [
 	[specingot, specingot, specingot],
-	[specingot, <gregtech:gt.metatool.01:12>.transformDamage(), specingot],
-	[null, null, null]]);	
+	[specingot, craftingToolHardHammer, specingot],
+	[null, null, null]]);
 
 recipes.addShaped(chest, [
-	[specingot, <gregtech:gt.metatool.01:12>.transformDamage(), specingot],
+	[specingot, craftingToolHardHammer, specingot],
 	[specingot, specingot, specingot],
-	[specingot, specingot, specingot]]);	
+	[specingot, specingot, specingot]]);
 
 recipes.addShaped(boots, [
 	[null, null, null],
-	[specingot, <gregtech:gt.metatool.01:12>.transformDamage(), specingot],
-	[specingot, null, specingot]]);	
+	[specingot, craftingToolHardHammer, specingot],
+	[specingot, null, specingot]]);
 
 recipes.addShaped(legs, [
 	[specingot, specingot, specingot],
-	[specingot, <gregtech:gt.metatool.01:12>.transformDamage(), specingot],
-	[specingot, null, specingot]]);	
+	[specingot, craftingToolHardHammer, specingot],
+	[specingot, null, specingot]]);
 
 recipes.addShaped(core, [
 	[null, green, null],
 	[red, trans, blue],
-	[null, star, null]]);		
+	[null, star, null]]);

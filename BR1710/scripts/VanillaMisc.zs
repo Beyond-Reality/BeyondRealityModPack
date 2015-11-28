@@ -16,7 +16,7 @@ recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[nu
 
 recipes.removeShaped(<minecraft:wooden_slab>);
 recipes.addShaped(<minecraft:wooden_slab> * 2, [
-	[<gregtech:gt.metatool.01:10>.transformDamage(), <minecraft:planks>, null],
+	[<ore:toolSaw>, <minecraft:planks>, null],
 	[null, null, null],
 	[null, null, null]]);
 
