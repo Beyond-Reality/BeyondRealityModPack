@@ -1,14 +1,267 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.Centrifuge;
-import mods.ic2.Macerator;
+import mods.ic2.Extractor;
 
 import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
 
-var dustDacite = <gregtech:gt.metaitem.01:2859>;
-var dustBiotite = <gregtech:gt.metaitem.01:2848>;
-var dustRhyolite = <gregtech:gt.metaitem.01:2875>;
-var dustSiliconDioxide = <gregtech:gt.metaitem.01:2837>;
+
+val bobsYerUncleBerry = <gregtech:gt.metaitem.02:32511>;
+val dustTinyEmerald = <gregtech:gt.metaitem.01:501>;
+Extractor.addRecipe(dustTinyEmerald, bobsYerUncleBerry);
+
+
+// --- OreDictionary registrations ---
+
+// Battery Hulls
+
+// Small
+
+val batteryHullSmall = <gregtech:gt.metaitem.01:32500>;
+<ore:batteryHullSmall>.add(batteryHullSmall);
+<ore:batteryHull>.add(batteryHullSmall);
+
+// Medium
+
+val batteryHullMedium = <gregtech:gt.metaitem.01:32501>;
+<ore:batteryHullMedium>.add(batteryHullMedium);
+<ore:batteryHull>.add(batteryHullMedium);
+
+// Large
+
+val batteryHullLarge = <gregtech:gt.metaitem.01:32502>;
+<ore:batteryHullLarge>.add(batteryHullLarge);
+<ore:batteryHull>.add(batteryHullLarge);
+
+// Batteries
+
+// ULV
+
+val capacitorTantalum = <gregtech:gt.metaitem.01:32499>; // Reusable
+<ore:battery>.add(capacitorTantalum);
+<ore:batteryReusable>.add(capacitorTantalum);
+<ore:batteryTiny>.add(capacitorTantalum);
+<ore:batteryReusableTiny>.add(capacitorTantalum);
+<ore:batteryULV>.add(capacitorTantalum);
+<ore:batteryReusableULV>.add(capacitorTantalum);
+<ore:batteryTantalum>.add(capacitorTantalum);
+<ore:capacitorTantalum>.add(capacitorTantalum);
+
+// Reusable
+
+// Tantalum
+
+
+// LV
+
+// Single Use
+
+// Acid
+val batteryAcidSmall = <gregtech:gt.metaitem.01:32510>; // Single Use
+<ore:battery>.add(batteryAcidSmall);
+<ore:batterySingleUse>.add(batteryAcidSmall);
+<ore:batterySmall>.add(batteryAcidSmall);
+<ore:batterySingleUseSmall>.add(batteryAcidSmall);
+<ore:batteryLV>.add(batteryAcidSmall);
+<ore:batterySingleUseLV>.add(batteryAcidSmall);
+<ore:batteryAcid>.add(batteryAcidSmall);
+
+// Mercury
+val batteryMercurySmall = <gregtech:gt.metaitem.01:32511>; // Single Use
+<ore:battery>.add(batteryMercurySmall);
+<ore:batterySingleUse>.add(batteryMercurySmall);
+<ore:batterySmall>.add(batteryMercurySmall);
+<ore:batterySingleUseSmall>.add(batteryMercurySmall);
+<ore:batteryLV>.add(batteryMercurySmall);
+<ore:batterySingleUseLV>.add(batteryMercurySmall);
+<ore:batteryMercury>.add(batteryMercurySmall);
+
+// Reusable
+
+// Cadmium
+val batteryCadmiumSmall = <gregtech:gt.metaitem.01:32517>; // Reusable
+<ore:battery>.add(batteryCadmiumSmall);
+<ore:batteryReusable>.add(batteryCadmiumSmall);
+<ore:batterySmall>.add(batteryCadmiumSmall);
+<ore:batteryReusableSmall>.add(batteryCadmiumSmall);
+<ore:batteryLV>.add(batteryCadmiumSmall);
+<ore:batteryReusableLV>.add(batteryCadmiumSmall);
+<ore:batteryCadmium>.add(batteryCadmiumSmall);
+
+// Lithium
+val batteryLithiumSmall = <gregtech:gt.metaitem.01:32518>; // Reusable
+<ore:battery>.add(batteryLithiumSmall);
+<ore:batteryReusable>.add(batteryLithiumSmall);
+<ore:batterySmall>.add(batteryLithiumSmall);
+<ore:batteryReusableSmall>.add(batteryLithiumSmall);
+<ore:batteryLV>.add(batteryLithiumSmall);
+<ore:batteryReusableLV>.add(batteryLithiumSmall);
+<ore:batteryLithium>.add(batteryLithiumSmall);
+
+// Sodium
+val batterySodiumSmall = <gregtech:gt.metaitem.01:32519>; // Reusable
+<ore:battery>.add(batterySodiumSmall);
+<ore:batteryReusable>.add(batterySodiumSmall);
+<ore:batterySmall>.add(batterySodiumSmall);
+<ore:batteryReusableSmall>.add(batterySodiumSmall);
+<ore:batteryLV>.add(batterySodiumSmall);
+<ore:batteryReusableLV>.add(batterySodiumSmall);
+<ore:batterySodium>.add(batterySodiumSmall);
+
+// MV
+
+// Single Use
+
+// Acid
+val batteryAcidMedium = <gregtech:gt.metaitem.01:32520>; // Single Use
+<ore:battery>.add(batteryAcidMedium);
+<ore:batterySingleUse>.add(batteryAcidMedium);
+<ore:batteryMedium>.add(batteryAcidMedium);
+<ore:batterySingleUseMedium>.add(batteryAcidMedium);
+<ore:batteryMV>.add(batteryAcidMedium);
+<ore:batterySingleUseMV>.add(batteryAcidMedium);
+<ore:batteryAcid>.add(batteryAcidMedium);
+
+// Mercury
+val batteryMercuryMedium = <gregtech:gt.metaitem.01:32521>; // Single Use
+<ore:battery>.add(batteryMercuryMedium);
+<ore:batterySingleUse>.add(batteryMercuryMedium);
+<ore:batteryMedium>.add(batteryMercuryMedium);
+<ore:batterySingleUseMedium>.add(batteryMercuryMedium);
+<ore:batteryMV>.add(batteryMercuryMedium);
+<ore:batterySingleUseMV>.add(batteryMercuryMedium);
+<ore:batteryMercury>.add(batteryMercuryMedium);
+
+// Reusable
+
+// Cadmium
+val batteryCadmiumMedium = <gregtech:gt.metaitem.01:32527>; // Reusable
+<ore:battery>.add(batteryCadmiumMedium);
+<ore:batteryReusable>.add(batteryCadmiumMedium);
+<ore:batteryMedium>.add(batteryCadmiumMedium);
+<ore:batteryReusableMedium>.add(batteryCadmiumMedium);
+<ore:batteryMV>.add(batteryCadmiumMedium);
+<ore:batteryReusableMV>.add(batteryCadmiumMedium);
+<ore:batteryCadmium>.add(batteryCadmiumMedium);
+
+// Lithium
+val batteryLithiumMedium = <gregtech:gt.metaitem.01:32528>; // Reusable
+<ore:battery>.add(batteryLithiumMedium);
+<ore:batteryReusable>.add(batteryLithiumMedium);
+<ore:batteryMedium>.add(batteryLithiumMedium);
+<ore:batteryReusableMedium>.add(batteryLithiumMedium);
+<ore:batteryMV>.add(batteryLithiumMedium);
+<ore:batteryReusableMV>.add(batteryLithiumMedium);
+<ore:batteryLithium>.add(batteryLithiumMedium);
+
+// Sodium
+val batterySodiumMedium = <gregtech:gt.metaitem.01:32529>; // Reusable
+<ore:battery>.add(batterySodiumMedium);
+<ore:batteryReusable>.add(batterySodiumMedium);
+<ore:batteryMedium>.add(batterySodiumMedium);
+<ore:batteryReusableMedium>.add(batterySodiumMedium);
+<ore:batteryMV>.add(batterySodiumMedium);
+<ore:batteryReusableMV>.add(batterySodiumMedium);
+<ore:batterySodium>.add(batterySodiumMedium);
+
+// HV
+
+// Single Use
+
+// Acid
+val batteryAcidLarge = <gregtech:gt.metaitem.01:32530>; // Single Use
+<ore:battery>.add(batteryAcidLarge);
+<ore:batterySingleUse>.add(batteryAcidLarge);
+<ore:batteryLarge>.add(batteryAcidLarge);
+<ore:batterySingleUseLarge>.add(batteryAcidLarge);
+<ore:batteryHV>.add(batteryAcidLarge);
+<ore:batterySingleUseHV>.add(batteryAcidLarge);
+<ore:batteryAcid>.add(batteryAcidLarge);
+
+// Mercury
+val batteryMercuryLarge = <gregtech:gt.metaitem.01:32531>; // Single Use
+<ore:battery>.add(batteryMercuryLarge);
+<ore:batterySingleUse>.add(batteryMercuryLarge);
+<ore:batteryLarge>.add(batteryMercuryLarge);
+<ore:batterySingleUseLarge>.add(batteryMercuryLarge);
+<ore:batteryHV>.add(batteryMercuryLarge);
+<ore:batterySingleUseHV>.add(batteryMercuryLarge);
+<ore:batteryMercury>.add(batteryMercuryLarge);
+
+// Reusable
+
+// Cadmium
+val batteryCadmiumLarge = <gregtech:gt.metaitem.01:32537>; // Reusable
+<ore:battery>.add(batteryCadmiumLarge);
+<ore:batteryReusable>.add(batteryCadmiumLarge);
+<ore:batteryLarge>.add(batteryCadmiumLarge);
+<ore:batteryReusableLarge>.add(batteryCadmiumLarge);
+<ore:batteryHV>.add(batteryCadmiumLarge);
+<ore:batteryReusableHV>.add(batteryCadmiumLarge);
+<ore:batteryCadmium>.add(batteryCadmiumLarge);
+
+// Lithium
+val batteryLithiumLarge = <gregtech:gt.metaitem.01:32538>; // Reusable
+<ore:battery>.add(batteryLithiumLarge);
+<ore:batteryReusable>.add(batteryLithiumLarge);
+<ore:batteryLarge>.add(batteryLithiumLarge);
+<ore:batteryReusableLarge>.add(batteryLithiumLarge);
+<ore:batteryHV>.add(batteryLithiumLarge);
+<ore:batteryReusableHV>.add(batteryLithiumLarge);
+<ore:batteryLithium>.add(batteryLithiumLarge);
+
+// Sodium
+val batterySodiumLarge = <gregtech:gt.metaitem.01:32539>; // Reusable
+<ore:battery>.add(batterySodiumLarge);
+<ore:batteryReusable>.add(batterySodiumLarge);
+<ore:batteryLarge>.add(batterySodiumLarge);
+<ore:batteryReusableLarge>.add(batterySodiumLarge);
+<ore:batteryHV>.add(batterySodiumLarge);
+<ore:batteryReusableHV>.add(batterySodiumLarge);
+<ore:batterySodium>.add(batterySodiumLarge);
+
+// IV
+
+val batteryEnergyOrb = <gregtech:gt.metaitem.01:32597>; // Reusable
+<ore:batteryUltimate>.remove(batteryEnergyOrb); // Why was it here?
+<ore:battery>.add(batteryEnergyOrb);
+<ore:batteryReusable>.add(batteryEnergyOrb);
+<ore:batteryIV>.add(batteryEnergyOrb);
+<ore:batteryReusableIV>.add(batteryEnergyOrb);
+
+// LuV
+val batteryEnergyOrbCluster = <gregtech:gt.metaitem.01:32599>; // Reusable
+<ore:batteryUltimate>.remove(batteryEnergyOrbCluster); // Why was it here?
+<ore:battery>.add(batteryEnergyOrbCluster);
+<ore:batteryReusable>.add(batteryEnergyOrbCluster);
+<ore:batteryLuV>.add(batteryEnergyOrbCluster);
+<ore:batteryReusableLuV>.add(batteryEnergyOrbCluster);
+
+// ZPM
+
+val batteryZPM = <gregtech:gt.metaitem.01:32598>; // Single Use
+<ore:battery>.add(batteryZPM);
+<ore:batterySingleUse>.add(batteryZPM);
+<ore:batteryZPM>.add(batteryZPM);
+<ore:batterySingleUseZPM>.add(batteryZPM);
+
+// Ultimate
+
+val batteryUltimate = <gregtech:gt.metaitem.01:32605>; // Reusable
+<ore:battery>.add(batteryUltimate);
+<ore:batteryReusable>.add(batteryUltimate);
+<ore:batteryUltimate>.add(batteryUltimate);
+<ore:batteryReusableUltimate>.add(batteryUltimate);
+<ore:batteryUV>.add(batteryUltimate);
+<ore:batteryReusableUV>.add(batteryUltimate);
+
+
+// --- Chisel blocks processing ---
+
+val dustDacite = <gregtech:gt.metaitem.01:2859>;
+val dustBiotite = <gregtech:gt.metaitem.01:2848>;
+val dustRhyolite = <gregtech:gt.metaitem.01:2875>;
+val dustSiliconDioxide = <gregtech:gt.metaitem.01:2837>;
 
 
 // DACITE
