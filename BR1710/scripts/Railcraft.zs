@@ -139,3 +139,8 @@ recipes.remove(<Railcraft:cart.loco.steam.solid>);
 recipes.addShaped(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}) * 1,[[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ]
 ,[<Railcraft:machine.beta:4>,<Railcraft:machine.beta:4> ,<gregtech:gt.blockmachines:4> ],
 [<minecraft:iron_bars>,<minecraft:minecart> ,<minecraft:minecart> * 1]]);
+
+// Fix extraneous Stone crushing recipe
+val dustStone = <gregtech:gt.metaitem.01:2299>;
+RockCrusher.removeRecipe(<minecraft:stone>);
+RockCrusher.addRecipe(<minecraft:stone>, false, false, [dustStone], [1.0]);

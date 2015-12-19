@@ -5,7 +5,7 @@ import mods.ic2.Extractor;
 import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
 
-
+// Temp fix missing process with current GT5.09.16
 val bobsYerUncleBerry = <gregtech:gt.metaitem.02:32511>;
 val dustTinyEmerald = <gregtech:gt.metaitem.01:501>;
 Extractor.addRecipe(dustTinyEmerald, bobsYerUncleBerry);
