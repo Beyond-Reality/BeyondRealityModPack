@@ -311,44 +311,47 @@ Centrifuge.addRecipe(
   256, 16
 );
 
-var machineCasing = <gregtech:gt.blockcasings2:11>;
-var plateSteel = <ore:plateSteel>;
-var boltIron = <ore:boltIron>;
-var toolWrench = <ore:craftingToolWrench>;
+val machineCasingMotor = <gregtech:gt.blockcasings2:11>;
+val plateSteel = <ore:plateSteel>;
+val boltIron = <ore:boltIron>;
+val toolWrench = <ore:craftingToolWrench>;
 
-recipes.addShaped(machineCasing * 4, [[boltIron, plateSteel, boltIron],
-                                      [plateSteel, toolWrench ,plateSteel],
-                                      [boltIron, plateSteel, boltIron]]);
+recipes.addShaped(machineCasingMotor * 4, [
+  [boltIron, plateSteel, boltIron],
+  [plateSteel, toolWrench ,plateSteel],
+  [boltIron, plateSteel, boltIron]
+]);
 
-var craftingDuctTape = <gregtech:gt.metaitem.01:32764>;
-var plateRubber = <gregtech:gt.metaitem.01:17880>;
-var crateGtDustRubber = <gregtech:gt.metaitem.03:880>;
-var rawCarbonMesh = <IC2:itemPartCarbonMesh>;
-var stickyResin = <IC2:itemHarz>;
-recipes.addShaped(craftingDuctTape, [[plateRubber,plateRubber,plateRubber],
-                                     [stickyResin,crateGtDustRubber,stickyResin],
-                                     [rawCarbonMesh,rawCarbonMesh,rawCarbonMesh]]);
+val plateRubber = <ore:plateRubber>;
+val crateGtDustRubber = <ore:crateGtDustRubber>;
+val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
+val stickyResin = <IC2:itemHarz>;
+for craftingDuctTape in <ore:craftingDuctTape>.items {
+  recipes.addShaped(craftingDuctTape, [
+    [plateRubber,plateRubber,plateRubber],
+    [stickyResin,crateGtDustRubber,stickyResin],
+    [rawCarbonMesh,rawCarbonMesh,rawCarbonMesh]
+  ]);
+}
 
 //Shutter Recipe Fix
 var ironDoor = <minecraft:iron_door>;
-var plateIron = <Railcraft:part.plate>;
-var plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
-var plateAluminium = <gregtech:gt.metaitem.01:17019>;
+var plateWroughtIron = <ore:plateWroughtIron>;
+var plateAluminium = <ore:plateAluminium>;
 var shutterModule = <gregtech:gt.metaitem.01:32749>;
-Assembler.addRecipe(shutterModule * 2, plateIron * 2, ironDoor * 1, 800, 16);
-Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, ironDoor * 1, 800, 16);
-Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, ironDoor * 1, 800, 16);
-
-// Add Mars Tungstate Ore to Oredict
-val tungstate = <ore:oreTungstate>;
-tungstate.add(<beyondrealitycore:customBlock_23>);
+for plateAnyIron in <ore:plateAnyIron>.items {
+  Assembler.addRecipe(shutterModule * 2, plateAnyIron * 2, ironDoor * 1, 800, 16);
+}
+for plateAluminium in <ore:plateAluminium>.items {
+  Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, ironDoor * 1, 800, 16);
+}
 
 // Enable processing of bee combs with greg centriguge
 //addRecipe(IItemStack[] outputs, ILiquidStack fluidOutput, IItemStack input, IItemStack cells, ILiquidStack fluidInput, int[] chances, int durationTicks, int euPerTick)
 
 //Sticky Comb
 Centrifuge.addRecipe(
-  [<IC2:itemHarz>,<IC2:itemFuelPlantBall>,<Forestry:beeswax>],
+  [<IC2:itemHarz>, <IC2:itemFuelPlantBall>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:103>,
   null,null,
   [5000, 1500, 10000],
@@ -357,7 +360,7 @@ Centrifuge.addRecipe(
 
 //Lignite Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:2538>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:2538>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:101>,
   null, null,
   [10000, 7000],
@@ -366,7 +369,7 @@ Centrifuge.addRecipe(
 
 //Coal Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:535>,<minecraft:coal>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:535>, <minecraft:coal>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:102>,
   null, null,
   [10000, 500, 7000],
@@ -375,7 +378,7 @@ Centrifuge.addRecipe(
 
 //Oil Comb
 Centrifuge.addRecipe(
-  [<gendustry:HoneyDrop:10>,<Forestry:beeswax>],
+  [<gendustry:HoneyDrop:10>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:104>,
   null, null,
   [10000, 10000],
@@ -384,7 +387,7 @@ Centrifuge.addRecipe(
 
 //Red Alloy Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:308>,<Forestry:refractoryWax>],
+  [<gregtech:gt.metaitem.01:308>, <Forestry:refractoryWax>],
   null,<gendustry:HoneyComb:105>,
   null, null,
   [10000, 5000],
@@ -393,7 +396,7 @@ Centrifuge.addRecipe(
 
 //Energetic Alloy Comb
 Centrifuge.addRecipe(
-  [<EnderIO:itemAlloy:1>,<Forestry:refractoryWax>],
+  [<EnderIO:itemAlloy:1>, <Forestry:refractoryWax>],
   null,<gendustry:HoneyComb:106>,
   null, null,
   [1300, 5000],
@@ -402,7 +405,7 @@ Centrifuge.addRecipe(
 
 //Vibrant Alloy Comb
 Centrifuge.addRecipe(
-  [<EnderIO:itemMaterial:4>,<Forestry:refractoryWax>],
+  [<EnderIO:itemMaterial:4>, <Forestry:refractoryWax>],
   null,<gendustry:HoneyComb:107>,
   null, null,
   [10000, 5000],
@@ -411,7 +414,7 @@ Centrifuge.addRecipe(
 
 //Pulsating Alloy Comb
 Centrifuge.addRecipe(
-  [<EnderIO:itemMaterial:3>,<Forestry:refractoryWax>],
+  [<EnderIO:itemMaterial:3>, <Forestry:refractoryWax>],
   null,<gendustry:HoneyComb:108>,
   null, null,
   [10000, 5000],
@@ -436,7 +439,7 @@ Centrifuge.addRecipe(
 
 //Thaumium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:330>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:330>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:110>,
   null, null,
   [10000, 5000],
@@ -445,7 +448,7 @@ Centrifuge.addRecipe(
 
 //Stone Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:2299>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:2299>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:111>,
   null, null,
   [7000, 3000],
@@ -454,7 +457,7 @@ Centrifuge.addRecipe(
 
 //Certus Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:516>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:516>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:112>,
   null, null,
   [10000, 3000],
@@ -463,7 +466,7 @@ Centrifuge.addRecipe(
 
 //Fluix Comb
 Centrifuge.addRecipe(
-  [<appliedenergistics2:item.ItemMultiMaterial:8>,<Forestry:beeswax>],
+  [<appliedenergistics2:item.ItemMultiMaterial:8>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:113>,
   null, null,
   [1300, 3000],
@@ -472,7 +475,7 @@ Centrifuge.addRecipe(
 
 //Redstone Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:810>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:810>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:114>,
   null, null,
   [10000, 3000],
@@ -481,7 +484,7 @@ Centrifuge.addRecipe(
 
 //Lapis Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:526>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:526>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:115>,
   null, null,
   [10000, 3000],
@@ -490,7 +493,7 @@ Centrifuge.addRecipe(
 
 //Ruby Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:502>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:502>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:116>,
   null, null,
   [10000, 3000],
@@ -499,7 +502,7 @@ Centrifuge.addRecipe(
 
 //Sahpire Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:503>,<gregtech:gt.metaitem.01:504>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:503>, <gregtech:gt.metaitem.01:504>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:117>,
   null, null,
   [5000, 5000, 3000],
@@ -508,7 +511,7 @@ Centrifuge.addRecipe(
 
 //Diamond Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:500>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:500>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:118>,
   null, null,
   [10000, 3000],
@@ -517,7 +520,7 @@ Centrifuge.addRecipe(
 
 //Olivine Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:505>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:505>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:119>,
   null, null,
   [10000, 3000],
@@ -526,7 +529,7 @@ Centrifuge.addRecipe(
 
 //Emerald Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:501>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:501>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:120>,
   null, null,
   [10000, 3000],
@@ -535,7 +538,7 @@ Centrifuge.addRecipe(
 
 //Slag Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:2299>,<IC2:itemSlag>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:2299>, <IC2:itemSlag>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:121>,
   null, null,
   [7000, 500, 3000],
@@ -544,7 +547,7 @@ Centrifuge.addRecipe(
 
 //Copper Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:35>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:35>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:122>,
   null, null,
   [10000, 3000],
@@ -553,7 +556,7 @@ Centrifuge.addRecipe(
 
 //Tin Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:57>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:57>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:123>,
   null, null,
   [10000, 3000],
@@ -562,7 +565,7 @@ Centrifuge.addRecipe(
 
 //Iron Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:32>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:32>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:125>,
   null, null,
   [10000, 3000],
@@ -571,7 +574,7 @@ Centrifuge.addRecipe(
 
 //Lead Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:89>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:89>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:124>,
   null, null,
   [10000, 3000],
@@ -580,7 +583,7 @@ Centrifuge.addRecipe(
 
 //Steel Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:305>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:305>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:126>,
   null, null,
   [10000, 3000],
@@ -589,7 +592,7 @@ Centrifuge.addRecipe(
 
 //Nickel Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:34>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:34>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:127>,
   null, null,
   [10000, 3000],
@@ -598,7 +601,7 @@ Centrifuge.addRecipe(
 
 //Zinc Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:36>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:36>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:128>,
   null, null,
   [10000, 3000],
@@ -607,7 +610,7 @@ Centrifuge.addRecipe(
 
 //Silver Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:54>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:54>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:129>,
   null, null,
   [10000, 3000],
@@ -616,7 +619,7 @@ Centrifuge.addRecipe(
 
 //Gold Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:86>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:86>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:130>,
   null, null,
   [10000, 3000],
@@ -625,7 +628,7 @@ Centrifuge.addRecipe(
 
 //Aluminium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:19>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:19>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:131>,
   null, null,
   [5000, 3000],
@@ -634,7 +637,7 @@ Centrifuge.addRecipe(
 
 //Mang Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:31>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:31>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:132>,
   null, null,
   [5000, 3000],
@@ -643,7 +646,7 @@ Centrifuge.addRecipe(
 
 //Titanium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:28>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:28>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:133>,
   null, null,
   [5000, 3000],
@@ -652,7 +655,7 @@ Centrifuge.addRecipe(
 
 //Chrome Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:30>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:30>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:134>,
   null, null,
   [5000, 3000],
@@ -661,7 +664,7 @@ Centrifuge.addRecipe(
 
 //Tungsten Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:81>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:81>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:135>,
   null, null,
   [5000, 3000],
@@ -670,7 +673,7 @@ Centrifuge.addRecipe(
 
 //Platinum Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:85>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:85>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:136>,
   null, null,
   [5000, 3000],
@@ -679,7 +682,7 @@ Centrifuge.addRecipe(
 
 //Iridium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:84>,<gregtech:gt.metaitem.01:83>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:84>, <gregtech:gt.metaitem.01:83>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:137>,
   null, null,
   [2000, 800, 3000],
@@ -688,7 +691,7 @@ Centrifuge.addRecipe(
 
 //Uranium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:97>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:97>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:138>,
   null, null,
   [2500, 3000],
@@ -697,7 +700,7 @@ Centrifuge.addRecipe(
 
 //Plutonium Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:100>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:100>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:139>,
   null, null,
   [1600, 3000],
@@ -706,7 +709,7 @@ Centrifuge.addRecipe(
 
 //Naquidah Comb
 Centrifuge.addRecipe(
-  [<gregtech:gt.metaitem.01:324>,<gregtech:gt.metaitem.01:326>,<Forestry:beeswax>],
+  [<gregtech:gt.metaitem.01:324>, <gregtech:gt.metaitem.01:326>, <Forestry:beeswax>],
   null,<gendustry:HoneyComb:140>,
   null, null,
   [2000, 500, 3000],
@@ -776,7 +779,7 @@ Centrifuge.addRecipe(
 // Vanilla Forestry Combs
 //Honey Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<Forestry:honeyDrop>],
+  [<Forestry:beeswax>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:0>,
   null, null,
   [10000, 9000],
@@ -785,7 +788,7 @@ Centrifuge.addRecipe(
 
 //Cocoa Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<minecraft:dye:3>],
+  [<Forestry:beeswax>, <minecraft:dye:3>],
   null,<Forestry:beeCombs:1>,
   null, null,
   [10000, 5000],
@@ -794,7 +797,7 @@ Centrifuge.addRecipe(
 
 // Simmering Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<Forestry:phosphor>],
+  [<Forestry:beeswax>, <Forestry:phosphor>],
   null,<Forestry:beeCombs:2>,
   null, null,
   [10000, 7000],
@@ -803,7 +806,7 @@ Centrifuge.addRecipe(
 
 // Stringy Comb
 Centrifuge.addRecipe(
-  [<Forestry:propolis>,<Forestry:honeyDrop>],
+  [<Forestry:propolis>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:3>,
   null, null,
   [10000, 4000],
@@ -812,7 +815,7 @@ Centrifuge.addRecipe(
 
 // Frozen Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<Forestry:honeyDrop>,<minecraft:snowball>,<Forestry:pollen>],
+  [<Forestry:beeswax>, <Forestry:honeyDrop>, <minecraft:snowball>, <Forestry:pollen>],
   null,<Forestry:beeCombs:4>,
   null, null,
   [8000, 7000, 4000, 20],
@@ -821,7 +824,7 @@ Centrifuge.addRecipe(
 
 // Dripping Comb
 Centrifuge.addRecipe(
-  [<Forestry:honeydew>,<Forestry:honeyDrop>],
+  [<Forestry:honeydew>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:5>,
   null, null,
   [10000, 4000],
@@ -830,7 +833,7 @@ Centrifuge.addRecipe(
 
 // Silky Comb
 Centrifuge.addRecipe(
-  [<Forestry:honeyDrop>,<Forestry:propolis:3>],
+  [<Forestry:honeyDrop>, <Forestry:propolis:3>],
   null,<Forestry:beeCombs:6>,
   null, null,
   [10000, 7000],
@@ -839,7 +842,7 @@ Centrifuge.addRecipe(
 
 // Parched Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<Forestry:honeyDrop>],
+  [<Forestry:beeswax>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:7>,
   null, null,
   [10000, 9000],
@@ -848,7 +851,7 @@ Centrifuge.addRecipe(
 
 // Mysterious Comb
 Centrifuge.addRecipe(
-  [<Forestry:propolis:2>,<Forestry:honeyDrop>],
+  [<Forestry:propolis:2>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:8>,
   null, null,
   [10000, 4000],
@@ -866,7 +869,7 @@ Centrifuge.addRecipe(
 
 // Powdery Comb
 Centrifuge.addRecipe(
-  [<minecraft:gunpowder>,<Forestry:honeyDrop>,<Forestry:beeswax>],
+  [<minecraft:gunpowder>, <Forestry:honeyDrop>, <Forestry:beeswax>],
   null,<Forestry:beeCombs:10>,
   null, null,
   [9000, 2000, 2000],
@@ -879,7 +882,7 @@ Centrifuge.addRecipe(
 
 // Wheaten Comb
 Centrifuge.addRecipe(
-  [<minecraft:wheat>,<Forestry:honeyDrop>,<Forestry:beeswax>],
+  [<minecraft:wheat>, <Forestry:honeyDrop>, <Forestry:beeswax>],
   null,<Forestry:beeCombs:14>,
   null, null,
   [8000, 2000, 2000],
@@ -888,7 +891,7 @@ Centrifuge.addRecipe(
 
 // Mossy Comb
 Centrifuge.addRecipe(
-  [<Forestry:beeswax>,<Forestry:honeyDrop>],
+  [<Forestry:beeswax>, <Forestry:honeyDrop>],
   null,<Forestry:beeCombs:15>,
   null, null,
   [10000, 9000],
@@ -897,7 +900,7 @@ Centrifuge.addRecipe(
 
 // Mellow Comb
 Centrifuge.addRecipe(
-  [<Forestry:honeydew>,<minecraft:quartz>,<Forestry:beeswax>],
+  [<Forestry:honeydew>, <minecraft:quartz>, <Forestry:beeswax>],
   null,<Forestry:beeCombs:16>,
   null, null,
   [6000, 3000, 2000],
@@ -915,7 +918,7 @@ Centrifuge.addRecipe(
 
 //Silky Propolis
 Centrifuge.addRecipe(
-  [<Forestry:craftingMaterial:2>,<Forestry:propolis>],
+  [<Forestry:craftingMaterial:2>, <Forestry:propolis>],
   null,<Forestry:propolis:3>,
   null, null,
   [6000, 1000],
