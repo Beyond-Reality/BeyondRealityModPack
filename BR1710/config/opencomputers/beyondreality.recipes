@@ -126,7 +126,7 @@ lanCard {
 }
 wlanCard {
   input: [[screwTitanium , "oc:circuitChip3" , screwTitanium]
-          [enderPearl, "oc:lanCard", enderPearl]
+          [materialEnderPearl, "oc:lanCard", materialEnderPearl]
           [screwTitanium , craftingToolScrewdriver, screwTitanium]]
 }
 
@@ -165,7 +165,7 @@ cuttingWire {
 }
 acid {
   type: shapeless
-  output: 0
+  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
 }
 disk {
   input: [["", plateAluminium, ""]
@@ -333,7 +333,7 @@ relay {
 }
 screen1 {
   input: [[plateAluminium, plateAluminium, craftingToolWrench]
-          [redstone, "oc:materialTransistor", thinGlass]
+          [redstone, "oc:materialTransistor", paneGlass]
           [plateAluminium, plateAluminium, craftingToolScrewdriver]]
 }
 screen2 {
