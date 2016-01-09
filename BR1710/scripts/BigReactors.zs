@@ -1,33 +1,41 @@
+// BigReactors.zs tweaks
+
 import mods.nei.NEI;
 
-val steelplate = <ore:plateSteel>; 
-val steel = <ore:ingotSteel>;
-val rod = <ore:stickSteel>;
-val bars = <minecraft:iron_bars>;
-val graphite = <BigReactors:BRIngot:2>;
-val yellorium = <ore:ingotYellorium>;
-val yblock = <ore:blockYellorium>;
-val cyanite = <ore:ingotCyanite>;
-val glass = <BigReactors:BRMultiblockGlass>;
-val port = <BigReactors:BRReactorPart:5>;
+val plateSteel = <ore:plateSteel>;
+val ingotSteel = <ore:ingotSteel>;
+val stickSteel = <ore:stickSteel>;
+val barsIron = <ore:barsIron>;
+val ingotGraphite = <ore:ingotGraphite>;
+val ingotYellorium = <ore:ingotYellorium>;
+val blockYellowrium = <ore:blockYellorium>;
+val ingotCyanite = <ore:ingotCyanite>;
+val glassTurbine = <ore:glassTurbine>;
+val reactorCoolantPort = <ore:reactorCoolantPort>;
 
-print("Turbine Housing");	
+furnace.remove(ingotGraphite); // Improper duplicate of Gregtech smelting ore
+recipes.remove(ingotGraphite); // Nerf to machining requirement
+
+print("Turbine Housing");
 recipes.remove(<BigReactors:BRTurbinePart>);
-recipes.addShaped(<BigReactors:BRTurbinePart> * 4, [[steelplate, graphite, steelplate],
-                                                    [steelplate, cyanite, steelplate],
-                                                    [steelplate, graphite, steelplate]]);
-	
-print("Reactor Housing") ;		
-recipes.remove(<BigReactors:BRReactorPart>);
-recipes.addShaped(<BigReactors:BRReactorPart>* 4, [[steelplate, graphite, steelplate],
-                                                    [steelplate, yellorium, steelplate],
-                                                    [steelplate, graphite, steelplate]]);
-													
-print("Fuel Rod") ;	
-recipes.remove(<BigReactors:YelloriumFuelRod>);
-recipes.addShaped(<BigReactors:YelloriumFuelRod>, [[steelplate, yellorium, steelplate],
-                                                    [glass, yblock, glass],
-                                                    [steelplate, yellorium, steelplate]]);	
+recipes.addShaped(<BigReactors:BRTurbinePart> * 4, [
+  [plateSteel, ingotGraphite, plateSteel],
+  [plateSteel, ingotCyanite, plateSteel],
+  [plateSteel, ingotGraphite, plateSteel]
+]);
 
-		
-						
+print("Reactor Housing") ;
+recipes.remove(<BigReactors:BRReactorPart>);
+recipes.addShaped(<BigReactors:BRReactorPart>* 4, [
+  [plateSteel, ingotGraphite, plateSteel],
+  [plateSteel, ingotYellorium, plateSteel],
+  [plateSteel, ingotGraphite, plateSteel]
+]);
+
+print("Fuel Rod") ;
+recipes.remove(<BigReactors:YelloriumFuelRod>);
+recipes.addShaped(<BigReactors:YelloriumFuelRod>, [
+  [plateSteel, ingotYellorium, plateSteel],
+  [glassTurbine, blockYellowrium, glassTurbine],
+  [plateSteel, ingotYellorium, plateSteel]
+]);
