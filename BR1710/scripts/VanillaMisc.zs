@@ -1,10 +1,10 @@
 # Vanilla / Misc Minetweaker Changes
 
 # Remove ability to smelt iron nuggets into steel
-furnace.remove(<Railcraft:nugget:1>, <ore:nuggetIron>);
+furnace.remove(<Railcraft:nugget:1>, <ore:nuggetAnyIron>);
 
 # chisel
-recipes.addShapeless(<chisel:chisel>, [<ore:stickWood>,<minecraft:iron_ingot>]);
+recipes.addShapeless(<chisel:chisel>, [<ore:stickWood>,<ore:ingotAnyIron>]);
 
 # Red Alloy Wire
 recipes.remove(<ProjRed|Transmission:projectred.transmission.wire>);
@@ -12,14 +12,11 @@ recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[nu
 																		[null,<ore:ingotRedAlloy>,null],
 																		[null,<ore:ingotRedAlloy>,null]]);
 
-
-
 recipes.removeShaped(<minecraft:wooden_slab>);
 recipes.addShaped(<minecraft:wooden_slab> * 2, [
 	[<ore:toolSaw>, <minecraft:planks>, null],
 	[null, null, null],
 	[null, null, null]]);
-
 
 //Gold Exploit
 recipes.remove(<minecraft:speckled_melon>);
@@ -107,3 +104,4 @@ recipes.remove(<malisisdoors:item.curtain_black>);
 recipes.addShaped(<malisisdoors:item.curtain_black> * 1,[[<ore:blockWoolBlack>,<ore:woodStick>,<ore:blockWoolBlack>],
 	[<ore:blockWoolBlack>,null,<ore:blockWoolBlack>],
 	[<ore:blockWoolBlack>,null,<ore:blockWoolBlack>]]);
+
