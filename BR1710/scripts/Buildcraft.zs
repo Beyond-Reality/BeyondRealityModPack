@@ -18,3 +18,11 @@ recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:plateSteel>,<ore:
                                                         [<ore:plateSteel>,<gregtech:gt.metaitem.02:31057>,<ore:plateSteel>]]);
 
 #Refinery.addRecipe(<liquid:fuel>*2, 120, 2, <liquid:oilgc>,<liquid:oilgc>);
+
+// Combustion Engine
+recipes.remove(<BuildCraft|Core:engineBlock:2>);
+recipes.addShaped(<BuildCraft|Core:engineBlock:2>,[
+  [<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
+  [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
+  [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
+]);
