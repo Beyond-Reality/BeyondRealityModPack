@@ -1,5 +1,6 @@
 import mods.gregtech.AlloySmelter;
 import mods.nei.NEI;
+import mods.ic2.Compressor;
 
 var redstonecable = <MineFactoryReloaded:cable.redstone:2>;
 var redstonecable1 = <MineFactoryReloaded:cable.redstone:3>;
@@ -20,9 +21,11 @@ recipes.remove(machineblock);
 recipes.addShaped(machineblock, [[aluminumPlate,steelrod,aluminumPlate],
                                                                 [steelrod,casing,steelrod],
                                                                 [aluminumPlate,steelrod,aluminumPlate]]);
-																
+
 # MFR Rubber
 furnace.remove(<*>, rawrubber);
 AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:2880>, rawrubber, <gregtech:gt.metaitem.01:8538>, 100, 2);
 
-
+// BLock of SugarCharcoal require compressor
+recipes.remove(<MineFactoryReloaded:brick:15>);
+Compressor.addRecipe(<MineFactoryReloaded:brick:15>, <MineFactoryReloaded:sugarcharcoal> * 9);

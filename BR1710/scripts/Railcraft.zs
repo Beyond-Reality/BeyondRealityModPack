@@ -1,5 +1,6 @@
 import minetweaker.item.IItemStack;
 import mods.railcraft.RockCrusher;
+import mods.ic2.Compressor;
 
 // BR Ores
 // Moon
@@ -144,3 +145,7 @@ recipes.addShaped(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:d
 val dustStone = <gregtech:gt.metaitem.01:2299>;
 RockCrusher.removeRecipe(<minecraft:stone>);
 RockCrusher.addRecipe(<minecraft:stone>, false, false, [dustStone], [1.0]);
+
+// BLock of Coal Coke require compressor
+recipes.remove(<Railcraft:cube>);
+Compressor.addRecipe(<Railcraft:cube>, <Railcraft:fuel.coke> * 9);

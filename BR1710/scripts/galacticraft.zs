@@ -254,3 +254,7 @@ BlastFurnace.addRecipe([GTingotTitanium], [shardTitanium], 1500, 120, 1500);
 furnace.remove(<*>, GCoreIlmenite);
 //furnace.remove(<*>, GCoreAluminiumAsteroid);
 furnace.remove(<*>, shardTitanium);
+
+// blocks require Compressor
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>); // Copper block
+recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>); // Tin block
