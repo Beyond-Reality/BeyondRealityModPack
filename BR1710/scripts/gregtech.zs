@@ -1,15 +1,11 @@
 import mods.gregtech.Assembler;
 import mods.gregtech.Centrifuge;
+import mods.gregtech.PlateBender;
+import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
 
 import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
-
-// Temp fix missing process with current GT5.09.16
-val bobsYerUncleBerry = <gregtech:gt.metaitem.02:32511>;
-val dustTinyEmerald = <gregtech:gt.metaitem.01:501>;
-Extractor.addRecipe(dustTinyEmerald, bobsYerUncleBerry);
-
 
 // --- OreDictionary registrations ---
 
@@ -50,7 +46,6 @@ val capacitorTantalum = <gregtech:gt.metaitem.01:32499>; // Reusable
 // Reusable
 
 // Tantalum
-
 
 // LV
 
@@ -255,6 +250,35 @@ val batteryUltimate = <gregtech:gt.metaitem.01:32605>; // Reusable
 <ore:batteryUV>.add(batteryUltimate);
 <ore:batteryReusableUV>.add(batteryUltimate);
 
+// --- Some missing
+
+val foilRubber = <gregtech:gt.metaitem.01:29880>;
+
+for plateRubber in <ore:plateRubber>.items {
+  PlateBender.addRecipe(foilRubber * 4, plateRubber, 40, 24);
+}
+
+val foilPlastic = <gregtech:gt.metaitem.01:29874>;
+
+for platePlastic in <ore:platePlastic>.items {
+  PlateBender.addRecipe(foilPlastic * 4, platePlastic, 40, 24);
+}
+
+val foilWood = <gregtech:gt.metaitem.01:29809>;
+val foilWoodSealed = <gregtech:gt.metaitem.01:29889>;
+val plateWood = <gregtech:gt.metaitem.01:17809>;
+val plateWoodSealed = <gregtech:gt.metaitem.01:17889>;
+val water = <liquid:water>;
+val distilledWater = <liquid:ic2distilledwater>;
+val lubricant = <liquid:lubricant>;
+val glue = <liquid:glue>;
+
+CuttingSaw.addRecipe([foilWood * 4], plateWood, water, 40, 4);
+CuttingSaw.addRecipe([foilWood * 4], plateWood, distilledWater, 40, 4);
+CuttingSaw.addRecipe([foilWood * 4], plateWood, lubricant, 20, 4);
+CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, water, 40, 4);
+CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, distilledWater, 40, 4);
+CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, lubricant, 20, 4);
 
 // --- Chisel blocks processing ---
 
@@ -334,17 +358,14 @@ for craftingDuctTape in <ore:craftingDuctTape>.items {
   ]);
 }
 
-//Shutter Recipe Fix
-var ironDoor = <minecraft:iron_door>;
-var plateWroughtIron = <ore:plateWroughtIron>;
-var plateAluminium = <ore:plateAluminium>;
-var shutterModule = <gregtech:gt.metaitem.01:32749>;
-for plateAnyIron in <ore:plateAnyIron>.items {
-  Assembler.addRecipe(shutterModule * 2, plateAnyIron * 2, ironDoor * 1, 800, 16);
-}
-for plateAluminium in <ore:plateAluminium>.items {
-  Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, ironDoor * 1, 800, 16);
-}
+//Shutter Recipe Fix (caused by Malysis's doors)
+val plateIron = <Railcraft:part.plate>;
+val plateWroughtIron = <gregtech:gt.metaitem.01:17304>;
+val plateAluminium = <gregtech:gt.metaitem.01:17019>;
+val shutterModule = <gregtech:gt.metaitem.01:32749>;
+Assembler.addRecipe(shutterModule * 2, plateIron * 2, <minecraft:iron_door> * 1, 800, 16);
+Assembler.addRecipe(shutterModule * 2, plateAluminium * 2, <minecraft:iron_door> * 1, 800, 16);
+Assembler.addRecipe(shutterModule * 2, plateWroughtIron * 2, <minecraft:iron_door> * 1, 800, 16);
 
 // Enable processing of bee combs with greg centriguge
 //addRecipe(IItemStack[] outputs, ILiquidStack fluidOutput, IItemStack input, IItemStack cells, ILiquidStack fluidInput, int[] chances, int durationTicks, int euPerTick)
