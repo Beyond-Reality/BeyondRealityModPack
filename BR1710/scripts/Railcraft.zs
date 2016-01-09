@@ -77,7 +77,19 @@ import mods.ic2.Compressor;
 //val oreICIridium											  = <IC2:itemOreIridium>;
 
 
+// Oredict registrations
+<ore:gearSteel>.add(<Railcraft:part.gear:2>);
+<ore:gearPlatedGold>.add(<Railcraft:part.gear:0>);
+
 // Railcraft Recipe Changes
+
+// Industrial Steam Engine more oredict
+recipes.remove(<Railcraft:machine.alpha:9>);
+recipes.addShaped(<Railcraft:machine.alpha:9>,[
+  [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
+  [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
+  [<ore:gearSteel>,<ore:craftingPiston>,<ore:gearSteel>]
+]);
 
 // World Anchor fix
 recipes.remove(<Railcraft:machine.alpha:8>);
