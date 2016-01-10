@@ -16,3 +16,6 @@
 * Natura
   * [Removed Natura Woods Charcoal exploit](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/e084b2326bb2543a20585523cb0c27ca112c1261)
   * [Gregtech recipes for Natura woods](https://github.com/Beyond-Reality/BeyondRealityModPack/commit/d601a4bd083a707b529bcd09501ae381e1299199)
+
+* Power Converters
+  * [Fix #368 Broken recipes](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/368)
