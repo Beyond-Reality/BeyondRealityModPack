@@ -45,3 +45,13 @@ for i,v in naturaPlanks
 
 	recipes.addShaped(v,[[slab],[slab]]);
 }
+
+
+// No charcoal from woods
+furnace.remove(<*>, <Natura:tree:0>);
+furnace.remove(<*>, <Natura:tree:1>);
+furnace.remove(<*>, <Natura:tree:2>);
+furnace.remove(<*>, <Natura:tree:3>);
+
+furnace.remove(<*>, <Natura:redwood:0>);
+furnace.remove(<*>, <Natura:redwood:1>);
