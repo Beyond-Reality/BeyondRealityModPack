@@ -1,5 +1,6 @@
 # Change Logs for Beyond Reality Versions
 
+* [2.3.8](CHANGELOG_2.3.8.md)
 * [2.3.7b](CHANGELOG_2.3.7b.md)
 * [2.3.7a](CHANGELOG_2.3.7a.md)
 * [2.3.7](CHANGELOG_2.3.7.md)
