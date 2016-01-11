@@ -43,7 +43,6 @@ val moonruby = <beyondrealitycore:customBlock_25>;
 
 val moonglowstone = <beyondrealitycore:customBlock_27>;
 <ore:oreGlowstone>.add(moonglowstone);
-<ore:oreGlowstone>.add(<minecraft:glowstone:0>);
 
 // Mars
 val marsiron = <beyondrealitycore:customBlock_1>;
