@@ -27,6 +27,7 @@ val robotArmEV = <gregtech:gt.metaitem.01:32653>;
 val robotArmHV = <gregtech:gt.metaitem.01:32652>;
 
 val itemMiscQuantumCircuit = <GraviSuiteReloaded:ItemMiscQuantumCircuit>;
+val itemArmorAdvancedJetpack = <GraviSuiteReloaded:ItemArmorAdvancedJetpack>;
 val itemArmorLappack = <GraviSuiteReloaded:ItemArmorLappack>;
 val itemArmorQuantumLappack = <GraviSuiteReloaded:ItemArmorQuantumLappack>;
 val itemWeaponQuantumSaber = <GraviSuiteReloaded:ItemWeaponQuantumSaber>;
@@ -52,6 +53,19 @@ recipes.addShaped(itemToolTheThingamabob, [
 
 <ore:craftingToolBlade>.add(itemWeaponQuantumSaber);
 <ore:craftingToolSword>.add(itemWeaponQuantumSaber);
+
+// Advanced Jetpack a la Gregtech sauce
+recipes.removeShaped(itemArmorAdvancedJetpack, [
+  [<IC2:itemDensePlates:5>, <IC2:itemBatCrystal>, <IC2:itemDensePlates:5>],
+  [<IC2:itemPartCircuitAdv>, <IC2:itemArmorJetpackElectric>, <IC2:itemPartCircuitAdv>],
+  [<IC2:itemDensePlates:5>, <IC2:itemArmorEnergypack>, <IC2:itemDensePlates:5>]
+]);
+
+recipes.addShaped(itemArmorAdvancedJetpack, [
+  [<ore:plateDenseSteel>, <ore:batteryElite>, <ore:plateDenseSteel>],
+  [<ore:circuitAdvanced>, <IC2:itemArmorJetpackElectric>.anyDamage(), <ore:circuitAdvanced>],
+  [<ore:plateDenseSteel>, <IC2:itemArmorEnergypack>.anyDamage(), <ore:plateDenseSteel>],
+]);
 
 
 // Quantum Lappack a la Gregtech sauce
