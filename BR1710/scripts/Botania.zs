@@ -44,4 +44,5 @@ val shimmerWoodPlanksSlab = <Botania:shimmerwoodPlanks0Slab>;
 
 // livingwood slabs need a dedicated recipe tweak
 var toolSaw = <ore:craftingToolSaw>;
+recipes.removeShaped(livingwoodSlab * 6,[[livingwood,livingwood,livingwood]]);
 recipes.addShaped(livingwoodSlab * 2,[[toolSaw,livingwood]]);
