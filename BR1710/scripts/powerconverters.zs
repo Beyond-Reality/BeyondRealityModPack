@@ -39,9 +39,9 @@ recipes.remove(<PowerConverters:converter.common:2>);
 
 recipes.remove(<PowerConverters:converter.common:0>);
 recipes.addShaped(<PowerConverters:converter.common:0>, [
-	[glassfiber, <gregtech:gt.metaitem.01:17033>, glassfiber],
+	[glassfiber, <ore:plateCobalt>, glassfiber],
 	[denselead, <gregtech:gt.blockmachines:22>, denselead],
-	[<gregtech:gt.blockmachines:1207>, <gregtech:gt.metaitem.01:17033>, <gregtech:gt.blockmachines:1207>]]);
+	[<ore:cableGt02Cobalt>, <ore:plateCobalt>, <ore:cableGt02Cobalt>]]);
 
 recipes.remove(<PowerConverters:converter.gt.consumer:5>);
 recipes.addShaped(<PowerConverters:converter.gt.consumer:5>, [
