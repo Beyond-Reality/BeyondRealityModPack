@@ -9,6 +9,11 @@ import minetweaker.item.IItemStack;
 
 // --- OreDictionary registrations ---
 
+// Salt
+
+val salt = <gregtech:gt.metaitem.01:2817>;
+<ore:foodSalt>.add(salt);
+
 // Battery Hulls
 
 // Small
@@ -46,6 +51,7 @@ val capacitorTantalum = <gregtech:gt.metaitem.01:32499>; // Reusable
 // Reusable
 
 // Tantalum
+
 
 // LV
 
@@ -279,6 +285,10 @@ CuttingSaw.addRecipe([foilWood * 4], plateWood, lubricant, 20, 4);
 CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, water, 40, 4);
 CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, distilledWater, 40, 4);
 CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, lubricant, 20, 4);
+
+//AssemblerLiq.addRecipe(plateWood, foilWood * 4, <liquid:glue> * 30, 120, 16);
+//Assembler.addRecipe(plateWoodSealed, foilWoodSealed * 4, <liquid:glue> 30, 120, 16);
+
 
 // --- Chisel blocks processing ---
 
@@ -945,4 +955,5 @@ Centrifuge.addRecipe(
   [6000, 1000],
   240, 16
 );
+
 
