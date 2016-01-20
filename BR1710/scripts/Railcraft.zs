@@ -1,4 +1,5 @@
 import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 import mods.railcraft.RockCrusher;
 import mods.ic2.Compressor;
 
@@ -76,14 +77,85 @@ import mods.ic2.Compressor;
 // IC2 Ores as a byproduct
 //val oreICIridium											  = <IC2:itemOreIridium>;
 
+val slabMeta = [
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+  10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+  20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+  40, 41, 42, 43
+] as int[];
+
+// Ingredients for slabs
+val slabIngredients = [
+// 0-9
+  <Railcraft:brick.sandy:0>,
+  <Railcraft:brick.infernal:0>,
+  <Railcraft:cube:1>,
+  <ore:blockSnow>,
+  <ore:blockIce>,
+  <minecraft:packed_ice>,
+  <ore:blockIron>,
+  <ore:blockGold>,
+  <ore:blockDiamond>,
+  <Railcraft:brick.frostbound:0>,
+// 10-19
+  <Railcraft:brick.quarried:0>,
+  <Railcraft:brick.bleachedbone:0>,
+  <Railcraft:brick.bloodstained:0>,
+  <Railcraft:brick.abyssal:0>,
+  <Railcraft:brick.sandy:1>,
+  <Railcraft:brick.infernal:1>,
+  <Railcraft:brick.frostbound:1>,
+  <Railcraft:brick.quarried:1>,
+  <Railcraft:brick.bleachedbone:1>,
+  <Railcraft:brick.bloodstained:1>,
+// 20-29
+  <Railcraft:brick.abyssal:1>,
+  <Railcraft:brick.nether:1>,
+  <Railcraft:brick.sandy:2>,
+  <Railcraft:brick.infernal:2>,
+  <Railcraft:brick.frostbound:2>,
+  <Railcraft:brick.quarried:2>,
+  <Railcraft:brick.bleachedbone:2>,
+  <Railcraft:brick.bloodstained:2>,
+  <Railcraft:brick.abyssal:2>,
+  <Railcraft:brick.nether:2>,
+// 30-39
+  <Railcraft:brick.sandy:5>,
+  <Railcraft:brick.infernal:5>,
+  <Railcraft:brick.frostbound:5>,
+  <Railcraft:brick.quarried:5>,
+  <Railcraft:brick.bleachedbone:5>,
+  <Railcraft:brick.bloodstained:5>,
+  <Railcraft:brick.abyssal:5>,
+  <Railcraft:brick.nether:5>,
+  <Railcraft:cube:8>,
+  <minecraft:obsidian>,
+// 40-43
+  <ore:blockCopper>,
+  <ore:blockTin>,
+  <ore:blockLead>,
+  <ore:blockSteel>
+] as IIngredient[];
+
+val toolSaw = <ore:craftingToolSaw>;
+
 // Railcraft Recipe Changes
+
+// Slabs requires saw for crafting
+for meta in slabMeta {
+  var slabItem = <Railcraft:slab>.definition.makeStack(meta);
+  var blockItem = slabIngredients[meta];
+  recipes.remove(slabItem);
+  recipes.addShaped(slabItem * 2, [[toolSaw, blockItem]]);
+}
 
 // Hobbyist's Steam Engine more oredict
 recipes.remove(<Railcraft:machine.beta:7>);
 recipes.addShaped(<Railcraft:machine.beta:7>,[
   [<ore:plateGold>,<ore:plateGold>,<ore:plateGold>],
   [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
-  [<ore:gearGold>,<ore:craftingPiston>,<ore:gearGold>]
+  [<ore:gearGold>,  <ore:craftingPiston>,<ore:gearGold>]
 ]);
 
 // Commercial Steam Engine more oredict
