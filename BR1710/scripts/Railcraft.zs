@@ -76,16 +76,27 @@ import mods.ic2.Compressor;
 // IC2 Ores as a byproduct
 //val oreICIridium											  = <IC2:itemOreIridium>;
 
-
-// Oredict registrations
-<ore:gearSteel>.add(<Railcraft:part.gear:2>);
-<ore:gearPlatedGold>.add(<Railcraft:part.gear:0>);
-
 // Railcraft Recipe Changes
 
+// Hobbyist's Steam Engine more oredict
+recipes.remove(<Railcraft:machine.beta:7>);
+recipes.addShaped(<Railcraft:machine.beta:7>,[
+  [<ore:plateGold>,<ore:plateGold>,<ore:plateGold>],
+  [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
+  [<ore:gearGold>,<ore:craftingPiston>,<ore:gearGold>]
+]);
+
+// Commercial Steam Engine more oredict
+recipes.remove(<Railcraft:machine.beta:8>);
+recipes.addShaped(<Railcraft:machine.beta:8>,[
+  [<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
+  [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
+  [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
+]);
+
 // Industrial Steam Engine more oredict
-recipes.remove(<Railcraft:machine.alpha:9>);
-recipes.addShaped(<Railcraft:machine.alpha:9>,[
+recipes.remove(<Railcraft:machine.beta:9>);
+recipes.addShaped(<Railcraft:machine.beta:9>,[
   [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
   [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
   [<ore:gearSteel>,<ore:craftingPiston>,<ore:gearSteel>]
