@@ -65,6 +65,16 @@ ore dictionary.
       </output>
     </recipe>
 
+    <recipe name="Conductive Iron" energyCost="10000">
+-     <input>
+-       <itemStack modID="minecraft" itemName="redstone"/>
+-       <itemStack modID="minecraft" itemName="iron_ingot"/>
+-     </input>
+-     <output>
+-       <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="4" exp="0.5"/>
+-     </output>
+-   </recipe>
+-
     <recipe name="Pulsating Iron" energyCost="10000">
       <input>
       <itemStack modID="minecraft" itemName="iron_ingot"/>
