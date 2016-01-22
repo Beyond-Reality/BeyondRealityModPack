@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Entries in this file take precedence over the values in the core file
  -->
 <OreDictionaryPreferences>
@@ -7,5 +7,14 @@ Entries in this file take precedence over the values in the core file
   </preference>
   <preference oreDictionary="gravel" >
     <itemStack modID="minecraft" itemName="gravel" itemMeta="0" />
+  </preference>
+  <preference oreDictionary="itemSilicon" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2020" />
+  </preference>
+  <preference oreDictionary="ingotRedstoneAlloy" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11308" />
+  </preference>
+  <preference oreDictionary="blockRedstoneAlloy" >
+    <itemStack modID="gregtech" itemName="gt.blockmetal6" itemMeta="1" />
   </preference>
 </OreDictionaryPreferences>

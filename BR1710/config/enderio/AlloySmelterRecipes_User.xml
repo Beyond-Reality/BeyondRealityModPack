@@ -22,9 +22,9 @@ ore dictionary.
   Add this line to disbale the creation of TE alloys using the Alloy Smelter.
   <recipeGroup name="Thermal Expansion" enabled="false"/>
 -->
-<recipeGroup name="Thermal Expansion" enabled="false"/>
-
 <AlloySmelterRecipes>
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
 
 	<vanillaFurnaceRecipes>
     <exclude>
@@ -52,16 +52,6 @@ ore dictionary.
       </input>
       <output>
         <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1"/>
-      </output>
-    </recipe>
-
-    <recipe name="Redstone Alloy" energyCost="10000">
-      <input>
-        <itemStack modID="minecraft" itemName="redstone"/>
-        <itemStack modID="EnderIO" itemName="itemMaterial" itemMeta="0" /> <!-- Silicon -->
-      </input>
-      <output>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" exp="0.5"/>
       </output>
     </recipe>
 
@@ -223,9 +213,12 @@ ore dictionary.
         </output>
     </recipe>
 
-    <!-- Disabled Recipes requires Gregtech Electric Blast Furnace -->
+    <!-- Disabled Recipes -->
+    <!-- requires Gregtech Electric Blast Furnace -->
     <recipe name="Electrical Steel"/>
     <recipe name="Dark Steel"/>
+    <!-- Replaced by Gregtech Red Alloy -->
+    <recipe name="Redstone Alloy" />
 
   </recipeGroup>
 
