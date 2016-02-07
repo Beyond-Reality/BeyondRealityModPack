@@ -13,7 +13,7 @@ var naturaLogs = [
   <Natura:Rare Tree:0>, <Natura:Rare Tree:1>,
   <Natura:Rare Tree:2>, <Natura:Rare Tree:3>,
   <Natura:willow>, <Natura:Dark Tree>,
-  <Natura:Dark Tree:12>
+  <Natura:Dark Tree:1>
 ] as IItemStack[];
 
 //Euc, Sak, Gho, Red, Blo, Hop, Map, Sil, Ama, Tig, Wil, Dar, Fus
