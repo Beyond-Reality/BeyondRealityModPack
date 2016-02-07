@@ -1,12 +1,21 @@
+// EnderIO.zs Tweaks
+import mods.nei.NEI;
 
+/* Disable farming station due to map crash issues:
+   See: https://github.com/Beyond-Reality/BeyondRealityModPack/issues/382
+*/
 
+recipes.remove(<EnderIO:blockFarmStation>);
+NEI.hide(<EnderIO:blockFarmStation>);
+
+// Declares
 val steelplate = <ore:plateSteel>;
 val steel = <ore:ingotSteel>;
 var rod = <gregtech:gt.metaitem.01:23032>;
 val basic = <EnderIO:itemBasicCapacitor>;
 val bars = <minecraft:iron_bars>;
 val ring = <ore:ringIron>;
-val silicon = <EnderIO:itemMaterial:0>;
+val silicon = <EnderIO:itemMaterial>;
 val plateSilicon = <ore:plateSilicon>;
 val ingotSilicon = <ore:ingotSilicon>;
 val itemSilicon = <ore:itemSilicon>;
@@ -23,7 +32,6 @@ val conduitNetwork = <EnderIO:itemOCConduit:0>;
 furnace.remove(ingotSilicon);
 
 // Replace Ore-Dictionar entry for itemSilicon
-itemSilicon.add(plateSilicon);
 itemSilicon.remove(silicon);
 
 // Replace Redstone Alloy with Red Alloy in recipes
