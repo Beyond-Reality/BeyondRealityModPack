@@ -1,13 +1,6 @@
 // EnderIO.zs Tweaks
 import mods.nei.NEI;
 
-/* Disable farming station due to map crash issues:
-   See: https://github.com/Beyond-Reality/BeyondRealityModPack/issues/382
-*/
-
-recipes.remove(<EnderIO:blockFarmStation>);
-NEI.hide(<EnderIO:blockFarmStation>);
-
 // Declares
 val steelplate = <ore:plateSteel>;
 val steel = <ore:ingotSteel>;
