@@ -9,6 +9,7 @@ var rawrubber = <MineFactoryReloaded:rubber.raw>;
 var aluminumPlate = <ore:plateAluminium>;
 var steelrod = <ore:stickSteel>;
 var casing = <gregtech:gt.blockmachines:11>;
+val blockPlastic = <MineFactoryReloaded:plastic>;
 
 # MFR Changes
 
@@ -29,3 +30,6 @@ AlloySmelter.addRecipe(<gregtech:gt.metaitem.01:2880>, rawrubber, <gregtech:gt.m
 // BLock of SugarCharcoal require compressor
 recipes.remove(<MineFactoryReloaded:brick:15>);
 Compressor.addRecipe(<MineFactoryReloaded:brick:15>, <MineFactoryReloaded:sugarcharcoal> * 9);
+
+// Plastic block require compressor and the default 4 plate does not match 9 plates of Gregtech blockPlastic
+recipes.remove(blockPlastic);
