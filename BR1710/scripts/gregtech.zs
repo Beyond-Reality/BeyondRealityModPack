@@ -3,11 +3,32 @@ import mods.gregtech.Centrifuge;
 import mods.gregtech.PlateBender;
 import mods.gregtech.CuttingSaw;
 import mods.ic2.Extractor;
+import mods.gregtech.Pulverizer;
+import mods.gregtech.PyroluseOven;
 
 import minetweaker.data.IData;
 import minetweaker.item.IItemStack;
 
+//Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2809> * 6, <gregtech:gt.metaitem.01:2809>], <ore:logWood>, [10000, 8000], 400, 2);
+
+val dustWood = <gregtech:gt.metaitem.01:2809>;
+for logWood in <ore:logWood>.items
+{
+  Pulverizer.addRecipe([dustWood * 6, <gregtech:gt.metaitem.01:2809>], logWood, [10000, 8000], 400, 2);
+}
+
+val dustMarble = <gregtech:gt.metaitem.01:2845>;
+for blockMarble in <ore:blockMarble>.items {
+  Pulverizer.addRecipe([dustMarble * 4], blockMarble, [10000], 160, 4);
+}
+
+
 // --- OreDictionary registrations ---
+
+// Spray Can Dyes
+
+<ore:dyeBlack>.add(<gregtech:gt.metaitem.01:32431>);
+recipes.addShapeless(<minecraft:wool:15>, [<ore:blockWool>,<gregtech:gt.metaitem.01:32431>.transformDamage(1)]);
 
 // Salt
 
@@ -259,16 +280,13 @@ val batteryUltimate = <gregtech:gt.metaitem.01:32605>; // Reusable
 // --- Some missing
 
 val foilRubber = <gregtech:gt.metaitem.01:29880>;
-
-for plateRubber in <ore:plateRubber>.items {
-  PlateBender.addRecipe(foilRubber * 4, plateRubber, 40, 24);
-}
+val plateRubber = <ore:plateRubber>;
+PlateBender.addRecipe(foilRubber * 4, plateRubber, 40, 24);
 
 val foilPlastic = <gregtech:gt.metaitem.01:29874>;
-
-for platePlastic in <ore:platePlastic>.items {
-  PlateBender.addRecipe(foilPlastic * 4, platePlastic, 40, 24);
-}
+<ore:foilPolyethylene>.add(<gregtech:gt.metaitem.01:29874>);
+val platePlastic = <ore:platePlastic>;
+PlateBender.addRecipe(foilPlastic * 4, platePlastic, 40, 24);
 
 val foilWood = <gregtech:gt.metaitem.01:29809>;
 val foilWoodSealed = <gregtech:gt.metaitem.01:29889>;
@@ -286,8 +304,8 @@ CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, water, 40, 4);
 CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, distilledWater, 40, 4);
 CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, lubricant, 20, 4);
 
-//AssemblerLiq.addRecipe(plateWood, foilWood * 4, <liquid:glue> * 30, 120, 16);
-//Assembler.addRecipe(plateWoodSealed, foilWoodSealed * 4, <liquid:glue> 30, 120, 16);
+//Assembler.addRecipe(foilWood * 4, plateWood, glue * 30, 120, 16);
+//Assembler.addRecipe(foilWoodSealed * 4, plateWoodSealed, glue 30, 120, 16);
 
 
 // --- Chisel blocks processing ---
@@ -356,7 +374,7 @@ recipes.addShaped(machineCasingMotor * 4, [
   [boltIron, plateSteel, boltIron]
 ]);
 
-val plateRubber = <ore:plateRubber>;
+//val plateRubber = <ore:plateRubber>;
 val crateGtDustRubber = <ore:crateGtDustRubber>;
 val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
 val stickyResin = <IC2:itemHarz>;
