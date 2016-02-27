@@ -280,13 +280,15 @@ val batteryUltimate = <gregtech:gt.metaitem.01:32605>; // Reusable
 // --- Some missing
 
 val foilRubber = <gregtech:gt.metaitem.01:29880>;
-val plateRubber = <ore:plateRubber>;
-PlateBender.addRecipe(foilRubber * 4, plateRubber, 40, 24);
+for plateRubber in <ore:plateRubber>.items {
+  PlateBender.addRecipe(foilRubber * 4, plateRubber, 40, 24);
+}
 
 val foilPlastic = <gregtech:gt.metaitem.01:29874>;
 <ore:foilPolyethylene>.add(<gregtech:gt.metaitem.01:29874>);
-val platePlastic = <ore:platePlastic>;
-PlateBender.addRecipe(foilPlastic * 4, platePlastic, 40, 24);
+for platePlastic in <ore:platePlastic>.items {
+  PlateBender.addRecipe(foilPlastic * 4, platePlastic, 40, 24);
+}
 
 val foilWood = <gregtech:gt.metaitem.01:29809>;
 val foilWoodSealed = <gregtech:gt.metaitem.01:29889>;
@@ -374,15 +376,15 @@ recipes.addShaped(machineCasingMotor * 4, [
   [boltIron, plateSteel, boltIron]
 ]);
 
-//val plateRubber = <ore:plateRubber>;
+val plateRubber = <ore:plateRubber>;
 val crateGtDustRubber = <ore:crateGtDustRubber>;
 val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
 val stickyResin = <IC2:itemHarz>;
 for craftingDuctTape in <ore:craftingDuctTape>.items {
   recipes.addShaped(craftingDuctTape, [
-    [plateRubber,plateRubber,plateRubber],
-    [stickyResin,crateGtDustRubber,stickyResin],
-    [rawCarbonMesh,rawCarbonMesh,rawCarbonMesh]
+    [plateRubber, plateRubber, plateRubber],
+    [stickyResin, crateGtDustRubber, stickyResin],
+    [rawCarbonMesh, rawCarbonMesh, rawCarbonMesh]
   ]);
 }
 
