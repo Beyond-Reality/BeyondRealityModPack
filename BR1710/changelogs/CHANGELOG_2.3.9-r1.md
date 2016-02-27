@@ -13,6 +13,7 @@
 * `forgeessentials-1.7.10-1.4.4.1146-server.jar` [:information_source:](https://github.com/ForgeEssentials/ForgeEssentials)
 * `Galacticraft-Planets-1.7-3.0.12.445.jar` [:information_source:](http://www.micdoodle8.com/)
 * `GalacticraftCore-1.7-3.0.12.445.jar` [:information_source:](http://www.micdoodle8.com/)
+* `GTTweaker-1.7.10-1.1.0.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11353)
 * `IC2NuclearControl-2.3.4a.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=5915)
 * `logisticspipes-0.9.3.87.jar` [:information_source:](http://www.minecraftforum.net/topic/1831791-)
 * `malisiscore-1.7.10-0.14.3.jar` [:information_source:](http://github.com/Ordinastie/MalisisCore)
