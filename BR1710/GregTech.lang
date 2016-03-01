@@ -1,7 +1,7 @@
 # Configuration file
 
 enablelangfile {
-    B:UseThisFileAsLanguageFile=true
+    B:UseThisFileAsLanguageFile=false
 }
 
 
@@ -38,6 +38,7 @@ languagefile {
     S:"Book.Punch Card Manual V0.0.Page10"=For implementing Loops you just need 1 Punch Card per Loop, these Cards can restart once they are finished, depending on how many other Cards there are in the Program Loop you inserted your Card into, since it will process them procedurally.
     S:"Book.Punch Card Manual V0.0.Page11"=A Punch Card Processor can run up to four Loops, each with the length of seven Punch Cards, parallel.
     S:"Book.Punch Card Manual V0.0.Page12"=Why does the Punch Card need Ink to be made, you ask? Because the empty one needs to have some lines on, and the for the punched one it prints the Code to execute in a human readable format on the Card.
+    S:comb.lignite=Lignite Comb
     S:enchantment.damage.endermen=Disjunction
     S:enchantment.damage.radioactivity=Radioactivity
     S:fluid.air=Air
@@ -91,9 +92,7 @@ languagefile {
     S:fluid.glyceryl=Glyceryl Trinitrate
     S:fluid.helium=Helium
     S:fluid.helium-3=Helium-3
-    S:fluid.heliumplasma=Helium Plasma
     S:fluid.holywater=Holy Water
-    S:fluid.honey=Honey
     S:fluid.hotfryingoil=Hot Frying Oil
     S:fluid.hydrogen=Hydrogen
     S:fluid.ice=Crushed Ice
@@ -101,7 +100,7 @@ languagefile {
     S:fluid.liquid_cracked_heavy_fuel=Cracked Heavy Fuel
     S:fluid.liquid_cracked_light_fuel=Cracked Light Fuel
     S:fluid.liquid_drillingfluid=Drilling Fluid
-    S:fluid.liquid_epichlorhydrin=Epichlorhydrin
+    S:fluid.liquid_epichlorhydrin=Epichlorohydrin
     S:fluid.liquid_extra_heavy_oil=Very Heavy Oil
     S:fluid.liquid_heavy_fuel=Heavy Fuel
     S:fluid.liquid_heavy_oil=Heavy Oil
@@ -232,7 +231,6 @@ languagefile {
     S:fluid.molten.mercassium=Molten Mercassium
     S:fluid.molten.meteoriciron=Molten Meteoric Iron
     S:fluid.molten.meteoricsteel=Molten Meteoric Steel
-    S:fluid.molten.microcline=Molten Microcline
     S:fluid.molten.midasium=Molten Midasium
     S:fluid.molten.mithril=Molten Mithril
     S:fluid.molten.molybdenum=Molten Molybdenum
@@ -260,7 +258,7 @@ languagefile {
     S:fluid.molten.phasediron=Molten Phased Iron
     S:fluid.molten.phoenixite=Molten Phoenixite
     S:fluid.molten.pigiron=Molten Pig Iron
-    S:fluid.molten.plastic=Molten Plastic
+    S:fluid.molten.plastic=Molten Polyethylene
     S:fluid.molten.platinum=Molten Platinum
     S:fluid.molten.plutonium=Molten Plutonium 244
     S:fluid.molten.plutonium241=Molten Plutonium 241
@@ -275,16 +273,12 @@ languagefile {
     S:fluid.molten.redalloy=Molten Red Alloy
     S:fluid.molten.redsteel=Molten Red Steel
     S:fluid.molten.redstone=Molten Redstone
-    S:fluid.molten.refinedglowstone=Molten Refined Glowstone
-    S:fluid.molten.refinedobsidian=Molten Refined Obsidian
     S:fluid.molten.rosegold=Molten Rose Gold
     S:fluid.molten.rubber=Molten Rubber
     S:fluid.molten.rubidium=Molten Rubidium
     S:fluid.molten.samarium=Molten Samarium
     S:fluid.molten.sanguinite=Molten Sanguinite
-    S:fluid.molten.satinspar=Molten Satinspar
     S:fluid.molten.scandium=Molten Scandium
-    S:fluid.molten.selenite=Molten Selenite
     S:fluid.molten.serpentine=Molten Serpentine
     S:fluid.molten.shadowiron=Molten Shadowiron
     S:fluid.molten.shadowsteel=Molten Shadowsteel
@@ -300,15 +294,12 @@ languagefile {
     S:fluid.molten.sterlingsilver=Molten Sterling Silver
     S:fluid.molten.sugar=Molten Sugar
     S:fluid.molten.sunnarium=Molten Sunnarium
-    S:fluid.molten.sylvite=Molten Sylvite
     S:fluid.molten.tantalum=Molten Tantalum
     S:fluid.molten.tarpitch=Molten Tar Pitch
     S:fluid.molten.tartarite=Molten Tartarite
     S:fluid.molten.tellurium=Molten Tellurium
     S:fluid.molten.terbium=Molten Terbium
     S:fluid.molten.terrasteel=Molten Terrasteel
-    S:fluid.molten.terrasteelalloyraw=Molten Raw Terrasteel Alloy
-    S:fluid.molten.terrasteelalloystrengthened=Molten Strengthened Terrasteel Alloy
     S:fluid.molten.teslatite=Molten Teslatite
     S:fluid.molten.thaumium=Molten Thaumium
     S:fluid.molten.thorium=Molten Thorium
@@ -341,7 +332,6 @@ languagefile {
     S:fluid.nitrofuel=Nitro Diesel
     S:fluid.nitrogen=Nitrogen
     S:fluid.nitrogendioxide=Nitrogen Dioxide
-    S:fluid.nitrogenplasma=Nitrogen Plasma
     S:fluid.oil=Oil
     S:fluid.oxygen=Oxygen
     S:fluid.plasma._null=NULL Plasma
@@ -643,8 +633,6 @@ languagefile {
     S:gt.blockcasings4.2.name=Stable Titanium Casing
     S:gt.blockcasings4.3.name=Titanium Firebox Casing
     S:gt.blockcasings4.32767.name=Any Sub Block of this one
-    S:gt.blockcasings4.4.name=Fusion Casing
-    S:gt.blockcasings4.5.name=Fusion Casing
     S:gt.blockcasings4.6.name=Fusion Casing
     S:gt.blockcasings4.7.name=Fusion Coil
     S:gt.blockcasings4.8.name=Fusion Casing MK II
@@ -789,7 +777,7 @@ languagefile {
     S:gt.blockmachines.basicgenerator.magicenergyconverter.tier.03.name=Master Magic Energy Converter
     S:gt.blockmachines.basicgenerator.naquadah.tier.04.name=Naquadah Reactor Mark I
     S:gt.blockmachines.basicgenerator.naquadah.tier.05.name=Naquadah Reactor Mark II
-    S:gt.blockmachines.basicgenerator.naquadah.tier.06.name=Fluid Naquadah Reactor
+    S:gt.blockmachines.basicgenerator.naquadah.tier.06.name=Naquadah Reactor Mark III
     S:gt.blockmachines.basicgenerator.plasmagenerator.tier.05.name=Plasma Generator Mark I
     S:gt.blockmachines.basicgenerator.plasmagenerator.tier.06.name=Plasma Generator Mark II
     S:gt.blockmachines.basicgenerator.plasmagenerator.tier.07.name=Plasma Generator Mark III
@@ -1353,7 +1341,7 @@ languagefile {
     S:gt.blockmachines.gt_frame_oureclase.name=Oureclase Frame Box
     S:gt.blockmachines.gt_frame_palladium.name=Palladium Frame Box
     S:gt.blockmachines.gt_frame_pigiron.name=Pig Iron Frame Box
-    S:gt.blockmachines.gt_frame_plastic.name=Plastic Frame Box
+    S:gt.blockmachines.gt_frame_plastic.name=Polyethylene Frame Box
     S:gt.blockmachines.gt_frame_platinum.name=Platinum Frame Box
     S:gt.blockmachines.gt_frame_plutonium.name=Plutonium 244 Frame Box
     S:gt.blockmachines.gt_frame_plutonium241.name=Plutonium 241 Frame Box
@@ -1498,56 +1486,56 @@ languagefile {
     S:gt.blockmachines.hatch.energy.tier.07.name=ZPM Energy Hatch
     S:gt.blockmachines.hatch.energy.tier.08.name=UV Energy Hatch
     S:gt.blockmachines.hatch.energy.tier.09.name=Max Energy Hatch
-    S:gt.blockmachines.hatch.input.tier.00.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.01.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.02.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.03.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.04.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.05.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.06.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.07.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.08.name=Input Hatch
-    S:gt.blockmachines.hatch.input.tier.09.name=Input Hatch
-    S:gt.blockmachines.hatch.input_bus.tier.00.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.01.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.02.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.03.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.04.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.05.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.06.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.07.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.08.name=Input Bus
-    S:gt.blockmachines.hatch.input_bus.tier.09.name=Input Bus
+    S:gt.blockmachines.hatch.input.tier.00.name=Input Hatch (ULV)
+    S:gt.blockmachines.hatch.input.tier.01.name=Input Hatch (LV)
+    S:gt.blockmachines.hatch.input.tier.02.name=Input Hatch (MV)
+    S:gt.blockmachines.hatch.input.tier.03.name=Input Hatch (HV)
+    S:gt.blockmachines.hatch.input.tier.04.name=Input Hatch (EV)
+    S:gt.blockmachines.hatch.input.tier.05.name=Input Hatch (IV)
+    S:gt.blockmachines.hatch.input.tier.06.name=Input Hatch (LuV)
+    S:gt.blockmachines.hatch.input.tier.07.name=Input Hatch (ZPM)
+    S:gt.blockmachines.hatch.input.tier.08.name=Input Hatch (UV)
+    S:gt.blockmachines.hatch.input.tier.09.name=Input Hatch (MAX)
+    S:gt.blockmachines.hatch.input_bus.tier.00.name=Input Bus (ULV)
+    S:gt.blockmachines.hatch.input_bus.tier.01.name=Input Bus (LV)
+    S:gt.blockmachines.hatch.input_bus.tier.02.name=Input Bus (MV)
+    S:gt.blockmachines.hatch.input_bus.tier.03.name=Input Bus (HV)
+    S:gt.blockmachines.hatch.input_bus.tier.04.name=Input Bus (EV)
+    S:gt.blockmachines.hatch.input_bus.tier.05.name=Input Bus (IV)
+    S:gt.blockmachines.hatch.input_bus.tier.06.name=Input Bus (LuV)
+    S:gt.blockmachines.hatch.input_bus.tier.07.name=Input Bus (ZPM)
+    S:gt.blockmachines.hatch.input_bus.tier.08.name=Input Bus (UV)
+    S:gt.blockmachines.hatch.input_bus.tier.09.name=Input Bus (MAX)
     S:gt.blockmachines.hatch.maintenance.name=Maintenance Hatch
-    S:gt.blockmachines.hatch.muffler.tier.01.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.02.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.03.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.04.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.05.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.06.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.07.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.08.name=Muffler Hatch
-    S:gt.blockmachines.hatch.muffler.tier.09.name=Muffler Hatch
-    S:gt.blockmachines.hatch.output.tier.00.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.01.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.02.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.03.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.04.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.05.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.06.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.07.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.08.name=Output Hatch
-    S:gt.blockmachines.hatch.output.tier.09.name=Output Hatch
-    S:gt.blockmachines.hatch.output_bus.tier.00.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.01.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.02.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.03.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.04.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.05.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.06.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.07.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.08.name=Output Bus
-    S:gt.blockmachines.hatch.output_bus.tier.09.name=Output Bus
+    S:gt.blockmachines.hatch.muffler.tier.01.name=Muffler Hatch (LV)
+    S:gt.blockmachines.hatch.muffler.tier.02.name=Muffler Hatch (MV)
+    S:gt.blockmachines.hatch.muffler.tier.03.name=Muffler Hatch (HV)
+    S:gt.blockmachines.hatch.muffler.tier.04.name=Muffler Hatch (EV)
+    S:gt.blockmachines.hatch.muffler.tier.05.name=Muffler Hatch (IV)
+    S:gt.blockmachines.hatch.muffler.tier.06.name=Muffler Hatch (LuV)
+    S:gt.blockmachines.hatch.muffler.tier.07.name=Muffler Hatch (ZPM)
+    S:gt.blockmachines.hatch.muffler.tier.08.name=Muffler Hatch (UV)
+    S:gt.blockmachines.hatch.muffler.tier.09.name=Muffler Hatch (MAX)
+    S:gt.blockmachines.hatch.output.tier.00.name=Output Hatch (ULV)
+    S:gt.blockmachines.hatch.output.tier.01.name=Output Hatch (LV)
+    S:gt.blockmachines.hatch.output.tier.02.name=Output Hatch (MV)
+    S:gt.blockmachines.hatch.output.tier.03.name=Output Hatch (HV)
+    S:gt.blockmachines.hatch.output.tier.04.name=Output Hatch (EV)
+    S:gt.blockmachines.hatch.output.tier.05.name=Output Hatch (IV)
+    S:gt.blockmachines.hatch.output.tier.06.name=Output Hatch (LuV)
+    S:gt.blockmachines.hatch.output.tier.07.name=Output Hatch (ZPM)
+    S:gt.blockmachines.hatch.output.tier.08.name=Output Hatch (UV)
+    S:gt.blockmachines.hatch.output.tier.09.name=Output Hatch (MAX)
+    S:gt.blockmachines.hatch.output_bus.tier.00.name=Output Bus (ULV)
+    S:gt.blockmachines.hatch.output_bus.tier.01.name=Output Bus (LV)
+    S:gt.blockmachines.hatch.output_bus.tier.02.name=Output Bus (MV)
+    S:gt.blockmachines.hatch.output_bus.tier.03.name=Output Bus (HV)
+    S:gt.blockmachines.hatch.output_bus.tier.04.name=Output Bus (EV)
+    S:gt.blockmachines.hatch.output_bus.tier.05.name=Output Bus (IV)
+    S:gt.blockmachines.hatch.output_bus.tier.06.name=Output Bus (LuV)
+    S:gt.blockmachines.hatch.output_bus.tier.07.name=Output Bus (ZPM)
+    S:gt.blockmachines.hatch.output_bus.tier.08.name=Output Bus (UV)
+    S:gt.blockmachines.hatch.output_bus.tier.09.name=Output Bus (MAX)
     S:gt.blockmachines.hull.bronze.name=Bronze Hull
     S:gt.blockmachines.hull.bronze_bricked.name=Bricked Bronze Hull
     S:gt.blockmachines.hull.steel.name=Steel Hull
@@ -1584,9 +1572,9 @@ languagefile {
     S:gt.blockmachines.multimachine.heatexchanger.name=Large Heat Exchanger
     S:gt.blockmachines.multimachine.implosioncompressor.name=Implosion Compressor
     S:gt.blockmachines.multimachine.largegasturbine.name=Large Gas Turbine
-    S:gt.blockmachines.multimachine.largehpturbine.name=Large High Pressure Steam Turbine
+    S:gt.blockmachines.multimachine.largehpturbine.name=Large HP Steam Turbine
     S:gt.blockmachines.multimachine.largeplasmaturbine.name=Large Plasma Generator
-    S:gt.blockmachines.multimachine.largeturbine.name=Large Turbine
+    S:gt.blockmachines.multimachine.largeturbine.name=Large Steam Turbine
     S:gt.blockmachines.multimachine.multifurnace.name=Multi Smelter
     S:gt.blockmachines.multimachine.oildrill.name=Oil Drilling Rig
     S:gt.blockmachines.multimachine.processingarray.name=Processing Array
@@ -2009,7 +1997,7 @@ languagefile {
     S:gt.blockores.1103.name=Americium Ore
     S:gt.blockores.1129.name=Neutronium Ore
     S:gt.blockores.12.name=Nitrogen Ore
-    S:gt.blockores.1241.name=Platinum Group Sluge Ore
+    S:gt.blockores.1241.name=Platinum Group Sludge Ore
     S:gt.blockores.129.name=Neutronium Ore
     S:gt.blockores.1299.name=Stone Ore
     S:gt.blockores.13.name=Oxygen Ore
@@ -2087,7 +2075,7 @@ languagefile {
     S:gt.blockores.1376.name=Titaniumtetrachloride Ore
     S:gt.blockores.1377.name=Magnesiumchloride Ore
     S:gt.blockores.14.name=Fluorine Ore
-    S:gt.blockores.1460.name=Hydric Sulfide Ore
+    S:gt.blockores.1460.name=Hydrogen Sulfide Ore
     S:gt.blockores.1470.name=Epoxid Ore
     S:gt.blockores.1471.name=Silicone Ore
     S:gt.blockores.1472.name=Polycaprolactam Ore
@@ -2118,7 +2106,6 @@ languagefile {
     S:gt.blockores.1514.name=Amber Ore
     S:gt.blockores.1515.name=Dilithium Ore
     S:gt.blockores.1516.name=Certus Quartz Ore
-    S:gt.blockores.1517.name=Charged Certus Quartz Ore
     S:gt.blockores.1518.name=Forcicium Ore
     S:gt.blockores.1519.name=Forcillium Ore
     S:gt.blockores.1520.name=Monazite Ore
@@ -2146,7 +2133,6 @@ languagefile {
     S:gt.blockores.1543.name=Aqua Infused Stone
     S:gt.blockores.1544.name=Perditio Infused Stone
     S:gt.blockores.1545.name=Ordo Infused Stone
-    S:gt.blockores.1555.name=Realgar Ore
     S:gt.blockores.16001.name=Small Hydrogen Ore
     S:gt.blockores.16002.name=Small Deuterium Ore
     S:gt.blockores.16003.name=Small Tritium Ore
@@ -2227,7 +2213,7 @@ languagefile {
     S:gt.blockores.16101.name=Small Plutonium 241 Ore
     S:gt.blockores.16103.name=Small Americium Ore
     S:gt.blockores.16129.name=Small Neutronium Ore
-    S:gt.blockores.16241.name=Small Platinum Group Sluge Ore
+    S:gt.blockores.16241.name=Small Platinum Group Sludge Ore
     S:gt.blockores.16299.name=Small Stone Ore
     S:gt.blockores.16300.name=Small Bronze Ore
     S:gt.blockores.16301.name=Small Brass Ore
@@ -2302,7 +2288,7 @@ languagefile {
     S:gt.blockores.16375.name=Small Rutile Ore
     S:gt.blockores.16376.name=Small Titaniumtetrachloride Ore
     S:gt.blockores.16377.name=Small Magnesiumchloride Ore
-    S:gt.blockores.16460.name=Small Hydric Sulfide Ore
+    S:gt.blockores.16460.name=Small Hydrogen Sulfide Ore
     S:gt.blockores.16470.name=Small Epoxid Ore
     S:gt.blockores.16471.name=Small Silicone Ore
     S:gt.blockores.16472.name=Small Polycaprolactam Ore
@@ -2333,7 +2319,6 @@ languagefile {
     S:gt.blockores.16514.name=Small Amber Ore
     S:gt.blockores.16515.name=Small Dilithium Ore
     S:gt.blockores.16516.name=Small Certus Quartz Ore
-    S:gt.blockores.16517.name=Small Charged Certus Quartz Ore
     S:gt.blockores.16518.name=Small Forcicium Ore
     S:gt.blockores.16519.name=Small Forcillium Ore
     S:gt.blockores.16520.name=Small Monazite Ore
@@ -2361,7 +2346,6 @@ languagefile {
     S:gt.blockores.16543.name=Small Aqua Infused Stone
     S:gt.blockores.16544.name=Small Perditio Infused Stone
     S:gt.blockores.16545.name=Small Ordo Infused Stone
-    S:gt.blockores.16555.name=Small Realgar Ore
     S:gt.blockores.16700.name=Small Lava Ore
     S:gt.blockores.16701.name=Small Water Ore
     S:gt.blockores.16702.name=Small Ice Ore
@@ -2464,7 +2448,6 @@ languagefile {
     S:gt.blockores.16853.name=Small Cobalt Hexahydrate Ore
     S:gt.blockores.16854.name=Small Construction Foam Ore
     S:gt.blockores.16855.name=Small Chalcopyrite Ore
-    S:gt.blockores.16856.name=Small Chalk Ore
     S:gt.blockores.16857.name=Small Chert Ore
     S:gt.blockores.16858.name=Small Crude Oil Ore
     S:gt.blockores.16859.name=Small Dacite Ore
@@ -2482,7 +2465,7 @@ languagefile {
     S:gt.blockores.16871.name=Small Malachite Ore
     S:gt.blockores.16872.name=Small Migmatite Ore
     S:gt.blockores.16873.name=Small Pitchblende
-    S:gt.blockores.16874.name=Small Plastic Ore
+    S:gt.blockores.16874.name=Small Polyethylene Ore
     S:gt.blockores.16875.name=Small Rhyolite Ore
     S:gt.blockores.16876.name=Small Siltstone Ore
     S:gt.blockores.16877.name=Small Soapstone Ore
@@ -2518,7 +2501,7 @@ languagefile {
     S:gt.blockores.16910.name=Small Scheelite Ore
     S:gt.blockores.16911.name=Small Alunite Ore
     S:gt.blockores.16912.name=Small Chrysotile Ore
-    S:gt.blockores.16913.name=Small Celestine Ore
+    S:gt.blockores.16913.name=Small Realgar Ore
     S:gt.blockores.16914.name=Small Dolomite Ore
     S:gt.blockores.16915.name=Small Wollastonite Ore
     S:gt.blockores.16916.name=Small Zeolite Ore
@@ -2679,7 +2662,7 @@ languagefile {
     S:gt.blockores.1722.name=Hemp Seed Oil Ore
     S:gt.blockores.1723.name=Lin Seed Oil Ore
     S:gt.blockores.1724.name=Lubricant Ore
-    S:gt.blockores.17241.name=Small Platinum Group Sluge Ore
+    S:gt.blockores.17241.name=Small Platinum Group Sludge Ore
     S:gt.blockores.1725.name=Honey Ore
     S:gt.blockores.1726.name=Glue Ore
     S:gt.blockores.1727.name=Hot Frying Oil Ore
@@ -2774,7 +2757,7 @@ languagefile {
     S:gt.blockores.1742.name=LPG Ore
     S:gt.blockores.1743.name=Cracked Light Fuel Ore
     S:gt.blockores.1744.name=Cracked Heavy Fuel Ore
-    S:gt.blockores.17460.name=Small Hydric Sulfide Ore
+    S:gt.blockores.17460.name=Small Hydrogen Sulfide Ore
     S:gt.blockores.17470.name=Small Epoxid Ore
     S:gt.blockores.17471.name=Small Silicone Ore
     S:gt.blockores.17472.name=Small Polycaprolactam Ore
@@ -2805,7 +2788,6 @@ languagefile {
     S:gt.blockores.17514.name=Small Amber Ore
     S:gt.blockores.17515.name=Small Dilithium Ore
     S:gt.blockores.17516.name=Small Certus Quartz Ore
-    S:gt.blockores.17517.name=Small Charged Certus Quartz Ore
     S:gt.blockores.17518.name=Small Forcicium Ore
     S:gt.blockores.17519.name=Small Forcillium Ore
     S:gt.blockores.17520.name=Small Monazite Ore
@@ -2833,7 +2815,6 @@ languagefile {
     S:gt.blockores.17543.name=Small Aqua Infused Stone
     S:gt.blockores.17544.name=Small Perditio Infused Stone
     S:gt.blockores.17545.name=Small Ordo Infused Stone
-    S:gt.blockores.17555.name=Small Realgar Ore
     S:gt.blockores.1770.name=Endium Ore
     S:gt.blockores.17700.name=Small Lava Ore
     S:gt.blockores.17701.name=Small Water Ore
@@ -2937,7 +2918,6 @@ languagefile {
     S:gt.blockores.17853.name=Small Cobalt Hexahydrate Ore
     S:gt.blockores.17854.name=Small Construction Foam Ore
     S:gt.blockores.17855.name=Small Chalcopyrite Ore
-    S:gt.blockores.17856.name=Small Chalk Ore
     S:gt.blockores.17857.name=Small Chert Ore
     S:gt.blockores.17858.name=Small Crude Oil Ore
     S:gt.blockores.17859.name=Small Dacite Ore
@@ -2955,7 +2935,7 @@ languagefile {
     S:gt.blockores.17871.name=Small Malachite Ore
     S:gt.blockores.17872.name=Small Migmatite Ore
     S:gt.blockores.17873.name=Small Pitchblende
-    S:gt.blockores.17874.name=Small Plastic Ore
+    S:gt.blockores.17874.name=Small Polyethylene Ore
     S:gt.blockores.17875.name=Small Rhyolite Ore
     S:gt.blockores.17876.name=Small Siltstone Ore
     S:gt.blockores.17877.name=Small Soapstone Ore
@@ -2991,7 +2971,7 @@ languagefile {
     S:gt.blockores.17910.name=Small Scheelite Ore
     S:gt.blockores.17911.name=Small Alunite Ore
     S:gt.blockores.17912.name=Small Chrysotile Ore
-    S:gt.blockores.17913.name=Small Celestine Ore
+    S:gt.blockores.17913.name=Small Realgar Ore
     S:gt.blockores.17914.name=Small Dolomite Ore
     S:gt.blockores.17915.name=Small Wollastonite Ore
     S:gt.blockores.17916.name=Small Zeolite Ore
@@ -3152,7 +3132,7 @@ languagefile {
     S:gt.blockores.1822.name=Bauxite Ore
     S:gt.blockores.1823.name=Calcite Ore
     S:gt.blockores.1824.name=Cassiterite Ore
-    S:gt.blockores.18241.name=Small Platinum Group Sluge Ore
+    S:gt.blockores.18241.name=Small Platinum Group Sludge Ore
     S:gt.blockores.1825.name=Chromite Ore
     S:gt.blockores.1826.name=Cinnabar Ore
     S:gt.blockores.1827.name=Cobaltite Ore
@@ -3249,7 +3229,7 @@ languagefile {
     S:gt.blockores.1844.name=Basalt Ore
     S:gt.blockores.1845.name=Marble Ore
     S:gt.blockores.1846.name=Redrock Ore
-    S:gt.blockores.18460.name=Small Hydric Sulfide Ore
+    S:gt.blockores.18460.name=Small Hydrogen Sulfide Ore
     S:gt.blockores.1847.name=Potassium Feldspar Ore
     S:gt.blockores.18470.name=Small Epoxid Ore
     S:gt.blockores.18471.name=Small Silicone Ore
@@ -3285,7 +3265,6 @@ languagefile {
     S:gt.blockores.18514.name=Small Amber Ore
     S:gt.blockores.18515.name=Small Dilithium Ore
     S:gt.blockores.18516.name=Small Certus Quartz Ore
-    S:gt.blockores.18517.name=Small Charged Certus Quartz Ore
     S:gt.blockores.18518.name=Small Forcicium Ore
     S:gt.blockores.18519.name=Small Forcillium Ore
     S:gt.blockores.1852.name=Blueschist Ore
@@ -3317,8 +3296,6 @@ languagefile {
     S:gt.blockores.18544.name=Small Perditio Infused Stone
     S:gt.blockores.18545.name=Small Ordo Infused Stone
     S:gt.blockores.1855.name=Chalcopyrite Ore
-    S:gt.blockores.18555.name=Small Realgar Ore
-    S:gt.blockores.1856.name=Chalk Ore
     S:gt.blockores.1857.name=Chert Ore
     S:gt.blockores.1858.name=Crude Oil Ore
     S:gt.blockores.1859.name=Dacite Ore
@@ -3376,7 +3353,7 @@ languagefile {
     S:gt.blockores.18737.name=Small Sulfuric Light Fuel Ore
     S:gt.blockores.18738.name=Small Sulfuric Heavy Fuel Ore
     S:gt.blockores.18739.name=Small Naphtha Ore
-    S:gt.blockores.1874.name=Plastic Ore
+    S:gt.blockores.1874.name=Polyethylene Ore
     S:gt.blockores.18740.name=Small Light Fuel Ore
     S:gt.blockores.18741.name=Small Heavy Fuel Ore
     S:gt.blockores.18742.name=Small LPG Ore
@@ -3450,7 +3427,6 @@ languagefile {
     S:gt.blockores.18853.name=Small Cobalt Hexahydrate Ore
     S:gt.blockores.18854.name=Small Construction Foam Ore
     S:gt.blockores.18855.name=Small Chalcopyrite Ore
-    S:gt.blockores.18856.name=Small Chalk Ore
     S:gt.blockores.18857.name=Small Chert Ore
     S:gt.blockores.18858.name=Small Crude Oil Ore
     S:gt.blockores.18859.name=Small Dacite Ore
@@ -3470,7 +3446,7 @@ languagefile {
     S:gt.blockores.18871.name=Small Malachite Ore
     S:gt.blockores.18872.name=Small Migmatite Ore
     S:gt.blockores.18873.name=Small Pitchblende
-    S:gt.blockores.18874.name=Small Plastic Ore
+    S:gt.blockores.18874.name=Small Polyethylene Ore
     S:gt.blockores.18875.name=Small Rhyolite Ore
     S:gt.blockores.18876.name=Small Siltstone Ore
     S:gt.blockores.18877.name=Small Soapstone Ore
@@ -3510,7 +3486,7 @@ languagefile {
     S:gt.blockores.18910.name=Small Scheelite Ore
     S:gt.blockores.18911.name=Small Alunite Ore
     S:gt.blockores.18912.name=Small Chrysotile Ore
-    S:gt.blockores.18913.name=Small Celestine Ore
+    S:gt.blockores.18913.name=Small Realgar Ore
     S:gt.blockores.18914.name=Small Dolomite Ore
     S:gt.blockores.18915.name=Small Wollastonite Ore
     S:gt.blockores.18916.name=Small Zeolite Ore
@@ -3664,7 +3640,7 @@ languagefile {
     S:gt.blockores.1911.name=Alunite Ore
     S:gt.blockores.1912.name=Chrysotile Ore
     S:gt.blockores.19129.name=Small Neutronium Ore
-    S:gt.blockores.1913.name=Celestine Ore
+    S:gt.blockores.1913.name=Realgar Ore
     S:gt.blockores.1914.name=Dolomite Ore
     S:gt.blockores.1915.name=Wollastonite Ore
     S:gt.blockores.1916.name=Zeolite Ore
@@ -3676,7 +3652,7 @@ languagefile {
     S:gt.blockores.1922.name=Uraninite Ore
     S:gt.blockores.1923.name=Vanadium Magnetite Ore
     S:gt.blockores.1924.name=Kyanite Ore
-    S:gt.blockores.19241.name=Small Platinum Group Sluge Ore
+    S:gt.blockores.19241.name=Small Platinum Group Sludge Ore
     S:gt.blockores.1925.name=Perlite Ore
     S:gt.blockores.1926.name=Pumice Ore
     S:gt.blockores.1927.name=Bentonite
@@ -3773,7 +3749,7 @@ languagefile {
     S:gt.blockores.1944.name=Rock Salt Ore
     S:gt.blockores.1945.name=Stibnite Ore
     S:gt.blockores.1946.name=Asbestos Ore
-    S:gt.blockores.19460.name=Small Hydric Sulfide Ore
+    S:gt.blockores.19460.name=Small Hydrogen Sulfide Ore
     S:gt.blockores.1947.name=Concrete Ore
     S:gt.blockores.19470.name=Small Epoxid Ore
     S:gt.blockores.19471.name=Small Silicone Ore
@@ -3809,7 +3785,6 @@ languagefile {
     S:gt.blockores.19514.name=Small Amber Ore
     S:gt.blockores.19515.name=Small Dilithium Ore
     S:gt.blockores.19516.name=Small Certus Quartz Ore
-    S:gt.blockores.19517.name=Small Charged Certus Quartz Ore
     S:gt.blockores.19518.name=Small Forcicium Ore
     S:gt.blockores.19519.name=Small Forcillium Ore
     S:gt.blockores.1952.name=Ceruclase Ore
@@ -3841,7 +3816,6 @@ languagefile {
     S:gt.blockores.19544.name=Small Perditio Infused Stone
     S:gt.blockores.19545.name=Small Ordo Infused Stone
     S:gt.blockores.1955.name=Sanguinite Ore
-    S:gt.blockores.19555.name=Small Realgar Ore
     S:gt.blockores.1956.name=Tartarite Ore
     S:gt.blockores.1957.name=Hepatizon Ore
     S:gt.blockores.1958.name=Angmallen Ore
@@ -3955,7 +3929,6 @@ languagefile {
     S:gt.blockores.19853.name=Small Cobalt Hexahydrate Ore
     S:gt.blockores.19854.name=Small Construction Foam Ore
     S:gt.blockores.19855.name=Small Chalcopyrite Ore
-    S:gt.blockores.19856.name=Small Chalk Ore
     S:gt.blockores.19857.name=Small Chert Ore
     S:gt.blockores.19858.name=Small Crude Oil Ore
     S:gt.blockores.19859.name=Small Dacite Ore
@@ -3973,7 +3946,7 @@ languagefile {
     S:gt.blockores.19871.name=Small Malachite Ore
     S:gt.blockores.19872.name=Small Migmatite Ore
     S:gt.blockores.19873.name=Small Pitchblende
-    S:gt.blockores.19874.name=Small Plastic Ore
+    S:gt.blockores.19874.name=Small Polyethylene Ore
     S:gt.blockores.19875.name=Small Rhyolite Ore
     S:gt.blockores.19876.name=Small Siltstone Ore
     S:gt.blockores.19877.name=Small Soapstone Ore
@@ -4009,7 +3982,7 @@ languagefile {
     S:gt.blockores.19910.name=Small Scheelite Ore
     S:gt.blockores.19911.name=Small Alunite Ore
     S:gt.blockores.19912.name=Small Chrysotile Ore
-    S:gt.blockores.19913.name=Small Celestine Ore
+    S:gt.blockores.19913.name=Small Realgar Ore
     S:gt.blockores.19914.name=Small Dolomite Ore
     S:gt.blockores.19915.name=Small Wollastonite Ore
     S:gt.blockores.19916.name=Small Zeolite Ore
@@ -4167,7 +4140,7 @@ languagefile {
     S:gt.blockores.2022.name=Sulfur Ore
     S:gt.blockores.2023.name=Chlorine Ore
     S:gt.blockores.2024.name=Argon Ore
-    S:gt.blockores.20241.name=Small Platinum Group Sluge Ore
+    S:gt.blockores.20241.name=Small Platinum Group Sludge Ore
     S:gt.blockores.2025.name=Potassium Ore
     S:gt.blockores.2026.name=Calcium Ore
     S:gt.blockores.2027.name=Scandium Ore
@@ -4259,7 +4232,7 @@ languagefile {
     S:gt.blockores.2043.name=Rubidium Ore
     S:gt.blockores.2044.name=Strontium Ore
     S:gt.blockores.2045.name=Yttrium Ore
-    S:gt.blockores.20460.name=Small Hydric Sulfide Ore
+    S:gt.blockores.20460.name=Small Hydrogen Sulfide Ore
     S:gt.blockores.2047.name=Niobium Ore
     S:gt.blockores.20470.name=Small Epoxid Ore
     S:gt.blockores.20471.name=Small Silicone Ore
@@ -4292,7 +4265,6 @@ languagefile {
     S:gt.blockores.20514.name=Small Amber Ore
     S:gt.blockores.20515.name=Small Dilithium Ore
     S:gt.blockores.20516.name=Small Certus Quartz Ore
-    S:gt.blockores.20517.name=Small Charged Certus Quartz Ore
     S:gt.blockores.20518.name=Small Forcicium Ore
     S:gt.blockores.20519.name=Small Forcillium Ore
     S:gt.blockores.2052.name=Palladium Ore
@@ -4323,7 +4295,6 @@ languagefile {
     S:gt.blockores.20544.name=Small Perditio Infused Stone
     S:gt.blockores.20545.name=Small Ordo Infused Stone
     S:gt.blockores.2055.name=Cadmium Ore
-    S:gt.blockores.20555.name=Small Realgar Ore
     S:gt.blockores.2056.name=Indium Ore
     S:gt.blockores.2057.name=Tin Ore
     S:gt.blockores.2058.name=Antimony Ore
@@ -4452,7 +4423,6 @@ languagefile {
     S:gt.blockores.20853.name=Small Cobalt Hexahydrate Ore
     S:gt.blockores.20854.name=Small Construction Foam Ore
     S:gt.blockores.20855.name=Small Chalcopyrite Ore
-    S:gt.blockores.20856.name=Small Chalk Ore
     S:gt.blockores.20857.name=Small Chert Ore
     S:gt.blockores.20858.name=Small Crude Oil Ore
     S:gt.blockores.20859.name=Small Dacite Ore
@@ -4472,7 +4442,7 @@ languagefile {
     S:gt.blockores.20871.name=Small Malachite Ore
     S:gt.blockores.20872.name=Small Migmatite Ore
     S:gt.blockores.20873.name=Small Pitchblende
-    S:gt.blockores.20874.name=Small Plastic Ore
+    S:gt.blockores.20874.name=Small Polyethylene Ore
     S:gt.blockores.20875.name=Small Rhyolite Ore
     S:gt.blockores.20876.name=Small Siltstone Ore
     S:gt.blockores.20877.name=Small Soapstone Ore
@@ -4510,7 +4480,7 @@ languagefile {
     S:gt.blockores.20910.name=Small Scheelite Ore
     S:gt.blockores.20911.name=Small Alunite Ore
     S:gt.blockores.20912.name=Small Chrysotile Ore
-    S:gt.blockores.20913.name=Small Celestine Ore
+    S:gt.blockores.20913.name=Small Realgar Ore
     S:gt.blockores.20914.name=Small Dolomite Ore
     S:gt.blockores.20915.name=Small Wollastonite Ore
     S:gt.blockores.20916.name=Small Zeolite Ore
@@ -4575,7 +4545,7 @@ languagefile {
     S:gt.blockores.2103.name=Americium Ore
     S:gt.blockores.2129.name=Neutronium Ore
     S:gt.blockores.22.name=Sulfur Ore
-    S:gt.blockores.2241.name=Platinum Group Sluge Ore
+    S:gt.blockores.2241.name=Platinum Group Sludge Ore
     S:gt.blockores.2299.name=Stone Ore
     S:gt.blockores.23.name=Chlorine Ore
     S:gt.blockores.2300.name=Bronze Ore
@@ -4652,8 +4622,8 @@ languagefile {
     S:gt.blockores.2376.name=Titaniumtetrachloride Ore
     S:gt.blockores.2377.name=Magnesiumchloride Ore
     S:gt.blockores.24.name=Argon Ore
-    S:gt.blockores.241.name=Platinum Group Sluge Ore
-    S:gt.blockores.2460.name=Hydric Sulfide Ore
+    S:gt.blockores.241.name=Platinum Group Sludge Ore
+    S:gt.blockores.2460.name=Hydrogen Sulfide Ore
     S:gt.blockores.2470.name=Epoxid Ore
     S:gt.blockores.2471.name=Silicone Ore
     S:gt.blockores.2472.name=Polycaprolactam Ore
@@ -4685,7 +4655,6 @@ languagefile {
     S:gt.blockores.2514.name=Amber Ore
     S:gt.blockores.2515.name=Dilithium Ore
     S:gt.blockores.2516.name=Certus Quartz Ore
-    S:gt.blockores.2517.name=Charged Certus Quartz Ore
     S:gt.blockores.2518.name=Forcicium Ore
     S:gt.blockores.2519.name=Forcillium Ore
     S:gt.blockores.2520.name=Monazite Ore
@@ -4713,7 +4682,6 @@ languagefile {
     S:gt.blockores.2543.name=Aqua Infused Stone
     S:gt.blockores.2544.name=Perditio Infused Stone
     S:gt.blockores.2545.name=Ordo Infused Stone
-    S:gt.blockores.2555.name=Realgar Ore
     S:gt.blockores.26.name=Calcium Ore
     S:gt.blockores.27.name=Scandium Ore
     S:gt.blockores.2700.name=Lava Ore
@@ -4819,7 +4787,6 @@ languagefile {
     S:gt.blockores.2853.name=Cobalt Hexahydrate Ore
     S:gt.blockores.2854.name=Construction Foam Ore
     S:gt.blockores.2855.name=Chalcopyrite Ore
-    S:gt.blockores.2856.name=Chalk Ore
     S:gt.blockores.2857.name=Chert Ore
     S:gt.blockores.2858.name=Crude Oil Ore
     S:gt.blockores.2859.name=Dacite Ore
@@ -4837,7 +4804,7 @@ languagefile {
     S:gt.blockores.2871.name=Malachite Ore
     S:gt.blockores.2872.name=Migmatite Ore
     S:gt.blockores.2873.name=Pitchblende
-    S:gt.blockores.2874.name=Plastic Ore
+    S:gt.blockores.2874.name=Polyethylene Ore
     S:gt.blockores.2875.name=Rhyolite Ore
     S:gt.blockores.2876.name=Siltstone Ore
     S:gt.blockores.2877.name=Soapstone Ore
@@ -4874,7 +4841,7 @@ languagefile {
     S:gt.blockores.2910.name=Scheelite Ore
     S:gt.blockores.2911.name=Alunite Ore
     S:gt.blockores.2912.name=Chrysotile Ore
-    S:gt.blockores.2913.name=Celestine Ore
+    S:gt.blockores.2913.name=Realgar Ore
     S:gt.blockores.2914.name=Dolomite Ore
     S:gt.blockores.2915.name=Wollastonite Ore
     S:gt.blockores.2916.name=Zeolite Ore
@@ -5039,7 +5006,7 @@ languagefile {
     S:gt.blockores.322.name=HSLA Steel Ore
     S:gt.blockores.323.name=Infused Gold Ore
     S:gt.blockores.324.name=Naquadah Ore
-    S:gt.blockores.3241.name=Platinum Group Sluge Ore
+    S:gt.blockores.3241.name=Platinum Group Sludge Ore
     S:gt.blockores.325.name=Naquadah Alloy Ore
     S:gt.blockores.326.name=Enriched Naquadah Ore
     S:gt.blockores.327.name=Naquadria Ore
@@ -5139,7 +5106,7 @@ languagefile {
     S:gt.blockores.344.name=Ultimet Ore
     S:gt.blockores.345.name=Annealed Copper Ore
     S:gt.blockores.346.name=Fiery Steel Ore
-    S:gt.blockores.3460.name=Hydric Sulfide Ore
+    S:gt.blockores.3460.name=Hydrogen Sulfide Ore
     S:gt.blockores.347.name=Firestone Ore
     S:gt.blockores.3470.name=Epoxid Ore
     S:gt.blockores.3471.name=Silicone Ore
@@ -5176,7 +5143,6 @@ languagefile {
     S:gt.blockores.3514.name=Amber Ore
     S:gt.blockores.3515.name=Dilithium Ore
     S:gt.blockores.3516.name=Certus Quartz Ore
-    S:gt.blockores.3517.name=Charged Certus Quartz Ore
     S:gt.blockores.3518.name=Forcicium Ore
     S:gt.blockores.3519.name=Forcillium Ore
     S:gt.blockores.352.name=Black Bronze Ore
@@ -5208,7 +5174,6 @@ languagefile {
     S:gt.blockores.3544.name=Perditio Infused Stone
     S:gt.blockores.3545.name=Ordo Infused Stone
     S:gt.blockores.355.name=Magnetic Steel Ore
-    S:gt.blockores.3555.name=Realgar Ore
     S:gt.blockores.356.name=Magnetic Neodymium Ore
     S:gt.blockores.357.name=Vanadium-Gallium Ore
     S:gt.blockores.358.name=Yttrium Barium Cuprate Ore
@@ -5330,7 +5295,6 @@ languagefile {
     S:gt.blockores.3853.name=Cobalt Hexahydrate Ore
     S:gt.blockores.3854.name=Construction Foam Ore
     S:gt.blockores.3855.name=Chalcopyrite Ore
-    S:gt.blockores.3856.name=Chalk Ore
     S:gt.blockores.3857.name=Chert Ore
     S:gt.blockores.3858.name=Crude Oil Ore
     S:gt.blockores.3859.name=Dacite Ore
@@ -5348,7 +5312,7 @@ languagefile {
     S:gt.blockores.3871.name=Malachite Ore
     S:gt.blockores.3872.name=Migmatite Ore
     S:gt.blockores.3873.name=Pitchblende
-    S:gt.blockores.3874.name=Plastic Ore
+    S:gt.blockores.3874.name=Polyethylene Ore
     S:gt.blockores.3875.name=Rhyolite Ore
     S:gt.blockores.3876.name=Siltstone Ore
     S:gt.blockores.3877.name=Soapstone Ore
@@ -5385,7 +5349,7 @@ languagefile {
     S:gt.blockores.3910.name=Scheelite Ore
     S:gt.blockores.3911.name=Alunite Ore
     S:gt.blockores.3912.name=Chrysotile Ore
-    S:gt.blockores.3913.name=Celestine Ore
+    S:gt.blockores.3913.name=Realgar Ore
     S:gt.blockores.3914.name=Dolomite Ore
     S:gt.blockores.3915.name=Wollastonite Ore
     S:gt.blockores.3916.name=Zeolite Ore
@@ -5521,7 +5485,7 @@ languagefile {
     S:gt.blockores.4101.name=Plutonium 241 Ore
     S:gt.blockores.4103.name=Americium Ore
     S:gt.blockores.4129.name=Neutronium Ore
-    S:gt.blockores.4241.name=Platinum Group Sluge Ore
+    S:gt.blockores.4241.name=Platinum Group Sludge Ore
     S:gt.blockores.4299.name=Stone Ore
     S:gt.blockores.43.name=Rubidium Ore
     S:gt.blockores.4300.name=Bronze Ore
@@ -5598,7 +5562,7 @@ languagefile {
     S:gt.blockores.4376.name=Titaniumtetrachloride Ore
     S:gt.blockores.4377.name=Magnesiumchloride Ore
     S:gt.blockores.44.name=Strontium Ore
-    S:gt.blockores.4460.name=Hydric Sulfide Ore
+    S:gt.blockores.4460.name=Hydrogen Sulfide Ore
     S:gt.blockores.4470.name=Epoxid Ore
     S:gt.blockores.4471.name=Silicone Ore
     S:gt.blockores.4472.name=Polycaprolactam Ore
@@ -5630,7 +5594,6 @@ languagefile {
     S:gt.blockores.4514.name=Amber Ore
     S:gt.blockores.4515.name=Dilithium Ore
     S:gt.blockores.4516.name=Certus Quartz Ore
-    S:gt.blockores.4517.name=Charged Certus Quartz Ore
     S:gt.blockores.4518.name=Forcicium Ore
     S:gt.blockores.4519.name=Forcillium Ore
     S:gt.blockores.4520.name=Monazite Ore
@@ -5658,8 +5621,7 @@ languagefile {
     S:gt.blockores.4543.name=Aqua Infused Stone
     S:gt.blockores.4544.name=Perditio Infused Stone
     S:gt.blockores.4545.name=Ordo Infused Stone
-    S:gt.blockores.4555.name=Realgar Ore
-    S:gt.blockores.460.name=Hydric Sulfide Ore
+    S:gt.blockores.460.name=Hydrogen Sulfide Ore
     S:gt.blockores.47.name=Niobium Ore
     S:gt.blockores.470.name=Epoxid Ore
     S:gt.blockores.4700.name=Lava Ore
@@ -5769,7 +5731,6 @@ languagefile {
     S:gt.blockores.4853.name=Cobalt Hexahydrate Ore
     S:gt.blockores.4854.name=Construction Foam Ore
     S:gt.blockores.4855.name=Chalcopyrite Ore
-    S:gt.blockores.4856.name=Chalk Ore
     S:gt.blockores.4857.name=Chert Ore
     S:gt.blockores.4858.name=Crude Oil Ore
     S:gt.blockores.4859.name=Dacite Ore
@@ -5789,7 +5750,7 @@ languagefile {
     S:gt.blockores.4871.name=Malachite Ore
     S:gt.blockores.4872.name=Migmatite Ore
     S:gt.blockores.4873.name=Pitchblende
-    S:gt.blockores.4874.name=Plastic Ore
+    S:gt.blockores.4874.name=Polyethylene Ore
     S:gt.blockores.4875.name=Rhyolite Ore
     S:gt.blockores.4876.name=Siltstone Ore
     S:gt.blockores.4877.name=Soapstone Ore
@@ -5828,7 +5789,7 @@ languagefile {
     S:gt.blockores.4910.name=Scheelite Ore
     S:gt.blockores.4911.name=Alunite Ore
     S:gt.blockores.4912.name=Chrysotile Ore
-    S:gt.blockores.4913.name=Celestine Ore
+    S:gt.blockores.4913.name=Realgar Ore
     S:gt.blockores.4914.name=Dolomite Ore
     S:gt.blockores.4915.name=Wollastonite Ore
     S:gt.blockores.4916.name=Zeolite Ore
@@ -5904,7 +5865,6 @@ languagefile {
     S:gt.blockores.514.name=Amber Ore
     S:gt.blockores.515.name=Dilithium Ore
     S:gt.blockores.516.name=Certus Quartz Ore
-    S:gt.blockores.517.name=Charged Certus Quartz Ore
     S:gt.blockores.518.name=Forcicium Ore
     S:gt.blockores.519.name=Forcillium Ore
     S:gt.blockores.52.name=Palladium Ore
@@ -5935,7 +5895,6 @@ languagefile {
     S:gt.blockores.544.name=Perditio Infused Stone
     S:gt.blockores.545.name=Ordo Infused Stone
     S:gt.blockores.55.name=Cadmium Ore
-    S:gt.blockores.555.name=Realgar Ore
     S:gt.blockores.56.name=Indium Ore
     S:gt.blockores.57.name=Tin Ore
     S:gt.blockores.58.name=Antimony Ore
@@ -6066,7 +6025,6 @@ languagefile {
     S:gt.blockores.853.name=Cobalt Hexahydrate Ore
     S:gt.blockores.854.name=Construction Foam Ore
     S:gt.blockores.855.name=Chalcopyrite Ore
-    S:gt.blockores.856.name=Chalk Ore
     S:gt.blockores.857.name=Chert Ore
     S:gt.blockores.858.name=Crude Oil Ore
     S:gt.blockores.859.name=Dacite Ore
@@ -6086,7 +6044,7 @@ languagefile {
     S:gt.blockores.871.name=Malachite Ore
     S:gt.blockores.872.name=Migmatite Ore
     S:gt.blockores.873.name=Pitchblende
-    S:gt.blockores.874.name=Plastic Ore
+    S:gt.blockores.874.name=Polyethylene Ore
     S:gt.blockores.875.name=Rhyolite Ore
     S:gt.blockores.876.name=Siltstone Ore
     S:gt.blockores.877.name=Soapstone Ore
@@ -6125,7 +6083,7 @@ languagefile {
     S:gt.blockores.910.name=Scheelite Ore
     S:gt.blockores.911.name=Alunite Ore
     S:gt.blockores.912.name=Chrysotile Ore
-    S:gt.blockores.913.name=Celestine Ore
+    S:gt.blockores.913.name=Realgar Ore
     S:gt.blockores.914.name=Dolomite Ore
     S:gt.blockores.915.name=Wollastonite Ore
     S:gt.blockores.916.name=Zeolite Ore
@@ -6490,7 +6448,7 @@ languagefile {
     S:gt.metaitem.01.11316.name=Tungstensteel Ingot
     S:gt.metaitem.01.11316.tooltip=Fe50CW
     S:gt.metaitem.01.11317.name=Osmiridium Ingot
-    S:gt.metaitem.01.11317.tooltip=
+    S:gt.metaitem.01.11317.tooltip=Ir3Os
     S:gt.metaitem.01.11318.name=Sunnarium Ingot
     S:gt.metaitem.01.11318.tooltip=
     S:gt.metaitem.01.11319.name=Adamantium Ingot
@@ -6611,7 +6569,7 @@ languagefile {
     S:gt.metaitem.01.11770.tooltip=
     S:gt.metaitem.01.11829.name=Deep Iron Ingot
     S:gt.metaitem.01.11829.tooltip=Fe
-    S:gt.metaitem.01.11874.name=Plastic Bar
+    S:gt.metaitem.01.11874.name=Polyethylene Bar
     S:gt.metaitem.01.11874.tooltip=CH2
     S:gt.metaitem.01.11880.name=Rubber Bar
     S:gt.metaitem.01.11880.tooltip=C5H8
@@ -6711,7 +6669,7 @@ languagefile {
     S:gt.metaitem.01.12373.tooltip=((Fe50CW)5CrMo2V)6CoMnSi
     S:gt.metaitem.01.12374.name=Hot HSS-S Ingot
     S:gt.metaitem.01.12374.tooltip=((Fe50CW)5CrMo2V)6Ir2Os
-    S:gt.metaitem.01.1241.name=Small Pile of Platinum Group Sluge Dust
+    S:gt.metaitem.01.1241.name=Small Pile of Platinum Group Sludge Dust
     S:gt.metaitem.01.1241.tooltip=
     S:gt.metaitem.01.129.name=Tiny Pile of Neutronium Dust
     S:gt.metaitem.01.129.tooltip=Nt
@@ -6872,7 +6830,7 @@ languagefile {
     S:gt.metaitem.01.1316.name=Small Pile of Tungstensteel Dust
     S:gt.metaitem.01.1316.tooltip=Fe50CW
     S:gt.metaitem.01.1317.name=Small Pile of Osmiridium Dust
-    S:gt.metaitem.01.1317.tooltip=
+    S:gt.metaitem.01.1317.tooltip=Ir3Os
     S:gt.metaitem.01.1318.name=Small Pile of Sunnarium Dust
     S:gt.metaitem.01.1318.tooltip=
     S:gt.metaitem.01.1319.name=Small Pile of Adamantium Dust
@@ -6936,7 +6894,7 @@ languagefile {
     S:gt.metaitem.01.13316.name=Double Tungstensteel Ingot
     S:gt.metaitem.01.13316.tooltip=Fe50CW
     S:gt.metaitem.01.13317.name=Double Osmiridium Ingot
-    S:gt.metaitem.01.13317.tooltip=
+    S:gt.metaitem.01.13317.tooltip=Ir3Os
     S:gt.metaitem.01.13318.name=Double Sunnarium Ingot
     S:gt.metaitem.01.13318.tooltip=
     S:gt.metaitem.01.13319.name=Double Adamantium Ingot
@@ -7132,7 +7090,7 @@ languagefile {
     S:gt.metaitem.01.1375.name=Small Pile of Rutile Dust
     S:gt.metaitem.01.1375.tooltip=TiO2
     S:gt.metaitem.01.1377.name=Small Pile of Magnesiumchloride Dust
-    S:gt.metaitem.01.1377.tooltip=MgCl
+    S:gt.metaitem.01.1377.tooltip=MgCl2
     S:gt.metaitem.01.13770.name=Double Endium Ingot
     S:gt.metaitem.01.13770.tooltip=
     S:gt.metaitem.01.13829.name=Double Deep Iron Ingot
@@ -7328,7 +7286,7 @@ languagefile {
     S:gt.metaitem.01.14316.name=Triple Tungstensteel Ingot
     S:gt.metaitem.01.14316.tooltip=Fe50CW
     S:gt.metaitem.01.14317.name=Triple Osmiridium Ingot
-    S:gt.metaitem.01.14317.tooltip=
+    S:gt.metaitem.01.14317.tooltip=Ir3Os
     S:gt.metaitem.01.14318.name=Triple Sunnarium Ingot
     S:gt.metaitem.01.14318.tooltip=
     S:gt.metaitem.01.14319.name=Triple Adamantium Ingot
@@ -7659,8 +7617,6 @@ languagefile {
     S:gt.metaitem.01.1515.tooltip=
     S:gt.metaitem.01.1516.name=Small Pile of Certus Quartz Dust
     S:gt.metaitem.01.1516.tooltip=
-    S:gt.metaitem.01.1517.name=Small Pile of Charged Certus Quartz Dust
-    S:gt.metaitem.01.1517.tooltip=
     S:gt.metaitem.01.1518.name=Small Pile of Forcicium Dust
     S:gt.metaitem.01.1518.tooltip=
     S:gt.metaitem.01.1519.name=Small Pile of Forcillium Dust
@@ -7724,7 +7680,7 @@ languagefile {
     S:gt.metaitem.01.15316.name=Quadruple Tungstensteel Ingot
     S:gt.metaitem.01.15316.tooltip=Fe50CW
     S:gt.metaitem.01.15317.name=Quadruple Osmiridium Ingot
-    S:gt.metaitem.01.15317.tooltip=
+    S:gt.metaitem.01.15317.tooltip=Ir3Os
     S:gt.metaitem.01.15318.name=Quadruple Sunnarium Ingot
     S:gt.metaitem.01.15318.tooltip=
     S:gt.metaitem.01.15319.name=Quadruple Adamantium Ingot
@@ -7867,8 +7823,6 @@ languagefile {
     S:gt.metaitem.01.15490.tooltip=
     S:gt.metaitem.01.15521.name=Quadruple Force Ingot
     S:gt.metaitem.01.15521.tooltip=
-    S:gt.metaitem.01.1555.name=Small Pile of Realgar Dust
-    S:gt.metaitem.01.1555.tooltip=As4S4
     S:gt.metaitem.01.15770.name=Quadruple Endium Ingot
     S:gt.metaitem.01.15770.tooltip=
     S:gt.metaitem.01.15829.name=Quadruple Deep Iron Ingot
@@ -8064,7 +8018,7 @@ languagefile {
     S:gt.metaitem.01.16316.name=Quintuple Tungstensteel Ingot
     S:gt.metaitem.01.16316.tooltip=Fe50CW
     S:gt.metaitem.01.16317.name=Quintuple Osmiridium Ingot
-    S:gt.metaitem.01.16317.tooltip=
+    S:gt.metaitem.01.16317.tooltip=Ir3Os
     S:gt.metaitem.01.16318.name=Quintuple Sunnarium Ingot
     S:gt.metaitem.01.16318.tooltip=
     S:gt.metaitem.01.16319.name=Quintuple Adamantium Ingot
@@ -8382,7 +8336,7 @@ languagefile {
     S:gt.metaitem.01.17316.name=Tungstensteel Plate
     S:gt.metaitem.01.17316.tooltip=Fe50CW
     S:gt.metaitem.01.17317.name=Osmiridium Plate
-    S:gt.metaitem.01.17317.tooltip=
+    S:gt.metaitem.01.17317.tooltip=Ir3Os
     S:gt.metaitem.01.17318.name=Sunnarium Plate
     S:gt.metaitem.01.17318.tooltip=
     S:gt.metaitem.01.17319.name=Adamantium Plate
@@ -8533,8 +8487,6 @@ languagefile {
     S:gt.metaitem.01.17515.tooltip=
     S:gt.metaitem.01.17516.name=Certus Quartz Plate
     S:gt.metaitem.01.17516.tooltip=
-    S:gt.metaitem.01.17517.name=Charged Certus Quartz Plate
-    S:gt.metaitem.01.17517.tooltip=
     S:gt.metaitem.01.17518.name=Forcicium Plate
     S:gt.metaitem.01.17518.tooltip=
     S:gt.metaitem.01.17519.name=Forcillium Plate
@@ -8609,7 +8561,7 @@ languagefile {
     S:gt.metaitem.01.17849.tooltip=(SiO2)4KMg3Al3F2Si3O10
     S:gt.metaitem.01.17850.name=Red Granite Plate
     S:gt.metaitem.01.17850.tooltip=Al2KAlSi3O8O3
-    S:gt.metaitem.01.17874.name=Plastic Sheet
+    S:gt.metaitem.01.17874.name=Polyethylene Sheet
     S:gt.metaitem.01.17874.tooltip=CH2
     S:gt.metaitem.01.17880.name=Rubber Sheet
     S:gt.metaitem.01.17880.tooltip=C5H8
@@ -8714,7 +8666,7 @@ languagefile {
     S:gt.metaitem.01.18048.name=Double Molybdenum Plate
     S:gt.metaitem.01.18048.tooltip=Mo
     S:gt.metaitem.01.1805.name=Small Pile of Clay Dust
-    S:gt.metaitem.01.1805.tooltip=Na2LiAl2Si2
+    S:gt.metaitem.01.1805.tooltip=Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.18052.name=Double Palladium Plate
     S:gt.metaitem.01.18052.tooltip=Pd
     S:gt.metaitem.01.18054.name=Double Silver Plate
@@ -8822,7 +8774,7 @@ languagefile {
     S:gt.metaitem.01.1821.name=Small Pile of Andradite Dust
     S:gt.metaitem.01.1821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.1822.name=Small Pile of Bauxite Dust
-    S:gt.metaitem.01.1822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.1822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.1823.name=Small Pile of Calcite Dust
     S:gt.metaitem.01.1823.tooltip=CaCO3
     S:gt.metaitem.01.1824.name=Small Pile of Cassiterite Dust
@@ -8876,7 +8828,7 @@ languagefile {
     S:gt.metaitem.01.18316.name=Double Tungstensteel Plate
     S:gt.metaitem.01.18316.tooltip=Fe50CW
     S:gt.metaitem.01.18317.name=Double Osmiridium Plate
-    S:gt.metaitem.01.18317.tooltip=
+    S:gt.metaitem.01.18317.tooltip=Ir3Os
     S:gt.metaitem.01.18318.name=Double Sunnarium Plate
     S:gt.metaitem.01.18318.tooltip=
     S:gt.metaitem.01.18319.name=Double Adamantium Plate
@@ -9008,7 +8960,7 @@ languagefile {
     S:gt.metaitem.01.1845.name=Small Pile of Marble Dust
     S:gt.metaitem.01.1845.tooltip=Mg(CaCO3)7
     S:gt.metaitem.01.1846.name=Small Pile of Redrock Dust
-    S:gt.metaitem.01.1846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2
+    S:gt.metaitem.01.1846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.1847.name=Small Pile of Potassium Feldspar Dust
     S:gt.metaitem.01.1847.tooltip=KAlSi3O8
     S:gt.metaitem.01.18470.name=Double Epoxid Plate
@@ -9041,8 +8993,6 @@ languagefile {
     S:gt.metaitem.01.1854.tooltip=
     S:gt.metaitem.01.1855.name=Small Pile of Chalcopyrite Dust
     S:gt.metaitem.01.1855.tooltip=CuFeS2
-    S:gt.metaitem.01.1856.name=Small Pile of Chalk Dust
-    S:gt.metaitem.01.1856.tooltip=CaCO3
     S:gt.metaitem.01.1857.name=Small Pile of Chert Dust
     S:gt.metaitem.01.1857.tooltip=
     S:gt.metaitem.01.1858.name=Small Pile of Crude Oil Dust
@@ -9077,7 +9027,7 @@ languagefile {
     S:gt.metaitem.01.1872.tooltip=
     S:gt.metaitem.01.1873.name=Small Pile of Pitchblende
     S:gt.metaitem.01.1873.tooltip=(UO2)3ThPb
-    S:gt.metaitem.01.1874.name=Small Pile of Plastic Pulp
+    S:gt.metaitem.01.1874.name=Small Pile of Polyethylene Pulp
     S:gt.metaitem.01.1874.tooltip=CH2
     S:gt.metaitem.01.1875.name=Small Pile of Rhyolite Dust
     S:gt.metaitem.01.1875.tooltip=
@@ -9313,8 +9263,8 @@ languagefile {
     S:gt.metaitem.01.1912.tooltip=Mg3Si2H4O9
     S:gt.metaitem.01.19129.name=Triple Neutronium Plate
     S:gt.metaitem.01.19129.tooltip=Nt
-    S:gt.metaitem.01.1913.name=Small Pile of Celestine Dust
-    S:gt.metaitem.01.1913.tooltip=SrSO4
+    S:gt.metaitem.01.1913.name=Small Pile of Realgar Dust
+    S:gt.metaitem.01.1913.tooltip=As4S4
     S:gt.metaitem.01.1914.name=Small Pile of Dolomite Dust
     S:gt.metaitem.01.1914.tooltip=CaMgC2O6
     S:gt.metaitem.01.1915.name=Small Pile of Wollastonite Dust
@@ -9386,7 +9336,7 @@ languagefile {
     S:gt.metaitem.01.19316.name=Triple Tungstensteel Plate
     S:gt.metaitem.01.19316.tooltip=Fe50CW
     S:gt.metaitem.01.19317.name=Triple Osmiridium Plate
-    S:gt.metaitem.01.19317.tooltip=
+    S:gt.metaitem.01.19317.tooltip=Ir3Os
     S:gt.metaitem.01.19318.name=Triple Sunnarium Plate
     S:gt.metaitem.01.19318.tooltip=
     S:gt.metaitem.01.19319.name=Triple Adamantium Plate
@@ -9806,7 +9756,7 @@ languagefile {
     S:gt.metaitem.01.20316.name=Quadruple Tungstensteel Plate
     S:gt.metaitem.01.20316.tooltip=Fe50CW
     S:gt.metaitem.01.20317.name=Quadruple Osmiridium Plate
-    S:gt.metaitem.01.20317.tooltip=
+    S:gt.metaitem.01.20317.tooltip=Ir3Os
     S:gt.metaitem.01.20318.name=Quadruple Sunnarium Plate
     S:gt.metaitem.01.20318.tooltip=
     S:gt.metaitem.01.20319.name=Quadruple Adamantium Plate
@@ -10224,7 +10174,7 @@ languagefile {
     S:gt.metaitem.01.21316.name=Quintuple Tungstensteel Plate
     S:gt.metaitem.01.21316.tooltip=Fe50CW
     S:gt.metaitem.01.21317.name=Quintuple Osmiridium Plate
-    S:gt.metaitem.01.21317.tooltip=
+    S:gt.metaitem.01.21317.tooltip=Ir3Os
     S:gt.metaitem.01.21318.name=Quintuple Sunnarium Plate
     S:gt.metaitem.01.21318.tooltip=
     S:gt.metaitem.01.21319.name=Quintuple Adamantium Plate
@@ -10540,7 +10490,7 @@ languagefile {
     S:gt.metaitem.01.22316.name=Dense Tungstensteel Plate
     S:gt.metaitem.01.22316.tooltip=Fe50CW
     S:gt.metaitem.01.22317.name=Dense Osmiridium Plate
-    S:gt.metaitem.01.22317.tooltip=
+    S:gt.metaitem.01.22317.tooltip=Ir3Os
     S:gt.metaitem.01.22318.name=Dense Sunnarium Plate
     S:gt.metaitem.01.22318.tooltip=
     S:gt.metaitem.01.22319.name=Dense Adamantium Plate
@@ -10643,7 +10593,7 @@ languagefile {
     S:gt.metaitem.01.22373.tooltip=((Fe50CW)5CrMo2V)6CoMnSi
     S:gt.metaitem.01.22374.name=Dense HSS-S Plate
     S:gt.metaitem.01.22374.tooltip=((Fe50CW)5CrMo2V)6Ir2Os
-    S:gt.metaitem.01.2241.name=Platinum Group Sluge Dust
+    S:gt.metaitem.01.2241.name=Platinum Group Sludge Dust
     S:gt.metaitem.01.2241.tooltip=
     S:gt.metaitem.01.22470.name=Dense Epoxid Plate
     S:gt.metaitem.01.22470.tooltip=C2H4O
@@ -10856,7 +10806,7 @@ languagefile {
     S:gt.metaitem.01.2316.name=Tungstensteel Dust
     S:gt.metaitem.01.2316.tooltip=Fe50CW
     S:gt.metaitem.01.2317.name=Osmiridium Dust
-    S:gt.metaitem.01.2317.tooltip=
+    S:gt.metaitem.01.2317.tooltip=Ir3Os
     S:gt.metaitem.01.2318.name=Sunnarium Dust
     S:gt.metaitem.01.2318.tooltip=
     S:gt.metaitem.01.2319.name=Adamantium Dust
@@ -10920,7 +10870,7 @@ languagefile {
     S:gt.metaitem.01.23316.name=Tungstensteel Rod
     S:gt.metaitem.01.23316.tooltip=Fe50CW
     S:gt.metaitem.01.23317.name=Osmiridium Rod
-    S:gt.metaitem.01.23317.tooltip=
+    S:gt.metaitem.01.23317.tooltip=Ir3Os
     S:gt.metaitem.01.23318.name=Sunnarium Rod
     S:gt.metaitem.01.23318.tooltip=
     S:gt.metaitem.01.23319.name=Adamantium Rod
@@ -11111,8 +11061,6 @@ languagefile {
     S:gt.metaitem.01.23515.tooltip=
     S:gt.metaitem.01.23516.name=Certus Quartz Rod
     S:gt.metaitem.01.23516.tooltip=
-    S:gt.metaitem.01.23517.name=Charged Certus Quartz Rod
-    S:gt.metaitem.01.23517.tooltip=
     S:gt.metaitem.01.23518.name=Forcicium Rod
     S:gt.metaitem.01.23518.tooltip=
     S:gt.metaitem.01.23519.name=Forcillium Rod
@@ -11204,12 +11152,12 @@ languagefile {
     S:gt.metaitem.01.2375.name=Rutile Dust
     S:gt.metaitem.01.2375.tooltip=TiO2
     S:gt.metaitem.01.2377.name=Magnesiumchloride Dust
-    S:gt.metaitem.01.2377.tooltip=MgCl
+    S:gt.metaitem.01.2377.tooltip=MgCl2
     S:gt.metaitem.01.23770.name=Endium Rod
     S:gt.metaitem.01.23770.tooltip=
     S:gt.metaitem.01.23829.name=Deep Iron Rod
     S:gt.metaitem.01.23829.tooltip=Fe
-    S:gt.metaitem.01.23874.name=Plastic Rod
+    S:gt.metaitem.01.23874.name=Polyethylene Rod
     S:gt.metaitem.01.23874.tooltip=CH2
     S:gt.metaitem.01.23880.name=Rubber Rod
     S:gt.metaitem.01.23880.tooltip=C5H8
@@ -11253,7 +11201,7 @@ languagefile {
     S:gt.metaitem.01.23965.tooltip=
     S:gt.metaitem.01.23966.name=Orichalcum Rod
     S:gt.metaitem.01.23966.tooltip=
-    S:gt.metaitem.01.241.name=Tiny Pile of Platinum Group Sluge Dust
+    S:gt.metaitem.01.241.name=Tiny Pile of Platinum Group Sludge Dust
     S:gt.metaitem.01.241.tooltip=
     S:gt.metaitem.01.24347.name=Firestone Lens
     S:gt.metaitem.01.24347.tooltip=
@@ -11495,8 +11443,6 @@ languagefile {
     S:gt.metaitem.01.2515.tooltip=
     S:gt.metaitem.01.2516.name=Certus Quartz Dust
     S:gt.metaitem.01.2516.tooltip=
-    S:gt.metaitem.01.2517.name=Charged Certus Quartz Dust
-    S:gt.metaitem.01.2517.tooltip=
     S:gt.metaitem.01.2518.name=Forcicium Dust
     S:gt.metaitem.01.2518.tooltip=
     S:gt.metaitem.01.2519.name=Forcillium Dust
@@ -11560,7 +11506,7 @@ languagefile {
     S:gt.metaitem.01.25316.name=Tungstensteel Round
     S:gt.metaitem.01.25316.tooltip=Fe50CW
     S:gt.metaitem.01.25317.name=Osmiridium Round
-    S:gt.metaitem.01.25317.tooltip=
+    S:gt.metaitem.01.25317.tooltip=Ir3Os
     S:gt.metaitem.01.25318.name=Sunnarium Round
     S:gt.metaitem.01.25318.tooltip=
     S:gt.metaitem.01.25319.name=Adamantium Round
@@ -11703,15 +11649,13 @@ languagefile {
     S:gt.metaitem.01.25490.tooltip=
     S:gt.metaitem.01.25521.name=Force Round
     S:gt.metaitem.01.25521.tooltip=
-    S:gt.metaitem.01.2555.name=Realgar Dust
-    S:gt.metaitem.01.2555.tooltip=As4S4
     S:gt.metaitem.01.25770.name=Endium Round
     S:gt.metaitem.01.25770.tooltip=
     S:gt.metaitem.01.25809.name=Wood Round
     S:gt.metaitem.01.25809.tooltip=
     S:gt.metaitem.01.25829.name=Deep Iron Round
     S:gt.metaitem.01.25829.tooltip=Fe
-    S:gt.metaitem.01.25874.name=Plastic Round
+    S:gt.metaitem.01.25874.name=Polyethylene Round
     S:gt.metaitem.01.25874.tooltip=CH2
     S:gt.metaitem.01.25880.name=Rubber Round
     S:gt.metaitem.01.25880.tooltip=C5H8
@@ -11910,7 +11854,7 @@ languagefile {
     S:gt.metaitem.01.26316.name=Tungstensteel Bolt
     S:gt.metaitem.01.26316.tooltip=Fe50CW
     S:gt.metaitem.01.26317.name=Osmiridium Bolt
-    S:gt.metaitem.01.26317.tooltip=
+    S:gt.metaitem.01.26317.tooltip=Ir3Os
     S:gt.metaitem.01.26318.name=Sunnarium Bolt
     S:gt.metaitem.01.26318.tooltip=
     S:gt.metaitem.01.26319.name=Adamantium Bolt
@@ -12061,8 +12005,6 @@ languagefile {
     S:gt.metaitem.01.26515.tooltip=
     S:gt.metaitem.01.26516.name=Certus Quartz Bolt
     S:gt.metaitem.01.26516.tooltip=
-    S:gt.metaitem.01.26517.name=Charged Certus Quartz Bolt
-    S:gt.metaitem.01.26517.tooltip=
     S:gt.metaitem.01.26518.name=Forcicium Bolt
     S:gt.metaitem.01.26518.tooltip=
     S:gt.metaitem.01.26519.name=Forcillium Bolt
@@ -12121,7 +12063,7 @@ languagefile {
     S:gt.metaitem.01.26809.tooltip=
     S:gt.metaitem.01.26829.name=Deep Iron Bolt
     S:gt.metaitem.01.26829.tooltip=Fe
-    S:gt.metaitem.01.26874.name=Plastic Bolt
+    S:gt.metaitem.01.26874.name=Polyethylene Bolt
     S:gt.metaitem.01.26874.tooltip=CH2
     S:gt.metaitem.01.26880.name=Rubber Bolt
     S:gt.metaitem.01.26880.tooltip=C5H8
@@ -12326,7 +12268,7 @@ languagefile {
     S:gt.metaitem.01.27316.name=Tungstensteel Screw
     S:gt.metaitem.01.27316.tooltip=Fe50CW
     S:gt.metaitem.01.27317.name=Osmiridium Screw
-    S:gt.metaitem.01.27317.tooltip=
+    S:gt.metaitem.01.27317.tooltip=Ir3Os
     S:gt.metaitem.01.27318.name=Sunnarium Screw
     S:gt.metaitem.01.27318.tooltip=
     S:gt.metaitem.01.27319.name=Adamantium Screw
@@ -12477,8 +12419,6 @@ languagefile {
     S:gt.metaitem.01.27515.tooltip=
     S:gt.metaitem.01.27516.name=Certus Quartz Screw
     S:gt.metaitem.01.27516.tooltip=
-    S:gt.metaitem.01.27517.name=Charged Certus Quartz Screw
-    S:gt.metaitem.01.27517.tooltip=
     S:gt.metaitem.01.27518.name=Forcicium Screw
     S:gt.metaitem.01.27518.tooltip=
     S:gt.metaitem.01.27519.name=Forcillium Screw
@@ -12539,7 +12479,7 @@ languagefile {
     S:gt.metaitem.01.27809.tooltip=
     S:gt.metaitem.01.27829.name=Deep Iron Screw
     S:gt.metaitem.01.27829.tooltip=Fe
-    S:gt.metaitem.01.27874.name=Plastic Screw
+    S:gt.metaitem.01.27874.name=Polyethylene Screw
     S:gt.metaitem.01.27874.tooltip=CH2
     S:gt.metaitem.01.27880.name=Rubber Screw
     S:gt.metaitem.01.27880.tooltip=C5H8
@@ -12636,7 +12576,7 @@ languagefile {
     S:gt.metaitem.01.28048.name=Molybdenum Ring
     S:gt.metaitem.01.28048.tooltip=Mo
     S:gt.metaitem.01.2805.name=Clay Dust
-    S:gt.metaitem.01.2805.tooltip=Na2LiAl2Si2
+    S:gt.metaitem.01.2805.tooltip=Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.28052.name=Palladium Ring
     S:gt.metaitem.01.28052.tooltip=Pd
     S:gt.metaitem.01.28054.name=Silver Ring
@@ -12738,7 +12678,7 @@ languagefile {
     S:gt.metaitem.01.2821.name=Andradite Dust
     S:gt.metaitem.01.2821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.2822.name=Bauxite Dust
-    S:gt.metaitem.01.2822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.2822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.2823.name=Calcite Dust
     S:gt.metaitem.01.2823.tooltip=CaCO3
     S:gt.metaitem.01.2824.name=Cassiterite Dust
@@ -12792,7 +12732,7 @@ languagefile {
     S:gt.metaitem.01.28316.name=Tungstensteel Ring
     S:gt.metaitem.01.28316.tooltip=Fe50CW
     S:gt.metaitem.01.28317.name=Osmiridium Ring
-    S:gt.metaitem.01.28317.tooltip=
+    S:gt.metaitem.01.28317.tooltip=Ir3Os
     S:gt.metaitem.01.28318.name=Sunnarium Ring
     S:gt.metaitem.01.28318.tooltip=
     S:gt.metaitem.01.28319.name=Adamantium Ring
@@ -12924,7 +12864,7 @@ languagefile {
     S:gt.metaitem.01.2845.name=Marble Dust
     S:gt.metaitem.01.2845.tooltip=Mg(CaCO3)7
     S:gt.metaitem.01.2846.name=Redrock Dust
-    S:gt.metaitem.01.2846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2
+    S:gt.metaitem.01.2846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.2847.name=Potassium Feldspar Dust
     S:gt.metaitem.01.2847.tooltip=KAlSi3O8
     S:gt.metaitem.01.28470.name=Epoxid Ring
@@ -12957,8 +12897,6 @@ languagefile {
     S:gt.metaitem.01.2854.tooltip=
     S:gt.metaitem.01.2855.name=Chalcopyrite Dust
     S:gt.metaitem.01.2855.tooltip=CuFeS2
-    S:gt.metaitem.01.2856.name=Chalk Dust
-    S:gt.metaitem.01.2856.tooltip=CaCO3
     S:gt.metaitem.01.2857.name=Chert Dust
     S:gt.metaitem.01.2857.tooltip=
     S:gt.metaitem.01.2858.name=Crude Oil Dust
@@ -12993,7 +12931,7 @@ languagefile {
     S:gt.metaitem.01.2872.tooltip=
     S:gt.metaitem.01.2873.name=Pitchblende
     S:gt.metaitem.01.2873.tooltip=(UO2)3ThPb
-    S:gt.metaitem.01.2874.name=Plastic Pulp
+    S:gt.metaitem.01.2874.name=Polyethylene Pulp
     S:gt.metaitem.01.2874.tooltip=CH2
     S:gt.metaitem.01.2875.name=Rhyolite Dust
     S:gt.metaitem.01.2875.tooltip=
@@ -13027,7 +12965,7 @@ languagefile {
     S:gt.metaitem.01.2886.tooltip=
     S:gt.metaitem.01.2887.name=Cocoa Powder
     S:gt.metaitem.01.2887.tooltip=
-    S:gt.metaitem.01.28874.name=Plastic Ring
+    S:gt.metaitem.01.28874.name=Polyethylene Ring
     S:gt.metaitem.01.28874.tooltip=CH2
     S:gt.metaitem.01.2888.name=Coffee Powder
     S:gt.metaitem.01.2888.tooltip=
@@ -13235,8 +13173,8 @@ languagefile {
     S:gt.metaitem.01.2912.tooltip=Mg3Si2H4O9
     S:gt.metaitem.01.29129.name=Neutronium Foil
     S:gt.metaitem.01.29129.tooltip=Nt
-    S:gt.metaitem.01.2913.name=Celestine Dust
-    S:gt.metaitem.01.2913.tooltip=SrSO4
+    S:gt.metaitem.01.2913.name=Realgar Dust
+    S:gt.metaitem.01.2913.tooltip=As4S4
     S:gt.metaitem.01.2914.name=Dolomite Dust
     S:gt.metaitem.01.2914.tooltip=CaMgC2O6
     S:gt.metaitem.01.2915.name=Wollastonite Dust
@@ -13308,7 +13246,7 @@ languagefile {
     S:gt.metaitem.01.29316.name=Tungstensteel Foil
     S:gt.metaitem.01.29316.tooltip=Fe50CW
     S:gt.metaitem.01.29317.name=Osmiridium Foil
-    S:gt.metaitem.01.29317.tooltip=
+    S:gt.metaitem.01.29317.tooltip=Ir3Os
     S:gt.metaitem.01.29318.name=Sunnarium Foil
     S:gt.metaitem.01.29318.tooltip=
     S:gt.metaitem.01.29319.name=Adamantium Foil
@@ -13501,7 +13439,7 @@ languagefile {
     S:gt.metaitem.01.29809.tooltip=
     S:gt.metaitem.01.29829.name=Deep Iron Foil
     S:gt.metaitem.01.29829.tooltip=Fe
-    S:gt.metaitem.01.29874.name=Thin Plastic Sheet
+    S:gt.metaitem.01.29874.name=Thin Polyethylene Sheet
     S:gt.metaitem.01.29874.tooltip=CH2
     S:gt.metaitem.01.29880.name=Thin Rubber Sheet
     S:gt.metaitem.01.29880.tooltip=C5H8
@@ -13628,7 +13566,7 @@ languagefile {
     S:gt.metaitem.01.30376.name=Titaniumtetrachloride Cell
     S:gt.metaitem.01.30376.tooltip=TiC2Cl2
     S:gt.metaitem.01.30377.name=Magnesiumchloride Cell
-    S:gt.metaitem.01.30377.tooltip=MgCl
+    S:gt.metaitem.01.30377.tooltip=MgCl2
     S:gt.metaitem.01.3039.name=Impure Pile of Arsenic Dust
     S:gt.metaitem.01.3039.tooltip=As
     S:gt.metaitem.01.304.name=Tiny Pile of Wrought Iron Dust
@@ -13639,8 +13577,8 @@ languagefile {
     S:gt.metaitem.01.3044.tooltip=Sr
     S:gt.metaitem.01.3045.name=Impure Pile of Yttrium Dust
     S:gt.metaitem.01.3045.tooltip=Y
-    S:gt.metaitem.01.30460.name=Hydric Sulfide Cell
-    S:gt.metaitem.01.30460.tooltip=HS
+    S:gt.metaitem.01.30460.name=Hydrogen Sulfide Cell
+    S:gt.metaitem.01.30460.tooltip=H2S
     S:gt.metaitem.01.3047.name=Impure Pile of Niobium Dust
     S:gt.metaitem.01.3047.tooltip=Nb
     S:gt.metaitem.01.3048.name=Impure Pile of Molybdenum Dust
@@ -13658,11 +13596,11 @@ languagefile {
     S:gt.metaitem.01.30490.name=Infuscolium Cell
     S:gt.metaitem.01.30490.tooltip=
     S:gt.metaitem.01.30495.name=Liquid Air Cell
-    S:gt.metaitem.01.30495.tooltip=N40O11Ar(C9O3)21He9(CH4)3D
+    S:gt.metaitem.01.30495.tooltip=N40O11Ar(CO2)21He9(CH4)3D
     S:gt.metaitem.01.30496.name=Noble Gases Cell
-    S:gt.metaitem.01.30496.tooltip=(C9O3)21He9(CH4)3D
+    S:gt.metaitem.01.30496.tooltip=(CO2)21He9(CH4)3D
     S:gt.metaitem.01.30497.name=Carbon Dioxide Cell
-    S:gt.metaitem.01.30497.tooltip=C9O3
+    S:gt.metaitem.01.30497.tooltip=CO2
     S:gt.metaitem.01.305.name=Tiny Pile of Steel Dust
     S:gt.metaitem.01.305.tooltip=Fe50C
     S:gt.metaitem.01.30515.name=Dilithium Cell
@@ -13740,7 +13678,7 @@ languagefile {
     S:gt.metaitem.01.30718.name=Sodium Persulfate Cell
     S:gt.metaitem.01.30718.tooltip=NaSO4
     S:gt.metaitem.01.30719.name=Sodium Sulfide Cell
-    S:gt.metaitem.01.30719.tooltip=NaS
+    S:gt.metaitem.01.30719.tooltip=Na2S
     S:gt.metaitem.01.3072.name=Impure Pile of Terbium Dust
     S:gt.metaitem.01.3072.tooltip=Tb
     S:gt.metaitem.01.30720.name=Sulfuric Acid Cell
@@ -14042,17 +13980,17 @@ languagefile {
     S:gt.metaitem.01.314.name=Tiny Pile of Soldering Alloy Dust
     S:gt.metaitem.01.314.tooltip=Sn9Sb
     S:gt.metaitem.01.31495.name=Liquid Air Plasma Cell
-    S:gt.metaitem.01.31495.tooltip=N40O11Ar(C9O3)21He9(CH4)3D
+    S:gt.metaitem.01.31495.tooltip=N40O11Ar(CO2)21He9(CH4)3D
     S:gt.metaitem.01.31496.name=Noble Gases Plasma Cell
-    S:gt.metaitem.01.31496.tooltip=(C9O3)21He9(CH4)3D
+    S:gt.metaitem.01.31496.tooltip=(CO2)21He9(CH4)3D
     S:gt.metaitem.01.31497.name=Carbon Dioxide Plasma Cell
-    S:gt.metaitem.01.31497.tooltip=C9O3
+    S:gt.metaitem.01.31497.tooltip=CO2
     S:gt.metaitem.01.315.name=Tiny Pile of Battery Alloy Dust
     S:gt.metaitem.01.315.tooltip=Pb4Sb
     S:gt.metaitem.01.316.name=Tiny Pile of Tungstensteel Dust
     S:gt.metaitem.01.316.tooltip=Fe50CW
     S:gt.metaitem.01.317.name=Tiny Pile of Osmiridium Dust
-    S:gt.metaitem.01.317.tooltip=
+    S:gt.metaitem.01.317.tooltip=Ir3Os
     S:gt.metaitem.01.318.name=Tiny Pile of Sunnarium Dust
     S:gt.metaitem.01.318.tooltip=
     S:gt.metaitem.01.319.name=Tiny Pile of Adamantium Dust
@@ -14451,16 +14389,6 @@ languagefile {
     S:gt.metaitem.01.32613.tooltip=40960 L/sec (as Cover)
     S:gt.metaitem.01.32614.name=Electric Pump (IV)
     S:gt.metaitem.01.32614.tooltip=163840 L/sec (as Cover)
-    S:gt.metaitem.01.32620.name=Tin Rotor
-    S:gt.metaitem.01.32620.tooltip=
-    S:gt.metaitem.01.32621.name=Bronze Rotor
-    S:gt.metaitem.01.32621.tooltip=
-    S:gt.metaitem.01.32622.name=Steel Rotor
-    S:gt.metaitem.01.32622.tooltip=
-    S:gt.metaitem.01.32623.name=Stainless Steel Rotor
-    S:gt.metaitem.01.32623.tooltip=
-    S:gt.metaitem.01.32624.name=Tungstensteel Rotor
-    S:gt.metaitem.01.32624.tooltip=
     S:gt.metaitem.01.32630.name=Conveyor Module (LV)
     S:gt.metaitem.01.32630.tooltip=1 Stack every 20 secs (as Cover)
     S:gt.metaitem.01.32631.name=Conveyor Module (MV)
@@ -14602,7 +14530,7 @@ languagefile {
     S:gt.metaitem.01.32747.name=Redstone Receiver (In)
     S:gt.metaitem.01.32747.tooltip=Transfers Redstonesignals wireless
     S:gt.metaitem.01.32748.name=Needs Maintainance Cover
-    S:gt.metaitem.01.32748.tooltip=Emits Redstone Signal if Multiblock Machine needs Maintainance
+    S:gt.metaitem.01.32748.tooltip=Attach to Multiblock Controller. Emits Redstone Signal if needs Maintainance
     S:gt.metaitem.01.32749.name=Shutter Module
     S:gt.metaitem.01.32749.tooltip=Blocks Inventory/Tank Side. Usage together with Machine Controller.
     S:gt.metaitem.01.32750.name=Solar Panel
@@ -14767,8 +14695,6 @@ languagefile {
     S:gt.metaitem.01.3515.tooltip=
     S:gt.metaitem.01.3516.name=Impure Pile of Certus Quartz Dust
     S:gt.metaitem.01.3516.tooltip=
-    S:gt.metaitem.01.3517.name=Impure Pile of Charged Certus Quartz Dust
-    S:gt.metaitem.01.3517.tooltip=
     S:gt.metaitem.01.3518.name=Impure Pile of Forcicium Dust
     S:gt.metaitem.01.3518.tooltip=
     S:gt.metaitem.01.3519.name=Impure Pile of Forcillium Dust
@@ -14825,8 +14751,6 @@ languagefile {
     S:gt.metaitem.01.3545.tooltip=
     S:gt.metaitem.01.355.name=Tiny Pile of Magnetic Steel Dust
     S:gt.metaitem.01.355.tooltip=Fe50C
-    S:gt.metaitem.01.3555.name=Impure Pile of Realgar Dust
-    S:gt.metaitem.01.3555.tooltip=As4S4
     S:gt.metaitem.01.356.name=Tiny Pile of Magnetic Neodymium Dust
     S:gt.metaitem.01.356.tooltip=Nd
     S:gt.metaitem.01.357.name=Tiny Pile of Vanadium-Gallium Dust
@@ -14862,7 +14786,7 @@ languagefile {
     S:gt.metaitem.01.375.name=Tiny Pile of Rutile Dust
     S:gt.metaitem.01.375.tooltip=TiO2
     S:gt.metaitem.01.377.name=Tiny Pile of Magnesiumchloride Dust
-    S:gt.metaitem.01.377.tooltip=MgCl
+    S:gt.metaitem.01.377.tooltip=MgCl2
     S:gt.metaitem.01.3770.name=Impure Pile of Endium Dust
     S:gt.metaitem.01.3770.tooltip=
     S:gt.metaitem.01.3802.name=Impure Pile of Flint Dust
@@ -14882,7 +14806,7 @@ languagefile {
     S:gt.metaitem.01.3821.name=Impure Pile of Andradite Dust
     S:gt.metaitem.01.3821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.3822.name=Impure Pile of Bauxite Dust
-    S:gt.metaitem.01.3822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.3822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.3823.name=Impure Pile of Calcite Dust
     S:gt.metaitem.01.3823.tooltip=CaCO3
     S:gt.metaitem.01.3824.name=Impure Pile of Cassiterite Dust
@@ -14924,7 +14848,7 @@ languagefile {
     S:gt.metaitem.01.3845.name=Impure Pile of Marble Dust
     S:gt.metaitem.01.3845.tooltip=Mg(CaCO3)7
     S:gt.metaitem.01.3846.name=Impure Pile of Redrock Dust
-    S:gt.metaitem.01.3846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2
+    S:gt.metaitem.01.3846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.3849.name=Impure Pile of Black Granite Dust
     S:gt.metaitem.01.3849.tooltip=(SiO2)4KMg3Al3F2Si3O10
     S:gt.metaitem.01.3850.name=Impure Pile of Red Granite Dust
@@ -14981,8 +14905,8 @@ languagefile {
     S:gt.metaitem.01.3911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.01.3912.name=Impure Pile of Chrysotile Dust
     S:gt.metaitem.01.3912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.01.3913.name=Impure Pile of Celestine Dust
-    S:gt.metaitem.01.3913.tooltip=SrSO4
+    S:gt.metaitem.01.3913.name=Impure Pile of Realgar Dust
+    S:gt.metaitem.01.3913.tooltip=As4S4
     S:gt.metaitem.01.3914.name=Impure Pile of Dolomite Dust
     S:gt.metaitem.01.3914.tooltip=CaMgC2O6
     S:gt.metaitem.01.3915.name=Impure Pile of Wollastonite Dust
@@ -15289,8 +15213,6 @@ languagefile {
     S:gt.metaitem.01.4515.tooltip=
     S:gt.metaitem.01.4516.name=Purified Pile of Certus Quartz Dust
     S:gt.metaitem.01.4516.tooltip=
-    S:gt.metaitem.01.4517.name=Purified Pile of Charged Certus Quartz Dust
-    S:gt.metaitem.01.4517.tooltip=
     S:gt.metaitem.01.4518.name=Purified Pile of Forcicium Dust
     S:gt.metaitem.01.4518.tooltip=
     S:gt.metaitem.01.4519.name=Purified Pile of Forcillium Dust
@@ -15339,8 +15261,6 @@ languagefile {
     S:gt.metaitem.01.4544.tooltip=
     S:gt.metaitem.01.4545.name=Purified Pile of Ordo Crystal Powder
     S:gt.metaitem.01.4545.tooltip=
-    S:gt.metaitem.01.4555.name=Purified Pile of Realgar Dust
-    S:gt.metaitem.01.4555.tooltip=As4S4
     S:gt.metaitem.01.47.name=Tiny Pile of Niobium Dust
     S:gt.metaitem.01.47.tooltip=Nb
     S:gt.metaitem.01.470.name=Tiny Pile of Epoxid Dust
@@ -15366,7 +15286,7 @@ languagefile {
     S:gt.metaitem.01.4821.name=Purified Pile of Andradite Dust
     S:gt.metaitem.01.4821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.4822.name=Purified Pile of Bauxite Dust
-    S:gt.metaitem.01.4822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.4822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.4823.name=Purified Pile of Calcite Dust
     S:gt.metaitem.01.4823.tooltip=CaCO3
     S:gt.metaitem.01.4824.name=Purified Pile of Cassiterite Dust
@@ -15465,8 +15385,8 @@ languagefile {
     S:gt.metaitem.01.4911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.01.4912.name=Purified Pile of Chrysotile Dust
     S:gt.metaitem.01.4912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.01.4913.name=Purified Pile of Celestine Dust
-    S:gt.metaitem.01.4913.tooltip=SrSO4
+    S:gt.metaitem.01.4913.name=Purified Pile of Realgar Dust
+    S:gt.metaitem.01.4913.tooltip=As4S4
     S:gt.metaitem.01.4914.name=Purified Pile of Dolomite Dust
     S:gt.metaitem.01.4914.tooltip=CaMgC2O6
     S:gt.metaitem.01.4915.name=Purified Pile of Wollastonite Dust
@@ -15727,8 +15647,6 @@ languagefile {
     S:gt.metaitem.01.515.tooltip=
     S:gt.metaitem.01.516.name=Tiny Pile of Certus Quartz Dust
     S:gt.metaitem.01.516.tooltip=
-    S:gt.metaitem.01.517.name=Tiny Pile of Charged Certus Quartz Dust
-    S:gt.metaitem.01.517.tooltip=
     S:gt.metaitem.01.518.name=Tiny Pile of Forcicium Dust
     S:gt.metaitem.01.518.tooltip=
     S:gt.metaitem.01.519.name=Tiny Pile of Forcillium Dust
@@ -15863,8 +15781,6 @@ languagefile {
     S:gt.metaitem.01.5515.tooltip=
     S:gt.metaitem.01.5516.name=Crushed Certus Quartz Ore
     S:gt.metaitem.01.5516.tooltip=
-    S:gt.metaitem.01.5517.name=Crushed Charged Certus Quartz Ore
-    S:gt.metaitem.01.5517.tooltip=
     S:gt.metaitem.01.5518.name=Crushed Forcicium Ore
     S:gt.metaitem.01.5518.tooltip=
     S:gt.metaitem.01.5519.name=Crushed Forcillium Ore
@@ -15913,10 +15829,6 @@ languagefile {
     S:gt.metaitem.01.5544.tooltip=
     S:gt.metaitem.01.5545.name=Crushed Ordo Crystals
     S:gt.metaitem.01.5545.tooltip=
-    S:gt.metaitem.01.555.name=Tiny Pile of Realgar Dust
-    S:gt.metaitem.01.555.tooltip=As4S4
-    S:gt.metaitem.01.5555.name=Crushed Realgar Ore
-    S:gt.metaitem.01.5555.tooltip=As4S4
     S:gt.metaitem.01.56.name=Tiny Pile of Indium Dust
     S:gt.metaitem.01.56.tooltip=In
     S:gt.metaitem.01.57.name=Tiny Pile of Tin Dust
@@ -15936,7 +15848,7 @@ languagefile {
     S:gt.metaitem.01.5821.name=Crushed Andradite Ore
     S:gt.metaitem.01.5821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.5822.name=Crushed Bauxite Ore
-    S:gt.metaitem.01.5822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.5822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.5823.name=Crushed Calcite Ore
     S:gt.metaitem.01.5823.tooltip=CaCO3
     S:gt.metaitem.01.5824.name=Crushed Cassiterite Ore
@@ -16025,8 +15937,8 @@ languagefile {
     S:gt.metaitem.01.5911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.01.5912.name=Crushed Chrysotile Ore
     S:gt.metaitem.01.5912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.01.5913.name=Crushed Celestine Ore
-    S:gt.metaitem.01.5913.tooltip=SrSO4
+    S:gt.metaitem.01.5913.name=Crushed Realgar Ore
+    S:gt.metaitem.01.5913.tooltip=As4S4
     S:gt.metaitem.01.5914.name=Crushed Dolomite Ore
     S:gt.metaitem.01.5914.tooltip=CaMgC2O6
     S:gt.metaitem.01.5915.name=Crushed Wollastonite Ore
@@ -16337,8 +16249,6 @@ languagefile {
     S:gt.metaitem.01.6515.tooltip=
     S:gt.metaitem.01.6516.name=Purified Certus Quartz Ore
     S:gt.metaitem.01.6516.tooltip=
-    S:gt.metaitem.01.6517.name=Purified Charged Certus Quartz Ore
-    S:gt.metaitem.01.6517.tooltip=
     S:gt.metaitem.01.6518.name=Purified Forcicium Ore
     S:gt.metaitem.01.6518.tooltip=
     S:gt.metaitem.01.6519.name=Purified Forcillium Ore
@@ -16387,8 +16297,6 @@ languagefile {
     S:gt.metaitem.01.6544.tooltip=
     S:gt.metaitem.01.6545.name=Purified Ordo Crystals
     S:gt.metaitem.01.6545.tooltip=
-    S:gt.metaitem.01.6555.name=Purified Realgar Ore
-    S:gt.metaitem.01.6555.tooltip=As4S4
     S:gt.metaitem.01.66.name=Tiny Pile of Praseodymium Dust
     S:gt.metaitem.01.66.tooltip=Pr
     S:gt.metaitem.01.67.name=Tiny Pile of Neodymium Dust
@@ -16408,7 +16316,7 @@ languagefile {
     S:gt.metaitem.01.6821.name=Purified Andradite Ore
     S:gt.metaitem.01.6821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.6822.name=Purified Bauxite Ore
-    S:gt.metaitem.01.6822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.6822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.6823.name=Purified Calcite Ore
     S:gt.metaitem.01.6823.tooltip=CaCO3
     S:gt.metaitem.01.6824.name=Purified Cassiterite Ore
@@ -16497,8 +16405,8 @@ languagefile {
     S:gt.metaitem.01.6911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.01.6912.name=Purified Chrysotile Ore
     S:gt.metaitem.01.6912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.01.6913.name=Purified Celestine Ore
-    S:gt.metaitem.01.6913.tooltip=SrSO4
+    S:gt.metaitem.01.6913.name=Purified Realgar Ore
+    S:gt.metaitem.01.6913.tooltip=As4S4
     S:gt.metaitem.01.6914.name=Purified Dolomite Ore
     S:gt.metaitem.01.6914.tooltip=CaMgC2O6
     S:gt.metaitem.01.6915.name=Purified Wollastonite Ore
@@ -16815,8 +16723,6 @@ languagefile {
     S:gt.metaitem.01.7515.tooltip=
     S:gt.metaitem.01.7516.name=Centrifuged Certus Quartz Ore
     S:gt.metaitem.01.7516.tooltip=
-    S:gt.metaitem.01.7517.name=Centrifuged Charged Certus Quartz Ore
-    S:gt.metaitem.01.7517.tooltip=
     S:gt.metaitem.01.7518.name=Centrifuged Forcicium Ore
     S:gt.metaitem.01.7518.tooltip=
     S:gt.metaitem.01.7519.name=Centrifuged Forcillium Ore
@@ -16865,8 +16771,6 @@ languagefile {
     S:gt.metaitem.01.7544.tooltip=
     S:gt.metaitem.01.7545.name=Centrifuged Ordo Crystals
     S:gt.metaitem.01.7545.tooltip=
-    S:gt.metaitem.01.7555.name=Centrifuged Realgar Ore
-    S:gt.metaitem.01.7555.tooltip=As4S4
     S:gt.metaitem.01.76.name=Tiny Pile of Thulium Dust
     S:gt.metaitem.01.76.tooltip=Tm
     S:gt.metaitem.01.77.name=Tiny Pile of Ytterbium Dust
@@ -16888,7 +16792,7 @@ languagefile {
     S:gt.metaitem.01.7821.name=Centrifuged Andradite Ore
     S:gt.metaitem.01.7821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.7822.name=Centrifuged Bauxite Ore
-    S:gt.metaitem.01.7822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.7822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.7823.name=Centrifuged Calcite Ore
     S:gt.metaitem.01.7823.tooltip=CaCO3
     S:gt.metaitem.01.7824.name=Centrifuged Cassiterite Ore
@@ -16975,8 +16879,8 @@ languagefile {
     S:gt.metaitem.01.7911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.01.7912.name=Centrifuged Chrysotile Ore
     S:gt.metaitem.01.7912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.01.7913.name=Centrifuged Celestine Ore
-    S:gt.metaitem.01.7913.tooltip=SrSO4
+    S:gt.metaitem.01.7913.name=Centrifuged Realgar Ore
+    S:gt.metaitem.01.7913.tooltip=As4S4
     S:gt.metaitem.01.7914.name=Centrifuged Dolomite Ore
     S:gt.metaitem.01.7914.tooltip=CaMgC2O6
     S:gt.metaitem.01.7915.name=Centrifuged Wollastonite Ore
@@ -17090,7 +16994,7 @@ languagefile {
     S:gt.metaitem.01.804.name=Tiny Pile of Obsidian Dust
     S:gt.metaitem.01.804.tooltip=MgFeSi2O8
     S:gt.metaitem.01.805.name=Tiny Pile of Clay Dust
-    S:gt.metaitem.01.805.tooltip=Na2LiAl2Si2
+    S:gt.metaitem.01.805.tooltip=Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.806.name=Tiny Pile of Bone Meal
     S:gt.metaitem.01.806.tooltip=Ca
     S:gt.metaitem.01.807.name=Tiny Pile of Netherrack Dust
@@ -17126,7 +17030,7 @@ languagefile {
     S:gt.metaitem.01.821.name=Tiny Pile of Andradite Dust
     S:gt.metaitem.01.821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.01.822.name=Tiny Pile of Bauxite Dust
-    S:gt.metaitem.01.822.tooltip=TiAl16H10O12
+    S:gt.metaitem.01.822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.01.823.name=Tiny Pile of Calcite Dust
     S:gt.metaitem.01.823.tooltip=CaCO3
     S:gt.metaitem.01.824.name=Tiny Pile of Cassiterite Dust
@@ -17180,7 +17084,7 @@ languagefile {
     S:gt.metaitem.01.845.name=Tiny Pile of Marble Dust
     S:gt.metaitem.01.845.tooltip=Mg(CaCO3)7
     S:gt.metaitem.01.846.name=Tiny Pile of Redrock Dust
-    S:gt.metaitem.01.846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2
+    S:gt.metaitem.01.846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2(H2O)6
     S:gt.metaitem.01.847.name=Tiny Pile of Potassium Feldspar Dust
     S:gt.metaitem.01.847.tooltip=KAlSi3O8
     S:gt.metaitem.01.848.name=Tiny Pile of Biotite Dust
@@ -17221,8 +17125,6 @@ languagefile {
     S:gt.metaitem.01.8515.tooltip=
     S:gt.metaitem.01.8516.name=Certus Quartz
     S:gt.metaitem.01.8516.tooltip=
-    S:gt.metaitem.01.8517.name=Charged Certus Quartz
-    S:gt.metaitem.01.8517.tooltip=
     S:gt.metaitem.01.8518.name=Forcicium
     S:gt.metaitem.01.8518.tooltip=
     S:gt.metaitem.01.8519.name=Forcillium
@@ -17271,8 +17173,6 @@ languagefile {
     S:gt.metaitem.01.8545.tooltip=
     S:gt.metaitem.01.855.name=Tiny Pile of Chalcopyrite Dust
     S:gt.metaitem.01.855.tooltip=CuFeS2
-    S:gt.metaitem.01.856.name=Tiny Pile of Chalk Dust
-    S:gt.metaitem.01.856.tooltip=CaCO3
     S:gt.metaitem.01.857.name=Tiny Pile of Chert Dust
     S:gt.metaitem.01.857.tooltip=
     S:gt.metaitem.01.858.name=Tiny Pile of Crude Oil Dust
@@ -17309,7 +17209,7 @@ languagefile {
     S:gt.metaitem.01.872.tooltip=
     S:gt.metaitem.01.873.name=Tiny Pile of Pitchblende
     S:gt.metaitem.01.873.tooltip=(UO2)3ThPb
-    S:gt.metaitem.01.874.name=Tiny Pile of Plastic Pulp
+    S:gt.metaitem.01.874.name=Tiny Pile of Polyethylene Pulp
     S:gt.metaitem.01.874.tooltip=CH2
     S:gt.metaitem.01.875.name=Tiny Pile of Rhyolite Dust
     S:gt.metaitem.01.875.tooltip=
@@ -17507,8 +17407,8 @@ languagefile {
     S:gt.metaitem.01.912.tooltip=Mg3Si2H4O9
     S:gt.metaitem.01.9129.name=Neutronium Nugget
     S:gt.metaitem.01.9129.tooltip=Nt
-    S:gt.metaitem.01.913.name=Tiny Pile of Celestine Dust
-    S:gt.metaitem.01.913.tooltip=SrSO4
+    S:gt.metaitem.01.913.name=Tiny Pile of Realgar Dust
+    S:gt.metaitem.01.913.tooltip=As4S4
     S:gt.metaitem.01.914.name=Tiny Pile of Dolomite Dust
     S:gt.metaitem.01.914.tooltip=CaMgC2O6
     S:gt.metaitem.01.915.name=Tiny Pile of Wollastonite Dust
@@ -17580,7 +17480,7 @@ languagefile {
     S:gt.metaitem.01.9316.name=Tungstensteel Nugget
     S:gt.metaitem.01.9316.tooltip=Fe50CW
     S:gt.metaitem.01.9317.name=Osmiridium Nugget
-    S:gt.metaitem.01.9317.tooltip=
+    S:gt.metaitem.01.9317.tooltip=Ir3Os
     S:gt.metaitem.01.9318.name=Sunnarium Nugget
     S:gt.metaitem.01.9318.tooltip=
     S:gt.metaitem.01.9319.name=Adamantium Nugget
@@ -17779,7 +17679,7 @@ languagefile {
     S:gt.metaitem.01.9809.tooltip=
     S:gt.metaitem.01.9829.name=Deep Iron Nugget
     S:gt.metaitem.01.9829.tooltip=Fe
-    S:gt.metaitem.01.9874.name=Plastic Chip
+    S:gt.metaitem.01.9874.name=Polyethylene Chip
     S:gt.metaitem.01.9874.tooltip=CH2
     S:gt.metaitem.01.9880.name=Rubber Chip
     S:gt.metaitem.01.9880.tooltip=C5H8
@@ -17919,7 +17819,7 @@ languagefile {
     S:gt.metaitem.02.10316.name=Tungstensteel Wrench Tip
     S:gt.metaitem.02.10316.tooltip=Fe50CW
     S:gt.metaitem.02.10317.name=Osmiridium Wrench Tip
-    S:gt.metaitem.02.10317.tooltip=
+    S:gt.metaitem.02.10317.tooltip=Ir3Os
     S:gt.metaitem.02.10319.name=Adamantium Wrench Tip
     S:gt.metaitem.02.10319.tooltip=
     S:gt.metaitem.02.1032.name=Iron Pickaxe Head
@@ -18175,7 +18075,7 @@ languagefile {
     S:gt.metaitem.02.11316.name=Tungstensteel Universal Spade Head
     S:gt.metaitem.02.11316.tooltip=Fe50CW
     S:gt.metaitem.02.11317.name=Osmiridium Universal Spade Head
-    S:gt.metaitem.02.11317.tooltip=
+    S:gt.metaitem.02.11317.tooltip=Ir3Os
     S:gt.metaitem.02.11319.name=Adamantium Universal Spade Head
     S:gt.metaitem.02.11319.tooltip=
     S:gt.metaitem.02.11320.name=Fluxed Electrum Universal Spade Head
@@ -18306,8 +18206,6 @@ languagefile {
     S:gt.metaitem.02.11514.tooltip=
     S:gt.metaitem.02.11516.name=Certus Quartz Universal Spade Head
     S:gt.metaitem.02.11516.tooltip=
-    S:gt.metaitem.02.11517.name=Charged Certus Quartz Universal Spade Head
-    S:gt.metaitem.02.11517.tooltip=
     S:gt.metaitem.02.11521.name=Force Universal Spade Head
     S:gt.metaitem.02.11521.tooltip=
     S:gt.metaitem.02.11522.name=Nether Quartz Universal Spade Head
@@ -18346,7 +18244,7 @@ languagefile {
     S:gt.metaitem.02.11850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.11865.name=Graphite Universal Spade Head
     S:gt.metaitem.02.11865.tooltip=
-    S:gt.metaitem.02.11874.name=Plastic Universal Spade Head
+    S:gt.metaitem.02.11874.name=Polyethylene Universal Spade Head
     S:gt.metaitem.02.11874.tooltip=CH2
     S:gt.metaitem.02.11880.name=Rubber Universal Spade Head
     S:gt.metaitem.02.11880.tooltip=C5H8
@@ -18459,7 +18357,7 @@ languagefile {
     S:gt.metaitem.02.12316.name=Tungstensteel Sense Blade
     S:gt.metaitem.02.12316.tooltip=Fe50CW
     S:gt.metaitem.02.12317.name=Osmiridium Sense Blade
-    S:gt.metaitem.02.12317.tooltip=
+    S:gt.metaitem.02.12317.tooltip=Ir3Os
     S:gt.metaitem.02.12319.name=Adamantium Sense Blade
     S:gt.metaitem.02.12319.tooltip=
     S:gt.metaitem.02.12320.name=Fluxed Electrum Sense Blade
@@ -18590,8 +18488,6 @@ languagefile {
     S:gt.metaitem.02.12514.tooltip=
     S:gt.metaitem.02.12516.name=Certus Quartz Sense Blade
     S:gt.metaitem.02.12516.tooltip=
-    S:gt.metaitem.02.12517.name=Charged Certus Quartz Sense Blade
-    S:gt.metaitem.02.12517.tooltip=
     S:gt.metaitem.02.12521.name=Force Sense Blade
     S:gt.metaitem.02.12521.tooltip=
     S:gt.metaitem.02.12522.name=Nether Quartz Sense Blade
@@ -18630,7 +18526,7 @@ languagefile {
     S:gt.metaitem.02.12850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.12865.name=Graphite Sense Blade
     S:gt.metaitem.02.12865.tooltip=
-    S:gt.metaitem.02.12874.name=Plastic Sense Blade
+    S:gt.metaitem.02.12874.name=Polyethylene Sense Blade
     S:gt.metaitem.02.12874.tooltip=CH2
     S:gt.metaitem.02.12880.name=Rubber Sense Blade
     S:gt.metaitem.02.12880.tooltip=C5H8
@@ -18745,7 +18641,7 @@ languagefile {
     S:gt.metaitem.02.1316.name=Tungstensteel Pickaxe Head
     S:gt.metaitem.02.1316.tooltip=Fe50CW
     S:gt.metaitem.02.1317.name=Osmiridium Pickaxe Head
-    S:gt.metaitem.02.1317.tooltip=
+    S:gt.metaitem.02.1317.tooltip=Ir3Os
     S:gt.metaitem.02.1319.name=Adamantium Pickaxe Head
     S:gt.metaitem.02.1319.tooltip=
     S:gt.metaitem.02.1320.name=Fluxed Electrum Pickaxe Head
@@ -18801,7 +18697,7 @@ languagefile {
     S:gt.metaitem.02.13316.name=Tungstensteel Plow Head
     S:gt.metaitem.02.13316.tooltip=Fe50CW
     S:gt.metaitem.02.13317.name=Osmiridium Plow Head
-    S:gt.metaitem.02.13317.tooltip=
+    S:gt.metaitem.02.13317.tooltip=Ir3Os
     S:gt.metaitem.02.13319.name=Adamantium Plow Head
     S:gt.metaitem.02.13319.tooltip=
     S:gt.metaitem.02.1332.name=Midasium Pickaxe Head
@@ -18970,8 +18866,6 @@ languagefile {
     S:gt.metaitem.02.13514.tooltip=
     S:gt.metaitem.02.13516.name=Certus Quartz Plow Head
     S:gt.metaitem.02.13516.tooltip=
-    S:gt.metaitem.02.13517.name=Charged Certus Quartz Plow Head
-    S:gt.metaitem.02.13517.tooltip=
     S:gt.metaitem.02.1352.name=Black Bronze Pickaxe Head
     S:gt.metaitem.02.1352.tooltip=AuAgCu3
     S:gt.metaitem.02.13521.name=Force Plow Head
@@ -19036,7 +18930,7 @@ languagefile {
     S:gt.metaitem.02.13850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.13865.name=Graphite Plow Head
     S:gt.metaitem.02.13865.tooltip=
-    S:gt.metaitem.02.13874.name=Plastic Plow Head
+    S:gt.metaitem.02.13874.name=Polyethylene Plow Head
     S:gt.metaitem.02.13874.tooltip=CH2
     S:gt.metaitem.02.13880.name=Rubber Plow Head
     S:gt.metaitem.02.13880.tooltip=C5H8
@@ -19149,7 +19043,7 @@ languagefile {
     S:gt.metaitem.02.14316.name=Tungstensteel Arrow Head
     S:gt.metaitem.02.14316.tooltip=Fe50CW
     S:gt.metaitem.02.14317.name=Osmiridium Arrow Head
-    S:gt.metaitem.02.14317.tooltip=
+    S:gt.metaitem.02.14317.tooltip=Ir3Os
     S:gt.metaitem.02.14319.name=Adamantium Arrow Head
     S:gt.metaitem.02.14319.tooltip=
     S:gt.metaitem.02.14320.name=Fluxed Electrum Arrow Head
@@ -19280,8 +19174,6 @@ languagefile {
     S:gt.metaitem.02.14514.tooltip=
     S:gt.metaitem.02.14516.name=Certus Quartz Arrow Head
     S:gt.metaitem.02.14516.tooltip=
-    S:gt.metaitem.02.14517.name=Charged Certus Quartz Arrow Head
-    S:gt.metaitem.02.14517.tooltip=
     S:gt.metaitem.02.14521.name=Force Arrow Head
     S:gt.metaitem.02.14521.tooltip=
     S:gt.metaitem.02.14522.name=Nether Quartz Arrow Head
@@ -19328,7 +19220,7 @@ languagefile {
     S:gt.metaitem.02.14850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.14865.name=Graphite Arrow Head
     S:gt.metaitem.02.14865.tooltip=
-    S:gt.metaitem.02.14874.name=Plastic Arrow Head
+    S:gt.metaitem.02.14874.name=Polyethylene Arrow Head
     S:gt.metaitem.02.14874.tooltip=CH2
     S:gt.metaitem.02.14880.name=Rubber Arrow Head
     S:gt.metaitem.02.14880.tooltip=C5H8
@@ -19444,8 +19336,6 @@ languagefile {
     S:gt.metaitem.02.1514.tooltip=
     S:gt.metaitem.02.1516.name=Certus Quartz Pickaxe Head
     S:gt.metaitem.02.1516.tooltip=
-    S:gt.metaitem.02.1517.name=Charged Certus Quartz Pickaxe Head
-    S:gt.metaitem.02.1517.tooltip=
     S:gt.metaitem.02.1521.name=Force Pickaxe Head
     S:gt.metaitem.02.1521.tooltip=
     S:gt.metaitem.02.1522.name=Nether Quartz Pickaxe Head
@@ -19483,7 +19373,7 @@ languagefile {
     S:gt.metaitem.02.15316.name=Tungstensteel Buzzsaw Blade
     S:gt.metaitem.02.15316.tooltip=Fe50CW
     S:gt.metaitem.02.15317.name=Osmiridium Buzzsaw Blade
-    S:gt.metaitem.02.15317.tooltip=
+    S:gt.metaitem.02.15317.tooltip=Ir3Os
     S:gt.metaitem.02.15319.name=Adamantium Buzzsaw Blade
     S:gt.metaitem.02.15319.tooltip=
     S:gt.metaitem.02.15320.name=Fluxed Electrum Buzzsaw Blade
@@ -19711,7 +19601,7 @@ languagefile {
     S:gt.metaitem.02.16316.name=Tungstensteel Turbine Blade
     S:gt.metaitem.02.16316.tooltip=Fe50CW
     S:gt.metaitem.02.16317.name=Osmiridium Turbine Blade
-    S:gt.metaitem.02.16317.tooltip=
+    S:gt.metaitem.02.16317.tooltip=Ir3Os
     S:gt.metaitem.02.16319.name=Adamantium Turbine Blade
     S:gt.metaitem.02.16319.tooltip=
     S:gt.metaitem.02.16320.name=Fluxed Electrum Turbine Blade
@@ -19842,8 +19732,6 @@ languagefile {
     S:gt.metaitem.02.16514.tooltip=
     S:gt.metaitem.02.16516.name=Certus Quartz Turbine Blade
     S:gt.metaitem.02.16516.tooltip=
-    S:gt.metaitem.02.16517.name=Charged Certus Quartz Turbine Blade
-    S:gt.metaitem.02.16517.tooltip=
     S:gt.metaitem.02.16521.name=Force Turbine Blade
     S:gt.metaitem.02.16521.tooltip=
     S:gt.metaitem.02.16522.name=Nether Quartz Turbine Blade
@@ -19882,7 +19770,7 @@ languagefile {
     S:gt.metaitem.02.16850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.16865.name=Graphite Turbine Blade
     S:gt.metaitem.02.16865.tooltip=
-    S:gt.metaitem.02.16874.name=Plastic Turbine Blade
+    S:gt.metaitem.02.16874.name=Polyethylene Turbine Blade
     S:gt.metaitem.02.16874.tooltip=CH2
     S:gt.metaitem.02.16880.name=Rubber Turbine Blade
     S:gt.metaitem.02.16880.tooltip=C5H8
@@ -19930,7 +19818,7 @@ languagefile {
     S:gt.metaitem.02.1850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.1865.name=Graphite Pickaxe Head
     S:gt.metaitem.02.1865.tooltip=
-    S:gt.metaitem.02.1874.name=Plastic Pickaxe Head
+    S:gt.metaitem.02.1874.name=Polyethylene Pickaxe Head
     S:gt.metaitem.02.1874.tooltip=CH2
     S:gt.metaitem.02.1880.name=Rubber Pickaxe Head
     S:gt.metaitem.02.1880.tooltip=C5H8
@@ -20087,7 +19975,7 @@ languagefile {
     S:gt.metaitem.02.19316.name=Fine Tungstensteel Wire
     S:gt.metaitem.02.19316.tooltip=Fe50CW
     S:gt.metaitem.02.19317.name=Fine Osmiridium Wire
-    S:gt.metaitem.02.19317.tooltip=
+    S:gt.metaitem.02.19317.tooltip=Ir3Os
     S:gt.metaitem.02.19318.name=Fine Sunnarium Wire
     S:gt.metaitem.02.19318.tooltip=
     S:gt.metaitem.02.19319.name=Fine Adamantium Wire
@@ -20315,7 +20203,7 @@ languagefile {
     S:gt.metaitem.02.20316.name=Small Tungstensteel Gear
     S:gt.metaitem.02.20316.tooltip=Fe50CW
     S:gt.metaitem.02.20317.name=Small Osmiridium Gear
-    S:gt.metaitem.02.20317.tooltip=
+    S:gt.metaitem.02.20317.tooltip=Ir3Os
     S:gt.metaitem.02.20319.name=Small Adamantium Gear
     S:gt.metaitem.02.20319.tooltip=
     S:gt.metaitem.02.2032.name=Iron Shovel Head
@@ -20420,7 +20308,7 @@ languagefile {
     S:gt.metaitem.02.20850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.2086.name=Gold Shovel Head
     S:gt.metaitem.02.2086.tooltip=Au
-    S:gt.metaitem.02.20874.name=Small Plastic Gear
+    S:gt.metaitem.02.20874.name=Small Polyethylene Gear
     S:gt.metaitem.02.20874.tooltip=CH2
     S:gt.metaitem.02.20880.name=Small Rubber Gear
     S:gt.metaitem.02.20880.tooltip=C5H8
@@ -20501,7 +20389,7 @@ languagefile {
     S:gt.metaitem.02.21316.name=Tungstensteel Rotor
     S:gt.metaitem.02.21316.tooltip=Fe50CW
     S:gt.metaitem.02.21317.name=Osmiridium Rotor
-    S:gt.metaitem.02.21317.tooltip=
+    S:gt.metaitem.02.21317.tooltip=Ir3Os
     S:gt.metaitem.02.21319.name=Adamantium Rotor
     S:gt.metaitem.02.21319.tooltip=
     S:gt.metaitem.02.21322.name=HSLA Steel Rotor
@@ -20721,7 +20609,7 @@ languagefile {
     S:gt.metaitem.02.22316.name=Long Tungstensteel Rod
     S:gt.metaitem.02.22316.tooltip=Fe50CW
     S:gt.metaitem.02.22317.name=Long Osmiridium Rod
-    S:gt.metaitem.02.22317.tooltip=
+    S:gt.metaitem.02.22317.tooltip=Ir3Os
     S:gt.metaitem.02.22318.name=Long Sunnarium Rod
     S:gt.metaitem.02.22318.tooltip=
     S:gt.metaitem.02.22319.name=Long Adamantium Rod
@@ -20872,8 +20760,6 @@ languagefile {
     S:gt.metaitem.02.22515.tooltip=
     S:gt.metaitem.02.22516.name=Long Certus Quartz Rod
     S:gt.metaitem.02.22516.tooltip=
-    S:gt.metaitem.02.22517.name=Long Charged Certus Quartz Rod
-    S:gt.metaitem.02.22517.tooltip=
     S:gt.metaitem.02.22518.name=Long Forcicium Rod
     S:gt.metaitem.02.22518.tooltip=
     S:gt.metaitem.02.22519.name=Long Forcillium Rod
@@ -20934,7 +20820,7 @@ languagefile {
     S:gt.metaitem.02.22809.tooltip=
     S:gt.metaitem.02.22829.name=Long Deep Iron Rod
     S:gt.metaitem.02.22829.tooltip=Fe
-    S:gt.metaitem.02.22874.name=Long Plastic Rod
+    S:gt.metaitem.02.22874.name=Long Polyethylene Rod
     S:gt.metaitem.02.22874.tooltip=CH2
     S:gt.metaitem.02.22880.name=Long Rubber Rod
     S:gt.metaitem.02.22880.tooltip=C5H8
@@ -21127,7 +21013,7 @@ languagefile {
     S:gt.metaitem.02.2316.name=Tungstensteel Shovel Head
     S:gt.metaitem.02.2316.tooltip=Fe50CW
     S:gt.metaitem.02.2317.name=Osmiridium Shovel Head
-    S:gt.metaitem.02.2317.tooltip=
+    S:gt.metaitem.02.2317.tooltip=Ir3Os
     S:gt.metaitem.02.2319.name=Adamantium Shovel Head
     S:gt.metaitem.02.2319.tooltip=
     S:gt.metaitem.02.2320.name=Fluxed Electrum Shovel Head
@@ -21189,7 +21075,7 @@ languagefile {
     S:gt.metaitem.02.23316.name=Small Tungstensteel Spring
     S:gt.metaitem.02.23316.tooltip=Fe50CW
     S:gt.metaitem.02.23317.name=Small Osmiridium Spring
-    S:gt.metaitem.02.23317.tooltip=
+    S:gt.metaitem.02.23317.tooltip=Ir3Os
     S:gt.metaitem.02.23318.name=Small Sunnarium Spring
     S:gt.metaitem.02.23318.tooltip=
     S:gt.metaitem.02.23319.name=Small Adamantium Spring
@@ -21374,7 +21260,7 @@ languagefile {
     S:gt.metaitem.02.23770.tooltip=
     S:gt.metaitem.02.23829.name=Small Deep Iron Spring
     S:gt.metaitem.02.23829.tooltip=Fe
-    S:gt.metaitem.02.23874.name=Small Plastic Spring
+    S:gt.metaitem.02.23874.name=Small Polyethylene Spring
     S:gt.metaitem.02.23874.tooltip=CH2
     S:gt.metaitem.02.23880.name=Small Rubber Spring
     S:gt.metaitem.02.23880.tooltip=C5H8
@@ -21569,7 +21455,7 @@ languagefile {
     S:gt.metaitem.02.24316.name=Tungstensteel Spring
     S:gt.metaitem.02.24316.tooltip=Fe50CW
     S:gt.metaitem.02.24317.name=Osmiridium Spring
-    S:gt.metaitem.02.24317.tooltip=
+    S:gt.metaitem.02.24317.tooltip=Ir3Os
     S:gt.metaitem.02.24318.name=Sunnarium Spring
     S:gt.metaitem.02.24318.tooltip=
     S:gt.metaitem.02.24319.name=Adamantium Spring
@@ -21698,7 +21584,7 @@ languagefile {
     S:gt.metaitem.02.24770.tooltip=
     S:gt.metaitem.02.24829.name=Deep Iron Spring
     S:gt.metaitem.02.24829.tooltip=Fe
-    S:gt.metaitem.02.24874.name=Plastic Spring
+    S:gt.metaitem.02.24874.name=Polyethylene Spring
     S:gt.metaitem.02.24874.tooltip=CH2
     S:gt.metaitem.02.24880.name=Rubber Spring
     S:gt.metaitem.02.24880.tooltip=C5H8
@@ -21822,8 +21708,6 @@ languagefile {
     S:gt.metaitem.02.2514.tooltip=
     S:gt.metaitem.02.2516.name=Certus Quartz Shovel Head
     S:gt.metaitem.02.2516.tooltip=
-    S:gt.metaitem.02.2517.name=Charged Certus Quartz Shovel Head
-    S:gt.metaitem.02.2517.tooltip=
     S:gt.metaitem.02.2521.name=Force Shovel Head
     S:gt.metaitem.02.2521.tooltip=
     S:gt.metaitem.02.2522.name=Nether Quartz Shovel Head
@@ -21863,7 +21747,7 @@ languagefile {
     S:gt.metaitem.02.25316.name=Tungstensteel Arrow
     S:gt.metaitem.02.25316.tooltip=Fe50CW
     S:gt.metaitem.02.25317.name=Osmiridium Arrow
-    S:gt.metaitem.02.25317.tooltip=
+    S:gt.metaitem.02.25317.tooltip=Ir3Os
     S:gt.metaitem.02.25319.name=Adamantium Arrow
     S:gt.metaitem.02.25319.tooltip=
     S:gt.metaitem.02.25320.name=Fluxed Electrum Arrow
@@ -22006,8 +21890,6 @@ languagefile {
     S:gt.metaitem.02.25514.tooltip=
     S:gt.metaitem.02.25516.name=Certus Quartz Arrow
     S:gt.metaitem.02.25516.tooltip=
-    S:gt.metaitem.02.25517.name=Charged Certus Quartz Arrow
-    S:gt.metaitem.02.25517.tooltip=
     S:gt.metaitem.02.25521.name=Force Arrow
     S:gt.metaitem.02.25521.tooltip=
     S:gt.metaitem.02.25522.name=Nether Quartz Arrow
@@ -22046,7 +21928,7 @@ languagefile {
     S:gt.metaitem.02.25850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.25865.name=Graphite Arrow
     S:gt.metaitem.02.25865.tooltip=
-    S:gt.metaitem.02.25874.name=Plastic Arrow
+    S:gt.metaitem.02.25874.name=Polyethylene Arrow
     S:gt.metaitem.02.25874.tooltip=CH2
     S:gt.metaitem.02.25880.name=Rubber Arrow
     S:gt.metaitem.02.25880.tooltip=C5H8
@@ -22159,7 +22041,7 @@ languagefile {
     S:gt.metaitem.02.26316.name=Light Tungstensteel Arrow
     S:gt.metaitem.02.26316.tooltip=Fe50CW
     S:gt.metaitem.02.26317.name=Light Osmiridium Arrow
-    S:gt.metaitem.02.26317.tooltip=
+    S:gt.metaitem.02.26317.tooltip=Ir3Os
     S:gt.metaitem.02.26319.name=Light Adamantium Arrow
     S:gt.metaitem.02.26319.tooltip=
     S:gt.metaitem.02.26320.name=Light Fluxed Electrum Arrow
@@ -22290,8 +22172,6 @@ languagefile {
     S:gt.metaitem.02.26514.tooltip=
     S:gt.metaitem.02.26516.name=Light Certus Quartz Arrow
     S:gt.metaitem.02.26516.tooltip=
-    S:gt.metaitem.02.26517.name=Light Charged Certus Quartz Arrow
-    S:gt.metaitem.02.26517.tooltip=
     S:gt.metaitem.02.26521.name=Light Force Arrow
     S:gt.metaitem.02.26521.tooltip=
     S:gt.metaitem.02.26522.name=Light Nether Quartz Arrow
@@ -22330,7 +22210,7 @@ languagefile {
     S:gt.metaitem.02.26850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.26865.name=Light Graphite Arrow
     S:gt.metaitem.02.26865.tooltip=
-    S:gt.metaitem.02.26874.name=Light Plastic Arrow
+    S:gt.metaitem.02.26874.name=Light Polyethylene Arrow
     S:gt.metaitem.02.26874.tooltip=CH2
     S:gt.metaitem.02.26880.name=Light Rubber Arrow
     S:gt.metaitem.02.26880.tooltip=C5H8
@@ -22446,7 +22326,7 @@ languagefile {
     S:gt.metaitem.02.28528.tooltip=(Ca3Fe2Si3O12)5(Ca3Al2Si3O12)8(Ca3Cr2Si3O12)3
     S:gt.metaitem.02.2865.name=Graphite Shovel Head
     S:gt.metaitem.02.2865.tooltip=
-    S:gt.metaitem.02.2874.name=Plastic Shovel Head
+    S:gt.metaitem.02.2874.name=Polyethylene Shovel Head
     S:gt.metaitem.02.2874.tooltip=CH2
     S:gt.metaitem.02.2880.name=Rubber Shovel Head
     S:gt.metaitem.02.2880.tooltip=C5H8
@@ -22689,7 +22569,7 @@ languagefile {
     S:gt.metaitem.02.31316.name=Tungstensteel Gear
     S:gt.metaitem.02.31316.tooltip=Fe50CW
     S:gt.metaitem.02.31317.name=Osmiridium Gear
-    S:gt.metaitem.02.31317.tooltip=
+    S:gt.metaitem.02.31317.tooltip=Ir3Os
     S:gt.metaitem.02.31319.name=Adamantium Gear
     S:gt.metaitem.02.31319.tooltip=
     S:gt.metaitem.02.31322.name=HSLA Steel Gear
@@ -22767,14 +22647,14 @@ languagefile {
     S:gt.metaitem.02.316.name=Tungstensteel Sword Blade
     S:gt.metaitem.02.316.tooltip=Fe50CW
     S:gt.metaitem.02.317.name=Osmiridium Sword Blade
-    S:gt.metaitem.02.317.tooltip=
+    S:gt.metaitem.02.317.tooltip=Ir3Os
     S:gt.metaitem.02.31809.name=Wood Gear
     S:gt.metaitem.02.31809.tooltip=
     S:gt.metaitem.02.31849.name=Black Granite Gear
     S:gt.metaitem.02.31849.tooltip=(SiO2)4KMg3Al3F2Si3O10
     S:gt.metaitem.02.31850.name=Red Granite Gear
     S:gt.metaitem.02.31850.tooltip=Al2KAlSi3O8O3
-    S:gt.metaitem.02.31874.name=Plastic Gear
+    S:gt.metaitem.02.31874.name=Polyethylene Gear
     S:gt.metaitem.02.31874.tooltip=CH2
     S:gt.metaitem.02.31880.name=Rubber Gear
     S:gt.metaitem.02.31880.tooltip=C5H8
@@ -23090,7 +22970,7 @@ languagefile {
     S:gt.metaitem.02.32522.tooltip=Source of Titanium
     S:gt.metaitem.02.32523.name=Reactoria Leaf
     S:gt.metaitem.02.32523.tooltip=Source of Uranium
-    S:gt.metaitem.02.32524.name=Milk Leaf
+    S:gt.metaitem.02.32524.name=Uranium Leaf
     S:gt.metaitem.02.32524.tooltip=Source of Uranite
     S:gt.metaitem.02.32526.name=Thunder Leaf
     S:gt.metaitem.02.32526.tooltip=Source of Thorium
@@ -23207,7 +23087,7 @@ languagefile {
     S:gt.metaitem.02.3316.name=Tungstensteel Axe Head
     S:gt.metaitem.02.3316.tooltip=Fe50CW
     S:gt.metaitem.02.3317.name=Osmiridium Axe Head
-    S:gt.metaitem.02.3317.tooltip=
+    S:gt.metaitem.02.3317.tooltip=Ir3Os
     S:gt.metaitem.02.3319.name=Adamantium Axe Head
     S:gt.metaitem.02.3319.tooltip=
     S:gt.metaitem.02.332.name=Midasium Sword Blade
@@ -23378,8 +23258,6 @@ languagefile {
     S:gt.metaitem.02.3514.tooltip=
     S:gt.metaitem.02.3516.name=Certus Quartz Axe Head
     S:gt.metaitem.02.3516.tooltip=
-    S:gt.metaitem.02.3517.name=Charged Certus Quartz Axe Head
-    S:gt.metaitem.02.3517.tooltip=
     S:gt.metaitem.02.352.name=Black Bronze Sword Blade
     S:gt.metaitem.02.352.tooltip=AuAgCu3
     S:gt.metaitem.02.3521.name=Force Axe Head
@@ -23444,7 +23322,7 @@ languagefile {
     S:gt.metaitem.02.3850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.3865.name=Graphite Axe Head
     S:gt.metaitem.02.3865.tooltip=
-    S:gt.metaitem.02.3874.name=Plastic Axe Head
+    S:gt.metaitem.02.3874.name=Polyethylene Axe Head
     S:gt.metaitem.02.3874.tooltip=CH2
     S:gt.metaitem.02.3880.name=Rubber Axe Head
     S:gt.metaitem.02.3880.tooltip=C5H8
@@ -23557,7 +23435,7 @@ languagefile {
     S:gt.metaitem.02.4316.name=Tungstensteel Hoe Head
     S:gt.metaitem.02.4316.tooltip=Fe50CW
     S:gt.metaitem.02.4317.name=Osmiridium Hoe Head
-    S:gt.metaitem.02.4317.tooltip=
+    S:gt.metaitem.02.4317.tooltip=Ir3Os
     S:gt.metaitem.02.4319.name=Adamantium Hoe Head
     S:gt.metaitem.02.4319.tooltip=
     S:gt.metaitem.02.4320.name=Fluxed Electrum Hoe Head
@@ -23688,8 +23566,6 @@ languagefile {
     S:gt.metaitem.02.4514.tooltip=
     S:gt.metaitem.02.4516.name=Certus Quartz Hoe Head
     S:gt.metaitem.02.4516.tooltip=
-    S:gt.metaitem.02.4517.name=Charged Certus Quartz Hoe Head
-    S:gt.metaitem.02.4517.tooltip=
     S:gt.metaitem.02.4521.name=Force Hoe Head
     S:gt.metaitem.02.4521.tooltip=
     S:gt.metaitem.02.4522.name=Nether Quartz Hoe Head
@@ -23738,7 +23614,7 @@ languagefile {
     S:gt.metaitem.02.4850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.4865.name=Graphite Hoe Head
     S:gt.metaitem.02.4865.tooltip=
-    S:gt.metaitem.02.4874.name=Plastic Hoe Head
+    S:gt.metaitem.02.4874.name=Polyethylene Hoe Head
     S:gt.metaitem.02.4874.tooltip=CH2
     S:gt.metaitem.02.4880.name=Rubber Hoe Head
     S:gt.metaitem.02.4880.tooltip=C5H8
@@ -23854,8 +23730,6 @@ languagefile {
     S:gt.metaitem.02.514.tooltip=
     S:gt.metaitem.02.516.name=Certus Quartz Sword Blade
     S:gt.metaitem.02.516.tooltip=
-    S:gt.metaitem.02.517.name=Charged Certus Quartz Sword Blade
-    S:gt.metaitem.02.517.tooltip=
     S:gt.metaitem.02.52.name=Palladium Sword Blade
     S:gt.metaitem.02.52.tooltip=Pd
     S:gt.metaitem.02.521.name=Force Sword Blade
@@ -23897,7 +23771,7 @@ languagefile {
     S:gt.metaitem.02.5316.name=Tungstensteel Hammer Head
     S:gt.metaitem.02.5316.tooltip=Fe50CW
     S:gt.metaitem.02.5317.name=Osmiridium Hammer Head
-    S:gt.metaitem.02.5317.tooltip=
+    S:gt.metaitem.02.5317.tooltip=Ir3Os
     S:gt.metaitem.02.5319.name=Adamantium Hammer Head
     S:gt.metaitem.02.5319.tooltip=
     S:gt.metaitem.02.5320.name=Fluxed Electrum Hammer Head
@@ -24042,8 +23916,6 @@ languagefile {
     S:gt.metaitem.02.5514.tooltip=
     S:gt.metaitem.02.5516.name=Certus Quartz Hammer Head
     S:gt.metaitem.02.5516.tooltip=
-    S:gt.metaitem.02.5517.name=Charged Certus Quartz Hammer Head
-    S:gt.metaitem.02.5517.tooltip=
     S:gt.metaitem.02.5521.name=Force Hammer Head
     S:gt.metaitem.02.5521.tooltip=
     S:gt.metaitem.02.5522.name=Nether Quartz Hammer Head
@@ -24082,7 +23954,7 @@ languagefile {
     S:gt.metaitem.02.5850.tooltip=Al2KAlSi3O8O3
     S:gt.metaitem.02.5865.name=Graphite Hammer Head
     S:gt.metaitem.02.5865.tooltip=
-    S:gt.metaitem.02.5874.name=Plastic Hammer Head
+    S:gt.metaitem.02.5874.name=Polyethylene Hammer Head
     S:gt.metaitem.02.5874.tooltip=CH2
     S:gt.metaitem.02.5880.name=Rubber Hammer Head
     S:gt.metaitem.02.5880.tooltip=C5H8
@@ -24193,7 +24065,7 @@ languagefile {
     S:gt.metaitem.02.6316.name=Tungstensteel File Head
     S:gt.metaitem.02.6316.tooltip=Fe50CW
     S:gt.metaitem.02.6317.name=Osmiridium File Head
-    S:gt.metaitem.02.6317.tooltip=
+    S:gt.metaitem.02.6317.tooltip=Ir3Os
     S:gt.metaitem.02.6319.name=Adamantium File Head
     S:gt.metaitem.02.6319.tooltip=
     S:gt.metaitem.02.6320.name=Fluxed Electrum File Head
@@ -24409,7 +24281,7 @@ languagefile {
     S:gt.metaitem.02.7316.name=Tungstensteel Saw Blade
     S:gt.metaitem.02.7316.tooltip=Fe50CW
     S:gt.metaitem.02.7317.name=Osmiridium Saw Blade
-    S:gt.metaitem.02.7317.tooltip=
+    S:gt.metaitem.02.7317.tooltip=Ir3Os
     S:gt.metaitem.02.7319.name=Adamantium Saw Blade
     S:gt.metaitem.02.7319.tooltip=
     S:gt.metaitem.02.7320.name=Fluxed Electrum Saw Blade
@@ -24639,7 +24511,7 @@ languagefile {
     S:gt.metaitem.02.8316.name=Tungstensteel Drill Tip
     S:gt.metaitem.02.8316.tooltip=Fe50CW
     S:gt.metaitem.02.8317.name=Osmiridium Drill Tip
-    S:gt.metaitem.02.8317.tooltip=
+    S:gt.metaitem.02.8317.tooltip=Ir3Os
     S:gt.metaitem.02.8319.name=Adamantium Drill Tip
     S:gt.metaitem.02.8319.tooltip=
     S:gt.metaitem.02.8320.name=Fluxed Electrum Drill Tip
@@ -24754,7 +24626,7 @@ languagefile {
     S:gt.metaitem.02.86.tooltip=Au
     S:gt.metaitem.02.865.name=Graphite Sword Blade
     S:gt.metaitem.02.865.tooltip=
-    S:gt.metaitem.02.874.name=Plastic Sword Blade
+    S:gt.metaitem.02.874.name=Polyethylene Sword Blade
     S:gt.metaitem.02.874.tooltip=CH2
     S:gt.metaitem.02.880.name=Rubber Sword Blade
     S:gt.metaitem.02.880.tooltip=C5H8
@@ -24877,7 +24749,7 @@ languagefile {
     S:gt.metaitem.02.9316.name=Tungstensteel Chainsaw Tip
     S:gt.metaitem.02.9316.tooltip=Fe50CW
     S:gt.metaitem.02.9317.name=Osmiridium Chainsaw Tip
-    S:gt.metaitem.02.9317.tooltip=
+    S:gt.metaitem.02.9317.tooltip=Ir3Os
     S:gt.metaitem.02.9319.name=Adamantium Chainsaw Tip
     S:gt.metaitem.02.9319.tooltip=
     S:gt.metaitem.02.9320.name=Fluxed Electrum Chainsaw Tip
@@ -25208,7 +25080,7 @@ languagefile {
     S:gt.metaitem.03.1316.name=Crate of Tungstensteel Ingot
     S:gt.metaitem.03.1316.tooltip=Fe50CW
     S:gt.metaitem.03.1317.name=Crate of Osmiridium Ingot
-    S:gt.metaitem.03.1317.tooltip=
+    S:gt.metaitem.03.1317.tooltip=Ir3Os
     S:gt.metaitem.03.1318.name=Crate of Sunnarium Ingot
     S:gt.metaitem.03.1318.tooltip=
     S:gt.metaitem.03.1319.name=Crate of Adamantium Ingot
@@ -25335,7 +25207,7 @@ languagefile {
     S:gt.metaitem.03.1809.tooltip=
     S:gt.metaitem.03.1829.name=Crate of Deep Iron Ingot
     S:gt.metaitem.03.1829.tooltip=Fe
-    S:gt.metaitem.03.1874.name=Crate of Plastic Bar
+    S:gt.metaitem.03.1874.name=Crate of Polyethylene Bar
     S:gt.metaitem.03.1874.tooltip=CH2
     S:gt.metaitem.03.1880.name=Crate of Rubber Bar
     S:gt.metaitem.03.1880.tooltip=C5H8
@@ -25387,7 +25259,7 @@ languagefile {
     S:gt.metaitem.03.22.tooltip=S
     S:gt.metaitem.03.2347.name=Crate of Firestone
     S:gt.metaitem.03.2347.tooltip=
-    S:gt.metaitem.03.241.name=Crate of Platinum Group Sluge Dust
+    S:gt.metaitem.03.241.name=Crate of Platinum Group Sludge Dust
     S:gt.metaitem.03.241.tooltip=
     S:gt.metaitem.03.25.name=Crate of Potassium Dust
     S:gt.metaitem.03.25.tooltip=K
@@ -25425,8 +25297,6 @@ languagefile {
     S:gt.metaitem.03.2515.tooltip=
     S:gt.metaitem.03.2516.name=Crate of Certus Quartz
     S:gt.metaitem.03.2516.tooltip=
-    S:gt.metaitem.03.2517.name=Crate of Charged Certus Quartz
-    S:gt.metaitem.03.2517.tooltip=
     S:gt.metaitem.03.2518.name=Crate of Forcicium
     S:gt.metaitem.03.2518.tooltip=
     S:gt.metaitem.03.2519.name=Crate of Forcillium
@@ -25650,7 +25520,7 @@ languagefile {
     S:gt.metaitem.03.316.name=Crate of Tungstensteel Dust
     S:gt.metaitem.03.316.tooltip=Fe50CW
     S:gt.metaitem.03.317.name=Crate of Osmiridium Dust
-    S:gt.metaitem.03.317.tooltip=
+    S:gt.metaitem.03.317.tooltip=Ir3Os
     S:gt.metaitem.03.318.name=Crate of Sunnarium Dust
     S:gt.metaitem.03.318.tooltip=
     S:gt.metaitem.03.319.name=Crate of Adamantium Dust
@@ -25718,7 +25588,7 @@ languagefile {
     S:gt.metaitem.03.3316.name=Crate of Tungstensteel Plate
     S:gt.metaitem.03.3316.tooltip=Fe50CW
     S:gt.metaitem.03.3317.name=Crate of Osmiridium Plate
-    S:gt.metaitem.03.3317.tooltip=
+    S:gt.metaitem.03.3317.tooltip=Ir3Os
     S:gt.metaitem.03.3318.name=Crate of Sunnarium Plate
     S:gt.metaitem.03.3318.tooltip=
     S:gt.metaitem.03.3319.name=Crate of Adamantium Plate
@@ -25913,8 +25783,6 @@ languagefile {
     S:gt.metaitem.03.3515.tooltip=
     S:gt.metaitem.03.3516.name=Crate of Certus Quartz Plate
     S:gt.metaitem.03.3516.tooltip=
-    S:gt.metaitem.03.3517.name=Crate of Charged Certus Quartz Plate
-    S:gt.metaitem.03.3517.tooltip=
     S:gt.metaitem.03.3518.name=Crate of Forcicium Plate
     S:gt.metaitem.03.3518.tooltip=
     S:gt.metaitem.03.3519.name=Crate of Forcillium Plate
@@ -26010,7 +25878,7 @@ languagefile {
     S:gt.metaitem.03.375.name=Crate of Rutile Dust
     S:gt.metaitem.03.375.tooltip=TiO2
     S:gt.metaitem.03.377.name=Crate of Magnesiumchloride Dust
-    S:gt.metaitem.03.377.tooltip=MgCl
+    S:gt.metaitem.03.377.tooltip=MgCl2
     S:gt.metaitem.03.3770.name=Crate of Endium Plate
     S:gt.metaitem.03.3770.tooltip=
     S:gt.metaitem.03.3804.name=Crate of Obsidian Plate
@@ -26029,7 +25897,7 @@ languagefile {
     S:gt.metaitem.03.3849.tooltip=(SiO2)4KMg3Al3F2Si3O10
     S:gt.metaitem.03.3850.name=Crate of Red Granite Plate
     S:gt.metaitem.03.3850.tooltip=Al2KAlSi3O8O3
-    S:gt.metaitem.03.3874.name=Crate of Plastic Sheet
+    S:gt.metaitem.03.3874.name=Crate of Polyethylene Sheet
     S:gt.metaitem.03.3874.tooltip=CH2
     S:gt.metaitem.03.3879.name=Crate of Sheet of Paper
     S:gt.metaitem.03.3879.tooltip=
@@ -26143,8 +26011,6 @@ languagefile {
     S:gt.metaitem.03.515.tooltip=
     S:gt.metaitem.03.516.name=Crate of Certus Quartz Dust
     S:gt.metaitem.03.516.tooltip=
-    S:gt.metaitem.03.517.name=Crate of Charged Certus Quartz Dust
-    S:gt.metaitem.03.517.tooltip=
     S:gt.metaitem.03.518.name=Crate of Forcicium Dust
     S:gt.metaitem.03.518.tooltip=
     S:gt.metaitem.03.519.name=Crate of Forcillium Dust
@@ -26205,8 +26071,6 @@ languagefile {
     S:gt.metaitem.03.545.tooltip=
     S:gt.metaitem.03.55.name=Crate of Cadmium Dust
     S:gt.metaitem.03.55.tooltip=Cd
-    S:gt.metaitem.03.555.name=Crate of Realgar Dust
-    S:gt.metaitem.03.555.tooltip=As4S4
     S:gt.metaitem.03.56.name=Crate of Indium Dust
     S:gt.metaitem.03.56.tooltip=In
     S:gt.metaitem.03.57.name=Crate of Tin Dust
@@ -26272,7 +26136,7 @@ languagefile {
     S:gt.metaitem.03.804.name=Crate of Obsidian Dust
     S:gt.metaitem.03.804.tooltip=MgFeSi2O8
     S:gt.metaitem.03.805.name=Crate of Clay Dust
-    S:gt.metaitem.03.805.tooltip=Na2LiAl2Si2
+    S:gt.metaitem.03.805.tooltip=Na2LiAl2Si2(H2O)6
     S:gt.metaitem.03.806.name=Crate of Bone Meal
     S:gt.metaitem.03.806.tooltip=Ca
     S:gt.metaitem.03.807.name=Crate of Netherrack Dust
@@ -26308,7 +26172,7 @@ languagefile {
     S:gt.metaitem.03.821.name=Crate of Andradite Dust
     S:gt.metaitem.03.821.tooltip=Ca3Fe2Si3O12
     S:gt.metaitem.03.822.name=Crate of Bauxite Dust
-    S:gt.metaitem.03.822.tooltip=TiAl16H10O12
+    S:gt.metaitem.03.822.tooltip=(TiO2)2Al16H10O11
     S:gt.metaitem.03.823.name=Crate of Calcite Dust
     S:gt.metaitem.03.823.tooltip=CaCO3
     S:gt.metaitem.03.824.name=Crate of Cassiterite Dust
@@ -26360,7 +26224,7 @@ languagefile {
     S:gt.metaitem.03.845.name=Crate of Marble Dust
     S:gt.metaitem.03.845.tooltip=Mg(CaCO3)7
     S:gt.metaitem.03.846.name=Crate of Redrock Dust
-    S:gt.metaitem.03.846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2
+    S:gt.metaitem.03.846.tooltip=(CaCO3)2SiO2Na2LiAl2Si2(H2O)6
     S:gt.metaitem.03.847.name=Crate of Potassium Feldspar Dust
     S:gt.metaitem.03.847.tooltip=KAlSi3O8
     S:gt.metaitem.03.848.name=Crate of Biotite Dust
@@ -26381,8 +26245,6 @@ languagefile {
     S:gt.metaitem.03.854.tooltip=
     S:gt.metaitem.03.855.name=Crate of Chalcopyrite Dust
     S:gt.metaitem.03.855.tooltip=CuFeS2
-    S:gt.metaitem.03.856.name=Crate of Chalk Dust
-    S:gt.metaitem.03.856.tooltip=CaCO3
     S:gt.metaitem.03.857.name=Crate of Chert Dust
     S:gt.metaitem.03.857.tooltip=
     S:gt.metaitem.03.858.name=Crate of Crude Oil Dust
@@ -26419,7 +26281,7 @@ languagefile {
     S:gt.metaitem.03.872.tooltip=
     S:gt.metaitem.03.873.name=Crate of Pitchblende
     S:gt.metaitem.03.873.tooltip=(UO2)3ThPb
-    S:gt.metaitem.03.874.name=Crate of Plastic Pulp
+    S:gt.metaitem.03.874.name=Crate of Polyethylene Pulp
     S:gt.metaitem.03.874.tooltip=CH2
     S:gt.metaitem.03.875.name=Crate of Rhyolite Dust
     S:gt.metaitem.03.875.tooltip=
@@ -26497,8 +26359,8 @@ languagefile {
     S:gt.metaitem.03.911.tooltip=KAl3Si2H6O14
     S:gt.metaitem.03.912.name=Crate of Chrysotile Dust
     S:gt.metaitem.03.912.tooltip=Mg3Si2H4O9
-    S:gt.metaitem.03.913.name=Crate of Celestine Dust
-    S:gt.metaitem.03.913.tooltip=SrSO4
+    S:gt.metaitem.03.913.name=Crate of Realgar Dust
+    S:gt.metaitem.03.913.tooltip=As4S4
     S:gt.metaitem.03.914.name=Crate of Dolomite Dust
     S:gt.metaitem.03.914.tooltip=CaMgC2O6
     S:gt.metaitem.03.915.name=Crate of Wollastonite Dust
@@ -26679,7 +26541,7 @@ languagefile {
     S:gt.metatool.01.16.name=Wrench
     S:gt.metatool.01.16.tooltip=Hold Leftclick to dismantle Machines
     S:gt.metatool.01.160.name=Soldering Iron (LV)
-    S:gt.metatool.01.160.tooltip=Fixes burned out Circuits. Needs soldering materials in inventory
+    S:gt.metatool.01.160.tooltip=Fixes burned out Circuits. Needs soldering materials in inventory and 10kEU
     S:gt.metatool.01.161.name=Soldering Iron (LV) (Empty)
     S:gt.metatool.01.161.tooltip=You need to recharge it
     S:gt.metatool.01.17.name=Wrench (Empty)
