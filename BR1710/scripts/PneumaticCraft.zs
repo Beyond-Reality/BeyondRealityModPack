@@ -16,19 +16,55 @@ recipes.remove(<PneumaticCraft:pressureChamberWall>);
 recipes.addShaped(<PneumaticCraft:pressureChamberWall> * 4,[[compressedIron,compressedIron,compressedIron],
 					[compressedIron,null,compressedIron],
 					[compressedIron,compressedIron,compressedIron]]);
-					
+
 recipes.remove(<PneumaticCraft:pressureChamberValve>);
 recipes.addShaped(<PneumaticCraft:pressureChamberValve> * 4,[[compressedIron,compressedIron,compressedIron],
 					[compressedIron,<PneumaticCraft:pressureTube>,compressedIron],
 					[compressedIron,compressedIron,compressedIron]]);
-					
+
 recipes.remove(<PneumaticCraft:pressureChamberInterface>);
 recipes.addShaped(<PneumaticCraft:pressureChamberInterface> * 4,[[compressedIron,<PneumaticCraft:pneumaticCilinder>,compressedIron],
 					[compressedIron,<minecraft:hopper>,compressedIron],
 					[compressedIron,<PneumaticCraft:pneumaticCilinder>,compressedIron]]);
-					
+
 recipes.remove(<PneumaticCraft:pressureChamberWall:6>);
 recipes.addShaped(<PneumaticCraft:pressureChamberWall:6> * 4,[[compressedIron,compressedIron,compressedIron],
 					[compressedIron,<ore:glass>,compressedIron],
 					[compressedIron,compressedIron,compressedIron]]);
 
+# Ingredients
+
+val circuitAdvanced = <ore:circuitAdvanced>;
+val craftingGenerator = <ore:craftingGenerator>;
+val plateAlloyAdvanced = <ore:plateAlloyAdvanced>;
+
+val cableIV = <ore:cableGt01Platinum>;
+
+val printedCircuitBoard = <PneumaticCraft:printedCircuitBoard>;
+val advancedPressureTube = <PneumaticCraft:advancedPressureTube>;
+val turbineRotor = <PneumaticCraft:turbineRotor>;
+
+# This Mod Items
+
+val pneumaticGenerator = <PneumaticCraft:pneumaticGenerator>;
+val electricCompressor = <PneumaticCraft:electricCompressor>;
+
+# Recipes tweaks
+
+// Pneumatic Generator
+
+recipes.remove(pneumaticGenerator);
+recipes.addShaped(pneumaticGenerator, [
+  [printedCircuitBoard, circuitAdvanced, plateAlloyAdvanced],
+  [advancedPressureTube, turbineRotor, cableIV],
+  [printedCircuitBoard, circuitAdvanced, plateAlloyAdvanced]
+]);
+
+// Electric Comproessor
+
+recipes.remove(electricCompressor);
+recipes.addShaped(electricCompressor, [
+  [plateAlloyAdvanced, circuitAdvanced, printedCircuitBoard],
+  [cableIV, turbineRotor, advancedPressureTube],
+  [plateAlloyAdvanced, craftingGenerator, printedCircuitBoard]
+]);
