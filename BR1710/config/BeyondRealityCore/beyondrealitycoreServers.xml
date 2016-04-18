@@ -19,4 +19,9 @@
     <name>Craftaga's Beyond Reality</name>
     <ip>play.minecraftbeyondreality.com</ip>
   </server>
+
+  <server>
+    <name>Beyond Reality.Gi.Ant</name>
+    <ip>5.9.2.247</ip>
+  </server>
 </root>
