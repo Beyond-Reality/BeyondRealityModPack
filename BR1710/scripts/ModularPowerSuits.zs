@@ -1,160 +1,234 @@
+# ModularPowersuit.zs tweaks
 
-var helm = <powersuits:item.powerArmorHelmet>;
-var chest = <powersuits:item.powerArmorChestplate>;
-var legs = <powersuits:item.powerArmorLeggings>;
-var boots = <powersuits:item.powerArmorBoots>;
-var fist = <powersuits:item.powerFist>;
-var table = <powersuits:tile.tinkerTable>;
-var wiring = <powersuits:powerArmorComponent>;
-var basicPlate = <powersuits:powerArmorComponent:9>;
-var advancePlate = <powersuits:powerArmorComponent:10>;
-var controlCircuit = <powersuits:powerArmorComponent:14>;
-var laserEmitter = <powersuits:powerArmorComponent:12>;
-var Parachute = <powersuits:powerArmorComponent:8>;
-var componentLVCapacitor = <powersuits:powerArmorComponent:5>;
-var componentMVCapacitor = <powersuits:powerArmorComponent:6>;
-var componentHVCapacitor = <powersuits:powerArmorComponent:7>;
-var componentSolenoid = <powersuits:powerArmorComponent:1>;
-var componentGliderWing = <powersuits:powerArmorComponent:3>;
-var componentServo = <powersuits:powerArmorComponent:2>;
-var componentFieldEmitter = <powersuits:powerArmorComponent:11>;
-var componentIonThruster = <powersuits:powerArmorComponent:4>;
-var CarbonMyoFiber = <powersuits:powerArmorComponent:13>;
-var MyoFiberGel = <powersuits:powerArmorComponent:15>;
-var ArtificialMuscle = <powersuits:powerArmorComponent:16>;
-var craftingToolWrench = <ore:craftingToolWrench>;
-var craftingToolScrewdriver = <ore:craftingToolScrewdriver>;
+import mods.gregtech.Assembler;
+import mods.gregtech.FluidCanner;
 
-var blockWool = <ore:blockWool>;
+# Ingredients
+
+val advanceCircuitBoard = <gregtech:gt.metaitem.01:32711>;
+val batteryElite = <ore:batteryElite>;
+val batteryMaster = <ore:batteryMaster>;
+val batteryUltimate = <ore:batteryUltimate>;
+val blockSteel = <ore:blockSteel>;
+val blockWool = <ore:blockWool>;
+val bucketEmpty = <ore:bucketEmpty>;
+val cellNitrogen = <ore:cellNitrogen>;
+val circuitAdvanced = <ore:circuitAdvanced>;
+val circuitBasic = <ore:circuitBasic>;
+val circuitBoardEmpty = <gregtech:gt.metaitem.01:32719>;
+val circuitData = <ore:circuitData>;
+val circuitGood = <ore:circuitGood>;
+val circuitMaster = <ore:circuitMaster>;
+val craftingLensBlue = <ore:craftingLensBlue>;
+val craftingLensGreen = <ore:craftingLensGreen>;
+val craftingLensRed = <ore:craftingLensRed>;
+val craftingToolScrewdriver = <ore:craftingToolScrewdriver>;
+val craftingToolSolderingIron = <ore:craftingToolSolderingIron>;
+val craftingToolWrench = <ore:craftingToolWrench>;
+val crystalQuartzite = <ore:crystalQuartzite>;
+val foilRubber = <ore:foilRubber>;
+val glassReinforced = <ore:glassReinforced>;
+val ic1 = <gregtech:gt.integrated_circuit:1>;
+val ingotNeodymium = <ore:ingotNeodymium>;
+val liquidnitrogen = <liquid:liquidnitrogen>;
+val lubricant = <liquid:lubricant>;
 val minecraftstring = <minecraft:string>;
+val paneGlass = <ore:paneGlass>;
+val pipeRestrictiveMediumOsmium = <ore:pipeRestrictiveMediumOsmium>;
+val plateAlloyCarbon = <ore:plateAlloyCarbon>;
+val plateAlloyIridium = <ore:plateAlloyIridium>;
+val plateAluminium = <ore:plateAluminium>;
+val plateBrass = <ore:plateBrass>;
+val plateChrome = <ore:plateChrome>;
+val plateElectrum = <ore:plateElectrum>;
+val plateEmerald = <ore:plateEmerald>;
+val plateGlass = <ore:plateGlass>;
+val plateMagnalium = <ore:plateMagnalium>;
+val plateSteel = <ore:plateSteel>;
+val transformerMV = <gregtech:gt.blockmachines:22>;
+val wireAnnealedCopper = <ore:wireGt02AnnealedCopper>;
+val wireFineSolderingAlloy = <ore:wireFineSolderingAlloy>;
+val wireGt01Graphene = <ore:wireGt01Graphene>;
+val wireSilver = <ore:wireGt02Silver>;
+val wireSuperconductor = <ore:wireGt02Superconductor>;
 
-var blockSteel = <ore:blockSteel>;
-var plateAlloyCarbon = <ore:plateAlloyCarbon>;
-var plateAluminium = <ore:plateAluminium>;
-var plateBrass = <ore:plateBrass>;
-var plateChrome = <ore:plateChrome>;
-var plateEmerald = <ore:plateEmerald>;
-var plateGlass = <ore:plateGlass>;
-var plateSteel = <ore:plateSteel>;
-var plateAlloyIridium = <ore:plateAlloyIridium>;
-var plateMagnalium = <ore:plateMagnalium>;
-var plateElectrum = <ore:plateElectrum>;
-var batteryElite = <ore:batteryElite>;
-var batteryMaster = <ore:batteryMaster>;
-var batteryUltimate = <ore:batteryUltimate>;
-var cellNitrogen = <ore:cellNitrogen>;
-var circuitBasic = <ore:circuitBasic>;
-var circuitAdvanced = <ore:circuitAdvanced>;
-var circuitMaster = <ore:circuitMaster>;
-var circuitData = <ore:circuitData>;
-var circuitGood = <ore:circuitGood>;
-var advanceCircuitBoard = <gregtech:gt.metaitem.01:32711>;
-var craftingLensRed = <ore:craftingLensRed>;
-var craftingLensBlue = <ore:craftingLensBlue>;
-var craftingLensGreen = <ore:craftingLensGreen>;
-var crystalQuartzite = <ore:crystalQuartzite>;
-var wireAnnealedCopper = <ore:wireGt02AnnealedCopper>;
-var wireSilver = <ore:wireGt02Silver>;
-var wireSuperconductor = <ore:wireGt02Superconductor>;
-var pipeRestrictiveMediumOsmium = <ore:pipeRestrictiveMediumOsmium>;
 
-# Recipe Adding
-recipes.addShaped(basicPlate, [
-	[plateMagnalium, plateMagnalium, plateMagnalium],
-	[craftingToolWrench, circuitBasic, craftingToolScrewdriver],
-	[plateMagnalium, plateMagnalium, plateMagnalium]]);
+# Foreign Items
 
-recipes.addShaped(advancePlate, [
-	[plateAlloyIridium, plateAlloyIridium, plateAlloyIridium],
-	[craftingToolWrench, circuitAdvanced, craftingToolScrewdriver],
-	[plateAlloyIridium, plateAlloyIridium, plateAlloyIridium]]);
+# This mod items
 
-recipes.addShaped(controlCircuit, [
-	[wiring, circuitAdvanced, plateElectrum],
-	[circuitData, circuitMaster, circuitAdvanced],
-	[plateElectrum, craftingToolScrewdriver, wiring]]);
+val componentArtificialMuscle = <powersuits:powerArmorComponent:16>;
+val componentCarbonMyofiber = <powersuits:powerArmorComponent:13>;
+val componentComputerChip = <powersuits:powerArmorComponent:19>;
+val componentControlCircuit = <powersuits:powerArmorComponent:14>;
+val componentFieldEmitter = <powersuits:powerArmorComponent:11>;
+val componentGliderWing = <powersuits:powerArmorComponent:3>;
+val componentHVCapacitor = <powersuits:powerArmorComponent:7>;
+val componentIonThruster = <powersuits:powerArmorComponent:4>;
+val componentLaserEmitter = <powersuits:powerArmorComponent:12>;
+val componentLiquidNitrogen = <powersuits:powerArmorComponent:21>;
+val componentLVCapacitor = <powersuits:powerArmorComponent:5>;
+val componentMagnet = <powersuits:powerArmorComponent:18>;
+val componentMVCapacitor = <powersuits:powerArmorComponent:6>;
+val componentMyofiberGel = <powersuits:powerArmorComponent:15>;
+val componentParachute = <powersuits:powerArmorComponent:8>;
+val componentPlatingAdvanced = <powersuits:powerArmorComponent:10>;
+val componentPlatingBasic = <powersuits:powerArmorComponent:9>;
+val componentRubberHose = <powersuits:powerArmorComponent:20>;
+val componentServo = <powersuits:powerArmorComponent:2>;
+val componentSolarPanel = <powersuits:powerArmorComponent:17>;
+val componentSolenoid = <powersuits:powerArmorComponent:1>;
+val componentWiring = <powersuits:powerArmorComponent:0>;
+val powerArmorBoots = <powersuits:item.powerArmorBoots>;
+val powerArmorChestplate = <powersuits:item.powerArmorChestplate>;
+val powerArmorHelmet = <powersuits:item.powerArmorHelmet>;
+val powerArmorLeggings = <powersuits:item.powerArmorLeggings>;
+val powerFist = <powersuits:item.powerFist>;
+val tinkerTable = <powersuits:tile.tinkerTable>;
 
-recipes.addShaped(laserEmitter, [
-	[crystalQuartzite, circuitGood, crystalQuartzite],
-	[craftingLensRed, craftingLensBlue, craftingLensGreen],
-	[crystalQuartzite, craftingToolScrewdriver, crystalQuartzite]]);
+# BeyondReality Custom Recipes
 
-recipes.addShaped(table, [
-	[circuitAdvanced, plateGlass, circuitAdvanced],
-	[plateSteel, plateEmerald, plateSteel],
-	[plateSteel, blockSteel, plateSteel]]);
+recipes.addShaped(componentPlatingBasic, [
+  [plateMagnalium, plateMagnalium, plateMagnalium],
+  [craftingToolWrench, circuitBasic, craftingToolScrewdriver],
+  [plateMagnalium, plateMagnalium, plateMagnalium]]);
 
-recipes.addShaped(helm, [
-	[plateAluminium, plateGlass, plateAluminium],
-	[wiring, circuitData, wiring],
-	[plateAluminium, craftingToolWrench, plateAluminium]]);
+recipes.addShaped(componentPlatingAdvanced, [
+  [plateAlloyIridium, plateAlloyIridium, plateAlloyIridium],
+  [craftingToolWrench, circuitAdvanced, craftingToolScrewdriver],
+  [plateAlloyIridium, plateAlloyIridium, plateAlloyIridium]]);
 
-recipes.addShaped(chest, [
-	[plateAluminium, wiring, plateAluminium],
-	[plateAluminium, circuitData, plateAluminium],
-	[plateAluminium, craftingToolWrench, plateAluminium]]);
+recipes.addShaped(componentControlCircuit, [
+  [componentWiring, circuitAdvanced, plateElectrum],
+  [circuitData, circuitMaster, circuitAdvanced],
+  [plateElectrum, craftingToolScrewdriver, componentWiring]]);
 
-recipes.addShaped(boots, [
-	[wiring, null, wiring],
-	[plateAluminium, circuitData, plateAluminium],
-	[null, craftingToolWrench, null]]);
+recipes.addShaped(componentLaserEmitter, [
+  [crystalQuartzite, circuitGood, crystalQuartzite],
+  [craftingLensRed, craftingLensBlue, craftingLensGreen],
+  [crystalQuartzite, craftingToolScrewdriver, crystalQuartzite]]);
 
-recipes.addShaped(legs, [
-	[wiring, null, wiring],
-	[plateAluminium, circuitData, plateAluminium],
-	[plateAluminium, craftingToolWrench, plateAluminium]]);
+recipes.addShaped(tinkerTable, [
+  [circuitAdvanced, plateGlass, circuitAdvanced],
+  [plateSteel, plateEmerald, plateSteel],
+  [plateSteel, blockSteel, plateSteel]]);
 
-recipes.addShaped(fist, [
-	[plateAluminium, craftingToolWrench, plateAluminium],
-	[plateAluminium, wiring, plateAluminium],
-	[null, circuitData, null]]);
+recipes.addShaped(powerArmorHelmet, [
+  [plateAluminium, plateGlass, plateAluminium],
+  [componentWiring, circuitData, componentWiring],
+  [plateAluminium, craftingToolWrench, plateAluminium]]);
 
-recipes.addShaped(wiring * 4, [
-	[wireAnnealedCopper, wireAnnealedCopper, wireAnnealedCopper],
-	[wireSilver, wireSilver, wireSilver],
-	[wireAnnealedCopper, craftingToolWrench, wireAnnealedCopper]]);
+recipes.addShaped(powerArmorChestplate, [
+  [plateAluminium, componentWiring, plateAluminium],
+  [plateAluminium, circuitData, plateAluminium],
+  [plateAluminium, craftingToolWrench, plateAluminium]]);
 
-recipes.addShaped(Parachute, [
-	[blockWool, blockWool, blockWool],
-	[minecraftstring, null, minecraftstring],
-	[plateAlloyCarbon, cellNitrogen, plateAlloyCarbon]]);
+recipes.addShaped(powerArmorBoots, [
+  [componentWiring, null, componentWiring],
+  [plateAluminium, circuitData, plateAluminium],
+  [null, craftingToolWrench, null]]);
+
+recipes.addShaped(powerArmorLeggings, [
+  [componentWiring, null, componentWiring],
+  [plateAluminium, circuitData, plateAluminium],
+  [plateAluminium, craftingToolWrench, plateAluminium]]);
+
+recipes.addShaped(powerFist, [
+  [plateAluminium, craftingToolWrench, plateAluminium],
+  [plateAluminium, componentWiring, plateAluminium],
+  [null, circuitData, null]]);
+
+recipes.addShaped(componentWiring * 4, [
+  [wireAnnealedCopper, wireAnnealedCopper, wireAnnealedCopper],
+  [wireSilver, wireSilver, wireSilver],
+  [wireAnnealedCopper, craftingToolWrench, wireAnnealedCopper]]);
+
+recipes.addShaped(componentParachute, [
+  [blockWool, blockWool, blockWool],
+  [minecraftstring, null, minecraftstring],
+  [plateAlloyCarbon, cellNitrogen, plateAlloyCarbon]]);
 
 recipes.addShaped(componentLVCapacitor, [
-	[plateSteel, craftingToolWrench, plateSteel],
-	[batteryElite, circuitData, batteryElite],
-	[plateSteel, plateSteel, plateSteel]]);
+  [plateSteel, craftingToolWrench, plateSteel],
+  [batteryElite, circuitData, batteryElite],
+  [plateSteel, plateSteel, plateSteel]]);
 
 recipes.addShaped(componentMVCapacitor, [
-	[plateMagnalium, craftingToolWrench, plateMagnalium],
-	[batteryMaster, circuitData, batteryMaster],
-	[plateMagnalium, plateMagnalium, plateMagnalium]]);
+  [plateMagnalium, craftingToolWrench, plateMagnalium],
+  [batteryMaster, circuitData, batteryMaster],
+  [plateMagnalium, plateMagnalium, plateMagnalium]]);
 
 recipes.addShaped(componentHVCapacitor, [
-	[plateChrome, craftingToolWrench, plateChrome],
-	[<gregtech:gt.metaitem.01:32597>, circuitData, <gregtech:gt.metaitem.01:32597>],
-	[plateChrome, plateChrome, plateChrome]]);
+  [plateChrome, craftingToolWrench, plateChrome],
+  [<gregtech:gt.metaitem.01:32597>, circuitData, <gregtech:gt.metaitem.01:32597>],
+  [plateChrome, plateChrome, plateChrome]]);
 
 recipes.addShaped(componentSolenoid, [
-	[wiring, craftingToolScrewdriver, wiring],
-	[wiring, plateSteel, wiring],
-	[wiring, plateSteel, wiring]]);
+  [componentWiring, craftingToolScrewdriver, componentWiring],
+  [componentWiring, plateSteel, componentWiring],
+  [componentWiring, plateSteel, componentWiring]]);
 
 recipes.addShaped(componentGliderWing, [
-	[craftingToolScrewdriver, plateMagnalium, circuitAdvanced],
-	[plateMagnalium, plateAlloyCarbon, componentSolenoid],
-	[plateMagnalium, null, craftingToolWrench]]);
+  [craftingToolScrewdriver, plateMagnalium, circuitAdvanced],
+  [plateMagnalium, plateAlloyCarbon, componentSolenoid],
+  [plateMagnalium, null, craftingToolWrench]]);
 
 recipes.addShaped(componentServo, [
-	[plateSteel, craftingToolScrewdriver, plateSteel],
-	[circuitAdvanced, componentSolenoid, circuitAdvanced],
-	[plateSteel, plateBrass, plateSteel]]);
+  [plateSteel, craftingToolScrewdriver, plateSteel],
+  [circuitAdvanced, componentSolenoid, circuitAdvanced],
+  [plateSteel, plateBrass, plateSteel]]);
 
 recipes.addShaped(componentFieldEmitter, [
-	[plateAlloyIridium, componentSolenoid, plateAlloyIridium],
-	[wireSuperconductor, circuitMaster, wireSuperconductor],
-	[plateAlloyIridium, componentSolenoid, plateAlloyIridium]]);
+  [plateAlloyIridium, componentSolenoid, plateAlloyIridium],
+  [wireSuperconductor, circuitMaster, wireSuperconductor],
+  [plateAlloyIridium, componentSolenoid, plateAlloyIridium]]);
 
 recipes.addShaped(componentIonThruster, [
-	[plateAlloyIridium, wireSuperconductor, plateAlloyIridium],
-	[componentFieldEmitter, componentHVCapacitor, componentFieldEmitter],
-	[pipeRestrictiveMediumOsmium, craftingToolWrench, pipeRestrictiveMediumOsmium]]);
+  [plateAlloyIridium, wireSuperconductor, plateAlloyIridium],
+  [componentFieldEmitter, componentHVCapacitor, componentFieldEmitter],
+  [pipeRestrictiveMediumOsmium, craftingToolWrench, pipeRestrictiveMediumOsmium]]);
+
+recipes.addShaped(componentCarbonMyofiber, [
+  [plateAlloyCarbon, wireGt01Graphene, plateAlloyCarbon],
+  [plateAlloyCarbon, wireFineSolderingAlloy, plateAlloyCarbon],
+  [plateAlloyCarbon, craftingToolSolderingIron, plateAlloyCarbon]
+]);
+
+for cellGraphite in <ore:cellGraphite>.items {
+  Assembler.addRecipe(componentMyofiberGel, cellGraphite, ic1 , lubricant * 30, 120, 16);
+}
+
+recipes.addShaped(componentArtificialMuscle, [
+  [componentCarbonMyofiber, foilRubber, componentCarbonMyofiber],
+  [componentCarbonMyofiber, componentMyofiberGel, componentCarbonMyofiber],
+  [componentCarbonMyofiber, componentMyofiberGel, componentCarbonMyofiber]
+]);
+
+recipes.addShaped(componentSolarPanel, [
+  [paneGlass, paneGlass, paneGlass],
+  [circuitBoardEmpty, circuitBoardEmpty, circuitBoardEmpty],
+  [circuitGood, transformerMV, circuitGood]
+]);
+
+recipes.addShaped(componentMagnet, [
+  [ingotNeodymium, circuitAdvanced, ingotNeodymium],
+  [componentSolenoid, componentSolenoid, componentSolenoid],
+  [ingotNeodymium, circuitAdvanced, ingotNeodymium]
+]);
+
+recipes.addShaped(componentComputerChip, [
+  [wireSilver, componentSolenoid, wireSilver],
+  [circuitAdvanced, circuitData,  circuitAdvanced],
+  [wireSilver, componentSolenoid, wireSilver]
+]);
+
+recipes.addShaped(componentRubberHose, [
+  [foilRubber, foilRubber, foilRubber],
+  [glassReinforced, null, glassReinforced],
+  [foilRubber, foilRubber, foilRubber]
+]);
+
+for bucket in bucketEmpty.items {
+  FluidCanner.addRecipe(componentLiquidNitrogen, bucket, null, liquidnitrogen);
+  FluidCanner.addRecipe(bucket, componentLiquidNitrogen, liquidnitrogen, null);
+}
