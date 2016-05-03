@@ -11,6 +11,7 @@ val barsIron = <ore:barsIron>;
 val batteryMaster = <ore:batteryMaster>;
 val blockGlass = <ore:blockGlass>;
 val blockHopper = <ore:blockHopper>;
+val blockRedstone = <ore:blockRedstone>;
 val blockSteel = <ore:blockSteel>;
 val brickedSteelHull = <gregtech:gt.blockmachines:4>;
 val bucketEmpty = <ore:bucketEmpty>;
@@ -36,49 +37,52 @@ val ingotBrick = <ore:ingotBrick>;
 val lever = <minecraft:lever>;
 val logWood = <ore:logWood>;
 val mineCart = <minecraft:minecart>;
-val pearlEnder = <minecraft:ender_pearl>;
-val plateGold = <ore:plateGold>;
 val paneGlass = <ore:paneGlass>;
-val plateSteel = <ore:plateSteel>;
+val pearlEnder = <minecraft:ender_pearl>;
 val plateAnyIron = <ore:plateAnyIron>;
+val plateCopper = <ore:plateCopper>;
+val plateGold = <ore:plateGold>;
 val plateIron = <ore:plateIron>;
+val plateSteel = <ore:plateSteel>;
 val plateTin = <ore:plateTin>;
 val redstoneLamp = <minecraft:redstone_lamp>;
 val sand = <ore:sand>;
-val stone = <ore:stone>;
 val stoneObsidian = <ore:stoneObsidian>;
+val stone = <ore:stone>;
 val stonePressurePlate = <minecraft:stone_pressure_plate>;
 
 # This Mod Items
 
 val automatedSteamTrap = <Railcraft:machine.alpha:10>;
 val blockCoalCoke = <Railcraft:cube>;
-val energyDetector = <Railcraft:detector:10>;
-val commercialSteamEngine = <Railcraft:machine.beta:8>;
 val cokeOvenBricks = <Railcraft:machine.alpha:7>;
+val commercialSteamEngine = <Railcraft:machine.beta:8>;
 val detectorAge = <Railcraft:detector:11>;
 val detectorAnimal = <Railcraft:detector:7>;
 val detectorTank = <Railcraft:detector:8>;
 val disposalTrack = <Railcraft:track:2264>;
 val electricFeederUnit = <Railcraft:machine.epsilon:0>;
 val electricLocomotive = <Railcraft:cart.loco.electric>;
+val energyDetector = <Railcraft:detector:10>;
 val fluidLoader = <Railcraft:machine.gamma:4>;
 val fluidUnloader = <Railcraft:machine.gamma:5>;
+val fluxTransformer = <Railcraft:machine.epsilon:4>;
 val highPressureBoilerTank = <Railcraft:machine.beta:4>;
 val hobbyistsSteamEngine = <Railcraft:machine.beta:7>;
 val industrialSteamEngine = <Railcraft:machine.beta:9>;
-val ironTankWall = <Railcraft:machine.beta:0>;
 val ironTankGauge = <Railcraft:machine.beta:1>;
 val ironTankValve = <Railcraft:machine.beta:2>;
+val ironTankWall = <Railcraft:machine.beta:0>;
 val lapotronLoader = <Railcraft:upgrade.lapotron:0>;
 val liquidFueledBoilerFirebox = <Railcraft:machine.beta:6>;
 val manualSteamTrap = <Railcraft:machine.alpha:9>;
 val passiveAnchor = <Railcraft:machine.alpha:13>;
+val rebar = <Railcraft:part.rebar:0>;
 val rollingMachine = <Railcraft:machine.alpha:8>;
-val sandyCobbleStone = <Railcraft:brick.sandy:5>;
 val sandyBlock = <Railcraft:brick.sandy:2>;
-val sandyBricks = <Railcraft:brick.sandy>;
 val sandyBricksFitted = <Railcraft:brick.sandy:1>;
+val sandyBricks = <Railcraft:brick.sandy>;
+val sandyCobbleStone = <Railcraft:brick.sandy:5>;
 val sandyStoneEtched = <Railcraft:brick.sandy:4>;
 val sandyStoneOrnate = <Railcraft:brick.sandy:3>;
 val solidFueledBoilerFirebox = <Railcraft:machine.beta:5>;
@@ -86,9 +90,10 @@ val standardRail = <Railcraft:part.rail:0>;
 val steamLocomotive = <Railcraft:cart.loco.steam.solid>;
 val steamOven = <Railcraft:machine.alpha:3>;
 val steelAnvil = <Railcraft:anvil>;
-val steelTankWall = <Railcraft:machine.beta:13>;
 val steelTankGauge = <Railcraft:machine.beta:14>;
 val steelTankValve = <Railcraft:machine.beta:15>;
+val steelTankWall = <Railcraft:machine.beta:13>;
+val wireSupportFrame = <Railcraft:frame:0>;
 val woodenTie = <Railcraft:part.tie:0>;
 val worldAnchor = <Railcraft:machine.alpha>;
 
@@ -473,6 +478,15 @@ recipes.addShaped(fluidUnloader, [
   [blockGlass, blockHopper, blockGlass]
 ]);
 
+// Flux Transformer
+
+recipes.remove(fluxTransformer);
+recipes.addShaped(fluxTransformer, [
+  [plateCopper, plateGold, plateCopper],
+  [plateGold, blockRedstone, plateGold],
+  [plateCopper, plateGold, plateCopper]
+]);
+
 // Lapotron Loader
 
 recipes.remove(lapotronLoader);
@@ -480,6 +494,14 @@ recipes.addShaped(lapotronLoader,[
   [blockGlass, blockGlass, blockGlass],
   [cableGt01Platinum, batteryMaster, cableGt01Platinum],
   [blockGlass, circuitAdvanced, blockGlass]
+]);
+
+// Wire Support Frame
+recipes.remove(wireSupportFrame);
+recipes.addShaped(wireSupportFrame, [
+  [plateAnyIron, plateAnyIron, plateAnyIron],
+  [rebar, craftingToolWrench, rebar],
+  [rebar, rebar, rebar]
 ]);
 
 // Fix extraneous Stone crushing recipe
