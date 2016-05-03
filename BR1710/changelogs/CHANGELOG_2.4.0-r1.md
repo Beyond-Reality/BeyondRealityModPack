@@ -2,6 +2,7 @@
 
 #### Updated Mods:
 
+* `AppleCore-mc1.7.10-1.3.1.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/224472-mod/files/2297733)
 * `appliedenergistics2-rv3-beta-6.jar` [:information_source:](http://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430)
 * `Automagy-1.7.10-0.28.2.jar` [:information_source:](http://minecraft.curseforge.com/projects/automagy/files/2285272)
 * `buildcraft-7.1.16.jar` [:information_source:](https://raw.githubusercontent.com/BuildCraft/BuildCraft/master/buildcraft_resources/changelog/7.1.16)
@@ -17,14 +18,14 @@
 * `GalacticraftCore-1.7-3.0.12.454.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
 * `Galacticraft-Planets-1.7-3.0.12.454.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
 * `gendustry-1.6.4.135-mc1.7.10.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/70492-mod/files/2293751)
-* :sparkles: `gregtech-5.09.21.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=11488)
-* `GTTweaker-1.7.10-1.1.0.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=11353)
+* :sparkles: `gregtech-5.09.21.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11488)
+* `GTTweaker-1.7.10-1.1.0.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11353)
 * `industrialcraft-2-2.2.821-experimental.jar` [:information_source:](http://www.industrial-craft.net/)
 * `journeymap-1.7.10-5.1.4p1-unlimited.jar` [:information_source:](http://minecraft.curseforge.com/projects/journeymap-32274/files/2296716)
-* `logisticspipes-0.9.3.119.jar` [:information_source:](http://minecraft.curseforge.com/projects/logistics-pipes/files/2296863)
+* `logisticspipes-0.9.3.120.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/232838-mod/files/2297263)
 * `malisisdoors-1.7.10-1.13.2.ja` [:information_source:](http://github.com/ordinastie)
 * `MicdoodleCore-1.7-3.0.12.454.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
-* `MineFactoryReloaded-[1.7.10]2.8.2B1-179.jar` [:information_source:](http://minecraft.curseforge.com/projects/minefactory-reloaded/files/2296068)
+* `MineFactoryReloaded-[1.7.10]2.8.2B1-181.jar` [:information_source:](http://minecraft.curseforge.com/projects/minefactory-reloaded/files/2297340)
 * `OpenComputers-MC1.7.10-1.6.0.900-dev-universal.jar` [:information_source:](https://oc.cil.li/index.php?/page/index.html)
 * `PneumaticCraft-1.7.10-1.12.7-150-universal.jar` [:information_source:](http://www.minemaarten.com)
 * `pressure-1.3.0.131-mc1.7.10.jar` [:information_source:](https://bdew.net/)
@@ -38,6 +39,32 @@
 
 * `GraviSuite-1.7.10-2.0.3.jar`  :exclamation: No longer maintained and replaced by GravisuiteReloaded.
 * `PowerConverters-1.7.10_3.3.0-jenkins.76.jar` :exclamation: No longer needed. EU to RF is natively handled by Gregtech 5.09 E-Net.
+
+#### New Mods
+
+##### (_Optional_) In-Game NBTEdit
+
+`NBTEdit_1.7.10.jar` [:information_source:](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286750-in-game-nbtedit-edit-mob-spawners-attributes-in)
+
+This mod allows opped users to edit nbt tags in game - modify both regular entities and tile entities without even closing your game!
+
+##### (_Optional_) WorldEdit
+
+* `worldedit-forge-mc1.7.10-6.1.1-SNAPSHOT-dist.jar` [:information_source:](http://wiki.sk89q.com/wiki/WorldEdit)
+
+WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.
+
+##### (_Optional_) WoldEditCUI
+
+* `mod_worldeditcui_1.7.10_00_mc1.7.10.litemod` [:information_source:](http://www.liteloader.com/mod/worldeditcui)
+
+A graphical user interface for WorldEdit. WorldEditCUI is designed to assist in using WorldEdit, as well as preventing accidental errors.
+
+##### (_Optional_) Fastcraft
+
+* `fastcraft-1.21.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820)
+
+FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support.
 
 #### Fixes:
 
