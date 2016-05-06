@@ -31,7 +31,6 @@ val dreamwoodSlab = <Botania:dreamwood0Slab:0>;
 val dreamwoodPlank = <Botania:dreamwood:1>;
 val dreamwoodPlankSlab = <Botania:dreamwood1Slab:0>;
 <ore:logWood>.add(dreamwood);
-<ore:plankWood>.add(dreamwood);
 <ore:plankWood>.add(dreamwoodPlank);
 <ore:slabWood>.add(dreamwoodSlab);
 <ore:slabWood>.add(dreamwoodPlankSlab);
