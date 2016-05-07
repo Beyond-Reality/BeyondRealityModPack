@@ -298,14 +298,15 @@ recipes.addShaped(electricLocomotive.withTag({model: "railcraft:default"}) * 1, 
 ]);
 
 // Iron Tank Wall
-recipes.removeShaped(ironTankWall, [
+
+recipes.removeShaped(ironTankWall * 8, [
   [<Railcraft:part.plate:0>, <Railcraft:part.plate:0>],
   [<Railcraft:part.plate:0>, <Railcraft:part.plate:0>]
 ]);
 
-recipes.addShaped(ironTankWall, [
-  [plateAnyIron, plateAnyIron, craftingToolHardHammer],
-  [plateAnyIron, plateAnyIron, craftingToolWrench]
+recipes.addShaped(ironTankWall * 8, [
+  [craftingToolHardHammer, plateAnyIron, plateAnyIron],
+  [craftingToolWrench, plateAnyIron, plateAnyIron]
 ]);
 
 // Iron Tank Gauge
@@ -341,14 +342,15 @@ recipes.addShaped(ironTankValve, [
 ]);
 
 // Steel Tank Wall
-recipes.removeShaped(steelTankWall, [
+
+recipes.removeShaped(steelTankWall * 8, [
   [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>],
   [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>]
 ]);
 
-recipes.addShaped(steelTankWall, [
-  [plateSteel, plateSteel, craftingToolHardHammer],
-  [plateSteel, plateSteel, craftingToolWrench]
+recipes.addShaped(steelTankWall * 8, [
+  [craftingToolHardHammer, plateSteel, plateSteel],
+  [craftingToolWrench, plateSteel, plateSteel]
 ]);
 
 // Steel Tank Gauge
