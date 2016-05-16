@@ -5,6 +5,7 @@ import mods.nei.NEI;
 
 val lead = <minecraft:lead>;
 
+val itemArmorNanoChestplate  = <IC2:itemArmorNanoChestplate>;
 val itemNanoSaber = <IC2:itemNanoSaber>;
 val itemToolChainsaw = <IC2:itemToolChainsaw>;
 val itemToolDrill = <IC2:itemToolDrill>;
@@ -16,6 +17,7 @@ val plasmaLauncher = <IC2:plasmaLauncher>;
 val windMeter = <IC2:windmeter>;
 
 val batteryMaster = <ore:batteryMaster>;
+val cableGt01Platinum =   <ore:cableGt01Platinum>;
 val chainSawHV = <gregtech:gt.metatool.01:114>;
 val circuitAdvanced = <ore:circuitAdvanced>;
 val circuitMaster = <ore:circuitMaster>;
@@ -33,6 +35,7 @@ val itemArmorQuantumLappack = <GraviSuiteReloaded:ItemArmorQuantumLappack>;
 val itemWeaponQuantumSaber = <GraviSuiteReloaded:ItemWeaponQuantumSaber>;
 val itemToolTheThingamabob = <GraviSuiteReloaded:ItemToolTheThingamabob>;
 val itemToolTheChopper = <GraviSuiteReloaded:ItemToolTheChopper>;
+val itemArmorAdvancedNanoChestplate = <GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate>;
 
 
 // Vajra recipe a la Gregtech sauce
@@ -107,4 +110,15 @@ recipes.addShaped(itemWeaponQuantumSaber, [
 
 recipes.remove(itemMiscQuantumCircuit);
 NEI.hide(itemMiscQuantumCircuit);
+
+// Advanced Nano ChestPlate
+
+recipes.remove(itemArmorAdvancedNanoChestplate);
+recipes.addShaped(itemArmorAdvancedNanoChestplate, [
+  [cableGt01Platinum, itemArmorAdvancedJetpack, cableGt01Platinum],
+  [circuitAdvanced, itemArmorNanoChestplate, circuitAdvanced],
+  [cableGt01Platinum, itemArmorAdvancedJetpack, cableGt01Platinum]
+]);
+
+
 
