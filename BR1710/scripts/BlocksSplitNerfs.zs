@@ -202,12 +202,12 @@ val ingots = {
 
 for material, block in blocks {
   for dust in dusts[material].items {
-    recipes.removeShapeless(dust, [block]);
+    recipes.removeShapeless(dust * 9, [block]);
   }
   for gem in gems[material].items {
-    recipes.removeShapeless(gem, [block]);
+    recipes.removeShapeless(gem * 9, [block]);
   }
   for ingot in ingots[material].items {
-    recipes.removeShapeless(ingot, [block]);
+    recipes.removeShapeless(ingot * 9, [block]);
   }
 }
