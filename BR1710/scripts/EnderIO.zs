@@ -17,7 +17,7 @@ val ingotRedAlloy = <ore:ingotRedAlloy>;
 val itemConduitBinder = <ore:itemConduitBinder>;
 val ingotIron = <ore:ingotIron>;
 val stickDarkSteel = <ore:stickDarkSteel>;
-val IC3 = <gregtech:gt.integrated_circuit:3>;
+val IC3 = <gregtech:gt.integrated_circuit:3> * 0;
 
 // Recipe outputs
 val conduitRedstone = <EnderIO:itemRedstoneConduit:0>;

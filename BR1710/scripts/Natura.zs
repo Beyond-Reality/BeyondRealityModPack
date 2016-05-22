@@ -1,12 +1,32 @@
-import mods.mfr.AutoSpawner;
+# Natura.zs Tweaks
+
+import minetweaker.item.IItemStack;
 import mods.gregtech.Assembler;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.Lathe;
-import minetweaker.item.IItemStack;
+import mods.mfr.AutoSpawner;
 
-AutoSpawner.addBlacklist("mods.natura.entity.NitroCreeper");
+# Ingredients
 
-var naturaLogs = [
+val distilledWater = <liquid:ic2distilledwater>;
+val ic1 = <gregtech:gt.integrated_circuit:1> * 0;
+val ic2 = <gregtech:gt.integrated_circuit:2> * 0;
+val ic3 = <gregtech:gt.integrated_circuit:3> * 0;
+val ic6 = <gregtech:gt.integrated_circuit:6> * 0;
+val lubricant = <liquid:lubricant>;
+val toolSaw = <ore:craftingToolSaw>;
+val water = <liquid:water>;
+
+# Foreign items
+
+val dustWood = <gregtech:gt.metaitem.01:2809>;
+val stick = <minecraft:stick>;
+val trapdoor = <minecraft:trapdoor>;
+val woodenPressurePlate = <minecraft:wooden_pressure_plate>;
+
+# This mod Items
+
+val naturaLogs = [
   <Natura:tree:0>, <Natura:tree:1>,
   <Natura:tree:2>, <Natura:redwood:1>,
   <Natura:bloodwood:*>, <Natura:tree:3>,
@@ -17,7 +37,7 @@ var naturaLogs = [
 ] as IItemStack[];
 
 //Euc, Sak, Gho, Red, Blo, Hop, Map, Sil, Ama, Tig, Wil, Dar, Fus
-var naturaPlanks = [
+val naturaPlanks = [
   <Natura:planks:0>, <Natura:planks:1>,
   <Natura:planks:2>, <Natura:planks:3>,
   <Natura:planks:4>, <Natura:planks:5>,
@@ -27,7 +47,7 @@ var naturaPlanks = [
   <Natura:planks:12>
 ] as IItemStack[];
 
-var naturaSticks = [
+val naturaSticks = [
   <Natura:natura.stick:0>, <Natura:natura.stick:1>,
   <Natura:natura.stick:2>, <Natura:natura.stick:3>,
   <Natura:natura.stick:4>, <Natura:natura.stick:5>,
@@ -37,7 +57,7 @@ var naturaSticks = [
   <Natura:natura.stick:12>
 ] as IItemStack[];
 
-var naturaSlabs = [
+val naturaSlabs = [
   <Natura:plankSlab1:0>, <Natura:plankSlab1:1>,
   <Natura:plankSlab1:2>, <Natura:plankSlab1:3>,
   <Natura:plankSlab1:4>, <Natura:plankSlab1:5>,
@@ -47,7 +67,7 @@ var naturaSlabs = [
   <Natura:plankSlab2:4>
 ] as IItemStack[];
 
-var naturaStairs = [
+val naturaStairs = [
   <Natura:stair.eucalyptus>, <Natura:stair.sakura>,
   <Natura:stair.ghostwood>, <Natura:stair.redwood>,
   <Natura:stair.bloodwood>, <Natura:stair.hopseed>,
@@ -57,7 +77,7 @@ var naturaStairs = [
   <Natura:stair.fusewood>
 ] as IItemStack[];
 
-var naturaFences = [
+val naturaFences = [
   <Natura:Natura.fence:0>, <Natura:Natura.fence:1>,
   <Natura:Natura.fence:2>, <Natura:Natura.fence:3>,
   <Natura:Natura.fence:4>, <Natura:Natura.fence:5>,
@@ -67,7 +87,7 @@ var naturaFences = [
   <Natura:Natura.fence:12>
 ] as IItemStack[];
 
-var naturaPressurePlates = [
+val naturaPressurePlates = [
   <Natura:pressureplate.eucalyptus>, <Natura:pressureplate.sakura>,
   <Natura:pressureplate.ghostwood>, <Natura:pressureplate.redwood>,
   <Natura:pressureplate.bloodwood>, <Natura:pressureplate.hopseed>,
@@ -77,7 +97,7 @@ var naturaPressurePlates = [
   <Natura:pressureplate.fusewood>
 ] as IItemStack[];
 
-var naturaTrapDoors = [
+val naturaTrapDoors = [
   <Natura:trapdoor.eucalyptus>, <Natura:trapdoor.sakura>,
   <Natura:trapdoor.ghostwood>, <Natura:trapdoor.redwood>,
   <Natura:trapdoor.bloodwood>, <Natura:trapdoor.hopseed>,
@@ -87,7 +107,7 @@ var naturaTrapDoors = [
   <Natura:trapdoor.fusewood>
 ] as IItemStack[];
 
-var naturaButtons = [
+val naturaButtons = [
   <Natura:fenceGate.eucalyptus>, <Natura:fenceGate.sakura>,
   <Natura:fenceGate.ghostwood>, <Natura:fenceGate.redwood>,
   <Natura:fenceGate.bloodwood>, <Natura:fenceGate.hopseed>,
@@ -97,7 +117,7 @@ var naturaButtons = [
   <Natura:fenceGate.fusewood>
 ] as IItemStack[];
 
-var naturaFenceGates = [
+val naturaFenceGates = [
   <Natura:fenceGate.eucalyptus>, <Natura:fenceGate.sakura>,
   <Natura:fenceGate.ghostwood>, <Natura:fenceGate.redwood>,
   <Natura:fenceGate.bloodwood>, <Natura:fenceGate.hopseed>,
@@ -106,101 +126,6 @@ var naturaFenceGates = [
   <Natura:fenceGate.willow>, <Natura:fenceGate.darkwood>,
   <Natura:fenceGate.fusewood>
 ] as IItemStack[];
-
-var oreWood = <ore:oreWood>;
-var toolSaw = <ore:craftingToolSaw>;
-val dustWood = <gregtech:gt.metaitem.01:2809>;
-val water = <liquid:water>;
-val distilledWater = <liquid:ic2distilledwater>;
-val lubricant = <liquid:lubricant>;
-
-for i, plankWood in naturaPlanks
-{
-  var logWood = naturaLogs[i];
-  var slabWood = naturaSlabs[i];
-  var stickWood = naturaSticks[i];
-  var stairWood = naturaStairs[i];
-  var fenceWood = naturaFences[i];
-  var pressurePlate = naturaPressurePlates[i];
-  var trapDoor = naturaTrapDoors[i];
-  var buttonWood = naturaButtons[i];
-  var fenceGate = naturaFenceGates[i];
-
-  // Add missing Oredict registrations
-  <ore:stairWood>.add(stairWood);
-  <ore:fenceWood>.add(fenceWood);
-
-  recipes.remove(plankWood);
-  recipes.remove(stickWood);
-  recipes.remove(slabWood);
-
-  //Sawless Recipe for planks
-  recipes.addShapeless(plankWood * 2, [logWood]);
-
-  //Saw Recipe for planks
-  recipes.addShaped(plankWood * 4, [[toolSaw], [logWood]]);
-
-  // Planks with a Log in CuttingSaw
-  CuttingSaw.addRecipe([plankWood * 4, dustWood * 2], logWood, water, 400, 8);
-  CuttingSaw.addRecipe([plankWood * 4, dustWood * 2], logWood, distilledWater, 400, 8);
-  CuttingSaw.addRecipe([plankWood * 6, dustWood * 1], logWood, lubricant, 200, 8);
-
-  //Begin Block -- This block could be removed if you don't want natura sticks to be craftable, or the recipes could be made shapeless
-  //Sawless Recipe for natura sticks
-  recipes.addShaped(stickWood * 2, [[plankWood], [null], [plankWood]]);  //Needs a gap or it will produce vanila sticks
-  //Saw Recipe for natura sticks
-  recipes.addShaped(stickWood * 4, [[toolSaw, plankWood, plankWood]]); //Horizontal or it will produce vanila sticks
-  //Gregtech Lath for natura sticks
-  Lathe.addRecipe(stickWood * 2, plankWood, 10, 8);
-  //End Block
-
-  //Slab Recipe -- Requires saw
-  recipes.addShaped(slabWood * 2, [[toolSaw, plankWood]]);
-  recipes.addShaped(plankWood, [[slabWood], [slabWood]]);
-
-  // 2 Slabs with a Plank in CuttingSaw
-  CuttingSaw.addRecipe([slabWood * 2], plankWood, water, 40, 4);
-  CuttingSaw.addRecipe([slabWood * 2], plankWood, distilledWater, 40, 4);
-  CuttingSaw.addRecipe([slabWood * 2], plankWood, lubricant, 20, 4);
-
-  // Stairs
-  recipes.remove(stairWood * 4);
-  recipes.addShaped(stairWood * 4, [
-    [plankWood],
-    [plankWood, plankWood],
-    [plankWood, plankWood, plankWood]
-  ]);
-
-  // Fences in Gregtech Assembler
-  Assembler.addRecipe(fenceWood, stickWood * 3, <gregtech:gt.integrated_circuit:3>, 300, 4);
-
-  // Pressure plates
-  recipes.remove(pressurePlate);
-  recipes.addShaped(pressurePlate, [[plankWood, null, plankWood]]);
-  Assembler.addRecipe(pressurePlate, plankWood * 2, <gregtech:gt.integrated_circuit:2>, 200, 4);
-
-  // Drapdoors
-  recipes.remove(trapDoor);
-  recipes.addShaped(trapDoor, [
-    [plankWood, plankWood, plankWood],
-    [null, null, null],
-    [plankWood, plankWood, plankWood]
-  ]);
-  Assembler.addRecipe(trapDoor, plankWood * 3, <gregtech:gt.integrated_circuit:3>, 300, 4);
-
-  // Wooden buttons
-  recipes.removeShapeless(<minecraft:wooden_button>, [plankWood]);
-  recipes.remove(buttonWood);
-  recipes.addShaped(buttonWood * 2, [[plankWood], [null, plankWood]]);
-  Assembler.addRecipe(buttonWood, plankWood, <gregtech:gt.integrated_circuit:1>, 100, 4);
-
-  // Wooden FenceGates
-  recipes.remove(fenceGate);
-  recipes.addShaped(fenceGate, [
-    [stickWood, plankWood, stickWood],
-    [stickWood, plankWood, stickWood]
-  ]);
-}
 
 var naturaWoodenDoors = [
   <Natura:redwoodDoorItem:0>, <Natura:redwoodDoorItem:1>,
@@ -210,20 +135,169 @@ var naturaWoodenDoors = [
 ] as IItemStack[];
 
 // Woods for doors
-var naturaRedWoods = [
+val naturaRedWoods = [
   <Natura:planks:3>, <Natura:planks:0>,
   <Natura:planks:5>, <Natura:planks:1>,
   <Natura:planks:2>, <Natura:planks:4>,
   <Natura:redwood:0>
 ] as IItemStack[];
 
+# Recipes Tweaks
+
+# Blacklist NitroCreeper from MVR AutoSpawner
+
+AutoSpawner.addBlacklist("mods.natura.entity.NitroCreeper");
+
+# Adapt recipes with Natura Planks Ingredients
+
+for i, naturaPlank in naturaPlanks
+{
+  var naturaLog = naturaLogs[i];
+  var naturaSlab = naturaSlabs[i];
+  var naturaStick = naturaSticks[i];
+  var naturaStair = naturaStairs[i];
+  var naturaFence = naturaFences[i];
+  var naturaPressurePlate = naturaPressurePlates[i];
+  var naturaTrapDoor = naturaTrapDoors[i];
+  var naturaButton = naturaButtons[i];
+  var naturaFenceGate = naturaFenceGates[i];
+
+  # Add missing Oredict registrations
+
+  <ore:naturaStair>.add(naturaStair);
+  <ore:naturaFence>.add(naturaFence);
+
+  # Planks
+
+  recipes.remove(naturaPlank);
+
+  // Sawless Recipe for planks
+  recipes.addShapeless(naturaPlank * 2, [naturaLog]);
+
+  // Saw Recipe for planks
+  recipes.addShaped(naturaPlank * 4, [[toolSaw], [naturaLog]]);
+
+  // Planks with a Log in CuttingSaw
+  CuttingSaw.addRecipe([naturaPlank * 4, dustWood * 2], naturaLog, water, 400, 8);
+  CuttingSaw.addRecipe([naturaPlank * 4, dustWood * 2], naturaLog, distilledWater, 400, 8);
+  CuttingSaw.addRecipe([naturaPlank * 6, dustWood * 1], naturaLog, lubricant, 200, 8);
+
+  # Sticks
+
+  // Sawless Recipe for natura sticks
+
+  recipes.removeShaped(naturaStick * 4, [
+    [naturaPlank],
+    [naturaPlank]
+  ]);
+
+  recipes.removeShaped(stick * 2, [
+    [naturaPlank],
+    [naturaPlank]
+  ]);
+
+  recipes.addShaped(naturaStick * 2, [
+    [naturaPlank],
+    [naturaPlank]
+  ]);
+
+  // Saw Recipe for natura sticks
+
+  recipes.removeShaped(stick * 4, [
+    [toolSaw],
+    [naturaPlank],
+    [naturaPlank]
+  ]);
+
+  recipes.addShaped(naturaStick * 4, [
+    [toolSaw],
+    [naturaPlank],
+    [naturaPlank]
+  ]);
+
+  // Gregtech Lath for natura sticks
+  Lathe.addRecipe(naturaStick * 2, naturaPlank, 10, 8);
+
+  # Slabs
+
+  recipes.remove(naturaSlab);
+
+  // Slab Recipe -- Requires saw
+  recipes.addShaped(naturaSlab * 2, [[toolSaw, naturaPlank]]);
+  recipes.addShaped(naturaPlank, [[naturaSlab], [naturaSlab]]);
+
+  // 2 Slabs with a Plank in CuttingSaw
+  CuttingSaw.addRecipe([naturaSlab * 2], naturaPlank, water, 40, 4);
+  CuttingSaw.addRecipe([naturaSlab * 2], naturaPlank, distilledWater, 40, 4);
+  CuttingSaw.addRecipe([naturaSlab * 2], naturaPlank, lubricant, 20, 4);
+
+  # Stairs
+
+  recipes.remove(naturaStair * 4);
+  recipes.addShaped(naturaStair * 4, [
+    [naturaPlank],
+    [naturaPlank, naturaPlank],
+    [naturaPlank, naturaPlank, naturaPlank]
+  ]);
+
+  recipes.addShaped(naturaStair * 4, [
+    [null, null, naturaPlank],
+    [null, naturaPlank, naturaPlank],
+    [naturaPlank, naturaPlank, naturaPlank]
+  ]);
+
+  # Fences in Gregtech Assembler
+
+  Assembler.addRecipe(naturaFence, naturaStick * 3, ic3, 300, 4);
+
+  # Pressure plates
+
+  recipes.removeShaped(woodenPressurePlate, [
+    [naturaPlank, naturaPlank]
+  ]);
+
+/*
+  recipes.addShaped(naturaPressurePlate, [
+    [naturaPlank, naturaPlank]
+  ]);
+*/
+
+  Assembler.addRecipe(naturaPressurePlate, naturaPlank * 2, ic2, 200, 4);
+
+  # Drapdoors
+
+  recipes.remove(naturaTrapDoor);
+
+  recipes.addShaped(naturaTrapDoor, [
+    [naturaPlank, naturaPlank, naturaPlank],
+    [naturaPlank, naturaPlank, naturaPlank]
+  ]);
+
+  Assembler.addRecipe(naturaTrapDoor, naturaPlank * 3, ic3, 300, 4);
+
+  # Wooden buttons
+
+  recipes.removeShapeless(<minecraft:wooden_button>, [naturaPlank]);
+  recipes.remove(naturaButton);
+  recipes.addShaped(naturaButton * 2, [[naturaPlank], [null, naturaPlank]]);
+  Assembler.addRecipe(naturaButton, naturaPlank, ic1, 100, 4);
+
+  # Wooden FenceGates
+
+  recipes.remove(naturaFenceGate);
+  recipes.addShaped(naturaFenceGate, [
+    [naturaStick, naturaPlank, naturaStick],
+    [naturaStick, naturaPlank, naturaStick]
+  ]);
+}
+
 // Assembler recipes for Redwood doors
-for i, doorWood in naturaWoodenDoors {
-  var plankWood = naturaRedWoods[i];
-  Assembler.addRecipe(doorWood, plankWood * 6, <gregtech:gt.integrated_circuit:6>, 600, 4);
+for i, naturaWoodenDoor in naturaWoodenDoors {
+  var naturaRedWood = naturaRedWoods[i];
+  Assembler.addRecipe(naturaWoodenDoor, naturaRedWood * 6, ic6, 600, 4);
 }
 
 // No charcoal from woods as of Gregtech 5.09 Experimental
-for logWood in naturaLogs {
-  furnace.remove(<*>, logWood);
+for naturaLog in naturaLogs {
+  furnace.remove(<*>, naturaLog);
 }

@@ -3,6 +3,7 @@
 import minetweaker.data.IData;
 import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
+import minetweaker.liquid.ILiquidStack;
 import mods.gregtech.Assembler;
 import mods.gregtech.BlastFurnace;
 import mods.gregtech.Centrifuge;
@@ -74,7 +75,7 @@ val foilPlastic = <gregtech:gt.metaitem.01:29874>;
 val foilRubber = <gregtech:gt.metaitem.01:29880>;
 val foilWood = <gregtech:gt.metaitem.01:29809>;
 val foilWoodSealed = <gregtech:gt.metaitem.01:29889>;
-val ic4 = <gregtech:gt.integrated_circuit:4>;
+val ic4 = <gregtech:gt.integrated_circuit:4> * 0;
 val ingotSilicon = <gregtech:gt.metaitem.01:11020>;
 val ingotSteel = <gregtech:gt.metaitem.01:11305>;
 val machineCasingMotor = <gregtech:gt.blockcasings2:11>;
@@ -88,6 +89,7 @@ val salt = <gregtech:gt.metaitem.01:2817>;
 val shutterModule = <gregtech:gt.metaitem.01:32749>;
 
 # Tweaks
+
 
 // Missing Wood Ring recipe
 recipes.addShaped(ringWood ,[
@@ -381,6 +383,107 @@ CuttingSaw.addRecipe([foilWoodSealed * 4], plateWoodSealed, lubricant, 20, 4);
 Assembler.addRecipe(plyWood, foilWood * 4, ic4, glue * 30, 120, 16);
 Assembler.addRecipe(plyWoodMarine, foilWoodSealed * 4, ic4, glue * 30, 120, 16);
 
+// Alternate LV Cables with Rubber
+
+val moltenRubber = <liquid:molten.rubber>;
+val ic24 = <gregtech:gt.integrated_circuit:24> * 0;
+
+val cablesFromWires = {
+
+// Cobalt (LV)
+  <gregtech:gt.blockmachines:1206> : <gregtech:gt.blockmachines:1200>,
+  <gregtech:gt.blockmachines:1207> : <gregtech:gt.blockmachines:1201>,
+  <gregtech:gt.blockmachines:1208> : <gregtech:gt.blockmachines:1202>,
+  <gregtech:gt.blockmachines:1209> : <gregtech:gt.blockmachines:1203>,
+  <gregtech:gt.blockmachines:1210> : <gregtech:gt.blockmachines:1204>,
+
+// Lead (LV)
+  <gregtech:gt.blockmachines:1226> : <gregtech:gt.blockmachines:1220>,
+  <gregtech:gt.blockmachines:1227> : <gregtech:gt.blockmachines:1221>,
+  <gregtech:gt.blockmachines:1228> : <gregtech:gt.blockmachines:1222>,
+  <gregtech:gt.blockmachines:1229> : <gregtech:gt.blockmachines:1223>,
+  <gregtech:gt.blockmachines:1230> : <gregtech:gt.blockmachines:1224>,
+
+// Tin (LV)
+  <gregtech:gt.blockmachines:1246> : <gregtech:gt.blockmachines:1240>,
+  <gregtech:gt.blockmachines:1247> : <gregtech:gt.blockmachines:1241>,
+  <gregtech:gt.blockmachines:1248> : <gregtech:gt.blockmachines:1242>,
+  <gregtech:gt.blockmachines:1249> : <gregtech:gt.blockmachines:1243>,
+  <gregtech:gt.blockmachines:1250> : <gregtech:gt.blockmachines:1244>,
+
+// Zinc (LV)
+  <gregtech:gt.blockmachines:1266> : <gregtech:gt.blockmachines:1260>,
+  <gregtech:gt.blockmachines:1267> : <gregtech:gt.blockmachines:1261>,
+  <gregtech:gt.blockmachines:1268> : <gregtech:gt.blockmachines:1262>,
+  <gregtech:gt.blockmachines:1269> : <gregtech:gt.blockmachines:1263>,
+  <gregtech:gt.blockmachines:1270> : <gregtech:gt.blockmachines:1264>,
+
+// Soldering Alloy (LV)
+  <gregtech:gt.blockmachines:1286> : <gregtech:gt.blockmachines:1280>,
+  <gregtech:gt.blockmachines:1287> : <gregtech:gt.blockmachines:1281>,
+  <gregtech:gt.blockmachines:1288> : <gregtech:gt.blockmachines:1282>,
+  <gregtech:gt.blockmachines:1289> : <gregtech:gt.blockmachines:1283>,
+  <gregtech:gt.blockmachines:1290> : <gregtech:gt.blockmachines:1284>,
+
+// Red Alloy (ULV)
+  <gregtech:gt.blockmachines:2006> : <gregtech:gt.blockmachines:2000>,
+  <gregtech:gt.blockmachines:2007> : <gregtech:gt.blockmachines:2001>,
+  <gregtech:gt.blockmachines:2008> : <gregtech:gt.blockmachines:2002>,
+  <gregtech:gt.blockmachines:2009> : <gregtech:gt.blockmachines:2003>,
+  <gregtech:gt.blockmachines:2010> : <gregtech:gt.blockmachines:2004>
+
+} as IItemStack[IItemStack];
+
+val fluidForCables = {
+
+// Cobalt (LV)
+  <gregtech:gt.blockmachines:1206> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1207> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1208> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:1209> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:1210> : moltenRubber * 576,
+
+// Lead (LV)
+  <gregtech:gt.blockmachines:1226> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1227> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1228> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:1229> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:1230> : moltenRubber * 576,
+
+// Tin (LV)
+  <gregtech:gt.blockmachines:1246> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1247> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1248> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:1249> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:1250> : moltenRubber * 576,
+
+// Zinc (LV)
+  <gregtech:gt.blockmachines:1266> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1267> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1268> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:1269> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:1270> : moltenRubber * 576,
+
+// Soldering Alloy (LV)
+  <gregtech:gt.blockmachines:1286> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1287> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:1288> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:1289> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:1290> : moltenRubber * 576,
+
+// Red Alloy (ULV)
+  <gregtech:gt.blockmachines:2006> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:2007> : moltenRubber * 144,
+  <gregtech:gt.blockmachines:2008> : moltenRubber * 288,
+  <gregtech:gt.blockmachines:2009> : moltenRubber * 432,
+  <gregtech:gt.blockmachines:2010> : moltenRubber * 576
+
+} as ILiquidStack[IItemStack];
+
+for cable, wire in cablesFromWires {
+  var fluid = fluidForCables[cable];
+  Assembler.addRecipe(cable, wire, ic24, fluid, 100, 8);
+}
 
 // --- Chisel blocks processing ---
 
