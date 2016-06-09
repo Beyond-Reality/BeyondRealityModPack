@@ -1,0 +1,40 @@
+Mod list draft: (Core/Libs/Utilities not included) (I only searched in curse, Early jenkins builds not included)
+- Autoverse
+- Advanced Generators
+- Bagginses
+- Baubles
+- BaublesHUD
+- BetterBuilder'sWands
+- BetterTitleScreen
+- BloodMagic
+- Builder's Guide
+- Charset
+- Chisel&Bits
+- Compression
+- Correlated Potentialistics
+- Crafting Tweaks
+- Deep Resonance
+- Enderio
+- FancyFluidStorage
+- Fast Leaf Decay
+- SimpleHarvest
+- IronChest
+- Integrated Dynamics (Practical logistics is cooler but only 1.7)
+- JourneyMap
+- JustEnoughItems
+- Morpheus
+- OpenComputers
+- Progressive Automation
+- Quark
+- RFTools
+- Reliquiary
+- RogueLikeDungeons
+- Realistic Terrain Generation
+- SimplyCaterpillar
+- StorageDrawers
+- Structured Crafting
+- Streams
+- TechReborn
+- Tinkers' Construct
+- Waila
+- Woot
