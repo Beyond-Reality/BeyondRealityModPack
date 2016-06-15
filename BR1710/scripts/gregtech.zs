@@ -15,6 +15,7 @@ import mods.ic2.Extractor;
 
 # Ingredients
 
+val blockWool = <ore:blockWool>;
 val boltIron = <ore:boltIron>;
 val craftingToolHardHammer = <ore:craftingToolHardHammer>;
 val craftingToolWrench = <ore:craftingToolWrench>;
@@ -22,6 +23,7 @@ val crateGtDustRubber = <ore:crateGtDustRubber>;
 val ironDoor = <minecraft:iron_door>;
 val plateAluminium = <ore:plateAluminium>;
 val plateAnyIron = <ore:plateAnyIron>;
+val plateIron = <ore:plateIron>;
 val plateRubber = <ore:plateRubber>;
 val plateSteel = <ore:plateSteel>;
 val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
@@ -87,9 +89,14 @@ val plyWoodMarine = plateWoodSealed.withTag({display: {Name: "Sealed Plywood (Ma
 val ringWood = <gregtech:gt.metaitem.01:28809>;
 val salt = <gregtech:gt.metaitem.01:2817>;
 val shutterModule = <gregtech:gt.metaitem.01:32749>;
+val upgradeMuffler = <gregtech:gt.metaitem.01:32727>;
 
 # Tweaks
 
+// Workbench recipe for Sound Muffler Upgrade
+recipes.addShaped(upgradeMuffler, [
+  [plateIron, stickyResin, blockWool]
+]);
 
 // Missing Wood Ring recipe
 recipes.addShaped(ringWood ,[
@@ -1132,5 +1139,3 @@ Centrifuge.addRecipe(
   [6000, 1000],
   240, 16
 );
-
-
