@@ -23,6 +23,6 @@ recipes.addShaped(<BuildCraft|Factory:miningWellBlock>, [[<ore:plateSteel>,<ore:
 recipes.remove(<BuildCraft|Core:engineBlock:2>);
 recipes.addShaped(<BuildCraft|Core:engineBlock:2>,[
   [<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
-  [<ore:craftingToolHardHammer>,<ore:blockGlass>,<ore:craftingToolWrench>],
+  [<ore:craftingToolHardHammer>,<ore:craftingTank>,<ore:craftingToolWrench>],
   [<ore:gearIron>,<ore:craftingPiston>,<ore:gearIron>]
 ]);
