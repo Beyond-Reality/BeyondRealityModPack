@@ -19,6 +19,10 @@ val ingotIron = <ore:ingotIron>;
 val stickDarkSteel = <ore:stickDarkSteel>;
 val IC3 = <gregtech:gt.integrated_circuit:3> * 0;
 
+// Oredict
+
+ingotRedAlloy.addAll(<ore:ingotRedstoneAlloy>);
+
 // Recipe outputs
 val conduitRedstone = <EnderIO:itemRedstoneConduit:0>;
 val conduitRedstoneInsulated = <EnderIO:itemRedstoneConduit:2>;
