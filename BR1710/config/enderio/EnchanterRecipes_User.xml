@@ -1,2 +1,56 @@
 <enchaterRecipes>
+  <enchantment name="enchantment.protect.fire" costPerLevel="2">
+    <itemStack oreDictionary="dustBlaze" number="16" />
+  </enchantment>
+  <enchantment name="enchantment.protect.fall" costPerLevel="2">
+    <itemStack oreDictionary="craftingFeather" />
+  </enchantment>
+  <enchantment name="enchantment.protect.explosion" costPerLevel="2">
+    <itemStack oreDictionary="dustGunpowder" number="16" />
+  </enchantment>
+  <enchantment name="enchantment.oxygen" costPerLevel="4">
+    <itemStack oreDictionary="bottleEmpty" />
+  </enchantment>
+  <enchantment name="enchantment.damage.all" costPerLevel="1">
+    <itemStack oreDictionary="craftingQuartz" number="12" />
+  </enchantment>
+  <enchantment name="enchantment.knockback" costPerLevel="2">
+    <itemStack oreDictionary="craftingPiston" />
+  </enchantment>
+  <enchantment name="enchantment.fire" costPerLevel="4">
+    <itemStack oreDictionary="stickBlaze" number="8" />
+  </enchantment>
+  <enchantment name="enchantment.arrowDamage" costPerLevel="1">
+    <itemStack oreDictionary="itemFlint" number="12" />
+  </enchantment>
+  <enchantment name="enchantment.digging" costPerLevel="1">
+    <itemStack oreDictionary="dustRedstone" number="12" />
+  </enchantment>
+  <enchantment name="enchantment.untouching" costPerLevel="26">
+    <itemStack oreDictionary="slimeball" />
+  </enchantment>
+  <enchantment name="enchantment.durability" costPerLevel="2">
+    <itemStack oreDictionary="obsidian" />
+  </enchantment>
+  <enchantment name="enchantment.lootBonusDigger" costPerLevel="4">
+    <itemStack oreDictionary="gemEmerald" number="4" />
+  </enchantment>
+  <enchantment name="enchantment.arrowDamage" costPerLevel="1">
+    <itemStack oreDictionary="itemFlint" number="12" />
+  </enchantment>
+  <enchantment name="enchantment.arrowInfinite" costPerLevel="26">
+    <itemStack oreDictionary="pearlEnder" />
+  </enchantment>
+  <enchantment name="enchantment.lootBonusFishing" costPerLevel="4">
+    <itemStack oreDictionary="dyeBlue" />
+  </enchantment>
+  <enchantment name="enchantment.fishingSpeed" costPerLevel="4">
+    <itemStack oreDictionary="listAllfishraw" />
+  </enchantment>
+  <enchantment name="enchantment.repair" costPerLevel="6">
+    <itemStack oreDictionary="craftingAnvil" />
+  </enchantment>
+  <enchantment name="enchantment.protect.all" costPerLevel="1">
+    <itemStack oreDictionary="ingotDarkSteel" number="16" />
+  </enchantment>
 </enchaterRecipes>
