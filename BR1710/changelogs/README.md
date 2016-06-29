@@ -1,6 +1,7 @@
 # Change Logs for Beyond Reality Versions
 
-* [2.4.0-r1](CHANGELOG_2.4.0-r1.md) *Recommended*
+* [2.4.0-r2](CHANGELOG_2.4.0-r2.md) *Recommended*
+* [2.4.0-r1](CHANGELOG_2.4.0-r1.md)
 * [2.3.9-r2](CHANGELOG_2.3.9-r2.md) *Recommended*
 * [2.3.9-r1](CHANGELOG_2.3.9-r1.md)
 * [2.3.8b](CHANGELOG_2.3.8b.md) *Recommended*
