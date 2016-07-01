@@ -191,14 +191,9 @@ for i, naturaPlank in naturaPlanks
     [naturaPlank]
   ]);
 
-  recipes.removeShaped(stick * 2, [
-    [naturaPlank],
-    [naturaPlank]
-  ]);
-
   recipes.addShaped(naturaStick * 2, [
     [naturaPlank],
-    [naturaPlank]
+    [null, naturaPlank]
   ]);
 
   // Saw Recipe for natura sticks
