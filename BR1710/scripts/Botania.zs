@@ -4,6 +4,8 @@ val steel = <ore:ingotSteel>;
 val mana = <ore:ingotManaSteel>;
 val manasteel = <Botania:manaResource>;
 val blocksteel = <ore:blockSteel>;
+val framedlivingwood = <Botania:livingwood:3>;
+val craftingtable = <minecraft:crafting_table>;
 
 // Botania Nerf
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
@@ -31,6 +33,7 @@ val dreamwoodSlab = <Botania:dreamwood0Slab:0>;
 val dreamwoodPlank = <Botania:dreamwood:1>;
 val dreamwoodPlankSlab = <Botania:dreamwood1Slab:0>;
 <ore:logWood>.add(dreamwood);
+<ore:plankWood>.add(dreamwood);
 <ore:plankWood>.add(dreamwoodPlank);
 <ore:slabWood>.add(dreamwoodSlab);
 <ore:slabWood>.add(dreamwoodPlankSlab);
@@ -45,3 +48,10 @@ val shimmerWoodPlanksSlab = <Botania:shimmerwoodPlanks0Slab>;
 var toolSaw = <ore:craftingToolSaw>;
 recipes.removeShaped(livingwoodSlab * 6,[[livingwood,livingwood,livingwood]]);
 recipes.addShaped(livingwoodSlab * 2,[[toolSaw,livingwood]]);
+
+// framedLivingwood
+recipes.addShaped(framedlivingwood, [
+  [livingwoodPlank, null, livingwoodPlank],
+  [null, null, null],
+  [livingwoodPlank, null, livingwoodPlank]
+]);
