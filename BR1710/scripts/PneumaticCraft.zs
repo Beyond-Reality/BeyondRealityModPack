@@ -48,8 +48,14 @@ val turbineRotor = <PneumaticCraft:turbineRotor>;
 
 val pneumaticGenerator = <PneumaticCraft:pneumaticGenerator>;
 val electricCompressor = <PneumaticCraft:electricCompressor>;
+val lpgBucket = <PneumaticCraft:lpgBucket>;
 
 # Recipes tweaks
+
+// Nerf LPG Bucket fuel value
+
+furnace.setFuel(lpgBucket, 30000);
+
 
 // Pneumatic Generator
 
