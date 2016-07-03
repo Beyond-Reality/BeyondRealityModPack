@@ -48,14 +48,21 @@ val turbineRotor = <PneumaticCraft:turbineRotor>;
 
 val pneumaticGenerator = <PneumaticCraft:pneumaticGenerator>;
 val electricCompressor = <PneumaticCraft:electricCompressor>;
+val oilBucket = <PneumaticCraft:oilBucket>;
+val dieselBucket = <PneumaticCraft:dieselBucket>;
+val keroseneBucket = <PneumaticCraft:keroseneBucket>;
+val fuelBucket = <PneumaticCraft:fuelBucket>;
 val lpgBucket = <PneumaticCraft:lpgBucket>;
 
 # Recipes tweaks
 
-// Nerf LPG Bucket fuel value
+// Nerf Fuels Bucket fuel value
 
-furnace.setFuel(lpgBucket, 30000);
-
+furnace.setFuel(oilBucket, 2500); // Oil
+furnace.setFuel(dieselBucket, 11667); // Diesel
+furnace.setFuel(keroseneBucket, 18333); // Kerosene
+furnace.setFuel(fuelBucket, 25000); // Gasoline
+furnace.setFuel(lpgBucket, 30000); // LPG
 
 // Pneumatic Generator
 
