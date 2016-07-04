@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <root>
-
   <dimension-id DimensionId="0">
     <name>StevesFactoryManager:BlockCableOutputName</name>
   </dimension-id>
@@ -28,17 +27,50 @@
   </dimension-id>
 
   <dimension-id DimensionId="-28">
-    <name>EnderIO:blockTransceiver</name>
     <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
     <name>appliedenergistics2:tile.BlockQuantumRing</name>
     <name>Botania:enderHand</name>
+    <name>chisel:obsidian:10</name>
+    <name>chisel:obsidian:11</name>
+    <name>chisel:obsidian:12</name>
+    <name>chisel:obsidian:13</name>
+    <name>chisel:obsidian:14</name>
+    <name>chisel:obsidian:15</name>
+    <name>chisel:obsidian:1</name>
+    <name>chisel:obsidian:2</name>
+    <name>chisel:obsidian:3</name>
+    <name>chisel:obsidian:4</name>
+    <name>chisel:obsidian:5</name>
+    <name>chisel:obsidian:6</name>
+    <name>chisel:obsidian:7</name>
+    <name>chisel:obsidian:8</name>
+    <name>chisel:obsidian:9</name>
+    <name>chisel:obsidian_snakestone:13</name>
+    <name>chisel:obsidian_snakestone:1</name>
     <name>EnderIO:blockTelePad</name>
-    <name>enhancedportals:frame</name>
+    <name>EnderIO:blockTransceiver</name>
     <name>enhancedportals:frame:1</name>
-    <name>ExtraUtilities:dark_portal</name>
+    <name>enhancedportals:frame</name>
+    <name>ExtraUtilities:color_obsidian:0</name>
+    <name>ExtraUtilities:color_obsidian:10</name>
+    <name>ExtraUtilities:color_obsidian:11</name>
+    <name>ExtraUtilities:color_obsidian:12</name>
+    <name>ExtraUtilities:color_obsidian:13</name>
+    <name>ExtraUtilities:color_obsidian:14</name>
+    <name>ExtraUtilities:color_obsidian:15</name>
+    <name>ExtraUtilities:color_obsidian:1</name>
+    <name>ExtraUtilities:color_obsidian:2</name>
+    <name>ExtraUtilities:color_obsidian:3</name>
+    <name>ExtraUtilities:color_obsidian:4</name>
+    <name>ExtraUtilities:color_obsidian:5</name>
+    <name>ExtraUtilities:color_obsidian:6</name>
+    <name>ExtraUtilities:color_obsidian:7</name>
+    <name>ExtraUtilities:color_obsidian:8</name>
+    <name>ExtraUtilities:color_obsidian:9</name>
     <name>ExtraUtilities:dark_portal:2</name>
-    <name>ExtraUtilities:nodeUpgrade:6</name>
+    <name>ExtraUtilities:dark_portal</name>
     <name>ExtraUtilities:nodeUpgrade:5</name>
+    <name>ExtraUtilities:nodeUpgrade:6</name>
     <name>ihl:tditBlock</name>
     <name>JABBA:mover</name>
     <name>minecraft:obsidian</name>
@@ -54,14 +86,47 @@
     <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
     <name>appliedenergistics2:tile.BlockQuantumRing</name>
     <name>Botania:enderHand</name>
+    <name>chisel:obsidian:10</name>
+    <name>chisel:obsidian:11</name>
+    <name>chisel:obsidian:12</name>
+    <name>chisel:obsidian:13</name>
+    <name>chisel:obsidian:14</name>
+    <name>chisel:obsidian:15</name>
+    <name>chisel:obsidian:1</name>
+    <name>chisel:obsidian:2</name>
+    <name>chisel:obsidian:3</name>
+    <name>chisel:obsidian:4</name>
+    <name>chisel:obsidian:5</name>
+    <name>chisel:obsidian:6</name>
+    <name>chisel:obsidian:7</name>
+    <name>chisel:obsidian:8</name>
+    <name>chisel:obsidian:9</name>
+    <name>chisel:obsidian_snakestone:13</name>
+    <name>chisel:obsidian_snakestone:1</name>
     <name>EnderIO:blockTelePad</name>
     <name>EnderIO:blockTransceiver</name>
-    <name>enhancedportals:frame</name>
     <name>enhancedportals:frame:1</name>
-    <name>ExtraUtilities:dark_portal</name>
+    <name>enhancedportals:frame</name>
+    <name>ExtraUtilities:color_obsidian:0</name>
+    <name>ExtraUtilities:color_obsidian:10</name>
+    <name>ExtraUtilities:color_obsidian:11</name>
+    <name>ExtraUtilities:color_obsidian:12</name>
+    <name>ExtraUtilities:color_obsidian:13</name>
+    <name>ExtraUtilities:color_obsidian:14</name>
+    <name>ExtraUtilities:color_obsidian:15</name>
+    <name>ExtraUtilities:color_obsidian:1</name>
+    <name>ExtraUtilities:color_obsidian:2</name>
+    <name>ExtraUtilities:color_obsidian:3</name>
+    <name>ExtraUtilities:color_obsidian:4</name>
+    <name>ExtraUtilities:color_obsidian:5</name>
+    <name>ExtraUtilities:color_obsidian:6</name>
+    <name>ExtraUtilities:color_obsidian:7</name>
+    <name>ExtraUtilities:color_obsidian:8</name>
+    <name>ExtraUtilities:color_obsidian:9</name>
     <name>ExtraUtilities:dark_portal:2</name>
-    <name>ExtraUtilities:nodeUpgrade:6</name>
+    <name>ExtraUtilities:dark_portal</name>
     <name>ExtraUtilities:nodeUpgrade:5</name>
+    <name>ExtraUtilities:nodeUpgrade:6</name>
     <name>ihl:tditBlock</name>
     <name>JABBA:mover</name>
     <name>minecraft:obsidian</name>
@@ -77,12 +142,45 @@
     <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
     <name>appliedenergistics2:tile.BlockQuantumRing</name>
     <name>Botania:enderHand</name>
+    <name>chisel:obsidian:10</name>
+    <name>chisel:obsidian:11</name>
+    <name>chisel:obsidian:12</name>
+    <name>chisel:obsidian:13</name>
+    <name>chisel:obsidian:14</name>
+    <name>chisel:obsidian:15</name>
+    <name>chisel:obsidian:1</name>
+    <name>chisel:obsidian:2</name>
+    <name>chisel:obsidian:3</name>
+    <name>chisel:obsidian:4</name>
+    <name>chisel:obsidian:5</name>
+    <name>chisel:obsidian:6</name>
+    <name>chisel:obsidian:7</name>
+    <name>chisel:obsidian:8</name>
+    <name>chisel:obsidian:9</name>
+    <name>chisel:obsidian_snakestone:13</name>
+    <name>chisel:obsidian_snakestone:1</name>
     <name>EnderIO:blockTelePad</name>
     <name>EnderIO:blockTransceiver</name>
-    <name>enhancedportals:frame</name>
     <name>enhancedportals:frame:1</name>
-    <name>ExtraUtilities:dark_portal</name>
+    <name>enhancedportals:frame</name>
+    <name>ExtraUtilities:color_obsidian:0</name>
+    <name>ExtraUtilities:color_obsidian:10</name>
+    <name>ExtraUtilities:color_obsidian:11</name>
+    <name>ExtraUtilities:color_obsidian:12</name>
+    <name>ExtraUtilities:color_obsidian:13</name>
+    <name>ExtraUtilities:color_obsidian:14</name>
+    <name>ExtraUtilities:color_obsidian:15</name>
+    <name>ExtraUtilities:color_obsidian:1</name>
+    <name>ExtraUtilities:color_obsidian:2</name>
+    <name>ExtraUtilities:color_obsidian:3</name>
+    <name>ExtraUtilities:color_obsidian:4</name>
+    <name>ExtraUtilities:color_obsidian:5</name>
+    <name>ExtraUtilities:color_obsidian:6</name>
+    <name>ExtraUtilities:color_obsidian:7</name>
+    <name>ExtraUtilities:color_obsidian:8</name>
+    <name>ExtraUtilities:color_obsidian:9</name>
     <name>ExtraUtilities:dark_portal:2</name>
+    <name>ExtraUtilities:dark_portal</name>
     <name>ExtraUtilities:nodeUpgrade:5</name>
     <name>ExtraUtilities:nodeUpgrade:6</name>
     <name>ihl:tditBlock</name>
@@ -95,5 +193,4 @@
     <name>Sync:Sync_BlockPlacer:1</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
-
 </root>
