@@ -2,6 +2,31 @@
 
 <root>
 
+  <dimension-id DimensionId="0">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="-1">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="1">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="2">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="-100">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="-112">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="-42">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+  <dimension-id DimensionId="-7">
+    <name>StevesFactoryManager:BlockCableOutputName</name>
+  </dimension-id>
+
   <dimension-id DimensionId="-28">
     <name>EnderIO:blockTransceiver</name>
     <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
@@ -20,6 +45,7 @@
     <name>MineFactoryReloaded:machine.2:7</name>
     <name>RandomThings:playerinterface</name>
     <name>RandomThings:spectreKey</name>
+    <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
@@ -42,6 +68,7 @@
     <name>MineFactoryReloaded:machine.2:7</name>
     <name>RandomThings:playerinterface</name>
     <name>RandomThings:spectreKey</name>
+    <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
@@ -64,6 +91,7 @@
     <name>MineFactoryReloaded:machine.2:7</name>
     <name>RandomThings:playerinterface</name>
     <name>RandomThings:spectreKey</name>
+    <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
