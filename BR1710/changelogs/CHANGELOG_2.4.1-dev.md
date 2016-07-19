@@ -1,4 +1,4 @@
-### VERSION 2.4.0-r1
+### VERSION 2.4.1-dev
 
 #### Updated Mods:
 
@@ -22,7 +22,9 @@
 * `Jabba-1.2.2_1.7.10.jar` [:information_source:](http://minecraft.curseforge.com/projects/jabba/files/2302354)
 * `logisticspipes-0.9.3.126.jar` [:information_source:](http://minecraft.curseforge.com/projects/logistics-pipes/files/2312257)
 * `MicdoodleCore-1.7-3.0.12.462.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
+<!--- Rollbacked because CoFhCore not updated
 * `MineFactoryReloaded-[1.7.10]2.8.2B1-196.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/66672-mod/files/2315577)
+-->
 * `ModTweaker2-0.9.6.jar` [:information_source:](http://minecraft.curseforge.com/projects/modtweaker/files/2313730)
 * `ModularPowersuits-0.11.0.301.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/235442-mod/files/2302332)
 * `OpenComputers-MC1.7.10-1.6.0.951-dev-universal.jar` [:information_source:](https://oc.cil.li/index.php?/page/index.html)
@@ -37,7 +39,7 @@
 * `StorageDrawers-Natura-1.7.10-1.1.1.jar` :exclamation: Check for world content before upgrade
 
 #### New Mods
-* :new: :sparkles: `GT-1.4.0.jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki]) Adds Various Gregtech Machines and other compatibility for various other mods.
+* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
 * :new: `Practical-Logistics-1.7.10-0.2.4.jar`  [:information_source:](http://www.curseforge.com/projects/240562/) Practical Logistics gives you the ability to create automated systems via reading, displaying and acting upon data. It allows you to monitor inventories, energy, fluids, entities, machines, tanks, light, weather, direction, movement and much more. You can then send Redstone Signals based upon data through dimensions, giving you absolute control. Data can also be displayed via Display Screens or Holographic Displays.
 * :new: `tcinventoryscan-mc1.7.10-1.0.11.jar`  [:information_source:](http://www.curseforge.com/projects/238003/) Allows hovering over items in inventories while holding a Thaumometer to scan them.
 
