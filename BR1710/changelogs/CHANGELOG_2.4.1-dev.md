@@ -22,7 +22,8 @@
 * `Jabba-1.2.2_1.7.10.jar` [:information_source:](http://minecraft.curseforge.com/projects/jabba/files/2302354)
 * `logisticspipes-0.9.3.126.jar` [:information_source:](http://minecraft.curseforge.com/projects/logistics-pipes/files/2312257)
 * `MicdoodleCore-1.7-3.0.12.462.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
-<!--- Rollbacked because CoFhCore not updated
+<!---
+Rollbacked because CoFhCore not updated
 * `MineFactoryReloaded-[1.7.10]2.8.2B1-196.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/66672-mod/files/2315577)
 -->
 * `ModTweaker2-0.9.6.jar` [:information_source:](http://minecraft.curseforge.com/projects/modtweaker/files/2313730)
