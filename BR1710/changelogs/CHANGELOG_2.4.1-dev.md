@@ -5,6 +5,7 @@
 * `AppleCore-mc1.7.10-1.3.2.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/224472-mod/files/2305594)
 * `BiblioCraft[v1.11.4][MC1.7.10].jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/228027-mod/files/2300352)
 * `BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/220318-mod/files/2308122)
+* `buildcraft-7.1.17.jar` [:information_source:](http://www.mod-buildcraft.com/)
 * `Carpenter's Blocks v3.3.7 - MC 1.7.10.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/228932-mod/files/2303358)
 * `Chisel-2.9.4.10.jar` [:information_source:](http://minecraft.curseforge.com/projects/chisel/files/2269360)
 * `EnderIO-1.7.10-2.3.0.428_beta.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/64578-mod/files/2315361)
@@ -36,7 +37,7 @@
 * `StorageDrawers-Natura-1.7.10-1.1.1.jar` :exclamation: Check for world content before upgrade
 
 #### New Mods
-* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
+* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.1jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
 * :new: `Practical-Logistics-1.7.10-0.2.4.jar`  [:information_source:](http://www.curseforge.com/projects/240562/) Practical Logistics gives you the ability to create automated systems via reading, displaying and acting upon data. It allows you to monitor inventories, energy, fluids, entities, machines, tanks, light, weather, direction, movement and much more. You can then send Redstone Signals based upon data through dimensions, giving you absolute control. Data can also be displayed via Display Screens or Holographic Displays.
 * :new: `tcinventoryscan-mc1.7.10-1.0.11.jar`  [:information_source:](http://www.curseforge.com/projects/238003/) Allows hovering over items in inventories while holding a Thaumometer to scan them.
 
