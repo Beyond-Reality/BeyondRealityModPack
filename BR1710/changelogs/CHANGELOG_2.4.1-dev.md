@@ -7,7 +7,7 @@
 * `BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/220318-mod/files/2308122)
 * `buildcraft-7.1.17.jar` [:information_source:](http://www.mod-buildcraft.com/)
 * `Carpenter's Blocks v3.3.7 - MC 1.7.10.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/228932-mod/files/2303358)
-* `Chisel-2.9.4.10.jar` [:information_source:](http://minecraft.curseforge.com/projects/chisel/files/2269360)
+* `Chisel-2.9.5.11.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/235279-mod/files/2287442)
 * `EnderIO-1.7.10-2.3.0.428_beta.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/64578-mod/files/2315361)
 * `EnderCore-1.7.10-0.2.0.36_beta.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/231868-mod/files/2307830)
 * `ExtraCells-1.7.10-2.3.14b197.jar` [:information_source:](http://minecraft.curseforge.com/projects/extracells2/files/2308206)
@@ -29,6 +29,7 @@
 * `PlanetguyLib-1.9.2.jar` [:information_source:](http://minecraft.curseforge.com/projects/planetguylib/files/2305574)
 * `Railcraft_1.7.10-9.12.2.0.jar` [:information_source:](http://minecraft.curseforge.com/projects/railcraft/files/2299713)
 * `StorageDrawers-1.7.10-1.10.0.jar` [:information_source:](http://www.jaquadro.com/)
+* `worldedit-forge-mc1.7.10-6.1.1-dist.jar` [:information_source:](http://minecraft.curseforge.com/projects/worldedit/files/2309699)
 
 #### Removed Mods:
 
@@ -37,7 +38,7 @@
 * `StorageDrawers-Natura-1.7.10-1.1.1.jar` :exclamation: Check for world content before upgrade
 
 #### New Mods
-* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.1jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
+* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.2jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
 * :new: `Practical-Logistics-1.7.10-0.2.4.jar`  [:information_source:](http://www.curseforge.com/projects/240562/) Practical Logistics gives you the ability to create automated systems via reading, displaying and acting upon data. It allows you to monitor inventories, energy, fluids, entities, machines, tanks, light, weather, direction, movement and much more. You can then send Redstone Signals based upon data through dimensions, giving you absolute control. Data can also be displayed via Display Screens or Holographic Displays.
 * :new: `tcinventoryscan-mc1.7.10-1.0.11.jar`  [:information_source:](http://www.curseforge.com/projects/238003/) Allows hovering over items in inventories while holding a Thaumometer to scan them.
 
