@@ -44,7 +44,7 @@ val StonePlate = <PracticalLogistics:StonePlate>;
 val TransceiverArray = <PracticalLogistics:TransceiverArray>;
 val Transceiver = <PracticalLogistics:Transceiver>;
 
-# Teaks
+# Tweaks
 
 // Remove/Hide unused
 NEI.hide(Hammer);
