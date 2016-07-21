@@ -12,6 +12,7 @@
 * `EnderCore-1.7.10-0.2.0.36_beta.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/231868-mod/files/2307830)
 * `ExtraCells-1.7.10-2.3.14b197.jar` [:information_source:](http://minecraft.curseforge.com/projects/extracells2/files/2308206)
 * `FloodLights-1.7.10-1.2.1-134.jar` [:information_source:](http://minecraft.curseforge.com/mc-mods/224728-mod/files/2305831)
+* `forestry_1.7.10-4.2.14.62.jar` [:information_source:](http://jenkins.ic2.player.to/job/Forestry/62/)
 * `forgeessentials-1.7.10-1.4.4.1187-server.jar` [:information_source:](http://ci.forgeessentials.com/job/FE/changes)
 * `forgeessentials-1.7.10-1.4.4.1187-client.jar` [:information_source:](http://ci.forgeessentials.com/job/FE/changes)
 * `GalacticraftCore-1.7-3.0.12.462.jar` [:information_source:](https://ci.micdoodle8.com/job/Galacticraft-1.7/changes)
