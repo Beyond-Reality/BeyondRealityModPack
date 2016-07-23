@@ -39,13 +39,27 @@
 * `StorageDrawers-Natura-1.7.10-1.1.1.jar` :exclamation: Check for world content before upgrade
 
 #### New Mods
-* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.1.2jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
+* :new: :sparkles: GT++/MiscUtilities `GT++-1.4.3.2.jar`  [:information_source:](https://github.com/draknyte1/MiscUtilities/wiki) Adds Various Gregtech Machines and other compatibility for various other mods.
 * :new: `Practical-Logistics-1.7.10-0.2.4.jar`  [:information_source:](http://www.curseforge.com/projects/240562/) Practical Logistics gives you the ability to create automated systems via reading, displaying and acting upon data. It allows you to monitor inventories, energy, fluids, entities, machines, tanks, light, weather, direction, movement and much more. You can then send Redstone Signals based upon data through dimensions, giving you absolute control. Data can also be displayed via Display Screens or Holographic Displays.
 * :new: `tcinventoryscan-mc1.7.10-1.0.11.jar`  [:information_source:](http://www.curseforge.com/projects/238003/) Allows hovering over items in inventories while holding a Thaumometer to scan them.
 
 #### Fixes:
 
 * TODO
+
+#### Config Changes:
+
+##### Fuel bees have been changed as follow:
+
+* Peat Bee: increased production, nerfed conditions
+* Coal Bee: increased production, nerfed conditions
+* Oil Bee: increased production, nerfed conditions and crossbreeding
+* Naquadah Bee: rebalanced producttion, nerfed conditions and crossbreeding
+* D.O.B: nerfed conditions and crossbreeding
+
+##### New bee specie
+
+* Added Matter bee
 
 #### Removed items/blocks:
 
