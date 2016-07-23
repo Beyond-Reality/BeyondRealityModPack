@@ -42,7 +42,8 @@ gendustry.bees.species.Uranium=Uranium
 gendustry.bees.species.Plutonium=Plutonium
 gendustry.bees.species.Naquada=Naquadah
 gendustry.bees.species.DOB=D-O-B
-
+gendustry.bees.species.Matter=Matter
+gendustry.bees.species.Matter.description=A bee that matters to You and You.
 
 gendustry.honeycomb.lignite.name=Lignite Comb
 gendustry.honeycomb.coal.name=Coal Comb
@@ -94,4 +95,9 @@ gendustry.honeycomb.mutagencatalyst.name=Muta Gem
 gendustry.honeydrop.oildrop.name=Oil Drop
 gendustry.honeydrop.smallmutagencatalyst.name=Muta Gem Catalyst
 gendustry.honeycomb.DOB.name=D-O-B Comb
+gendustry.honeycomb.uu.name=UU Comb
+gendustry.honeydrop.uuadrop.name=UU Amplifier Drop
+gendustry.honeydrop.uumdrop.name=UU-Matter Drop
 
+gendustry.allele.flowers.oilBlocks=BC Oil
+gendustry.allele.flowers.industrialTNT=Industrial TNT
