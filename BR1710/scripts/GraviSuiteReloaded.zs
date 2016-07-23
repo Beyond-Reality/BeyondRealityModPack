@@ -1,20 +1,30 @@
-// GraviSuiteReloaded.zs Tweaks
+# GraviSuiteReloaded.zs Tweaks
 
 import minetweaker.item.IItemStack;
 import mods.nei.NEI;
 
-val lead = <minecraft:lead>;
+// Ingredients
 
-val itemArmorNanoChestplate  = <IC2:itemArmorNanoChestplate>;
-val itemNanoSaber = <IC2:itemNanoSaber>;
-val itemToolChainsaw = <IC2:itemToolChainsaw>;
-val itemToolDrill = <IC2:itemToolDrill>;
-val itemToolDDrill = <IC2:itemToolDDrill>;
-val itemToolHoe = <IC2:itemToolHoe>;
-val itemToolIridiumDrill = <IC2:itemToolIridiumDrill>;
-val energyPack = <IC2:itemArmorEnergypack>;
-val plasmaLauncher = <IC2:plasmaLauncher>;
-val windMeter = <IC2:windmeter>;
+val lead = <minecraft:lead>;
+val itemArmorNanoChestplate  = <IC2:itemArmorNanoChestplate:*>;
+val itemNanoSaber = <IC2:itemNanoSaber:*>;
+val itemToolChainsaw = <IC2:itemToolChainsaw:*>;
+val itemToolDrill = <IC2:itemToolDrill:*>;
+val itemToolDDrill = <IC2:itemToolDDrill:*>;
+val itemToolHoe = <IC2:itemToolHoe:*>;
+val itemToolIridiumDrill = <IC2:itemToolIridiumDrill:*>;
+val energyPack = <IC2:itemArmorEnergypack:*>;
+val plasmaLauncher = <IC2:plasmaLauncher:*>;
+val windMeter = <IC2:windmeter:*>;
+
+val itemMiscQuantumCircuit = <GraviSuiteReloaded:ItemMiscQuantumCircuit:*>;
+val itemArmorAdvancedJetpack = <GraviSuiteReloaded:ItemArmorAdvancedJetpack:*>;
+val itemArmorLappack = <GraviSuiteReloaded:ItemArmorLappack:*>;
+val itemArmorQuantumLappack = <GraviSuiteReloaded:ItemArmorQuantumLappack:*>;
+val itemWeaponQuantumSaber = <GraviSuiteReloaded:ItemWeaponQuantumSaber:*>;
+val itemToolTheThingamabob = <GraviSuiteReloaded:ItemToolTheThingamabob:*>;
+val itemToolTheChopper = <GraviSuiteReloaded:ItemToolTheChopper:*>;
+val itemArmorAdvancedNanoChestplate = <GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate:*>;
 
 val batteryMaster = <ore:batteryMaster>;
 val cableGt01Platinum =   <ore:cableGt01Platinum>;
@@ -28,43 +38,45 @@ val plateAlloyIridium = <ore:plateAlloyIridium>;
 val robotArmEV = <gregtech:gt.metaitem.01:32653>;
 val robotArmHV = <gregtech:gt.metaitem.01:32652>;
 
-val itemMiscQuantumCircuit = <GraviSuiteReloaded:ItemMiscQuantumCircuit>;
-val itemArmorAdvancedJetpack = <GraviSuiteReloaded:ItemArmorAdvancedJetpack>;
-val itemArmorLappack = <GraviSuiteReloaded:ItemArmorLappack>;
-val itemArmorQuantumLappack = <GraviSuiteReloaded:ItemArmorQuantumLappack>;
-val itemWeaponQuantumSaber = <GraviSuiteReloaded:ItemWeaponQuantumSaber>;
-val itemToolTheThingamabob = <GraviSuiteReloaded:ItemToolTheThingamabob>;
-val itemToolTheChopper = <GraviSuiteReloaded:ItemToolTheChopper>;
-val itemArmorAdvancedNanoChestplate = <GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate>;
+// This mod items
+
+val ItemMiscQuantumCircuit = <GraviSuiteReloaded:ItemMiscQuantumCircuit>;
+val ItemArmorAdvancedJetpack = <GraviSuiteReloaded:ItemArmorAdvancedJetpack>;
+val ItemArmorLappack = <GraviSuiteReloaded:ItemArmorLappack>;
+val ItemArmorQuantumLappack = <GraviSuiteReloaded:ItemArmorQuantumLappack>;
+val ItemWeaponQuantumSaber = <GraviSuiteReloaded:ItemWeaponQuantumSaber>;
+val ItemToolTheThingamabob = <GraviSuiteReloaded:ItemToolTheThingamabob>;
+val ItemToolTheChopper = <GraviSuiteReloaded:ItemToolTheChopper>;
+val ItemArmorAdvancedNanoChestplate = <GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate>;
 
 
 // Vajra recipe a la Gregtech sauce
 
-recipes.remove(itemToolTheThingamabob);
-recipes.addShaped(itemToolTheThingamabob, [
+recipes.remove(ItemToolTheThingamabob);
+recipes.addShaped(ItemToolTheThingamabob, [
   [plateAlloyIridium, circuitMaster, plateAlloyIridium],
   [circuitMaster, drillHV, circuitMaster],
-  [robotArmEV, batteryMaster, robotArmEV]
+  [robotArmEV, batteryMaster  , robotArmEV]
 ]);
 
-<ore:craftingToolVajra>.add(itemToolTheThingamabob);
-<ore:craftingToolPickaxe>.add(itemToolTheThingamabob);
-<ore:craftingToolAxe>.add(itemToolTheThingamabob);
-<ore:craftingToolShovel>.add(itemToolTheThingamabob);
+<ore:craftingToolVajra>.add(ItemToolTheThingamabob);
+<ore:craftingToolPickaxe>.add(ItemToolTheThingamabob);
+<ore:craftingToolAxe>.add(ItemToolTheThingamabob);
+<ore:craftingToolShovel>.add(ItemToolTheThingamabob);
 
-<ore:craftingToolSaw>.add(itemToolTheChopper);
+<ore:craftingToolSaw>.add(ItemToolTheChopper);
 
-<ore:craftingToolBlade>.add(itemWeaponQuantumSaber);
-<ore:craftingToolSword>.add(itemWeaponQuantumSaber);
+<ore:craftingToolBlade>.add(ItemWeaponQuantumSaber);
+<ore:craftingToolSword>.add(ItemWeaponQuantumSaber);
 
 // Advanced Jetpack a la Gregtech sauce
-recipes.removeShaped(itemArmorAdvancedJetpack, [
+recipes.removeShaped(ItemArmorAdvancedJetpack, [
   [<IC2:itemDensePlates:5>, <IC2:itemBatCrystal>, <IC2:itemDensePlates:5>],
   [<IC2:itemPartCircuitAdv>, <IC2:itemArmorJetpackElectric>, <IC2:itemPartCircuitAdv>],
   [<IC2:itemDensePlates:5>, <IC2:itemArmorEnergypack>, <IC2:itemDensePlates:5>]
 ]);
 
-recipes.addShaped(itemArmorAdvancedJetpack, [
+recipes.addShaped(ItemArmorAdvancedJetpack, [
   [<ore:plateDenseSteel>, <ore:batteryElite>, <ore:plateDenseSteel>],
   [<ore:circuitAdvanced>, <IC2:itemArmorJetpackElectric>.anyDamage(), <ore:circuitAdvanced>],
   [<ore:plateDenseSteel>, <IC2:itemArmorEnergypack>.anyDamage(), <ore:plateDenseSteel>],
@@ -73,16 +85,16 @@ recipes.addShaped(itemArmorAdvancedJetpack, [
 
 // Quantum Lappack a la Gregtech sauce
 
-recipes.remove(itemArmorQuantumLappack);
-recipes.addShaped(itemArmorQuantumLappack, [
+recipes.remove(ItemArmorQuantumLappack);
+recipes.addShaped(ItemArmorQuantumLappack, [
   [plateAlloyIridium, circuitMaster, plateAlloyIridium],
   [batteryMaster, itemArmorLappack, batteryMaster],
   [batteryMaster, plateAlloyIridium, batteryMaster]
 ]);
 
 // The Chopper ChainSaw a la Gregtech sauce
-recipes.remove(itemToolTheChopper);
-recipes.addShaped(itemToolTheChopper, [
+recipes.remove(ItemToolTheChopper);
+recipes.addShaped(ItemToolTheChopper, [
   [lead, lead, lead],
   [electricPistonHV, chainSawHV, electricPistonHV],
   [circuitAdvanced, robotArmHV, circuitAdvanced]
@@ -90,8 +102,8 @@ recipes.addShaped(itemToolTheChopper, [
 
 // Lappack oredicted recipe
 
-recipes.remove(itemArmorLappack);
-recipes.addShaped(itemArmorLappack, [
+recipes.remove(ItemArmorLappack);
+recipes.addShaped(ItemArmorLappack, [
   [circuitAdvanced, plateAlloyAdvanced, circuitAdvanced],
   [batteryMaster, energyPack, batteryMaster],
   [plateAlloyAdvanced, null, plateAlloyAdvanced]
@@ -99,8 +111,8 @@ recipes.addShaped(itemArmorLappack, [
 
 // Quantum Sabre ordicted recipe
 
-recipes.remove(itemWeaponQuantumSaber);
-recipes.addShaped(itemWeaponQuantumSaber, [
+recipes.remove(ItemWeaponQuantumSaber);
+recipes.addShaped(ItemWeaponQuantumSaber, [
   [plateAlloyIridium, plateAlloyAdvanced],
   [plateAlloyIridium, itemNanoSaber],
   [plateAlloyIridium, batteryMaster, plateAlloyIridium]
@@ -108,13 +120,13 @@ recipes.addShaped(itemWeaponQuantumSaber, [
 
 // Now Unused
 
-recipes.remove(itemMiscQuantumCircuit);
-NEI.hide(itemMiscQuantumCircuit);
+recipes.remove(ItemMiscQuantumCircuit);
+NEI.hide(ItemMiscQuantumCircuit);
 
 // Advanced Nano ChestPlate
 
-recipes.remove(itemArmorAdvancedNanoChestplate);
-recipes.addShaped(itemArmorAdvancedNanoChestplate, [
+recipes.remove(ItemArmorAdvancedNanoChestplate);
+recipes.addShaped(ItemArmorAdvancedNanoChestplate, [
   [cableGt01Platinum, itemArmorAdvancedJetpack, cableGt01Platinum],
   [circuitAdvanced, itemArmorNanoChestplate, circuitAdvanced],
   [cableGt01Platinum, itemArmorAdvancedJetpack, cableGt01Platinum]
