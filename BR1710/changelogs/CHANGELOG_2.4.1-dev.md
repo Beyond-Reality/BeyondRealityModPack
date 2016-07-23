@@ -45,7 +45,8 @@
 
 #### Fixes:
 
-* TODO
+* [Fix #418 Crafting Advanced Nano Chestplate](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/418)
+* [Fix #321 Look into changing Uranium bees to u238 instead of u235.](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/321)
 
 #### Config Changes:
 
@@ -54,6 +55,7 @@
 * Peat Bee: increased production, nerfed conditions
 * Coal Bee: increased production, nerfed conditions
 * Oil Bee: increased production, nerfed conditions and crossbreeding
+* Uranium Bee: increased production, nerfed conditions
 * Naquadah Bee: rebalanced producttion, nerfed conditions and crossbreeding
 * D.O.B: nerfed conditions and crossbreeding
 
