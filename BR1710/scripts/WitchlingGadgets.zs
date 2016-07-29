@@ -1,6 +1,9 @@
 #Witching Gadgets
 
 
+import mods.nei.NEI;
+
+
 // Foreign Items
 
 val tungsteningot = <gregtech:gt.metaitem.01:11081>;
@@ -16,10 +19,18 @@ val ederlinkedbag = <WitchingGadgets:item.WG_Bag:2>;
 val hungrybag = <WitchingGadgets:item.WG_Bag:3>;
 
 
+// Remove/Hide unused
+NEI.hide(bagoftricks);
+NEI.hide(voidlinkedbag);
+NEI.hide(ederlinkedbag);
+NEI.hide(hungrybag);
+
+
 //BlastFurnaceFixes
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(tungsteningot);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(titaniumingot1);
 mods.witchinggadgets.InfernalBlastfurnace.removeRecipe(titaniumingot2);
+
 
 
 //BagFixes
