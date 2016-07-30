@@ -63,6 +63,7 @@ Arcane.removeRecipe(HungryBag);
 
 Arcane.removeRecipe(CloakOfHolding);
 Research.clearPages("CLOAK_STORAGE");
+Research.addPrereq("CLOAK_STORAGE", "HUNGRYCHEST", false);
 Arcane.addShaped("CLOAK_STORAGE", CloakOfHolding, "aer 20, perditio 15, ordo 10", [[SpaciousCloth, Cloak, SpaciousCloth], 
                                                                                   [null, HungryChest, null],
                                                                                   [null, null, null]]);
