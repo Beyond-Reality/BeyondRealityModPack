@@ -10,6 +10,8 @@ import mods.witchinggadgets.InfernalBlastfurnace;
  
 // Foreign Items
 
+val SteelIngot = <gregtech:gt.metaitem.01:11305>;
+val WroughtIronIngot = <gregtech:gt.metaitem.01:11304>;
 val HungryChest = <Thaumcraft:blockChestHungry>;
  
 // This Mod Items
@@ -45,7 +47,12 @@ for ingotSteel in <ore:ingotSteel>.items {
  for blockSteel in <ore:blockSteel>.items {
   InfernalBlastfurnace.removeRecipe(blockSteel);
 }
- 
+ for ingotIron in <ore:ingotIron>.items  {
+InfernalBlastfurnace.addRecipe(WroughtIronIngot, ingotIron, 1200, null, true);
+}
+ for ingotWroughtIron in <ore:ingotWroughtIron>.items  {
+InfernalBlastfurnace.addRecipe(SteelIngot, ingotWroughtIron, 1200, null, true);
+}
  
 //BagFixes
  
