@@ -1,19 +1,29 @@
 import mods.botania.ManaInfusion;
+import mods.botania.Lexicon;
 
-val steel = <ore:ingotSteel>;
-val mana = <ore:ingotManaSteel>;
+val steelingot = <gregtech:gt.metaitem.01:11305>;
+val blocksteel = <gregtech:gt.blockmetal6:13>;
 val manasteel = <Botania:manaResource>;
-val blocksteel = <ore:blockSteel>;
+val manasteelblock = <Botania:storage>;
 val framedlivingwood = <Botania:livingwood:3>;
 val frameddreamwod = <Botania:dreamwood:3>;
 val craftingtable = <minecraft:crafting_table>;
 
 // Botania Nerf
-mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
-mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, steel, 1000);
+ 
+ManaInfusion.removeRecipe(manasteel);
+for ingotSteel in <ore:ingotSteel>.items {
+ManaInfusion.addInfusion(manasteel, ingotSteel, 1000);
+}
 
-mods.botania.ManaInfusion.removeRecipe(<Botania:storage>);
-mods.botania.ManaInfusion.addInfusion(<Botania:storage>, blocksteel, 5000);
+ManaInfusion.removeRecipe(manasteelblock);
+ for blockSteel in <ore:blockSteel>.items {
+ManaInfusion.addInfusion(manasteelblock, blockSteel, 5000);
+}
+
+Lexicon.removePage("botania.entry.pool", 7);
+Lexicon.addInfusionPage("botania.page.pool","botania.entry.pool",7,[manasteel, manasteelblock],[steelingot, blocksteel],[1000, 5000]);
+game.setLocalization("en_US", "botania.page.pool", "Infusing &1Steel&0.");  
 
 // Botania Woods a la Gregtech sauce
 // All it takes are Oredictionary registrations
