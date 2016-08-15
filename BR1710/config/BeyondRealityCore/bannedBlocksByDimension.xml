@@ -79,6 +79,7 @@
     <name>RandomThings:spectreKey</name>
     <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
+    <name>Thaumcraft:blockMirror:4</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
 
@@ -135,6 +136,7 @@
     <name>RandomThings:spectreKey</name>
     <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
+    <name>Thaumcraft:blockMirror:4</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
 
@@ -191,6 +193,7 @@
     <name>RandomThings:spectreKey</name>
     <name>StevesFactoryManager:BlockCableOutputName</name>
     <name>Sync:Sync_BlockPlacer:1</name>
+    <name>Thaumcraft:blockMirror:4</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
 </root>
