@@ -115,3 +115,17 @@ for woodType, coverID in coverGTForestryWoods
   CuttingSaw.addRecipe([cover * 2], slabWoodFireproof, distilledWater, 100, 8);
   CuttingSaw.addRecipe([cover * 2], slabWoodFireproof, lubricant, 40, 8);
 }
+
+//Remove Forestry Gears
+
+val TinGear = <ore:gearTin>;
+val CopperGear = <ore:gearCopper>;
+val BronzeGear = <ore:gearBronze>;
+
+
+TinGear.remove(<Forestry:gearTin>);
+recipes.remove(<Forestry:gearTin>);
+CopperGear.remove(<Forestry:gearCopper>);
+recipes.remove(<Forestry:gearCopper>);
+BronzeGear.remove(<Forestry:gearBronze>);
+recipes.remove(<Forestry:gearBronze>);
