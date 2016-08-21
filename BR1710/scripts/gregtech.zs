@@ -12,6 +12,7 @@ import mods.gregtech.PlateBender;
 import mods.gregtech.Pulverizer;
 import mods.gregtech.PyroluseOven;
 import mods.ic2.Extractor;
+import mods.ic2.Compressor;
 
 # Ingredients
 
@@ -92,6 +93,54 @@ val shutterModule = <gregtech:gt.metaitem.01:32749>;
 val upgradeMuffler = <gregtech:gt.metaitem.01:32727>;
 
 # Tweaks
+
+// Easier Compression Recipes for soft material plates from dusts
+val platesFromDusts = {
+  <gregtech:gt.metaitem.01:17010> : <ore:dustCarbon>,
+  <gregtech:gt.metaitem.01:17501> : <ore:dustEmerald>,
+  <gregtech:gt.metaitem.01:17502> : <ore:dustRuby>,
+  <gregtech:gt.metaitem.01:17503> : <ore:dustSapphire>,
+  <gregtech:gt.metaitem.01:17504> : <ore:dustGreenSapphire>,
+  <gregtech:gt.metaitem.01:17505> : <ore:dustOlivine>,
+  <gregtech:gt.metaitem.01:17507> : <ore:dustTopaz>,
+  <gregtech:gt.metaitem.01:17508> : <ore:dustTanzanite>,
+  <gregtech:gt.metaitem.01:17509> : <ore:dustAmethyst>,
+  <gregtech:gt.metaitem.01:17510> : <ore:dustOpal>,
+  <gregtech:gt.metaitem.01:17511> : <ore:dustJasper>,
+  <gregtech:gt.metaitem.01:17512> : <ore:dustFoolsRuby>,
+  <gregtech:gt.metaitem.01:17513> : <ore:dustBlueTopaz>,
+  <gregtech:gt.metaitem.01:17514> : <ore:dustAmber>,
+  <gregtech:gt.metaitem.01:17518> : <ore:dustForcicium>,
+  <gregtech:gt.metaitem.01:17519> : <ore:dustForcillium>,
+  <gregtech:gt.metaitem.01:17520> : <ore:dustMonazite>,
+  <gregtech:gt.metaitem.01:17523> : <ore:dustQuartzite>,
+  <gregtech:gt.metaitem.01:17524> : <ore:dustLazurite>,
+  <gregtech:gt.metaitem.01:17525> : <ore:dustSodalite>,
+  <gregtech:gt.metaitem.01:17526> : <ore:dustLapis>,
+  <gregtech:gt.metaitem.01:17527> : <ore:dustGarnetRed>,
+  <gregtech:gt.metaitem.01:17528> : <ore:dustGarnetYellow>,
+  <gregtech:gt.metaitem.01:17529> : <ore:dustVinteum>,
+  <gregtech:gt.metaitem.01:17530> : <ore:dustApatite>,
+  <gregtech:gt.metaitem.01:17531> : <ore:dustNiter>,
+  <gregtech:gt.metaitem.01:17532> : <ore:dustEnderPearl>,
+  <gregtech:gt.metaitem.01:17533> : <ore:dustEnderEye>,
+  <gregtech:gt.metaitem.01:17534> : <ore:dustPhosphorus>,
+  <gregtech:gt.metaitem.01:17535> : <ore:dustCoal>,
+  <gregtech:gt.metaitem.01:17536> : <ore:dustCharcoal>,
+  <gregtech:gt.metaitem.01:17538> : <ore:dustLignite>,
+  <gregtech:gt.metaitem.01:17540> : <ore:dustInfusedAir>,
+  <gregtech:gt.metaitem.01:17541> : <ore:dustInfusedFire>,
+  <gregtech:gt.metaitem.01:17542> : <ore:dustInfusedEarth>,
+  <gregtech:gt.metaitem.01:17543> : <ore:dustInfusedWater>,
+  <gregtech:gt.metaitem.01:17544> : <ore:dustInfusedEntropy>,
+  <gregtech:gt.metaitem.01:17545> : <ore:dustInfusedOrder>,
+  <gregtech:gt.metaitem.01:17810> : <ore:dustRedstone>,
+  <gregtech:gt.metaitem.01:17811> : <ore:dustGlowstone>
+} as IIngredient[IItemStack];
+
+for plate, dust in platesFromDusts {
+  Compressor.addRecipe(plate, dust);
+}
 
 // Workbench recipe for Sound Muffler Upgrade
 recipes.addShaped(upgradeMuffler, [
