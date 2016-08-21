@@ -23,4 +23,37 @@
 
 #### Removed items/blocks:
 
-Pam's downgrade
+```YAML
+miscutils:itemIngotBatteryAlloy
+miscutils:itemPlateBatteryAlloy
+miscutils:spawnEggboatcarbon
+harvestcraft:honeysandwichItem
+harvestcraft:potatoandleeksoupItem
+harvestcraft:cranberryyogurtItem
+harvestcraft:garammasalaItem
+harvestcraft:deluxechickencurryItem
+harvestcraft:plumjellysandwichItem
+harvestcraft:plumsmoothieItem
+harvestcraft:pearjellysandwichItem
+harvestcraft:tunapotatoItem
+harvestcraft:paneertikkamasalaItem
+harvestcraft:applesmoothieItem
+harvestcraft:gravyItem
+harvestcraft:pearjellyItem
+harvestcraft:cranberrysmoothieItem
+harvestcraft:coconutsmoothieItem
+harvestcraft:paneerItem
+harvestcraft:coconutcreamItem
+harvestcraft:grapesmoothieItem
+harvestcraft:mangochutneyItem
+harvestcraft:yorkshirepuddingItem
+harvestcraft:pearsmoothieItem
+harvestcraft:toadintheholeItem
+harvestcraft:plumjellyItem
+harvestcraft:chocolaterollItem
+harvestcraft:marzipanItem
+harvestcraft:cheeseontoastItem
+harvestcraft:peaandhamsoupItem
+harvestcraft:crackerItem
+harvestcraft:jamrollItem
+```
