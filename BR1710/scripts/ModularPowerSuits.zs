@@ -228,7 +228,4 @@ recipes.addShaped(componentRubberHose, [
   [foilRubber, foilRubber, foilRubber]
 ]);
 
-for bucket in bucketEmpty.items {
-  FluidCanner.addRecipe(componentLiquidNitrogen, bucket, null, liquidnitrogen);
-  FluidCanner.addRecipe(bucket, componentLiquidNitrogen, liquidnitrogen, null);
-}
+liquidnitrogen.definition.addContainer(componentLiquidNitrogen, <minecraft:bucket:0>, 1000);
