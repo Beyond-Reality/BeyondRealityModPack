@@ -75,9 +75,6 @@ var GCoreDesh = <GalacticraftMars:tile.mars:2>;
 var beamReflector = <GalacticraftMars:tile.beamReflector>;
 var beamReceiver = <GalacticraftMars:tile.beamReceiver>;
 var shardTitanium = <GalacticraftMars:item.itemBasicAsteroids:4>;
-var plateNailed = <gregtech:gt.blockcasings4:13>;
-var plateNailedT2 = <gregtech:gt.blockcasings4:14>;
-var plateNailedT3 = <gregtech:gt.blockcasings4:15>;
 var boltStainlessSteel = <gregtech:gt.metaitem.01:26306>;
 var hammer = <ore:craftingToolHardHammer>;
 var boltTungsten = <gregtech:gt.metaitem.01:26081>;
@@ -158,18 +155,6 @@ recipes.remove(titaniumSword);
 NEI.hide(titaniumSword);
 
 # Recipe Adding
-recipes.addShaped(plateNailed, [
-	[boltStainlessSteel, hammer, boltStainlessSteel],
-	[compressedBronze, compressedAluminium, GTplateSteel],
-	[boltStainlessSteel, null, boltStainlessSteel]]);
-recipes.addShaped(plateNailedT2, [
-	[null, boltTungsten, boltTungsten],
-	[hammer, plateHeavyDuty, compressedMeteoricIron],
-	[null, boltTungsten, boltTungsten]]);
-recipes.addShaped(plateNailedT3, [
-	[null, boltTungstenSteel, boltTungstenSteel],
-	[hammer, plateHeavyDutyT2, GTplateDesh],
-	[null, boltTungstenSteel, boltTungstenSteel]]);
 
 # Recipe Changes
 recipes.remove(airlockcontroller);
@@ -243,9 +228,6 @@ ImplosionCompressor.addRecipe([compressedIron, tinyPileDarkAshes], RCplateIron *
 ImplosionCompressor.addRecipe([compressedMeteoricIron, tinyPileDarkAshes], GCingotMeteoricIron * 2, 2);
 ImplosionCompressor.addRecipe([compressedDesh, tinyPileDarkAshes], GCingotDesh * 2, 2);
 ImplosionCompressor.addRecipe([compressedTitanium, tinyPileDarkAshes], GTplateTitanium * 2, 2);
-ImplosionCompressor.addRecipe([plateHeavyDuty, tinyPileStainlessSteel * 2], plateNailed, 2);
-ImplosionCompressor.addRecipe([plateHeavyDutyT2, tinyPileTungsten * 2], plateNailedT2, 2);
-ImplosionCompressor.addRecipe([plateHeavyDutyT3, tinyPileTungstenSteel * 2], plateNailedT3, 2);
 Assembler.addRecipe(waferBasic, diamond, boardBasic, 1600, 2);
 Assembler.addRecipe(waferAdvanced, diamond, boardAdvanced, 3200, 4);
 Assembler.addRecipe(waferSolar * 9, diamond, GTdustLapis * 9, 1600, 2);
