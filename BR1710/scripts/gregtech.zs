@@ -29,6 +29,7 @@ val plateRubber = <ore:plateRubber>;
 val plateSteel = <ore:plateSteel>;
 val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
 val stickWood = <ore:stickWood>;
+val stoneMarble = <ore:stoneMarble>;
 
 # Fluids
 
@@ -67,8 +68,11 @@ val batterySodiumSmall = <gregtech:gt.metaitem.01:32519>; // Reusable
 val batteryUltimate = <gregtech:gt.metaitem.01:32605>; // Reusable
 val batteryZPM = <gregtech:gt.metaitem.01:32598>; // Single Use
 val capacitorTantalum = <gregtech:gt.metaitem.01:32499>; // Reusable
+val dustBasalt = <gregtech:gt.metaitem.01:2844>;
 val dustBiotite = <gregtech:gt.metaitem.01:2848>;
 val dustDacite = <gregtech:gt.metaitem.01:2859>;
+val dustInpureBasalt = <gregtech:gt.metaitem.01:3844>;
+val dustInpureMarble = <gregtech:gt.metaitem.01:3845>;
 val dustMarble = <gregtech:gt.metaitem.01:2845>;
 val dustRhyolite = <gregtech:gt.metaitem.01:2875>;
 val dustSiliconDioxide = <gregtech:gt.metaitem.01:2837>;
@@ -163,12 +167,20 @@ for logWood in <ore:logWood>.items
   Pulverizer.addRecipe([dustWood * 6, <gregtech:gt.metaitem.01:2809>], logWood, [10000, 8000], 400, 2);
 }
 
-for blockMarble in <ore:blockMarble>.items {
-  Pulverizer.addRecipe([dustMarble * 4], blockMarble, [10000], 160, 4);
+for stoneMarble in <ore:stoneMarble>.items {
+  Pulverizer.addRecipe([dustInpureMarble, dustMarble], stoneMarble, [10000, 1000], 400, 2);
+}
+
+for stoneBasalt in <ore:stoneBasalt>.items {
+  Pulverizer.addRecipe([dustInpureBasalt, dustBasalt], stoneBasalt, [10000, 1000], 400, 2);
 }
 
 
 # --- OreDictionary registrations ---
+
+// Marble
+
+<ore:stoneMarble>.addAll(<ore:blockMarble>);
 
 // Plate Glass
 
