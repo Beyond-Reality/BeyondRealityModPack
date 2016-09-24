@@ -28,6 +28,8 @@
 * Update Gregtech unification rules
 * Attempt to fix Ore-Dictionary derp with meat Raw/Cooked
 * Increase small netherquartz ores generation ×8
+* Disable butterfly generation because it spread out of control glitching north wwest and caussing recurrent server tick lag and client FPS drops.
+    Feel free to reset to default if you really want these.
 
 #### Removed items/blocks:
 
