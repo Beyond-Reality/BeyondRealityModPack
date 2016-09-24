@@ -10,8 +10,24 @@ var aluminumPlate = <ore:plateAluminium>;
 var steelrod = <ore:stickSteel>;
 var casing = <gregtech:gt.blockmachines:11>;
 val blockPlastic = <MineFactoryReloaded:plastic>;
+val ingotMeatCooked = <MineFactoryReloaded:meat.ingot.cooked>;
+val ingotMeatRaw = <MineFactoryReloaded:meat.ingot.raw>;
+val nuggetMeatCooked = <MineFactoryReloaded:meat.nugget.cooked>;
+val nuggetMeatRaw = <MineFactoryReloaded:meat.nugget.raw>;
+val blockMeatCooked = <MineFactoryReloaded:brick:13>;
+val blockMeatRaw = <MineFactoryReloaded:brick:12>;
 
 # MFR Changes
+
+# Attempt to fix Ore-Dictionary derp
+<ore:listAllMeatRaw>.remove(ingotMeatRaw);
+<ore:ingotMeatRaw>.remove(ingotMeatRaw);
+<ore:nuggetMeatRaw>.remove(nuggetMeatRaw);
+<ore:blockMeatRaw>.remove(blockMeatRaw);
+<ore:listAllMeatCooked>.remove(ingotMeatRaw);
+<ore:ingotMeatCooked>.remove(ingotMeatRaw);
+<ore:nuggetMeatCooked>.remove(nuggetMeatRaw);
+<ore:blockMeatCooked>.remove(blockMeatRaw);
 
 # Disable RedNet Energy Cable
 recipes.remove(redstonecable);
