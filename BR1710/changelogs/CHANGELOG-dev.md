@@ -35,4 +35,7 @@
 
 ```yaml
 miscutils:spawnEggboatcarbon
+miscutils:itemPlateDarkSteel
+miscutils:itemPlatePulsatingIron
+miscutils:itemPlateVoidMetal
 ```
