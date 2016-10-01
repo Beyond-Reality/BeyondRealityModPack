@@ -106,7 +106,7 @@ recipes.addShaped(<malisisdoors:item.curtain_black> * 1,[[<ore:blockWoolBlack>,<
 	[<ore:blockWoolBlack>,null,<ore:blockWoolBlack>]]);
 
 // Missing workbench recipe for oak wood slabs
-val toolSaw = <ore:craftingToolSaw>;
+val toolSaw = <ore:craftingToolSaw> * 0;
 val plankOak = <minecraft:planks:0>;
 val slabOak = <minecraft:wooden_slab:0>;
 recipes.addShaped(slabOak * 2, [[toolSaw, plankOak]]);
