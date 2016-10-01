@@ -1,0 +1,304 @@
+[
+	{
+		"ingredients" : [
+			[ { "oredictName" : "circuitAdvanced" }, { "oredictName" : "plateGlass" }, { "oredictName" : "circuitAdvanced" } ],
+			[ { "oredictName" : "plateSteel" }, { "oredictName" : "plateEmerald" }, { "oredictName" : "plateSteel" } ],
+			[ { "oredictName" : "plateSteel" }, { "oredictName" : "blockSteel" }, { "oredictName" : "plateSteel" } ]
+		],
+		"result" : {
+			"registryName" : "powersuits:tile.tinkerTable"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "ingotSilver" }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "circuitData" }, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateAluminium" } ]
+		],
+		"result" : {
+			"registryName" : "powersuits:item.powerArmorHelmet"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "componentWiring" }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "circuitData" }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateAluminium" } ]
+		],
+		"result" : {
+			"registryName" : "powersuits:item.powerArmorChestplate"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "circuitData" }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateAluminium" } ]
+		],
+		"result" : {
+			"registryName" : "powersuits:item.powerArmorLeggings"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, null, { "oredictName" : "componentWiring" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "circuitData" }, { "oredictName" : "plateAluminium" } ],
+			[ null, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, null ]
+		],
+		"result" : {
+			"registryName" : "powersuits:item.powerArmorBoots"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "componentWiring" }, { "oredictName" : "plateAluminium" } ],
+			[ null, { "oredictName" : "circuitData" }, null ]
+		],
+		"result" : {
+			"registryName" : "powersuits:item.powerFist"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "wireGt02AnnealedCopper" }, { "oredictName" : "wireGt02AnnealedCopper" }, { "oredictName" : "wireGt02AnnealedCopper" } ],
+			[ { "oredictName" : "wireGt02Silver" }, { "oredictName" : "wireGt02Silver" }, { "oredictName" : "wireGt02Silver" } ],
+			[ { "oredictName" : "wireGt02AnnealedCopper" }, { "oredictName" : "wireGt02AnnealedCopper" }, { "oredictName" : "wireGt02AnnealedCopper" } ]
+		],
+		"result" : {
+			"oredictName" : "componentWiring",
+			"quantity" : 4
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "componentWiring" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 }, { "oredictName" : "componentWiring" } ],
+			[  { "oredictName" : "componentWiring" }, { "oredictName" : "plateSteel" }, { "oredictName" : "componentWiring" } ],
+			[  { "oredictName" : "componentWiring" }, { "oredictName" : "plateSteel" }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentSolenoid"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "plateSteel" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 }, { "oredictName" : "plateSteel" } ],
+			[  { "oredictName" : "circuitAdvanced" }, { "oredictName" : "componentSolenoid" }, { "oredictName" : "circuitAdvanced" } ],
+			[  { "oredictName" : "plateSteel" }, { "oredictName" : "plateBrass" }, { "oredictName" : "plateSteel" } ]
+		],
+		"result" : {
+			"oredictName" : "componentServo"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 }, { "oredictName" : "plateMagnalium" }, { "oredictName" : "circuitAdvanced" } ],
+			[  { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateAlloyCarbon" }, { "oredictName" : "componentSolenoid" } ],
+			[  { "oredictName" : "plateMagnalium" }, null, { "oredictName" : "craftingToolWrench", "quantity" : 0 } ]
+		],
+		"result" : {
+			"oredictName" : "componentGliderWing"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "plateAlloyIridium" }, { "oredictName" : "wireGt02Superconductor" }, { "oredictName" : "plateAlloyIridium" } ],
+			[  { "oredictName" : "componentFieldEmitter" }, { "oredictName" : "componentHVCapacitor" }, { "oredictName" : "componentFieldEmitter" } ],
+			[  { "oredictName" : "pipeRestrictiveMediumOsmium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "pipeRestrictiveMediumOsmium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentIonThruster"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "plateSteel" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateSteel" } ],
+			[  { "oredictName" : "batteryElite" }, { "oredictName" : "circuitData" }, { "oredictName" : "batteryElite" } ],
+			[  { "oredictName" : "plateSteel" }, { "oredictName" : "plateSteel" }, { "oredictName" : "plateSteel" } ]
+		],
+		"result" : {
+			"oredictName" : "componentLVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "plateMagnalium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateMagnalium" } ],
+			[  { "oredictName" : "batteryMaster" }, { "oredictName" : "circuitData" }, { "oredictName" : "batteryMaster" } ],
+			[  { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentMVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "plateChrome" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateChrome" } ],
+			[  { "registryName" : "gregtech:gt.metaitem.01", "meta" : 32597 }, { "oredictName" : "circuitData" }, { "registryName" : "gregtech:gt.metaitem.01", "meta" : 32597 } ],
+			[  { "oredictName" : "plateChrome" }, { "oredictName" : "plateChrome" }, { "oredictName" : "plateChrome" } ]
+		],
+		"result" : {
+			"oredictName" : "componentHVCapacitor"
+		}
+	},
+	{
+		"ingredients" : [
+			[  { "oredictName" : "blockWool" }, { "oredictName" : "blockWool" }, { "oredictName" : "blockWool" } ],
+			[  { "registryName" : "minecraft:string" }, null, { "registryName" : "minecraft:string" } ],
+			[  { "oredictName" : "plateAlloyCarbon" }, { "oredictName" : "cellNitrogen" }, { "oredictName" : "plateAlloyCarbon" } ]
+		],
+		"result" : {
+			"oredictName" : "componentParachute"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" } ],
+			[ { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "circuitBasic" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 } ],
+			[ { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" }, { "oredictName" : "plateMagnalium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentPlatingBasic"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentPlatingBasic" } ]
+		],
+		"result" : {
+			"oredictName" : "plateMagnalium",
+			"quantity" : 6
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateAlloyIridium" }, { "oredictName" : "plateAlloyIridium" }, { "oredictName" : "plateAlloyIridium" } ],
+			[ { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "circuitAdvanced" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 } ],
+			[ { "oredictName" : "plateAlloyIridium" }, { "oredictName" : "plateAlloyIridium" }, { "oredictName" : "plateAlloyIridium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentPlatingAdvanced"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentPlatingAdvanced" } ]
+		],
+		"result" : {
+			"oredictName" : "plateAlloyIridium",
+			"quantity" : 6
+		}
+	},
+	{
+		"ingredients" : [
+			[  {"oredictName" : "plateAlloyIridium" }, {"oredictName" : "componentSolenoid" }, {"oredictName" : "plateAlloyIridium" } ],
+			[  {"oredictName" : "wireGt02Superconductor" }, { "oredictName" : "circuitMaster" }, {"oredictName" : "wireGt02Superconductor" } ],
+			[  {"oredictName" : "plateAlloyIridium" }, {"oredictName" : "componentSolenoid" }, {"oredictName" : "plateAlloyIridium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentFieldEmitter"
+		},
+		"mirror" : true
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "crystalQuartzite" }, { "oredictName" : "circuitGood" }, { "oredictName" : "crystalQuartzite" } ],
+			[ { "oredictName" : "craftingLensRed" }, { "oredictName" : "craftingLensBlue" }, { "oredictName" : "craftingLensGreen" } ],
+			[ { "oredictName" : "crystalQuartzite" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 }, { "oredictName" : "crystalQuartzite" } ]
+		],
+		"result" : {
+			"oredictName" : "componentLaserEmitter"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "plateAlloyCarbon" }, { "oredictName" : "wireGt01Graphene" }, { "oredictName" : "plateAlloyCarbon" } ],
+			[ { "oredictName" : "plateAlloyCarbon" }, { "oredictName" : "wireFineSolderingAlloy" }, { "oredictName" : "plateAlloyCarbon" } ],
+			[ { "oredictName" : "plateAlloyCarbon" }, { "oredictName" : "craftingToolSolderingIron", "quantity" : 0 }, { "oredictName" : "plateAlloyCarbon" } ]
+		],
+		"result" : {
+			"oredictName" : "componentCarbonMyofiber"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentWiring" }, { "oredictName" : "circuitAdvanced" }, { "oredictName" : "plateElectrum" } ],
+			[ { "oredictName" : "circuitData" }, { "oredictName" : "circuitMaster" }, { "oredictName" : "circuitAdvanced" } ],
+			[ { "oredictName" : "plateElectrum" }, { "oredictName" : "craftingToolScrewdriver", "quantity" : 0 }, { "oredictName" : "componentWiring" } ]
+		],
+		"result" : {
+			"oredictName" : "componentControlCircuit"
+		},
+		"mirror" : true
+	},
+	{
+		"ingredients" : [
+			[ null, { "oredictName" : "cellLubricant" }, null ],
+			[ { "oredictName" : "dustGraphene" }, { "oredictName" : "dustSilicone" }, { "oredictName" : "dustGraphene" } ],
+			[ { "oredictName" : "dustGraphene" }, { "oredictName" : "dustSilicone" }, { "oredictName" : "dustGraphene" } ]
+		],
+		"result" : {
+			"oredictName" : "componentMyofiberGel",
+			"quantity" : 4
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "foilRubber" }, { "oredictName" : "componentCarbonMyofiber" } ],
+			[ { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "componentMyofiberGel" }, { "oredictName" : "componentCarbonMyofiber" } ],
+			[ { "oredictName" : "componentCarbonMyofiber" }, { "oredictName" : "componentMyofiberGel" }, { "oredictName" : "componentCarbonMyofiber" } ]
+		],
+		"result" : {
+			"oredictName" : "componentArtificialMuscle"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "paneGlass" }, { "oredictName" : "paneGlass" }, { "oredictName" : "paneGlass" } ],
+			[ { "registryName" : "gregtech:gt.metaitem.01", "meta" : 32719 }, { "registryName" : "gregtech:gt.metaitem.01", "meta" : 32719 }, { "registryName" : "gregtech:gt.metaitem.01", "meta" : 32719 } ],
+			[ { "oredictName" : "circuitGood" }, { "registryName" : "gregtech:gt.blockmachines", "meta" : 22 }, { "oredictName" : "circuitGood" } ]
+		],
+		"result" : {
+			"oredictName" : "componentSolarPanel"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "ingotNeodymium" }, { "oredictName" : "circuitAdvanced" }, { "oredictName" : "ingotNeodymium" } ],
+			[ { "oredictName" : "componentSolenoid" }, { "oredictName" : "componentSolenoid" }, { "oredictName" : "componentSolenoid" } ],
+			[ { "oredictName" : "ingotNeodymium" }, { "oredictName" : "circuitAdvanced" }, { "oredictName" : "ingotNeodymium" } ]
+		],
+		"result" : {
+			"oredictName" : "componentMagnet"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "wireGt02Silver" }, { "oredictName" : "componentSolenoid" }, { "oredictName" : "wireGt02Silver" } ],
+			[ { "oredictName" : "circuitAdvanced" }, { "oredictName" : "circuitData" }, { "oredictName" : "circuitAdvanced" } ],
+			[ { "oredictName" : "wireGt02Silver" }, { "oredictName" : "componentSolenoid" }, { "oredictName" : "wireGt02Silver" } ]
+		],
+		"result" : {
+			"oredictName" : "componentComputerChip"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "foilRubber" }, { "oredictName" : "foilRubber" }, { "oredictName" : "foilRubber" } ],
+			[ { "oredictName" : "glassReinforced" }, null, { "oredictName" : "glassReinforced" } ],
+			[ { "oredictName" : "foilRubber" }, { "oredictName" : "foilRubber" }, { "oredictName" : "foilRubber" } ]
+		],
+		"result" : {
+			"oredictName" : "componentRubberHose"
+		}
+	},
+	{
+		"ingredients" : [
+			[ { "oredictName" : "dustLapis" }, { "oredictName" : "dustLapis" }, { "oredictName" : "dustLapis" } ],
+			[ { "oredictName" : "cellWater" }, { "oredictName" : "cellWater" }, { "oredictName" : "cellWater" } ],
+			[ null, { "oredictName" : "bucketEmpty" }, null ]
+		],
+		"result" : {
+			"oredictName" : "componentLiquidNitrogen"
+		}
+	}
+]
