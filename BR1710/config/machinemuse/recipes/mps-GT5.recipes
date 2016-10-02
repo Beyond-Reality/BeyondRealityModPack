@@ -11,7 +11,7 @@
 	},
 	{
 		"ingredients" : [
-			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "ingotSilver" }, { "oredictName" : "plateAluminium" } ],
+			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "plateGlass" }, { "oredictName" : "plateAluminium" } ],
 			[ { "oredictName" : "componentWiring" }, { "oredictName" : "circuitData" }, { "oredictName" : "componentWiring" } ],
 			[ { "oredictName" : "plateAluminium" }, { "oredictName" : "craftingToolWrench", "quantity" : 0 }, { "oredictName" : "plateAluminium" } ]
 		],
