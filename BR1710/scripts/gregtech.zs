@@ -24,7 +24,9 @@ val crateGtDustRubber = <ore:crateGtDustRubber>;
 val ironDoor = <minecraft:iron_door>;
 val plateAluminium = <ore:plateAluminium>;
 val plateAnyIron = <ore:plateAnyIron>;
+val plateGlowstone = <ore:plateGlowstone>;
 val plateIron = <ore:plateIron>;
+val plateRedstone = <ore:plateRedstone>;
 val plateRubber = <ore:plateRubber>;
 val plateSteel = <ore:plateSteel>;
 val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
@@ -40,8 +42,10 @@ val water = <liquid:water>;
 
 # Foreign items
 
-val ingotElectricalSteel = <EnderIO:itemAlloy:0>;
-val stickyResin = <IC2:itemHarz>;
+val BlockRedstone = <minecraft:redstone_block>;
+val BlockGlowstone = <minecraft:glowstone>;
+val IngotElectricalSteel = <EnderIO:itemAlloy:0>;
+val StickyResin = <IC2:itemHarz>;
 
 # This mod items
 
@@ -146,9 +150,13 @@ for plate, dust in platesFromDusts {
   Compressor.addRecipe(plate, dust);
 }
 
+// Alternate Block recipes
+Compressor.addRecipe(BlockRedstone, plateRedstone * 9);
+Compressor.addRecipe(BlockGlowstone, plateGlowstone * 4);
+
 // Workbench recipe for Sound Muffler Upgrade
 recipes.addShaped(upgradeMuffler, [
-  [plateIron, stickyResin, blockWool]
+  [plateIron, StickyResin, blockWool]
 ]);
 
 // Missing Wood Ring recipe
@@ -159,7 +167,7 @@ recipes.addShaped(ringWood ,[
 ]);
 
 // EnderIO Electrical Steel
-BlastFurnace.addRecipe([ingotElectricalSteel * 4, dustSmallDarkAsh * 2], null,  [ingotSteel * 3, ingotSilicon * 1], 2000, 120, 1000);
+BlastFurnace.addRecipe([IngotElectricalSteel * 4, dustSmallDarkAsh * 2], null,  [ingotSteel * 3, ingotSilicon * 1], 2000, 120, 1000);
 
 // Pulbirezer recipes for Wood Logs
 for logWood in <ore:logWood>.items
@@ -611,7 +619,7 @@ recipes.addShaped(machineCasingMotor * 4, [
 for craftingDuctTape in <ore:craftingDuctTape>.items {
   recipes.addShaped(craftingDuctTape, [
     [plateRubber, plateRubber, plateRubber],
-    [stickyResin, crateGtDustRubber, stickyResin],
+    [StickyResin, crateGtDustRubber, StickyResin],
     [rawCarbonMesh, rawCarbonMesh, rawCarbonMesh]
   ]);
 }
