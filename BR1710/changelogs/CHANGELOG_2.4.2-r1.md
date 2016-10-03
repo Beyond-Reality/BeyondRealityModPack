@@ -1,4 +1,4 @@
-### VERSION dev
+### VERSION 2.4.2-r1
 
 #### Updated Mods:
 
