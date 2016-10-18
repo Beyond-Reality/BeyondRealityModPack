@@ -108,6 +108,8 @@ var GTmeteoricIron = <ore:plateMeteoricIron>;
 var GTplateDesh = <ore:plateDesh>;
 var GTplateSteel = <ore:plateSteel>;
 
+// Tempfix for https://github.com/Beyond-Reality/BeyondRealityModPack/issues/438
+<ore:compressedAluminium>.addAll(<ore:compressedAluminum>);
 oresilicon.add(silicon);
 
 # Items/blocks removal
