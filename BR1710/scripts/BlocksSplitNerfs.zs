@@ -147,53 +147,6 @@ val gems = {
   "Vinteum" : <ore:gemVinteum>
 } as IIngredient[string];
 
-val ingots = {
-  "Amber" : <ore:ingotAmber>,
-  "Amethyst" : <ore:ingotAmethyst>,
-  "Apaitte" : <ore:ingotApatite>,
-  "BlueTopaz" : <ore:ingotBlueTopaz>,
-  "Charcoal" : <ore:ingotCharcoal>,
-  "CoalCoke" : <ore:ingotCoalCoke>,
-  "Coal" : <ore:ingotCoal>,
-  "Diamond" : <ore:ingotDiamond>,
-  "Dilithium" : <ore:ingotDilithium>,
-  "Electrotine" : <ore:ingotElectrotine>,
-  "Emerald" : <ore:ingotEmerald>,
-  "EnderEye" : <ore:ingotEnderEye>,
-  "EnderPearl": <ore:ingotEnderPearl>,
-  "FoolsRuby" : <ore:ingotFoolsRuby>,
-  "Force" : <ore:ingotForce>,
-  "Forcicium" : <ore:ingotForcicium>,
-  "Forcillium" : <ore:ingotForcillium>,
-  "GarnetRed" : <ore:ingotGarnetRed>,
-  "GarnetYellow" : <ore:ingotGarnetYellow>,
-  "GreenSapphire" : <ore:ingotGreenSapphire>,
-  "InfusedAir": <ore:ingotInfusedAir>,
-  "InfussedEarth" : <ore:ingotInfusedEarth>,
-  "InfusedEntropy" : <ore:ingotInfusedEntropy>,
-  "InfusedFire": <ore:ingotInfusedFire>,
-  "InfusedOrder" : <ore:ingotInfusedOrder>,
-  "InfusedWater" : <ore:ingotInfusedWater>,
-  "Jasper" : <ore:ingotJasper>,
-  "Lapis" : <ore:ingotLapis>,
-  "Lignite" : <ore:ingotLignite>,
-  "Lazurite" : <ore:ingotLazurite>,
-  "Monazite" : <ore:ingotMonazite>,
-  "NetherStar" : <ore:ingotNetherStar>,
-  "Niter" : <ore:ingotNiter>,
-  "Olivine" : <ore:ingotOlivine>,
-  "Opal" : <ore:ingotOpal>,
-  "Phosphorus" : <ore:ingotPhosphorus>,
-  "Quartzite" : <ore:ingotQuartzite>,
-  "ReinforcedMetal" : <ore:ingotReinforcedMetal>,
-  "Ruby" : <ore:ingotRuby>,
-  "Sapphire" : <ore:ingotSapphire>,
-  "Sodalite" : <ore:ingotSodalite>,
-  "Tanzanite" : <ore:ingotTanzanite>,
-  "Topaz" : <ore:ingotTopaz>,
-  "Vinteum" : <ore:ingotVinteum>
-} as IIngredient[string];
-
 # Tweaks
 
 /* Fix Issue #403 https://github.com/Beyond-Reality/BeyondRealityModPack/issues/403
@@ -206,8 +159,5 @@ for material, block in blocks {
   }
   for gem in gems[material].items {
     recipes.removeShapeless(gem * 9, [block]);
-  }
-  for ingot in ingots[material].items {
-    recipes.removeShapeless(ingot * 9, [block]);
   }
 }
