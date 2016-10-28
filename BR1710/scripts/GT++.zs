@@ -79,3 +79,5 @@ NO RECIPE
 	-Dual Cell Sodium Battery
 */
 
+// Remove until crash issue fixed
+recipes.remove(<miscutils:blockWorkbenchGT>);
