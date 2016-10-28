@@ -3,6 +3,7 @@ import mods.nei.NEI;
 import mods.gregtech.Assembler;
 
 // Declares
+val craftingToolWrench = <ore:craftingToolWrench>;
 val steelplate = <ore:plateSteel>;
 val steel = <ore:ingotSteel>;
 val rod = <gregtech:gt.metaitem.01:23032>;
@@ -41,8 +42,13 @@ recipes.addShaped(conduitRedstone * 8, [
   [ingotRedAlloy, ingotRedAlloy, ingotRedAlloy]
 ]);
 
-// Dark Iron Bars requires assembler as others Iron bars
+// Dark Iron Bars a la Gregtech sauce
 recipes.remove(darkSteelBars);
+recipes.addShaped(darkSteelBars * 8, [
+  [null, craftingToolWrench, null],
+  [stickDarkSteel, stickDarkSteel, stickDarkSteel],
+  [stickDarkSteel, stickDarkSteel, stickDarkSteel]
+]);
 for stick in stickDarkSteel.items {
   Assembler.addRecipe(darkSteelBars * 4, stick * 3, IC3, 300, 4);
 }
