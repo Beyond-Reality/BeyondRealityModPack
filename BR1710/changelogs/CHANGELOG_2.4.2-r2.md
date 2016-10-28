@@ -15,6 +15,8 @@
 
 * Re-activated the Logistics Pipes Active Supplier
 
+* Re added Iron and Dark-Steel bars workbench recipes
+
 #### Removed items/blocks:
 
 ```yaml
