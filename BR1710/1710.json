@@ -1,5 +1,5 @@
 {
-    "version": "2.3.0b",
+    "version": "2.4.3-r1",
     "minecraft": "1.7.10",
     "mainClass": {
         "mainClass": "net.minecraft.launchwrapper.Launch"
@@ -7,8 +7,13 @@
     "extraArguments": {
         "arguments": "--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker"
     },
-    "permgen": 256,
     "deletes": {
+        "files": [
+            {
+                "base": "root",
+                "target": "resourcepacks%s%Fanver_Beyond_Reality.zip"
+            }
+        ],
         "folders": [
             {
                 "base": "root",
@@ -17,148 +22,165 @@
         ]
     },
     "messages": {
-        "install": "<b><center>Please visit http://www.beyondrealitypack.com for up to date information!</b></center><center>This pack is centered and semi balanced around Gregtech hardmode.</center><center> Gregtech changes many aspects of minecraft to increase the dificulty and extend the gameplay</center><center>It also increases the load times substantially are you sure you wish to play?</center> <center>This is a beta version not much testing has been done.</center>",
-        "update": "<b>Please visit http://www.beyondrealitypack.com for up to date information!</b>"
+        "install": "<h2><b><center>Please visit <a href=\"http://www.beyondrealitypack.com/\">http://www.beyondrealitypack.com/</a> for up to date information!</b></center></h2><p><center>This pack is centered and semi balanced around Gregtech hardmode.</center></p><p><center>Gregtech changes many aspects of minecraft to increase the dificulty and extend the gameplay.</center</p><p><center>It also increases the load times substantially. Are you sure you wish to play?</center></p>",
+        "update": "<h2><b><u><font size=\"4\"><center>UPGRADING Beyond Reality</center></font></u></b></h2><p><center><b>You are going to upgrade an existing installation.</b></center></p><p>Use of <tt><font color=\"#66CCFF\">/fml confirm</font></tt> may be required!</p><hr/><h3><b><center><font size=\"4\">GregTech 5.09 Unofficial/<u>Experimental</u></font></center></b></h3><p><b><center>Please consult <a href=\"http://www.beyondrealitypack.com/beyond-reality-change-logs/\">Change Logs</a> for up to date information!</center></b></p>\n<br/><p><b><center>Always <font color=\"red\">backup your worlds!</font></center></b></p>"
     },
     "warnings": {
         "spice": "When Selecting Cauldron all extra Libraries will be injected into your server folder. There might be more issues while running a cauldron based server. Including but not limited too. Mods not supporting cauldron and Crashes that dont effect a normal forge server. Please direct all support towards BeyondReality"
     },
     "libraries": [
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/launchwrapper-1.11.jar",
-            "file": "launchwrapper-1.11.jar",
-            "server": "net/minecraft/launchwrapper/1.11/launchwrapper-1.11.jar",
-            "md5": "189acaecbe31eeb4366bca7ba17d7496",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/launchwrapper-1.12.jar",
+            "file": "launchwrapper-1.12.jar",
+            "server": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+            "md5": "934b2d91c7c5be4a49577c9e6b40e8da",
             "download": "server",
-            "filesize": 33143
+            "filesize": 32999,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/asm-all-5.0.3.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/asm-all-5.0.3.jar",
             "file": "asm-all-5.0.3.jar",
             "server": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
             "md5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
             "download": "server",
-            "filesize": 241639
+            "filesize": 241639,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/akka-actor_2.11-2.3.3.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/akka-actor_2.11-2.3.3.jar",
             "file": "akka-actor_2.11-2.3.3.jar",
             "server": "com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar",
             "md5": "2a3d8946f684f928c48a2dd298c5cd29",
             "download": "server",
-            "filesize": 2553161
+            "filesize": 2553161,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/config-1.2.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/config-1.2.1.jar",
             "file": "config-1.2.1.jar",
             "server": "com/typesafe/config/1.2.1/config-1.2.1.jar",
             "md5": "a88c2f8be90a5c41b87155cdff21e0db",
             "download": "server",
-            "filesize": 221137
+            "filesize": 221137,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-actors-migration_2.11-1.1.0.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-actors-migration_2.11-1.1.0.jar",
             "file": "scala-actors-migration_2.11-1.1.0.jar",
             "server": "org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar",
             "md5": "f5e79398daa1806f8b17311a3c782723",
             "download": "server",
-            "filesize": 58018
+            "filesize": 58018,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-compiler-2.11.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-compiler-2.11.1.jar",
             "file": "scala-compiler-2.11.1.jar",
             "server": "org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar",
             "md5": "06030143bf86ca896fb6ccfd679b5760",
             "download": "server",
-            "filesize": 13449765
+            "filesize": 13449765,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-continuations-library_2.11-1.0.2.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-continuations-library_2.11-1.0.2.jar",
             "file": "scala-continuations-library_2.11-1.0.2.jar",
             "server": "org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar",
             "md5": "c7d01e5a88182df7f22b7418abb51085",
             "download": "server",
-            "filesize": 25364
+            "filesize": 25364,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-continuations-plugin_2.11.1-1.0.2.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-continuations-plugin_2.11.1-1.0.2.jar",
             "file": "scala-continuations-plugin_2.11.1-1.0.2.jar",
             "server": "org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar",
             "md5": "daecef8fab296b764a8fb41fc07f2428",
             "download": "server",
-            "filesize": 206574
+            "filesize": 206574,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-library-2.11.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-library-2.11.1.jar",
             "file": "scala-library-2.11.1.jar",
             "server": "org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar",
             "md5": "1d88f665219e6006c5dd82d71c525c0f",
             "download": "server",
-            "filesize": 5538130
+            "filesize": 5538130,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-parser-combinators_2.11-1.0.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-parser-combinators_2.11-1.0.1.jar",
             "file": "scala-parser-combinators_2.11-1.0.1.jar",
             "server": "org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar",
             "md5": "4e694499c965af4a02599c99d4f0b196",
             "download": "server",
-            "filesize": 419701
+            "filesize": 419701,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-reflect-2.11.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-reflect-2.11.1.jar",
             "file": "scala-reflect-2.11.1.jar",
             "server": "org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar",
             "md5": "7878fac044e4e4b576bb35a77ccc34fc",
             "download": "server",
-            "filesize": 4372892
+            "filesize": 4372892,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-swing_2.11-1.0.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-swing_2.11-1.0.1.jar",
             "file": "scala-swing_2.11-1.0.1.jar",
             "server": "org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar",
             "md5": "1009d69e4948045383f2a7a334348af5",
             "download": "server",
-            "filesize": 726500
+            "filesize": 726500,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/scala-xml_2.11-1.0.2.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/scala-xml_2.11-1.0.2.jar",
             "file": "scala-xml_2.11-1.0.2.jar",
             "server": "org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
             "md5": "c2d7e66495afe14545c31b21e99879ef",
             "download": "server",
-            "filesize": 648679
+            "filesize": 648679,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/lzma-0.0.1.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/lzma-0.0.1.jar",
             "file": "lzma-0.0.1.jar",
             "server": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
             "md5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
             "download": "server",
-            "filesize": 5762
+            "filesize": 5762,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/jopt-simple-4.5.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/jopt-simple-4.5.jar",
             "file": "jopt-simple-4.5.jar",
             "server": "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
             "md5": "1372bd4823bb1ef61e7db6724f601150",
             "download": "server",
-            "filesize": 61311
+            "filesize": 61311,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/guava-17.0.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/guava-17.0.jar",
             "file": "guava-17.0.jar",
             "server": "com/google/guava/guava/17.0/guava-17.0.jar",
             "md5": "89fef81c2adfa9b50a64ed5cd5d8c155",
             "download": "server",
-            "filesize": 2243036
+            "filesize": 2243036,
+            "force": false
         },
         {
-            "url": "packs/BeyondReality/files/1710Libraries/1428/commons-lang3-3.3.2.jar",
+            "url": "packs/BeyondReality/files/1710Libraries/1614/commons-lang3-3.3.2.jar",
             "file": "commons-lang3-3.3.2.jar",
             "server": "org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar",
             "md5": "3128bf75a2549ebe38663401191bacab",
             "download": "server",
-            "filesize": 412739
+            "filesize": 412739,
+            "force": false
         }
     ],
     "colours": {
@@ -175,17 +197,19 @@
         "brightred": "#FF003C",
         "peach": "#ECA05D",
         "white": "#FFFFFF",
-        "grey": "#BEBEBE"
+        "grey": "#BEBEBE",
+        "black": "#BEBEBE"
     },
     "mods": [
         {
             "name": "Minecraft Forge",
-            "version": "10.13.3.1403",
-            "url": "packs/BeyondReality/files/1710mods/forge-1.7.10-10.13.3.1403-1.7.10-universal.jar",
-            "file": "forge-1.7.10-10.13.3.1403-1.7.10-universal.jar",
+            "version": "10.13.4.1614",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+            "file": "forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
             "download": "server",
-            "md5": "dc5255e63d8144463338a68eb29e6dcb",
-            "filesize": 2923820,
+            "md5": "add0fba161c4652a96efb4264ec2d9ec",
+            "filesize": 3018833,
+            "force": false,
             "website": "http://www.minecraftforge.net/forum/",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z5MLLA62HSUM2",
             "authors": [
@@ -203,7 +227,6 @@
             "client": true,
             "optional": false,
             "server": true,
-            "serverOptional": true,
             "selected": false,
             "recommended": true,
             "hidden": false,
@@ -211,15 +234,37 @@
             "description": "Minecraft Forge is a modding API used by alot of mods."
         },
         {
-            "name": "Applied Energistics 2",
-            "version": "rv2-stable-5",
-            "url": "packs/BeyondReality/files/1710mods/appliedenergistics2-rv2-stable-5.jar",
-            "file": "appliedenergistics2-rv2-stable-5.jar",
+            "name": "Liteloader",
+            "version": "1.7.10",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/liteloader-1.7.10.jar",
+            "file": "liteloader-1.7.10.jar",
             "download": "server",
-            "md5": "d4cb5dc2408ba6f902244c1d1ab25db4",
-            "filesize": 2525231,
+            "md5": "63ada46e033d0cb6782bada09ad5ca4e",
+            "filesize": 533903,
+            "force": false,
+            "website": "http://www.liteloader.com/",
+            "type": "dependency",
+            "client": true,
+            "optional": false,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": true,
+            "hidden": true,
+            "library": false,
+            "description": "LiteLoader is a lightweight mod loader for Minecraft designed to provide simple, high-performance and reliable loader functionality for mods which don't need to modify game mechanics."
+        },
+        {
+            "name": "Applied Energistics 2",
+            "version": "rv3-beta-6",
+            "url": "packs/BeyondReality/files/1710mods/appliedenergistics2-rv3-beta-6.jar",
+            "file": "appliedenergistics2-rv3-beta-6.jar",
+            "download": "server",
+            "md5": "0a555df010345a27e0956a3f05517510",
+            "filesize": 2924325,
             "curse_id": 223794,
-            "curse_file_id": 2241481,
+            "curse_file_id": 2296430,
+            "force": false,
             "website": "http://ae2.ae-mod.info/",
             "authors": [
                 "AlgorithmX2"
@@ -237,14 +282,15 @@
         },
         {
             "name": "AutoMagy",
-            "version": "0.24.2",
-            "url": "packs/BeyondReality/files/1710mods/Automagy-1.7.10-0.24.2.jar",
-            "file": "Automagy-1.7.10-0.24.2.jar",
+            "version": "0.28.2",
+            "url": "packs/BeyondReality/files/1710mods/Automagy-1.7.10-0.28.2.jar",
+            "file": "Automagy-1.7.10-0.28.2.jar",
             "download": "server",
-            "md5": "60c250a613b473bb7dc9216c11e37c77",
-            "filesize": 6404287,
+            "md5": "0d1b46683a9c69a59368406b7db4671f",
+            "filesize": 6567165,
             "curse_id": 222153,
-            "curse_file_id": 2241499,
+            "curse_file_id": 2285272,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2125369-",
             "authors": [
                 "Tuhljin"
@@ -262,14 +308,15 @@
         },
         {
             "name": "BiblioCraft",
-            "version": "1.10.4",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/BiblioCraft[v1.10.4][MC1.7.10].jar",
-            "file": "BiblioCraft[v1.10.4][MC1.7.10].jar",
+            "version": "1.11.5",
+            "url": "packs/BeyondReality/files/1710mods/BiblioCraft[v1.11.5][MC1.7.10].jar",
+            "file": "BiblioCraft[v1.11.5][MC1.7.10].jar",
             "download": "server",
-            "md5": "8ff7b200ed81466e3c5eeeef09c10ffd",
-            "filesize": 5253240,
+            "md5": "e63cda211516c31144e9746ffc667663",
+            "filesize": 5447894,
             "curse_id": 228027,
-            "curse_file_id": 2235545,
+            "curse_file_id": 2300352,
+            "force": false,
             "website": "http://www.bibliocraftmod.com",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NLK9SWM3U77XS",
             "authors": [
@@ -296,6 +343,7 @@
             "filesize": 145497,
             "curse_id": 228361,
             "curse_file_id": 2229583,
+            "force": false,
             "website": "http://www.bibliocraftmod.com",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NLK9SWM3U77XS",
             "authors": [
@@ -313,32 +361,6 @@
             "description": "Adds support for 4 varietys of wood from Highlands for 8 of the wooden block in BiblioCraft."
         },
         {
-            "name": "BiblioWoods Natura Edition",
-            "version": "1.5",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/BiblioWoods[Natura][v1.5].jar",
-            "file": "BiblioWoods[Natura][v1.5].jar",
-            "download": "server",
-            "md5": "9f8e1ae378c60af46bcd0e88c59445fa",
-            "filesize": 218521,
-            "curse_id": 228364,
-            "curse_file_id": 2229581,
-            "website": "http://www.bibliocraftmod.com",
-            "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NLK9SWM3U77XS",
-            "authors": [
-                "Joseph 'Nuchaz' Sinclair"
-            ],
-            "colour": "babyblue",
-            "type": "mods",
-            "client": true,
-            "optional": false,
-            "server": true,
-            "selected": false,
-            "recommended": true,
-            "hidden": false,
-            "library": false,
-            "description": "Adds support for 13 varietys of wood from Natura for 8 of the wooden block in BiblioCraft."
-        },
-        {
             "name": "BiblioWoods Forestry Edition",
             "version": "1.7",
             "url": "packs/BeyondReality/files/1710mods/2.1.9/BiblioWoods[Forestry][v1.7].jar",
@@ -348,6 +370,7 @@
             "filesize": 330607,
             "curse_id": 228363,
             "curse_file_id": 2229574,
+            "force": false,
             "website": "http://www.bibliocraftmod.com",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NLK9SWM3U77XS",
             "authors": [
@@ -372,7 +395,10 @@
             "download": "server",
             "md5": "b1c71b6a64a84f154af2d83bdc0d33bf",
             "filesize": 771107,
-            "website": "http://www.big-reactors.com",
+            "curse_id": 241994,
+            "curse_file_id": 2282591,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/projects/big-reactors/files/2282591",
             "authors": [
                 "ErogenousBeef"
             ],
@@ -389,13 +415,16 @@
         },
         {
             "name": "Biomes O' Plenty",
-            "version": "2.1.0",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/BiomesOPlenty-1.7.10-2.1.0.1127-universal.jar",
-            "file": "BiomesOPlenty-1.7.10-2.1.0.1127-universal.jar",
+            "version": "2.1.0.2027",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar",
+            "file": "BiomesOPlenty-1.7.10-2.1.0.2027-universal.jar",
             "download": "server",
-            "md5": "ad3f4f57b369f05cb440ae6497aef89b",
-            "filesize": 5739494,
-            "website": "http://www.minecraftforum.net/topic/1495041-",
+            "md5": "a4783a2057d7eb0714d1fe4fdf77fe70",
+            "filesize": 5755129,
+            "curse_id": 220318,
+            "curse_file_id": 2308122,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2281726",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=U58BHXTK8LLRQ&lc=US&item_name=Biomes%20O%27%20Plenty&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted",
             "authors": [
                 "Forstride",
@@ -417,14 +446,15 @@
         },
         {
             "name": "Botania",
-            "version": "r1.6-191",
-            "url": "packs/BeyondReality/files/1710mods/Botania r1.6-191.jar",
-            "file": "Botania r1.6-191.jar",
+            "version": "r1.8-249",
+            "url": "packs/BeyondReality/files/1710mods/Botania r1.8-249.jar",
+            "file": "Botania r1.8-249.jar",
             "download": "server",
-            "md5": "40fc5cdc016b2573baa6a2e028ee0312",
-            "filesize": 14703683,
+            "md5": "757cfb6db285068b617c382fc7a1e9ed",
+            "filesize": 15977344,
             "curse_id": 225643,
-            "curse_file_id": 2240623,
+            "curse_file_id": 2283837,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2440071-",
             "authors": [
                 "vazkii"
@@ -442,14 +472,13 @@
         },
         {
             "name": "Buildcraft",
-            "version": "7.0.6",
-            "url": "packs/BeyondReality/files/1710mods/buildcraft-7.0.6.jar",
-            "file": "buildcraft-7.0.6.jar",
+            "version": "7.1.19",
+            "url": "packs/BeyondReality/files/1710mods/2.4.3/buildcraft-7.1.19.jar",
+            "file": "buildcraft-7.1.19.jar",
             "download": "server",
-            "md5": "16b4a44ef57672c999e4cafd95bd612c",
-            "filesize": 2418377,
-            "curse_id": 61811,
-            "curse_file_id": 2241528,
+            "md5": "2348e21707008acf424ba3beb5080519",
+            "filesize": 2698311,
+            "force": false,
             "website": "http://www.mod-buildcraft.com/",
             "authors": [
                 "Spacetoad",
@@ -469,12 +498,15 @@
         },
         {
             "name": "BuildCraft Compat",
-            "version": "compat-7.0.5",
-            "url": "packs/BeyondReality/files/1710mods/buildcraft-compat-7.0.5.jar",
-            "file": "buildcraft-compat-7.0.5.jar",
+            "version": "compat-7.1.5",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/buildcraft-compat-7.1.5.jar",
+            "file": "buildcraft-compat-7.1.5.jar",
             "download": "server",
-            "md5": "6c23a6f350c1fea096ed109814a111ec",
-            "filesize": 173093,
+            "md5": "84e2152be9f7e5656b5d9d7513c4f7a4",
+            "filesize": 257255,
+            "curse_id": 233140,
+            "curse_file_id": 2297230,
+            "force": false,
             "website": "http://www.mod-buildcraft.com/",
             "authors": [
                 "asie",
@@ -492,14 +524,15 @@
         },
         {
             "name": "Carpenter's Blocks",
-            "version": "3.3.6",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/Carpenters Blocks v3.3.6 - MC 1.7.10.jar",
-            "file": "Carpenters Blocks v3.3.6 - MC 1.7.10.jar",
+            "version": "3.3.8.1",
+            "url": "packs/BeyondReality/files/1710mods/Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar",
+            "file": "Carpenter's Blocks v3.3.8.1 - MC 1.7.10.jar",
             "download": "server",
-            "md5": "e10ec38141819884cecacb4cfa5389a6",
-            "filesize": 494604,
+            "md5": "796185b3d2cfd50f74955346ba92614c",
+            "filesize": 510164,
             "curse_id": 228932,
-            "curse_file_id": 2233617,
+            "curse_file_id": 2333195,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1790919-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YGAB8YNHMQPLQ&lc=US&item_name=Minecraft%20Modding&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted",
             "authors": [
@@ -517,18 +550,21 @@
             "description": "Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns."
         },
         {
-            "name": "Chisel 2",
-            "version": "2.3.10.37",
-            "url": "packs/BeyondReality/files/1710mods/Chisel2-2.3.10.37.jar",
-            "file": "Chisel2-2.3.10.37.jar",
+            "name": "Chisel",
+            "version": "2.9.5.11",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/Chisel-2.9.5.11.jar",
+            "file": "Chisel-2.9.5.11.jar",
             "download": "server",
-            "md5": "bbcab533ebad16e4e9ed0823c87274a0",
-            "filesize": 5198576,
-            "curse_id": 225236,
-            "curse_file_id": 2233102,
-            "website": "http://www.minecraftforum.net/topic/1749374-",
+            "md5": "c76378129307ab7b371bb9b3b8631fce",
+            "filesize": 6378920,
+            "curse_id": 235279,
+            "curse_file_id": 2287442,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/thread/1294901",
             "authors": [
-                "AUTOMATIC_MAIDEN"
+                "tterrag",
+                "Drullkus",
+                "minecreatr"
             ],
             "colour": "babyblue",
             "type": "mods",
@@ -539,17 +575,18 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Adds a chisel item that lets you carve blocks like cobblestone or sandstone. Adds two new blocks to world generation: marble and limestone, which can be be carved and crafted into many various building materials."
+            "description": "A mod that adds in many fancy blocks for decoration, which are crafted utilising the Chisel."
         },
         {
             "name": "Computronics",
-            "version": "1.7.10-1.4.6",
-            "url": "packs/BeyondReality/files/1710mods/Computronics-1.7.10-1.4.6.jar",
-            "file": "Computronics-1.7.10-1.4.6.jar",
+            "version": "1.6.1.100-dev-OC1.6",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/Computronics-1.7.10-1.6.1.100-dev-OC1.6.jar",
+            "file": "Computronics-1.7.10-1.6.1.100-dev-OC1.6.jar",
             "download": "server",
-            "md5": "cd44b54814396cf86800f9d77afe2af8",
-            "filesize": 587498,
-            "website": "http://mc.shinonome.ch/doku.php?id=wiki:computronics",
+            "md5": "a5902b08cde91ed49d7503011d2784a6",
+            "filesize": 1097901,
+            "force": false,
+            "website": "http://wiki.vex.tty.sh/wiki:computronics#minecraft_1710",
             "authors": [
                 "Asie"
             ],
@@ -574,6 +611,7 @@
             "filesize": 248995,
             "curse_id": 224039,
             "curse_file_id": 2240043,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/224039-dark-menagerie",
             "authors": [
                 "RWTema"
@@ -590,14 +628,13 @@
         },
         {
             "name": "Doom like Dungeon's",
-            "version": "1.7.6",
-            "url": "packs/BeyondReality/files/1710mods/DoomlikeDungeons-1.7.6-MC1.7.10.jar",
-            "file": "DoomlikeDungeons-1.7.6-MC1.7.10.jar",
+            "version": "1.8.7",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/DoomlikeDungeons-1.8.7-MC1.7.10.jar",
+            "file": "DoomlikeDungeons-1.8.7-MC1.7.10.jar",
             "download": "server",
-            "md5": "d7797529f4568a6b31de492475d81a1e",
-            "filesize": 625213,
-            "curse_id": 74246,
-            "curse_file_id": 2238383,
+            "md5": "ca928d9368fc1d34a625fb8fd459bc19",
+            "filesize": 632625,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293843",
             "authors": [
                 "BlackJar72"
@@ -605,7 +642,7 @@
             "colour": "babyblue",
             "type": "mods",
             "client": true,
-            "optional": false,
+            "optional": true,
             "server": true,
             "selected": false,
             "recommended": true,
@@ -615,12 +652,15 @@
         },
         {
             "name": "Ender IO",
-            "version": "2.3.0.388_beta",
-            "url": "packs/BeyondReality/files/1710mods/EnderIO-1.7.10-2.3.0.388_beta.jar",
-            "file": "EnderIO-1.7.10-2.3.0.388_beta.jar",
+            "version": "2.3.0.429_beta",
+            "url": "packs/BeyondReality/files/1710mods/EnderIO-1.7.10-2.3.0.429_beta.jar",
+            "file": "EnderIO-1.7.10-2.3.0.429_beta.jar",
             "download": "server",
-            "md5": "adbdaec995e542d1a525fe27c989aa26",
-            "filesize": 5008597,
+            "md5": "37089c0fd0769f27298fbc14665bafad",
+            "filesize": 4756103,
+            "curse_id": 64578,
+            "curse_file_id": 2322348,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1937619-",
             "authors": [
                 "crazypants"
@@ -637,16 +677,43 @@
             "description": "Compact conduits, painted things and access to your stuff through an eye of ender."
         },
         {
-            "name": "Ender Zoo",
-            "version": "1.7.10-1.0.11.28",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/EnderZoo-1.7.10-1.0.11.28.jar",
-            "file": "EnderZoo-1.7.10-1.0.11.28.jar",
+            "name": "EnderCore",
+            "version": "1.7.10-0.2.0.39_beta",
+            "url": "packs/BeyondReality/files/1710mods/EnderCore-1.7.10-0.2.0.39_beta.jar",
+            "file": "EnderCore-1.7.10-0.2.0.39_beta.jar",
             "download": "server",
-            "md5": "d0b411ec33ed350c619ee8ab86a131f4",
-            "filesize": 337535,
+            "md5": "e6c8b5dc1ae0f01e34673ba608f8ffd9",
+            "filesize": 467824,
+            "curse_id": 231868,
+            "curse_file_id": 2331048,
+            "force": false,
+            "website": "http://enderio.com",
+            "authors": [
+                "tterrag",
+                "CrazyPants"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Library mod used by EnderIO, EnderZoo, and others"
+        },
+        {
+            "name": "Ender Zoo",
+            "version": "1.7.10-1.0.15.32",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/EnderZoo-1.7.10-1.0.15.32.jar",
+            "file": "EnderZoo-1.7.10-1.0.15.32.jar",
+            "download": "server",
+            "md5": "577531417d0dc93fc264631f100f53ba",
+            "filesize": 351928,
             "curse_id": 225247,
-            "curse_file_id": 2236951,
-            "website": "http://www.minecraftforum.net/topic/1937619-",
+            "curse_file_id": 2252457,
+            "force": false,
+            "website": "http://www.curse.com/mc-mods/minecraft/225247-ender-zoo",
             "authors": [
                 "crazypants"
             ],
@@ -662,17 +729,18 @@
             "description": "Ender Io's Mobs and more"
         },
         {
-            "name": "EnhancedPortals 3",
-            "version": "3.0.10",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/EnhancedPortals_1.7.10-universal-3.0.10.jar",
-            "file": "EnhancedPortals_1.7.10-universal-3.0.10.jar",
+            "name": "EnhancedPortals",
+            "version": "3.0.12",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/EnhancedPortals_1.7.10-universal-3.0.12.jar",
+            "file": "EnhancedPortals_1.7.10-universal-3.0.12.jar",
             "download": "server",
-            "md5": "fbedbfc8cfe80a48092edf5e8d8fb773",
-            "filesize": 1252420,
+            "md5": "5d8e509aa54c79785e7bf4868d2ec88f",
+            "filesize": 777641,
             "curse_id": 225921,
-            "curse_file_id": 2224355,
-            "website": "http://www.minecraftforum.net/topic/2143651-",
-            "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S4C57PNZZ6XYU",
+            "curse_file_id": 2242378,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292751",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/enhanced-portals-3?gameCategorySlug=mc-mods&projectID=225921&cn=Add+special+instructions+to+the+addon+author()&business=shadeddimensions%40googlemail.com&bn=PP-Donations",
             "authors": [
                 "Alz454"
             ],
@@ -685,18 +753,19 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "EnhancedPortals started out as a mod designed to give you a bit more customization for your Nether portals. You could increase the size, shape, or change it's colour. EnhancedPortals 3 takes this even further by leaving behind the focus of being a fully functional, boring, Nether portal."
+            "description": "An advanced technological portal teleportation system"
         },
         {
             "name": "ExtraCells",
-            "version": "2.2.71",
-            "url": "packs/BeyondReality/files/1710mods/ExtraCells-1.7.10-2.2.71b121.jar",
-            "file": "ExtraCells-1.7.10-2.2.71b121.jar",
+            "version": "2.3.14",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/ExtraCells-1.7.10-2.3.14b197.jar",
+            "file": "ExtraCells-1.7.10-2.3.14b197.jar",
             "download": "server",
-            "md5": "024745dc0d81826cd6ab116b0428104a",
-            "filesize": 1212595,
+            "md5": "3e54980cc468ea91567f806a9c0d53d4",
+            "filesize": 1479759,
             "curse_id": 229218,
-            "curse_file_id": 2239971,
+            "curse_file_id": 2308206,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1801643-",
             "authors": [
                 "M3gaFr3ak"
@@ -714,15 +783,16 @@
         },
         {
             "name": "Extra Utilities",
-            "version": "1.2.6",
-            "url": "packs/BeyondReality/files/1710mods/extrautilities-1.2.6.jar",
-            "file": "extrautilities-1.2.6.jar",
+            "version": "1.2.12",
+            "url": "packs/BeyondReality/files/1710mods/extrautilities-1.2.12.jar",
+            "file": "extrautilities-1.2.12.jar",
             "download": "server",
-            "md5": "b160eaa6e13737f31a7d25b80fc17547",
-            "filesize": 1898059,
+            "md5": "0b1848ece3f6e1370e6caa8124c1480d",
+            "filesize": 2149827,
             "curse_id": 225561,
-            "curse_file_id": 2242026,
-            "website": "http://www.minecraftforum.net/topic/1776056-",
+            "curse_file_id": 2264383,
+            "force": false,
+            "website": "http://www.curse.com/mc-mods/minecraft/225561-extra-utilities",
             "authors": [
                 "RWtema"
             ],
@@ -739,12 +809,13 @@
         },
         {
             "name": "Factorization",
-            "version": "0.8.94",
-            "url": "packs/BeyondReality/files/1710mods/Factorization-1.7.10-0.8.94.jar",
-            "file": "Factorization-1.7.10-0.8.94.jar",
+            "version": "0.8.107",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/Factorization-1.7.10-0.8.107.jar",
+            "file": "Factorization-1.7.10-0.8.107.jar",
             "download": "server",
-            "md5": "81cb0780e17bc3e9418a4d159f2fd236",
-            "filesize": 3747601,
+            "md5": "88ecdb4210fd1510518df9ff7cf57013",
+            "filesize": 5910916,
+            "force": false,
             "website": "http://minecraftforum.net/topic/1351802-",
             "authors": [
                 "neptunepink"
@@ -761,18 +832,20 @@
             "description": "Auto-crafting, ore processing, barrels, and other toys"
         },
         {
-            "name": "Forestry",
-            "version": "3.6.0.586-unstable",
-            "url": "packs/BeyondReality/files/1710mods/forestry_1.7.10-3.6.0.586-unstable.jar",
-            "file": "forestry_1.7.10-3.6.0.586-unstable.jar",
+            "name": "Flood Lights",
+            "version": "1.2.8-137",
+            "url": "packs/BeyondReality/files/1710mods/FloodLights-1.7.10-1.2.8-137.jar",
+            "file": "FloodLights-1.7.10-1.2.8-137.jar",
             "download": "server",
-            "md5": "cfde8a493726e0f4fb4b05a915ca0e47",
-            "filesize": 3162516,
-            "website": "http://forestry.sengir.net/wiki.new/doku.php",
+            "md5": "afb260287bcd90a6faf05bf3818a4e04",
+            "filesize": 181264,
+            "curse_id": 224728,
+            "curse_file_id": 2320032,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/224728/",
             "authors": [
-                "SirSengir"
+                "Keridos"
             ],
-            "colour": "babyblue",
             "type": "mods",
             "client": true,
             "optional": false,
@@ -781,17 +854,43 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Bees, Trees, and more"
+            "description": "Adds flood lights to Minecraft"
+        },
+        {
+            "name": "Forestry for Minecraft",
+            "version": "4.2.16.64",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/forestry_1.7.10-4.2.16.64.jar",
+            "file": "forestry_1.7.10-4.2.16.64.jar",
+            "download": "server",
+            "md5": "8213f5ef9944b9ed3261febc0bd21064",
+            "filesize": 3322286,
+            "curse_id": 59751,
+            "curse_file_id": 2333823,
+            "force": false,
+            "website": "http://forestry.sengir.net/",
+            "authors": [
+                "SirSengir"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Trees, bees and more."
         },
         {
             "name": "Forge MultiPart",
-            "version": "1.2.0.345",
-            "url": "packs/BeyondReality/files/1710mods/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
-            "file": "ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
+            "version": "1.2.0.347",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/ForgeMultipart-1.7.10-1.2.0.347-universal.jar",
+            "file": "ForgeMultipart-1.7.10-1.2.0.347-universal.jar",
             "download": "server",
-            "md5": "3bc13e5ff47b84960f24343e209345c8",
-            "filesize": 943474,
-            "website": "http://www.minecraftforum.net/topic/909223-",
+            "md5": "ca42e854acfe2334a9cdc0515d3dd1fe",
+            "filesize": 943458,
+            "force": false,
+            "website": "https://github.com/Chicken-Bones/ForgeMultipart",
             "authors": [
                 "ChickenBones"
             ],
@@ -804,18 +903,19 @@
             "recommended": true,
             "hidden": true,
             "library": false,
-            "description": "MultiParts"
+            "description": "Open source library for facilitation of multiple functional parts in the one block space."
         },
         {
             "name": "Framez",
-            "version": "0.2-32",
-            "url": "packs/BeyondReality/files/1710mods/Framez-1.7.10-0.2-32-universal.jar",
-            "file": "Framez-1.7.10-0.2-32-universal.jar",
+            "version": "0.2-32-Hotfix",
+            "url": "packs/BeyondReality/files/1710mods/Framez-1.7.10-0.2-32-hotfix-universal.jar",
+            "file": "Framez-1.7.10-0.2-32-hotfix-universal.jar",
             "download": "server",
-            "md5": "6a1462fbca390db9312dd01f64cf3b0c",
-            "filesize": 1823138,
+            "md5": "bb7cbd0ee8ed83706652f042483d9e44",
+            "filesize": 1823165,
             "curse_id": 76118,
-            "curse_file_id": 2226507,
+            "curse_file_id": 2252712,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/76118-framez",
             "authors": [
                 "Amadornes"
@@ -833,12 +933,13 @@
         },
         {
             "name": "GalacticraftCore",
-            "version": "3.0.11",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/GalacticraftCore-1.7-3.0.11.333.jar",
-            "file": "GalacticraftCore-1.7-3.0.11.333.jar",
+            "version": "3.0.12.462",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/GalacticraftCore-1.7-3.0.12.462.jar",
+            "file": "GalacticraftCore-1.7-3.0.12.462.jar",
             "download": "server",
-            "md5": "0f38b971571e8c2856ee10f4f0c626dc",
-            "filesize": 11096863,
+            "md5": "9f444d767d0e48efa1ab28642cdbad17",
+            "filesize": 9312882,
+            "force": false,
             "website": "http://www.micdoodle8.com/mods/galacticraft",
             "donation": "http://www.micdoodle8.com/",
             "authors": [
@@ -857,36 +958,40 @@
         },
         {
             "name": "Galacticraft Planets",
-            "version": "3.0.11",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/Galacticraft-Planets-1.7-3.0.11.333.jar",
-            "file": "Galacticraft-Planets-1.7-3.0.11.333.jar",
+            "version": "3.0.12.462",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/Galacticraft-Planets-1.7-3.0.12.462.jar",
+            "file": "Galacticraft-Planets-1.7-3.0.12.462.jar",
             "download": "server",
-            "md5": "d21505c480b336befec3bb426c5991a8",
-            "filesize": 3397159,
+            "md5": "0b3e7f56ccc715874c87e676b379bd71",
+            "filesize": 3158548,
+            "force": false,
             "website": "http://www.micdoodle8.com/mods/galacticraft",
             "donation": "http://www.micdoodle8.com/",
             "authors": [
                 "micdoodle8"
             ],
             "colour": "babyblue",
-            "type": "mods",
+            "type": "dependency",
             "client": true,
             "optional": false,
             "server": true,
             "selected": false,
             "recommended": true,
-            "hidden": false,
+            "hidden": true,
             "library": false,
             "description": "Mars addon for Galacticraft."
         },
         {
             "name": "Gendustry",
-            "version": "1.4.13.36",
-            "url": "packs/BeyondReality/files/1710mods/gendustry-fu-1.4.13.36-mc1.7.10.jar",
-            "file": "gendustry-fu-1.4.13.36-mc1.7.10.jar",
+            "version": "1.6.4.135",
+            "url": "packs/BeyondReality/files/1710mods/gendustry-1.6.4.135-mc1.7.10.jar",
+            "file": "gendustry-1.6.4.135-mc1.7.10.jar",
             "download": "server",
-            "md5": "f1284b44317bf37ecdc9ada27e45157f",
-            "filesize": 1457702,
+            "md5": "2a3d8a317ade033610413424a7311982",
+            "filesize": 1976556,
+            "curse_id": 70492,
+            "curse_file_id": 2293751,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2160265-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TV8GLNVZJGGG4",
             "authors": [
@@ -904,18 +1009,17 @@
             "description": "Gendustry"
         },
         {
-            "name": "Hardcore Ender Expansion",
-            "version": "1.8.1",
-            "url": "packs/BeyondReality/files/1710mods/HardcoreEnderExpansion  MC-1.7.10  v1.8.1.jar",
-            "file": "HardcoreEnderExpansion  MC-1.7.10  v1.8.1.jar",
+            "name": "GTTweaker",
+            "version": "1.1.0",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/GTTweaker-1.7.10-1.1.0.jar",
+            "file": "GTTweaker-1.7.10-1.1.0.jar",
             "download": "server",
-            "md5": "42b37abf0d6feb15865e6c66d8bcf527",
-            "filesize": 13279146,
-            "curse_id": 228015,
-            "curse_file_id": 2240590,
-            "website": "http://www.minecraftforum.net/topic/1066990-",
+            "md5": "b3d2cc19391829c62c59dee6583237c0",
+            "filesize": 113449,
+            "force": false,
+            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=11353",
             "authors": [
-                "chylex"
+                "DreamMasterXXL"
             ],
             "colour": "babyblue",
             "type": "mods",
@@ -926,7 +1030,91 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Hardcore Ender Expansion offers unique, new content across the End."
+            "depends": [
+                "GregTech-Addon"
+            ],
+            "description": "Minetweaker Addon for GregTech 5."
+        },
+        {
+            "name": "GT++",
+            "version": "1.4.9.22-alpha",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/GT-PlusPlus-1.4.9.22-alpha.jar",
+            "file": "GT-PlusPlus-1.4.9.22-alpha.jar",
+            "download": "server",
+            "md5": "ae10943150ad1b7f5d92b98a34c19bc2",
+            "filesize": 2285568,
+            "curse_id": 252448,
+            "curse_file_id": 2361589,
+            "force": false,
+            "website": "https://github.com/draknyte1/GTplusplus/wiki",
+            "authors": [
+                "Alkalus/Draknyte1"
+            ],
+            "colour": "gold",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "depends": [
+                "GregTech-Addon"
+            ],
+            "description": "Adds a few various Multiblocks, Machines, etc to Gregtech and a plethora of other mods (Nearly 30!)"
+        },
+        {
+            "name": "Hardcore Ender Expansion",
+            "version": "1.8.6",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar",
+            "file": "HardcoreEnderExpansion  MC-1.7.10  v1.8.6.jar",
+            "download": "server",
+            "md5": "513bbcc2ccf47d4ac35e8a6d4389ea5e",
+            "filesize": 4338973,
+            "curse_id": 228015,
+            "curse_file_id": 2316923,
+            "force": false,
+            "website": "http://hee.chylex.com",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/hardcore-ender-expansion?gameCategorySlug=mc-mods&projectID=228015&cn=Add+special+instructions+to+the+addon+author()&business=chylex%40fo2.cz&bn=PP-DonationsBF:btn_donat",
+            "authors": [
+                "Programmed by chylex | http://hee.chylex.com/authors"
+            ],
+            "colour": "babyblue",
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Overhauls the End with many new areas to explore, bosses to fight and rewards to gain."
+        },
+        {
+            "name": "HEE Music",
+            "version": "1.0",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/HEE Music v1.0.zip",
+            "file": "HEE Music v1.0.zip",
+            "download": "server",
+            "md5": "2d4c4568dbfb5cb30cc58b6beb883e1b",
+            "filesize": 9181237,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/projects/music-for-hardcore-ender-expansion",
+            "authors": [
+                "chylex"
+            ],
+            "colour": "brightred",
+            "type": "resourcepack",
+            "client": true,
+            "optional": true,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "The resource pack contains 10 music tracks composed by qwertygiy, which play during various events in the End dimension, and can also be found as Music Discs in loot chests in the End. Hardcore Ender Expansion is required for the resource pack to work."
         },
         {
             "name": "Hats",
@@ -938,6 +1126,7 @@
             "filesize": 283132,
             "curse_id": 229073,
             "curse_file_id": 2232170,
+            "force": false,
             "website": "http://ichun.us/mods/hats/",
             "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
             "authors": [
@@ -964,6 +1153,7 @@
             "filesize": 32401,
             "curse_id": 229076,
             "curse_file_id": 2232181,
+            "force": false,
             "website": "http://ichun.us/mods/hats/hatstand/",
             "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
             "authors": [
@@ -981,6 +1171,33 @@
             "description": "Addon for Hats, a Hat Stand block to display hats."
         },
         {
+            "name": "HelpFixer",
+            "version": "1.0.7",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/HelpFixer-1.0.7.jar",
+            "file": "HelpFixer-1.0.7.jar",
+            "download": "server",
+            "md5": "0d6ce4776f981f97a13ab02029b5fb4d",
+            "filesize": 6552,
+            "curse_id": 223797,
+            "curse_file_id": 2223813,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/mc-mods/223797-helpfixer",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/helpfixer?gameCategorySlug=mc-mods&projectID=223797&cn=Add+special+instructions+to+the+addon+author()&business=matthewprenger%40gmail.com&bn=PP-DonationsBF:btn_donateCC_",
+            "authors": [
+                "matthewprenger"
+            ],
+            "colour": "brightred",
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": true,
+            "library": false,
+            "description": "Fixes the help command from mod derpyness"
+        },
+        {
             "name": "Highlands",
             "version": "2.2.3",
             "url": "packs/BeyondReality/files/1710mods/2.2.4/Highlands-1.7.2-v-2.2.3.jar",
@@ -990,9 +1207,10 @@
             "filesize": 361884,
             "curse_id": 221226,
             "curse_file_id": 2227924,
-            "website": "http://www.minecraftforum.net/topic/1602064-",
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104582",
             "authors": [
-                "sdj64"
+                "sdj64 fabricator77"
             ],
             "colour": "yellow",
             "type": "mods",
@@ -1016,6 +1234,7 @@
             "filesize": 158104,
             "curse_id": 228756,
             "curse_file_id": 2230908,
+            "force": false,
             "website": "http://files.minecraftforge.net/IronChests2/",
             "authors": [
                 "CPW"
@@ -1033,14 +1252,15 @@
         },
         {
             "name": "IronChestMinecarts",
-            "version": "1.0.2",
-            "url": "packs/BeyondReality/files/1710mods/IronChestMinecarts-1.0.2.jar",
-            "file": "IronChestMinecarts-1.0.2.jar",
+            "version": "1.0.4",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/IronChestMinecarts-1.0.4.jar",
+            "file": "IronChestMinecarts-1.0.4.jar",
             "download": "server",
-            "md5": "649c77e50781778e7958c7f93a507114",
-            "filesize": 31972,
+            "md5": "13f2b00d57f61938320898add9c82910",
+            "filesize": 32695,
             "curse_id": 224989,
-            "curse_file_id": 2234052,
+            "curse_file_id": 2271882,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/224989-iron-chest-minecarts",
             "authors": [
                 "ganny"
@@ -1058,14 +1278,15 @@
         },
         {
             "name": "JABBA",
-            "version": "1.2.1a",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/Jabba-1.2.1a_1.7.10.jar",
-            "file": "Jabba-1.2.1a_1.7.10.jar",
+            "version": "1.2.2",
+            "url": "packs/BeyondReality/files/1710mods/2.2.4/Jabba-1.2.2_1.7.10.jar",
+            "file": "Jabba-1.2.2_1.7.10.jar",
             "download": "server",
-            "md5": "4f5a214a8a0d1cc88420bd9eba0dec4d",
-            "filesize": 440712,
+            "md5": "9d35698387f75007c1c4dd0dcfec13e5",
+            "filesize": 445166,
             "curse_id": 73510,
-            "curse_file_id": 2229724,
+            "curse_file_id": 2302354,
+            "force": false,
             "website": "http://www.mobiusstrip.eu/",
             "authors": [
                 "ProfMobius"
@@ -1083,12 +1304,15 @@
         },
         {
             "name": "Logistics Pipes",
-            "version": "0.9.1.11",
-            "url": "packs/BeyondReality/files/1710mods/logisticspipes-0.9.1.11.jar",
-            "file": "logisticspipes-0.9.1.11.jar",
+            "version": "0.9.3.128",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/logisticspipes-0.9.3.128.jar",
+            "file": "logisticspipes-0.9.3.128.jar",
             "download": "server",
-            "md5": "8affbe6c46a2747cbeed104ec18eefad",
-            "filesize": 3150777,
+            "md5": "3842934c6c146d2bf6c93006265d2e44",
+            "filesize": 3249994,
+            "curse_id": 232838,
+            "curse_file_id": 2336229,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289546",
             "authors": [
                 "thezoro266"
@@ -1106,14 +1330,15 @@
         },
         {
             "name": "malisisdoors",
-            "version": "1.8.1",
-            "url": "packs/BeyondReality/files/1710mods/malisisdoors-1.7.10-1.8.1.jar",
-            "file": "malisisdoors-1.7.10-1.8.1.jar",
+            "version": "1.13.2",
+            "url": "packs/BeyondReality/files/1710mods/malisisdoors-1.7.10-1.13.2.jar",
+            "file": "malisisdoors-1.7.10-1.13.2.jar",
             "download": "server",
-            "md5": "5159e4c9525cc4f4efbfb94d028bd056",
-            "filesize": 1328256,
+            "md5": "74d7523f3084db7d98af486b43bdd938",
+            "filesize": 1645689,
             "curse_id": 223891,
-            "curse_file_id": 2239868,
+            "curse_file_id": 2284380,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-",
             "authors": [
                 "Ordinastie"
@@ -1131,14 +1356,15 @@
         },
         {
             "name": "MineFactory Reloaded",
-            "version": "[1.7.10]2.8.0-104",
-            "url": "packs/BeyondReality/files/1710mods/MineFactoryReloaded-[1.7.10]2.8.0-104.jar",
-            "file": "MineFactoryReloaded-[1.7.10]2.8.0-104.jar",
+            "version": "2.8.2B1-200",
+            "url": "packs/BeyondReality/files/1710mods/MineFactoryReloaded-[1.7.10]2.8.2B1-200.jar",
+            "file": "MineFactoryReloaded-[1.7.10]2.8.2B1-200.jar",
             "download": "server",
-            "md5": "51f38281ef847b479f38aa5fe087be4a",
-            "filesize": 1719328,
+            "md5": "6d747455b0f72f2318a55abe0acf569b",
+            "filesize": 1767420,
             "curse_id": 66672,
-            "curse_file_id": 2233906,
+            "curse_file_id": 2321688,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2016680-",
             "authors": [
                 "PowerCrystals",
@@ -1160,14 +1386,15 @@
         },
         {
             "name": "MineTweaker 3",
-            "version": "3.0.9C",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/MineTweaker3-1.7.10-3.0.9C.jar",
-            "file": "MineTweaker3-1.7.10-3.0.9C.jar",
+            "version": "3.0.10B",
+            "url": "packs/BeyondReality/files/1710mods/MineTweaker3-1.7.10-3.0.10B.jar",
+            "file": "MineTweaker3-1.7.10-3.0.10B.jar",
             "download": "server",
-            "md5": "fa05f1671f4cce65c9497c81e9212cca",
-            "filesize": 963268,
+            "md5": "884933d1b933e0bd2f93293201569f13",
+            "filesize": 927376,
             "curse_id": 224029,
-            "curse_file_id": 2233934,
+            "curse_file_id": 2259434,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1886008-",
             "authors": [
                 "StanH"
@@ -1184,15 +1411,16 @@
             "description": "MineTweaker is a mod that enables players and server admins to alter recipes."
         },
         {
-            "name": "ModTweaker",
-            "version": "6.0",
-            "url": "packs/BeyondReality/files/1710mods/2.1.8/ModTweaker-1.7.X-0.6-0.jar",
-            "file": "ModTweaker-1.7.X-0.6-0.jar",
+            "name": "ModTweaker2",
+            "version": "0.9.6",
+            "url": "packs/BeyondReality/files/1710mods/ModTweaker2-0.9.6.jar",
+            "file": "ModTweaker2-0.9.6.jar",
             "download": "server",
-            "md5": "4cbee2fb66cfaef1fa647a2b1aa8286f",
-            "filesize": 291506,
+            "md5": "157633c119127d9d0112a7b9f8c2c334",
+            "filesize": 572698,
             "curse_id": 220954,
-            "curse_file_id": 2216745,
+            "curse_file_id": 2313730,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093121",
             "authors": [
                 "Joshie"
@@ -1210,12 +1438,15 @@
         },
         {
             "name": "MachineMuse's Modular Powersuits",
-            "version": "0.11.0.178",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/ModularPowersuits-0.11.0.178.jar",
-            "file": "ModularPowersuits-0.11.0.178.jar",
+            "version": "0.11.1.109",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/ModularPowersuits-0.11.1.109.jar",
+            "file": "ModularPowersuits-0.11.1.109.jar",
             "download": "server",
-            "md5": "800f692671ad8c78bafb979ff1977a7b",
-            "filesize": 1654240,
+            "md5": "19574c73028b5bfb9e4237e16fd21dc3",
+            "filesize": 1641691,
+            "curse_id": 235442,
+            "curse_file_id": 2360353,
+            "force": false,
             "website": "http://machinemuse.net/",
             "donation": "http://machinemuse.net/",
             "authors": [
@@ -1233,14 +1464,13 @@
         },
         {
             "name": "MrCrayfish Furniture Mod",
-            "version": "3.4.7",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/MrCrayfishFurnitureModv3.4.7(1.7.10).jar",
-            "file": "MrCrayfishFurnitureModv3.4.7(1.7.10).jar",
+            "version": "3.4.8",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/MrCrayfishFurnitureModv3.4.8(1.7.10).jar",
+            "file": "MrCrayfishFurnitureModv3.4.8(1.7.10).jar",
             "download": "server",
-            "md5": "86926babe733787348533cc1db612584",
-            "filesize": 1728686,
-            "curse_id": 55438,
-            "curse_file_id": 2221679,
+            "md5": "500838ab284bb4c5e1ec0efb3ebbb44d",
+            "filesize": 1729803,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1114866-",
             "authors": [
                 "MrCrayFish"
@@ -1257,38 +1487,16 @@
             "description": "This mod adds in what Minecraft has been missing for years, furniture! It includes over 40 pieces of furniture to decorate your bedroom, kitchen, living room and even your garden!"
         },
         {
-            "name": "Natura",
-            "version": "2.2.0.1",
-            "url": "packs/BeyondReality/files/1710mods/natura-1.7.10-2.2.0.1.jar",
-            "file": "natura-1.7.10-2.2.0.1.jar",
-            "download": "server",
-            "md5": "ed9a7044d963b7e5ce7ca52ec628bd11",
-            "filesize": 891845,
-            "curse_id": 74120,
-            "curse_file_id": 2216125,
-            "website": "http://www.minecraftforum.net/topic/2605688-",
-            "authors": [
-                "SlimeKnights"
-            ],
-            "colour": "babyblue",
-            "type": "mods",
-            "client": true,
-            "optional": false,
-            "server": true,
-            "selected": false,
-            "recommended": true,
-            "hidden": false,
-            "library": false,
-            "description": "Natura is a mod that aims to spice up the world with interesting worldgen."
-        },
-        {
             "name": "NotEnoughItems",
-            "version": "1.0.5.110",
-            "url": "packs/BeyondReality/files/1710mods/NotEnoughItems-1.7.10-1.0.5.110-universal.jar",
-            "file": "NotEnoughItems-1.7.10-1.0.5.110-universal.jar",
+            "version": "1.0.5.120",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+            "file": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
             "download": "server",
-            "md5": "c1e524eda1e4c5adb75ac2f31bd6d6df",
-            "filesize": 512687,
+            "md5": "742e865a9a80071e80976ffedc05700e",
+            "filesize": 513136,
+            "curse_id": 222211,
+            "curse_file_id": 2302312,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/909223-",
             "donation": "http://www.chickenbones.craftsaddle.org/Pages/donate.php",
             "authors": [
@@ -1307,14 +1515,15 @@
         },
         {
             "name": "NEI Addons",
-            "version": "1.12.9.32",
-            "url": "packs/BeyondReality/files/1710mods/neiaddons-1.12.9.32-mc1.7.10.jar",
-            "file": "neiaddons-1.12.9.32-mc1.7.10.jar",
+            "version": "1.12.15.41",
+            "url": "packs/BeyondReality/files/1710mods/neiaddons-1.12.15.41-mc1.7.10.jar",
+            "file": "neiaddons-1.12.15.41-mc1.7.10.jar",
             "download": "server",
-            "md5": "01871b2dbe659f18a40b530e74bf013b",
-            "filesize": 96910,
+            "md5": "caf83daf3a9a5dbdc6386389ef977a95",
+            "filesize": 103007,
             "curse_id": 63352,
-            "curse_file_id": 2240791,
+            "curse_file_id": 2269749,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1803460-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TV8GLNVZJGGG4",
             "authors": [
@@ -1333,14 +1542,15 @@
         },
         {
             "name": "NEIIntegration",
-            "version": "1.0.10",
-            "url": "packs/BeyondReality/files/1710mods/NEIIntegration-MC1.7.10-1.0.10.jar",
-            "file": "NEIIntegration-MC1.7.10-1.0.10.jar",
+            "version": "1.1.2",
+            "url": "packs/BeyondReality/files/1710mods/NEIIntegration-MC1.7.10-1.1.2.jar",
+            "file": "NEIIntegration-MC1.7.10-1.1.2.jar",
             "download": "server",
-            "md5": "78af3d3792bf08ff1bff4cc83134b61e",
-            "filesize": 176024,
+            "md5": "54308ef273613b79870e9e46df86e7d9",
+            "filesize": 197046,
             "curse_id": 225251,
-            "curse_file_id": 2241992,
+            "curse_file_id": 2282522,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/225251-nei-integration",
             "authors": [
                 "Tonius"
@@ -1358,14 +1568,15 @@
         },
         {
             "name": "OpenBlocks",
-            "version": "1.4.3",
-            "url": "packs/BeyondReality/files/1710mods/OpenBlocks-1.7.10-1.4.3.jar",
-            "file": "OpenBlocks-1.7.10-1.4.3.jar",
+            "version": "1.5.1",
+            "url": "packs/BeyondReality/files/1710mods/OpenBlocks-1.7.10-1.5.1.jar",
+            "file": "OpenBlocks-1.7.10-1.5.1.jar",
             "download": "server",
-            "md5": "c017f648dce3f421a6af2350dc84ed17",
-            "filesize": 2598576,
+            "md5": "87633834e62298706da02daafd8fcf22",
+            "filesize": 2705342,
             "curse_id": 228816,
-            "curse_file_id": 2237477,
+            "curse_file_id": 2280606,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1941514-",
             "donation": "http://www.patreon.com/openmods",
             "authors": [
@@ -1387,14 +1598,15 @@
         },
         {
             "name": "Open Computers",
-            "version": "1.5.12.26",
-            "url": "packs/BeyondReality/files/1710mods/OpenComputers-MC1.7.10-1.5.12.26-universal.jar",
-            "file": "OpenComputers-MC1.7.10-1.5.12.26-universal.jar",
+            "version": "1.6.1.11",
+            "url": "packs/BeyondReality/files/1710mods/2.4.3/OpenComputers-MC1.7.10-1.6.1.11-universal.jar",
+            "file": "OpenComputers-MC1.7.10-1.6.1.11-universal.jar",
             "download": "server",
-            "md5": "4f91c8e37af1f74eab350534884c75e3",
-            "filesize": 10315283,
+            "md5": "9a53745f645e02b4e6b59d5028f5bbfa",
+            "filesize": 12512727,
             "curse_id": 223008,
-            "curse_file_id": 2239981,
+            "curse_file_id": 2357264,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2201440-",
             "authors": [
                 "sangar"
@@ -1412,14 +1624,15 @@
         },
         {
             "name": "Pam's Harvestcraft",
-            "version": "1.7.10g",
-            "url": "packs/BeyondReality/files/1710mods/Pams HarvestCraft 1.7.10h.jar",
-            "file": "Pams HarvestCraft 1.7.10h.jar",
+            "version": "1.7.10i",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/Pam's HarvestCraft 1.7.10Lb.jar",
+            "file": "Pam's HarvestCraft 1.7.10Lb.jar",
             "download": "server",
-            "md5": "50f74aa74147a4ced59f0b2ebd0d6705",
-            "filesize": 2062557,
+            "md5": "27115781353d0528f6f1c280e48c7ae1",
+            "filesize": 2482753,
             "curse_id": 221857,
-            "curse_file_id": 2233399,
+            "curse_file_id": 2270206,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/402069-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UMVYJNMULKL2W&lc=US&item_name=Pam%27s%20Mods&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted",
             "authors": [
@@ -1438,14 +1651,15 @@
         },
         {
             "name": "PneumaticCraft",
-            "version": "1.7.0-74",
-            "url": "packs/BeyondReality/files/1710mods/PneumaticCraft-1.7.10-1.7.0-74-universal.jar",
-            "file": "PneumaticCraft-1.7.10-1.7.0-74-universal.jar",
+            "version": "1.12.7-150",
+            "url": "packs/BeyondReality/files/1710mods/PneumaticCraft-1.7.10-1.12.7-150-universal.jar",
+            "file": "PneumaticCraft-1.7.10-1.12.7-150-universal.jar",
             "download": "server",
-            "md5": "59ff01c6eb17689b1407b1bfe2a5f80f",
-            "filesize": 12750994,
+            "md5": "10fbf105311d04f9060f0546829ca238",
+            "filesize": 6435430,
             "curse_id": 224125,
-            "curse_file_id": 2238825,
+            "curse_file_id": 2285499,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1841226-",
             "authors": [
                 "MineMaarten"
@@ -1462,18 +1676,22 @@
             "description": "A technical mod all about pneumatics!"
         },
         {
-            "name": "Power Converters",
-            "version": "1.7.10-3.0.4.46",
-            "url": "packs/BeyondReality/files/1710mods/PowerConverters-1.7.10-3.0.4.46.jar",
-            "file": "PowerConverters-1.7.10-3.0.4.46.jar",
+            "name": "Practical Logistics",
+            "version": "1.7.10-0.2.4",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/Practical-Logistics-1.7.10-0.2.4.jar",
+            "file": "Practical-Logistics-1.7.10-0.2.4.jar",
             "download": "server",
-            "md5": "68c78d2d6a134e217f8eee79dc1b70f1",
-            "filesize": 345061,
-            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1293983-",
+            "md5": "b543a1ff25be4b10c9101b9624c1d962",
+            "filesize": 728277,
+            "curse_id": 240562,
+            "curse_file_id": 2306263,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/240562/",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/practical-logistics?gameCategorySlug=mc-mods&projectID=240562&cn=Add+special+instructions+to+the+addon+author()&business=amandalansdell%40outlook.com&bn=PP-DonationsBF:b",
             "authors": [
-                "portablejim"
+                "Ollie Lansdell"
             ],
-            "colour": "babyblue",
+            "colour": "gold",
             "type": "mods",
             "client": true,
             "optional": false,
@@ -1482,19 +1700,49 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Take control of your power"
+            "depends": [
+                "SonarCore"
+            ],
+            "description": "All things data - Requires SonarCore"
+        },
+        {
+            "name": "SonarCore",
+            "version": "1.7.10-1.1.3",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/SonarCore-1.7.10-1.1.3.jar",
+            "file": "SonarCore-1.7.10-1.1.3.jar",
+            "download": "server",
+            "md5": "d102d42ec47bb9909458b2abfde331f2",
+            "filesize": 321931,
+            "curse_id": 239418,
+            "curse_file_id": 2306173,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/239418/",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/sonar-core?gameCategorySlug=mc-mods&projectID=239418&cn=Add+special+instructions+to+the+addon+author()&business=amandalansdell%40outlook.com&bn=PP-DonationsBF:btn_donate",
+            "authors": [
+                "Ollie Lansdell"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": true,
+            "library": false,
+            "description": "Sonar's Modding Framework"
         },
         {
             "name": "Pressure Pipes",
-            "version": "1.2.0.101",
-            "url": "packs/BeyondReality/files/1710mods/pressure-1.2.0.101-mc1.7.10.jar",
-            "file": "pressure-1.2.0.101-mc1.7.10.jar",
+            "version": "1.3.0.131",
+            "url": "packs/BeyondReality/files/1710mods/pressure-1.3.0.131-mc1.7.10.jar",
+            "file": "pressure-1.3.0.131-mc1.7.10.jar",
             "download": "server",
-            "md5": "0be1e2438cdcffa1ff9cb28450f44b16",
-            "filesize": 1284300,
+            "md5": "0b035c6193c7cab774d0718076863237",
+            "filesize": 1433420,
             "curse_id": 221214,
-            "curse_file_id": 2239776,
-            "website": "http://www.minecraftforum.net/topic/2160265-",
+            "curse_file_id": 2287484,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104573",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TV8GLNVZJGGG4",
             "authors": [
                 "bdew"
@@ -1512,14 +1760,15 @@
         },
         {
             "name": "Railcraft",
-            "version": "9.6.1.0",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/Railcraft_1.7.10-9.6.1.0.jar",
-            "file": "Railcraft_1.7.10-9.6.1.0.jar",
+            "version": "9.12.2.0",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/Railcraft_1.7.10-9.12.2.0.jar",
+            "file": "Railcraft_1.7.10-9.12.2.0.jar",
             "download": "server",
-            "md5": "c55d4208858a4eea65006d41859ee959",
-            "filesize": 3659711,
+            "md5": "c259e18bb43599134b3a6f96cba5f26d",
+            "filesize": 3724974,
             "curse_id": 51195,
-            "curse_file_id": 2235453,
+            "curse_file_id": 2299713,
+            "force": false,
             "website": "http://www.railcraft.info/",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HCQMGHQ4D5GQ4",
             "authors": [
@@ -1546,6 +1795,7 @@
             "filesize": 2818840,
             "curse_id": 59816,
             "curse_file_id": 2225310,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1832047-",
             "authors": [
                 "lumien"
@@ -1563,15 +1813,16 @@
         },
         {
             "name": "Remain In Motion",
-            "version": "2.7.0",
-            "url": "packs/BeyondReality/files/1710mods/RemainInMotion-2.7.0.2.jar",
-            "file": "RemainInMotion-2.7.0.2.jar",
+            "version": "2.8.9",
+            "url": "packs/BeyondReality/files/1710mods/RemainInMotion-2.8.9.jar",
+            "file": "RemainInMotion-2.8.9.jar",
             "download": "server",
-            "md5": "d82544a1093c020951cd0dc0e1c6cf88",
-            "filesize": 596920,
+            "md5": "a8988bb3bd88cb2c05d4856ecd20c340",
+            "filesize": 609732,
             "curse_id": 228462,
-            "curse_file_id": 2239877,
-            "website": "http://forums.technicpack.net/topic/59545-",
+            "curse_file_id": 2281430,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104611",
             "authors": [
                 "planetguy"
             ],
@@ -1588,15 +1839,16 @@
         },
         {
             "name": "Router Reborn",
-            "version": "1.7.10-1.2.0.8-universal",
-            "url": "packs/BeyondReality/files/1710mods/RouterReborn-1.7.10-1.2.0.8-universal.jar",
-            "file": "RouterReborn-1.7.10-1.2.0.8-universal.jar",
+            "version": "1.7.10-1.2.0.43-universal",
+            "url": "packs/BeyondReality/files/1710mods/RouterReborn-1.7.10-1.2.0.43-universal.jar",
+            "file": "RouterReborn-1.7.10-1.2.0.43-universal.jar",
             "download": "server",
-            "md5": "719c4ffd86d38ee05b19df9f07477be8",
-            "filesize": 1095132,
+            "md5": "874f5373e586fac2845336acf612495e",
+            "filesize": 1272447,
             "curse_id": 223808,
-            "curse_file_id": 2241296,
-            "website": "http://www.curseforge.com/projects/223808/",
+            "curse_file_id": 2320429,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/223808",
             "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223808-router-reborn&cn=Add+special+instructions+to+the+addon+author()&business=zyberwax@hotmail.com&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&cancel_return=http:",
             "authors": [
                 "Tom E. Voll"
@@ -1619,6 +1871,7 @@
             "download": "server",
             "md5": "083a94e77bd69a0ac454771becb4c7e0",
             "filesize": 206531,
+            "force": false,
             "website": "http://mc.shinonome.ch/doku.php?id=wiki:statues",
             "authors": [
                 "asie",
@@ -1637,15 +1890,16 @@
         },
         {
             "name": "StevesAddons",
-            "version": "0.10.12",
-            "url": "packs/BeyondReality/files/1710mods/StevesAddons-1.7.10-0.10.12.jar",
-            "file": "StevesAddons-1.7.10-0.10.12.jar",
+            "version": "0.10.16",
+            "url": "packs/BeyondReality/files/1710mods/StevesAddons-1.7.10-0.10.16.jar",
+            "file": "StevesAddons-1.7.10-0.10.16.jar",
             "download": "server",
-            "md5": "eada0d414684a9d75245495251e43501",
-            "filesize": 273258,
+            "md5": "a36495672c693817846fa703d562e6fe",
+            "filesize": 266548,
             "curse_id": 226067,
-            "curse_file_id": 2239497,
-            "website": "http://www.curse.com/mc-mods/minecraft/226067",
+            "curse_file_id": 2249705,
+            "force": false,
+            "website": "http://www.curse.com/mc-mods/minecraft/226067-steves-addons",
             "type": "mods",
             "client": true,
             "optional": false,
@@ -1666,6 +1920,7 @@
             "filesize": 2532065,
             "curse_id": 228625,
             "curse_file_id": 2230425,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/680276-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z7NBL3BRBCNFC",
             "authors": [
@@ -1690,6 +1945,7 @@
             "download": "server",
             "md5": "825819de2d82cf7e9118353c0fc821b6",
             "filesize": 694287,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2211439-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z7NBL3BRBCNFC",
             "authors": [
@@ -1716,6 +1972,7 @@
             "filesize": 228001,
             "curse_id": 223173,
             "curse_file_id": 2214014,
+            "force": false,
             "website": "http://www.curse.com/mc-mods/minecraft/223173-steves-workshop",
             "authors": [
                 "vswe"
@@ -1732,6 +1989,82 @@
             "description": "This mod adds a production table that contains multiple modular crafting tables and/or furnaces."
         },
         {
+            "name": "Storage Drawers",
+            "version": "1.10.8",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/StorageDrawers-1.7.10-1.10.8.jar",
+            "file": "StorageDrawers-1.7.10-1.10.8.jar",
+            "download": "server",
+            "md5": "87975170dba34246691aeea8b5e41ae7",
+            "filesize": 589426,
+            "curse_id": 223852,
+            "curse_file_id": 2355230,
+            "force": false,
+            "website": "http://www.jaquadro.com/",
+            "authors": [
+                "jaquadro"
+            ],
+            "colour": "babyblue",
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Multi-drawer storage blocks for quick storage and retrieval."
+        },
+        {
+            "name": "Storage Drawers: Forestry Pack",
+            "version": "1.7.10-1.1.2",
+            "url": "packs/BeyondReality/files/1710mods/2.3.9/StorageDrawers-Forestry-1.7.10-1.1.2.jar",
+            "file": "StorageDrawers-Forestry-1.7.10-1.1.2.jar",
+            "download": "server",
+            "md5": "d37ab233008bb78c3444b9a297b73190",
+            "filesize": 193260,
+            "curse_id": 231147,
+            "curse_file_id": 2280532,
+            "force": false,
+            "website": "http://www.jaquadro.com/",
+            "authors": [
+                "jaquadro"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Adds additional wood styles from the Forestry mod."
+        },
+        {
+            "name": "Storage Drawers: Misc Pack",
+            "version": "1.7.10-1.1.2",
+            "url": "packs/BeyondReality/files/1710mods/2.3.9/StorageDrawers-Misc-1.7.10-1.1.2.jar",
+            "file": "StorageDrawers-Misc-1.7.10-1.1.2.jar",
+            "download": "server",
+            "md5": "2b867286c78a598b41a4f56b99c9c408",
+            "filesize": 169957,
+            "curse_id": 235539,
+            "curse_file_id": 2280533,
+            "force": false,
+            "website": "http://www.jaquadro.com/",
+            "authors": [
+                "jaquadro"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Adds additional wood styles from various mods including ExtraBiomesXL, Highlands, Thaumcraft, and Witchery."
+        },
+        {
             "name": "Super Crafting Frame",
             "version": "1.7.10.3",
             "url": "packs/BeyondReality/files/1710mods/2.2.4/supercraftingframe-1.7.10.3.jar",
@@ -1741,6 +2074,7 @@
             "filesize": 89875,
             "curse_id": 73926,
             "curse_file_id": 2227036,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1870830-",
             "authors": [
                 "EdgarAllen"
@@ -1757,19 +2091,19 @@
             "description": "Super Crafting Frame is a simple mod that helps with repetitive crafting tasks during early game."
         },
         {
-            "name": "Sync",
-            "version": "4.0.0",
-            "url": "packs/BeyondReality/files/1710mods/Sync-4.0.0.jar",
-            "file": "Sync-4.0.0.jar",
+            "name": "TC Inventory Scanning",
+            "version": "1.0.11",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/tcinventoryscan-mc1.7.10-1.0.11.jar",
+            "file": "tcinventoryscan-mc1.7.10-1.0.11.jar",
             "download": "server",
-            "md5": "ea80d892dee913e35b83b39343fafe4e",
-            "filesize": 210456,
-            "curse_id": 229090,
-            "curse_file_id": 2232310,
-            "website": "http://ichun.us/mods/sync/",
-            "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
+            "md5": "0d5158557116916a4a14f749c745ef54",
+            "filesize": 17202,
+            "curse_id": 238003,
+            "curse_file_id": 2286894,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/238003/",
             "authors": [
-                "iChun"
+                "BlayTheNinth"
             ],
             "colour": "babyblue",
             "type": "mods",
@@ -1780,7 +2114,7 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "This mod provides clones, or as we like to call it, 'shells'. These shells are basically a new individual, with their own inventory, experience level, and even gamemode."
+            "description": "Allows hovering over items in inventories while holding a Thaumometer to scan them."
         },
         {
             "name": "Thaumcraft",
@@ -1792,6 +2126,7 @@
             "filesize": 12565807,
             "curse_id": 223628,
             "curse_file_id": 2227552,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2011841-",
             "authors": [
                 "Azanor"
@@ -1809,14 +2144,15 @@
         },
         {
             "name": "Thaumcraft Gates",
-            "version": "1.4.1",
-            "url": "packs/BeyondReality/files/1710mods/ThaumcraftGates-1.4.1.jar",
-            "file": "ThaumcraftGates-1.4.1.jar",
+            "version": "1.4.2",
+            "url": "packs/BeyondReality/files/1710mods/ThaumcraftGates-1.4.2.jar",
+            "file": "ThaumcraftGates-1.4.2.jar",
             "download": "server",
-            "md5": "221b9ce2654d1c5d48d95b01dcbe2f2f",
-            "filesize": 33255,
+            "md5": "d92fb037f2201d47ee8d92e356558317",
+            "filesize": 33290,
             "curse_id": 221897,
-            "curse_file_id": 2240166,
+            "curse_file_id": 2261794,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/221897-thaumcraftgates",
             "authors": [
                 "gannymedes"
@@ -1834,14 +2170,15 @@
         },
         {
             "name": "Thaumic Energistics",
-            "version": "0.8.10.5",
-            "url": "packs/BeyondReality/files/1710mods/thaumicenergistics-0.8.10.5.jar",
-            "file": "thaumicenergistics-0.8.10.5.jar",
+            "version": "1.0.0.5",
+            "url": "packs/BeyondReality/files/1710mods/thaumicenergistics-1.0.0.5.jar",
+            "file": "thaumicenergistics-1.0.0.5.jar",
             "download": "server",
-            "md5": "363399c4d9a364fb4b8b40d85c4625b9",
-            "filesize": 1176302,
+            "md5": "f65cfaa416572b0e7ad410aba38823b4",
+            "filesize": 1660985,
             "curse_id": 223666,
-            "curse_file_id": 2239885,
+            "curse_file_id": 2295264,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/223666-thaumic-energistics",
             "authors": [
                 "Nividica"
@@ -1858,12 +2195,15 @@
         },
         {
             "name": "Thaumic Exploration",
-            "version": "Pre 0.6.0b",
-            "url": "packs/BeyondReality/files/1710mods/ThaumicExploration-1.7.10-1.1-37.jar",
-            "file": "ThaumicExploration-1.7.10-1.1-37.jar",
+            "version": "1.1-53",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/ThaumicExploration-1.7.10-1.1-53.jar",
+            "file": "ThaumicExploration-1.7.10-1.1-53.jar",
             "download": "server",
-            "md5": "ec0c2c95dfb4d7f4a9d1da8a95b31943",
-            "filesize": 1951935,
+            "md5": "98e1277a33d6452c773fad1d28691815",
+            "filesize": 1982603,
+            "curse_id": 230969,
+            "curse_file_id": 2263414,
+            "force": false,
             "website": "https://github.com/Flaxbeard/Thaumic_Exploration",
             "authors": [
                 "Flaxbeard"
@@ -1880,12 +2220,13 @@
         },
         {
             "name": "Thaumic Tinkerer",
-            "version": "2.5-1.7.10-488",
-            "url": "packs/BeyondReality/files/1710mods/ThaumicTinkerer-2.5-1.7.10-488.jar",
-            "file": "ThaumicTinkerer-2.5-1.7.10-488.jar",
+            "version": "2.5-1.7.10-523",
+            "url": "packs/BeyondReality/files/1710mods/2.3.9/ThaumicTinkerer-2.5-1.7.10-523.jar",
+            "file": "ThaumicTinkerer-2.5-1.7.10-523.jar",
             "download": "server",
-            "md5": "e41be1361f4291059f683c33e6567d16",
-            "filesize": 2153029,
+            "md5": "63abc08859097c831a2bd4185b9a1fac",
+            "filesize": 2155805,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1813058-",
             "authors": [
                 "Vazkii",
@@ -1904,15 +2245,16 @@
         },
         {
             "name": "The Twilight Forest",
-            "version": "2.3.5",
-            "url": "packs/BeyondReality/files/1710mods/twilightforest-1.7.10-2.3.5.jar",
-            "file": "twilightforest-1.7.10-2.3.5.jar",
+            "version": "2.3.7",
+            "url": "packs/BeyondReality/files/1710mods/twilightforest-1.7.10-2.3.7.jar",
+            "file": "twilightforest-1.7.10-2.3.7.jar",
             "download": "server",
-            "md5": "4fb3168583c39ff550e2bbb67adde2f2",
-            "filesize": 3584065,
+            "md5": "7602ffcdcd8ee2f012caeed1e4d22655",
+            "filesize": 3682125,
             "curse_id": 227639,
-            "curse_file_id": 2231898,
-            "website": "http://www.minecraftforum.net/topic/561673-",
+            "curse_file_id": 2238492,
+            "force": false,
+            "website": "http://www.minecraftforum.net/topic/561673",
             "authors": [
                 "Benimatic (Ben Mazur)"
             ],
@@ -1929,14 +2271,15 @@
         },
         {
             "name": "Traveller's Gear",
-            "version": "1.16.5",
-            "url": "packs/BeyondReality/files/1710mods/TravellersGear-1.7.10-1.16.5.jar",
-            "file": "TravellersGear-1.7.10-1.16.5.jar",
+            "version": "1.16.6",
+            "url": "packs/BeyondReality/files/1710mods/TravellersGear-1.7.10-1.16.6.jar",
+            "file": "TravellersGear-1.7.10-1.16.6.jar",
             "download": "server",
-            "md5": "469293f9186d155e97c0984ca48c481d",
-            "filesize": 302209,
+            "md5": "c131993743554bace7bb96fb3bcdc249",
+            "filesize": 312717,
             "curse_id": 224440,
-            "curse_file_id": 2240981,
+            "curse_file_id": 2262112,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/224440-travellers-gear",
             "authors": [
                 "BluSunrize"
@@ -1961,6 +2304,7 @@
             "filesize": 544821,
             "curse_id": 73488,
             "curse_file_id": 2230518,
+            "force": false,
             "website": "http://www.mobiusstrip.eu/",
             "authors": [
                 "ProfMobius"
@@ -1978,14 +2322,15 @@
         },
         {
             "name": "WailaPlugins",
-            "version": "0.0.1-15",
-            "url": "packs/BeyondReality/files/1710mods/WAILAPlugins-MC1.7.10-0.0.1-15.jar",
-            "file": "WAILAPlugins-MC1.7.10-0.0.1-15.jar",
+            "version": "0.2.0-25",
+            "url": "packs/BeyondReality/files/1710mods/2.3.2/WAILAPlugins-MC1.7.10-0.2.0-25.jar",
+            "file": "WAILAPlugins-MC1.7.10-0.2.0-25.jar",
             "download": "server",
-            "md5": "66303a0304d44f27492d2cb3d71c517c",
-            "filesize": 63988,
+            "md5": "a8e67182a52e4140fa1f0b1a3770880a",
+            "filesize": 77506,
             "curse_id": 226119,
-            "curse_file_id": 2237250,
+            "curse_file_id": 2351717,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/226119-waila-plugins",
             "authors": [
                 "tterrag"
@@ -2003,15 +2348,16 @@
         },
         {
             "name": "Witching Gadgets",
-            "version": "1.1.9",
-            "url": "packs/BeyondReality/files/1710mods/WitchingGadgets-1.7.10-1.1.9.jar",
-            "file": "WitchingGadgets-1.7.10-1.1.9.jar",
+            "version": "1.1.10",
+            "url": "packs/BeyondReality/files/1710mods/WitchingGadgets-1.7.10-1.1.10.jar",
+            "file": "WitchingGadgets-1.7.10-1.1.10.jar",
             "download": "server",
-            "md5": "26dfc1e3d29fb470295d6f7aa23dcad8",
-            "filesize": 4186414,
+            "md5": "2625875481a8f3b64998a0831ca0d2e3",
+            "filesize": 4217711,
             "curse_id": 228268,
-            "curse_file_id": 2240805,
-            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2371563-",
+            "curse_file_id": 2262119,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2371563",
             "authors": [
                 "BluSunrize"
             ],
@@ -2027,15 +2373,16 @@
         },
         {
             "name": "Project Blue",
-            "version": "1.1.4-mc1.7.10",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/ProjectBlue-1.1.4-mc1.7.10.jar",
-            "file": "ProjectBlue-1.1.4-mc1.7.10.jar",
+            "version": "1.1.6-mc1.7.10",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/ProjectBlue-1.1.6-mc1.7.10.jar",
+            "file": "ProjectBlue-1.1.6-mc1.7.10.jar",
             "download": "server",
-            "md5": "522f43362f443d48a243f4db06cfda46",
-            "filesize": 185824,
+            "md5": "3531e4db9c69c252a85f988b047572e3",
+            "filesize": 236133,
+            "force": false,
             "website": "http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ProjectBlue/",
             "authors": [
-                "GregEwing"
+                "Greg Ewing"
             ],
             "colour": "red",
             "type": "mods",
@@ -2046,18 +2393,19 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Addon for project red"
+            "description": "Additional blocks and items for Project Red."
         },
         {
             "name": "ProjectRed-Base",
-            "version": "4.6.2.82",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.6.2.82-Base.jar",
-            "file": "ProjectRed-1.7.10-4.6.2.82-Base.jar",
+            "version": "4.7.0pre12.95",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.7.0pre12.95-Base.jar",
+            "file": "ProjectRed-1.7.10-4.7.0pre12.95-Base.jar",
             "download": "server",
-            "md5": "3e3024a5cba7f6c439737560ce30c719",
-            "filesize": 938287,
+            "md5": "4ca2c33c19252f4fcec87a7f28a9420c",
+            "filesize": 1432027,
             "curse_id": 228702,
-            "curse_file_id": 2240246,
+            "curse_file_id": 2280728,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652-",
             "authors": [
                 "Mr_TJP",
@@ -2076,14 +2424,15 @@
         },
         {
             "name": "ProjectRed-Compat",
-            "version": "4.6.2.82",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.6.2.82-Compat.jar",
-            "file": "ProjectRed-1.7.10-4.6.2.82-Compat.jar",
+            "version": "4.7.0pre12.95",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar",
+            "file": "ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar",
             "download": "server",
-            "md5": "0645b78548d30bf7b69d0ce47f23d403",
-            "filesize": 76117,
+            "md5": "0c16c159b33115e5a317aa51524bc85d",
+            "filesize": 84757,
             "curse_id": 229050,
-            "curse_file_id": 2240253,
+            "curse_file_id": 2280736,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652-",
             "authors": [
                 "Mr_TJP",
@@ -2102,14 +2451,15 @@
         },
         {
             "name": "ProjectRed-Integration",
-            "version": "4.6.2.82",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.6.2.82-Integration.jar",
-            "file": "ProjectRed-1.7.10-4.6.2.82-Integration.jar",
+            "version": "4.7.0pre12.95",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar",
+            "file": "ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar",
             "download": "server",
-            "md5": "0ab65f94946e8d3ebf983e8a2fcd4cc4",
-            "filesize": 3528647,
+            "md5": "0a4a94ed01d34d7dcca33c9ca54f674d",
+            "filesize": 3913048,
             "curse_id": 229045,
-            "curse_file_id": 2240249,
+            "curse_file_id": 2280731,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652-",
             "authors": [
                 "Mr_TJP",
@@ -2128,14 +2478,15 @@
         },
         {
             "name": "ProjectRed-Lighting",
-            "version": "4.6.2.82",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.6.2.82-Lighting.jar",
-            "file": "ProjectRed-1.7.10-4.6.2.82-Lighting.jar",
+            "version": "4.7.0pre12.95",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar",
+            "file": "ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar",
             "download": "server",
-            "md5": "ccecec105229ec021ef124abe4376485",
-            "filesize": 667806,
+            "md5": "e774c0bfc2f0e364a272cf159e89dc54",
+            "filesize": 633621,
             "curse_id": 229046,
-            "curse_file_id": 2240250,
+            "curse_file_id": 2280733,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652-",
             "authors": [
                 "Mr_TJP",
@@ -2154,14 +2505,15 @@
         },
         {
             "name": "ProjectRed-World",
-            "version": "4.6.2.82",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.6.2.82-World.jar",
-            "file": "ProjectRed-1.7.10-4.6.2.82-World.jar",
+            "version": "4.7.0pre12.95",
+            "url": "packs/BeyondReality/files/1710mods/2.2.7/ProjectRed-1.7.10-4.7.0pre12.95-World.jar",
+            "file": "ProjectRed-1.7.10-4.7.0pre12.95-World.jar",
             "download": "server",
-            "md5": "507f3580883f5f9befe988dbe31abd77",
-            "filesize": 214207,
+            "md5": "a823c63d9dbb9d337bf7fcf54b8d42ea",
+            "filesize": 478879,
             "curse_id": 229049,
-            "curse_file_id": 2240252,
+            "curse_file_id": 2280735,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652-",
             "authors": [
                 "Mr_TJP",
@@ -2186,6 +2538,7 @@
             "download": "server",
             "md5": "e37cb1f923c5abb6e2c9b3e96a0efcac",
             "filesize": 305645,
+            "force": false,
             "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291",
             "authors": [
                 "SeNtiMeL"
@@ -2211,6 +2564,7 @@
             "filesize": 60738,
             "curse_id": 228759,
             "curse_file_id": 2230918,
+            "force": false,
             "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=4827",
             "authors": [
                 "CPW"
@@ -2227,14 +2581,40 @@
             "description": "Compact your solars into a single block with just as much uhmp"
         },
         {
-            "name": "IC2Nuclear Control2",
-            "version": "2.2.5a-GoingForTheKill",
-            "url": "packs/BeyondReality/files/1710mods/IC2NuclearControl-2.2.5a-GoingForTheKill.jar",
-            "file": "IC2NuclearControl-2.2.5a-GoingForTheKill.jar",
+            "name": "CompactWaterTurbines",
+            "version": "1.2.0",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/CompactWaterTurbines-universal-0.1.BUILD-universal.jar",
+            "file": "CompactWaterTurbines-universal-0.1.BUILD-universal.jar",
             "download": "server",
-            "md5": "7c5cbe7649d2245fa73779ab82f39103",
-            "filesize": 1029339,
-            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=10649",
+            "md5": "0a6567552a4b6dbbafe43d4f1b7135f2",
+            "filesize": 87625,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/231829/",
+            "authors": [
+                "Gigabit101"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "A IC2 addon that adds Compact Water Turbines"
+        },
+        {
+            "name": "IC2Nuclear Control2",
+            "version": "@VERSION@",
+            "url": "packs/BeyondReality/files/1710mods/IC2NuclearControl-2.4.2a.jar",
+            "file": "IC2NuclearControl-2.4.2a.jar",
+            "download": "server",
+            "md5": "44a69caf8b38a08e388a365d504fe0e2",
+            "filesize": 1037004,
+            "curse_id": 236813,
+            "curse_file_id": 2328439,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/projects/236813",
             "authors": [
                 "Shedar",
                 "xbony2"
@@ -2248,17 +2628,21 @@
             "recommended": true,
             "hidden": false,
             "library": false,
+            "depends": [
+                "IndustrialCraft 2"
+            ],
             "description": "It gives players the ability to build efficient monitoring and control systems for IndustrialCraft 2 Nuclear Reactors. Items in IC2 Nuclear Control can monitor temperature and conditions of the reactor (as well as other IC2 objects) and respond accordingly, whether by turning off the reactor, or by setting off a Howler Alarm to warn nearby players of their impending doom."
         },
         {
             "name": "IHL Tools & Machines",
-            "version": "0.561-1.7.10",
-            "url": "packs/BeyondReality/files/1710mods/ihl-tools_n_machines-0.561-1.7.10.jar",
-            "file": "ihl-tools_n_machines-0.561-1.7.10.jar",
+            "version": "0.600-1.7.10",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/ihl-tools_n_machines-0.600-1.7.10.jar",
+            "file": "ihl-tools_n_machines-0.600-1.7.10.jar",
             "download": "server",
-            "md5": "66bebc8ea0a23719a601914436bc8cce",
-            "filesize": 3393541,
-            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=10458",
+            "md5": "37352637dc9d4fc3473de95755c4f8ab",
+            "filesize": 4153875,
+            "force": false,
+            "website": "http://forum.industrial-craft.net/index.php?page=Thread&postID=152495",
             "authors": [
                 "Foghrye4"
             ],
@@ -2271,18 +2655,20 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "Extended water physics, Sticky resin production branch, Industrial fan and much more"
+            "description": "IC2 addon for extended water physics, Sticky resin production branch, Industrial fan and much more"
         },
         {
             "name": "IndustrialCraft 2",
-            "version": "2.2.732-experimental",
-            "url": "packs/BeyondReality/files/1710mods/industrialcraft-2-2.2.732-experimental.jar",
-            "file": "industrialcraft-2-2.2.732-experimental.jar",
+            "version": "2.2.827-experimental",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/industrialcraft-2-2.2.827-experimental.jar",
+            "file": "industrialcraft-2-2.2.827-experimental.jar",
             "download": "server",
-            "md5": "21bf9cbf7057675356396c8a31a98c2c",
-            "filesize": 5487126,
-            "website": "http://www.industrial-craft.net",
-            "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RHLW3YE3T848Q",
+            "md5": "6fd8c3b8b87532c4c8884614fc2eb21d",
+            "filesize": 5633941,
+            "curse_id": 242638,
+            "curse_file_id": 2353971,
+            "force": false,
+            "website": "http://www.industrial-craft.net/",
             "authors": [
                 "Alblaka",
                 "Player",
@@ -2295,7 +2681,8 @@
                 "Feanturi",
                 "Lurch1985",
                 "SirusKing",
-                "tahu44"
+                "tahu44",
+                "Aroma1997"
             ],
             "colour": "gold",
             "type": "mods",
@@ -2310,12 +2697,13 @@
         },
         {
             "name": "GalactiGreg",
-            "version": "0.5",
-            "url": "packs/BeyondReality/files/1710mods/GalacticGreg-0.5.jar",
-            "file": "GalacticGreg-0.5.jar",
+            "version": "0.7",
+            "url": "packs/BeyondReality/files/1710mods/GalacticGreg-0.7.jar",
+            "file": "GalacticGreg-0.7.jar",
             "download": "server",
-            "md5": "545588f1c87b3eabfe3438087aacb0eb",
-            "filesize": 19920,
+            "md5": "c9340666ef046b10ccd4a7f5b17d67cf",
+            "filesize": 21106,
+            "force": false,
             "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=11039",
             "authors": [
                 "Blood ASP"
@@ -2332,16 +2720,17 @@
             "description": "Adds gregs ores to GalactiCraft's Dimensions"
         },
         {
-            "name": "GraviSuite",
-            "version": "2.0.3",
-            "url": "packs/BeyondReality/files/1710mods/GraviSuite-1.7.10-2.0.3.jar",
-            "file": "GraviSuite-1.7.10-2.0.3.jar",
+            "name": "GraviSuiteReloaded",
+            "version": "0.9.1",
+            "url": "packs/BeyondReality/files/1710mods/2.3.8/GraviSuite_Reloaded-1.7.10-0.9.1.jar",
+            "file": "GraviSuite_Reloaded-1.7.10-0.9.1.jar",
             "download": "server",
-            "md5": "06b8f12110da8dcac38597458c8dfe24",
-            "filesize": 417651,
-            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=6915",
+            "md5": "351d5e9f466a22af6ac125b2b8448619",
+            "filesize": 170935,
+            "force": false,
+            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=11911",
             "authors": [
-                "SeNtiMeL"
+                "estebes"
             ],
             "colour": "gold",
             "type": "mods",
@@ -2352,19 +2741,21 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "And now after long years of research we represent you our new development a gravitational suite, based at alien technology. "
+            "description": "Since Graviation Suite seems to be an abandoned project that is currently experiencing some bugs i'm working on my own version of it. For now you can take a look at some new things i'm adding."
         },
         {
-            "name": "Gregtech - UNOFFICIAL",
-            "version": "5.08.19",
-            "url": "packs/BeyondReality/files/1710mods/gregtech_1.7.10-5.08.19.jar",
-            "file": "gregtech_1.7.10-5.08.19.jar",
+            "name": "GregTech-Addon",
+            "version": "5.09",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/gregtech-5.09.28pre2.jar",
+            "file": "gregtech-5.09.28pre2.jar",
             "download": "server",
-            "md5": "0e2bf3e984f5151e36aa290868175c2b",
-            "filesize": 9090389,
-            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=7156",
+            "md5": "5290b4c734072f7d8d467ef7cf273156",
+            "filesize": 9522009,
+            "force": false,
+            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=11488",
             "authors": [
-                "GregoriusT"
+                "Gregorius Techneticies",
+                "Blood Asp"
             ],
             "colour": "gold",
             "type": "mods",
@@ -2375,18 +2766,19 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "One of the biggest mods available. This mod single handedly extends your gameplay experience for days"
+            "description": "This Mod adds the awesome Technology of GregTech-Intergalactical to your World!"
         },
         {
             "name": "AppleCore",
-            "version": "1.1.0",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/AppleCore-mc1.7.10-1.1.0.jar",
-            "file": "AppleCore-mc1.7.10-1.1.0.jar",
+            "version": "1.3.2",
+            "url": "packs/BeyondReality/files/1710mods/2.2.4/AppleCore-mc1.7.10-1.3.2.jar",
+            "file": "AppleCore-mc1.7.10-1.3.2.jar",
             "download": "server",
-            "md5": "eee9b53b347078639fcb658abd2fdb65",
-            "filesize": 90094,
+            "md5": "d7b176f01a0e1492c9b9deff9e19d186",
+            "filesize": 109906,
             "curse_id": 224472,
-            "curse_file_id": 2225648,
+            "curse_file_id": 2305594,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/224472-applecore",
             "authors": [
                 "squeek502"
@@ -2413,6 +2805,7 @@
             "filesize": 27281,
             "curse_id": 225564,
             "curse_file_id": 2218859,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1114612-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest",
             "authors": [
@@ -2442,6 +2835,7 @@
             "download": "server",
             "md5": "4d7172534ef2348a5aa2c4f130d9f57b",
             "filesize": 645760,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1536685-",
             "donation": "https://dl.dropbox.com/u/74770478/donate.html",
             "authors": [
@@ -2461,16 +2855,17 @@
         },
         {
             "name": "DeathCounter",
-            "version": "4.0.0",
-            "url": "packs/BeyondReality/files/1710mods/DeathCounter-4.0.0.jar",
-            "file": "DeathCounter-4.0.0.jar",
+            "version": "5.0.0",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/DeathCounter-5.0.0.jar",
+            "file": "DeathCounter-5.0.0.jar",
             "download": "server",
-            "md5": "9431069f21e6c3957d206efe9fe05448",
-            "filesize": 15602,
+            "md5": "b677a43186c01da0023494466987cf37",
+            "filesize": 16252,
             "curse_id": 229068,
-            "curse_file_id": 2232104,
+            "curse_file_id": 2232105,
+            "force": false,
             "website": "http://ichun.us/mods/death-counter/",
-            "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/death-counter?gameCategorySlug=mc-mods&projectID=229068&cn=Add+special+instructions+to+the+addon+author()&business=ohai.iChun%40hotmail.com&bn=PP-DonationsBF:btn_donateC",
             "authors": [
                 "iChun"
             ],
@@ -2483,18 +2878,19 @@
             "recommended": true,
             "hidden": false,
             "library": false,
-            "description": "This mod adds a way for the server to calculate the number of deaths a player has (since its installation). It will also notify the player of the death count and ranking on the server"
+            "description": "Simple death counter for servers. This mod adds a way for the server to calculate the number of deaths a player has (since its installation). It will also notify the player of the death count and ranking on the server"
         },
         {
             "name": "EiraIrc",
-            "version": "2.8.254",
-            "url": "packs/BeyondReality/files/1710mods/eirairc-mc1.7.10-2.8.254.jar",
-            "file": "eirairc-mc1.7.10-2.8.254.jar",
+            "version": "2.9.402",
+            "url": "packs/BeyondReality/files/1710mods/eirairc-mc1.7.10-2.9.402.jar",
+            "file": "eirairc-mc1.7.10-2.9.402.jar",
             "download": "server",
-            "md5": "89038da3e58436ab11cdb09eb114b496",
-            "filesize": 462841,
+            "md5": "03fdd71777fd346d4b8bae1ce8b68963",
+            "filesize": 531061,
             "curse_id": 68420,
-            "curse_file_id": 2241283,
+            "curse_file_id": 2281173,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1964989-",
             "authors": [
                 "Eira"
@@ -2518,6 +2914,7 @@
             "download": "server",
             "md5": "82dbb6d2e7ae5c95d525af462e8a34fd",
             "filesize": 17178,
+            "force": false,
             "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=8495",
             "authors": [
                 "Mineshopper"
@@ -2533,6 +2930,9 @@
             "hidden": false,
             "library": false,
             "group": "hud",
+            "depends": [
+                "IndustrialCraft 2"
+            ],
             "description": "Provides visual charge meter for IndustrialCraft 2 electric armor items and health meter for other items."
         },
         {
@@ -2545,6 +2945,7 @@
             "filesize": 126448,
             "curse_id": 223792,
             "curse_file_id": 2238507,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2196459-",
             "colour": "lime",
             "type": "mods",
@@ -2560,12 +2961,13 @@
         },
         {
             "name": "Inventory Tweaks",
-            "version": "1.58-147",
-            "url": "packs/BeyondReality/files/1710mods/2.2.4/InventoryTweaks-1.58-147.jar",
-            "file": "InventoryTweaks-1.58-147.jar",
+            "version": "1.59-asie-lts-fc905d6-dirty",
+            "url": "packs/BeyondReality/files/1710mods/2.3.2/InventoryTweaks-1.59-asie-lts.jar",
+            "file": "InventoryTweaks-1.59-asie-lts.jar",
             "download": "server",
-            "md5": "c5d9271ea4afb47deae8c71f8bae61a1",
-            "filesize": 221921,
+            "md5": "66819a35f6f460acfac100a9afe62bc4",
+            "filesize": 224208,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1720872-",
             "authors": [
                 "Jimeo Wan",
@@ -2585,14 +2987,17 @@
         },
         {
             "name": "JourneyMap",
-            "version": "5.1.0rc3_Unlimited",
-            "url": "http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/latest",
-            "file": "journeymap-1.7.10-5.1.0rc3-unlimited.jar",
+            "version": "1.7.10-5.1.4p1",
+            "url": "https://minecraft.curseforge.com/projects/journeymap-32274/files/2296716/download",
+            "file": "journeymap-1.7.10-5.1.4p1-unlimited.jar",
             "download": "direct",
-            "website": "http://www.minecraftforum.net/topic/772071-",
-            "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D5KK9FRAQG6DE",
+            "md5": "9091571243da9b1532ba2d8fef3f2eea",
+            "force": false,
+            "website": "http://journeymap.info",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?hosted_button_id=D5KK9FRAQG6DE&item_name=JourneyMap+(from+curseforge.com)&cmd=_s-xclick",
             "authors": [
-                "Mark Woodman AKA TechBrew"
+                "techbrew",
+                "mysticdrew"
             ],
             "colour": "lime",
             "type": "mods",
@@ -2605,19 +3010,20 @@
             "hidden": false,
             "library": false,
             "group": "a",
-            "description": "Real-time map in-game or in a web browser as you explore."
+            "description": "JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore."
         },
         {
             "name": "Morpheus",
-            "version": "1.5.23",
-            "url": "packs/BeyondReality/files/1710mods/Morpheus-1.7.10-1.5.23.jar",
-            "file": "Morpheus-1.7.10-1.5.23.jar",
+            "version": "1.7.10-1.6.21",
+            "url": "packs/BeyondReality/files/1710mods/Morpheus-1.7.10-1.6.21.jar",
+            "file": "Morpheus-1.7.10-1.6.21.jar",
             "download": "server",
-            "md5": "cfaf1e5617d84c0c11d5de136dfd7775",
-            "filesize": 14796,
+            "md5": "5d31a1480db8b091757ea5ccd4e220d9",
+            "filesize": 18767,
             "curse_id": 69118,
-            "curse_file_id": 2216544,
-            "website": "http://minecraft.curseforge.com/mc-mods/69118-morpheus",
+            "curse_file_id": 2280761,
+            "force": false,
+            "website": "https://minecraft.curseforge.com/projects/morpheus",
             "authors": [
                 "quetzi"
             ],
@@ -2634,6 +3040,55 @@
             "description": "Morpheus is a server-only mod that adds sleep voting to a forge based server."
         },
         {
+            "name": "FastCraft",
+            "version": "1.23",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/fastcraft-1.23.jar",
+            "file": "fastcraft-1.23.jar",
+            "download": "server",
+            "md5": "1253dfe58b85393a04b005d28ba83369",
+            "filesize": 182657,
+            "curse_id": 242677,
+            "curse_file_id": 2292386,
+            "force": false,
+            "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820",
+            "authors": [
+                "Player"
+            ],
+            "colour": "lime",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support."
+        },
+        {
+            "name": "Soartex Fanver Resource Pack",
+            "version": "1.7.10-Latest",
+            "url": "http://soartex.cursecdn.com/fanver/modded/1.7.x/modpacks/atlauncher/Fanver_Beyond_Reality.zip",
+            "file": "Fanver_Beyond_Reality.zip",
+            "download": "direct",
+            "force": true,
+            "website": "http://soartex.net",
+            "authors": [
+                "many"
+            ],
+            "colour": "brightred",
+            "type": "resourcepack",
+            "client": true,
+            "optional": true,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "description": "Soartex Fanver Resource Pack for Beyond Reality"
+        },
+        {
             "name": "Pyrolusite's GregTech Alternate Textures",
             "version": "1.24",
             "url": "packs/BeyondReality/files/1710mods/pgtat_v1_24.zip",
@@ -2641,6 +3096,7 @@
             "download": "server",
             "md5": "383c7227aec42574cbdac78b25082a9b",
             "filesize": 2648058,
+            "force": false,
             "website": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=10612",
             "authors": [
                 "Pyrolusite"
@@ -2655,18 +3111,22 @@
             "recommended": false,
             "hidden": false,
             "library": false,
+            "depends": [
+                "GregTech-Addon"
+            ],
             "description": "Alternate gregtech textures!"
         },
         {
             "name": "Thaumcraft Nei Plugin",
-            "version": "1.7",
-            "url": "packs/BeyondReality/files/1710mods/thaumcraftneiplugin-1.7.10-1.7.jar",
-            "file": "thaumcraftneiplugin-1.7.10-1.7.jar",
+            "version": "1.7a",
+            "url": "packs/BeyondReality/files/1710mods/thaumcraftneiplugin-1.7.10-1.7a.jar",
+            "file": "thaumcraftneiplugin-1.7.10-1.7a.jar",
             "download": "server",
-            "md5": "2fb73c8ae0ea5da3d0a94d9e5befd07a",
-            "filesize": 66666,
+            "md5": "f71559fa64c1996b03e796b660914637",
+            "filesize": 68794,
             "curse_id": 225095,
-            "curse_file_id": 2226058,
+            "curse_file_id": 2241913,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2237271",
             "authors": [
                 "DjGiannuzz"
@@ -2685,10 +3145,15 @@
         },
         {
             "name": "TC Node Tracker",
-            "version": "1.7.10-Latest",
-            "url": "http://minecraft.curseforge.com/mc-mods/227328-thaumcraft-node-tracker/files/latest",
-            "file": "tcnodetracker-1.7.10-1.1.1.jar",
-            "download": "direct",
+            "version": "1.7.10-1.1.2",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/tcnodetracker-1.7.10-1.1.2.jar",
+            "file": "tcnodetracker-1.7.10-1.1.2.jar",
+            "download": "server",
+            "md5": "fc34a6af72eeabfe0dd8be7934a3bc67",
+            "filesize": 116878,
+            "curse_id": 227328,
+            "curse_file_id": 2247224,
+            "force": false,
             "website": "http://dyonovan.com",
             "authors": [
                 "Dyonovan"
@@ -2706,6 +3171,59 @@
             "description": "Tracks scanned nodes for Thaumcraft"
         },
         {
+            "name": "TrashSlot",
+            "version": "1.0.31",
+            "url": "packs/BeyondReality/files/1710mods/trashslot-mc1.7.10-1.0.31.jar",
+            "file": "trashslot-mc1.7.10-1.0.31.jar",
+            "download": "server",
+            "md5": "04621444cb1fb2bea6410e404c0d7b29",
+            "filesize": 30178,
+            "curse_id": 235577,
+            "curse_file_id": 2267308,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/235577/",
+            "authors": [
+                "BlayTheNinth"
+            ],
+            "colour": "lime",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Adds a trash slot to the inventory screen that allows deletion of unwanted items."
+        },
+        {
+            "name": "SkinPort",
+            "version": "1.7.10-v8c",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/SkinPort-1.7.10-v8c.jar",
+            "file": "SkinPort-1.7.10-v8c.jar",
+            "download": "server",
+            "md5": "ec957abb8bb650c1f40bed2207916487",
+            "filesize": 121820,
+            "curse_id": 234948,
+            "curse_file_id": 2283924,
+            "force": false,
+            "website": "https://github.com/zlainsama/skinport",
+            "authors": [
+                "zlainsama"
+            ],
+            "colour": "lime",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "This mod adds rendering support for the new skin format introduced in minecraft 1.8"
+        },
+        {
             "name": "Voxel Map - No Radar (Zans)",
             "version": "1.0",
             "url": "packs/BeyondReality/files/1710mods/voxelmapNoRadar-1.7.10-1.0.jar",
@@ -2713,6 +3231,7 @@
             "download": "server",
             "md5": "addbca29618476109bdff9131c477872",
             "filesize": 428843,
+            "force": false,
             "website": "http://www.planetminecraft.com/mod/zans-minimap/",
             "authors": [
                 "MamiyaOtaru"
@@ -2731,14 +3250,185 @@
             "description": "Mini-Map"
         },
         {
-            "name": "AsieLib",
-            "version": "0.4.1",
-            "url": "packs/BeyondReality/files/1710mods/AsieLib-1.7.10-0.4.1.jar",
-            "file": "AsieLib-1.7.10-0.4.1.jar",
+            "name": "Forge Essentials",
+            "version": "1.4.5.1330",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/forgeessentials-1.7.10-1.4.5.1330-server.jar",
+            "file": "forgeessentials-1.7.10-1.4.5.1330-server.jar",
             "download": "server",
-            "md5": "a43865c111362b5088119e7a2044ce5c",
-            "filesize": 144823,
-            "website": "http://mc.shinonome.ch/doku.php?id=wiki:asielib",
+            "md5": "e9e7e15906748094041597d2a3e7f17d",
+            "filesize": 13671883,
+            "force": false,
+            "website": "https://github.com/ForgeEssentials/ForgeEssentialsMain",
+            "donation": "https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/forge-essentials-74735?gameCategorySlug=mc-mods&projectID=74735&cn=Add+special+instructions+to+the+addon+author()&business=forgeessentials%40gmail.com&bn=PP-DonationsBF:",
+            "authors": [
+                "AbrarSyed",
+                "luacs1998",
+                "olee",
+                "dries007",
+                "Malkierian",
+                "and others"
+            ],
+            "colour": "red",
+            "type": "mods",
+            "client": false,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "description": "A suite of server mods for Minecraft Forge"
+        },
+        {
+            "name": "Forge Essentials Client Addon",
+            "version": "1.4.5.1330",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/forgeessentials-1.7.10-1.4.5.1330-client.jar",
+            "file": "forgeessentials-1.7.10-1.4.5.1330-client.jar",
+            "download": "server",
+            "md5": "5bd9e60e0df312c30f8febe91946923e",
+            "filesize": 781881,
+            "curse_id": 235928,
+            "curse_file_id": 2361846,
+            "force": false,
+            "website": "https://github.com/ForgeEssentials/ForgeEssentialsMain",
+            "authors": [
+                "AbrarSyed",
+                "luacs1998",
+                "olee",
+                "dries007",
+                "Malkierian",
+                "And a few others"
+            ],
+            "colour": "red",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "description": "Client addon for ForgeEssentials (optional)"
+        },
+        {
+            "name": "Opis",
+            "version": "1.2.5",
+            "url": "packs/BeyondReality/files/1710mods/Opis-1.2.5_1.7.10.jar",
+            "file": "Opis-1.2.5_1.7.10.jar",
+            "download": "server",
+            "md5": "82e98ab306d952f3371a514333c226b4",
+            "filesize": 6919462,
+            "curse_id": 73832,
+            "curse_file_id": 2232520,
+            "force": false,
+            "website": "http://minecraft.curseforge.com/mc-mods/73832-opis",
+            "authors": [
+                "ProfMobis"
+            ],
+            "colour": "red",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "depends": [
+                "MobiusCore"
+            ],
+            "description": "Opis is a server profiler for Forge server. (Includes Map Writer)"
+        },
+        {
+            "name": "In-Game NBTEdit",
+            "version": "1.7.10",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/NBTEdit_1.7.10.jar",
+            "file": "NBTEdit_1.7.10.jar",
+            "download": "server",
+            "md5": "90e0934c34fe91161362421966a30b39",
+            "filesize": 77220,
+            "force": false,
+            "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286750-in-game-nbtedit-edit-mob-spawners-attributes-in",
+            "authors": [
+                "Davidee"
+            ],
+            "colour": "red",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "description": "This mod allows opped users to edit nbt tags in game - modify both regular entities and tile entities without even closing your game!"
+        },
+        {
+            "name": "WorldEdit",
+            "version": "6.1.1;no_git_id",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/worldedit-forge-mc1.7.10-6.1.1-dist.jar",
+            "file": "worldedit-forge-mc1.7.10-6.1.1-dist.jar",
+            "download": "server",
+            "md5": "2009d49df40267da5bba19e09e29463a",
+            "filesize": 1461467,
+            "curse_id": 225608,
+            "curse_file_id": 2309699,
+            "force": false,
+            "website": "http://wiki.sk89q.com/wiki/WorldEdit",
+            "authors": [
+                "sk89q",
+                "wizjany",
+                "TomyLobo"
+            ],
+            "colour": "red",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": true,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "description": "WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer."
+        },
+        {
+            "name": "WorldEditCUI",
+            "version": "1.7.10",
+            "url": "packs/BeyondReality/files/1710mods/2.4.0/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod",
+            "file": "mod_worldeditcui_1.7.10_00_mc1.7.10.litemod",
+            "download": "server",
+            "md5": "efe6e87bcb01a3637fb9c6254f8c659b",
+            "filesize": 90450,
+            "curse_id": 254692,
+            "curse_file_id": 2352910,
+            "force": false,
+            "website": "http://www.liteloader.com/mod/worldeditcui",
+            "colour": "red",
+            "type": "mods",
+            "client": true,
+            "optional": true,
+            "server": false,
+            "serverSeparate": false,
+            "selected": false,
+            "recommended": false,
+            "hidden": false,
+            "library": false,
+            "depends": [
+                "Liteloader"
+            ],
+            "description": "A graphical user interface for WorldEdit. WorldEditCUI is designed to assist in using WorldEdit, as well as preventing accidental errors."
+        },
+        {
+            "name": "AsieLib",
+            "version": "0.4.6.100-dev",
+            "url": "packs/BeyondReality/files/1710mods/2.4.2/AsieLib-1.7.10-0.4.6.100-dev.jar",
+            "file": "AsieLib-1.7.10-0.4.6.100-dev.jar",
+            "download": "server",
+            "md5": "3d448f577ed57986f5d436ec5ea2c238",
+            "filesize": 158644,
+            "force": false,
+            "website": "http://wiki.vex.tty.sh/wiki:asielib",
             "authors": [
                 "Asie"
             ],
@@ -2762,6 +3452,7 @@
             "filesize": 95415,
             "curse_id": 227083,
             "curse_file_id": 2224857,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/2535073-",
             "authors": [
                 "Azanor"
@@ -2778,14 +3469,15 @@
         },
         {
             "name": "BdLib",
-            "version": "1.8.2.91",
-            "url": "packs/BeyondReality/files/1710mods/bdlib-1.8.2.91-mc1.7.10.jar",
-            "file": "bdlib-1.8.2.91-mc1.7.10.jar",
+            "version": "1.9.4.109",
+            "url": "packs/BeyondReality/files/1710mods/bdlib-1.9.4.109-mc1.7.10.jar",
+            "file": "bdlib-1.9.4.109-mc1.7.10.jar",
             "download": "server",
-            "md5": "316b12d1995a998957dc0ecd4e1d7f9b",
-            "filesize": 1412880,
+            "md5": "e446121e3e94b77d1c610ceed0fd3f68",
+            "filesize": 1503184,
             "curse_id": 70496,
-            "curse_file_id": 2241929,
+            "curse_file_id": 2269259,
+            "force": false,
             "website": "http://minecraft.curseforge.com/mc-mods/bdlib/",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TV8GLNVZJGGG4",
             "authors": [
@@ -2809,6 +3501,7 @@
             "download": "server",
             "md5": "95aefc88a7fbc4b2c82c6cd4a15dc6b2",
             "filesize": 906229,
+            "force": false,
             "website": "http://mcbeyondreality.com",
             "authors": [
                 "Dyonovan",
@@ -2828,14 +3521,15 @@
         },
         {
             "name": "bspkrsCore",
-            "version": "6.15",
-            "url": "packs/BeyondReality/files/1710mods/2.1.9/[1.7.10]bspkrsCore-universal-6.15.jar",
-            "file": "[1.7.10]bspkrsCore-universal-6.15.jar",
+            "version": "6.16",
+            "url": "packs/BeyondReality/files/1710mods/2.1.9/[1.7.10]bspkrsCore-universal-6.16.jar",
+            "file": "[1.7.10]bspkrsCore-universal-6.16.jar",
             "download": "server",
-            "md5": "4043efb43e92696a85fe56dc95e876ec",
-            "filesize": 198933,
+            "md5": "e77344bda12bd0b91e01dfbb00a653f0",
+            "filesize": 198525,
             "curse_id": 59218,
-            "curse_file_id": 2218819,
+            "curse_file_id": 2227503,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1114612-",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest",
             "authors": [
@@ -2857,12 +3551,15 @@
         },
         {
             "name": "CodeChickenCore",
-            "version": "1.0.7.46",
-            "url": "packs/BeyondReality/files/1710mods/CodeChickenCore-1.7.10-1.0.7.46-universal.jar",
-            "file": "CodeChickenCore-1.7.10-1.0.7.46-universal.jar",
+            "version": "1.0.7.47",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
+            "file": "CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
             "download": "server",
-            "md5": "8419dad3d2a93e11f0cedbe0868281f2",
-            "filesize": 145722,
+            "md5": "07690caf86ecf79739852154f5e44750",
+            "filesize": 145782,
+            "curse_id": 222213,
+            "curse_file_id": 2262089,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/909223-",
             "donation": "http://www.chickenbones.craftsaddle.org/Pages/donate.php",
             "authors": [
@@ -2886,6 +3583,7 @@
             "download": "server",
             "md5": "cf87c708d523f0385e17282f293e8fd5",
             "filesize": 301667,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/909223-",
             "donation": "http://www.chickenbones.craftsaddle.org/Pages/donate.php",
             "authors": [
@@ -2903,14 +3601,15 @@
         },
         {
             "name": "CoFH Core",
-            "version": "3.0.2-283",
-            "url": "packs/BeyondReality/files/1710mods/CoFHCore-[1.7.10]3.0.2-283.jar",
-            "file": "CoFHCore-[1.7.10]3.0.2-283.jar",
+            "version": "3.1.3-328",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/CoFHCore-[1.7.10]3.1.3-328.jar",
+            "file": "CoFHCore-[1.7.10]3.1.3-328.jar",
             "download": "server",
-            "md5": "6f79a1e0963a5ec8b33729e9d0ff0b96",
-            "filesize": 1056214,
+            "md5": "66d9c1e024fdee1d2aecd32ef598fc54",
+            "filesize": 1230497,
             "curse_id": 69162,
-            "curse_file_id": 2240263,
+            "curse_file_id": 2320817,
+            "force": false,
             "website": "http://teamcofh.com/",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3M6YK5LMC4GT6",
             "authors": [
@@ -2936,6 +3635,7 @@
             "download": "server",
             "md5": "75615356605c8128013da9e3ac62a249",
             "filesize": 263965,
+            "force": false,
             "website": "http://NA.com/",
             "type": "dependency",
             "client": true,
@@ -2955,6 +3655,7 @@
             "download": "server",
             "md5": "d862e30ff6b5d78264677dcd6507abb8",
             "filesize": 365552,
+            "force": false,
             "website": "http://NA.com/",
             "type": "dependency",
             "client": true,
@@ -2974,6 +3675,7 @@
             "download": "server",
             "md5": "2773bb49335358b2d042ac50690ea5d7",
             "filesize": 211938,
+            "force": false,
             "website": "http://www.industrial-craft.net",
             "donation": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RHLW3YE3T848Q",
             "authors": [
@@ -3001,15 +3703,42 @@
             "description": "Lib for IC2"
         },
         {
-            "name": "iChunUtil",
+            "name": "Hats - Files",
             "version": "4.0.0",
-            "url": "packs/BeyondReality/files/1710mods/iChunUtil-4.0.0.jar",
-            "file": "iChunUtil-4.0.0.jar",
+            "url": "packs/BeyondReality/files/1710mods/hats-4.0.0.zip",
+            "file": "hats-4.0.0.zip",
             "download": "server",
-            "md5": "5f01514a2946ef2bf3bf413af88f0e42",
-            "filesize": 158708,
+            "md5": "d0c5f6e641446a735e433b4fda3d0124",
+            "filesize": 721876,
+            "force": false,
+            "website": "http://ichun.us/mods/hats/",
+            "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
+            "authors": [
+                "iChun"
+            ],
+            "type": "extract",
+            "extractTo": "root",
+            "extractFolder": "/",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": true,
+            "library": false,
+            "description": "Adds a bunch of hats, as wells as the ability to add more, into Minecraft"
+        },
+        {
+            "name": "iChunUtil",
+            "version": "4.2.3",
+            "url": "packs/BeyondReality/files/1710mods/iChunUtil-4.2.3.jar",
+            "file": "iChunUtil-4.2.3.jar",
+            "download": "server",
+            "md5": "9f90848755f2c3002996b86b57dee2f1",
+            "filesize": 213084,
             "curse_id": 229060,
-            "curse_file_id": 2232040,
+            "curse_file_id": 2338148,
+            "force": false,
             "website": "http://www.ichun.us/",
             "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
             "authors": [
@@ -3027,14 +3756,15 @@
         },
         {
             "name": "malisiscore",
-            "version": "0.12.2",
-            "url": "packs/BeyondReality/files/1710mods/malisiscore-1.7.10-0.12.2.jar",
-            "file": "malisiscore-1.7.10-0.12.2.jar",
+            "version": "0.14.3",
+            "url": "packs/BeyondReality/files/1710mods/malisiscore-1.7.10-0.14.3.jar",
+            "file": "malisiscore-1.7.10-0.14.3.jar",
             "download": "server",
-            "md5": "627c9d308135d923649ddb46044dc838",
-            "filesize": 586265,
+            "md5": "58e117a619bb3d729980ce320dca8535",
+            "filesize": 648081,
             "curse_id": 223896,
-            "curse_file_id": 2239806,
+            "curse_file_id": 2283267,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-",
             "authors": [
                 "Ordinastie"
@@ -3051,14 +3781,15 @@
         },
         {
             "name": "Mantle",
-            "version": "0.3.2",
-            "url": "packs/BeyondReality/files/1710mods/Mantle-1.7.10-0.3.2.jar",
-            "file": "Mantle-1.7.10-0.3.2.jar",
+            "version": "0.3.2b",
+            "url": "packs/BeyondReality/files/1710mods/Mantle-1.7.10-0.3.2b.jar",
+            "file": "Mantle-1.7.10-0.3.2b.jar",
             "download": "server",
-            "md5": "3f360f0fb92cfb252235fe99ddfc7495",
-            "filesize": 196807,
+            "md5": "934fe4ef7a9b971f22b5dd53e57fa976",
+            "filesize": 202458,
             "curse_id": 74924,
-            "curse_file_id": 2215235,
+            "curse_file_id": 2264244,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1659892-",
             "authors": [
                 "SlimeKnights"
@@ -3075,18 +3806,19 @@
         },
         {
             "name": "Micdoodle8 Core",
-            "version": "3.0.11.333",
-            "url": "packs/BeyondReality/files/1710mods/2.2.7/MicdoodleCore-1.7-3.0.11.333.jar",
-            "file": "MicdoodleCore-1.7-3.0.11.333.jar",
+            "version": "3.0.12.462",
+            "url": "packs/BeyondReality/files/1710mods/2.4.1/MicdoodleCore-1.7-3.0.12.462.jar",
+            "file": "MicdoodleCore-1.7-3.0.12.462.jar",
             "download": "server",
-            "md5": "253976ec6b091a9fb09a06a75d2e9398",
-            "filesize": 61431,
+            "md5": "498287a7e8c4eb843102d48177e2d729",
+            "filesize": 64913,
+            "force": false,
             "website": "http://www.micdoodle8.com/",
             "donation": "http://www.micdoodle8.com/",
             "authors": [
                 "micdoodle8"
             ],
-            "type": "mods",
+            "type": "dependency",
             "client": true,
             "optional": false,
             "server": true,
@@ -3097,15 +3829,41 @@
             "description": "Provides core features of Micdoodle8's mods"
         },
         {
-            "name": "MrTJPCore",
-            "version": "1.0.8.16",
-            "url": "packs/BeyondReality/files/1710mods/MrTJPCore-1.7.10-1.0.8.16-universal.jar",
-            "file": "MrTJPCore-1.7.10-1.0.8.16-universal.jar",
+            "name": "MobiusCore",
+            "version": "1.2.5",
+            "url": "packs/BeyondReality/files/1710mods/MobiusCore-1.2.5_1.7.10.jar",
+            "file": "MobiusCore-1.2.5_1.7.10.jar",
             "download": "server",
-            "md5": "3a7947a41103bff7f553088a7a1e2706",
-            "filesize": 527923,
+            "md5": "29990acae6a30d35057380222be87294",
+            "filesize": 56432,
+            "curse_id": 76734,
+            "curse_file_id": 2232516,
+            "force": false,
+            "website": "http://www.curseforge.com/projects/76734/",
+            "authors": [
+                "ProfMobius"
+            ],
+            "type": "mods",
+            "client": true,
+            "optional": false,
+            "server": true,
+            "selected": false,
+            "recommended": true,
+            "hidden": false,
+            "library": false,
+            "description": "Core mod used for Opis"
+        },
+        {
+            "name": "MrTJPCore",
+            "version": "1.1.0.33",
+            "url": "packs/BeyondReality/files/1710mods/MrTJPCore-1.1.0.33-universal.jar",
+            "file": "MrTJPCore-1.1.0.33-universal.jar",
+            "download": "server",
+            "md5": "e5c8aabd096cb0cde340bb86689a58cf",
+            "filesize": 753280,
             "curse_id": 229002,
-            "curse_file_id": 2240241,
+            "curse_file_id": 2279413,
+            "force": false,
             "website": "http://www.minecraftforum.net/topic/1885652",
             "authors": [
                 "Mr_TJP"
@@ -3123,12 +3881,15 @@
         },
         {
             "name": "Numina",
-            "version": "0.4.0.100",
-            "url": "packs/BeyondReality/files/1710mods/2.2.2/Numina-0.4.0.100.jar",
-            "file": "Numina-0.4.0.100.jar",
+            "version": "0.4.1.104",
+            "url": "packs/BeyondReality/files/1710mods/2.3.4/Numina-0.4.1.104.jar",
+            "file": "Numina-0.4.1.104.jar",
             "download": "server",
-            "md5": "60374cfb594b6ef00b3479e25c0665bf",
-            "filesize": 195925,
+            "md5": "f5bfd1505a3c5ca9c3b8f2ba31e21a92",
+            "filesize": 93604,
+            "curse_id": 235440,
+            "curse_file_id": 2356393,
+            "force": false,
             "website": "http://machinemuse.net/",
             "donation": "http://machinemuse.net/",
             "authors": [
@@ -3146,14 +3907,15 @@
         },
         {
             "name": "OpenMods Lib",
-            "version": "0.7.3",
-            "url": "packs/BeyondReality/files/1710mods/OpenModsLib-1.7.10-0.7.3.jar",
-            "file": "OpenModsLib-1.7.10-0.7.3.jar",
+            "version": "0.9.1",
+            "url": "packs/BeyondReality/files/1710mods/OpenModsLib-1.7.10-0.9.1.jar",
+            "file": "OpenModsLib-1.7.10-0.9.1.jar",
             "download": "server",
-            "md5": "4d43d65162ef049813193f8521e6ba81",
-            "filesize": 813211,
+            "md5": "80ab054e554baef8edec979f7b900301",
+            "filesize": 1154687,
             "curse_id": 228815,
-            "curse_file_id": 2237475,
+            "curse_file_id": 2280605,
+            "force": false,
             "website": "http://www.openblocks.info/",
             "donation": "http://www.patreon.com/openmods",
             "authors": [
@@ -3171,14 +3933,15 @@
         },
         {
             "name": "PlanetguyLib",
-            "version": "1.6.0.1",
-            "url": "packs/BeyondReality/files/1710mods/PlanetguyLib-1.6.0.1.jar",
-            "file": "PlanetguyLib-1.6.0.1.jar",
+            "version": "1.9.2",
+            "url": "packs/BeyondReality/files/1710mods/PlanetguyLib-1.9.2.jar",
+            "file": "PlanetguyLib-1.9.2.jar",
             "download": "server",
-            "md5": "f3ef3a9248cfc73c22fea56717b0c79a",
-            "filesize": 67555,
+            "md5": "2d561662d1509d1c33c15c67baad8902",
+            "filesize": 107504,
             "curse_id": 225256,
-            "curse_file_id": 2239862,
+            "curse_file_id": 2305574,
+            "force": false,
             "website": "http://forums.technicpack.net/topic/59545-",
             "authors": [
                 "planetguy"
@@ -3195,14 +3958,15 @@
         },
         {
             "name": "PlayerAPI",
-            "version": "1.3",
-            "url": "packs/BeyondReality/files/1710mods/PlayerAPI-1.7.10-1.3.jar",
-            "file": "PlayerAPI-1.7.10-1.3.jar",
+            "version": "1.4",
+            "url": "packs/BeyondReality/files/1710mods/PlayerAPI-1.7.10-1.4.jar",
+            "file": "PlayerAPI-1.7.10-1.4.jar",
             "download": "server",
-            "md5": "fb7247288370504ce77b17189fa63adf",
-            "filesize": 266542,
+            "md5": "a86805d3720f12610ae1f28f7eb08b53",
+            "filesize": 282107,
             "curse_id": 228969,
-            "curse_file_id": 2235368,
+            "curse_file_id": 2248928,
+            "force": false,
             "website": "http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1277996-",
             "type": "mods",
             "client": true,
@@ -3215,30 +3979,6 @@
             "description": "Player API gives third party mods managed access to the main player class"
         },
         {
-            "name": "MineTweaker Scripts",
-            "version": "2.3.0a",
-            "url": "packs/BeyondReality/files/1710mods/scripts-2.3.0a.zip",
-            "file": "scripts-2.3.0a.zip",
-            "download": "server",
-            "md5": "18ea7f63d7ceb83932a6832e7b2ad4cc",
-            "filesize": 21451,
-            "website": "http://www.mcbeyondreality.com",
-            "authors": [
-                "Beyond Reality"
-            ],
-            "type": "extract",
-            "extractTo": "root",
-            "extractFolder": "/",
-            "client": true,
-            "optional": false,
-            "server": true,
-            "selected": false,
-            "recommended": true,
-            "hidden": true,
-            "library": false,
-            "description": "Scripts for MineTweaker"
-        },
-        {
             "name": "Slick-Util",
             "version": "2.2.4",
             "url": "packs/BeyondReality/files/1710mods/2.2.4/slick-util.jar",
@@ -3246,6 +3986,7 @@
             "download": "server",
             "md5": "0b9db0b296b5eb1df8d11eb30dc87b8f",
             "filesize": 113869,
+            "force": false,
             "website": "http://slick.ninjacave.com/slick-util/",
             "authors": [
                 "NinjaCave"
@@ -3261,20 +4002,16 @@
             "description": "Slick-Util is a small library to enable you to load various image, sound and font formats for use with LWJGL."
         },
         {
-            "name": "TTCore",
-            "version": "0.1.0-67",
-            "url": "packs/BeyondReality/files/1710mods/ttCore-MC1.7.10-0.1.0-67.jar",
-            "file": "ttCore-MC1.7.10-0.1.0-67.jar",
+            "name": "Vorbis-Java-Core",
+            "version": "0.8-20150201.161816-1",
+            "url": "packs/BeyondReality/files/1710mods/vorbis-java-core-0.8-20150201.161816-1.jar",
+            "file": "vorbis-java-core-0.8-20150201.161816-1.jar",
             "download": "server",
-            "md5": "6e53f7e2212e5598e351181d74b36b6b",
-            "filesize": 129614,
-            "curse_id": 226082,
-            "curse_file_id": 2227915,
-            "website": "http://minecraft.curseforge.com/mc-mods/226082-ttcore",
-            "authors": [
-                "tterrag"
-            ],
-            "type": "mods",
+            "md5": "1a0a194558fdb3f6329c9a785256c7ef",
+            "filesize": 103339,
+            "force": false,
+            "website": "https://github.com/Gagravarr/VorbisJava",
+            "type": "dependency",
             "client": true,
             "optional": false,
             "server": true,
@@ -3282,32 +4019,7 @@
             "recommended": true,
             "hidden": true,
             "library": false,
-            "description": "Core mod"
-        },
-        {
-            "name": "Hats - Files",
-            "version": "4.0.0",
-            "url": "packs/BeyondReality/files/1710mods/hats-4.0.0.zip",
-            "file": "hats-4.0.0.zip",
-            "download": "server",
-            "md5": "d0c5f6e641446a735e433b4fda3d0124",
-            "filesize": 721876,
-            "website": "http://ichun.us/mods/hats/",
-            "donation": "http://pitchinbox.com/redirect.php?id=5757827081",
-            "authors": [
-                "iChun"
-            ],
-            "type": "extract",
-            "extractTo": "root",
-            "extractFolder": "/",
-            "client": true,
-            "optional": false,
-            "server": true,
-            "selected": false,
-            "recommended": true,
-            "hidden": true,
-            "library": false,
-            "description": "Adds a bunch of hats, as wells as the ability to add more, into Minecraft"
+            "description": "Needed For MPS"
         }
     ]
 }
