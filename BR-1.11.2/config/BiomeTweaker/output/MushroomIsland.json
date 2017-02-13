@@ -1,0 +1,43 @@
+
+{
+  "ID": 14,
+  "Name": "MushroomIsland",
+  "Class": "net.minecraft.world.biome.BiomeMushroomIsland",
+  "Root Height": 0.2,
+  "Height Variation": 0.3,
+  "Top Block": "minecraft:mycelium",
+  "Filler Block": "minecraft:dirt",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "16777215",
+  "Temperature": 0.9,
+  "Humidity": 1.0,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MUSHROOM",
+    "RARE"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityMooshroom",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false
+}
