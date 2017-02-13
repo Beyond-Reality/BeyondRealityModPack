@@ -64,7 +64,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.1 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | Shows a preview of the block that will be placed |
-| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.5.233 | Simple recipe and item helper. |
+| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.5.234 | Simple recipe and item helper. |
 | [JEI Bees](http://bdew.net/) | 0.9.0.4 | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | Adds Resources and Mob Drops to JEI |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.4 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
@@ -78,14 +78,14 @@
 | [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension) | 1.11.2-1.0.1.0 | Adds intuitive solutions for vertical mobility. |
 | [Clipboard](https://rtfm.shadowfacts.net/clipboard/) | 1.11-1.2.1 | A simple clipboard for keeping track of your todo list. |
 | [Quark](http://www.vazkii.us) | r1.2-81 | Small things. |
-| [Forestry](http://forestry.sengir.net/) | 5.3.1.34 | Trees, bees and more. |
+| [Forestry](http://forestry.sengir.net/) | 5.3.1.35 | Trees, bees and more. |
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.4 | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Storage Drawers](http://www.jaquadro.com/) | 4.1.0 | Multi-drawer storage blocks for quick storage and retrieval. |
 | [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.2.0 | Just a bunch of useful things |
 | [Pam's HarvestCraft](http://minecraft.curseforge.com/members/MatrexsVigil/projects) | 1.0 | Expanding minecraft's food system. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.7.9 | Random Things packed into one Mod. |
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.25 | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
-| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.3.54 | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
+| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.4.73 | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.4 | Unlimited Fluid Transport |
 | [Shulkerbox](http://www.curseforge.com/projects/advanced-shulkerboxes/) | 1.1.0 | Shulkerbox |
 | [Pipes](https://crafterkina.github.io/Pipes/) | 1.11-1.1.0.12 | Pipes |
