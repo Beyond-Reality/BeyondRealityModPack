@@ -81,7 +81,7 @@
 | [Forestry](http://forestry.sengir.net/) | 5.3.1.35 | Trees, bees and more. |
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.4 | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Storage Drawers](http://www.jaquadro.com/) | 4.1.0 | Multi-drawer storage blocks for quick storage and retrieval. |
-| [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.2.0 | Just a bunch of useful things |
+| [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.3.0 | Just a bunch of useful things |
 | [Pam's HarvestCraft](http://minecraft.curseforge.com/members/MatrexsVigil/projects) | 1.0 | Expanding minecraft's food system. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.7.9 | Random Things packed into one Mod. |
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.25 | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
