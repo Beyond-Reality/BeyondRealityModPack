@@ -92,6 +92,7 @@
 | [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.9 | Teleport back to activated waystones. For Survival, Adventure or Servers. |
 | [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4 | An elegant solution to your hoarding problem |
 | [Sophisticated Wolves](http://sophisticated-wolves.nightkosh.com/) | 3.6.4 | Improves wolves through gameplay tweaks, AI improvements, and new features. |
+| [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.0 | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | Adds armors and storage for wolves! |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | A small mod to automatically select the default world generator for both single player and servers |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Adds a new world type which generates realistic terrain for Overworld biomes. |
