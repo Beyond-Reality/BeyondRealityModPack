@@ -3,12 +3,21 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "menu:textures/logo.png",
+            "posX" : -240,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "width" : 700,
+            "height" : 100,
             "alignment" : "top_center"
+        },
+		"black":
+        {
+            "image" : "menu:textures/bar.png",
+            "posX" : 25,
+            "posY" : 0,
+            "width" : 205,
+            "height" : 2000,
+            "alignment" : "top_left"
         }
     },
     
@@ -17,10 +26,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : 40,
+            "posY" : 200,
+            "width" : 175,
             "height" : 20,
+			"alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -31,10 +41,11 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 40,
+            "posY" : 225,
+            "width" : 175,
             "height" : 20,
+			"alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -45,10 +56,11 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+			"posX" : 40,
+            "posY" : 250,
+            "width" : 175,
             "height" : 20,
+			"alignment" : "top_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -59,10 +71,11 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 40,
+            "posY" : -25,
+            "width" : 60,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -73,10 +86,11 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 155,
+            "posY" : -25,
+            "width" : 60,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "quit"
@@ -86,10 +100,11 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 105,
+            "posY" : -25,
             "width" : 20,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -100,10 +115,11 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 130,
+            "posY" : -25,
             "width" : 20,
             "height" : 20,
+			"alignment" : "bottom_left",
             "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
@@ -121,15 +137,6 @@
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right"
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
         }
     },
     
@@ -137,20 +144,16 @@
     {
         "splash-text":
         {
-            "posX" : 90,
-            "posY" : 70,
+            "posX" : 350,
+            "posY" : 110,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "menu:textures/bg.png"
         }
     }
 }
