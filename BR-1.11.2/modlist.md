@@ -43,7 +43,7 @@
 | [Placeable Items Mod](https://minecraft.curseforge.com/projects/placeable-items) | 3.0.3.1 | This mod allows players to place items as 3D models |
 | [ReAuth](http://minecraft.curseforge.com/projects/reauth) | 3.4.1 | A Mod to renew your Session |
 | [Villager Fix](http://www.curseforge.com/projects/villager-fix/) | 1-11 | Tweak for villagers and mobGriefing in 1.8 |
-| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r100 | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
+| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r101 | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
 | [Better Builder's Wands](http://www.curseforge.com/projects/better-builders-wands/) | 0.11.0 | Wands that allow placing of multiple blocks at a time |
 | [Reliquary](https://minecraft.curseforge.com/projects/reliquary-v1-3) | 1.11.2-1.3.3.635 | Two words: magical swag. Oh, and a gun. |
 | [Not Enough Wands](http://www.curseforge.com/projects/not-enough-wands/) | 1.1x-1.5.4 | Wands, wands, and more wands |
