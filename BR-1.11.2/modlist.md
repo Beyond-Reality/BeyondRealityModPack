@@ -9,7 +9,7 @@
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | A Scala API for Minecraft mods. |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | The lightweight Minecraft modding library |
-| [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.0.1 | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
+| [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.0 | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.11.4.1 | RebornCore, A core set of classes. |
 | [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | A library mod required for all my other mods. |
@@ -27,7 +27,7 @@
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Fullscreen Windowed](https://github.com/hancin/Fullscreen-Windowed-Minecraft) | 1.5.0 | Activates fullscreen windowed mode for Minecraft |
 | [Sound Filters](http://www.curseforge.com/projects/sound-filters/) | 0.9_for_1.11 | Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls. |
-| [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.2.8.0 | Improving Minecraft's sight and sound experience |
+| [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.2.8.1 | Improving Minecraft's sight and sound experience |
 | [Light Level Overlay Reloaded](http://www.mmyzd.com) | 1.1.3-mc1.11.2 | A mod visualizes the light level on top of blocks. |
 | [Stellar Sky](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1444983-wip-stellarium-real-constellations-sun-moon) | 0.6.5.1.2 | Constellations & Planets in Minecraft! You can see Real Sky with this mod. |
 | [Teslafied](http://www.curseforge.com/projects/teslafied/) | 1.1 | Allows RF capable Tile Entities to also support Tesla |
@@ -64,7 +64,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.1 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | Shows a preview of the block that will be placed |
-| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.5.234 | Simple recipe and item helper. |
+| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.235 | Simple recipe and item helper. |
 | [JEI Bees](http://bdew.net/) | 0.9.0.4 | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | Adds Resources and Mob Drops to JEI |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.4 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
@@ -92,7 +92,7 @@
 | [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.9 | Teleport back to activated waystones. For Survival, Adventure or Servers. |
 | [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4 | An elegant solution to your hoarding problem |
 | [Sophisticated Wolves](http://sophisticated-wolves.nightkosh.com/) | 3.6.4 | Improves wolves through gameplay tweaks, AI improvements, and new features. |
-| [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.0 | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
+| [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.1 | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | Adds armors and storage for wolves! |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | A small mod to automatically select the default world generator for both single player and servers |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Adds a new world type which generates realistic terrain for Overworld biomes. |
@@ -100,6 +100,6 @@
 | [Roguelike Dungeons](https://github.com/Greymerk/minecraft-roguelike) | 1.11.2-1.6.3 | Adds randomized dungeons to the world |
 | [Chisels & Bits](http://minecraft.curseforge.com/projects/chisels-bits) | 13.10 | a mod about Sculpting, Decorating and Aesthetics |
 | [Extra Bit Manipulation](http://www.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.4 | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
-| [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | 1.11.2-6.0.0 | Better doors! |
+| [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | boo | Better doors! |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | Adds over 50 unique pieces of furniture to the game! |
 | [Missing Pieces](http://www.curseforge.com/projects/missing-pieces/) | 4.1.0 | Some blocks I wanted in the game. |
