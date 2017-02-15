@@ -16,10 +16,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WET",
-    "HILLS",
     "RARE",
-    "SWAMP"
+    "WET",
+    "SWAMP",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -17,8 +17,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "CONIFEROUS",
-    "HILLS",
     "COLD",
+    "HILLS",
     "FOREST",
     "SNOWY"
   ],
