@@ -101,5 +101,6 @@
 | [Chisels & Bits](http://minecraft.curseforge.com/projects/chisels-bits) | 13.10 | a mod about Sculpting, Decorating and Aesthetics |
 | [Extra Bit Manipulation](http://www.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.4 | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
 | [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | boo | Better doors! |
+| [MalisisSwitches](http://www.curseforge.com/projects/malisisswitches/) | 1.11.2-4.1.0 | Wireless Switches for Minecraft |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | Adds over 50 unique pieces of furniture to the game! |
 | [Missing Pieces](http://www.curseforge.com/projects/missing-pieces/) | 4.1.0 | Some blocks I wanted in the game. |
