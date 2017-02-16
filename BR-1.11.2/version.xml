@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>3.0.0-dev</version>
+        <version>3.0.0-a1</version>
         <minecraft>1.11.2</minecraft>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
         <extraarguments>--tweakClass=net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge</extraarguments>
@@ -10,11 +10,19 @@
         <folder base="root" target="scripts%s%"/>
     </delete>
     <messages>
-        <install><![CDATA[<h2>Placeholder Install Instructions</h2>]]></install>
-        <update><![CDATA[<h2>Placeholder Update Instructions</h2>]]></update>
+        <install><![CDATA[<h2><font size="24">First alpha release of <b>Beyond <font color="#4169E1">Reality</font> <font color="#FFA500">Farscapes</font> 3.0.0-a1</b></font></h2>
+<font color="#FFA500"><b>Farscapes</b></font> is the next generation of our Beyond Reality mod-pack for Minecraft Forge 1.11.2.</p>
+<p>Note that this is currently at an early alpha stage. Be prepared for some world incompatible changes, frequent mod updates, additions or removal.</p>
+<p>There is currently no balancing effort yet.</p>
+<p>Please consult this changelog or our <a href="https://github.com/Beyond-Reality/BeyondRealityModPack/commits/master">github commit history</a> for more info.</p>]]></install>
+        <update><![CDATA[<h2><font size="24">Yet another update to <b>Beyond <font color="#4169E1">Reality</font> <font color="#FFA500">Farscapes</font></b></font></h2>
+<p>Mod-pack is still at an early alpha stage.</p>
+<p>Be prepared to deal with possible world breaking changes.</p>
+<p>Please consult this changelog or our <a href="https://github.com/Beyond-Reality/BeyondRealityModPack/commits/master">github commit history</a> for more info.</p>]]></update>
     </messages>
     <warnings>
-        <warning name="spice"><![CDATA[Placeholder Warning]]></warning>
+        <warning name="spice"><![CDATA[<h2><font size="24"><b>!!! EARLY ALPHA !!!</b></font></b></h2>
+<p><b>Be prepared to deal with possible world breaking changes!</b></p>]]></warning>
     </warnings>
     <libraries>
         <library url="packs/BeyondReality/files/1.11libs/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"/>
