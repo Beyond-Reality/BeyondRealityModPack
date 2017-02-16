@@ -9,7 +9,7 @@
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | A Scala API for Minecraft mods. |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | The lightweight Minecraft modding library |
-| [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.0 | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
+| [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.1 | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.11.4.1 | RebornCore, A core set of classes. |
 | [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | A library mod required for all my other mods. |
@@ -64,7 +64,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.1 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | Shows a preview of the block that will be placed |
-| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.235 | Simple recipe and item helper. |
+| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.236 | Simple recipe and item helper. |
 | [JEI Bees](http://bdew.net/) | 0.9.0.4 | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | Adds Resources and Mob Drops to JEI |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.4 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
@@ -85,7 +85,7 @@
 | [Pam's HarvestCraft](http://minecraft.curseforge.com/members/MatrexsVigil/projects) | 1.0 | Expanding minecraft's food system. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.7.9 | Random Things packed into one Mod. |
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.25 | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
-| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.4.73 | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
+| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.6.76 | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.4 | Unlimited Fluid Transport |
 | [Shulkerbox](http://www.curseforge.com/projects/advanced-shulkerboxes/) | 1.1.0 | Shulkerbox |
 | [Pipes](https://crafterkina.github.io/Pipes/) | 1.11-1.1.0.12 | Pipes |
