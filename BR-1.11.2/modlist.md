@@ -67,7 +67,7 @@
 | [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.237 | Simple recipe and item helper. |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | Adds Resources and Mob Drops to JEI |
-| [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.4 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
+| [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.6 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
 | [AppleSkin](http://www.curseforge.com/projects/appleskin/) | 1.0.6 | Adds various food-related HUD improvements |
 | [Waila](http://www.curseforge.com/projects/hwyla/) | 1.8.9 | Hwyla (Here's What You're Looking At) is a UI improvement mod aimed at providing block information directly in-game. It is al... |
 | [Waila Harvestability](http://www.curseforge.com/projects/waila-harvestability/) | 1.1.9 | An add-on for Waila that adds information about the harvestability of what you are looking at |
