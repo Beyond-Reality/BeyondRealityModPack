@@ -20,7 +20,6 @@
 | [ThutCore](http://www.curseforge.com/projects/thutcore/) | 4.3.2 | API used by Thut's Mods |
 | [Zero CORE](http://zerono.it/) | 1.11.2-0.1.0.2 | Utility mod and multiblock API |
 | [BiomeTweaker](http://minecraft.curseforge.com/mc-mods/228895-biometweaker) | 2.2 | Used to tweak various characteristics of biomes. |
-| [Unified Items](http://minecraft.curseforge.com/projects/unified-items) | 1.11.2-1.4.9-151 | Unified Items is a mod to centralize ore generation and items into one simple to use package. It is entirely modular by design and therefore only loads the necessary modules on runtime. |
 | [Resource Loader](http://www.curseforge.com/projects/resource-loader/) | 1.5.1 | Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack. |
 | [Custom Main Menu](http://www.curseforge.com/projects/custom-main-menu/) | 2.0.3 | Allows you to edit the mainmenu using json |
 | [Default Options](http://blay09.net) | 8.2.2 | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. |
