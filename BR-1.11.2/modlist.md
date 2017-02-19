@@ -64,7 +64,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.1 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | Shows a preview of the block that will be placed |
-| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.237 | Simple recipe and item helper. |
+| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.6.238 | Simple recipe and item helper. |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | Adds Resources and Mob Drops to JEI |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.6 | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
