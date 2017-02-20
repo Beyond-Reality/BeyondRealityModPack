@@ -77,7 +77,7 @@
 | [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension) | 1.11.2-1.0.1.1 | Adds intuitive solutions for vertical mobility. |
 | [Clipboard](https://rtfm.shadowfacts.net/clipboard/) | 1.11-1.2.1 | A simple clipboard for keeping track of your todo list. |
 | [Quark](http://www.vazkii.us) | r1.2-81 | Small things. |
-| [Forestry](http://forestry.sengir.net/) | 5.3.1.37 | Trees, bees and more. |
+| [Forestry](http://forestry.sengir.net/) | 5.3.1.38 | Trees, bees and more. |
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.4 | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Storage Drawers](http://www.jaquadro.com/) | 4.1.0 | Multi-drawer storage blocks for quick storage and retrieval. |
 | [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.3.0 | Just a bunch of useful things |
