@@ -95,6 +95,7 @@
 | [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.1 | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | Adds armors and storage for wolves! |
 | [Village Names](http://www.curseforge.com/projects/village-names/) | 1.0 | Generates random names for villages and villagers. |
+| [Tree Chopper](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2731148-tree-chopper) | 1.1 | Simple mod for chop down whole tree and much more..   Recommended forge version: 1.11 - 13.19.0.2141 |
 | [Custom Ore Generation](http://www.minecraftforum.net/topic/1935710-162forge-custom-ore-generation-first-revival/) | 1.2.26-81-g6580ec2 | Allows the player to customize how ore is generated. |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | A small mod to automatically select the default world generator for both single player and servers |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Adds a new world type which generates realistic terrain for Overworld biomes. |
