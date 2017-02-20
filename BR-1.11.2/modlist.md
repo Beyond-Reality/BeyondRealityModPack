@@ -34,6 +34,7 @@
 | [Fast Leave Decay](http://www.curseforge.com/projects/fast-leaf-decay/) | 1.2.3 | Makes leave decay faster |
 | [Gravestone](http://www.curseforge.com/projects/gravestone-mod/) | 1.7.2 | Gravestone |
 | [HelpFixer](http://minecraft.curseforge.com/mc-mods/223797-helpfixer) | 1.4+17 | Fixes the help command from mod derpyness |
+| [Login Shield](http://www.curseforge.com/projects/login-shield/) | 1.11-3-g0422a90 | protects users from taking damage between when they login and they can start interacting with the world |
 | [Morpheus](http://www.curse.com/mc-mods/Minecraft/morpheus) | 1.11.2-3.2.13 | Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate. |
 | [NBTEdit](http://www.curseforge.com/projects/nbtedit/) | 0.4 | In-game NBT editing for Entities and TileEntities |
 | [World Stripper](http://www.curseforge.com/projects/world-stripper/) | 1.2.0-1.11.0 | Strip The World! #AllNude |
