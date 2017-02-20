@@ -89,7 +89,7 @@
 | [Shulkerbox](http://www.curseforge.com/projects/advanced-shulkerboxes/) | 1.1.0 | Shulkerbox |
 | [Pipes](https://crafterkina.github.io/Pipes/) | 1.11-1.1.0.12 | Pipes |
 | [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.10 | Teleport back to activated waystones. For Survival, Adventure or Servers. |
-| [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4 | An elegant solution to your hoarding problem |
+| [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4.1 | An elegant solution to your hoarding problem |
 | [Sophisticated Wolves](http://sophisticated-wolves.nightkosh.com/) | 3.6.4 | Improves wolves through gameplay tweaks, AI improvements, and new features. |
 | [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.1 | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | Adds armors and storage for wolves! |
