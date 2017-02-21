@@ -1,6 +1,6 @@
 {
   generateTechRebornFeatures: true
-  generateOres: true
+  generateOres: false
   retroGenOres: false
   overworldOres:
   [
