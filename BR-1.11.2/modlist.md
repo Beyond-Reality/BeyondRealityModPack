@@ -27,7 +27,6 @@
 | [Fullscreen Windowed](https://github.com/hancin/Fullscreen-Windowed-Minecraft) | 1.5.0 | Activates fullscreen windowed mode for Minecraft |
 | [Sound Filters](http://www.curseforge.com/projects/sound-filters/) | 0.9_for_1.11 | Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls. |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.2.8.1 | Improving Minecraft's sight and sound experience |
-| [Light Level Overlay Reloaded](http://www.mmyzd.com) | 1.1.3-mc1.11.2 | A mod visualizes the light level on top of blocks. |
 | [Stellar Sky](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1444983-wip-stellarium-real-constellations-sun-moon) | 0.6.5.1.2 | Constellations & Planets in Minecraft! You can see Real Sky with this mod. |
 | [Teslafied](http://www.curseforge.com/projects/teslafied/) | 1.1 | Allows RF capable Tile Entities to also support Tesla |
 | [Bloodmoon](http://www.curseforge.com/projects/bloodmoon/) | 1.5.1 | Adds the bloodmoon from terraria to minecraft |
