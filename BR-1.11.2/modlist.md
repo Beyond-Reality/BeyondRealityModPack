@@ -2,7 +2,7 @@
 |-----|:-------:|-------------|
 | [Minecraft Forge](http://www.minecraftforge.net/) | 13.20.0.2233 | Minecraft Forge is a modding API used by alot of mods. |
 | [AutoRegLib](http://www.vazkii.us) | 1.1-4 | Automatically item, block, and model registration for mods. |
-| [BD Lib](http://bdew.net/mods/) | 1.13.1.4 | A library of generic code for my other mods |
+| [BD Lib](http://bdew.net/mods/) | 1.13.1.5 | A library of generic code for my other mods |
 | [Chameleon](http://www.jaquadro.com/) | 3.0.2 | Shared code and render support for mods.  Used by jaquadro's mods. |
 | [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.2 | Compatibility layer to make migrating between different vanilla/forge versions easier |
 | [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha7-1.11.2 | Elix'x Core |
