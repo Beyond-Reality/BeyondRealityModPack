@@ -84,7 +84,7 @@
 | [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.3.0 | Just a bunch of useful things |
 | [Pam's HarvestCraft](http://minecraft.curseforge.com/members/MatrexsVigil/projects) | 1.11.2c | Expanding minecraft's food system. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8 | Random Things packed into one Mod. |
-| [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.25 | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
+| [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.27 | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
 | [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.6.76 | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.4 | Unlimited Fluid Transport |
 | [Shulkerbox](http://www.curseforge.com/projects/advanced-shulkerboxes/) | 1.1.0 | Shulkerbox |
