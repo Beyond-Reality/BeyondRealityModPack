@@ -51,7 +51,7 @@
 | [Advanced Generators](http://bdew.net/) | 0.9.20.4 | Freeform Multiblock generators that produce MJ, RF and EU |
 | [Morph-o-Tool](https://minecraft.curseforge.com/projects/morph-o-tool/) | 1.1-13 | The wrench to end all wrenches. |
 | [Super Crafting Frame](http://www.curseforge.com/projects/super-crafting-frame/) | 1.2.1.89 | An item frame that can craft items when punched. |
-| [Embers](http://www.curseforge.com/projects/embers/) | 0.107 | Dwarven-style Magitech Mod |
+| [Embers](http://www.curseforge.com/projects/embers/) | 0.200 | Dwarven-style Magitech Mod |
 | [Modular Routers](https://minecraft.curseforge.com/projects/modular-routers) | 1.11.2-2.0.2 | Item routers with pluggable modules to define behaviour |
 | [Spartan Shields](https://minecraft.curseforge.com/projects/spartan-shields) | 1.2 | Spartan Shields adds a variety of new shields to Minecraft. |
 | [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-dev-77 | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
