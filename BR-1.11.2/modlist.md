@@ -18,7 +18,7 @@
 | [Stellar API](http://www.curseforge.com/projects/stellar-api/) | 0.6.4.1.2 | API for mods related with sky and celestial sphere. |
 | [TESLA](http://www.curseforge.com/projects/tesla/) | 1.11-1.3.0.51 | A modern power API |
 | [ThutCore](http://www.curseforge.com/projects/thutcore/) | 4.3.2 | API used by Thut's Mods |
-| [Zero CORE](http://zerono.it/) | 1.11.2-0.1.0.2 | Utility mod and multiblock API |
+| [Zero CORE](http://zerono.it/) | 1.11.2-0.1.0.4 | Utility mod and multiblock API |
 | [BiomeTweaker](http://minecraft.curseforge.com/mc-mods/228895-biometweaker) | 2.2 | Used to tweak various characteristics of biomes. |
 | [Resource Loader](http://www.curseforge.com/projects/resource-loader/) | 1.5.1 | Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack. |
 | [Custom Main Menu](http://www.curseforge.com/projects/custom-main-menu/) | 2.0.3 | Allows you to edit the mainmenu using json |
