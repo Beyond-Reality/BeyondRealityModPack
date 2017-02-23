@@ -25,6 +25,7 @@
 | [Default Options](http://blay09.net) | 8.2.2 | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Fullscreen Windowed](https://github.com/hancin/Fullscreen-Windowed-Minecraft) | 1.5.0 | Activates fullscreen windowed mode for Minecraft |
+| [Fullscreen Fix](http://www.curseforge.com/projects/fullscreen-fix/) | 1.0 | Fixes the resizable fullscreen bug. |
 | [Sound Filters](http://www.curseforge.com/projects/sound-filters/) | 0.9_for_1.11 | Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls. |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.2.8.1 | Improving Minecraft's sight and sound experience |
 | [Stellar Sky](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1444983-wip-stellarium-real-constellations-sun-moon) | 0.6.5.1.2 | Constellations & Planets in Minecraft! You can see Real Sky with this mod. |
