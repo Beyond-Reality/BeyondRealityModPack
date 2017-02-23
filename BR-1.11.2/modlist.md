@@ -58,6 +58,7 @@
 | [TorchMaster](http://www.curseforge.com/projects/torchmaster/) | 1.1.0.0 | Adds a special torch which prevents mobs from spawning in a configurable range |
 | [Thut Permissions](http://www.curseforge.com/projects/thutperms/) | 1.0.0 | Permissions mod for Forge |
 | [Thut Essentials](http://www.curseforge.com/projects/thut-essentials/) | 1.6.8 | Essentials mod for Forge |
+| [Thut's Elevators](http://www.curseforge.com/projects/thuts-elevators/) | 5.0.0 | Adds elevators to minecraft |
 | [TrashSlot](http://www.curseforge.com/projects/trashslot/) | 7.4.1 | Adds a trash slot to the inventory screen that allows deletion of unwanted items. |
 | [Better Fonts](http://mods.curse.com/mc-mods/minecraft/243639-truetype-font-replacement) | 1.11.2-1.7.2 | OpenType font support for Minecraft |
 | [Better Foliage](https://minecraft.curseforge.com/projects/better-foliage) | 2.1.3 | Better Foliage is a Forge mod that will make your Minecraft worlds more impressive, mainly by improving how vegetation looks. It is fully compatible with other visual enhancement mods (Optifine, Shaders Mod, Colored Lights Core). |
