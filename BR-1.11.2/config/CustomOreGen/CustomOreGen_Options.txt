@@ -2,9 +2,9 @@
 
 ## Debug
 
-debugMode=true
-drawWireframes=true
-debugDist=true
+debugMode=false
+drawWireframes=false
+debugDist=false
 
 ## General Options
 
@@ -22,11 +22,11 @@ brfClaySize=1.5
 
 ### Coal
 brfCoalFreq=1.0
-brfCoalSize=1.5
+brfCoalSize=1.0
 
 ### Iron
 brfIronFreq=1.1
-brfIronSize=1.1
+brfIronSize=1.5
 brfMountainIronFreq=1.7
 brfMountainIronSize=1.7
 

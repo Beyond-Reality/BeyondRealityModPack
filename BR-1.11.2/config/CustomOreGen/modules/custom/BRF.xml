@@ -120,7 +120,7 @@
         <OreBlock block='minecraft:coal_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 7.748 * _default_ * brfCoalFreq ' range=':= 7.748 * _default_ * brfCoalFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 7.748 * _default_ * brfCoalFreq ' range=':= 5.0 * _default_ * brfCoalFreq ' type='normal' scaleTo='base' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfCoalSize ' range=':= 0 * _default_ * brfCoalSize ' type='normal' />
         <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
