@@ -61,7 +61,7 @@
 | [TrashSlot](http://www.curseforge.com/projects/trashslot/) | 7.4.1 | Adds a trash slot to the inventory screen that allows deletion of unwanted items. |
 | [Better Fonts](http://mods.curse.com/mc-mods/minecraft/243639-truetype-font-replacement) | 1.11.2-1.7.2 | OpenType font support for Minecraft |
 | [Better Foliage](https://minecraft.curseforge.com/projects/better-foliage) | 2.1.3 | Better Foliage is a Forge mod that will make your Minecraft worlds more impressive, mainly by improving how vegetation looks. It is fully compatible with other visual enhancement mods (Optifine, Shaders Mod, Colored Lights Core). |
-| [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.1 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
+| [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.2 | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | Shows a preview of the block that will be placed |
 | [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.7.240 | Simple recipe and item helper. |
