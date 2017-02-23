@@ -5,7 +5,7 @@
 | [BD Lib](http://bdew.net/mods/) | 1.13.1.5 | A library of generic code for my other mods |
 | [Chameleon](http://www.jaquadro.com/) | 3.0.2 | Shared code and render support for mods.  Used by jaquadro's mods. |
 | [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.2 | Compatibility layer to make migrating between different vanilla/forge versions easier |
-| [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha7-1.11.2 | Elix'x Core |
+| [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha8-1.11.2 | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | A Scala API for Minecraft mods. |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | The lightweight Minecraft modding library |
