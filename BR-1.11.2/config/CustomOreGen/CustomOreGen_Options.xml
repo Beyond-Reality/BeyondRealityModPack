@@ -1,32 +1,4 @@
-
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @leagris
-
-11
-10
-
-    12
-
-Beyond-Reality/Beyond-Reality-Divergence
-Code
-Issues 13
-Pull requests 0
-Projects 0
-Wiki
-Pulse
-Graphs
-Settings
-Beyond-Reality-Divergence/config/CustomOreGen/CustomOreGen_Config.xml
-7c9a0de on 10 Sep 2015
-@Dominance Dominance 1.2.0.1 Hotfix
-408 lines (374 sloc) 23.5 KB
-<!--*************************  CustomOreGen Configuration **********************>
+<!--*************************  CustomOreGen Configuration **********************
 *
 *   IMPORTANT: TO CUSTOMIZE THIS CONFIGURATION, COPY THIS FILE TO
 *              "CustomOreGen_Config.xml".
@@ -73,7 +45,7 @@ Beyond-Reality-Divergence/config/CustomOreGen/CustomOreGen_Config.xml
         </OptionDisplayGroup>
 
         <OptionChoice name='COGActive'
-                      default=':= dimension.generator = "RandomLevelSource" | dimension.generator = "ATGLevelSource"'
+                      default=':= dimension="Overworld"'
                       displayGroup='groupInternal'>
             <Choice value='true' displayValue='On'/>
             <Choice value='false' displayValue='Off'/>
@@ -131,21 +103,6 @@ Beyond-Reality-Divergence/config/CustomOreGen/CustomOreGen_Config.xml
             <DisplayIncrement>16</DisplayIncrement>
         </OptionNumeric>
 
-        <OptionChoice name='vanillaOreGen' default=':=!?COGActive' displayGroup='groupGeneral'>
-            <Description>
-                Enable/disable the vanilla ore generators for coal, iron, gold, redstone, lapis lazuli, and diamond.
-            </Description>
-            <Comment>
-                This is a "magic" option - it has meaning outside of this file in the COG engine itelf. You can change the value, but do not remove the option itself.  Recommended values are True/On for new worlds and False/Off for pre-1.4.2 worlds (for compatibility).
-            </Comment>
-            <Comment>
-                This option completely prevents these ores from being spawned by the vanilla terrain generator. It is more efficient than a Substitute distribution, which lets the generator place an ore and then removes it.  However, for technical reasons this option cannot disable vanilla emerald generation. It also has mixed results with mod generation - mods that recycle the vanilla generator get disabled, while those that use their own do not.  Finally, it is an "all-or-nothing" approach that doesn't distinguish between ore types or world properties.  For these reasons this option defaults to "true", and a Substitute distribution is used below to selectively remove the vanilla ore deposits as needed.
-            </Comment>
-            <DisplayState>:= if(?debugMode,"shown","hidden")</DisplayState>
-            <DisplayName>Vanilla Ore Gen.</DisplayName>
-            <Choice value='true' displayValue='On'/>
-            <Choice value='false' displayValue='Off'/>
-        </OptionChoice>
 
         <OptionChoice name='drawWireframes' default='true' displayGroup='groupGeneral'>
             <Description>
@@ -303,7 +260,7 @@ Beyond-Reality-Divergence/config/CustomOreGen/CustomOreGen_Config.xml
             <Setting name='SegmentForkLengthMult' avg='0.5' range='0.25'/>
             <Setting name='SegmentLength' avg=':= 30 * oreSize' range=':= 6 * oreSize' />
             <Setting name='SegmentAngle' avg='0.30' range='0.30'/>
-            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.2 * oreSize'/>
+            <Setting name='SegmentRadius' avg=':= 0.025 * oreSize' range=':= 0.02 * oreSize'/>
             <Setting name='OreDensity' avg='1' range='0'/>
             <Setting name='OreRadiusMult' avg='1' range='0.25'/>
             <ReplacesOre block='stone'/>
@@ -414,14 +371,98 @@ Beyond-Reality-Divergence/config/CustomOreGen/CustomOreGen_Config.xml
             <Biome name='.*'/>
         </CloudPreset>
 
+        <CloudPreset name='PresetStratum'>
+            <Description>
+              Solid clouds that form layers of rock and minerals.  This distribution is best used
+              for distributions of basic materials like stone, rather than valuable ones like ore.
+            </Description>
+            <Setting name='DistributionFrequency' avg=':= 0.01 * oreFreq'/>
+            <Setting name='ParentRangeLimit' avg='32' range='32' type='normal'/>
+            <Setting name='CloudRadius' avg=':= 16 * oreSize' range=':= 8 * oreSize' type='normal'/>
+            <Setting name='CloudThickness' avg=':= 1 * oreSize' range=':= 0.5 * oreSize' type='normal'/>
+            <Setting name='CloudHeight' avg=':=32' range='16'
+                     type='uniform' scaleTo='sealevel'/>
+            <Setting name='CloudInclination' avg='0' range='0'/>
+            <Setting name='OreDensity' avg='1.0'/>
+            <Setting name='OreVolumeNoiseCutoff' avg='0'/>
+            <ReplacesOre block='stone'/>
+            <Biome name='.*'/>
+        </CloudPreset>
+
     </ConfigSection>
 
+    <!-- ******************** Import Standard Configs ********************** -->
+    <!--
+         NOTE: to override a default config, remove the corresponding
+         directive (and optionally add something to 'modules/custom')
+    -->
+
+    <!-- First are the stone-based configurations; this way, they can be
+         overridden using the stone oredict entry. -->
+    <Import file='modules/default/Chisel2.xml'/>
+    <Import file='modules/default/GeoStrata.xml'/>
+    <Import file='modules/default/TinkersSteelworks.xml'/>
+    <Import file='modules/default/EtFuturum.xml'/>
+
+    <!-- These rules allow for additional subterranean features. -->
+    <Import file='modules/default/MinecraftSpecialRules.xml'/>
+
+    <!-- Vanilla minecraft ores should always be the first ores to
+         load. -->
+    <Import file='modules/default/Vanilla.xml'/>
+
+    <!-- Dense Ores in particular NEEDS to be run after the vanilla
+         configuration, as it clears and regenerates vanilla ores while
+         mixing the dense ores with them. -->
+    <Import file='modules/default/DenseOres.xml'/>
+
+    <!-- Then, the rest are free to come in. -->
+    <Import file='modules/default/AppliedEnergistics.xml'/>
+    <Import file='modules/default/ArsMagica2.xml'/>
+    <Import file='modules/default/BiomesOPlenty.xml'/>
+    <Import file='modules/default/CommonOres.xml'/>
+    <Import file='modules/default/ElectriCraft.xml'/>
+    <Import file='modules/default/Factorization.xml'/>
+    <Import file='modules/default/FlaxbeardsSteamcraft.xml'/>
+    <Import file='modules/default/Forestry.xml'/>
+    <Import file='modules/default/FossilsandArchaeology.xml'/>
+    <Import file='modules/default/Galacticraft.xml'/>
+    <Import file='modules/default/ImmersiveEngineering.xml'/>
+    <Import file='modules/default/IndustrialCraft2.xml'/>
+    <Import file='modules/default/Mekanism.xml'/>
+    <Import file='modules/default/MagnetiCraft.xml'/>
+    <Import file='modules/default/Mariculture.xml'/>
+    <Import file='modules/default/Metallurgy4.xml'/>
+    <Import file='modules/default/Mimicry.xml'/>
+    <Import file='modules/default/MineChem.xml'/>
+    <Import file='modules/default/MinecraftComesAlive.xml'/>
+    <Import file='modules/default/NetherOres.xml'/>
+    <Import file='modules/default/Netherrocks.xml'/>
+    <Import file='modules/default/Nuclearcraft.xml'/>
+    <Import file='modules/default/PamsHarvestCraft.xml'/>
+    <Import file='modules/default/ProjectRed.xml'/>
+    <Import file='modules/default/RailCraft.xml'/>
+    <Import file='modules/default/ReactorCraft.xml'/>
+    <Import file='modules/default/SimpleOres.xml'/>
+    <Import file='modules/default/Thaumcraft4.xml'/>
+    <Import file='modules/default/ThermalFoundation.xml'/>
+    <Import file='modules/default/TinkersConstruct.xml'/>
+    <!-- Gregtech checks for other ores' oredict values.  It will need to be
+	 among the last default configurations to load. -->
+    <Import file='modules/default/Gregtech6.xml'/>
+    <Import file='modules/default/Gregtech.xml'/>
 
     <!-- ***************** Import Mod-provided configs ********************* -->
     <!-- NOTE: mods will overwrite these configs upon each load -->
+    <OptionalImport file='modules/mods/*.xml'/>
 
     <!-- ******************** Import Custom Configs ************************ -->
-    <OptionalImport file='modules/custom/*.xml'/>
+    <OptionalImport file='modules/custom/BRF.xml'/>
+
+    <!-- Gregtech checks for other ores' oredict values.  Uncomment the
+	 the following to have it override custom configurations -->
+<!--    <Import file='modules/default/Gregtech6.xml'/>   -->
+<!--    <Import file='modules/default/Gregtech.xml'/>    -->
 
     <!--*************************   Testing & Debugging   *********************
     *   I use this section for quick-and-dirty experiments

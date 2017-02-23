@@ -1,0 +1,61 @@
+# CustomOreGen_Options.txt for BeyondReality Farscapes
+
+## Debug
+
+debugMode=true
+drawWireframes=true
+debugDist=true
+
+## General Options
+
+advOptions=true
+oreFreq=1
+oreSize=1
+deferredPopulationRange=32
+vanillaOreGen=false
+
+## Ore Specific Options
+
+### Clay
+brfClayFreq=0.75
+brfClaySize=1.5
+
+### Coal
+brfCoalFreq=1.0
+brfCoalSize=1.5
+
+### Iron
+brfIronFreq=1.1
+brfIronSize=1.1
+brfMountainIronFreq=1.7
+brfMountainIronSize=1.7
+
+### Gold
+brfGoldFreq=1.0
+brfGoldSize=1.0
+brfMountainGoldFreq=1.0
+brfMountainGoldSize=1.0
+
+### Redstone
+brfRedstoneFreq=1.0
+brfRedstoneSize=1.0
+brfMountainRedstoneFreq=1.0
+brfMountainRedstoneSize=1.0
+
+### Diamond
+brfDiamondFreq=1.0
+brfDiamondSize=1.0
+
+### LapisLazuli
+brfLapisLazuliFreq=1.0
+brfLapisLazuliSize=1.0
+brfMountainLapisLazuliFreq=1.0
+brfMountainLapisLazuliSize=1.0
+
+### Emerald
+brfEmeraldFreq=1.0
+brfEmeraldSize=1.0
+
+### NetherQuartz
+brfNetherQuartzFreq=1.0
+brfNetherQuartzSize=1.0
