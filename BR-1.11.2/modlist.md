@@ -29,7 +29,7 @@
 | [Default Options](http://blay09.net) | 8.2.2 | BlayTheNinth | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | EzTerry<br/>FireBall1725 | A small mod to automatically select the default world generator for both single player and servers |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.2.8.1 | OreCruncher<br/>Abastro | Improving Minecraft's sight and sound experience |
-| [Embers](http://www.curseforge.com/projects/embers/) | 0.200 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
+| [Embers](http://www.curseforge.com/projects/embers/) | 0.201 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
 | [Extra Bit Manipulation](http://www.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.4 | MolecularPhylo | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
 | [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.3.0 | RWTema | Just a bunch of useful things |
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.27 | ErogenousBeef<br/>ZeroNoRyouki<br/>ABookFreak | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
@@ -38,7 +38,7 @@
 | [Forestry](http://forestry.sengir.net/) | 5.3.1.41 | SirSengir<br/>mezz | Trees, bees and more. |
 | [Fullscreen Fix](http://www.curseforge.com/projects/fullscreen-fix/) | 1.0 | gudenau | Fixes the resizable fullscreen bug. |
 | [Fullscreen Windowed](https://github.com/hancin/Fullscreen-Windowed-Minecraft) | 1.5.0 | Hancin | Activates fullscreen windowed mode for Minecraft |
-| [GenDustry](http://bdew.net/mods/) | 1.6.5.4 | bdew | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
+| [GenDustry](http://bdew.net/mods/) | 1.6.5.5 | bdew | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Gravestone](http://www.curseforge.com/projects/gravestone-mod/) | 1.7.2 | Max Henkel | Gravestone |
 | [HelpFixer](http://minecraft.curseforge.com/mc-mods/223797-helpfixer) | 1.4+17 | matthewprenger | Fixes the help command from mod derpyness |
 | [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-dev-77 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
