@@ -13,6 +13,7 @@ oreFreq=1
 oreSize=1
 deferredPopulationRange=32
 vanillaOreGen=false
+enableForestry=false
 
 ## Ore Specific Options
 
@@ -31,8 +32,8 @@ brfMountainIronFreq=1.7
 brfMountainIronSize=1.7
 
 ### Gold
-brfGoldFreq=1.0
-brfGoldSize=1.0
+brfGoldFreq=1
+brfGoldSize=1
 brfMountainGoldFreq=1.0
 brfMountainGoldSize=1.0
 
@@ -57,5 +58,5 @@ brfEmeraldFreq=1.0
 brfEmeraldSize=1.0
 
 ### NetherQuartz
-brfNetherQuartzFreq=1.0
-brfNetherQuartzSize=1.0
+brfNetherQuartzFreq=2.0
+brfNetherQuartzSize=1.5

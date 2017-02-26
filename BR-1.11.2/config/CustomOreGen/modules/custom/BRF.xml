@@ -31,24 +31,31 @@
   </ConfigSection>
   <ConfigSection>
     <!-- Overworld Setup Beginning -->
-    <!-- Starting Original "Overworld" Block Removal -->
-    <IfCondition condition=':= ?blockExists("minecraft:sand")'>
-      <Substitute block='minecraft:sand'>
-        <Replaces block='minecraft:clay' weight='1.0' />
-      </Substitute>
-    </IfCondition>
-    <IfCondition condition=':= ?blockExists("minecraft:stone")'>
-      <Substitute block='minecraft:stone'>
-        <Replaces block='minecraft:coal_ore' weight='1.0' />
-        <Replaces block='minecraft:diamond_ore' weight='1.0' />
-        <Replaces block='minecraft:emerald_ore' weight='1.0' />
-        <Replaces block='minecraft:gold_ore' weight='1.0' />
-        <Replaces block='minecraft:iron_ore' weight='1.0' />
-        <Replaces block='minecraft:lapis_ore' weight='1.0' />
-        <Replaces block='minecraft:redstone_ore' weight='1.0' />
-      </Substitute>
-    </IfCondition>
-    <!-- Original "Overworld" Block Removal Complete -->
+    <ConfigSection>
+      <!-- BEGIN Overworld Block Removal -->
+      <IfCondition condition=':= ?blockExists("minecraft:sand")'>
+        <Substitute block='minecraft:sand'>
+          <Replaces block='minecraft:clay' weight='1.0' />
+        </Substitute>
+      </IfCondition>
+      <IfCondition condition=':= ?blockExists("minecraft:stone")'>
+        <Substitute block='minecraft:stone'>
+          <!-- Vanilla -->
+          <Replaces block='minecraft:coal_ore' weight='1.0' />
+          <Replaces block='minecraft:diamond_ore' weight='1.0' />
+          <Replaces block='minecraft:emerald_ore' weight='1.0' />
+          <Replaces block='minecraft:gold_ore' weight='1.0' />
+          <Replaces block='minecraft:iron_ore' weight='1.0' />
+          <Replaces block='minecraft:lapis_ore' weight='1.0' />
+          <Replaces block='minecraft:redstone_ore' weight='1.0' />
+          <!-- Forestry -->
+          <Replaces block='forestry:resources' weight='1.0' />
+          <Replaces block='forestry:resources:1' weight='1.0' />
+          <Replaces block='forestry:resources:2' weight='1.0' />
+        </Substitute>
+      </IfCondition>
+      <!-- END Overworld Block Removal -->
+    </ConfigSection>
     <!-- Adding blocks -->
     <!-- Begin Clay Generation -->
     <!-- Starting SmallDeposits Preset for Clay. -->
@@ -62,14 +69,14 @@
         <BiomeType name='Mountain' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
         <BiomeType name='Snowy' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
         <BiomeType name='Ocean' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
-        <Setting name='MotherlodeFrequency' avg=':= 1.252 * _default_ * brfClayFreq ' range=':= 1.252 * _default_ * brfClayFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 1.252 * _default_ * brfClayFreq ' range=':= 1.252 * _default_ * brfClayFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 1.648 * _default_ * brfClaySize ' range=':= 1.648 * _default_ * brfClaySize ' type='normal' />
         <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 10 ' type='uniform' scaleTo='seaLevel' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfClaySize ' range=':= _default_ * brfClaySize ' type='normal' />
@@ -91,14 +98,14 @@
         <BiomeType name='Mountain' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
         <BiomeType name='Snowy' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
         <BiomeType name='Ocean' minRainfall='0.16' maxRainfall='10.0' weight='-1' />
-        <Setting name='MotherlodeFrequency' avg=':= 1.252 * _default_ * brfClayFreq ' range=':= 1.252 * _default_ * brfClayFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 1.252 * _default_ * brfClayFreq ' range=':= 1.252 * _default_ * brfClayFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 1.648 * _default_ * brfClaySize ' range=':= 1.648 * _default_ * brfClaySize ' type='normal' />
         <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 10 ' type='uniform' scaleTo='seaLevel' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0 * _default_ ' range=':= 0 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfClaySize ' range=':= _default_ * brfClaySize ' type='normal' />
@@ -120,14 +127,14 @@
         <OreBlock block='minecraft:coal_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 7.748 * _default_ * brfCoalFreq ' range=':= 5.0 * _default_ * brfCoalFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 7.748 * _default_ * brfCoalFreq ' range=':= 5.0 * _default_ * brfCoalFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfCoalSize ' range=':= 0 * _default_ * brfCoalSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 64 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 2.784 * _default_ ' range=':= 2.784 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfCoalSize ' range=':= _default_ * brfCoalSize ' type='normal' />
@@ -151,14 +158,14 @@
         <OreBlock block='minecraft:iron_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 2.238 * _default_ * brfIronFreq ' range=':= 2.238 * _default_ * brfIronFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 2.238 * _default_ * brfIronFreq ' range=':= 2.238 * _default_ * brfIronFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 1.144 * _default_ * brfIronSize ' range=':= 1.144 * _default_ * brfIronSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 32 ' range=':= 32 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 1.496 * _default_ ' range=':= 1.496 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfIronSize ' range=':= _default_ * brfIronSize ' type='normal' />
@@ -182,14 +189,14 @@
         <OreBlock block='minecraft:iron_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <BiomeType name='Mountain' />
-        <Setting name='MotherlodeFrequency' avg=':= 2.238 * _default_ * brfMountainIronFreq ' range=':= 2.238 * _default_ * brfMountainIronFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 2.238 * _default_ * brfMountainIronFreq ' range=':= 2.238 * _default_ * brfMountainIronFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 1.144 * _default_ * brfMountainIronSize ' range=':= 1.144 * _default_ * brfMountainIronSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 160 ' range=':= 96 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 160 ' range=':= 96 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 1.496 * _default_ ' range=':= 1.496 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfMountainIronSize ' range=':= _default_ * brfMountainIronSize ' type='normal' />
@@ -213,14 +220,14 @@
         <OreBlock block='minecraft:gold_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * brfGoldFreq ' range=':= 0.708 * _default_ * brfGoldFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * brfGoldFreq ' range=':= 0.708 * _default_ * brfGoldFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0.944 * _default_ * brfGoldSize ' range=':= 0.944 * _default_ * brfGoldSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 16 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 16 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0.841 * _default_ ' range=':= 0.841 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfGoldSize ' range=':= _default_ * brfGoldSize ' type='normal' />
@@ -244,14 +251,14 @@
         <OreBlock block='minecraft:gold_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <BiomeType name='Mountain' />
-        <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * brfMountainGoldFreq ' range=':= 0.708 * _default_ * brfMountainGoldFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 0.708 * _default_ * brfMountainGoldFreq ' range=':= 0.708 * _default_ * brfMountainGoldFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0.944 * _default_ * brfMountainGoldSize ' range=':= 0.944 * _default_ * brfMountainGoldSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 112 ' range=':= 48 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 112 ' range=':= 48 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0.841 * _default_ ' range=':= 0.841 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfMountainGoldSize ' range=':= _default_ * brfMountainGoldSize ' type='normal' />
@@ -272,14 +279,14 @@
         <OreBlock block='minecraft:redstone_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * brfRedstoneFreq ' range=':= 2.406 * _default_ * brfRedstoneFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * brfRedstoneFreq ' range=':= 2.406 * _default_ * brfRedstoneFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfRedstoneSize ' range=':= 0 * _default_ * brfRedstoneSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfRedstoneSize ' range=':= _default_ * brfRedstoneSize ' type='normal' />
@@ -300,14 +307,14 @@
         <OreBlock block='minecraft:redstone_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <BiomeType name='Mountain' />
-        <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * brfMountainRedstoneFreq ' range=':= 2.406 * _default_ * brfMountainRedstoneFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 2.406 * _default_ * brfMountainRedstoneFreq ' range=':= 2.406 * _default_ * brfMountainRedstoneFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfMountainRedstoneSize ' range=':= 0 * _default_ * brfMountainRedstoneSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 88 ' range=':= 24 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 88 ' range=':= 24 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfMountainRedstoneSize ' range=':= _default_ * brfMountainRedstoneSize ' type='normal' />
@@ -331,14 +338,14 @@
         <OreBlock block='minecraft:diamond_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 0.714 * _default_ * brfDiamondFreq ' range=':= 0.714 * _default_ * brfDiamondFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 0.714 * _default_ * brfDiamondFreq ' range=':= 0.714 * _default_ * brfDiamondFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfDiamondSize ' range=':= 0 * _default_ * brfDiamondSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 8 ' range=':= 8 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0.845 * _default_ ' range=':= 0.845 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfDiamondSize ' range=':= _default_ * brfDiamondSize ' type='normal' />
@@ -368,14 +375,14 @@
         <OreBlock block='minecraft:lapis_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <Biome name='.*' />
-        <Setting name='MotherlodeFrequency' avg=':= 0.787 * _default_ * brfLapisLazuliFreq ' range=':= 0.787 * _default_ * brfLapisLazuliFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 0.787 * _default_ * brfLapisLazuliFreq ' range=':= 0.787 * _default_ * brfLapisLazuliFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfLapisLazuliSize ' range=':= 0 * _default_ * brfLapisLazuliSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 0 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 0 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= -_default_ ' range=':= -_default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfLapisLazuliSize ' range=':= _default_ * brfLapisLazuliSize ' type='normal' />
@@ -406,13 +413,13 @@
         <ReplacesOre block='stone' weight='1.0' />
         <BiomeType name='Mountain' />
         <Setting name='CloudRadius' avg=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' range=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' type='normal' />
-        <Setting name='CloudThickness' avg=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' range=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' type='normal' scaleTo='base' />
-        <Setting name='DistributionFrequency' avg=':= 0.495 * _default_ * brfMountainLapisLazuliFreq ' range=':= 0.495 * _default_ * brfMountainLapisLazuliFreq ' type='normal' scaleTo='base' />
-        <Setting name='CloudHeight' avg=':= 112 ' range=':= 0 ' type='normal' scaleTo='base' />
+        <Setting name='CloudThickness' avg=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' range=':= 0.703 * _default_ * brfMountainLapisLazuliSize ' type='normal' scaleTo='World' />
+        <Setting name='DistributionFrequency' avg=':= 0.495 * _default_ * brfMountainLapisLazuliFreq ' range=':= 0.495 * _default_ * brfMountainLapisLazuliFreq ' type='normal' scaleTo='World' />
+        <Setting name='CloudHeight' avg=':= 112 ' range=':= 0 ' type='normal' scaleTo='World' />
         <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
-        <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Veins name='brfMountainLapisLazuliHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x601442BA' drawBoundBox='false' boundBoxColor='0x601442BA'>
@@ -434,7 +441,7 @@
           <Replaces block='minecraft:sandstone' weight='1.0' />
           <ReplacesOre block='stone' weight='1.0' />
           <Replaces block='minecraft:gravel' weight='1.0' />
-          <Setting name='MotherlodeFrequency' avg=':= 0.787 * _default_ * brfMountainLapisLazuliFreq  * 0.1 ' range=':= 0.787 * _default_ * brfMountainLapisLazuliFreq  * 0.1 ' type='normal' scaleTo='base' />
+          <Setting name='MotherlodeFrequency' avg=':= 0.787 * _default_ * brfMountainLapisLazuliFreq  * 0.1 ' range=':= 0.787 * _default_ * brfMountainLapisLazuliFreq  * 0.1 ' type='normal' scaleTo='World' />
         </Veins>
       </Cloud>
     </ConfigSection>
@@ -452,14 +459,14 @@
         <OreBlock block='minecraft:emerald_ore' weight='1.0' />
         <ReplacesOre block='stone' weight='1.0' />
         <BiomeType name='Mountain' />
-        <Setting name='MotherlodeFrequency' avg=':= 0.382 * _default_ * brfEmeraldFreq ' range=':= 0.382 * _default_ * brfEmeraldFreq ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeFrequency' avg=':= 0.382 * _default_ * brfEmeraldFreq ' range=':= 0.382 * _default_ * brfEmeraldFreq ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfEmeraldSize ' range=':= 0 * _default_ * brfEmeraldSize ' type='normal' />
-        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 12 ' type='normal' scaleTo='base' />
+        <Setting name='MotherlodeHeight' avg=':= 16 ' range=':= 12 ' type='normal' scaleTo='World' />
         <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='BranchLength' avg=':= 0.618 * _default_ ' range=':= 0.618 * _default_ ' type='normal' />
-        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+        <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
         <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
         <Setting name='SegmentLength' avg=':= _default_ * brfEmeraldSize ' range=':= _default_ * brfEmeraldSize ' type='normal' />
@@ -513,14 +520,14 @@
           <OreBlock block='minecraft:quartz_ore' weight='1.0' />
           <Replaces block='minecraft:netherrack' weight='1.0' />
           <Biome name='.*' />
-          <Setting name='MotherlodeFrequency' avg=':= 6.247 * _default_ * brfNetherQuartzFreq ' range=':= 6.247 * _default_ * brfNetherQuartzFreq ' type='normal' scaleTo='base' />
+          <Setting name='MotherlodeFrequency' avg=':= 6.247 * _default_ * brfNetherQuartzFreq ' range=':= 6.247 * _default_ * brfNetherQuartzFreq ' type='normal' scaleTo='World' />
           <Setting name='MotherlodeSize' avg=':= 0 * _default_ * brfNetherQuartzSize ' range=':= 0 * _default_ * brfNetherQuartzSize ' type='normal' />
-          <Setting name='MotherlodeHeight' avg=':= 59 ' range=':= 49 ' type='uniform' scaleTo='base' />
+          <Setting name='MotherlodeHeight' avg=':= 64 ' range=':= 59 ' type='uniform' scaleTo='World' />
           <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
           <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
           <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
           <Setting name='BranchLength' avg=':= 2.499 * _default_ ' range=':= 2.499 * _default_ ' type='normal' />
-          <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+          <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='World' />
           <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
           <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
           <Setting name='SegmentLength' avg=':= _default_ * brfNetherQuartzSize ' range=':= _default_ * brfNetherQuartzSize ' type='normal' />
