@@ -81,7 +81,7 @@
 | [Sound Filters](http://www.curseforge.com/projects/sound-filters/) | 0.9_for_1.11 | Tmtravlr | Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls. |
 | [Spartan Shields](https://minecraft.curseforge.com/projects/spartan-shields) | 1.2 | ObliviousSpartan | Spartan Shields adds a variety of new shields to Minecraft. |
 | [Stellar Sky](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1444983-wip-stellarium-real-constellations-sun-moon) | 0.6.5.1.2 | Abastro | Constellations & Planets in Minecraft! You can see Real Sky with this mod. |
-| [Storage Drawers](http://www.jaquadro.com/) | 4.1.0 | jaquadro | Multi-drawer storage blocks for quick storage and retrieval. |
+| [Storage Drawers](http://www.jaquadro.com/) | 4.2.0 | jaquadro | Multi-drawer storage blocks for quick storage and retrieval. |
 | [Streams](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2346379-streams-real-flowing-rivers) | 0.3 | delvr | This mod introduces real flowing rivers, with a true current, to your Minecraft worlds. Compatible with many terrain generators. |
 | [Super Crafting Frame](http://www.curseforge.com/projects/super-crafting-frame/) | 1.2.1.89 | EdgarAllen | An item frame that can craft items when punched. |
 | [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.6.76 | modmuss50<br/>Gigabit101<br/>tntrololol<br/>joflashstudios<br/>Prospector | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
