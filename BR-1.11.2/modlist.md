@@ -45,7 +45,7 @@
 | [Iron Chest](http://www.minecraftforum.net/topic/981855-) | 7.0.17.799 | cpw | New chests with larger sizes, with in-place upgrade items. The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | bdew | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.6 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
-| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.7.240 | mezz | Simple recipe and item helper. |
+| [Just Enough Items](https://github.com/mezz/JustEnoughItems) | 4.2.7.241 | mezz | Simple recipe and item helper. |
 | [Just Enough Resources](http://www.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | way2muchnoise | Adds Resources and Mob Drops to JEI |
 | [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension) | 1.11.2-1.0.1.1 | JamiesWhiteShirt | Adds intuitive solutions for vertical mobility. |
 | [Login Shield](http://www.curseforge.com/projects/login-shield/) | 1.11-3-g0422a90 | Glasspelican | protects users from taking damage between when they login and they can start interacting with the world |
