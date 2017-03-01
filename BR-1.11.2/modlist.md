@@ -52,7 +52,7 @@
 | [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | boo | Ordinastie | Better doors! |
 | [MalisisSwitches](http://www.curseforge.com/projects/malisisswitches/) | 1.11.2-4.1.0 | Ordinastie | Wireless Switches for Minecraft |
 | [Missing Pieces](http://www.curseforge.com/projects/missing-pieces/) | 4.1.0 | sboy205 | Some blocks I wanted in the game. |
-| [Modular Routers](https://minecraft.curseforge.com/projects/modular-routers) | 1.11.2-2.0.2 | desht | Item routers with pluggable modules to define behaviour |
+| [Modular Routers](https://minecraft.curseforge.com/projects/modular-routers) | 1.11.2-2.1.0 | desht | Item routers with pluggable modules to define behaviour |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | feldim2425 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Morph-o-Tool](https://minecraft.curseforge.com/projects/morph-o-tool/) | 1.1-13 | Vazkii | The wrench to end all wrenches. |
 | [Morpheus](http://www.curse.com/mc-mods/Minecraft/morpheus) | 1.11.2-3.2.13 | Quetzi | Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate. |
