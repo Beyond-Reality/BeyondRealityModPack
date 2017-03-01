@@ -299,7 +299,7 @@ recipes.addShaped(electricLocomotive.withTag({model: "railcraft:default"}) * 1, 
 
 // Iron Tank Wall
 
-recipes.removeShaped(ironTankWall * 8, [
+recipes.removeShaped(ironTankWall, [
   [<Railcraft:part.plate:0>, <Railcraft:part.plate:0>],
   [<Railcraft:part.plate:0>, <Railcraft:part.plate:0>]
 ]);
@@ -316,7 +316,7 @@ recipes.removeShaped(ironTankGauge, [
   [<minecraft:glass_pane>, plateAnyIron, <minecraft:glass_pane>]
 ]);
 
-recipes.addShaped(ironTankGauge, [
+recipes.addShaped(ironTankGauge * 8, [
   [paneGlass, plateAnyIron, paneGlass],
   [plateAnyIron, paneGlass, plateAnyIron],
   [paneGlass, plateAnyIron, paneGlass]
@@ -335,7 +335,7 @@ recipes.removeShaped(ironTankValve, [
   [<minecraft:iron_bars>, plateAnyIron, <minecraft:iron_bars>]
 ]);
 
-recipes.addShaped(ironTankValve, [
+recipes.addShaped(ironTankValve * 8, [
   [barsIron, plateAnyIron, barsIron],
   [plateAnyIron, lever, plateAnyIron],
   [barsIron, plateAnyIron, barsIron]
@@ -343,7 +343,7 @@ recipes.addShaped(ironTankValve, [
 
 // Steel Tank Wall
 
-recipes.removeShaped(steelTankWall * 8, [
+recipes.removeShaped(steelTankWall, [
   [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>],
   [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>]
 ]);
@@ -360,7 +360,7 @@ recipes.removeShaped(steelTankGauge, [
   [<minecraft:glass_pane>, plateSteel, <minecraft:glass_pane>]
 ]);
 
-recipes.addShaped(steelTankGauge, [
+recipes.addShaped(steelTankGauge * 8, [
   [paneGlass, plateSteel, paneGlass],
   [plateSteel, paneGlass, plateSteel],
   [paneGlass, plateSteel, paneGlass]
@@ -379,7 +379,7 @@ recipes.removeShaped(steelTankValve, [
   [<minecraft:iron_bars>, plateSteel, <minecraft:iron_bars>]
 ]);
 
-recipes.addShaped(steelTankValve, [
+recipes.addShaped(steelTankValve * 8, [
   [barsIron, plateSteel, barsIron],
   [plateSteel, lever, plateSteel],
   [barsIron, plateSteel, barsIron]
