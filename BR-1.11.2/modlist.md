@@ -56,7 +56,7 @@
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | feldim2425 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
 | [Morph-o-Tool](https://minecraft.curseforge.com/projects/morph-o-tool/) | 1.1-13 | Vazkii | The wrench to end all wrenches. |
 | [Morpheus](http://www.curse.com/mc-mods/Minecraft/morpheus) | 1.11.2-3.2.13 | Quetzi | Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate. |
-| [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.7.3 | YaLTeR | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
+| [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.8 | YaLTeR | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | MrCrayfish | Adds over 50 unique pieces of furniture to the game! |
 | [NBTEdit](http://www.curseforge.com/projects/nbtedit/) | 0.4 | malte0811 | In-game NBT editing for Entities and TileEntities |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
