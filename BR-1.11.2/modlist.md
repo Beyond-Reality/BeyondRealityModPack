@@ -5,8 +5,8 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2233
-* [90 Mods](#mods)
-* [18 Dependency/Core Mods](#dependencycore-mods)
+* [91 Mods](#mods)
+* [20 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -59,6 +59,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.8 | YaLTeR | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | MrCrayfish | Adds over 50 unique pieces of furniture to the game! |
 | [NBTEdit](http://www.curseforge.com/projects/nbtedit/) | 0.4 | malte0811 | In-game NBT editing for Entities and TileEntities |
+| [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0-B168 | Dyonovan<br/>pauljoda | Ore Processing |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Not Enough Wands](http://www.curseforge.com/projects/not-enough-wands/) | 1.1x-1.5.4 | romelo333<br/>McJty | Wands, wands, and more wands |
 | [Packing Tape](https://github.com/gigaherz/PackingTape) | 1.11.0-0.6.1 | gigaherz | Adds a simple means to carry thigns with you |
@@ -106,9 +107,11 @@
 |-----|:-------:|:--------|:------------|
 | [AutoRegLib](http://www.vazkii.us) | 1.1-4 | Vazkii | Automatically item, block, and model registration for mods. |
 | [BD Lib](http://bdew.net/mods/) | 1.13.1.5 | bdew | A library of generic code for my other mods |
+| [Bookshelf](http://www.curseforge.com/projects/bookshelf-api-library/) | 5.0.0-B96 | Dyonovan<br/>pauljoda | Library of useful functions used by TeamBR |
 | [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha8-1.11.2 | Elix_x | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | delvr | A Scala API for Minecraft mods. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | iLexiconn | The lightweight Minecraft modding library |
+| [MCMultiPart](http://www.curseforge.com/projects/mcmultipart/) | 2.0.0-universal |  | A universal multipart API for modern Minecraft |
 | [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.1 | Ordinastie<br/>PaleoCrafter | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | MattDahEpic | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.11.4.1 | modmuss50<br/>Gigabit101 | RebornCore, A core set of classes. |
