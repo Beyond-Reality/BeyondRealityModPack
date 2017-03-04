@@ -11,7 +11,7 @@
 ## Mods
 | Mod | Version | Authors | Description |
 |-----|:-------:|:--------|:------------|
-| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r102 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
+| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r103 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
 | [Advanced Generators](http://bdew.net/) | 0.9.20.4 | bdew | Freeform Multiblock generators that produce MJ, RF and EU |
 | [AppleSkin](http://www.curseforge.com/projects/appleskin/) | 1.0.6 | squeek | Adds various food-related HUD improvements |
 | [Baubles](http://www.minecraftforum.net/topic/2535073-baubles) | 1.4.3 | Azanor | Adding a touch of bling to Minecraft |
