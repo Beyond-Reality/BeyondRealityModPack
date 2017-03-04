@@ -111,7 +111,7 @@
 | [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha8-1.11.2 | Elix_x | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | delvr | A Scala API for Minecraft mods. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | iLexiconn | The lightweight Minecraft modding library |
-| [MCMultiPart](http://www.curseforge.com/projects/mcmultipart/) | 2.0.0-universal |  | A universal multipart API for modern Minecraft |
+| [MCMultiPart](http://www.curseforge.com/projects/mcmultipart/) | 2.0.0-universal | amadornes | A universal multipart API for modern Minecraft |
 | [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.1 | Ordinastie<br/>PaleoCrafter | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | MattDahEpic | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.11.4.1 | modmuss50<br/>Gigabit101 | RebornCore, A core set of classes. |
