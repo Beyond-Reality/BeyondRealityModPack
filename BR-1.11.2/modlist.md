@@ -93,7 +93,7 @@
 | [TorchMaster](http://www.curseforge.com/projects/torchmaster/) | 1.1.0.0 | xalcon | Adds a special torch which prevents mobs from spawning in a configurable range |
 | [TrashSlot](http://www.curseforge.com/projects/trashslot/) | 7.4.1 | BlayTheNinth | Adds a trash slot to the inventory screen that allows deletion of unwanted items. |
 | [Tree Chopper](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2731148-tree-chopper) | 1.1 | DuchLord | Simple mod for chop down whole tree and much more..   Recommended forge version: 1.11 - 13.19.0.2141 |
-| [Unified Items](http://minecraft.curseforge.com/projects/unified-items) | 1.11.2-1.4.9-151 | chazwarp923 | Unified Items is a mod to centralize ore generation and items into one simple to use package. It is entirely modular by design and therefore only loads the necessary modules on runtime. |
+| [Unified Items](http://minecraft.curseforge.com/projects/unified-items) | 1.11.2-1.5.1-161 | chazwarp923 | Unified Items is a mod to centralize ore generation and items into one simple to use package. It is entirely modular by design and therefore only loads the necessary modules on runtime. |
 | [Village Names](http://www.curseforge.com/projects/village-names/) | 1.0 | AstroTibs | Generates random names for villages and villagers. |
 | [Villager Fix](http://www.curseforge.com/projects/villager-fix/) | 1-11 | Epigenetic | Tweak for villagers and mobGriefing in 1.8 |
 | [Waila Harvestability](http://www.curseforge.com/projects/waila-harvestability/) | 1.1.9 | squeek | An add-on for Waila that adds information about the harvestability of what you are looking at |
