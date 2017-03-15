@@ -1,0 +1,27 @@
+[
+  {
+    "fluidStackInput": "lava:100",
+    "burnTime": 640,
+    "burnRate": 20
+  },
+  {
+    "fluidStackInput": "hydrogen:100",
+    "burnTime": 200,
+    "burnRate": 200
+  },
+  {
+    "fluidStackInput": "blaze:144",
+    "burnTime": 350,
+    "burnRate": 286
+  },
+  {
+    "fluidStackInput": "chorus:144",
+    "burnTime": 500,
+    "burnRate": 800
+  },
+  {
+    "fluidStackInput": "wither:144",
+    "burnTime": 1000,
+    "burnRate": 1000
+  }
+]

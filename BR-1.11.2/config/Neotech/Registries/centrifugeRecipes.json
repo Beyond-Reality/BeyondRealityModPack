@@ -1,0 +1,52 @@
+[
+  {
+    "fluidStackInput": "obsidian:288",
+    "fluidStackOutputOne": "water:1000",
+    "fluidStackOutputTwo": "lava:1000"
+  },
+  {
+    "fluidStackInput": "steel:144",
+    "fluidStackOutputOne": "iron:144",
+    "fluidStackOutputTwo": "carbon:144"
+  },
+  {
+    "fluidStackInput": "bronze:576",
+    "fluidStackOutputOne": "copper:432",
+    "fluidStackOutputTwo": "tin:144"
+  },
+  {
+    "fluidStackInput": "water:750",
+    "fluidStackOutputOne": "hydrogen:500",
+    "fluidStackOutputTwo": "oxygen:250"
+  },
+  {
+    "fluidStackInput": "dirtyiron:144",
+    "fluidStackOutputOne": "iron:144",
+    "fluidStackOutputTwo": "lava:16"
+  },
+  {
+    "fluidStackInput": "dirtycopper:144",
+    "fluidStackOutputOne": "copper:144",
+    "fluidStackOutputTwo": "lava:16"
+  },
+  {
+    "fluidStackInput": "dirtysilver:144",
+    "fluidStackOutputOne": "silver:144",
+    "fluidStackOutputTwo": "lava:16"
+  },
+  {
+    "fluidStackInput": "dirtygold:144",
+    "fluidStackOutputOne": "gold:144",
+    "fluidStackOutputTwo": "lava:16"
+  },
+  {
+    "fluidStackInput": "dirtytin:144",
+    "fluidStackOutputOne": "tin:144",
+    "fluidStackOutputTwo": "lava:16"
+  },
+  {
+    "fluidStackInput": "dirtylead:144",
+    "fluidStackOutputOne": "lead:144",
+    "fluidStackOutputTwo": "lava:16"
+  }
+]

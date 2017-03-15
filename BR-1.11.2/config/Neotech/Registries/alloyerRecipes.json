@@ -1,0 +1,32 @@
+[
+  {
+    "fluidStackOne": "water:1000",
+    "fluidStackTwo": "lava:1000",
+    "fluidStackOutput": "obsidian:288"
+  },
+  {
+    "fluidStackOne": "iron:144",
+    "fluidStackTwo": "carbon:144",
+    "fluidStackOutput": "steel:144"
+  },
+  {
+    "fluidStackOne": "copper:432",
+    "fluidStackTwo": "tin:144",
+    "fluidStackOutput": "bronze:576"
+  },
+  {
+    "fluidStackOne": "blaze:144",
+    "fluidStackTwo": "iron:144",
+    "fluidStackOutput": "tormented:144"
+  },
+  {
+    "fluidStackOne": "chorus:144",
+    "fluidStackTwo": "tormented:144",
+    "fluidStackOutput": "outlandish:144"
+  },
+  {
+    "fluidStackOne": "wither:144",
+    "fluidStackTwo": "outlandish:144",
+    "fluidStackOutput": "neodymium:144"
+  }
+]

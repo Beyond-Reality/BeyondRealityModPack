@@ -1,0 +1,434 @@
+[
+  {
+    "inputItemStack": "oreRedstone",
+    "outputItemStack": "dustRedstone:12",
+    "outputSecondary": "dustRedstone:4",
+    "secondaryOutputPercentChance": 20
+  },
+  {
+    "inputItemStack": "oreLapis",
+    "outputItemStack": "gemLapis:8",
+    "outputSecondary": "gemLapis:2",
+    "secondaryOutputPercentChance": 20
+  },
+  {
+    "inputItemStack": "minecraft:blaze_rod:0:1",
+    "outputItemStack": "minecraft:blaze_powder:0:4",
+    "outputSecondary": "minecraft:blaze_powder:0:2",
+    "secondaryOutputPercentChance": 15
+  },
+  {
+    "inputItemStack": "cobblestone",
+    "outputItemStack": "sand:2",
+    "outputSecondary": "gravel:1",
+    "secondaryOutputPercentChance": 10
+  },
+  {
+    "inputItemStack": "sand",
+    "outputItemStack": "gravel:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "bone",
+    "outputItemStack": "dyeWhite:8",
+    "outputSecondary": "dyeWhite:2",
+    "secondaryOutputPercentChance": 10
+  },
+  {
+    "inputItemStack": "oreQuartz",
+    "outputItemStack": "gemQuartz:4",
+    "outputSecondary": "gemQuartz:2",
+    "secondaryOutputPercentChance": 50
+  },
+  {
+    "inputItemStack": "minecraft:clay:0:1",
+    "outputItemStack": "minecraft:clay_ball:0:4",
+    "outputSecondary": "minecraft:clay_ball:0:2",
+    "secondaryOutputPercentChance": 25
+  },
+  {
+    "inputItemStack": "minecraft:hardened_clay:0:1",
+    "outputItemStack": "ingotBrick:4",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreDiamond",
+    "outputItemStack": "gemDiamond:2",
+    "outputSecondary": "gemDiamond:1",
+    "secondaryOutputPercentChance": 10
+  },
+  {
+    "inputItemStack": "oreEmerald",
+    "outputItemStack": "gemEmerald:2",
+    "outputSecondary": "gemEmerald:1",
+    "secondaryOutputPercentChance": 10
+  },
+  {
+    "inputItemStack": "glowstone",
+    "outputItemStack": "dustGlowstone:4",
+    "outputSecondary": "dustGlowstone:2",
+    "secondaryOutputPercentChance": 15
+  },
+  {
+    "inputItemStack": "oreCoal",
+    "outputItemStack": "coal:3",
+    "outputSecondary": "craftingIndustrialDiamond:1",
+    "secondaryOutputPercentChance": 1
+  },
+  {
+    "inputItemStack": "minecraft:wool:32767:1",
+    "outputItemStack": "string:4",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "blockGlass",
+    "outputItemStack": "sand:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "gravel",
+    "outputItemStack": "minecraft:flint:0:3",
+    "outputSecondary": "minecraft:flint:0:1",
+    "secondaryOutputPercentChance": 20
+  },
+  {
+    "inputItemStack": "ingotIron",
+    "outputItemStack": "dustIron:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotGold",
+    "outputItemStack": "dustGold:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotCopper",
+    "outputItemStack": "dustCopper:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotLead",
+    "outputItemStack": "dustLead:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotSilver",
+    "outputItemStack": "dustSilver:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreIron",
+    "outputItemStack": "dustIron:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreGold",
+    "outputItemStack": "dustGold:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreCopper",
+    "outputItemStack": "dustCopper:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreTin",
+    "outputItemStack": "dustTin:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotTin",
+    "outputItemStack": "dustTin:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreLead",
+    "outputItemStack": "dustLead:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreSilver",
+    "outputItemStack": "dustSilver:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotNickel",
+    "outputItemStack": "dustNickel:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotPlatinum",
+    "outputItemStack": "dustPlatinum:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotBronze",
+    "outputItemStack": "dustBronze:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotSteel",
+    "outputItemStack": "dustSteel:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotTormented",
+    "outputItemStack": "dustTormented:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotOutlandish",
+    "outputItemStack": "dustOutlandish:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotNeodymium",
+    "outputItemStack": "dustNeodymium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotAluminum",
+    "outputItemStack": "dustAluminum:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotBrass",
+    "outputItemStack": "dustBrass:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotChrome",
+    "outputItemStack": "dustChrome:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotElectrum",
+    "outputItemStack": "dustElectrum:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotInvar",
+    "outputItemStack": "dustInvar:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotTitanium",
+    "outputItemStack": "dustTitanium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotTungsten",
+    "outputItemStack": "dustTungsten:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotZinc",
+    "outputItemStack": "dustZinc:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreBauxite",
+    "outputItemStack": "dustBauxite:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreCinnabar",
+    "outputItemStack": "dustCinnabar:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreGalena",
+    "outputItemStack": "dustGalena:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "orePeridot",
+    "outputItemStack": "dustPeridot:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "orePyrite",
+    "outputItemStack": "dustPyrite:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreRuby",
+    "outputItemStack": "dustRuby:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreSapphire",
+    "outputItemStack": "dustSapphire:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreSodalite",
+    "outputItemStack": "dustSodalite:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreSphalerite",
+    "outputItemStack": "dustSphalerite:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreTungsten",
+    "outputItemStack": "dustTungsten:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreQuartzBlack",
+    "outputItemStack": "dustQuartzBlack:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotYellorium",
+    "outputItemStack": "dustYellorium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotCyanite",
+    "outputItemStack": "dustCyanite:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotGraphite",
+    "outputItemStack": "dustGraphite:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotBlutonium",
+    "outputItemStack": "dustBlutonium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotLudicrite",
+    "outputItemStack": "dustLudicrite:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotUranium",
+    "outputItemStack": "dustYellorium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "ingotPlutonium",
+    "outputItemStack": "dustBlutonium:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "oreYellorium",
+    "outputItemStack": "dustYellorium:2",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "flowerYellow:1",
+    "outputItemStack": "dye:2:11",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "flowerRed:1",
+    "outputItemStack": "dye:2:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:1:1",
+    "outputItemStack": "dye:2:12",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:2:1",
+    "outputItemStack": "dye:2:13",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:3:1",
+    "outputItemStack": "dye:2:7",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:4:1",
+    "outputItemStack": "dye:2:1",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:5:1",
+    "outputItemStack": "dye:2:14",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:6:1",
+    "outputItemStack": "dye:2:7",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:7:1",
+    "outputItemStack": "dye:2:9",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  },
+  {
+    "inputItemStack": "minecraft:red_flower:8:1",
+    "outputItemStack": "dye:2:7",
+    "outputSecondary": "",
+    "secondaryOutputPercentChance": 0
+  }
+]

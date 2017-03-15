@@ -1,0 +1,250 @@
+[
+  {
+    "inputItemStack": "blockBronze",
+    "outputFluidStack": "bronze:1296"
+  },
+  {
+    "inputItemStack": "ingotBronze",
+    "outputFluidStack": "bronze:144"
+  },
+  {
+    "inputItemStack": "dustBronze",
+    "outputFluidStack": "bronze:72"
+  },
+  {
+    "inputItemStack": "nuggetBronze",
+    "outputFluidStack": "bronze:16"
+  },
+  {
+    "inputItemStack": "dustIron",
+    "outputFluidStack": "iron:72"
+  },
+  {
+    "inputItemStack": "nuggetIron",
+    "outputFluidStack": "iron:16"
+  },
+  {
+    "inputItemStack": "blockCopper",
+    "outputFluidStack": "copper:1296"
+  },
+  {
+    "inputItemStack": "oreCopper",
+    "outputFluidStack": "dirtycopper:432"
+  },
+  {
+    "inputItemStack": "ingotCopper",
+    "outputFluidStack": "copper:144"
+  },
+  {
+    "inputItemStack": "dustCopper",
+    "outputFluidStack": "copper:72"
+  },
+  {
+    "inputItemStack": "nuggetCopper",
+    "outputFluidStack": "copper:16"
+  },
+  {
+    "inputItemStack": "blockSteel",
+    "outputFluidStack": "steel:1296"
+  },
+  {
+    "inputItemStack": "ingotSteel",
+    "outputFluidStack": "steel:144"
+  },
+  {
+    "inputItemStack": "dustSteel",
+    "outputFluidStack": "steel:72"
+  },
+  {
+    "inputItemStack": "nuggetSteel",
+    "outputFluidStack": "steel:16"
+  },
+  {
+    "inputItemStack": "blockSilver",
+    "outputFluidStack": "silver:1296"
+  },
+  {
+    "inputItemStack": "oreSilver",
+    "outputFluidStack": "dirtysilver:432"
+  },
+  {
+    "inputItemStack": "ingotSilver",
+    "outputFluidStack": "silver:144"
+  },
+  {
+    "inputItemStack": "dustSilver",
+    "outputFluidStack": "silver:72"
+  },
+  {
+    "inputItemStack": "nuggetSilver",
+    "outputFluidStack": "silver:16"
+  },
+  {
+    "inputItemStack": "dustGold",
+    "outputFluidStack": "gold:72"
+  },
+  {
+    "inputItemStack": "blockTin",
+    "outputFluidStack": "tin:1296"
+  },
+  {
+    "inputItemStack": "oreTin",
+    "outputFluidStack": "dirtytin:432"
+  },
+  {
+    "inputItemStack": "ingotTin",
+    "outputFluidStack": "tin:144"
+  },
+  {
+    "inputItemStack": "dustTin",
+    "outputFluidStack": "tin:72"
+  },
+  {
+    "inputItemStack": "nuggetTin",
+    "outputFluidStack": "tin:16"
+  },
+  {
+    "inputItemStack": "blockOutlandish",
+    "outputFluidStack": "outlandish:1296"
+  },
+  {
+    "inputItemStack": "ingotOutlandish",
+    "outputFluidStack": "outlandish:144"
+  },
+  {
+    "inputItemStack": "dustOutlandish",
+    "outputFluidStack": "outlandish:72"
+  },
+  {
+    "inputItemStack": "nuggetOutlandish",
+    "outputFluidStack": "outlandish:16"
+  },
+  {
+    "inputItemStack": "blockTormented",
+    "outputFluidStack": "tormented:1296"
+  },
+  {
+    "inputItemStack": "ingotTormented",
+    "outputFluidStack": "tormented:144"
+  },
+  {
+    "inputItemStack": "dustTormented",
+    "outputFluidStack": "tormented:72"
+  },
+  {
+    "inputItemStack": "nuggetTormented",
+    "outputFluidStack": "tormented:16"
+  },
+  {
+    "inputItemStack": "blockLead",
+    "outputFluidStack": "lead:1296"
+  },
+  {
+    "inputItemStack": "oreLead",
+    "outputFluidStack": "dirtylead:432"
+  },
+  {
+    "inputItemStack": "ingotLead",
+    "outputFluidStack": "lead:144"
+  },
+  {
+    "inputItemStack": "dustLead",
+    "outputFluidStack": "lead:72"
+  },
+  {
+    "inputItemStack": "nuggetLead",
+    "outputFluidStack": "lead:16"
+  },
+  {
+    "inputItemStack": "blockNeodymium",
+    "outputFluidStack": "neodymium:1296"
+  },
+  {
+    "inputItemStack": "ingotNeodymium",
+    "outputFluidStack": "neodymium:144"
+  },
+  {
+    "inputItemStack": "dustNeodymium",
+    "outputFluidStack": "neodymium:72"
+  },
+  {
+    "inputItemStack": "nuggetNeodymium",
+    "outputFluidStack": "neodymium:16"
+  },
+  {
+    "inputItemStack": "ingotIron",
+    "outputFluidStack": "iron:144"
+  },
+  {
+    "inputItemStack": "oreIron",
+    "outputFluidStack": "dirtyiron:432"
+  },
+  {
+    "inputItemStack": "blockIron",
+    "outputFluidStack": "iron:1296"
+  },
+  {
+    "inputItemStack": "nuggetGold",
+    "outputFluidStack": "gold:16"
+  },
+  {
+    "inputItemStack": "ingotGold",
+    "outputFluidStack": "gold:144"
+  },
+  {
+    "inputItemStack": "oreGold",
+    "outputFluidStack": "dirtygold:432"
+  },
+  {
+    "inputItemStack": "blockGold",
+    "outputFluidStack": "gold:1296"
+  },
+  {
+    "inputItemStack": "minecraft:coal:1:1",
+    "outputFluidStack": "carbon:288"
+  },
+  {
+    "inputItemStack": "coal:1",
+    "outputFluidStack": "carbon:144"
+  },
+  {
+    "inputItemStack": "blockCoal:1",
+    "outputFluidStack": "carbon:1296"
+  },
+  {
+    "inputItemStack": "obsidian:1",
+    "outputFluidStack": "obsidian:288"
+  },
+  {
+    "inputItemStack": "minecraft:blaze_rod:0:1",
+    "outputFluidStack": "blaze:144"
+  },
+  {
+    "inputItemStack": "minecraft:chorus_fruit_popped:0:1",
+    "outputFluidStack": "chorus:144"
+  },
+  {
+    "inputItemStack": "netherStar:1",
+    "outputFluidStack": "wither:144"
+  },
+  {
+    "inputItemStack": "minecraft:snowball:0:1",
+    "outputFluidStack": "water:144"
+  },
+  {
+    "inputItemStack": "blockIce:1",
+    "outputFluidStack": "water:1296"
+  },
+  {
+    "inputItemStack": "minecraft:packed_ice:0:1",
+    "outputFluidStack": "water:1296"
+  },
+  {
+    "inputItemStack": "cobblestone",
+    "outputFluidStack": "lava:20"
+  },
+  {
+    "inputItemStack": "stone",
+    "outputFluidStack": "lava:40"
+  }
+]

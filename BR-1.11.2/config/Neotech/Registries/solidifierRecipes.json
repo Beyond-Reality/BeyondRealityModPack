@@ -1,0 +1,197 @@
+[
+  {
+    "inputFluidStack": "bronze:1296",
+    "outputItemStack": "blockBronze:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "bronze:144",
+    "outputItemStack": "ingotBronze:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "bronze:16",
+    "outputItemStack": "nuggetBronze:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "iron:16",
+    "outputItemStack": "nuggetIron:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "copper:1296",
+    "outputItemStack": "blockCopper:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "copper:144",
+    "outputItemStack": "ingotCopper:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "copper:16",
+    "outputItemStack": "nuggetCopper:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "steel:1296",
+    "outputItemStack": "blockSteel:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "steel:144",
+    "outputItemStack": "ingotSteel:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "steel:16",
+    "outputItemStack": "nuggetSteel:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "silver:1296",
+    "outputItemStack": "blockSilver:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "silver:144",
+    "outputItemStack": "ingotSilver:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "silver:16",
+    "outputItemStack": "nuggetSilver:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "tin:1296",
+    "outputItemStack": "blockTin:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "tin:144",
+    "outputItemStack": "ingotTin:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "tin:16",
+    "outputItemStack": "nuggetTin:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "outlandish:1296",
+    "outputItemStack": "blockOutlandish:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "outlandish:144",
+    "outputItemStack": "ingotOutlandish:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "outlandish:16",
+    "outputItemStack": "nuggetOutlandish:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "tormented:1296",
+    "outputItemStack": "blockTormented:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "tormented:144",
+    "outputItemStack": "ingotTormented:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "tormented:16",
+    "outputItemStack": "nuggetTormented:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "lead:1296",
+    "outputItemStack": "blockLead:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "lead:144",
+    "outputItemStack": "ingotLead:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "lead:16",
+    "outputItemStack": "nuggetLead:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "neodymium:1296",
+    "outputItemStack": "blockNeodymium:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "neodymium:144",
+    "outputItemStack": "ingotNeodymium:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "neodymium:16",
+    "outputItemStack": "nuggetNeodymium:1",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "iron:1296",
+    "outputItemStack": "blockIron",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "iron:144",
+    "outputItemStack": "ingotIron",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "gold:1296",
+    "outputItemStack": "blockGold",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "gold:144",
+    "outputItemStack": "ingotGold",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "gold:16",
+    "outputItemStack": "nuggetGold",
+    "requiredMode": "NUGGET_MODE"
+  },
+  {
+    "inputFluidStack": "carbon:1296",
+    "outputItemStack": "blockCoal:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "carbon:144",
+    "outputItemStack": "coal:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "obsidian:288",
+    "outputItemStack": "obsidian:1",
+    "requiredMode": "BLOCK_MODE"
+  },
+  {
+    "inputFluidStack": "blaze:144",
+    "outputItemStack": "minecraft:blaze_rod:0:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "chorus:144",
+    "outputItemStack": "minecraft:chorus_fruit_popped:0:1",
+    "requiredMode": "INGOT_MODE"
+  },
+  {
+    "inputFluidStack": "wither:144",
+    "outputItemStack": "netherStar:1",
+    "requiredMode": "INGOT_MODE"
+  }
+]
