@@ -89,7 +89,7 @@
 | [Teslafied](http://www.curseforge.com/projects/teslafied/) | 1.1 | p455w0rd aka TheRealp455w0rd | Allows RF capable Tile Entities to also support Tesla |
 | [Thut Essentials](http://www.curseforge.com/projects/thut-essentials/) | 1.6.8 | Thutmose | Essentials mod for Forge |
 | [Thut's Elevators](http://www.curseforge.com/projects/thuts-elevators/) | 5.0.0 | patnevis | Adds elevators to minecraft |
-| [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.2.1 | gigaherz | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
+| [Tool Belt](https://github.com/gigaherz/ToolBelt) | 1.3.0 | gigaherz | Adds a (baubles-aware) belt that you can use to hold multiple tools at once. |
 | [TorchMaster](http://www.curseforge.com/projects/torchmaster/) | 1.1.0.0 | xalcon | Adds a special torch which prevents mobs from spawning in a configurable range |
 | [TrashSlot](http://www.curseforge.com/projects/trashslot/) | 7.4.1 | BlayTheNinth | Adds a trash slot to the inventory screen that allows deletion of unwanted items. |
 | [Tree Chopper](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2731148-tree-chopper) | 1.1 | DuchLord | Simple mod for chop down whole tree and much more..   Recommended forge version: 1.11 - 13.19.0.2141 |
