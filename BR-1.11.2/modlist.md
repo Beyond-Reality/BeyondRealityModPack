@@ -11,7 +11,7 @@
 ## Mods
 | Mod | Version | Authors | Description |
 |-----|:-------:|:--------|:------------|
-| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r103 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
+| [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r106 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
 | [Advanced Generators](http://bdew.net/) | 0.9.20.5 | bdew | Freeform Multiblock generators that produce MJ, RF and EU |
 | [AppleSkin](http://www.curseforge.com/projects/appleskin/) | 1.0.6 | squeek | Adds various food-related HUD improvements |
 | [Baubles](http://www.minecraftforum.net/topic/2535073-baubles) | 1.4.3 | Azanor | Adding a touch of bling to Minecraft |
@@ -71,8 +71,8 @@
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.5 | bdew | Unlimited Fluid Transport |
 | [Quark](http://www.vazkii.us) | r1.2-85 | Vazkii<br/>wiiv | Small things. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8 | Lumien | Random Things packed into one Mod. |
-| [ReAuth](http://minecraft.curseforge.com/projects/reauth) | 3.4.1 | TechnicianLP | A Mod to renew your Session |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Team RTG | Adds a new world type which generates realistic terrain for Overworld biomes. |
+| [ReAuth](http://minecraft.curseforge.com/projects/reauth) | 3.4.1 | TechnicianLP | A Mod to renew your Session |
 | [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4.1 | Refined Storage contributors | An elegant solution to your hoarding problem |
 | [Reliquary](https://minecraft.curseforge.com/projects/reliquary-v1-3) | 1.11.2-1.3.3.635 | x3n0ph0b3<br/>TheMike<br/>P3pp3rF1y | Two words: magical swag. Oh, and a gun. |
 | [Resource Loader](http://www.curseforge.com/projects/resource-loader/) | 1.5.1 | lumien | Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack. |
@@ -109,14 +109,15 @@
 | [AutoRegLib](http://www.vazkii.us) | 1.1-4 | Vazkii | Automatically item, block, and model registration for mods. |
 | [BD Lib](http://bdew.net/mods/) | 1.13.2.7 | bdew | A library of generic code for my other mods |
 | [Bookshelf](http://www.curseforge.com/projects/bookshelf-api-library/) | 5.0.0-B96 | Dyonovan<br/>pauljoda | Library of useful functions used by TeamBR |
+| [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.2 | McJty | Compatibility layer to make migrating between different vanilla/forge versions easier |
 | [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha8-1.11.2 | Elix_x | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | delvr | A Scala API for Minecraft mods. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | iLexiconn | The lightweight Minecraft modding library |
 | [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.1 | Ordinastie<br/>PaleoCrafter | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | MattDahEpic | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.11.4.1 | modmuss50<br/>Gigabit101 | RebornCore, A core set of classes. |
-| [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | Shadowfacts | A library mod required for all my other mods. |
 | [Shadowfacts-Forgelin](http://www.curseforge.com/projects/shadowfacts-forgelin/) | 1.4.0 | shadowfactsmc | My fork of Emberwalker's Forgelin, with some sprinkles on top. |
+| [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | Shadowfacts | A library mod required for all my other mods. |
 | [ShetiPhian-Core](http://tomkinsbros.blogspot.ca/p/core.html) | 1.11.0-3.4.3 | ShetiPhian | Core set of files needed by ShetiPhians mods |
 | [Stellar API](http://www.curseforge.com/projects/stellar-api/) | 0.6.4.1.2 | Abastro | API for mods related with sky and celestial sphere. |
 | [TESLA](http://www.curseforge.com/projects/tesla/) | 1.11-1.3.0.51 | Darkhax | A modern power API |
@@ -124,4 +125,3 @@
 | [ThutCore](http://www.curseforge.com/projects/thutcore/) | 4.3.2 | patnevis | API used by Thut's Mods |
 | [Waila](http://www.curseforge.com/projects/hwyla/) | 1.8.9 | ProfMobius | Hwyla (Here's What You're Looking At) is a UI improvement mod aimed at providing block information directly in-game. It is al... |
 | [Zero CORE](http://zerono.it/) | 1.11.2-0.1.0.4 | ZeroNoRyouki | Utility mod and multiblock API |
-| [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.2 | McJty | Compatibility layer to make migrating between different vanilla/forge versions easier |
