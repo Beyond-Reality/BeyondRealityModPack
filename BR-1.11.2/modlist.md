@@ -100,7 +100,7 @@
 | [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.12 | BlayTheNinth | Teleport back to activated waystones. For Survival, Adventure or Servers. |
 | [What's That Slot](http://www.curseforge.com/projects/whats-that-slot/) | 1.0.1 | gegy1000 | What's That Slot (WTS) allows you to check what items can be put into hovered slot with a single press of a key! |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | CenturionFox | Adds armors and storage for wolves! |
-| [World Stripper](http://www.curseforge.com/projects/world-stripper/) | 1.2.0-1.11.0 | Ewy | Strip The World! #AllNude |
+| [World Stripper](http://www.curseforge.com/projects/world-stripper/) | 1.3.0-1.11.2 | Ewy | Strip The World! #AllNude |
 | [WorldEdit](http://wiki.sk89q.com/wiki/WorldEdit) | 6.1.6-SNAPSHOT;e34fc1a | sk89q<br/>wizjany<br/>TomyLobo<br/>kenzierocks | WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer. |
 | [WorldEdit CUI Forge Edition](http://www.curseforge.com/projects/worldeditcui-forge-edition/) | 1.0.7 | yetanotherx<br/>Mumfrey<br/>Hexosse | WorldEdit CUI is a client-side user interface for WorldEdit. |
 ## Dependency/Core Mods
