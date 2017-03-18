@@ -6,7 +6,7 @@
 ### Powered by
 * Minecraft Forge 10.13.4.1614
 * [110 Mods](#mods)
-* [28 Dependency/Core Mods](#dependencycore-mods)
+* [29 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -141,6 +141,7 @@
 | [iChunUtil](http://www.ichun.us/) | 4.2.3 | iChun | Shared library mod required by several of iChun's Mods. |
 | [Liteloader](http://www.liteloader.com/) | 1.7.10 |  | LiteLoader is a lightweight mod loader for Minecraft designed to provide simple, high-performance and reliable loader functionality for mods which don't need to modify game mechanics. |
 | [malisiscore](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 0.14.3 | Ordinastie | Core for Malisis mods |
+| [Mantle](http://www.minecraftforum.net/topic/1659892-) | 0.3.2b | SlimeKnights | Tinkers Construct Library |
 | [Micdoodle8 Core](http://www.micdoodle8.com/) | 3.0.12.462 | micdoodle8 | Provides core features of Micdoodle8's mods |
 | [MobiusCore](http://www.curseforge.com/projects/76734/) | 1.2.5 | ProfMobius | Core mod used for Opis |
 | [MrTJPCore](http://www.minecraftforum.net/topic/1885652) | 1.1.0.33 | Mr_TJP | Core for Project Red |
