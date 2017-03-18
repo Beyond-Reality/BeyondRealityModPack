@@ -1,5 +1,5 @@
 # Beyond Reality Classic
-* Version: 2.4.3-r3
+* Version: 2.4.4-r1
 
 ## A Mod-pack for Minecraft: 1.7.10
 
