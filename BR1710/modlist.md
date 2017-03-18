@@ -57,7 +57,7 @@
 | [Gendustry](http://www.minecraftforum.net/topic/2160265-) | 1.6.4.135 | bdew | Gendustry |
 | [GraviSuiteReloaded](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11911) | 0.9.1 | estebes | Since Graviation Suite seems to be an abandoned project that is currently experiencing some bugs i'm working on my own version of it. For now you can take a look at some new things i'm adding. |
 | [GregTech-Addon](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11488) | 5.09 | Gregorius Techneticies<br/>Blood Asp | This Mod adds the awesome Technology of GregTech-Intergalactical to your World! |
-| [GT++](https://github.com/draknyte1/GTplusplus/wiki) | 1.4.9.22-alpha | Alkalus/Draknyte1 | Adds a few various Multiblocks, Machines, etc to Gregtech and a plethora of other mods (Nearly 30!) |
+| [GT++](https://github.com/draknyte1/GTplusplus/wiki) | 1.4.9.86-Beta | Alkalus/Draknyte1 | Adds a few various Multiblocks, Machines, etc to Gregtech and a plethora of other mods (Nearly 30!) |
 | [GTTweaker](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11353) | 1.1.0 | DreamMasterXXL | Minetweaker Addon for GregTech 5. |
 | [Hardcore Ender Expansion](http://hee.chylex.com) | 1.8.6 | Programmed by chylex | http://hee.chylex.com/authors | Overhauls the End with many new areas to explore, bosses to fight and rewards to gain. |
 | [Hats](http://ichun.us/mods/hats/) | 4.0.1 | iChun | Adds a bunch of hats, as wells as the ability to add more, into Minecraft |
