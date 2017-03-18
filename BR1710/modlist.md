@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 10.13.4.1614
-* [129 Mods](#mods)
+* [128 Mods](#mods)
 * [11 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -53,7 +53,6 @@
 | [Forge Essentials Client Addon](https://github.com/ForgeEssentials/ForgeEssentialsMain) | 1.4.5.1330 | AbrarSyed<br/>luacs1998<br/>olee<br/>dries007<br/>Malkierian<br/>And a few others | Client addon for ForgeEssentials (optional) |
 | [Framez](http://minecraft.curseforge.com/mc-mods/76118-framez) | 0.2-32-Hotfix | Amadornes | Moving frames with microblock and power support! |
 | [GalacticraftCore](http://www.micdoodle8.com/mods/galacticraft) | 3.0.12.462 | micdoodle8 | Blast off to the stars. Makes a space base or a space station. Discover new worlds and exicting dungeons. |
-| [GalactiGreg](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11039) | 0.7 | Blood ASP | Adds gregs ores to GalactiCraft's Dimensions |
 | [Gendustry](http://www.minecraftforum.net/topic/2160265-) | 1.6.4.135 | bdew | Gendustry |
 | [GraviSuiteReloaded](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11911) | 0.9.1 | estebes | Since Graviation Suite seems to be an abandoned project that is currently experiencing some bugs i'm working on my own version of it. For now you can take a look at some new things i'm adding. |
 | [GregTech-Addon](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11488) | 5.09 | Gregorius Techneticies<br/>Blood Asp | This Mod adds the awesome Technology of GregTech-Intergalactical to your World! |
