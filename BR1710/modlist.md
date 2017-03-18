@@ -70,7 +70,7 @@
 | [Logistics Pipes](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289546) | 0.9.3.128 | thezoro266 | Logistics Pipes is an extensive overhaul of the Buildcraft pipe system. It allows for better distribution of items via pipes, more organised stockkeeping and easier automated crafting. |
 | [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 0.11.1.111 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
 | [malisisdoors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 1.13.2 | Ordinastie | Animated,Sliding and Custom doors! |
-| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.8.2B1-200 | PowerCrystals<br/>TehKrush<br/>AtomicStryker<br/>Feanorith<br/>skyboy026 | Automate everything! |
+| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.8.2B1-201 | PowerCrystals<br/>TehKrush<br/>AtomicStryker<br/>Feanorith<br/>skyboy026 | Automate everything! |
 | [MineTweaker 3](http://www.minecraftforum.net/topic/1886008-) | 3.0.10B | StanH | MineTweaker is a mod that enables players and server admins to alter recipes. |
 | [ModTweaker2](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093121) | 0.9.6 | Joshie | ModTweaker is an addon for MineTweaker 3. |
 | [Morpheus](https://minecraft.curseforge.com/projects/morpheus) | 1.7.10-1.6.21 | quetzi | Morpheus is a server-only mod that adds sleep voting to a forge based server. |
@@ -130,7 +130,7 @@
 | [bspkrsCore](http://www.minecraftforum.net/topic/1114612-) | 6.16 | DaftPVF<br/>bspkrs | Shared classes used in the mods maintained by bspkrs. |
 | [CodeChickenCore](http://www.minecraftforum.net/topic/909223-) | 1.0.7.47 | ChickenBones | Core library for all ChickenBones mods |
 | [CodeChickenLib](http://www.minecraftforum.net/topic/909223-) | 1.1.3.127 | ChickenBones | Needed for ChickenBones mods |
-| [CoFH Core](http://teamcofh.com/) | 3.1.3-328 | KingLemmingCoFH<br/>Cynycal<br/>Zeldo | Framework required for all Team CoFH mods. |
+| [CoFH Core](http://teamcofh.com/) | 3.1.4-329 | KingLemmingCoFH<br/>Cynycal<br/>Zeldo | Framework required for all Team CoFH mods. |
 | [Commons-code](http://NA.com/) | 1.9 |  | Core File |
 | [commons-compress](http://NA.com/) | 1.8.1 |  | Core File |
 | [EnderCore](http://enderio.com) | 1.7.10-0.2.0.39_beta | tterrag<br/>CrazyPants | Library mod used by EnderIO, EnderZoo, and others |
