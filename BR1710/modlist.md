@@ -5,8 +5,8 @@
 
 ### Powered by
 * Minecraft Forge 10.13.4.1614
-* [112 Mods](#mods)
-* [26 Dependency/Core Mods](#dependencycore-mods)
+* [111 Mods](#mods)
+* [27 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -16,7 +16,6 @@
 | [Applied Energistics 2](http://ae2.ae-mod.info/) | rv3-beta-6 | AlgorithmX2 | Applied Energistics 2 is a Minecraft Mod which contains a large amount of new content, mostly centered around the concept of using Energy, and the Transformation of Energy in a unique way. |
 | [ArmorStatusHUD](http://www.minecraftforum.net/topic/1114612-) | 1.28 | bspkrs | Provides a HUD with your equipped armor/item stats. |
 | [AutoMagy](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2125369-) | 0.28.2 | Tuhljin | Golems Logistic's Together with quaility of life additions to thaumcraft = Sweet! |
-| [BdLib](http://minecraft.curseforge.com/mc-mods/bdlib/) | 1.9.4.109 | bdew | This is a collection of generic code used by bdew's other mods |
 | [Beyond Reality Core](http://mcbeyondreality.com) | 1.5.6-BETA-6 | Dyonovan<br/>Dominance<br/>PaulJoda | Added features for the Beyond Reality ModPack |
 | [BiblioCraft](http://www.bibliocraftmod.com) | 1.11.5 | Joseph 'Nuchaz' Sinclair | BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware! New in 1.3: Fancy lamps and golden lanterns. Also Tables and enchanted plates! |
 | [BiblioWoods Forestry Edition](http://www.bibliocraftmod.com) | 1.7 | Joseph 'Nuchaz' Sinclair | Adds support for 24 varietys of wood from Forestry for 8 of the wooden block in BiblioCraft. |
@@ -128,6 +127,7 @@
 |-----|:-------:|:--------|:------------|
 | [AsieLib](http://wiki.vex.tty.sh/wiki:asielib) | 0.4.6.100-dev | Asie | Library for Asie mods |
 | [Baubles](http://www.minecraftforum.net/topic/2535073-) | 1.0.1.10 | Azanor | Baubles is a small addon mod and api that is intended to be used by other mods to add additional inventory slots to a character |
+| [BdLib](http://minecraft.curseforge.com/mc-mods/bdlib/) | 1.9.4.109 | bdew | This is a collection of generic code used by bdew's other mods |
 | [bspkrsCore](http://www.minecraftforum.net/topic/1114612-) | 6.16 | DaftPVF<br/>bspkrs | Shared classes used in the mods maintained by bspkrs. |
 | [CodeChickenCore](http://www.minecraftforum.net/topic/909223-) | 1.0.7.47 | ChickenBones | Core library for all ChickenBones mods |
 | [CodeChickenLib](http://www.minecraftforum.net/topic/909223-) | 1.1.3.127 | ChickenBones | Needed for ChickenBones mods |
