@@ -23,8 +23,8 @@
 | [Big Reactors](http://minecraft.curseforge.com/projects/big-reactors/files/2282591) | 0.4.3A | ErogenousBeef | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) power.  Special thanks: powercrystals, skyboy, King_Lemming, & Calclavia for example code. |
 | [Biomes O' Plenty](http://minecraft.curseforge.com/projects/biomes-o-plenty/files/2281726) | 2.1.0.2027 | Forstride<br/>Adubbz<br/>Amnet<br/>ted80 | Adds 87 new, unique biomes! |
 | [Botania](http://www.minecraftforum.net/topic/2440071-) | r1.8-249 | vazkii | Botania is a magic tech mod based on nature. |
-| [Buildcraft](http://www.mod-buildcraft.com/) | 7.1.19 | Spacetoad<br/>covertJaguar<br/>Asie | Extending Minecraft with pipes, auto-crafting, quarries, engines and much more! |
-| [BuildCraft Compat](http://www.mod-buildcraft.com/) | compat-7.1.5 | asie<br/>BuildCraft Team | Compatibility add-on for BuildCraft |
+| [Buildcraft](http://www.mod-buildcraft.com/) | 7.1.20 | Spacetoad<br/>covertJaguar<br/>Asie | Extending Minecraft with pipes, auto-crafting, quarries, engines and much more! |
+| [BuildCraft Compat](http://www.mod-buildcraft.com/) | compat-7.1.6 | asie<br/>BuildCraft Team | Compatibility add-on for BuildCraft |
 | [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 3.3.8.1 | Mineshopper | Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns. |
 | [Chisel](http://www.minecraftforum.net/forums/thread/1294901) | 2.9.5.11 | tterrag<br/>Drullkus<br/>minecreatr | A mod that adds in many fancy blocks for decoration, which are crafted utilising the Chisel. |
 | [Compact Solars](http://forum.industrial-craft.net/index.php?page=Thread&threadID=4827) | 4.4.39.315 | CPW | Compact your solars into a single block with just as much uhmp |
