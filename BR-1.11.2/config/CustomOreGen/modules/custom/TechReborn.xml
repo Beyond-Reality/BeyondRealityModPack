@@ -1,0 +1,865 @@
+<!-- =================================================================
+     Custom Ore Generation "TechReborn" Module: This
+     configuration covers copper, mountain copper, tin, mountain tin,
+     lead, and mountain lead.
+     ================================================================= -->
+<!-- Configuration by Léa. -->
+<!-- Is the "TechReborn" mod on the system?  Let's find out! -->
+<IfModInstalled name="techreborn">
+  <!-- Starting Configuration for Custom Ore Generation. -->
+  <ConfigSection>
+    <!-- Setup Screen Configuration -->
+    <ConfigSection>
+      <OptionDisplayGroup name='groupTechReborn' displayName='TechReborn' displayState='shown'>
+        <Description>Distribution options for TechReborn Ores.</Description>
+      </OptionDisplayGroup>
+      <OptionChoice name='enableTechReborn' displayName='Handle TechReborn Setup?' default='true' displayState='shown_dynamic' displayGroup='groupTechReborn'>
+        <Description>Should Custom Ore Generation handle TechReborn ore generation?</Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use Custom Ore Generation to handle TechReborn ores.' />
+        <Choice value=':= ?false' displayValue='No' description='TechReborn ores will be handled by Minecraft directly.' />
+      </OptionChoice>
+      <OptionChoice name='cleanUpTechReborn' displayName='Use TechReborn Cleanup?' default='true' displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+        <Description>Should Custom Ore Generation use the Substitution Pass to remove all instances of TechReborn ore from the world?  If the mod's oregen can be turned off in its configuration, then it's recommended to do so, as the substitution pass can slow the game significantly.  If this option is disabled without disabling the mod's own ore generation, you'll end up with two oregens working at once, flooding the world with ore.  Enabled by default to ensure the ores are completely removed.</Description>
+        <Choice value=':= ?true' displayValue='Yes' description='Use the substitution pass to clean up TechReborn ores.' />
+        <Choice value=':= ?false' displayValue='No' description='TechReborn ores do not need to be cleaned up by a substitution pass.' />
+      </OptionChoice>
+      <!-- Copper Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornCopperDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Copper is generated</Description>
+          <DisplayName>TechReborn Copper</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Copper is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornCopperFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Copper distributions</Description>
+          <DisplayName>TechReborn Copper Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornCopperSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Copper distributions</Description>
+          <DisplayName>TechReborn Copper Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Copper Configuration UI Complete -->
+      <!-- Mountain Copper Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornMountainCopperDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Mountain Copper is generated</Description>
+          <DisplayName>TechReborn Mountain Copper</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Mountain Copper is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornMountainCopperFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Mountain Copper distributions</Description>
+          <DisplayName>TechReborn Mountain Copper Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornMountainCopperSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Mountain Copper distributions</Description>
+          <DisplayName>TechReborn Mountain Copper Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Mountain Copper Configuration UI Complete -->
+      <!-- Tin Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornTinDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Tin is generated</Description>
+          <DisplayName>TechReborn Tin</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Tin is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornTinFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Tin distributions</Description>
+          <DisplayName>TechReborn Tin Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornTinSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Tin distributions</Description>
+          <DisplayName>TechReborn Tin Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Tin Configuration UI Complete -->
+      <!-- Mountain Tin Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornMountainTinDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Mountain Tin is generated</Description>
+          <DisplayName>TechReborn Mountain Tin</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore2:1")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Mountain Tin is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornMountainTinFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Mountain Tin distributions</Description>
+          <DisplayName>TechReborn Mountain Tin Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornMountainTinSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Mountain Tin distributions</Description>
+          <DisplayName>TechReborn Mountain Tin Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Mountain Tin Configuration UI Complete -->
+      <!-- Lead Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornLeadDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Lead is generated</Description>
+          <DisplayName>TechReborn Lead</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Lead is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornLeadFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Lead distributions</Description>
+          <DisplayName>TechReborn Lead Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornLeadSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Lead distributions</Description>
+          <DisplayName>TechReborn Lead Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Lead Configuration UI Complete -->
+      <!-- Mountain Lead Configuration UI Starting -->
+      <ConfigSection>
+        <OptionChoice name='techrebornMountainLeadDist' default="none" displayState=':= if(?enableTechReborn, "shown", "hidden")' displayGroup='groupTechReborn'>
+          <Description>Controls how Mountain Lead is generated</Description>
+          <DisplayName>TechReborn Mountain Lead</DisplayName>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='LayeredVeins' displayValue='Layered Veins'>
+              <Description>Small, fairly rare motherlodes with 2-4 horizontal veins each.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='StrategicClouds' displayValue='Strategic Clouds'>
+              <Description>Large irregular clouds filled lightly with ore.</Description>
+            </Choice>
+          </IfCondition>
+          <IfCondition condition=':= (?blockExists("techreborn:techreborn.ore:12")) '>
+            <Choice value='Vanilla' displayValue='Vanilla'>
+              <Description>Simulates Vanilla Minecraft.</Description>
+            </Choice>
+          </IfCondition>
+          <Choice value='none' displayValue='None' description='Mountain Lead is not generated in the world.' />
+        </OptionChoice>
+        <OptionNumeric name='techrebornMountainLeadFreq' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Frequency multiplier for TechReborn Mountain Lead distributions</Description>
+          <DisplayName>TechReborn Mountain Lead Freq.</DisplayName>
+        </OptionNumeric>
+        <OptionNumeric name='techrebornMountainLeadSize' default='1' min='0' max='5' displayState=':= if(?enableTechReborn, if(?advOptions, "shown", "hidden"), "hidden")' displayGroup='groupTechReborn'>
+          <Description>Size multiplier for TechReborn Mountain Lead distributions</Description>
+          <DisplayName>TechReborn Mountain Lead Size</DisplayName>
+        </OptionNumeric>
+      </ConfigSection>
+      <!-- Mountain Lead Configuration UI Complete -->
+    </ConfigSection>
+    <!-- Setup Screen Complete -->
+    <IfCondition condition=':= ?enableTechReborn'>
+      <!-- Overworld Setup Beginning -->
+      <IfCondition condition=':= ?COGActive'>
+        <!-- Starting Original "Overworld" Block Removal -->
+        <IfCondition condition=':= ?cleanUpTechReborn'>
+          <IfCondition condition=':= ?blockExists("minecraft:stone")'>
+            <Substitute name='techrebornOverworldBlockSubstitute0' block='minecraft:stone'>
+              <Description>Replace vanilla-generated ore clusters.</Description>
+              <Comment>
+                The global option  deferredPopulationRange must be
+                large enough to catch all ore  clusters (>= 32).
+              </Comment>
+              <Replaces block='techreborn:techreborn.ore2' weight='1.0' />
+              <Replaces block='techreborn:techreborn.ore:12' weight='1.0' />
+              <Replaces block='techreborn:techreborn.ore2:1' weight='1.0' />
+            </Substitute>
+          </IfCondition>
+        </IfCondition>
+        <!-- Original "Overworld" Block Removal Complete -->
+        <!-- Adding blocks -->
+        <!-- Begin Copper Generation -->
+        <!-- Starting LayeredVeins Preset for Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornCopperDist = "LayeredVeins"'>
+            <Veins name='techrebornCopperVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornCopperFreq ' range=':= 2.167 * _default_ * techrebornCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.138 * _default_ * techrebornCopperSize ' range=':= 1.138 * _default_ * techrebornCopperSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 40 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.472 * _default_ ' range=':= 1.472 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornCopperSize ' range=':= _default_ * techrebornCopperSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.213 * _default_ * techrebornCopperSize ' range=':= 1.213 * _default_ * techrebornCopperSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Copper is complete. -->
+        <!-- Starting StrategicClouds Preset for Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornCopperDist = "StrategicClouds"'>
+            <Cloud name='techrebornCopperCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='CloudRadius' avg=':= 1.573 * _default_ * techrebornCopperSize ' range=':= 1.573 * _default_ * techrebornCopperSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.573 * _default_ * techrebornCopperSize ' range=':= 1.573 * _default_ * techrebornCopperSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 2.474 * _default_ * techrebornCopperFreq ' range=':= 2.474 * _default_ * techrebornCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 40 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornCopperHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornCopperFreq  * 0.1 ' range=':= 2.167 * _default_ * techrebornCopperFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Copper is complete. -->
+        <!-- Starting Vanilla Preset for Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornCopperDist = "Vanilla"'>
+            <StandardGen name='techrebornCopperStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='Size' avg=':= 6.667 * oreSize * techrebornCopperSize ' range=':= 3.33 * oreSize * techrebornCopperSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 10.0 * oreFreq * techrebornCopperFreq ' range=':= 5.0 * oreFreq * techrebornCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 40 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Copper is complete. -->
+        <!-- End Copper Generation -->
+        <!-- Begin Mountain Copper Generation -->
+        <!-- Starting LayeredVeins Preset for Mountain Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainCopperDist = "LayeredVeins"'>
+            <Veins name='techrebornMountainCopperVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornMountainCopperFreq ' range=':= 2.167 * _default_ * techrebornMountainCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.138 * _default_ * techrebornMountainCopperSize ' range=':= 1.138 * _default_ * techrebornMountainCopperSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 184 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.472 * _default_ ' range=':= 1.472 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornMountainCopperSize ' range=':= _default_ * techrebornMountainCopperSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.213 * _default_ * techrebornMountainCopperSize ' range=':= 1.213 * _default_ * techrebornMountainCopperSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Copper is  complete. -->
+        <!-- Starting StrategicClouds Preset for Mountain  Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainCopperDist = "StrategicClouds"'>
+            <Cloud name='techrebornMountainCopperCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='CloudRadius' avg=':= 1.573 * _default_ * techrebornMountainCopperSize ' range=':= 1.573 * _default_ * techrebornMountainCopperSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.573 * _default_ * techrebornMountainCopperSize ' range=':= 1.573 * _default_ * techrebornMountainCopperSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 2.474 * _default_ * techrebornMountainCopperFreq ' range=':= 2.474 * _default_ * techrebornMountainCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 184 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornMountainCopperHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornMountainCopperFreq  * 0.1 ' range=':= 2.167 * _default_ * techrebornMountainCopperFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Mountain Copper is  complete. -->
+        <!-- Starting Vanilla Preset for Mountain Copper. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainCopperDist = "Vanilla"'>
+            <StandardGen name='techrebornMountainCopperStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60C4733C' drawBoundBox='false' boundBoxColor='0x60C4733C'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore2' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='Size' avg=':= 6.667 * oreSize * techrebornMountainCopperSize ' range=':= 3.33 * oreSize * techrebornMountainCopperSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 10.0 * oreFreq * techrebornMountainCopperFreq ' range=':= 5.0 * oreFreq * techrebornMountainCopperFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 184 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Mountain Copper is complete. -->
+        <!-- End Mountain Copper Generation -->
+        <!-- Begin Tin Generation -->
+        <!-- Starting LayeredVeins Preset for Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornTinDist = "LayeredVeins"'>
+            <Veins name='techrebornTinVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornTinFreq ' range=':= 2.167 * _default_ * techrebornTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.138 * _default_ * techrebornTinSize ' range=':= 1.138 * _default_ * techrebornTinSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 20 ' range=':= 20 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.472 * _default_ ' range=':= 1.472 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornTinSize ' range=':= _default_ * techrebornTinSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.213 * _default_ * techrebornTinSize ' range=':= 1.213 * _default_ * techrebornTinSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Tin is complete. -->
+        <!-- Starting StrategicClouds Preset for Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornTinDist = "StrategicClouds"'>
+            <Cloud name='techrebornTinCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='CloudRadius' avg=':= 1.573 * _default_ * techrebornTinSize ' range=':= 1.573 * _default_ * techrebornTinSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.573 * _default_ * techrebornTinSize ' range=':= 1.573 * _default_ * techrebornTinSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 2.474 * _default_ * techrebornTinFreq ' range=':= 2.474 * _default_ * techrebornTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 20 ' range=':= 20 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornTinHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornTinFreq  * 0.1 ' range=':= 2.167 * _default_ * techrebornTinFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Tin is complete. -->
+        <!-- Starting Vanilla Preset for Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornTinDist = "Vanilla"'>
+            <StandardGen name='techrebornTinStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='Size' avg=':= 4.0 * oreSize * techrebornTinSize ' range=':= 2.0 * oreSize * techrebornTinSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 16.667 * oreFreq * techrebornTinFreq ' range=':= 8.33 * oreFreq * techrebornTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 20 ' range=':= 20 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Tin is complete. -->
+        <!-- End Tin Generation -->
+        <!-- Begin Mountain Tin Generation -->
+        <!-- Starting LayeredVeins Preset for Mountain Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainTinDist = "LayeredVeins"'>
+            <Veins name='techrebornMountainTinVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornMountainTinFreq ' range=':= 2.167 * _default_ * techrebornMountainTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.138 * _default_ * techrebornMountainTinSize ' range=':= 1.138 * _default_ * techrebornMountainTinSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 124 ' range=':= 60 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.472 * _default_ ' range=':= 1.472 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornMountainTinSize ' range=':= _default_ * techrebornMountainTinSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.213 * _default_ * techrebornMountainTinSize ' range=':= 1.213 * _default_ * techrebornMountainTinSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Tin is complete. -->
+        <!-- Starting StrategicClouds Preset for Mountain Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainTinDist = "StrategicClouds"'>
+            <Cloud name='techrebornMountainTinCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='CloudRadius' avg=':= 1.573 * _default_ * techrebornMountainTinSize ' range=':= 1.573 * _default_ * techrebornMountainTinSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.573 * _default_ * techrebornMountainTinSize ' range=':= 1.573 * _default_ * techrebornMountainTinSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 2.474 * _default_ * techrebornMountainTinFreq ' range=':= 2.474 * _default_ * techrebornMountainTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 124 ' range=':= 60 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornMountainTinHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 2.167 * _default_ * techrebornMountainTinFreq  * 0.1 ' range=':= 2.167 * _default_ * techrebornMountainTinFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Mountain Tin is  complete. -->
+        <!-- Starting Vanilla Preset for Mountain Tin. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainTinDist = "Vanilla"'>
+            <StandardGen name='techrebornMountainTinStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60CDCDCD' drawBoundBox='false' boundBoxColor='0x60CDCDCD'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore2:1' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='Size' avg=':= 4.0 * oreSize * techrebornMountainTinSize ' range=':= 2.0 * oreSize * techrebornMountainTinSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 16.667 * oreFreq * techrebornMountainTinFreq ' range=':= 8.33 * oreFreq * techrebornMountainTinFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 124 ' range=':= 60 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Mountain Tin is complete. -->
+        <!-- End Mountain Tin Generation -->
+        <!-- Begin Lead Generation -->
+        <!-- Starting LayeredVeins Preset for Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornLeadDist = "LayeredVeins"'>
+            <Veins name='techrebornLeadVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='MotherlodeFrequency' avg=':= 1.001 * _default_ * techrebornLeadFreq ' range=':= 1.001 * _default_ * techrebornLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.000 * _default_ * techrebornLeadSize ' range=':= 1.000 * _default_ * techrebornLeadSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 30 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornLeadSize ' range=':= _default_ * techrebornLeadSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.000 * _default_ * techrebornLeadSize ' range=':= 1.000 * _default_ * techrebornLeadSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Lead is complete. -->
+        <!-- Starting StrategicClouds Preset for Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornLeadDist = "StrategicClouds"'>
+            <Cloud name='techrebornLeadCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='CloudRadius' avg=':= 1.069 * _default_ * techrebornLeadSize ' range=':= 1.069 * _default_ * techrebornLeadSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.069 * _default_ * techrebornLeadSize ' range=':= 1.069 * _default_ * techrebornLeadSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 1.143 * _default_ * techrebornLeadFreq ' range=':= 1.143 * _default_ * techrebornLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 30 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornLeadHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 1.001 * _default_ * techrebornLeadFreq  * 0.1 ' range=':= 1.001 * _default_ * techrebornLeadFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Lead is complete. -->
+        <!-- Starting Vanilla Preset for Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornLeadDist = "Vanilla"'>
+            <StandardGen name='techrebornLeadStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <Biome name='.*' />
+              <Setting name='Size' avg=':= 2.667 * oreSize * techrebornLeadSize ' range=':= 1.33 * oreSize * techrebornLeadSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 5.333 * oreFreq * techrebornLeadFreq ' range=':= 2.67 * oreFreq * techrebornLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 30 ' range=':= 30 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Lead is complete. -->
+        <!-- End Lead Generation -->
+        <!-- Begin Mountain Lead Generation -->
+        <!-- Starting LayeredVeins Preset for Mountain Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainLeadDist = "LayeredVeins"'>
+            <Veins name='techrebornMountainLeadVeins' inherits='PresetLayeredVeins' branchType='Bezier' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>
+                Small, fairly rare motherlodes  with 2-4 horizontal
+                veins each.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='MotherlodeFrequency' avg=':= 1.001 * _default_ * techrebornMountainLeadFreq ' range=':= 1.001 * _default_ * techrebornMountainLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeSize' avg=':= 1.000 * _default_ * techrebornMountainLeadSize ' range=':= 1.000 * _default_ * techrebornMountainLeadSize ' type='normal' />
+              <Setting name='MotherlodeHeight' avg=':= 154 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='MotherlodeRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='BranchLength' avg=':= 1.000 * _default_ ' range=':= 1.000 * _default_ ' type='normal' />
+              <Setting name='BranchHeightLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='SegmentForkFrequency' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentForkLengthMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentLength' avg=':= _default_ * techrebornMountainLeadSize ' range=':= _default_ * techrebornMountainLeadSize ' type='normal' />
+              <Setting name='SegmentAngle' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentPitch' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='SegmentRadius' avg=':= 1.000 * _default_ * techrebornMountainLeadSize ' range=':= 1.000 * _default_ * techrebornMountainLeadSize ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </Veins>
+          </IfCondition>
+        </ConfigSection>
+        <!-- LayeredVeins Preset for Mountain Lead is  complete. -->
+        <!-- Starting StrategicClouds Preset for Mountain  Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainLeadDist = "StrategicClouds"'>
+            <Cloud name='techrebornMountainLeadCloud' inherits='PresetStrategicCloud' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>
+                Large irregular clouds filled  lightly with ore.
+                These are  huge, spanning several adjacent  chunks,
+                and consequently rather  rare.  They contain a
+                sizeable  amount of ore, but it takes some  time and
+                effort to mine due to  low density. The intent for
+                strategic clouds is that the  player will need to
+                actively  search for one and then set up a  semi-
+                permanent mining base and  spend some time actually
+                mining  the ore.
+              </Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='CloudRadius' avg=':= 1.069 * _default_ * techrebornMountainLeadSize ' range=':= 1.069 * _default_ * techrebornMountainLeadSize ' type='normal' />
+              <Setting name='CloudThickness' avg=':= 1.069 * _default_ * techrebornMountainLeadSize ' range=':= 1.069 * _default_ * techrebornMountainLeadSize ' type='normal' scaleTo='base' />
+              <Setting name='DistributionFrequency' avg=':= 1.143 * _default_ * techrebornMountainLeadFreq ' range=':= 1.143 * _default_ * techrebornMountainLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='CloudHeight' avg=':= 154 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudSizeNoise' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='CloudInclination' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreDensity' avg=':= _default_ ' range=':= _default_ ' type='normal' scaleTo='base' />
+              <Setting name='OreVolumeNoiseCutoff' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Setting name='OreRadiusMult' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+              <Veins name='techrebornMountainLeadHintVeins' branchType='Bezier' inherits='PresetHintVeins' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+                <Description>
+                  Single blocks, generously  scattered through all
+                  heights  (density is about that of  vanilla iron
+                  ore). They will  replace dirt and sandstone  (but
+                  not grass or sand), so  they can be found nearer to
+                  the surface than most ores.  Intened to be used as a
+                  child  distribution for large, rare  strategic
+                  deposits that would  otherwise be very difficult  to
+                  find.  Note that the  frequency is multiplied by
+                  ground level to maintain a  constant density, but
+                  not by  ore frequency because it is  assumed that
+                  the frequency of  the parent distribution will
+                  already be scaled by that.
+                </Description>
+                <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+                <Replaces block='minecraft:dirt' weight='1.0' />
+                <Replaces block='minecraft:sandstone' weight='1.0' />
+                <ReplacesOre block='stone' weight='1.0' />
+                <Replaces block='minecraft:gravel' weight='1.0' />
+                <Setting name='MotherlodeFrequency' avg=':= 1.001 * _default_ * techrebornMountainLeadFreq  * 0.1 ' range=':= 1.001 * _default_ * techrebornMountainLeadFreq  * 0.1 ' type='normal' scaleTo='base' />
+              </Veins>
+            </Cloud>
+          </IfCondition>
+        </ConfigSection>
+        <!-- StrategicClouds Preset for Mountain Lead is  complete. -->
+        <!-- Starting Vanilla Preset for Mountain Lead. -->
+        <ConfigSection>
+          <IfCondition condition=':= techrebornMountainLeadDist = "Vanilla"'>
+            <StandardGen name='techrebornMountainLeadStandard' inherits='PresetStandardGen' drawWireframe=':= drawWireframes' wireframeColor='0x60829199' drawBoundBox='false' boundBoxColor='0x60829199'>
+              <Description>A master preset for standardgen  ore distributions.</Description>
+              <OreBlock block='techreborn:techreborn.ore:12' weight='1.0' />
+              <ReplacesOre block='stone' weight='1.0' />
+              <BiomeType name='Mountain' />
+              <Setting name='Size' avg=':= 2.667 * oreSize * techrebornMountainLeadSize ' range=':= 1.33 * oreSize * techrebornMountainLeadSize ' type='normal' />
+              <Setting name='Frequency' avg=':= 5.333 * oreFreq * techrebornMountainLeadFreq ' range=':= 2.67 * oreFreq * techrebornMountainLeadFreq ' type='normal' scaleTo='base' />
+              <Setting name='Height' avg=':= 154 ' range=':= 90 ' type='normal' scaleTo='base' />
+              <Setting name='ParentRangeLimit' avg=':= _default_ ' range=':= _default_ ' type='normal' />
+            </StandardGen>
+          </IfCondition>
+        </ConfigSection>
+        <!-- Vanilla Preset for Mountain Lead is complete. -->
+        <!-- End Mountain Lead Generation -->
+        <!-- Finished adding blocks -->
+      </IfCondition>
+      <!-- Overworld Setup Complete -->
+    </IfCondition>
+  </ConfigSection>
+  <!-- Configuration for Custom Ore Generation Complete! -->
+</IfModInstalled>
+<!-- The "TechReborn" mod is now configured. -->
