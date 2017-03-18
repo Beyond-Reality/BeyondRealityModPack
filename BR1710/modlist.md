@@ -1,5 +1,5 @@
 # Beyond Reality Classic
-* Version: 2.4.3-r1
+* Version: 2.4.3-r3
 
 ## A Mod-pack for Minecraft: 1.7.10
 
@@ -12,7 +12,7 @@
 | Mod | Version | Authors | Description |
 |-----|:-------:|:--------|:------------|
 | [Advanced Solar Panel](http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291) | 3.5.1 | SeNtiMeL |  Advanced Solar Panels + Quantum Generator + Solar helmets |
-| [AppleCore](http://minecraft.curseforge.com/mc-mods/224472-applecore) | 1.3.2 | squeek502 | In BR this only serves as a client side mod. It allows the user to see more detailed information on anything invloving hunger |
+| [AppleCore](http://minecraft.curseforge.com/mc-mods/224472-applecore) | 1.3.9 | squeek502 | In BR this only serves as a client side mod. It allows the user to see more detailed information on anything invloving hunger |
 | [Applied Energistics 2](http://ae2.ae-mod.info/) | rv3-beta-6 | AlgorithmX2 | Applied Energistics 2 is a Minecraft Mod which contains a large amount of new content, mostly centered around the concept of using Energy, and the Transformation of Energy in a unique way. |
 | [ArmorStatusHUD](http://www.minecraftforum.net/topic/1114612-) | 1.28 | bspkrs | Provides a HUD with your equipped armor/item stats. |
 | [AsieLib](http://wiki.vex.tty.sh/wiki:asielib) | 0.4.6.100-dev | Asie | Library for Asie mods |
