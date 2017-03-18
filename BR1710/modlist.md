@@ -5,8 +5,8 @@
 
 ### Powered by
 * Minecraft Forge 10.13.4.1614
-* [111 Mods](#mods)
-* [27 Dependency/Core Mods](#dependencycore-mods)
+* [110 Mods](#mods)
+* [28 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -58,7 +58,6 @@
 | [Highlands](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104582) | 2.2.3 | sdj64 fabricator77 | Highlands is a mod that adds more biomes to Minecraft.  Over 40 new biomes, new trees, giant mountains, and biome-specific ore gen. |
 | [IC2 Backpack HUD](http://forum.industrial-craft.net/index.php?page=Thread&threadID=8495) | 3.0 | Mineshopper | Provides visual charge meter for IndustrialCraft 2 electric armor items and health meter for other items. |
 | [IC2Nuclear Control2](http://minecraft.curseforge.com/projects/236813) | @VERSION@ | Shedar<br/>xbony2 | It gives players the ability to build efficient monitoring and control systems for IndustrialCraft 2 Nuclear Reactors. Items in IC2 Nuclear Control can monitor temperature and conditions of the reactor (as well as other IC2 objects) and respond accordingly, whether by turning off the reactor, or by setting off a Howler Alarm to warn nearby players of their impending doom. |
-| [iChunUtil](http://www.ichun.us/) | 4.2.3 | iChun | Shared library mod required by several of iChun's Mods. |
 | [IHL Tools & Machines](http://forum.industrial-craft.net/index.php?page=Thread&postID=152495) | 0.600-1.7.10 | Foghrye4 | IC2 addon for extended water physics, Sticky resin production branch, Industrial fan and much more |
 | [In-Game NBTEdit](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286750-in-game-nbtedit-edit-mob-spawners-attributes-in) | 1.7.10 | Davidee | This mod allows opped users to edit nbt tags in game - modify both regular entities and tile entities without even closing your game! |
 | [IndustrialCraft 2](http://www.industrial-craft.net/) | 2.2.827-experimental | Alblaka<br/>Player<br/>RichardG<br/>Thunderdark<br/>GregoriusT<br/>alexthesax<br/>Drashian<br/>Elementalist<br/>Feanturi<br/>Lurch1985<br/>SirusKing<br/>tahu44<br/>Aroma1997 | Industrial age themed expansion for Minecraft. |
@@ -139,6 +138,7 @@
 | [Galacticraft Planets](http://www.micdoodle8.com/mods/galacticraft) | 3.0.12.462 | micdoodle8 | Mars addon for Galacticraft. |
 | [GalacticraftCore](http://www.micdoodle8.com/mods/galacticraft) | 3.0.12.462 | micdoodle8 | Blast off to the stars. Makes a space base or a space station. Discover new worlds and exicting dungeons. |
 | [Hats](http://ichun.us/mods/hats/) | 4.0.1 | iChun | Adds a bunch of hats, as wells as the ability to add more, into Minecraft |
+| [iChunUtil](http://www.ichun.us/) | 4.2.3 | iChun | Shared library mod required by several of iChun's Mods. |
 | [Liteloader](http://www.liteloader.com/) | 1.7.10 |  | LiteLoader is a lightweight mod loader for Minecraft designed to provide simple, high-performance and reliable loader functionality for mods which don't need to modify game mechanics. |
 | [malisiscore](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 0.14.3 | Ordinastie | Core for Malisis mods |
 | [Micdoodle8 Core](http://www.micdoodle8.com/) | 3.0.12.462 | micdoodle8 | Provides core features of Micdoodle8's mods |
