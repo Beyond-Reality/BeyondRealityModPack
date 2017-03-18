@@ -93,7 +93,7 @@
 | [Numina](http://machinemuse.net/) | 0.4.1.105 | MachineMuse | A common library of useful functions and utilities for dealing with Minecraft's source code. |
 | [Open Computers](http://www.minecraftforum.net/topic/2201440-) | 1.6.2.12 | sangar | This mod adds programmable, modular and persistent computers to the game. |
 | [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.6 | Mikee<br/>NeverCast<br/>boq<br/>Lyqyd | OpenBlocks is a random collection of ideas - ideas the community have suggested, or ideas we thought "Why hasn't anyone done that yet?". There is no theme, it's quite random. It's not even just blocks, as the name suggests! |
-| [OpenMods Lib](http://www.openblocks.info/) | 0.9.1 | Mikeemoo | This is required for all of OpenBlocks mods. |
+| [OpenMods Lib](http://www.openblocks.info/) | 0.10 | Mikeemoo | This is required for all of OpenBlocks mods. |
 | [Opis](http://minecraft.curseforge.com/mc-mods/73832-opis) | 1.2.5 | ProfMobis | Opis is a server profiler for Forge server. (Includes Map Writer) |
 | [Pam's Harvestcraft](http://www.minecraftforum.net/topic/402069-) | 1.7.10i | MatrexsVigil | Expanded food system including tons of new crops! |
 | [PlanetguyLib](http://forums.technicpack.net/topic/59545-) | 1.9.2 | planetguy | Lib for remain In Motion |
