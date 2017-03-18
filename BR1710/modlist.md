@@ -77,7 +77,7 @@
 | [JABBA](http://www.mobiusstrip.eu/) | 1.2.2 | ProfMobius | Just Another Better Barrel Attempt  |
 | [JourneyMap](http://journeymap.info) | 1.7.10-5.1.4p1 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
 | [Logistics Pipes](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289546) | 0.9.3.128 | thezoro266 | Logistics Pipes is an extensive overhaul of the Buildcraft pipe system. It allows for better distribution of items via pipes, more organised stockkeeping and easier automated crafting. |
-| [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 0.11.1.109 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
+| [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 0.11.1.111 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
 | [malisiscore](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 0.14.3 | Ordinastie | Core for Malisis mods |
 | [malisisdoors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 1.13.2 | Ordinastie | Animated,Sliding and Custom doors! |
 | [Mantle](http://www.minecraftforum.net/topic/1659892-) | 0.3.2b | SlimeKnights | Tinkers Construct Library |
@@ -90,7 +90,7 @@
 | [NEI Addons](http://www.minecraftforum.net/topic/1803460-) | 1.12.15.41 | bdew | Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins. |
 | [NEIIntegration](http://minecraft.curseforge.com/mc-mods/225251-nei-integration) | 1.1.2 | Tonius | Replaces NEI Plugins |
 | [NotEnoughItems](http://www.minecraftforum.net/topic/909223-) | 1.0.5.120 | ChickenBones | Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities. |
-| [Numina](http://machinemuse.net/) | 0.4.1.104 | MachineMuse | A common library of useful functions and utilities for dealing with Minecraft's source code. |
+| [Numina](http://machinemuse.net/) | 0.4.1.105 | MachineMuse | A common library of useful functions and utilities for dealing with Minecraft's source code. |
 | [Open Computers](http://www.minecraftforum.net/topic/2201440-) | 1.6.1.11 | sangar | This mod adds programmable, modular and persistent computers to the game. |
 | [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.5.1 | Mikee<br/>NeverCast<br/>boq<br/>Lyqyd | OpenBlocks is a random collection of ideas - ideas the community have suggested, or ideas we thought "Why hasn't anyone done that yet?". There is no theme, it's quite random. It's not even just blocks, as the name suggests! |
 | [OpenMods Lib](http://www.openblocks.info/) | 0.9.1 | Mikeemoo | This is required for all of OpenBlocks mods. |
