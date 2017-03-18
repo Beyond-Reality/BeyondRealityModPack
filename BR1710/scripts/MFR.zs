@@ -16,6 +16,7 @@ val nuggetMeatCooked = <MineFactoryReloaded:meat.nugget.cooked>;
 val nuggetMeatRaw = <MineFactoryReloaded:meat.nugget.raw>;
 val blockMeatCooked = <MineFactoryReloaded:brick:13>;
 val blockMeatRaw = <MineFactoryReloaded:brick:12>;
+val ingotMeatCookedGT = <gregtech:gt.metaitem.01:11893>;
 
 # MFR Changes
 
@@ -28,6 +29,7 @@ val blockMeatRaw = <MineFactoryReloaded:brick:12>;
 <ore:ingotMeatCooked>.remove(ingotMeatRaw);
 <ore:nuggetMeatCooked>.remove(nuggetMeatRaw);
 <ore:blockMeatCooked>.remove(blockMeatRaw);
+furnace.remove(ingotMeatCookedGT);
 
 # Disable RedNet Energy Cable
 recipes.remove(redstonecable);
