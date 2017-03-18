@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 10.13.4.1614
-* [128 Mods](#mods)
+* [127 Mods](#mods)
 * [11 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -79,7 +79,6 @@
 | [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 0.11.1.111 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
 | [malisiscore](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 0.14.3 | Ordinastie | Core for Malisis mods |
 | [malisisdoors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 1.13.2 | Ordinastie | Animated,Sliding and Custom doors! |
-| [Mantle](http://www.minecraftforum.net/topic/1659892-) | 0.3.2b | SlimeKnights | Tinkers Construct Library |
 | [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.8.2B1-200 | PowerCrystals<br/>TehKrush<br/>AtomicStryker<br/>Feanorith<br/>skyboy026 | Automate everything! |
 | [MineTweaker 3](http://www.minecraftforum.net/topic/1886008-) | 3.0.10B | StanH | MineTweaker is a mod that enables players and server admins to alter recipes. |
 | [MobiusCore](http://www.curseforge.com/projects/76734/) | 1.2.5 | ProfMobius | Core mod used for Opis |
