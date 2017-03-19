@@ -103,3 +103,4 @@
 #### Fixed Issues:
 
 * [#447 All Meat (Pork, Beef, etc) smelts into meat ingots](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/447) thank to @silverphoenix300
+* [#448 BC assembly balancing suggestion](https://github.com/Beyond-Reality/BeyondRealityModPack/issues/448) thank to @Manj4ppa for suggestion
