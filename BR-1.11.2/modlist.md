@@ -29,7 +29,7 @@
 | [Default Options](http://blay09.net) | 8.2.2 | BlayTheNinth | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | EzTerry<br/>FireBall1725 | A small mod to automatically select the default world generator for both single player and servers |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.3.4.0 | OreCruncher<br/>Abastro | Improving Minecraft's sight and sound experience |
-| [Embers](http://www.curseforge.com/projects/embers/) | 0.205 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
+| [Embers](http://www.curseforge.com/projects/embers/) | 0.206 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
 | [Extra Bit Manipulation](http://www.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.4 | MolecularPhylo | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
 | [Extra Utilities](http://www.curseforge.com/projects/extra-utilities/) | 1.3.3 | RWTema | Just a bunch of useful things |
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.27 | ErogenousBeef<br/>ZeroNoRyouki<br/>ABookFreak | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
