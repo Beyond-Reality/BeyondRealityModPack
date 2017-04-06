@@ -109,7 +109,7 @@
 | [AutoRegLib](http://www.vazkii.us) | 1.1-4 | Vazkii | Automatically item, block, and model registration for mods. |
 | [BD Lib](http://bdew.net/mods/) | 1.13.2.7 | bdew | A library of generic code for my other mods |
 | [Bookshelf](http://www.curseforge.com/projects/bookshelf-api-library/) | 5.0.0-B96 | Dyonovan<br/>pauljoda | Library of useful functions used by TeamBR |
-| [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.2 | McJty | Compatibility layer to make migrating between different vanilla/forge versions easier |
+| [compatlayer](http://www.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.5 | McJty | Compatibility layer to make migrating between different vanilla/forge versions easier |
 | [EXCore](http://www.curseforge.com/projects/excore/) | 2.0.0-alpha8-1.11.2 | Elix_x | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | delvr | A Scala API for Minecraft mods. |
 | [LLibrary](https://github.com/iLexiconn/LLibrary) | 1.7.4-1.11.2 | iLexiconn | The lightweight Minecraft modding library |
