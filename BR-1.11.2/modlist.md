@@ -59,7 +59,7 @@
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.8 | YaLTeR | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | MrCrayfish | Adds over 50 unique pieces of furniture to the game! |
 | [NBTEdit](http://www.curseforge.com/projects/nbtedit/) | 0.4 | malte0811 | In-game NBT editing for Entities and TileEntities |
-| [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0-B168 | Dyonovan<br/>pauljoda | Ore Processing |
+| [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0 | Dyonovan<br/>pauljoda | Ore Processing |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Not Enough Wands](http://www.curseforge.com/projects/not-enough-wands/) | 1.1x-1.5.4 | romelo333<br/>McJty | Wands, wands, and more wands |
 | [Packing Tape](https://github.com/gigaherz/PackingTape) | 1.11.0-0.6.1 | gigaherz | Adds a simple means to carry thigns with you |
