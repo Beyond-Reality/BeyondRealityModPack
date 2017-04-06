@@ -73,7 +73,7 @@
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8.1 | Lumien | Random Things packed into one Mod. |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Team RTG | Adds a new world type which generates realistic terrain for Overworld biomes. |
 | [ReAuth](http://minecraft.curseforge.com/projects/reauth) | 3.4.1 | TechnicianLP | A Mod to renew your Session |
-| [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4.1 | Refined Storage contributors | An elegant solution to your hoarding problem |
+| [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4.2 | Refined Storage contributors | An elegant solution to your hoarding problem |
 | [Reliquary](https://minecraft.curseforge.com/projects/reliquary-v1-3) | 1.11.2-1.3.3.635 | x3n0ph0b3<br/>TheMike<br/>P3pp3rF1y | Two words: magical swag. Oh, and a gun. |
 | [Resource Loader](http://www.curseforge.com/projects/resource-loader/) | 1.5.1 | lumien | Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack. |
 | [Roguelike Dungeons](https://github.com/Greymerk/minecraft-roguelike) | 1.11.2-1.6.5 | Greymerk | Adds randomized dungeons to the world |
