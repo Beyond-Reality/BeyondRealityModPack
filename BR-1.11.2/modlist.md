@@ -41,7 +41,7 @@
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.7 | bdew | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Gravestone](http://www.curseforge.com/projects/gravestone-mod/) | 1.7.2 | Max Henkel | Gravestone |
 | [HelpFixer](http://minecraft.curseforge.com/mc-mods/223797-helpfixer) | 1.4+17 | matthewprenger | Fixes the help command from mod derpyness |
-| [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-dev-78 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
+| [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-beta-82 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
 | [Iron Chest](http://www.minecraftforum.net/topic/981855-) | 7.0.17.799 | cpw | New chests with larger sizes, with in-place upgrade items. The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | bdew | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.6 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
