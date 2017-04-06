@@ -70,7 +70,7 @@
 | [Platforms](http://tomkinsbros.blogspot.ca/p/platforms.html) | 1.11.0-1.3.2 | ShetiPhian | This mod adds platforms with a range of customization. You can make decks, bridges, mine shafts, or even wooden coaster supports. |
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.5 | bdew | Unlimited Fluid Transport |
 | [Quark](http://www.vazkii.us) | r1.2-90 | Vazkii<br/>wiiv | Small things. |
-| [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8 | Lumien | Random Things packed into one Mod. |
+| [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8.1 | Lumien | Random Things packed into one Mod. |
 | [Realistic Terrain Generation](https://github.com/Team-RTG/Realistic-Terrain-Generation) | 5.1.0.0-alpha.1 | Team RTG | Adds a new world type which generates realistic terrain for Overworld biomes. |
 | [ReAuth](http://minecraft.curseforge.com/projects/reauth) | 3.4.1 | TechnicianLP | A Mod to renew your Session |
 | [Refined Storage](http://www.curseforge.com/projects/refined-storage/) | 1.4.1 | Refined Storage contributors | An elegant solution to your hoarding problem |
