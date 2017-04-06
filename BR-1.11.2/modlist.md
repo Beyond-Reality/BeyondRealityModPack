@@ -97,7 +97,7 @@
 | [Village Names](http://www.curseforge.com/projects/village-names/) | 1.0 | AstroTibs | Generates random names for villages and villagers. |
 | [Villager Fix](http://www.curseforge.com/projects/villager-fix/) | 1-11 | Epigenetic | Tweak for villagers and mobGriefing in 1.8 |
 | [Waila Harvestability](http://www.curseforge.com/projects/waila-harvestability/) | 1.1.9 | squeek | An add-on for Waila that adds information about the harvestability of what you are looking at |
-| [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.12 | BlayTheNinth | Teleport back to activated waystones. For Survival, Adventure or Servers. |
+| [Waystones](http://www.curseforge.com/projects/waystones/) | 3.0.13 | BlayTheNinth | Teleport back to activated waystones. For Survival, Adventure or Servers. |
 | [What's That Slot](http://www.curseforge.com/projects/whats-that-slot/) | 1.0.1 | gegy1000 | What's That Slot (WTS) allows you to check what items can be put into hovered slot with a single press of a key! |
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | CenturionFox | Adds armors and storage for wolves! |
 | [World Stripper](http://www.curseforge.com/projects/world-stripper/) | 1.3.0-1.11.2 | Ewy | Strip The World! #AllNude |
