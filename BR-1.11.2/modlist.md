@@ -116,7 +116,7 @@
 | [MalisisCore](http://github.com/Ordinastie/MalisisCore) | 1.11.2-5.1.1 | Ordinastie<br/>PaleoCrafter | MalisisCore is a framework dedicated to simplify many processes required during a mod development. |
 | [MattDahEpic Core](http://www.curseforge.com/projects/mattdahepic-core-mdecore/) | 1.11-1.0 | MattDahEpic | Base Mod for all MattDahEpic mods. |
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.13.5.44 | modmuss50<br/>Gigabit101 | RebornCore, A core set of classes. |
-| [Shadowfacts-Forgelin](http://www.curseforge.com/projects/shadowfacts-forgelin/) | 1.4.0 | shadowfactsmc | My fork of Emberwalker's Forgelin, with some sprinkles on top. |
+| [Shadowfacts-Forgelin](http://www.curseforge.com/projects/shadowfacts-forgelin/) | 1.4.1 | shadowfactsmc | My fork of Emberwalker's Forgelin, with some sprinkles on top. |
 | [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | Shadowfacts | A library mod required for all my other mods. |
 | [ShetiPhian-Core](http://tomkinsbros.blogspot.ca/p/core.html) | 1.11.0-3.4.3 | ShetiPhian | Core set of files needed by ShetiPhians mods |
 | [Stellar API](http://www.curseforge.com/projects/stellar-api/) | 0.6.4.1.2 | Abastro | API for mods related with sky and celestial sphere. |
