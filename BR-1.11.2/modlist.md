@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [99 Mods](#mods)
+* [100 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -16,6 +16,7 @@
 | [Advanced Generators](http://bdew.net/) | 0.9.20.5 | bdew | Freeform Multiblock generators that produce MJ, RF and EU |
 | [Animania](http://minecraft.curseforge.com/projects/animania/) | 1.0.4.6 | RazzleberryFox<br/>Purplicious_Cow<br/>cy4n | Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops. |
 | [AppleSkin](http://minecraft.curseforge.com/projects/appleskin/) | 1.0.6 | squeek | Adds various food-related HUD improvements |
+| [Auto Ore Dictionary Converter](https://minecraft.curseforge.com/projects/auto-ore-dictionary-converter) | 1.11-1.0.2 | MattDahEpic | Converts specified ore dictionary items automatically or on keybinding. |
 | [Baubles](http://www.minecraftforum.net/topic/2535073-baubles) | 1.4.3 | Azanor | Adding a touch of bling to Minecraft |
 | [Better Achievements](https://github.com/way2muchnoise/BetterAchievements) | 0.4.3 | way2muchnoise | An improvement to the Achievementscreen |
 | [Better Builder's Wands](http://minecraft.curseforge.com/projects/better-builders-wands/) | 0.11.0 | Portablejim | Wands that allow placing of multiple blocks at a time |
