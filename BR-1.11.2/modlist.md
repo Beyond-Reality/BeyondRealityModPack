@@ -39,7 +39,7 @@
 | [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.27 | ErogenousBeef<br/>ZeroNoRyouki<br/>ABookFreak | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
 | [Fast Leave Decay](http://minecraft.curseforge.com/projects/fast-leaf-decay/) | 1.2.3 | lumien | Makes leave decay faster |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | asiekierka | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
-| [Forestry](http://forestry.sengir.net/) | 5.3.3.79 | SirSengir<br/>mezz | Trees, bees and more. |
+| [Forestry](http://forestry.sengir.net/) | 5.3.3.80 | SirSengir<br/>mezz | Trees, bees and more. |
 | [Fullscreen Fix](http://minecraft.curseforge.com/projects/fullscreen-fix/) | 1.0 | gudenau | Fixes the resizable fullscreen bug. |
 | [Fullscreen Windowed](https://github.com/hancin/Fullscreen-Windowed-Minecraft) | 1.5.0 | Hancin | Activates fullscreen windowed mode for Minecraft |
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.7 | bdew | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
