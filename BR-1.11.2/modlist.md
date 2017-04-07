@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [94 Mods](#mods)
+* [95 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -60,6 +60,7 @@
 | [Morpheus](http://www.curse.com/mc-mods/Minecraft/morpheus) | 1.11.2-3.2.13 | Quetzi | Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate. |
 | [Mouse Tweaks](http://www.minecraftforum.net/topic/1518185-) | 2.8 | YaLTeR | A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons. |
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | MrCrayfish | Adds over 50 unique pieces of furniture to the game! |
+| [Natural Pledge](http://www.curseforge.com/projects/natural-pledge/) | 2.0 | WireSegal | The successor to Botanical Addons from 1.7. |
 | [NBTEdit](http://www.curseforge.com/projects/nbtedit/) | 0.4 | malte0811 | In-game NBT editing for Entities and TileEntities |
 | [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0 | Dyonovan<br/>pauljoda | Ore Processing |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
