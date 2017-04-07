@@ -25,7 +25,7 @@
 | [Chameleon](http://www.jaquadro.com/) | 3.0.2 | jaquadro | Shared code and render support for mods.  Used by jaquadro's mods. |
 | [Chisels & Bits](http://minecraft.curseforge.com/projects/chisels-bits) | 13.10 | AlgorithmX2 | a mod about Sculpting, Decorating and Aesthetics |
 | [Clipboard](https://rtfm.shadowfacts.net/clipboard/) | 1.11-1.2.1 | Shadowfacts | A simple clipboard for keeping track of your todo list. |
-| [Custom Main Menu](http://www.curseforge.com/projects/custom-main-menu/) | 2.0.3 | lumien | Allows you to edit the mainmenu using json |
+| [Custom Main Menu](http://www.curseforge.com/projects/custom-main-menu/) | 2.0.5 | lumien | Allows you to edit the mainmenu using json |
 | [Default Options](http://blay09.net) | 8.2.2 | BlayTheNinth | A way for modpacks to ship a default (key) configuration without having to include an options.txt file. |
 | [Default World Generator](http://minecraft.curseforge.com/projects/default-world-generator-port) | 1.11-0.5 | EzTerry<br/>FireBall1725 | A small mod to automatically select the default world generator for both single player and servers |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.3.4.0 | OreCruncher<br/>Abastro | Improving Minecraft's sight and sound experience |
