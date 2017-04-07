@@ -5,8 +5,8 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [100 Mods](#mods)
-* [19 Dependency/Core Mods](#dependencycore-mods)
+* [102 Mods](#mods)
+* [21 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -44,6 +44,8 @@
 | [GenDustry](http://bdew.net/mods/) | 1.6.5.7 | bdew | Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon) |
 | [Gravestone](http://minecraft.curseforge.com/projects/gravestone-mod/) | 1.7.2 | Max Henkel | Gravestone |
 | [HelpFixer](http://minecraft.curseforge.com/mc-mods/223797-helpfixer) | 1.4+17 | matthewprenger | Fixes the help command from mod derpyness |
+| [Integrated Dynamics](http://minecraft.curseforge.com/mc-mods/236307-integrated-dynamics) | 1.11.2-0.6.11 | rubensworks (aka kroeserr) | Take full and automated control of your appliances. |
+| [Integrated Tunnels](https://github.com/CyclopsMC/IntegratedTunnels) | 1.11.2-1.1.1 | rubensworks (aka kroeserr) | Transfer other stuff over Integrated Dynamics networks |
 | [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-beta-82 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
 | [Iron Chest](http://www.minecraftforum.net/topic/981855-) | 7.0.17.799 | cpw | New chests with larger sizes, with in-place upgrade items. The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | bdew | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
@@ -117,7 +119,9 @@
 | [AutoRegLib](http://www.vazkii.us) | 1.1-4 | Vazkii | Automatically item, block, and model registration for mods. |
 | [BD Lib](http://bdew.net/mods/) | 1.13.2.7 | bdew | A library of generic code for my other mods |
 | [Bookshelf](http://minecraft.curseforge.com/projects/bookshelf-api-library/) | 5.0.0-B96 | Dyonovan<br/>pauljoda | Library of useful functions used by TeamBR |
+| [CommonCapabilities](https://github.com/CyclopsMC/CommonCapabilities) | 1.11.2-1.3.1 | rubensworks (aka kroeserr) | Forge Capabilities that can be shared by multiple mods |
 | [compatlayer](http://minecraft.curseforge.com/projects/compatlayer/) | 1.11.2-0.2.5 | McJty | Compatibility layer to make migrating between different vanilla/forge versions easier |
+| [Cyclops Core](http://minecraft.curseforge.com/mc-mods/232758-cyclops-core) | 1.11.2-0.10.0 | rubensworks (aka kroeserr)<br/>immortaleeb (aka _EeB_) | Coremod for EvilCraft, Integrated Dynamics and others. |
 | [EXCore](http://minecraft.curseforge.com/projects/excore/) | 2.0.0-beta1-1.11.2 | Elix_x | Elix'x Core |
 | [Farseek](https://minecraft.curseforge.com/projects/farseek) | 2.1 | delvr | A Scala API for Minecraft mods. |
 | [LibrarianLib](http://www.curseforge.com/projects/librarianlib/) | 2.0 | thecodewarrior<br/>wiresegal<br/>LordSaad44<br/>Elucent<br/>Eladkay<br/>murapix<br/>werty1124<br/>Leviathan143 | A library for the Team Wizardry mods |
