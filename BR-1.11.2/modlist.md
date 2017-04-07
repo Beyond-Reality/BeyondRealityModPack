@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [95 Mods](#mods)
+* [96 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -65,6 +65,7 @@
 | [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0 | Dyonovan<br/>pauljoda | Ore Processing |
 | [NetherPortalFix](http://www.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Not Enough Wands](http://www.curseforge.com/projects/not-enough-wands/) | 1.1x-1.5.4 | romelo333<br/>McJty | Wands, wands, and more wands |
+| [OpenComputers](http://oc.cil.li/) | 1.7.0.6 | Sangar<br/>Vexatos<br/>payonel<br/>magik6k<br/>Lord Joda<br/>Github Contributors | This mod adds modular computers and robots that can be programmed in Lua. |
 | [Packing Tape](https://github.com/gigaherz/PackingTape) | 1.11.0-0.6.1 | gigaherz | Adds a simple means to carry thigns with you |
 | [Pam's HarvestCraft](http://minecraft.curseforge.com/members/MatrexsVigil/projects) | 1.0 | Pamela Collins | Expanding minecraft's food system. |
 | [Pipes](https://crafterkina.github.io/Pipes/) | 1.11-1.1.0.12 | CrafterKina | Pipes |
