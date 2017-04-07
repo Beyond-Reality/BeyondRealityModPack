@@ -5,8 +5,8 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [101 Mods](#mods)
-* [19 Dependency/Core Mods](#dependencycore-mods)
+* [100 Mods](#mods)
+* [18 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
@@ -36,7 +36,6 @@
 | [Embers](http://minecraft.curseforge.com/projects/embers/) | 0.206 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
 | [Extra Bit Manipulation](http://minecraft.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.5 | MolecularPhylo | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
 | [Extra Utilities](http://minecraft.curseforge.com/projects/extra-utilities/) | 1.3.3 | RWTema | Just a bunch of useful things |
-| [Extreme Reactors](http://zerono.it/extreme-reactors) | 1.11.2-0.4.5.27 | ErogenousBeef<br/>ZeroNoRyouki<br/>ABookFreak | Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef |
 | [Fast Leave Decay](http://minecraft.curseforge.com/projects/fast-leaf-decay/) | 1.2.3 | lumien | Makes leave decay faster |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | asiekierka | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
 | [Forestry](http://forestry.sengir.net/) | 5.3.3.80 | SirSengir<br/>mezz | Trees, bees and more. |
@@ -133,4 +132,3 @@
 | [Thut Permissions](http://minecraft.curseforge.com/projects/thutperms/) | 1.0.0 | Thutmose | Permissions mod for Forge |
 | [ThutCore](http://minecraft.curseforge.com/projects/thutcore/) | 4.3.2 | patnevis | API used by Thut's Mods |
 | [Waila](http://minecraft.curseforge.com/projects/hwyla/) | 1.8.9 | ProfMobius | Hwyla (Here's What You're Looking At) is a UI improvement mod aimed at providing block information directly in-game. It is al... |
-| [Zero CORE](http://zerono.it/) | 1.11.2-0.1.0.4 | ZeroNoRyouki | Utility mod and multiblock API |
