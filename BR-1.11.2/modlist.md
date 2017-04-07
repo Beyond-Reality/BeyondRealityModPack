@@ -66,7 +66,7 @@
 | [MrCrayfish's Furniture Mod](https://mrcrayfish.com/mods?id=cfm) | 4.1.2 | MrCrayfish | Adds over 50 unique pieces of furniture to the game! |
 | [Natural Pledge](https://minecraft.curseforge.com/projects/natural-pledge) | 2.0 | WireSegal | The successor to Botanical Addons from 1.7. |
 | [NBTEdit](http://minecraft.curseforge.com/projects/nbtedit/) | 0.4 | malte0811 | In-game NBT editing for Entities and TileEntities |
-| [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0 | Dyonovan<br/>pauljoda | Ore Processing |
+| [NeoTech](https://minecraft.curseforge.com/projects/neotech) | 1.11.2-5.0.0-B168 | Dyonovan<br/>pauljoda | Ore Processing |
 | [NetherPortalFix](http://minecraft.curseforge.com/projects/netherportalfix/) | 1.11-4.3.1 | BlayTheNinth | Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer. |
 | [Not Enough Wands](http://minecraft.curseforge.com/projects/not-enough-wands/) | 1.1x-1.5.4 | romelo333<br/>McJty | Wands, wands, and more wands |
 | [OpenComputers](http://oc.cil.li/) | 1.7.0.6 | Sangar<br/>Vexatos<br/>payonel<br/>magik6k<br/>Lord Joda<br/>Github Contributors | This mod adds modular computers and robots that can be programmed in Lua. |
