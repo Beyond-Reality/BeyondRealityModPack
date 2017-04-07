@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2264
-* [92 Mods](#mods)
+* [93 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -13,6 +13,7 @@
 |-----|:-------:|:--------|:------------|
 | [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r106 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
 | [Advanced Generators](http://bdew.net/) | 0.9.20.5 | bdew | Freeform Multiblock generators that produce MJ, RF and EU |
+| [Animania](http://www.curseforge.com/projects/animania/) | 1.0.4.6 | RazzleberryFox<br/>Purplicious_Cow<br/>cy4n | Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops. |
 | [AppleSkin](http://www.curseforge.com/projects/appleskin/) | 1.0.6 | squeek | Adds various food-related HUD improvements |
 | [Baubles](http://www.minecraftforum.net/topic/2535073-baubles) | 1.4.3 | Azanor | Adding a touch of bling to Minecraft |
 | [Better Achievements](https://github.com/way2muchnoise/BetterAchievements) | 0.4.3 | way2muchnoise | An improvement to the Achievementscreen |
