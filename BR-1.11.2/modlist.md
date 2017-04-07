@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [93 Mods](#mods)
+* [94 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -22,6 +22,7 @@
 | [Better Fonts](http://mods.curse.com/mc-mods/minecraft/243639-truetype-font-replacement) | 1.11.2-1.7.3 | CubeX2 | OpenType font support for Minecraft |
 | [BiomeTweaker](http://minecraft.curseforge.com/mc-mods/228895-biometweaker) | 2.2 | superckl | Used to tweak various characteristics of biomes. |
 | [Bloodmoon](http://www.curseforge.com/projects/bloodmoon/) | 1.5.1 | lumien | Adds the bloodmoon from terraria to minecraft |
+| [Botania](http://www.botaniamod.net) | r1.9-342 | Vazkii<br/>williewillus<br/>wiiv<br/>dylan4ever | Botania is a mod that adds nature magic to Minecraft. This time with a fancy number in front. |
 | [Chameleon](http://www.jaquadro.com/) | 3.0.2 | jaquadro | Shared code and render support for mods.  Used by jaquadro's mods. |
 | [Chisels & Bits](http://minecraft.curseforge.com/projects/chisels-bits) | 13.10 | AlgorithmX2 | a mod about Sculpting, Decorating and Aesthetics |
 | [Clipboard](https://rtfm.shadowfacts.net/clipboard/) | 1.11-1.2.1 | Shadowfacts | A simple clipboard for keeping track of your todo list. |
