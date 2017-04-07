@@ -5,13 +5,14 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [96 Mods](#mods)
+* [97 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
 | Mod | Version | Authors | Description |
 |-----|:-------:|:--------|:------------|
 | [Actually Additions](http://github.com/Ellpeck/ActuallyAdditions) | r106 | Ellpeck | Do you want Automation? Wireless Transport? Better Machines? A cup o' Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more! |
+| [ActuallyComputers](http://www.curseforge.com/projects/actuallycomputers/) | 2.0.0 | canitzp | Interaction between ActuallyAdditions machines and OpenComputers functions |
 | [Advanced Generators](http://bdew.net/) | 0.9.20.5 | bdew | Freeform Multiblock generators that produce MJ, RF and EU |
 | [Animania](http://www.curseforge.com/projects/animania/) | 1.0.4.6 | RazzleberryFox<br/>Purplicious_Cow<br/>cy4n | Immersive and realistic animals in Minecraft, with improved models, textures, animation, behaviors, and drops. |
 | [AppleSkin](http://www.curseforge.com/projects/appleskin/) | 1.0.6 | squeek | Adds various food-related HUD improvements |
