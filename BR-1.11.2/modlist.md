@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2264
-* [91 Mods](#mods)
+* [92 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -50,6 +50,7 @@
 | [Login Shield](http://www.curseforge.com/projects/login-shield/) | 1.11-3-g0422a90 | Glasspelican | protects users from taking damage between when they login and they can start interacting with the world |
 | [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | boo | Ordinastie | Better doors! |
 | [MalisisSwitches](http://www.curseforge.com/projects/malisisswitches/) | 1.11.2-4.1.0 | Ordinastie | Wireless Switches for Minecraft |
+| [MineTweaker 3](http://minetweaker3.powerofbytes.com) | 1.11.2-3.0.24 | Stan Hebben | Customize your minecraft experience! |
 | [Missing Pieces](http://www.curseforge.com/projects/missing-pieces/) | 4.1.0 | sboy205 | Some blocks I wanted in the game. |
 | [Modular Routers](https://minecraft.curseforge.com/projects/modular-routers) | 1.11.2-2.1.1 | desht | Item routers with pluggable modules to define behaviour |
 | [MoreOverlays](http://www.curseforge.com/projects/more-overlays/) | 1.9 | feldim2425 | Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search) |
