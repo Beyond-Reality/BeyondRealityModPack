@@ -5,7 +5,7 @@
 
 ### Powered by
 * Minecraft Forge 13.20.0.2265
-* [97 Mods](#mods)
+* [98 Mods](#mods)
 * [19 Dependency/Core Mods](#dependencycore-mods)
 
 ## Mods
@@ -51,6 +51,7 @@
 | [Just Enough Resources](http://minecraft.curseforge.com/projects/just-enough-resources-jer/) | 0.6.3.4 | way2muchnoise | Adds Resources and Mob Drops to JEI |
 | [Literal Ascension](https://minecraft.curseforge.com/projects/literal-ascension) | 1.11.2-1.0.1.1 | JamiesWhiteShirt | Adds intuitive solutions for vertical mobility. |
 | [Login Shield](http://minecraft.curseforge.com/projects/login-shield/) | 1.11-3-g0422a90 | Glasspelican | protects users from taking damage between when they login and they can start interacting with the world |
+| [LootTweaker](http://www.curseforge.com/projects/loottweaker/) | 1.11.2-0.0.5.1 | Leviathan143 | An addon for CraftTweaker that allows modification of loot tables |
 | [MalisisDoors](http://github.com/Ordinastie/MalisisDoors) | boo | Ordinastie | Better doors! |
 | [MalisisSwitches](http://minecraft.curseforge.com/projects/malisisswitches/) | 1.11.2-4.1.0 | Ordinastie | Wireless Switches for Minecraft |
 | [MineTweaker 3](http://minetweaker3.powerofbytes.com) | 1.11.2-3.0.24 | Stan Hebben | Customize your minecraft experience! |
