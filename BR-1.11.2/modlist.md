@@ -107,7 +107,7 @@
 | [Wolf Armor and Storage](http://www.attributestudios.com/mcModWolfArmor.php) | 1.3.3.6 | CenturionFox | Adds armors and storage for wolves! |
 | [World Stripper](http://www.curseforge.com/projects/world-stripper/) | 1.3.0-1.11.2 | Ewy | Strip The World! #AllNude |
 | [WorldEdit](http://wiki.sk89q.com/wiki/WorldEdit) | 6.1.6-SNAPSHOT;e34fc1a | sk89q<br/>wizjany<br/>TomyLobo<br/>kenzierocks | WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer. |
-| [WorldEdit CUI Forge Edition](http://www.curseforge.com/projects/worldeditcui-forge-edition/) | 1.0.7 | yetanotherx<br/>Mumfrey<br/>Hexosse | WorldEdit CUI is a client-side user interface for WorldEdit. |
+| [WorldEdit CUI Forge Edition 2](https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2) | 2.1.1-mf-1.11.2-13.20.0.2228 | Hexosse | WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit |
 ## Dependency/Core Mods
 | Mod | Version | Authors | Description |
 |-----|:-------:|:--------|:------------|
