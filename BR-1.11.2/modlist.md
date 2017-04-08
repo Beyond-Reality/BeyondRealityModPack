@@ -95,7 +95,7 @@
 | [Storage Drawers](http://www.jaquadro.com/) | 4.2.1 | jaquadro | Multi-drawer storage blocks for quick storage and retrieval. |
 | [Streams](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2346379-streams-real-flowing-rivers) | 0.3 | delvr | This mod introduces real flowing rivers, with a true current, to your Minecraft worlds. Compatible with many terrain generators. |
 | [Super Crafting Frame](http://minecraft.curseforge.com/projects/super-crafting-frame/) | 1.2.1.89 | EdgarAllen | An item frame that can craft items when punched. |
-| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.10.88 | modmuss50<br/>Gigabit101<br/>tntrololol<br/>joflashstudios<br/>Prospector | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
+| [TechReborn](https://github.com/TechReborn/TechReborn) | 2.1.11.103 | modmuss50<br/>Gigabit101<br/>tntrololol<br/>joflashstudios<br/>Prospector | TechReborn, The Gregtech revival you dream about on a cool mid summer's eve. |
 | [Teslafied](http://minecraft.curseforge.com/projects/teslafied/) | 1.1 | p455w0rd aka TheRealp455w0rd | Allows RF capable Tile Entities to also support Tesla |
 | [Thut Essentials](http://minecraft.curseforge.com/projects/thut-essentials/) | 1.6.8 | Thutmose | Essentials mod for Forge |
 | [Thut's Elevators](http://minecraft.curseforge.com/projects/thuts-elevators/) | 5.0.0 | patnevis | Adds elevators to minecraft |
