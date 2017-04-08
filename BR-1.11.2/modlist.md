@@ -77,7 +77,7 @@
 | [Pipes](https://crafterkina.github.io/Pipes/) | 1.11-1.1.0.12 | CrafterKina | Pipes |
 | [Placeable Items Mod](https://minecraft.curseforge.com/projects/placeable-items) | 3.0.3.1 | Ferdz<br/>MasterianoX | This mod allows players to place items as 3D models |
 | [Placement Preview](http://minecraft.curseforge.com/projects/placement-preview) | 0.3.1 | masa | Shows a preview of the block that will be placed |
-| [Platforms](http://tomkinsbros.blogspot.ca/p/platforms.html) | 1.11.0-1.3.2 | ShetiPhian | This mod adds platforms with a range of customization. You can make decks, bridges, mine shafts, or even wooden coaster supports. |
+| [Platforms](http://tomkinsbros.blogspot.ca/p/platforms.html) | 1.11.0-1.3.4 | ShetiPhian | This mod adds platforms with a range of customization. You can make decks, bridges, mine shafts, or even wooden coaster supports. |
 | [Pressure Pipes](https://bdew.net/) | 1.3.1.5 | bdew | Unlimited Fluid Transport |
 | [Quark](http://www.vazkii.us) | r1.2-90 | Vazkii<br/>wiiv | Small things. |
 | [Random Things](http://minecraft.curseforge.com/mc-mods/59816-random-things) | 3.8.1 | Lumien | Random Things packed into one Mod. |
@@ -131,7 +131,7 @@
 | [RebornCore](https://github.com/TechReborn/RebornCore) | 2.13.5.44 | modmuss50<br/>Gigabit101 | RebornCore, A core set of classes. |
 | [Shadowfacts-Forgelin](http://minecraft.curseforge.com/projects/shadowfacts-forgelin/) | 1.4.1 | shadowfactsmc | My fork of Emberwalker's Forgelin, with some sprinkles on top. |
 | [ShadowMC](http://github.com/shadowfacts/ShadowMC) | 1.11.2-3.7.5 | Shadowfacts | A library mod required for all my other mods. |
-| [ShetiPhian-Core](http://tomkinsbros.blogspot.ca/p/core.html) | 1.11.0-3.4.3 | ShetiPhian | Core set of files needed by ShetiPhians mods |
+| [ShetiPhian-Core](http://tomkinsbros.blogspot.ca/p/core.html) | 1.11.0-3.4.4 | ShetiPhian | Core set of files needed by ShetiPhians mods |
 | [Stellar API](http://minecraft.curseforge.com/projects/stellar-api/) | 0.6.4.1.2 | Abastro | API for mods related with sky and celestial sphere. |
 | [TESLA](http://minecraft.curseforge.com/projects/tesla/) | 1.11-1.3.0.51 | Darkhax | A modern power API |
 | [Thut Permissions](http://minecraft.curseforge.com/projects/thutperms/) | 1.0.0 | Thutmose | Permissions mod for Forge |
