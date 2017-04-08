@@ -34,7 +34,7 @@
 | [DiscordChat](http://www.curseforge.com/projects/discordchat/) | 1.11.2-2.0.4 | shadowfactsmc | Forge (server-side only) mod to relay MC chat to Discord and vice versa. |
 | [Dynamic Surroundings](https://github.com/OreCruncher/DynamicSurroundings/wiki) | 1.11.2-3.3.4.1 | OreCruncher<br/>Abastro | Improving Minecraft's sight and sound experience |
 | [Embers](http://minecraft.curseforge.com/projects/embers/) | 0.206 | Elucent<br/>AlexisMachina<br/>ShadowGamerXY<br/>werty1124 | Dwarven-style Magitech Mod |
-| [Extra Bit Manipulation](http://minecraft.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.5 | MolecularPhylo | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
+| [Extra Bit Manipulation](http://minecraft.curseforge.com/projects/extra-bit-manipulation/) | 1.11.2-3.0.6 | MolecularPhylo | Adds extra in-world bit manipulation to the Chisels & Bits mod. |
 | [Extra Utilities](http://minecraft.curseforge.com/projects/extra-utilities/) | 1.3.3 | RWTema | Just a bunch of useful things |
 | [Fast Leave Decay](http://minecraft.curseforge.com/projects/fast-leaf-decay/) | 1.2.3 | lumien | Makes leave decay faster |
 | [Foamfix](http://asie.pl/foamfix/) | 0.5.4-beta2-anarchy | asiekierka | FoamFix is a mod which makes Minecraft go fast - by which I mean use less memory. |
