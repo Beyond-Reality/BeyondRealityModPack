@@ -46,7 +46,7 @@
 | [HelpFixer](http://minecraft.curseforge.com/mc-mods/223797-helpfixer) | 1.4+17 | matthewprenger | Fixes the help command from mod derpyness |
 | [Integrated Dynamics](http://minecraft.curseforge.com/mc-mods/236307-integrated-dynamics) | 1.11.2-0.6.11 | rubensworks (aka kroeserr) | Take full and automated control of your appliances. |
 | [Integrated Tunnels](https://github.com/CyclopsMC/IntegratedTunnels) | 1.11.2-1.1.1 | rubensworks (aka kroeserr) | Transfer other stuff over Integrated Dynamics networks |
-| [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62-beta-82 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
+| [Inventory Tweaks](https://github.com/Kobata/inventory-tweaks) | 1.62+beta.84 | Jimeo Wan<br/>Kobata | Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items. |
 | [Iron Chest](http://www.minecraftforum.net/topic/981855-) | 7.0.17.799 | cpw | New chests with larger sizes, with in-place upgrade items. The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest |
 | [JEI Bees](http://bdew.net/) | 0.9.0.5 | bdew | Adds JEI recipes that show breeding and products from Forestry bees, trees and butterflies. |
 | [JourneyMap](http://journeymap.info/) | 1.11.2-5.4.6 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
