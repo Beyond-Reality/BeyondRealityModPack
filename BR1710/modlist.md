@@ -1,5 +1,5 @@
 # Beyond Reality Classic
-* Version: 2.4.4-r1
+* Version: 2.4.4-r3
 
 ## A Mod-pack for Minecraft: 1.7.10
 
@@ -66,9 +66,9 @@
 | [Iron Chests 2](http://files.minecraftforge.net/IronChests2/) | 6.0.62.742 | CPW | Tiered chest from iron to diamond with different sizes |
 | [IronChestMinecarts](http://minecraft.curseforge.com/mc-mods/224989-iron-chest-minecarts) | 1.0.4 | ganny | Iron chest inside minecrafts ! |
 | [JABBA](http://www.mobiusstrip.eu/) | 1.2.2 | ProfMobius | Just Another Better Barrel Attempt  |
-| [JourneyMap](http://journeymap.info) | 1.7.10-5.1.4p1 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
+| [JourneyMap](http://journeymap.info) | 1.7.10-5.1.4p2 | techbrew<br/>mysticdrew | JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore. |
 | [Logistics Pipes](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289546) | 0.9.3.128 | thezoro266 | Logistics Pipes is an extensive overhaul of the Buildcraft pipe system. It allows for better distribution of items via pipes, more organised stockkeeping and easier automated crafting. |
-| [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 0.11.1.111 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
+| [MachineMuse's Modular Powersuits](http://machinemuse.net/) | 1.7.10-0.11.1.114 | MachineMuse | A mod which adds modular power armor, power tool, and a tinker table to configure them. Uses UniversalElectricty or IC2 for energy. |
 | [malisisdoors](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076338-) | 1.13.2 | Ordinastie | Animated,Sliding and Custom doors! |
 | [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.8.2B1-201 | PowerCrystals<br/>TehKrush<br/>AtomicStryker<br/>Feanorith<br/>skyboy026 | Automate everything! |
 | [MineTweaker 3](http://www.minecraftforum.net/topic/1886008-) | 3.0.10B | StanH | MineTweaker is a mod that enables players and server admins to alter recipes. |
