@@ -40,6 +40,24 @@ for blockThaumium in <ore:blockThaumium>.items {
 
 }
 
+// Make osmotic enchanter harder to obtain
+val ingotQuantum = <miscutils:itemIngotQuantum>;
+val quantumStar = <gregtech:gt.metaitem.01:32725>;
+val quantumEye = <gregtech:gt.metaitem.01:32724>;
+val obsidianTile = <Thaumcraft:blockCosmeticSolid:1>;
+
+Infusion.removeRecipe(<ThaumicTinkerer:enchanter>);
+mods.thaumcraft.Infusion.addRecipe(
+  "ENCHANTER", <minecraft:enchanting_table>, [
+   obsidianTile, obsidianTile, obsidianTile, obsidianTile, obsidianTile,
+   ingotThaumium, ingotThaumium,
+   ingotQuantum,
+   <ThaumicTinkerer:spellCloth>
+  ],
+  "praecantatio 150, potentia 100, alienis 80, vacuos 50, cognitio 100",
+  <ThaumicTinkerer:enchanter>, 10
+);
+mods.thaumcraft.Research.refreshResearchRecipe("ENCHANTER");
 
 // Make KAMI awakened tools, armour and wand harder to obtain using ichorium ingot as a gate
 val ingotTritainium =  <gregtech:gt.metaitem.01:11329>;
