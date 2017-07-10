@@ -244,3 +244,14 @@ furnace.remove(<*>, shardTitanium);
 // blocks require Compressor
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>); // Copper block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>); // Tin block
+
+// Fix arc lamp
+var battery = <GalacticraftCore:item.battery:*>;
+var arcLamp = <GalacticraftCore:tile.arclamp>;
+var glowstDust = <minecraft:glowstone_dust>;
+
+recipes.remove(arcLamp);
+recipes.addShaped(arcLamp, [
+	[ingotDesh, glowstDust, ingotDesh],
+	[glowstDust, battery, glowstDust],
+	[ingotDesh, glowstDust, ingotDesh]]);
