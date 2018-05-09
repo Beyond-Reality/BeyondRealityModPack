@@ -6,10 +6,13 @@ import mods.nei.NEI;
 
 # Ingredients
 
+val batteryBasic = <ore:batteryBasic>;
 val blockGlass = <ore:blockGlass>;
 val chipsetIron = <ore:chipsetIron>;
 val chipsetGold = <ore:chipsetGold>;
 val chipsetDiamond = <ore:chipsetDiamond>;
+val circuitBasic = <ore:circuitBasic>;
+val circuitAdvanced = <ore:circuitAdvanced>;
 val dyeBlue = <ore:dyeBlue>;
 val dyeRed = <ore:dyeRed>;
 val dustRedstone = <ore:dustRedstone>;
@@ -30,6 +33,8 @@ val BasicLogisticsPipe = <LogisticsPipes:item.PipeItemsBasicLogistics>;
 val BlankModule = <LogisticsPipes:item.itemModule:0>;
 val CraftingCleanupUpgrade = <LogisticsPipes:item.itemUpgrade:26>;
 val CraftingSignCreator = <LogisticsPipes:item.ItemPipeSignCreator>;
+val ElectricBufferModule = <LogisticsPipes:item.itemModule:301>;
+val ElectricManagerModule = <LogisticsPipes:item.itemModule:300>;
 val ExtractorMk2Module = <LogisticsPipes:item.itemModule:103>;
 val ExtractorMk3Module = <LogisticsPipes:item.itemModule:203>;
 val ExtractorModule = <LogisticsPipes:item.itemModule:3>;
@@ -46,9 +51,16 @@ val RequestLogisticsPipeMk2 = <LogisticsPipes:item.PipeItemsRequestLogisticsMk2>
 # NEI cleanup
 
 // Unused ComputerCraft
-NEI.hide(<LogisticsPipes:item.itemModule:14>);
-NEI.hide(<LogisticsPipes:item.itemModule:15>);
-NEI.hide(<LogisticsPipes:item.itemUpgrade:40>);
+// NEI.hide works per item ID. Thus, applying NEI.hide(<item:34>) will hide all items with that name, not only the ones with 34 meta value.
+// NEI.hide(<LogisticsPipes:item.itemModule:14>);
+// NEI.hide(<LogisticsPipes:item.itemModule:15>);
+// NEI.hide(<LogisticsPipes:item.itemUpgrade:40>);
+
+// Fix NEI Glitch Modules not seen
+for meta in [30, 0, 600, 1, 2, 502, 3, 4, 6, 500, 502, 7, 103, 107, 12, 13, 16, 31, 131, 5, 203, 501, 207, 301, 300, 8, 9, 10, 11] as int[] {
+  NEI.addEntry(<LogisticsPipes:item.itemModule>.definition.makeStack(meta));
+}
+
 
 // Glitched / No craft / Virtual
 NEI.hide(<LogisticsPipes:logisticsPipeBlock:0>);
@@ -187,3 +199,35 @@ for dyedRemoteOrderer, dye  in {
   } as IIngredient[IItemStack] {
   recipes.addShapeless(dyedRemoteOrderer, [<LogisticsPipes:item.remoteOrdererItem:*>, dye]);
 }
+
+// Modules
+
+
+// Electric Manager Module
+recipes.remove(ElectricManagerModule);
+recipes.addShaped(ElectricManagerModule, [
+  [circuitBasic, gearGold, batteryBasic],
+  [dustRedstone, BlankModule, dustRedstone],
+  [batteryBasic, dustRedstone, circuitBasic]
+]);
+
+recipes.addShaped(ElectricManagerModule, [
+  [null, chipsetGold, null],
+  [dustRedstone, BlankModule, dustRedstone],
+  [batteryBasic, dustRedstone, circuitBasic]
+]);
+
+// Electric Buffer Module
+recipes.remove(ElectricBufferModule);
+recipes.addShaped(ElectricBufferModule, [
+  [circuitAdvanced, gearGold, circuitAdvanced],
+  [dustRedstone, BlankModule, dustRedstone],
+  [circuitAdvanced, dustRedstone, circuitAdvanced]
+]);
+
+recipes.addShaped(ElectricManagerModule, [
+  [null, chipsetGold, null],
+  [dustRedstone, BlankModule, dustRedstone],
+  [circuitAdvanced, dustRedstone, circuitAdvanced]
+]);
+

@@ -90,8 +90,8 @@ var tinyPileStainlessSteel = <gregtech:gt.metaitem.01:306>;
 var tinyPileTungsten = <gregtech:gt.metaitem.01:81>;
 var tinyPileTungstenSteel = <gregtech:gt.metaitem.01:316>;
 var diamond = <minecraft:diamond>;
-var boardBasic = <gregtech:gt.metaitem.01:32710>;
-var boardAdvanced = <gregtech:gt.metaitem.01:32711>;
+var boardBasic = <miscutils:MU-metaitem.01:32210>;
+var boardAdvanced = <miscutils:MU-metaitem.01:32211>;
 var GTdustLapis = <gregtech:gt.metaitem.01:2526>;
 var GTplateCopper = <gregtech:gt.metaitem.01:17035>;
 var GTplateTin = <gregtech:gt.metaitem.01:17057>;
@@ -244,14 +244,3 @@ furnace.remove(<*>, shardTitanium);
 // blocks require Compressor
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:9>); // Copper block
 recipes.remove(<GalacticraftCore:tile.gcBlockCore:10>); // Tin block
-
-// Fix arc lamp
-var battery = <GalacticraftCore:item.battery:*>;
-var arcLamp = <GalacticraftCore:tile.arclamp>;
-var glowstDust = <minecraft:glowstone_dust>;
-
-recipes.remove(arcLamp);
-recipes.addShaped(arcLamp, [
-	[ingotDesh, glowstDust, ingotDesh],
-	[glowstDust, battery, glowstDust],
-	[ingotDesh, glowstDust, ingotDesh]]);

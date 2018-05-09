@@ -1,83 +1,32 @@
 # GT++.zs tweaks
 
-// Ingredients
+//GT Circuits
+val circuitBasic = <gregtech:gt.metaitem.01:32701>;
+val circuitAdvanced = <gregtech:gt.metaitem.01:32703>;
+val partChip3 = <gregtech:gt.metaitem.01:32715>;
+val partWire1 = <gregtech:gt.metaitem.01:32716>;
+val partWire2 = <gregtech:gt.metaitem.01:32717>;
+val partWire3 = <gregtech:gt.metaitem.01:32718>;
 
-// Foreign Items
-
-// This mod Items
-
-val HVCreativeEnergyBuffer = <gregtech:gt.blockmachines:750>;
-
-val IronPlatedBlastFurnace = <gregtech:gt.blockmachines:768>;
-
-val SteamCondensor = <gregtech:gt.blockmachines:769>;
-
-val UltraLowVoltageEnergyBuffer = <gregtech:gt.blockmachines:770>;
-val LowVoltageEnergyBuffer = <gregtech:gt.blockmachines:771>;
-val MediumVoltageEnergyBuffer = <gregtech:gt.blockmachines:772>;
-val HighVoltageEnergyBuffer = <gregtech:gt.blockmachines:773>;
-val ExtremeVoltageEnergyBuffer = <gregtech:gt.blockmachines:774>;
-val InsaneVoltageEnergyBuffer = <gregtech:gt.blockmachines:775>;
-val LudicrousVoltageEnergyBuffer = <gregtech:gt.blockmachines:776>;
-val ZPMVoltageEnergyBuffer = <gregtech:gt.blockmachines:777>;
-val UltimateVoltageEnergyBuffer = <gregtech:gt.blockmachines:778>;
-val MAXVoltageEnergyBuffer = <gregtech:gt.blockmachines:779>;
-
-val UltraLowVoltagePlayerSafe = <gregtech:gt.blockmachines:780>;
-val LowVoltagePlayerSafe = <gregtech:gt.blockmachines:781>;
-val MediumVoltagePlayerSafe = <gregtech:gt.blockmachines:782>;
-val HighVoltagePlayerSafe = <gregtech:gt.blockmachines:783>;
-val ExtremeVoltagePlayerSafe = <gregtech:gt.blockmachines:784>;
-val InsaneVoltagePlayerSafe = <gregtech:gt.blockmachines:785>;
-val LudicrousVoltagePlayerSafe = <gregtech:gt.blockmachines:786>;
-val ZPMVoltagePlayerSafe = <gregtech:gt.blockmachines:787>;
-val UltimateVoltagePlayerSafe = <gregtech:gt.blockmachines:788>;
-val MAXVoltagePlayerSafe = <gregtech:gt.blockmachines:789>;
-
-val IndustrialCentrifuge = <gregtech:gt.blockmachines:790>; // https://github.com/draknyte1/MiscUtilities/issues/1
-val IndustrialCokeOven = <gregtech:gt.blockmachines:791>;
-val IndustrialMaterialPress = <gregtech:gt.blockmachines:792>; // NEED RECIPE
-
-val BasicRocketEngine = <gregtech:gt.blockmachines:793>;
-val AdvancedRocketEngine = <gregtech:gt.blockmachines:794>;
-val TurboRocketEngine = <gregtech:gt.blockmachines:795>; // NEED RECIPE
-val IndustrialElectrolyzer = <gregtech:gt.blockmachines:796>; // NEED RECIPE
-val MacerationStackController = <gregtech:gt.blockmachines:797>; // NEED RECIPE
-val WireFactoryController = <gregtech:gt.blockmachines:798>; // NEED RECIPE
-val MatterFabricationCPU = <gregtech:gt.blockmachines:799>; // NEED RECIPE
+//GT++ Components
+val circuitBasic2 = <miscutils:MU-metaitem.01:32201>;
+val circuitAdvanced2 = <miscutils:MU-metaitem.01:32203>;
+val partChip3x = <miscutils:MU-metaitem.01:32215>;
+val partWire1x = <miscutils:MU-metaitem.01:32216>;
+val partWire2x = <miscutils:MU-metaitem.01:32217>;
+val partWire3x = <miscutils:MU-metaitem.01:32218>;
 
 
-// Missing Recipes
-/*
-GT Main Tab, Meta ID 750 - 800
-NO RECIPE
-
- Blocks
-	-Block of Bloodsteel
-	-Block of Staballoy
-	-Maceration Stack Casing
-	-Material Press Machine Casing
-	-Matter Fabricator Casing
-	-Matter Generation Casing
-	-Electrolyzer Casing
-	-Wire Factory Casing
-
- Items
-	-Void Frame
-	-Working Frame
-	-Nova Frame 								(probably intended)
-	-Bedrockium Plate
-	-Compressed Iron Plate
-	-Stabballoy Ingot
-	-Stabballoy Plate
-	-Blood Steel Ingot
-	-Blood Steel Plate
-	-Gumlet of Sticky Rubber
-	-Ingot of Battery Alloy
-	-Plate of Battery Alloy
-	-Blob of solid Helium
-	-Dual Cell Sodium Battery
-*/
+//Shapeless conversion Recipes
+recipes.addShapeless(circuitBasic2, [circuitBasic]);
+recipes.addShapeless(circuitAdvanced2, [circuitAdvanced]);
+recipes.addShapeless(partChip3x, [partChip3]);
+recipes.addShapeless(partWire1x, [partWire1]);
+recipes.addShapeless(partWire2x, [partWire2]);
+recipes.addShapeless(partWire3x, [partWire3]);
 
 // Remove until crash issue fixed
 recipes.remove(<miscutils:blockWorkbenchGT>);
+
+//Fuels
+mods.gregtech.Fuels.addGasTurbineFuel(<minecraft:bucket>, <PneumaticCraft:lpgBucket>, 250);

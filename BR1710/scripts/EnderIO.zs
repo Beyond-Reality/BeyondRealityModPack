@@ -31,7 +31,7 @@ val conduitNetwork = <EnderIO:itemOCConduit:0>;
 val darkSteelBars = <EnderIO:blockDarkIronBars>;
 
 // Disable smelting itemSilicon
-furnace.remove(ingotSilicon);
+//furnace.remove(ingotSilicon);
 
 // Replace Ore-Dictionar entry for itemSilicon
 itemSilicon.remove(silicon);
@@ -76,3 +76,7 @@ recipes.remove(<EnderIO:itemMachinePart>);
 recipes.addShaped(<EnderIO:itemMachinePart>, [[bars, steelplate, bars],
                                                     [steelplate, basic, steelplate],
                                                     [bars, steelplate, bars]]);
+
+// Exchange itemSilicon
+recipes.addShapeless(<EnderIO:itemMaterial:0>, [<ore:plateSilicon>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:17020>, [<EnderIO:itemMaterial:0>]);

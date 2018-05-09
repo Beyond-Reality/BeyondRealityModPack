@@ -40,24 +40,6 @@ for blockThaumium in <ore:blockThaumium>.items {
 
 }
 
-// Make osmotic enchanter harder to obtain
-val ingotQuantum = <miscutils:itemIngotQuantum>;
-val quantumStar = <gregtech:gt.metaitem.01:32725>;
-val quantumEye = <gregtech:gt.metaitem.01:32724>;
-val obsidianTile = <Thaumcraft:blockCosmeticSolid:1>;
-
-Infusion.removeRecipe(<ThaumicTinkerer:enchanter>);
-mods.thaumcraft.Infusion.addRecipe(
-  "ENCHANTER", <minecraft:enchanting_table>, [
-   obsidianTile, obsidianTile, obsidianTile, obsidianTile, obsidianTile,
-   ingotThaumium, ingotThaumium,
-   ingotQuantum,
-   <ThaumicTinkerer:spellCloth>
-  ],
-  "praecantatio 150, potentia 100, alienis 80, vacuos 50, cognitio 100",
-  <ThaumicTinkerer:enchanter>, 10
-);
-mods.thaumcraft.Research.refreshResearchRecipe("ENCHANTER");
 
 // Make KAMI awakened tools, armour and wand harder to obtain using ichorium ingot as a gate
 val ingotTritainium =  <gregtech:gt.metaitem.01:11329>;
@@ -125,3 +107,26 @@ mods.thaumcraft.Arcane.addShaped(
     [null, null, null]]
 );
 mods.thaumcraft.Research.refreshResearchRecipe("ICHORCLOTH_ARMOR");
+
+
+// Make Witching Gadgets wolven cloak harder to obtain (it provides speed+strength+resistance II, III then IV
+// when being repeatedly hit making the player near invulnerable against groups of regular mobs)
+
+val baseCloak = <ore:travelgearCloakBase>;
+val voidIngot = <ore:ingotVoidMetal>;
+val wolfPelt = <WitchingGadgets:item.WG_Material:6>;
+val gaiaSpirit = <ore:eternalLifeEssence>;
+val tungsteelRing = <ore:ringTungstenSteel>;
+
+mods.thaumcraft.Arcane.removeRecipe(<WitchingGadgets:item.WG_Cloak:3>);
+mods.thaumcraft.Arcane.addShaped(
+   "CLOAK_WOLF", <WitchingGadgets:item.WG_Cloak:3>,
+   "perditio 100, terra 75, ignis 50",
+   [[tungsteelRing, voidIngot, tungsteelRing], 
+    [wolfPelt, baseCloak, wolfPelt],
+    [wolfPelt, gaiaSpirit, wolfPelt]]
+);
+mods.thaumcraft.Research.refreshResearchRecipe("CLOAK_WOLF");
+
+
+

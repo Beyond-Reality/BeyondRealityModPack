@@ -51,3 +51,15 @@ Compressor.addRecipe(<MineFactoryReloaded:brick:15>, <MineFactoryReloaded:sugarc
 
 // Plastic block require compressor and the default 4 plate does not match 9 plates of Gregtech blockPlastic
 recipes.remove(blockPlastic);
+
+// Fix some plastic sheet oredicts
+val plasticSheet = <ore:sheetPlastic>;
+val lapis = <ore:gemLapis>;
+val redstone = <minecraft:redstone>;
+val ironIngot = <ore:ingotIron>;
+
+recipes.remove(<ProjectBlue:rednetAdaptor>);
+recipes.addShaped(<ProjectBlue:rednetAdaptor>, [[plasticSheet,lapis,plasticSheet],
+                                              [lapis,redstone,lapis],
+					      [plasticSheet,ironIngot,plasticSheet]]);
+					      

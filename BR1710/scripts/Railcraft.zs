@@ -39,10 +39,9 @@ val logWood = <ore:logWood>;
 val mineCart = <minecraft:minecart>;
 val paneGlass = <ore:paneGlass>;
 val pearlEnder = <minecraft:ender_pearl>;
-val plateAnyIron = <ore:plateAnyIron>;
+val plateIron = <ore:plateIron>;
 val plateCopper = <ore:plateCopper>;
 val plateGold = <ore:plateGold>;
-val plateIron = <ore:plateIron>;
 val plateSteel = <ore:plateSteel>;
 val plateTin = <ore:plateTin>;
 val redstoneLamp = <minecraft:redstone_lamp>;
@@ -305,21 +304,21 @@ recipes.removeShaped(ironTankWall, [
 ]);
 
 recipes.addShaped(ironTankWall * 8, [
-  [craftingToolHardHammer, plateAnyIron, plateAnyIron],
-  [craftingToolWrench, plateAnyIron, plateAnyIron]
+  [craftingToolHardHammer, plateIron, plateIron],
+  [craftingToolWrench, plateIron, plateIron]
 ]);
 
 // Iron Tank Gauge
 recipes.removeShaped(ironTankGauge, [
-  [<minecraft:glass_pane>, plateAnyIron, <minecraft:glass_pane>],
-  [plateAnyIron, <minecraft:glass_pane>, plateAnyIron],
-  [<minecraft:glass_pane>, plateAnyIron, <minecraft:glass_pane>]
+  [<minecraft:glass_pane>, plateIron, <minecraft:glass_pane>],
+  [plateIron, <minecraft:glass_pane>, plateIron],
+  [<minecraft:glass_pane>, plateIron, <minecraft:glass_pane>]
 ]);
 
 recipes.addShaped(ironTankGauge * 8, [
-  [paneGlass, plateAnyIron, paneGlass],
-  [plateAnyIron, paneGlass, plateAnyIron],
-  [paneGlass, plateAnyIron, paneGlass]
+  [paneGlass, plateIron, paneGlass],
+  [plateIron, paneGlass, plateIron],
+  [paneGlass, plateIron, paneGlass]
 ]);
 
 // Iron Tank Valve
@@ -330,15 +329,15 @@ recipes.removeShaped(ironTankValve, [
 ]);
 
 recipes.removeShaped(ironTankValve, [
-  [<minecraft:iron_bars>, plateAnyIron, <minecraft:iron_bars>],
-  [plateAnyIron, lever, plateAnyIron],
-  [<minecraft:iron_bars>, plateAnyIron, <minecraft:iron_bars>]
+  [<minecraft:iron_bars>, plateIron, <minecraft:iron_bars>],
+  [plateIron, lever, plateIron],
+  [<minecraft:iron_bars>, plateIron, <minecraft:iron_bars>]
 ]);
 
 recipes.addShaped(ironTankValve * 8, [
-  [barsIron, plateAnyIron, barsIron],
-  [plateAnyIron, lever, plateAnyIron],
-  [barsIron, plateAnyIron, barsIron]
+  [barsIron, plateIron, barsIron],
+  [plateIron, lever, plateIron],
+  [barsIron, plateIron, barsIron]
 ]);
 
 // Steel Tank Wall
@@ -501,7 +500,7 @@ recipes.addShaped(lapotronLoader,[
 // Wire Support Frame
 recipes.remove(wireSupportFrame);
 recipes.addShaped(wireSupportFrame, [
-  [plateAnyIron, plateAnyIron, plateAnyIron],
+  [plateIron, plateIron, plateIron],
   [rebar, craftingToolWrench, rebar],
   [rebar, rebar, rebar]
 ]);

@@ -1,5 +1,6 @@
 // Chisel2.zs Tweaks
 import mods.gregtech.CuttingSaw;
+import mods.chisel.Groups;
 
 # Ingredients
 val toolSaw = <ore:craftingToolSaw> * 0;
@@ -10,6 +11,11 @@ val lubricant = <liquid:lubricant>;
 # Foreign Items
 val dustMarble = <gregtech:gt.metaitem.01:2845>;
 val plateMarble = <gregtech:gt.metaitem.01:17845>;
+
+for meta in [0, 1, 2, 3, 4, 5] as int[] {
+  var blockThaumium = <chisel:thaumium>.definition.makeStack(meta);
+  <ore:blockThaumium>.add(blockThaumium);
+}
 
 for meta in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] as int[] {
   var stoneMarble = <chisel:marble>.definition.makeStack(meta);
@@ -53,3 +59,28 @@ for meta in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] as int[] {
   CuttingSaw.addRecipe([plateMarble * 2], slabStoneMarblePillar, distilledWater, 64, 8);
   CuttingSaw.addRecipe([plateMarble * 2], slabStoneMarblePillar, lubricant, 32, 8);
 }
+
+// Add Gregtech Thaumium block to chisel groups so it can be crafted as needed
+Groups.addVariation("thaumium", <gregtech:gt.blockmetal7:4>);
+
+// Add Gregtech Marble variations
+
+Groups.addVariation("marble", <gregtech:gt.blockstones:0>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:1>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:2>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:3>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:4>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:5>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:6>);
+Groups.addVariation("marble", <gregtech:gt.blockstones:7>);
+
+// Add Basalt groups
+
+Groups.addGroup("basalt");
+Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
+for v in <ore:stoneBasalt>.items {
+  Groups.addVariation("basalt", v);
+}
+
+Groups.addGroup("basalt_slab");
+Groups.addGroup("basalt_stairs");

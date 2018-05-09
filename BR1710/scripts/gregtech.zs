@@ -23,9 +23,8 @@ val craftingToolWrench = <ore:craftingToolWrench>;
 val crateGtDustRubber = <ore:crateGtDustRubber>;
 val ironDoor = <minecraft:iron_door>;
 val plateAluminium = <ore:plateAluminium>;
-val plateAnyIron = <ore:plateAnyIron>;
-val plateGlowstone = <ore:plateGlowstone>;
 val plateIron = <ore:plateIron>;
+val plateGlowstone = <ore:plateGlowstone>;
 val plateRedstone = <ore:plateRedstone>;
 val plateRubber = <ore:plateRubber>;
 val plateSteel = <ore:plateSteel>;
@@ -659,7 +658,7 @@ for craftingDuctTape in <ore:craftingDuctTape>.items {
 }
 
 //Shutter Recipe Fix (caused by Malysis's doors)
-for plates in [plateAnyIron, plateAluminium] as IIngredient[] {
+for plates in [plateIron, plateAluminium] as IIngredient[] {
   for plate in plates.items {
     Assembler.addRecipe(shutterModule * 2, plate * 2, ironDoor * 1, 800, 16);
   }

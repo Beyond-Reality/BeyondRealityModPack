@@ -4,7 +4,7 @@
 furnace.remove(<Railcraft:nugget:1>, <ore:nuggetAnyIron>);
 
 # chisel
-recipes.addShapeless(<chisel:chisel>, [<ore:stickWood>,<ore:ingotAnyIron>]);
+recipes.addShapeless(<chisel:chisel>, [<ore:stickWood>,<ore:ingotIron>]);
 
 # Red Alloy Wire
 recipes.remove(<ProjRed|Transmission:projectred.transmission.wire>);
@@ -114,7 +114,7 @@ recipes.addShaped(slabOak * 2, [[toolSaw, plankOak]]);
 // Re-add workbench recipe for Iron Bars
 recipes.addShaped(<minecraft:iron_bars> * 8, [
   [null, <ore:craftingToolWrench>, null],
-  [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>],
-  [<ore:stickAnyIron>, <ore:stickAnyIron>, <ore:stickAnyIron>]
+  [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
+  [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]
 ]);
 
