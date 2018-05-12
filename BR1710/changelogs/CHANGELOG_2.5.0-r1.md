@@ -26,7 +26,7 @@
   Actually remembered to remove all the PSDs from the jar >_>  
   Complete rewrite - All the info is in the project description!
 :sparkles: `gregtech-5.09.32pre4.jar` [:information_source:](http://forum.industrial-craft.net/index.php?page=Thread&threadID=11488)
-- :sparkles: `GT-PlusPlus-1.7.0-prerelease-11-final.jar` [:information_source:](https://minecraft.curseforge.com/projects/gregtech-gt-gtplusplus/files/2547294)
+- `GT-PlusPlus-1.7.0-prerelease-14-final.jar` [:information_source:]()
 - `GTTweaker-1.7.10-1.1.1.jar` [:information_source:](https://forum.industrial-craft.net/thread/11353-gt-5-09-minetweaker-3-10-addon-addon-version-1-7-0-adding-custom-recipes-for-all/)  
   Added EU to Chemical reactor  
   Added Ore Dict support to Gt Machines  
