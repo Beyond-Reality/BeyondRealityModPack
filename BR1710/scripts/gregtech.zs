@@ -10,7 +10,7 @@ import mods.gregtech.Centrifuge;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Pulverizer;
-import mods.gregtech.PyroluseOven;
+import mods.gregtech.PyrolyseOven;
 import mods.ic2.Extractor;
 import mods.ic2.Compressor;
 

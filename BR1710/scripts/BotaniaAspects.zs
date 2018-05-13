@@ -423,7 +423,7 @@ Aspects.set(<Botania:pavement:0>, "ordo 1, perditio 1, terra 2");
 
 Aspects.set(<Botania:pavement:*>, "ordo 1, perditio 1, terra 2");
 
-Aspects.set(<Botania:quartzTypeDark:1>, "potentia 3, tenebrae 3, vinculum 3");
+//Aspects.set(<Botania:quartzTypeDark:1>, "potentia 3, tenebrae 3, vinculum 3");
 
 Aspects.set(<Botania:quartzTypeMana:1>, "potentia 3, praecantatio 3, vinculum 3");
 

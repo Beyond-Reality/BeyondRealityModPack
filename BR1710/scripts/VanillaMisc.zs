@@ -1,12 +1,14 @@
 # Vanilla / Misc Minetweaker Changes
 
 # Remove ability to smelt iron nuggets into steel
-furnace.remove(<Railcraft:nugget:1>, <ore:nuggetAnyIron>);
+furnace.remove(<Railcraft:nugget:1>, <ore:nuggetIron>);
+furnace.remove(<gregtech:gt.metaitem.01:9305>, <ore:nuggetIron>);
+furnace.addRecipe(<gregtech:gt.metaitem.01:9304>, <ore:nuggetIron>);
 
 # chisel
 recipes.addShapeless(<chisel:chisel>, [<ore:stickWood>,<ore:ingotIron>]);
 
-# Red Alloy Wire
+# Red Alloy Wire	
 recipes.remove(<ProjRed|Transmission:projectred.transmission.wire>);
 recipes.addShaped(<ProjRed|Transmission:projectred.transmission.wire> * 12, [[null,<ore:ingotRedAlloy>,null],
 																		[null,<ore:ingotRedAlloy>,null],
