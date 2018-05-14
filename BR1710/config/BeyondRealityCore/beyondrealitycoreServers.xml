@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <root>
   <server>
-    <name>Beyond Reality Whitelist</name>
-    <ip>br.beyondrealitypack.com</ip>
-  </server>
-
-  <server>
-    <name>Dirt Huts</name>
-    <ip>138.201.134.44:25560</ip>
-  </server>
-
-  <server>
-    <name>Craftaga's Beyond Reality</name>
-    <ip>play.minecraftbeyondreality.com</ip>
-  </server>
-
-  <server>
-    <name>Beyond Reality.Gi.Ant</name>
-    <ip>5.9.2.247</ip>
+    <name>Beyond Reality MyBlueBox</name>
+    <ip>mybluebox.org:25065</ip>
   </server>
 </root>
