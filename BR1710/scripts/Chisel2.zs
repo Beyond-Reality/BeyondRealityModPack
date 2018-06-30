@@ -1,6 +1,7 @@
 // Chisel2.zs Tweaks
 import mods.gregtech.CuttingSaw;
 import mods.chisel.Groups;
+import minetweaker.oredict.IOreDictEntry;
 
 # Ingredients
 val toolSaw = <ore:craftingToolSaw> * 0;
@@ -12,9 +13,65 @@ val lubricant = <liquid:lubricant>;
 val dustMarble = <gregtech:gt.metaitem.01:2845>;
 val plateMarble = <gregtech:gt.metaitem.01:17845>;
 
+# Global vars
+
+var item = <minecraft:stone>;
+var group = "groupname";
+var groupEntry = <ore:stone>;
+
 for meta in [0, 1, 2, 3, 4, 5] as int[] {
-  var blockThaumium = <chisel:thaumium>.definition.makeStack(meta);
-  <ore:blockThaumium>.add(blockThaumium);
+  item = <chisel:thaumium>.definition.makeStack(meta);
+  <ore:blockThaumium>.add(item);
+}
+
+// Andesite
+group = "andesite";
+groupEntry = <ore:stoneAndesite>;
+for meta, entry in [
+  <ore:stoneAndesite>,
+  <ore:stoneAndesitePolished>,
+  <ore:stoneAndesitePillar>,
+  <ore:stoneAndesiteBricks>,
+  <ore:stoneAndesiteChiseled>,
+  <ore:stoneAndesitePrismatic>,
+  <ore:stoneAndesiteTilesSmall>
+] as IOreDictEntry[] {
+  item = <chisel:andesite>.definition.makeStack(meta);
+  entry.add(item);
+  groupEntry.add(item);
+}
+
+Groups.removeGroup(group); // reset groupe to remove duplicates
+Groups.addGroup(group);
+for item in groupEntry.items {
+  Groups.addVariation(group, item);
+}
+
+// Diorites
+
+group = "diorite";
+groupEntry = <ore:stoneDiorite>;
+
+Groups.removeGroup(group);
+Groups.addGroup(group);
+for meta, entry in [
+  <ore:stoneDiorite>,
+  <ore:stoneDioritePolished>,
+  <ore:stoneDioritePillar>,
+  <ore:stoneDioriteBricks>,
+  <ore:stoneDioriteChiseled>,
+  <ore:stoneDioritePrismatic>,
+  <ore:stoneDioriteTilesSmall>
+] as IOreDictEntry[] {
+  item = <chisel:diorite>.definition.makeStack(meta);
+  entry.add(item);
+  groupEntry.add(item);
+}
+
+Groups.removeGroup(group);
+Groups.addGroup(group);
+for item in groupEntry.items {
+  Groups.addVariation(group, item);
 }
 
 for meta in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] as int[] {
@@ -63,24 +120,62 @@ for meta in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] as int[] {
 // Add Gregtech Thaumium block to chisel groups so it can be crafted as needed
 Groups.addVariation("thaumium", <gregtech:gt.blockmetal7:4>);
 
-// Add Gregtech Marble variations
+// Marbles
 
-Groups.addVariation("marble", <gregtech:gt.blockstones:0>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:1>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:2>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:3>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:4>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:5>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:6>);
-Groups.addVariation("marble", <gregtech:gt.blockstones:7>);
+group = "marble";
+Groups.removeGroup(group);
+Groups.addGroup(group);
+for entry in [
+  <ore:stoneMarble>
+] as IOreDictEntry[] {
+  for item in entry.items {
+    Groups.addVariation(group, item);
+  }
+}
 
-// Add Basalt groups
+// Basalts
 
-Groups.addGroup("basalt");
-Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
-for v in <ore:stoneBasalt>.items {
-  Groups.addVariation("basalt", v);
+group = "basalt";
+Groups.addGroup(group);
+for entry in [
+  <ore:stoneBasalt>,
+  <ore:stoneBasaltBricks>,
+  <ore:stoneBasaltPolished>
+] as IOreDictEntry[] {
+  for item in entry.items {
+    Groups.addVariation(group, item);
+  }
 }
 
 Groups.addGroup("basalt_slab");
 Groups.addGroup("basalt_stairs");
+
+// Granites
+group = "granite";
+for entry in [
+  <ore:stoneGranite>,
+  <ore:stoneGranitePolished>,
+  <ore:stoneGraniteBricks>,
+  <ore:stoneGraniteChiseled>
+] as IOreDictEntry[] {
+  for item in entry.items {
+    Groups.addVariation(group, item);
+  }
+}
+
+// Black Granite group
+
+group = "blackgranite";
+Groups.addGroup(group);
+for item in <ore:stoneGraniteBlack>.items {
+  Groups.addVariation(group, item);
+}
+
+// Red Granite group
+
+group = "redgranite";
+Groups.addGroup(group);
+for item in <ore:stoneGraniteRed>.items {
+  Groups.addVariation(group, item);
+}
+

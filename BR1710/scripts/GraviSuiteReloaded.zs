@@ -49,6 +49,10 @@ val ItemToolTheThingamabob = <GraviSuiteReloaded:ItemToolTheThingamabob>;
 val ItemToolTheChopper = <GraviSuiteReloaded:ItemToolTheChopper>;
 val ItemArmorAdvancedNanoChestplate = <GraviSuiteReloaded:ItemArmorAdvancedNanoChestplate>;
 
+// Allow GT NetherQuartz to Vanilla NetherQuartz conversion in MFR Unifier
+<ore:oreNetherQuartz>.add(<gregtech:gt.blockores:1522>);
+<ore:oreQuartz>.add(<gregtech:gt.blockores:1522>);
+<ore:oreNetherrackNetherQuartz>.add(<minecraft:quartz_ore>);
 
 // Vajra recipe a la Gregtech sauce
 

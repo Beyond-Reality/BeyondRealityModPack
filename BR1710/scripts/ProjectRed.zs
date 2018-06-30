@@ -5,6 +5,7 @@
 import minetweaker.item.IItemStack;
 
 # Ingredients
+
 val stoneBasalt = <ore:stoneBasalt>;
 
 # Foreign Items
@@ -15,10 +16,12 @@ val StoneCobbleBasalt = <ProjRed|Exploration:projectred.exploration.stone:2>;
 val StoneBrickBasalt = <ProjRed|Exploration:projectred.exploration.stone:4>;
 
 // Oredict registrations
-for v in [
+for item in [
 	StoneBasalt,
 	StoneCobbleBasalt,
 	StoneBrickBasalt
 	] as IItemStack[] {
-	stoneBasalt.add(v);
+	stoneBasalt.add(item);
 }
+
+<ore:stoneMarble>.add(<ProjRed|Exploration:projectred.exploration.stone:1>);

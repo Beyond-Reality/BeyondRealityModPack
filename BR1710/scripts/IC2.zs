@@ -14,3 +14,6 @@ recipes.addShaped(<IC2:itemScannerAdv>, [
   [<ore:dustGlowstone>, <ore:circuitAdvanced>, <ore:dustGlowstone>],
   [<ore:craftingWireGold>, <IC2:itemScanner>.anyDamage(), <ore:craftingWireGold>]
 ]);
+
+// Fix macerating brick
+//Macerator.addRecipe(<minecraft:brick>, <gregtech:gt.metaitem.01:2625>);

@@ -1,5 +1,6 @@
 import mods.botania.ManaInfusion;
 import mods.botania.Lexicon;
+import minetweaker.item.IItemStack;
 
 val steelingot = <gregtech:gt.metaitem.01:11305>;
 val blocksteel = <gregtech:gt.blockmetal6:13>;
@@ -8,6 +9,28 @@ val manasteelblock = <Botania:storage>;
 val framedlivingwood = <Botania:livingwood:3>;
 val frameddreamwod = <Botania:dreamwood:3>;
 val craftingtable = <minecraft:crafting_table>;
+
+# Oredict
+
+// Andesite
+
+for item in [
+  <Botania:stone:4>,
+  <Botania:stone:8>,
+  <Botania:stone:12>
+] as IItemStack[] {
+  <ore:stoneAndesite>.add(item);
+}
+
+// Diorite
+
+for item in [
+  <Botania:stone:2>,
+  <Botania:stone:6>,
+  <Botania:stone:10>
+] as IItemStack[] {
+  <ore:stoneDiorite>.add(item);
+}
 
 // Botania Nerf
  

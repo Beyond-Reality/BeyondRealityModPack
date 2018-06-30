@@ -44,6 +44,7 @@ var rockdrum = <ExtraUtilities:drum:1>;
 var ring = <gregtech:gt.metaitem.01:28305>;
 var meteorsteelring = <gregtech:gt.metaitem.01:28341>;
 var bedrockIngot = <ExtraUtilities:bedrockiumIngot>;
+var robotArmMV = <gregtech:gt.metaitem.01:32651>;
 
 recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
 
@@ -137,11 +138,11 @@ recipes.addShaped(rockdrum, [
 	
 // Ender Quarry nerfs
 // recipes.remove(upgrade);
-Assembler.addRecipe(upgrade, matrix, <gregtech:gt.metaitem.01:32706>, 1600, 2);
+Assembler.addRecipe(upgrade, matrix, <ore:circuitMaster>, 1600, 2);
 
 recipes.remove(matrix);
 Assembler.addRecipe(matrix,  flawless, end1  * 8, 1600, 2);
 
 recipes.remove(<ExtraUtilities:enderQuarry>);
-Assembler.addRecipe(<ExtraUtilities:enderQuarry>, matrix, <gregtech:gt.metaitem.01:32651>, 1600, 2);
+Assembler.addRecipe(<ExtraUtilities:enderQuarry>, matrix, robotArmMV, 1600, 2);
 

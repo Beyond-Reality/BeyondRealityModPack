@@ -18,7 +18,6 @@ import mods.ic2.Compressor;
 
 val blockWool = <ore:blockWool>;
 val boltIron = <ore:boltIron>;
-val gemCharcoal = <ore:gemCharcoal>;
 val craftingToolHardHammer = <ore:craftingToolHardHammer>;
 val craftingToolWrench = <ore:craftingToolWrench>;
 val crateGtDustRubber = <ore:crateGtDustRubber>;
@@ -99,7 +98,6 @@ val ringWood = <gregtech:gt.metaitem.01:28809>;
 val salt = <gregtech:gt.metaitem.01:2817>;
 val shutterModule = <gregtech:gt.metaitem.01:32749>;
 val upgradeMuffler = <gregtech:gt.metaitem.01:32727>;
-val BlockCharcoal = <gregtech:gt.blockgem3:4>;
 
 # Tweaks
 
@@ -153,8 +151,8 @@ val platesFromDusts = {
   <gregtech:gt.metaitem.01:17512> : <ore:dustFoolsRuby>,
   <gregtech:gt.metaitem.01:17513> : <ore:dustBlueTopaz>,
   <gregtech:gt.metaitem.01:17514> : <ore:dustAmber>,
-  <gregtech:gt.metaitem.01:17518> : <ore:dustForcicium>,
-  <gregtech:gt.metaitem.01:17519> : <ore:dustForcillium>,
+//  <gregtech:gt.metaitem.01:17518> : <ore:dustForcicium>,
+//  <gregtech:gt.metaitem.01:17519> : <ore:dustForcillium>,
   <gregtech:gt.metaitem.01:17520> : <ore:dustMonazite>,
   <gregtech:gt.metaitem.01:17523> : <ore:dustQuartzite>,
   <gregtech:gt.metaitem.01:17524> : <ore:dustLazurite>,
@@ -162,7 +160,7 @@ val platesFromDusts = {
   <gregtech:gt.metaitem.01:17526> : <ore:dustLapis>,
   <gregtech:gt.metaitem.01:17527> : <ore:dustGarnetRed>,
   <gregtech:gt.metaitem.01:17528> : <ore:dustGarnetYellow>,
-  <gregtech:gt.metaitem.01:17529> : <ore:dustVinteum>,
+//  <gregtech:gt.metaitem.01:17529> : <ore:dustVinteum>,
   <gregtech:gt.metaitem.01:17530> : <ore:dustApatite>,
   <gregtech:gt.metaitem.01:17531> : <ore:dustNiter>,
   <gregtech:gt.metaitem.01:17532> : <ore:dustEnderPearl>,
@@ -182,14 +180,15 @@ val platesFromDusts = {
 } as IIngredient[IItemStack];
 
 for plate, dust in platesFromDusts {
-  Compressor.addRecipe(plate, dust);
+//  Compressor.addRecipe(plate, dust);
+// addRecipe(IItemStack output, IIngredient input, int durationTicks, int euPerTick)
+  mods.gregtech.Compressor.addRecipe(plate, dust, 300, 2);
 }
 
 // Alternate Block recipes
 Compressor.addRecipe(BlockRedstone, plateRedstone * 9);
 Compressor.addRecipe(BlockGlowstone, plateGlowstone * 4);
-recipes.addShapeless(BlockCharcoal, [gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal,gemCharcoal]);
-recipes.addShapeless(<minecraft:coal:1> * 9, [BlockCharcoal]);
+
 // Workbench recipe for Sound Muffler Upgrade
 recipes.addShaped(upgradeMuffler, [
   [plateIron, StickyResin, blockWool]
@@ -204,9 +203,6 @@ recipes.addShaped(ringWood ,[
 
 // EnderIO Electrical Steel
 BlastFurnace.addRecipe([IngotElectricalSteel * 4, dustSmallDarkAsh * 2], null,  [ingotSteel * 3, ingotSilicon * 1], 2000, 120, 1000);
-
-// Fix Brick pulverization
-mods.gregtech.Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2625>], <minecraft:brick>, [10000], 400, 2);
 
 // Pulbirezer recipes for Wood Logs
 for logWood in <ore:logWood>.items
@@ -655,31 +651,6 @@ recipes.addShaped(machineCasingMotor * 4, [
   [boltIron, plateSteel, boltIron]
 ]);
 
-// Rubber pulp
-
-for rubber, n in {
-  <ore:ingotRubber> : 1,
-  <ore:stickLongRubber> : 1,
-  <ore:toolHeadSenseRubber> : 1,
-  <ore:toolHeadHoeRubber> : 2,
-  <ore:toolHeadPlowRubber> : 4,
-  <ore:toolHeadHammerRubber> : 6,
-  <ore:toolHeadShovelRubber> : 1,
-  <ore:toolHeadSpadeRubber> : 1,
-  <ore:toolHeadAxeRubber> : 3,
-  <ore:toolHeadSwordRubber> : 2,
-  <ore:plateRubber> : 1,
-  <ore:toolHeadPickaxeRubber> : 3,
-  <ore:frameGtRubber> : 2
-} as int[IIngredient] {
-  for item in rubber.items {
-    var ticks = n * 50;
-    mods.gregtech.Pulverizer.addRecipe([<gregtech:gt.metaitem.01:2880>], item, [10000], ticks, 16);
-  }
-}
-
-// Duct-Tape workbench
-
 for craftingDuctTape in <ore:craftingDuctTape>.items {
   recipes.addShaped(craftingDuctTape, [
     [plateRubber, plateRubber, plateRubber],
@@ -694,3 +665,4 @@ for plates in [plateIron, plateAluminium] as IIngredient[] {
     Assembler.addRecipe(shutterModule * 2, plate * 2, ironDoor * 1, 800, 16);
   }
 }
+
