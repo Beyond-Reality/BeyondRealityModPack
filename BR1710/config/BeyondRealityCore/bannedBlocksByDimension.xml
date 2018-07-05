@@ -26,6 +26,7 @@
     <name>StevesFactoryManager:BlockCableOutputName</name>
   </dimension-id>
 
+<!--
   <dimension-id DimensionId="-28">
     <name>appliedenergistics2:tile.BlockQuantumLinkChamber</name>
     <name>appliedenergistics2:tile.BlockQuantumRing</name>
@@ -196,4 +197,5 @@
     <name>Thaumcraft:blockMirror:4</name>
     <name>ThaumicTinkerer:interface</name>
   </dimension-id>
+-->
 </root>

@@ -1,208 +1,208 @@
-TwilightForest.Yeti Boss
-menagerie.oliphant
-TwilightForest.Maze Slime
-TwilightForest.Death Tome
-EnderDragon
-Forestry.butterflyGE
-Sheep
-LavaSlime
-Thaumcraft.TaintacleGiant
-TwilightForest.Hedge Spider
-HardcoreEnderExpansion.ScorchedLens
-Bat
-Thaumcraft.Pech
-HardcoreEnderExpansion.BabyEnderman
-TwilightForest.Stable Ice Core
-Spider
-Thaumcraft.TaintedPig
-RandomThings.spirit
-HardcoreEnderExpansion.HauntedMiner
-TwilightForest.WinterWolf
-TwilightForest.Mini Ghast
-Monster
-TwilightForest.Swarm Spider
-chisel.snowman
-HardcoreEnderExpansion.Endermage
-ThaumicHorizons.MercurialSlime
-Zombie
-TwilightForest.Skeleton Druid
-TwilightForest.Redcap Sapper
-ThaumicHorizons.Endersteed
-TwilightForest.Tower Termite
-TwilightForest.Redscale Broodling
-TwilightForest.Knight Phantom
-TwilightForest.Mist Wolf
-Thaumcraft.InhabitedZombie
-enderzoo.ConcussionCreeper
-ThaumicHorizons.Sheeder
-Silverfish
-GalacticraftCore.EvolvedSkeletonBoss
-HardcoreEnderExpansion.VampireBat
-Thaumcraft.Taintacle
-menagerie.ghost
-GalacticraftCore.EvolvedSpider
-Ghast
-Thaumcraft.TaintSpore
-HardcoreEnderExpansion.AngryEnderman
-TwilightForest.HydraHead
-sickBlaze
-TwilightForest.Ice Crystal
-constructStaballoy
-TwilightForest.Minoshroom
-Thaumcraft.CultistCleric
-ThaumicHorizons.HorseZombie
-TwilightForest.Hydra
-ihl.CollectorEntity
-Thaumcraft.TaintedCow
-ThaumicHorizons.MedSlime
-Thaumcraft.EldritchWarden
-HardcoreEnderExpansion.InfestedBat
-PneumaticCraft.logisticDrone
-HardcoreEnderExpansion.Louse
+HardcoreEnderExpansion.EnderEye
 Cow
-computronics.swarm
-TwilightForest.Tower Ghast
-HardcoreEnderExpansion.Dragon
-TwilightForest.Twilight Wraith
-Creeper
-Ozelot
-menagerie.mummy
-TwilightForest.Apocalypse Cube
-ThaumicHorizons.NightmareTH
-HardcoreEnderExpansion.FireGolem
-ThaumicHorizons.HorseSkeleton
-enderzoo.FallenKnight
-Thaumcraft.CultistKnight
-TwilightForest.Bighorn Sheep
-Thaumcraft.CultistLeader
-TwilightForest.Helmet Crab
-menagerie.livingarmor
-TwilightForest.Wild Deer
-TwilightForest.Forest Squirrel
-Botania.botania:doppleganger
-GalacticraftMars.Sludgeling
-Enderman
-Thaumcraft.EldritchGolem
-GalacticraftCore.EvolvedSkeleton
-OpenBlocks.Luggage
-Enderman
-menagerie.rat
-TwilightForest.Lower Goblin Knight
-TwilightForest.Twilight Kobold
-Squid
-HardcoreEnderExpansion.EnderGuardian
-TwilightForest.Snow Queen
-Skeleton
-Thaumcraft.ThaumSlime
-enderzoo.Enderminy
-WitherBoss
-Thaumcraft.EldritchGuardian
-PigZombie
+Thaumcraft.TaintedCow
+Zombie
+HardcoreEnderExpansion.Louse
 Automagy.WispNether
-TwilightForest.Loyal Zombie
-LostHead
-GalacticraftMars.Slimeling
-Blaze
-Wolf
-HardcoreEnderExpansion.FireFiend
-TwilightForest.Forest Bunny
-Thaumcraft.Wisp
-MushroomCow
-TwilightForest.Tower Golem
-MineFactoryReloaded.mfrEntityPinkSlime
-Thaumcraft.TaintedChicken
-TwilightForest.Glacier Penguin
-TwilightForest.Tower Boss
 SnowMan
-TwilightForest.Firefly
-HardcoreEnderExpansion.HomelandEnderman
-Mob
-TwilightForest.Naga
-TwilightForest.Block&Chain Goblin
+Enderman
+ThaumicHorizons.OrePig
 OpenBlocks.MiniMe
-TwilightForest.Minotaur
-ThaumicHorizons.SelfShearingSheep
-TwilightForest.Twilight Lich
-Thaumcraft.GiantBrainyZombie
-GalacticraftCore.AlienVillager
-ThaumicHorizons.ChocolateCow
-Thaumcraft.MindSpider
-Pig
+GalacticraftMars.Slimeling
+computronics.swarm
+MineFactoryReloaded.mfrEntityPinkSlime
+Thaumcraft.EldritchGolem
+menagerie.mummy
+Thaumcraft.TaintedChicken
+Ozelot
+Thaumcraft.Firebat
+TwilightForest.Glacier Penguin
+TwilightForest.Tower Golem
+menagerie.lepus
+ThaumicHorizons.VoltSlime
+menagerie.ant
+PneumaticCraft.Drone
+TwilightForest.SnowGuardian
+HardcoreEnderExpansion.EnderDemon
+menagerie.infestedVillager
 ThaumicHorizons.MeatSlime
-ThaumicHorizons.TaintEaterPig
-TwilightForest.Yeti
-ThaumicHorizons.Seawolf
-Slime
-VillagerGolem
-enderzoo.DireSlime
+Thaumcraft.TaintSpore
+Giant
+menagerie.livingarmor
 Thaumcraft.CultistPortal
+ThaumicHorizons.SelfShearingSheep
+ThaumicHorizons.MercurialSlime
+TwilightForest.HydraHead
+Botania.botania:pinkWither
+TwilightForest.Tiny Bird
+Chicken
+Thaumcraft.CultistLeader
+enderzoo.DireSlime
+PneumaticCraft.logisticDrone
+TwilightForest.Helmet Crab
+TwilightForest.Twilight Lich
+TwilightForest.Redcap Sapper
+TwilightForest.Knight Phantom
+Thaumcraft.TravelingTrunk
+HardcoreEnderExpansion.ForestGhost
+ThaumicHorizons.ScholarChicken
+Thaumcraft.TaintacleTiny
+Blaze
+VillagerGolem
+Thaumcraft.TaintacleGiant
+Thaumcraft.EldritchGuardian
+TwilightForest.Unstable Ice Core
+EntityHorse
+Ghast
+HardcoreEnderExpansion.VampireBat
+TwilightForest.Questing Ram
+enderzoo.ConcussionCreeper
+ThaumicHorizons.Familiar
+menagerie.oliphant
+Thaumcraft.InhabitedZombie
+CaveSpider
+Thaumcraft.BrainyZombie
+Thaumcraft.EldritchWarden
+Bat
+HardcoreEnderExpansion.Endermage
+TwilightForest.Swarm Spider
+ThaumicExploration.TaintacleMinion
+Botania.botania:pixie
+Thaumcraft.TaintSpider
+HardcoreEnderExpansion.HauntedMiner
+Thaumcraft.GiantBrainyZombie
+TwilightForest.Forest Squirrel
+HardcoreEnderExpansion.HomelandEnderman
+GalacticraftMars.Sludgeling
+MushroomCow
+Thaumcraft.Golem
+enderzoo.DireWolf
+WitherBoss
+Forestry.butterflyGE
+TwilightForest.Naga
+Thaumcraft.MindSpider
+ThaumicHorizons.GolemTH
+TwilightForest.Snow Queen
+sickBlaze
+TwilightForest.Redscale Broodling
+Squid
+ThaumicHorizons.LunarWolf
+LavaSlime
+HardcoreEnderExpansion.ParalyzedEnderman
+HardcoreEnderExpansion.AngryEnderman
+Wolf
+ThaumicHorizons.TaintEaterPig
+ThaumicHorizons.LostSoul
+TwilightForest.Minoshroom
+Sheep
+Skeleton
+TwilightForest.Adherent
+ThaumicHorizons.GoldChicken
+TwilightForest.Yeti Boss
+ihl.CollectorEntity
+TwilightForest.Wild Boar
+GalacticraftCore.EvolvedZombie
+enderzoo.WitherCat
+ThaumicHorizons.HorseZombie
+Witch
+Thaumcraft.Wisp
+TwilightForest.Tower Termite
+HardcoreEnderExpansion.ScorchedLens
+enderzoo.Enderminy
+TwilightForest.Tower Boss
+GalacticraftCore.AlienVillager
+BuildCraft|Robotics.bcRobot
+TwilightForest.Mist Wolf
+GalacticraftCore.EvolvedSpider
+TwilightForest.Ice Crystal
+Enderman
+GalacticraftCore.EvolvedCreeper
+ThaumicHorizons.ChromaticSheep
+TwilightForest.Wild Deer
+TwilightForest.Slime Beetle
+Slime
+TwilightForest.Tower Ghast
+TwilightForest.Hedge Spider
+Thaumcraft.TaintedCreeper
+TwilightForest.Firefly
+Creeper
+TwilightForest.Lich Minion
+Thaumcraft.CultistCleric
+TwilightForest.Forest Raven
+TwilightForest.Bighorn Sheep
+HardcoreEnderExpansion.FireGolem
+PigZombie
+Thaumcraft.EldritchCrab
+Thaumcraft.TaintedVillager
+Thaumcraft.Pech
+TwilightForest.Maze Slime
+Pig
+Villager
+ThaumicHorizons.Endersteed
+TwilightForest.Giant Miner
+TwilightForest.Lower Goblin Knight
+HardcoreEnderExpansion.Dragon
 ThaumicHorizons.NetherHound
 Thaumcraft.TaintedSheep
-TwilightForest.Armored Giant
-menagerie.infestedVillager
-EntityHorse
-Botania.botania:pixie
-TwilightForest.Slime Beetle
-Chicken
-ThaumicExploration.TaintacleMinion
-TwilightForest.SnowGuardian
-GalacticraftCore.EvolvedZombie
-Thaumcraft.Firebat
-enderzoo.WitherWitch
-TwilightForest.Wild Boar
-ThaumicHorizons.OrePig
-TwilightForest.Mosquito Swarm
-enderzoo.FallenMount
-Thaumcraft.TaintSwarmer
-TwilightForest.Pinch Beetle
-HardcoreEnderExpansion.ParalyzedEnderman
-Thaumcraft.TaintedVillager
-Witch
-menagerie.manticore
-ThaumicHorizons.ChromaticSheep
-TwilightForest.Lich Minion
-Botania.botania:pinkWither
-Thaumcraft.BrainyZombie
-ThaumicHorizons.GoldChicken
-Thaumcraft.TaintedCreeper
-Thaumcraft.Golem
-ThaumicHorizons.LostSoul
-TwilightForest.Questing Ram
-PneumaticCraft.Drone
-HardcoreEnderExpansion.EnderDemon
-Thaumcraft.TaintacleTiny
-ihl.CollectorHeavyEntity
-TwilightForest.Unstable Ice Core
-menagerie.lepus
-TwilightForest.Redcap
-TwilightForest.King Spider
-ThaumicHorizons.VoltSlime
-Giant
-enderzoo.WitherCat
-TwilightForest.Adherent
-enderzoo.DireWolf
-BuildCraft|Robotics.bcRobot
-TwilightForest.Giant Miner
+menagerie.ghost
+Thaumcraft.Taintacle
+Botania.botania:doppleganger
+ThaumicHorizons.ChocolateCow
+TwilightForest.Block&Chain Goblin
+enderzoo.FallenKnight
+TwilightForest.Twilight Wraith
+ThaumicHorizons.Sheeder
+HardcoreEnderExpansion.BabyEnderman
+Thaumcraft.CultistKnight
+RandomThings.spirit
+HardcoreEnderExpansion.EnderGuardian
 ThaumicHorizons.GuardianPanther
-menagerie.ant
-HardcoreEnderExpansion.ForestGhost
-TwilightForest.Hostile Wolf
-ThaumicHorizons.ScholarChicken
-Thaumcraft.EldritchCrab
-GalacticraftCore.EvolvedCreeper
-TwilightForest.Tiny Bird
-TwilightForest.Upper Goblin Knight
-TwilightForest.Forest Raven
-Thaumcraft.TaintSwarm
-ThaumicHorizons.LunarWolf
-Villager
-CaveSpider
-Thaumcraft.TravelingTrunk
-TwilightForest.Troll
+GalacticraftCore.EvolvedSkeleton
+ihl.CollectorHeavyEntity
+Monster
 ThaumicHorizons.Gravekeeper
+menagerie.manticore
+EnderDragon
+TwilightForest.Twilight Kobold
+TwilightForest.Minotaur
+Thaumcraft.ThaumSlime
+HardcoreEnderExpansion.InfestedBat
+Mob
 GalacticraftMars.CreeperBoss
+GalacticraftCore.EvolvedSkeletonBoss
+TwilightForest.Forest Bunny
+constructStaballoy
+TwilightForest.Stable Ice Core
+chisel.snowman
+OpenBlocks.Luggage
+TwilightForest.Hydra
+TwilightForest.Pinch Beetle
+ThaumicHorizons.HorseSkeleton
+TwilightForest.Mosquito Swarm
+TwilightForest.Loyal Zombie
+TwilightForest.Redcap
+HardcoreEnderExpansion.FireFiend
+TwilightForest.Armored Giant
 TwilightForest.Fire Beetle
-HardcoreEnderExpansion.EnderEye
-Thaumcraft.TaintSpider
-ThaumicHorizons.GolemTH
-ThaumicHorizons.Familiar
+TwilightForest.Yeti
+enderzoo.FallenMount
+TwilightForest.Upper Goblin Knight
+TwilightForest.Troll
+TwilightForest.Apocalypse Cube
+menagerie.rat
+TwilightForest.WinterWolf
+LostHead
+Spider
+enderzoo.WitherWitch
+TwilightForest.King Spider
+Thaumcraft.TaintedPig
+TwilightForest.Death Tome
+Thaumcraft.TaintSwarm
+TwilightForest.Skeleton Druid
+Silverfish
+TwilightForest.Mini Ghast
+Thaumcraft.TaintSwarmer
+TwilightForest.Hostile Wolf
+ThaumicHorizons.NightmareTH
+ThaumicHorizons.Seawolf
+ThaumicHorizons.MedSlime

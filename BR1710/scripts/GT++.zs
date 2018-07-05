@@ -9,6 +9,7 @@ val partChip3 = <gregtech:gt.metaitem.01:32715>;
 val partWire1 = <gregtech:gt.metaitem.01:32716>;
 val partWire2 = <gregtech:gt.metaitem.01:32717>;
 val partWire3 = <gregtech:gt.metaitem.01:32718>;
+val NanoprocessorMainframe = <gregtech:gt.metaitem.01:32706>;
 
 //GT++ Components
 val circuitBasic2 = <miscutils:MU-metaitem.01:32201>;
@@ -17,6 +18,9 @@ val partChip3x = <miscutils:MU-metaitem.01:32215>;
 val partWire1x = <miscutils:MU-metaitem.01:32216>;
 val partWire2x = <miscutils:MU-metaitem.01:32217>;
 val partWire3x = <miscutils:MU-metaitem.01:32218>;
+val EnergyFlowCircuit = <miscutils:MU-metaitem.01:32206>;
+
+recipes.addShapeless(NanoprocessorMainframe, [EnergyFlowCircuit  ]);
 
 
 //Shapeless conversion Recipes

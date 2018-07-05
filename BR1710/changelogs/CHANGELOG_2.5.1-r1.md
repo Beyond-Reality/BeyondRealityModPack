@@ -30,7 +30,7 @@ $ Fixed invalid cape lookups.
 
 #### Mod additions
 
-- `roguelike-1.7.10-1.4.4.jar` [:information_source:](https://github.com/Greymerk/minecraft-roguelike)
+- `roguelike-1.7.10-1.5.0b.jar` [:information_source:](https://github.com/Greymerk/minecraft-roguelike)
 
 #### Config changes:
 
@@ -51,3 +51,4 @@ $ Fixed invalid cape lookups.
 - Cleanroom enabled.
 - Magneticraft support disabled.
 - Low gravity processing enabled.
+- Vanilla ores re-enabled.
