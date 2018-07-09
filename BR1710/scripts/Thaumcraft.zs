@@ -25,6 +25,15 @@ val itemLeather = <minecraft:leather>;
 val fabicEnchanted = <Thaumcraft:ItemResource:7>;
 val ingotThaumium = <Thaumcraft:ItemResource:2>;
 
+// Vishroom recipe
+
+val Vishroom = <Thaumcraft:blockCustomPlant:5>;
+
+for mushroom in <ore:listAllmushroom>.items {
+//ResearchString, OutputStack, InputStack, AspectString
+  mods.thaumcraft.Crucible.addRecipe("CRUCIBLE", Vishroom, mushroom, "herba 2, praecantatio 2, venenum 1" );
+}
+
 Infusion.removeRecipe(<ThaumicTinkerer:repairer>);
 // Infusion can't use ore dictionary, so must iterate entries
 for blockThaumium in <ore:blockThaumium>.items {
